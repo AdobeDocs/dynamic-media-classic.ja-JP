@@ -29,7 +29,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![詳細ビュー[しょうさいびゅー]](/help/assets/image_0.img.png)
+![詳細ビューしょうさいびゅー](/help/assets/image_0.img.png)
 
 >[!NOTE]
 >
