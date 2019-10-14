@@ -2,38 +2,38 @@
 title: メタデータの表示、追加、書き出し
 seo-title: メタデータの表示、追加、書き出し
 description: 'null'
-seo-description: メタデータを表示、追加、エクスポートする方法について説明します。
-uuid: a5254c51-9e04-45ae-8236-3epab2925e5fc
+seo-description: メタデータを表示、追加、書き出す方法について説明します。
+uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: 管理者
 content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/managing_ assets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # メタデータの表示、追加、書き出し{#viewing-adding-and-exporting-metadata}
 
-Scene7 Publishing System で操作するファイルに、固有な情報を格納することができます。この情報のことを&#x200B;*メタデータ*&#x200B;といいます。Dynamic Media Classicでメタデータを使用して、アセットの整理、検索、フィルタリング、並べ替えを行うことができます。
+Scene7 Publishing System で操作するファイルに、固有な情報を格納することができます。この情報のことを&#x200B;*メタデータ*&#x200B;といいます。メタデータは、アセットの編成、検索、フィルタリングおよび並べ替えに使用できます。
 
-メタデータを表示するには、詳細ビューでアセットを開いて、メタデータパネルを選択します。メタデータは詳細ビューで入力して編集できます。
+メタデータは、Dynamic Media Classicで生成された情報（ファイル作成日、公開日、キーワードなど）と共に詳細ビューに表示されます。 メタデータを表示するには、詳細ビューでアセットを開いて、メタデータパネルを選択します。メタデータは詳細ビューで入力して編集できます。
 
-一部のメタデータは、直接ファイルに埋め込まれます。ファイルにこのメタデータが含まれている場合、Dynamic Media Classicは自動的にファイルとともにアップロードします。Adobe Photoshop、InDesign、Illustratorおよびその他のアプリケーションでソースアセットにメタデータを埋め込むことができます。このメタデータは、Dynamic Media Classicで認識されます。詳細ビューのメタデータパネルで個々のファイルにメタデータを追加することもできます。アセット間で統一をとるために、会社の管理者は、入力できるメタデータフィールドを指定したメタデータテンプレートを作成できます。
+一部のメタデータは、直接ファイルに埋め込まれます。ファイルにこのメタデータが含まれている場合、Dynamic Media Classicは自動的にそのメタデータをファイルと共にアップロードします。 Adobe Photoshop、InDesign、Illustratorおよびその他のアプリケーションで、ソースアセットにメタデータを埋め込むことができます。Dynamic Media Classicは、このメタデータを認識します。 詳細ビューのメタデータパネルで個々のファイルにメタデータを追加することもできます。アセット間で統一をとるために、会社の管理者は、入力できるメタデータフィールドを指定したメタデータテンプレートを作成できます。
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## メタデータの表示 {#view-metadata}
 
-アセットのメタデータを表示するには、詳細ビューでアセットを開いて、メタデータパネルをクリックします。メタデータビューメニューでオプションを選択して、一連のメタデータフィールドを選択します。Dynamic Media Classicには、次のメタデータビューが用意されています。
+アセットのメタデータを表示するには、詳細ビューでアセットを開いて、メタデータパネルをクリックします。メタデータビューメニューでオプションを選択して、一連のメタデータフィールドを選択します。ダイナミックメディアクラシックには、次のメタデータビューが用意されています。
 
-**Compact View** 値の基本リスト。
+* **コンパクト表示**&#x200B;基本的な値のリストです。
 
-**IPTC** 値（International Press Telecommunications Council）。
+* **International Press Telecommunications Councilで定義されるIPTC値。**
 
-**XMP** 値（拡張メタデータプラットフォームで定義）。
+* **XMP** Values。XMPメタデータプラットフォームで定義されます。
 
 管理者はメタデータビューを作成できます。これらのビューは、メタデータビューメニューにも表示されます。メタデータビューの作成方法について詳しくは、[メタデータビュー](application-setup.md#metadata_views)を参照してください。
 
@@ -67,7 +67,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 1. キーワードを削除するには、そのキーワードを選択して「削除」をクリックします。そのキーワードがキーワード候補テーブルに移動します。
 
 >[!NOTE]
-Dynamic Media Classicにアップロードする際に、ファイルにキーワードを追加できます。アップロードオプションを設定ダイアログボックスで、「追加メタデータ」を選択して、キーワードを入力します。詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
+ファイルをDynamic Media Classicにアップロードする際に、ファイルにキーワードを追加できます。 アップロードオプションを設定ダイアログボックスで、「追加メタデータ」を選択して、キーワードを入力します。詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
 
 ## メタデータの取り込み {#import-metadata}
 
@@ -76,7 +76,7 @@ Dynamic Media Classicにアップロードする際に、ファイルにキー�
 >[!NOTE]
 Scene7 Publishing System にメタデータを正しく取り込むために、メタデータを入力するためのテンプレートを作成できます。テンプレートを作成したら、テンプレートをメタデータの入力用に使用できます。詳しくは、[アップロードするメタデータを入力するためのテンプレートの作成](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)を参照してください。
 
-標準化されたプロパティについて詳しくは、次の情報を参照してください。https://www.adobe.com/devnet/xmp.html
+標準化されたプロパティの詳細については、次を参照してください。https://www.adobe.com/devnet/xmp.html
 
 1. 参照パネルで、タブ区切りファイルまたは XML ファイルからメタデータを追加する画像を選択します。
 1. **ファイル**／**メタデータを取り込み**&#x200B;をクリックします。
@@ -143,7 +143,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 ## アップロードするメタデータを入力するためのテンプレートの作成 {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classicには、メタデータ記録用のテンプレートを作成するためのコマンドが用意されています。テンプレートを使用すると、メタデータを確実に正しい形式で入力することができるため、Scene7 Publishing System に正しくアップロードすることができます。メタデータを記録して Scene7 Publishing System に取り込むためのテンプレートを作成するには、次の手順に従います。
+Dynamic Media Classicには、メタデータを記録するためのテンプレートを作成するコマンドが用意されています。 テンプレートを使用すると、メタデータを確実に正しい形式で入力することができるため、Scene7 Publishing System に正しくアップロードすることができます。メタデータを記録して Scene7 Publishing System に取り込むためのテンプレートを作成するには、次の手順に従います。
 
 1. テンプレートに含めるメタデータフィールドを持つ画像アセットを選択します。
 1. ファイル／メタデータを取り込みを選択します。
