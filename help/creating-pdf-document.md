@@ -2,15 +2,15 @@
 title: PDF ドキュメントの作成
 seo-title: PDF ドキュメントの作成
 description: 'null'
-seo-description: Dynamic Media ClassicのWeb- to- Printプロセスを使用してPDFドキュメントを作成する方法について説明します。
-uuid: 274fb06b-320b-40fa-8b61- c224d8aaa1
+seo-description: Dynamic Media ClassicのWeb-to-Printプロセスを使用してPDFドキュメントを作成する方法について説明します。
+uuid: 274fb06b-320b-40fa-8b61-c224d8aceaa1
 contentOwner: 管理者
 content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/template- publishing
-discoiquuid: 87e91e8e-10a2-4fba-87c7- aad2bd798146
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 87e91e8e-10a2-4fba-87c7-aad2bd798146
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,7 +21,7 @@ Web-to-Print プロセスの最後の段階は、カスタマイズされた PDF
 
 ## PDF プリセットの設定 {#setting-up-pdf-presets}
 
-PDFの互換性レベルとプリンターの設定を指定するには、PDF joboptionsファイルを作成してダイナミックメディアクラシックサーバーにアップロードします。例えば、PDF/X-4 互換 PDF 出力を選択することができます（PDF プリント印刷ワークフローの推奨）。joboptions ファイルは、オーサリングソフトウェア（Adobe Illustrator など）または Acrobat で作成できます。印刷業者に必ず連絡をとり、印刷ジョブの適切なジョブオプション設定について助言を受けてください。
+PDFの互換性レベルとプリンター設定を指定するには、PDF joboptionsファイルを作成し、Dynamic Media Classic Serverにアップロードします。 例えば、PDF/X-4 互換 PDF 出力を選択することができます（PDF プリント印刷ワークフローの推奨）。joboptions ファイルは、オーサリングソフトウェア（Adobe Illustrator など）または Acrobat で作成できます。印刷業者に必ず連絡をとり、印刷ジョブの適切なジョブオプション設定について助言を受けてください。
 
 joboptions ファイルの作成および Acrobat での joboptions ファイルの作成について詳しくは、Adobe Acrobat ヘルプを参照してください。
 
@@ -30,7 +30,7 @@ joboptions ファイルを Illustrator で作成するには、次の手順に�
 1. 編集／Adobe PDF プリセットを選択します。
 1. ダイアログボックスで、使用するプリセットを選択します。
 
-   Dynamic Media Classicでは、以下のジョブオプション設定がサポートされています。
+   Dynamic Media Classicでは、次のジョブオプション設定がサポートされています。
 
    | ジョブオプション | 説明 |
    |--- |--- |
@@ -46,7 +46,7 @@ joboptions ファイルを Illustrator で作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >joboptionsファイルのプリンタマーク設定は、Dynamic Media Classicでは無視されます。プリンタマークは、ダイナミックMedia Classic URLコマンドを使用して設定されます。
+   >Dynamic Media Classicは、joboptionsファイル内のプリンターマーク設定を無視します。 プリンタマークは、ダイナミックメディアクラシックURLコマンドを使用して設定します。
 
 1. 「書き出し」をクリックし、名前と場所を指定し、「保存」をクリックします。
 1. joboptions ファイルをアセットとして Scene7 Publishing System にアップロードします。
@@ -61,23 +61,23 @@ joboptions ファイルを Illustrator で作成するには、次の手順に�
 
 **画像**
 
-公開ジョブ内のすべての画像がダイナミックMedia Classic Serverにアップロードされ、公開されていることを確認してください。
+公開ジョブ内のすべての画像がダイナミックメディアクラシックサーバーにアップロードされ、公開されていることを確認します。
 
 **フォント**
 
-公開ジョブ内のすべてのフォントがダイナミックMedia Classic Serverにアップロードされ、公開されていることを確認してください。フォントの変更をエンドユーザに許可する予定の場合は、フォントをホストする法的権利を持っていることを確認します。
+公開ジョブ内のすべてのフォントがダイナミックメディアクラシックサーバーにアップロードされ、公開されていることを確認します。 フォントの変更をエンドユーザに許可する予定の場合は、フォントをホストする法的権利を持っていることを確認します。
 
 **画像解像度（ピクセル/インチ）**
 
-ビットマップ画像の解像度は、生成された印刷用PDFのDynamic Media Classicサーバーによって保持されます。Dynamic Media Classicでは、必要に応じて画像解像度がアップ調整されます。最適な結果を得るには、Web でのプレビュー時の解像度を初期設定値（通常は 72 dpi）のままにします。会社のすべての画像の初期設定解像度は、公開設定の Image Server ウィンドウの「初期設定のプリント解像度」セクションで設定されています。高めの解像度（300 dpi など）の場合は処理時間が長くなることがあるので、印刷用 PDF だけに適用します。PDF ジョブの初期設定解像度を手動で上書きするには、imageRes= コマンドを URL で使用します。
+ビットマップ画像の解像度は、生成された印刷用PDFでDynamic Media Classicサーバーによって保持されます。 必要に応じて、画像解像度がアップスケールされます。 最適な結果を得るには、Web でのプレビュー時の解像度を初期設定値（通常は 72 dpi）のままにします。会社のすべての画像の初期設定解像度は、公開設定の Image Server ウィンドウの「初期設定のプリント解像度」セクションで設定されています。高めの解像度（300 dpi など）の場合は処理時間が長くなることがあるので、印刷用 PDF だけに適用します。PDF ジョブの初期設定解像度を手動で上書きするには、imageRes= コマンドを URL で使用します。
 
 **カラーマネジメント**
 
-ドキュメントや画像にはグレースケール、CMYK、名前付きスポットカラー、RGB または Lab カラーモデルを使用できます。どれも、未キャリブレーションでも、ICC カラープロファイルを採用したキャリブレーション済みでもかまいません。最適な結果を得るには、生成される印刷用 PDF にプロファイルを埋め込みます。デフォルトでは、Dynamic Media Classicサーバーはこれを実行します。必要なすべてのカラープロファイルがDynamic Media Classicプラットフォームにアップロードされていることを確認してください。デザインアプリケーションに設定されているカラーマネジメントオプションが、Dynamic Media Classic Serverで設定されているものと一致していることを確認してください。
+ドキュメントや画像にはグレースケール、CMYK、名前付きスポットカラー、RGB または Lab カラーモデルを使用できます。どれも、未キャリブレーションでも、ICC カラープロファイルを採用したキャリブレーション済みでもかまいません。最適な結果を得るには、生成される印刷用 PDF にプロファイルを埋め込みます。これは、デフォルトでDynamic Media Classic Serverが行います。 必要なすべてのカラープロファイルがDynamic Media Classicプラットフォームにアップロードされていることを確認します。 デザインアプリケーションで設定したカラーマネジメントオプションが、Dynamic Media Classic Serverで設定したものと一致していることを確認してください。
 
-**デザインアプリケーションのカラーマネジメント設定：**&#x200B;オーサリングアプリケーション（Adobe Illustrator など）のカラー設定で、作業用スペースの RGB および CMYK カラープロファイルを指定します。
+* **デザインアプリケーションのカラーマネジメント設定：**&#x200B;オーサリングアプリケーション（Adobe Illustrator など）のカラー設定で、作業用スペースの RGB および CMYK カラープロファイルを指定します。
 
-**Dynamic Media Classicカラーマネジメントの設定:** 通常、デザインアプリケーションのカラーマネジメント設定は、Dynamic Media Classicサーバーのデフォルトのカラープロファイルと一致する必要があります。設定は公開設定の Image Server ウィンドウで確認できます。
+* **** Dynamic Media Classicのカラーマネジメント設定：通常、デザインアプリケーションのカラーマネジメント設定は、Dynamic Media Classicサーバーのデフォルトのカラープロファイルと一致する必要があります。 設定は公開設定の Image Server ウィンドウで確認できます。
 
 ## プリンタマークの表示 {#displaying-printer-marks}
 
@@ -101,22 +101,22 @@ Acrobat のプリンタマークの追加画面で使用できるすべてのマ
 
 印刷製作用にドキュメントを準備する場合は、プリンタマークが必要になります。印刷会社は、このプリンタマークを使用して、校正刷り用の分離フィルムの位置を決め、校正やインク密度を正確に判断するためにフィルムを測定し、サイズに合わせてフィルムをトリミングするなど、様々な作業を行います。プリンタマークは、トリムボックスや裁ち落としボックスなどのドキュメントボックスの境界を示します。製作関連のコンテンツには次のものがあります。
 
-**メディアボックス** ページが印刷される物理媒体の境界。メディアサイズの外側のコンテンツは安全に破棄でき、ファイルの内容に影響を与えません。
+* **メディア**&#x200B;ボックスページを印刷する物理メディアの境界。 メディアサイズの外側のコンテンツは安全に破棄でき、ファイルの内容に影響を与えません。
 
-**裁ち落としサイズ**&#x200B;裁ち落としサイズには、切断、折りおよびトリミング機器の物理的な限界を反映させるための領域が含まれる場合もあります。初期設定値はページのトリミングサイズです。
+* **裁ち落とし**&#x200B;サイズ：実稼働環境での出力時に、ページのコンテンツが切り取られる領域です。 裁ち落としサイズには、切断、折りおよびトリミング機器の物理的な限界を反映させるための領域が含まれる場合もあります。初期設定値はページのトリミングサイズです。
 
-**仕上がりサイズ** トリミング後の仕上げページの寸法。仕上がりサイズには、印刷指示、裁断マーク、カラーバーなどの製作関連のコンテンツが含まれるため、メディアサイズより小さくなる場合があります。初期設定値はページのトリミングサイズです。
+* **仕上がりサ**&#x200B;イズトリミング後の仕上がりページの想定寸法。 仕上がりサイズには、印刷指示、裁断マーク、カラーバーなどの製作関連のコンテンツが含まれるため、メディアサイズより小さくなる場合があります。初期設定値はページのトリミングサイズです。
 
-**アートボックス** ページの作成者が意図するページの意味のあるコンテンツ（余白を含む）の範囲。初期設定値はページのトリミングサイズです。
+* **アートボ**&#x200B;ックスページの作成者が意図したページの意味のあるコンテンツ（余白を含む）の範囲。 初期設定値はページのトリミングサイズです。
 
 この表の修飾子を使用すると、Adobe Illustrator、InDesign および Acrobat で利用できるプリンタマークを複製できます。
 
 | 修飾子／値 | 説明 |
 |--- |--- |
-| bleedMargin=top,left,bottom,right | Acrobat のページボックスを設定ダイアログボックスのオプションで指定されます。「裁ち落としサイズ」を選択し、「余白の制御」で余白を指定します。<br><br>値は、アートワーク（メディアサイズ）の上下左右の端から内側に対する距離を示します。値（0~1000）はポイント単位です。<br><br>New height= original height-（top+ bottom）<br><br>新しいwidth= original width-（left+ right） |
-| mediaMargin=top,left,bottom,right | Acrobat のページボックスを設定ダイアログボックスのオプションで指定されます。「ページサイズを変更」の「Custom Page Size」を変更します。<br><br>値は、アートワーク（メディアサイズ）の上下左右の端から外側に対する距離を示します。値（0~1000）はポイント単位です。<br><br>New height= top+ bottom+ original heightNew<br><br>width= top+ bottom+ original widgets<br><br>新しい高さと新しい幅の値によって、生成されるPDFの新しいページサイズが決まります。<br><br>新しいメディアサイズが定義されると、トリムマージンと裁ち落としマージンに関するすべての計算で、新しいメディアサイズをアートワークの端として考慮する必要があります。 |
-| trimMargin=top,left,bottom,right | Acrobat のページボックスを設定ダイアログボックスのオプションで指定されます。「仕上がりサイズ」を選択し、「余白の制御」で余白を指定します。<br><br>値は、アートワーク（メディアサイズ）の上下左右の端から内側に対する距離を示します。値（0~1000）はポイント単位です。<br><br>New height= original height-（top+ bottom）<br><br>新しいwidth= original width-（left+ right） |
-| printerMark= trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed | 値は次のとおりです。<br><br>trim marks=0,1（初期設定:0）<br><br>bleed marks=0,1（初期設定は0）<br><br>registration marks=0,1（初期設定は0<br><br>）<br><br>page information=0,1（default is0）<br><br>style= Default， InDesignJ1， InDesignJ2， Illustrator， IllustratorJ， QuarkXPress（default is Default） line weight=0.1（default is Default）<br><br>line weight=0.1（初期設定はデフォルトです）25-0.2（初期設定では0.25）<br><br>のどちらの値もレイヤーembed=0，1で、すべてのプリンタマークを含む新しいレイヤーを作成します（初期設定は1）<br><br>。このマークは、使用するスタイルに応じて変わり、マークとカラーバーは異なる、および対応するスタイルと一致しますAcrobat. |
+| bleedMargin=top,left,bottom,right | Acrobat のページボックスを設定ダイアログボックスのオプションで指定されます。「裁ち落としサイズ」を選択し、「余白の制御」で余白を指定します。<br><br>値は、アートワーク（メディアサイズ）の上下左右の端から内側に対する距離を示します。値(0 ～ 1000)はポイント単位です。<br><br>New height=original height - (top+bottom)<br><br>New width= original width - (left+right) |
+| mediaMargin=top,left,bottom,right | Acrobat のページボックスを設定ダイアログボックスのオプションで指定されます。「ページサイズを変更」の「Custom Page Size」を変更します。<br><br>値は、アートワーク（メディアサイズ）の上下左右の端から外側に対する距離を示します。値(0 ～ 1000)はポイント単位です。<br><br>New height=top+bottom+original<br><br>heightNew width=top+bottom+original<br><br>width新しい高さと新しい幅の値によって、生成されるPDFの新しいページサイズが決まります。<br><br>新しいメディアサイズが定義されると、トリムマージンと裁ち落としマージンに関するすべての計算で、新しいメディアサイズをアートワークの端として考慮する必要があります。 |
+| trimMargin=top,left,bottom,right | Acrobat のページボックスを設定ダイアログボックスのオプションで指定されます。「仕上がりサイズ」を選択し、「余白の制御」で余白を指定します。<br><br>値は、アートワーク（メディアサイズ）の上下左右の端から内側に対する距離を示します。値(0 ～ 1000)はポイント単位です。<br><br>New height=original height - (top+bottom)<br><br>New width=original width - (left+right) |
+| printerMark= trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed | 値は次のとおりです。<br><br>trim marks = 0,1（初期設定：0）<br><br>、<br><br>bleed marks = 0,1（初期設定：0）<br><br>、color bars = 0,1（初期設定：0）<br><br>page information = 0,1（初期設定：0）<br><br>style = Default、InDesignJ1、InDesignJ2、illustratorJ QuarkXPress<br><br><br><br><br><br>line= 0.125-0.2 both values inclusive（デフォルトは0.25、埋め込み層= 0、新しい層を作成。デフォルトは1）スタイルの種類に応じて、Acrobatの色と種類に応じて、. |
 
 プリンタマークについては、次の点に注意してください。
 
