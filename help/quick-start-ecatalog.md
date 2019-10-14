@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -39,8 +39,8 @@ eCatalog を作成する際に、ページや見開きページの並び順を�
 
 >[!NOTE]
 >
->AEMダイナミックメディア — Scene7モードのユーザでeCatalogを使用する場合は、CRXDE Liteで値を編集する `pdfbrochure` 必要があります。 これを行うには、AEMでUICONTROLツール/一般/CRXDE Lite **[をクリックします]**。 左側のパネルナビゲーションツリーで、に移動しま `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`す。
-右下のウィンドウの「 **Properties** 」タブで、行を選択し `jobParam` ます。 からに値を設 `pdfbrochure` 定し `false` ます `true`。 「CRXDE Lite `pdfbrochure=true`ページの左上隅にある「すべて保存」をクリッ **クします**。
+>AEMダイナミックメディア — Scene7モードのユーザでeCatalogを使用する場合は、CRXDE Liteで値を編集する `pdfbrochure` 必要があります。 これを行うには、AEMで、ツール/一般/CRXDE Lite **[!UICONTROL をクリックします]**。 左側のパネルナビゲーションツリーで、に移動しま `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`す。
+右下のウィンドウの「 **[!UICONTROL Properties]** 」タブで、行を選択し `jobParam` ます。 からに値を設 `pdfbrochure` 定し `false` ます `true`。 「CRXDE Lite `pdfbrochure=true`ページの左上隅にある「すべて保存」をクリッ **[!UICONTROL クします]**。
 これで、SPSでeCatalogをオーサリングできるようになります。
 
 **クイックスタート**
@@ -65,7 +65,7 @@ eCatalog を作成するには、参照パネルで PDF ファイルまたは画
 
 ページを追加するには、アセットライブラリのフォルダを選択してから、PDF ファイルまたは画像ファイルをページ順序画面にドラッグします。初期設定でページ番号が付けられますが、カスタムページ名を付けることもできます。また、ページ名が多い場合には、ページ名を読み込むこともできます。
 
-「保存」ボタンをクリックし、eCatalog の名前を入力し、保存先の SPS フォルダを選択し、「保存」ボタンを選択します。ページの順番を変えたり、eCatalog を編集したときは、「保存」ボタンをクリックして変更内容を保存してください。
+Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 詳しくは、[eCatalog の作成](creating-ecatalog.md)を参照してください。
 
@@ -73,7 +73,7 @@ eCatalog を作成するには、参照パネルで PDF ファイルまたは画
 
 画像マップを使用すると、eCatalog のページに便利な機能を追加できます。画像マップとは、ページの中で、項目に関する詳細情報を表示できる領域を指します。画像マップにポインタを合わせると、その項目の説明が表示されます。また、画像マップをクリックすると、外部参照先の Web ページに移動し、項目に関する詳細情報を参照できます。
 
-画像マップを作成するには、eCatalog 画面を開き、eCatalog 画面の「ページをマップ」タブを選択し、長方形画像マップツール  または多角形画像マップツール  を使用して画像マップを描画します。パンツール  を使用すると、画像マップの境界をドラッグしながら、位置とサイズを調整することができます。
+画像マップを作成するには、eCatalog 画面を開き、Then go to the **[!UICONTROL Map Pages]** tab of the eCatalog screen, and draw the map with the Rectangle Image Map tool or Polygon Image Map tool. パンツール  を使用すると、画像マップの境界をドラッグしながら、位置とサイズを調整することができます。
 
 画像マップの描画後、画像マップをクリックしたときの移動先となる URL アドレスを入力します。画像マップにポインタを合わせたときに表示するロールオーバーテキストを入力することもできます。
 
@@ -89,7 +89,7 @@ eCatalog 画面内の情報パネル設定を使用して、画像マップの�
 
 エンドユーザは eCatalog ビューアで eCatalog を表示します。管理者には eCatalog ビューアを設定する権限があります。アウトラインカラーを変更したり、eCatalog 用の自社用「スキン」を選択したりできます。ダイナミックMedia Classicには、eCatalogビューアプリセットがいくつか用意されています。 eCatalogの表示に使用するプリセットを選択できます。 管理者であれば、独自の eCatalog ビューアプリセットを作成することもできます。
 
-eCatalog ビューアプリセットを作成するには、グローバルナビゲーションバーの「設定」ボタンをクリックして、「ビューアプリセット」を選択します。Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
+eCatalogビューアプリセットを作成するには、グローバルナビゲーションバーで「設定」をクリックし、「ビ **[!UICONTROL ューア]** プリセ **[!UICONTROL ット」を選択します]**。 次に、「追 **[!UICONTROL 加]**」をクリックし、プラットフォームを選択して、eCatalog/ビ **[!UICONTROL ューアをクリックします]**。
 
 詳しくは、[eCatalog ビューアプリセットの設定](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)を参照してください。
 
@@ -97,7 +97,7 @@ eCatalog ビューアプリセットを作成するには、グローバルナ�
 
 eCatalog ビューアのスタイルと動作は、eCatalog ビューアプリセットによって設定されます。
 
-eCatalog ビューアプリセットで eCatalog がどのように表示されるかを確認するには、参照パネルで eCatalog を選択し、「プレビュー」をクリックします。初期設定のビューアが開き、プレビュー画面が表示されます。
+To find out how eCatalog Viewer Presets display your eCatalog, select your eCatalog in the Browse Panel and click **[!UICONTROL Preview]**. 初期設定のビューアが開き、プレビュー画面が表示されます。
 
 向き、カラースキーム、ページ変更のコントロール、ページをめくったときの見た目を確認します。
 
@@ -107,7 +107,7 @@ eCatalog ビューアプリセットで eCatalog がどのように表示され�
 
 公開したeCatalogと関連PDFは、Dynamic Media Image Serverに保存され、Webサイトやアプリケーションに配信できるようになります。 公開処理中に、eCatalog の URL 文字列がアクティブになります。このURLを使用して、eCatalogをダイナミックメディアイメージサーバからWebサイトやアプリケーションに呼び出します。
 
-参照パネルでeCatalogとPDFを公開用にマークした後、グローバルナビゲーションバーの「公開」ボタンを選択して公開を開始します。 公開画面で、「公開を開始」をクリックします。
+参照パネルでeCatalogとPDFを公開用にマークした後、グローバルナビゲーションバーの「公開」ボタンを選択して公開を開始します。 On the Publish screen, click **[!UICONTROL Start Publish]**.
 
 詳しくは、 [eCatalogと関連PDFの公開を参照してください](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
