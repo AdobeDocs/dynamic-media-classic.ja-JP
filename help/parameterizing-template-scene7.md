@@ -1,40 +1,40 @@
 ---
-title: Dynamic Media Classicでのテンプレートのパラメータ化
-seo-title: Dynamic Media Classicでのテンプレートのパラメータ化
+title: ダイナミックメディアクラシックでのテンプレートのパラメータ化
+seo-title: ダイナミックメディアクラシックでのテンプレートのパラメータ化
 description: 'null'
-seo-description: Dynamic Media Classicでテンプレートをパラメータ化する方法について説明します
-uuid: 27c8c8b4-47f3-4270- a6db- d304648ba357
+seo-description: ダイナミックメディアクラシックでテンプレートをパラメータ化する方法を説明します。
+uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
 contentOwner: 管理者
 content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/template- publishing
-discoiquuid: df1a9ff5- a5ba-4480- ba0d- a19bc665f907
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
-# Dynamic Media Classicでのテンプレートのパラメータ化{#parameterizing-a-template-in-scene}
+# ダイナミックメディアクラシックでのテンプレートのパラメータ化{#parameterizing-a-template-in-scene}
 
-Dynamic Media Classic FXGとして保存したIllustratorテンプレートをScene7Publishing Systemにアップロードした後、その可変要素を定義できます。これを行うには、印刷テンプレートのビルド画面およびプレビュー画面で可変要素をパラメータ化します。Dynamic Media Classicには、レイヤー上のテキストパラメータとオブジェクトパラメーターを定義し、それぞれのプロパティを定義するツールがあります。また、あるテンプレートの別のバージョンを作成することもできます。
+Dynamic Media Classic FXGとして保存したIllustratorテンプレートをScene7 Publishing systemにアップロードした後、その可変要素を定義できます。 これを行うには、印刷テンプレートのビルド画面およびプレビュー画面で可変要素をパラメータ化します。Dynamic Media Classicには、レイヤー上のテキストおよびオブジェクトのパラメーターと、それぞれのプロパティを定義するツールが用意されています。 また、あるテンプレートの別のバージョンを作成することもできます。
 
-FXG テンプレートをパラメータ化することで、テキスト、画像およびグラフィックの可変性をカスタマイズすることができます。例えば、テキスト行をパラメータ化して、エンドユーザが Web ユーザインターフェイスを使用してテキストを変更できるようにすることができます。空のテキストフィールドを可変として定義して、エンドユーザがこれらのフィールドにパーソナライズされたテキストを入力できるようにすることができます。また、Dynamic Media Classic印刷テンプレートのビルド画面で、デザイン要素の属性とプロパティをパラメータ化することもできます。
+FXG テンプレートをパラメータ化することで、テキスト、画像およびグラフィックの可変性をカスタマイズすることができます。例えば、テキスト行をパラメータ化して、エンドユーザが Web ユーザインターフェイスを使用してテキストを変更できるようにすることができます。空のテキストフィールドを可変として定義して、エンドユーザがこれらのフィールドにパーソナライズされたテキストを入力できるようにすることができます。また、Dynamic Media Classic Publishing build画面で、デザイン要素の属性とプロパティをパラメータ化することもできます。
 
 >[!NOTE]
 >
->DOM操作を使用する予定の場合、Dynamic Media Classicでテンプレートをパラメータ化する必要はありません。
+>DOM操作を使用する場合は、ダイナミックメディアクラシックでテンプレートをパラメータ化する必要はありません。
 
 ## FXG テンプレートでのパラメータの定義 {#defining-parameters-in-fxg-templates}
 
-Follow these steps in Dynamic Media Classic to define parameters for an FXG template:
+FXGテンプレートのパラメーターを定義するには、Dynamic Media Classicで次の手順に従います。
 
 1. 参照ウィンドウで、FXG ファイルを選択します。
-1. **「ビルド** »をクリックして?«印刷テンプレート»?を選択するか、ファイル?の«編集&#x200B;********
+1. Click **Build** and choose **Template Publishing**, or click the file’s **Edit** button.
 
    印刷テンプレート画面が開きます。
 
-1. RRCo\ FXG\ Welcome_ Summit_10（FXGファイル）を選択し、 **ビルド** / **印刷テンプレートをクリック**&#x200B;します。</p>
+1. LRCo\FXG\Welcome_Summit_10 （FXGファイル）を選択し、ビルド/印刷テンプ **レート** をク **リックします**。</p>
 
    ![](assets/wp_fxg_edit.png)
 
@@ -46,16 +46,15 @@ Follow these steps in Dynamic Media Classic to define parameters for an FXG temp
 
 1. プロパティパネルで、「名前」列（テキストをパラメータ化する場合）または「パラメータ」列（オブジェクトをパラメータ化する場合）をクリックします。
 
-   **テキストフィールドのテキスト** をクリックします（プロパティリストの一番下までスクロールして検索します）。パラメータダイアログボックスが表示されます。Select the text that you want to parameterize and click **Add**. テキストの異なる部分を選択してそれぞれにパラメータを追加することで、同じテキストのプロパティから複数のパラメータを作成できます。To change the name of the parameter, click it, enter a new name, and click **Close**.
+   * **テキスト**&#x200B;テキストフィールド内をクリックします（プロパティリストの一番下までスクロールして検索します）。 パラメータダイアログボックスが表示されます。Select the text that you want to parameterize and click **Add**. テキストの異なる部分を選択してそれぞれにパラメータを追加することで、同じテキストのプロパティから複数のパラメータを作成できます。To change the name of the parameter, click it, enter a new name, and click **Close**.
 
-   **「** パラメーター」列のボックスをクリックします。パラメータの編集ダイアログボックスが表示されます。Enter a name and click **OK**.
-
+   * **[オブジェクト**] [パラメータ]列のボックスをクリックします。 パラメータの編集ダイアログボックスが表示されます。Enter a name and click **OK**.
    複数の属性を同じ値で一度にカスタマイズするには、属性ごとに同じパラメータ名を使用します。例えば、テンプレートに長方形と星形がある場合、それぞれの「単色」色属性のパラメータ名として「`newcolor`」を入力できます。これにより、「`newcolor`」値を変更するたびに、長方形と星形の両方の色が新しい色に変更されるようになります。
 
 1. 「値」または「データ」フィールドに属性の初期設定値を指定します。選択したオブジェクトのすべてのプロパティを設定し、目的の外観を指定します。
 1. （オプション）パラメータ化するすべてのオブジェクトまたはレイヤーで手順 3～5 を繰り返します。
 1. 「**保存**」または「**名前を付けて保存**」をクリックします。
-1. **「プレビュー」** をクリックしてFXGプレビューウィンドウを開き、作成したパラメータをデフォルト値で表示します。
+1. Click **Preview** to open the FXG Preview window and see the parameters you created with their default values.
 
 ## FXG テンプレートのオブジェクトまたはレイヤーの表示/非表示 {#show-or-hide-an-object-or-layer-in-the-fxg-template}
 
@@ -72,7 +71,7 @@ Follow these steps in Dynamic Media Classic to define parameters for an FXG temp
 
 ## ストロークテキストの使用 {#using-stroked-text}
 
-ストロークテキストは、属性をパラメータ化する方法の一例です。ダイナミックメディアClassicは、以下のストロークテキスト機能をサポートしています。
+ストロークテキストは、属性をパラメータ化する方法の一例です。ダイナミックMedia Classicは、以下のストロークテキスト機能をサポートしています。
 
 * ストロークの幅
 * 破線のストロークパターン
@@ -119,9 +118,9 @@ Follow these steps in Dynamic Media Classic to define parameters for an FXG temp
 |--- |--- |--- |
 | スタイル7:warpStyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | 除外 |
 | 方向7:warpDirection | horizontalvertical | 横 |
-| カーブ7:warpBend | -1 ～ 1 | 0.5 |
-| 水平方向のゆがみ7:warpHorizontalDistortion | -1 ～ 1 | 0 |
-| 垂直方向のゆがみ7:warpVerticalDistortion | -1 ～ 1 | 0 |
+| ベンド7:warpBend | -1 ～ 1 | 0.5 |
+| 水平方向のゆがみs7:warpHorizontalDistortion | -1 ～ 1 | 0 |
+| 垂直方向のゆがみs7:warpVerticalDistortion | -1 ～ 1 | 0 |
 
 >[!NOTE]
 >
