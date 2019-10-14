@@ -3,13 +3,13 @@ title: 画像アセットまたはベクトルアセットのアップロード
 seo-title: 画像アセットまたはベクトルアセットのアップロード
 description: 'null'
 seo-description: 画像アセットまたはベクトルアセットをアップロードする方法について説明します。
-uuid: d0e4a754-8a49-4b0f- b202- e9003bdb8f20
+uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: 管理者
 content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-discoiquuid: de21dca9-99fe-4183- b647- dodefe112fda4
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 *共有秘密キー*&#x200B;を要求するには、Scene 7 テクニカルサポートまで s7support@adobe.com 宛に電子メールをお送りください。
 
-電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Dynamic Media Classicからキーを受け取ったら、今後使用するためにローカルに保存します。
+電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。ダイナミックメディアクラシックからキーを受け取ったら、後で使用できるようにローカルに保存します。
 
 ## アップロードトークンの取得 {#retrieving-the-upload-token}
 
@@ -107,7 +107,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-`file_limit` このパラメーターでは、ファイルサイズ制限をバイト単位で指定します。`file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
+The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
 
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
 
@@ -118,12 +118,12 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 アセットのアップロードには次の HTML フォームを使用できます。フォームからは次の情報の入力が求められます。
 
-* 会社名を参照してください。
+* 会社名.
 * アップロードトークン.
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
-* アセットに関連付けられているカラープロファイルとファイル名を保持するかどうか。
-* ノックアウトの背景を使用するかどうか。ノックアウトの背景を有効にする場合は、「コーナー」、「許容値」および「塗りつぶし方法」を設定します。アップロード時の画像編集オプションの [ノックアウトの背景](image-editing-options-upload.md#image-editing-options-at-upload)を参照してください。
+* アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
+* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「角」、「許容値」および「塗りつぶし方法」を設定します。 詳しくは、アップロード時の画像編集オ [プションのノックアウトの背景を参照してくださ](image-editing-options-upload.md#image-editing-options-at-upload)い。
 * アップロードするファイルの名前
 
 <!-- 
@@ -138,13 +138,13 @@ Last Modified Date:
 
 ![]()
 
-上記のフォームに関連付けられているHTMLソースコードを表示するには、次のリンクをクリックします。
+上記のフォームに関連付けられたHTMLソースコードは、次のリンクをクリックすると表示できます。
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Firefoxで、ブラウザーウィンドウを右クリックし、「ページソース **を表示」をクリック**&#x200B;します。コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**「送信」**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
+Firefoxで、ブラウザーウィンドウを右クリックし、「ページソースを表示」をク **リックします**。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**「送信」**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
 
-XML 応答を Internet Explorer で表示するには、**表示**／**ソース**&#x200B;をクリックします。To view XML response in Firefox, click **Tools** &gt; **Web Developer** &gt; **Page Source**. XML 応答の表示には、Firefox を使用することをお勧めします。
+XML 応答を Internet Explorer で表示するには、**表示／ソース**&#x200B;をクリックします。To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -187,8 +187,8 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 | company_name | 必須 | アップロードを実行する会社の名前。 |
 | file_limit | オプション | アセットのファイルサイズ制限（バイト単位）。 |
 | file_exts | オプション | 画像アセットファイルで許可される拡張子のリスト。 |
-| preserve_colorprofile | オプション | アップロードされたファイルを PTIFF 形式に変換するときに埋め込まれているカラープロファイルを保持します。値は true または false。初期設定は false。を参照してください。 |
-| preserve_filename | オプション | アップロードされたアセットのファイル名を保持します。値は true または false。初期設定は false。を参照してください。 |
+| preserve_colorprofile | オプション | アップロードされたファイルを PTIFF 形式に変換するときに埋め込まれているカラープロファイルを保持します。値は true または false。初期設定は false。. |
+| preserve_filename | オプション | アップロードされたアセットのファイル名を保持します。値は true または false。初期設定は false。. |
 
 >[!NOTE]
 >
@@ -270,7 +270,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-`file_limit` このパラメーターでは、ファイルサイズ制限をバイト単位で指定します。`file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
+The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
 
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
 
@@ -281,12 +281,12 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 
 アセットのアップロードには次の HTML フォームを使用できます。フォームからは次の情報の入力が求められます。
 
-* 会社名を参照してください。
+* 会社名.
 * アップロードトークン.
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
-* アセットに関連付けられているカラープロファイルとファイル名を保持するかどうか。
-* ノックアウトの背景を使用するかどうか。ノックアウトの背景を有効にする場合は、「コーナー」、「許容値」および「塗りつぶし方法」を設定します。アップロード時の画像編集オプションの [ノックアウトの背景](image-editing-options-upload.md#image-editing-options-at-upload)を参照してください。
+* アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
+* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「角」、「許容値」および「塗りつぶし方法」を設定します。 詳しくは、アップロード時の画像編集オ [プションのノックアウトの背景を参照してくださ](image-editing-options-upload.md#image-editing-options-at-upload)い。
 * アップロードするファイルの名前
 
 <!-- 
