@@ -1,16 +1,16 @@
 ---
 title: Media Portal ユーザの役割
 seo-title: Media Portal ユーザの役割
-description: Media Portalで使用できる様々なユーザの役割について説明します。
-seo-description: Media Portalで使用できる様々なユーザの役割について説明します。
-uuid: 1bf2cc85-3655-428f-81ab-5fdaya1e9401b
+description: Media portalで使用できる様々なユーザの役割について説明します。
+seo-description: Media portalで使用できる様々なユーザの役割について説明します。
+uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
 contentOwner: 管理者
 content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/media_ portal
-discoiquuid: 1bd7cb5d-156c-4house- a725- e177f05ccedf
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 Media Portal には次の役割があります。それぞれアクセス権と権限が異なります。ユーザをサインアップすると、次のいずれかの役割がユーザに割り当てられます。
 
-**Media Portal管理者**&#x200B;は、管理者、寄稿者およびユーザを追加および削除できます。管理者は、グループのアクセス権の設定、FTP アカウントの管理、会社が承認した変換形式（プリセット）の割り当て、Media Portal ユーザへの電子メールの送信、ポータルの使用状況やストレージレポートの確認が可能です。
+* **Media portal管理者は**、管理者、寄稿者およびユーザを追加および削除できます。 管理者は、グループのアクセス権の設定、FTP アカウントの管理、会社が承認した変換形式（プリセット）の割り当て、Media Portal ユーザへの電子メールの送信、ポータルの使用状況やストレージレポートの確認が可能です。
 
-**Media Portalユーザ**&#x200B;はフォルダとファイルにアクセスできます。ユーザは、ファイルの参照、プレビューおよびダウンロードのみが可能です。この役割は、会社が承認したアセットへのアクセスを必要とするチャンネルやサービスパートナーに適しています。
+* **Media portalユーザは**、フォルダとファイルにアクセスできます。 ユーザは、ファイルの参照、プレビューおよびダウンロードのみが可能です。この役割は、会社が承認したアセットへのアクセスを必要とするチャンネルやサービスパートナーに適しています。
 
-**Media Portal寄稿者** 管理者が許可した領域のファイルおよびメタデータをアップロード、プレビューおよび参照できます。寄稿者はファイルをダウンロードすることはできません。寄稿者は、メタデータの編集、ファイル名の変更、別のフォルダへのファイルの移動およびファイルの削除が可能です。
+* **Media portal寄稿者は**、管理者が権限を付与した領域のファイルやメタデータをアップロード、プレビューおよび参照できます。 寄稿者はファイルをダウンロードすることはできません。寄稿者は、メタデータの編集、ファイル名の変更、別のフォルダへのファイルの移動およびファイルの削除が可能です。
 
-**Media Portal寄稿者ユーザ** はフォルダおよびファイルにアクセスできます。寄稿者ユーザは、画像とメタデータを参照、プレビュー、ダウンロードおよびアップロードできます。寄稿者ユーザは、ファイル名の変更、別のフォルダへのファイルの移動およびファイルの削除が可能です。
+**Media portal寄稿者ユーザは、フォルダ**&#x200B;とファイルにアクセスできます。 寄稿者ユーザは、画像とメタデータを参照、プレビュー、ダウンロードおよびアップロードできます。寄稿者ユーザは、ファイル名の変更、別のフォルダへのファイルの移動およびファイルの削除が可能です。
 
 次の表に、各種役割を持つユーザが実行できるタスクを示します。管理者と寄稿者ユーザは、この表に示すすべてのタスクを実行できます。
 
