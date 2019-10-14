@@ -2,15 +2,15 @@
 title: 混在メディアセットビューアのプリセットの設定
 seo-title: 混在メディアセットビューアのプリセットの設定
 description: 'null'
-seo-description: 混在メディアセットビューアプリセットを設定する方法について説明します。
-uuid: d5bf1840- e453-445d- bebc-84889b29f3c8
+seo-description: 混在メディアセットビューアのプリセットを設定する方法について説明します。
+uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: 管理者
 content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/mixed_ media_ sets
-discoiquuid: 8029aad8- d696-4d7c-99e2-3b08edb68181
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -51,13 +51,13 @@ source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
 1. コミュニティ機能（埋め込み、リンク、アクセス）をビューアに追加するには、次のいずれかのオプションを指定します。
 
-   **Email** Click On to enable an Email button in the viewer. セットの表示中に電子メールボタンをクリックすると、セットへのリンクが含まれる電子メールが開きます。
+   * **Email** Click On（電子メール）をクリックして、ビューアで「Email」ボタンを有効にします。 セットの表示中に電子メールボタンをクリックすると、セットへのリンクが含まれる電子メールが開きます。
 
-   **「埋め込み** 」をクリックします。「埋め込みボタンラベル」ボックスに、埋め込みボタンとしてビューアに表示する名前を入力します。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **「埋め込み**」「クリック」 「埋め込みボタンラベル」ボックスに、埋め込みボタンとしてビューアに表示する名前を入力します。If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **リンク** クリックのライブ「リンクボタンのラベル」ボックスに、リンクボタンとしてビューアに表示する名前を入力します。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Link** Click Live。 「リンクボタンのラベル」ボックスに、リンクボタンとしてビューアに表示する名前を入力します。If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **「訪問** 」を **クリック**&#x200B;します。「アクセスボタンのラベル」ボックスに、アクセスボタンとしてビューアに表示する名前を入力します。「アクセス URL」ボックスに、リンクがクリックされたときに開く Web サイトの URL を入力します。
+   * **Visit** Click **Live**. 「アクセスボタンのラベル」ボックスに、アクセスボタンとしてビューアに表示する名前を入力します。「アクセス URL」ボックスに、リンクがクリックされたときに開く Web サイトの URL を入力します。
 
 1. 必要に応じて、他のオプションを指定します。オプションの説明を確認するには、オプションの横にある情報ヒントアイコン  をクリックします。
 
