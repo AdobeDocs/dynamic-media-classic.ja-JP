@@ -6,7 +6,7 @@ seo-title: 'Adobe Dynamic mediaニュースレター '
 solution: ダイナミックメディア
 title: Dynamic mediaニュースレター
 translation-type: tm+mt
-source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
+source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
 
 ---
 
