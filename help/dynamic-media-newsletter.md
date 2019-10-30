@@ -6,17 +6,16 @@ seo-title: 'Adobe Dynamic mediaニュースレター '
 solution: ダイナミックメディア
 title: Dynamic mediaニュースレター
 translation-type: tm+mt
-source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
+source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
 
 ---
 
 
 # ![Dynamic mediaニュースレターロゴ](/help/assets/dynamic-media-newsletter-logo.png)
 
-Experience LeagueのDynamic Mediaニュースレターは、Dynamic mediaとDynamic Media Classicの使い勝手を改善し、すぐに価値を実現できるように設計された月刊ニュースレターです。
+Experience Leagueの毎月のダイナミックメディアニュースレターは、Dynamic mediaとDynamic Media Classicの使い方をすばやく習得できるように設計されており、すぐに価値の実現を開始できます。
 
-**ニュースレターには何が含まれていますか。**
-使い方ビデオ、ソリューションの概要、画像プリセット、ビューアプリセット、ビデオプロファイルなどの主な機能の紹介など、このワンストップショップニュースレターでは貴重な知識構築リソースをご利用いただけます。
+このワンストップショップニュースレターでは、ハウツービデオ、ソリューション概要、画像プリセット、ビューアプリセット、ビデオプロファイルなど、ソリューションの主な機能の紹介など、重要な知識構築リソースを紹介します。
 
 ## 刺激を受けなさい。 常に情報を提供。
 
