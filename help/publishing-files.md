@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -25,7 +25,7 @@ Scene7 Publishing systemで、HTTP/2を使用したすべての画像とビデ�
 
 アセットは、公開または非公開のいずれかの状態です。デフォルトでは、Dynamic Media Classicにアップロードするアセットは、自動的に公開用にマークされます。
 
-詳しくは、即時公開に関するお知らせのPDF [を参照してください](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)。
+詳しくは、即時公開に関するお知らせのPDF [を参照してください](/help/assets/rendering-instant-publish-notification.pdf)。
 
 アセットを公開用にマークするには、次の手順に従います。
 
