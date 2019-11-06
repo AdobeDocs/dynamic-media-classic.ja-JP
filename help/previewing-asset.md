@@ -2,15 +2,15 @@
 title: アセットのプレビュー
 seo-title: アセットのプレビュー
 description: 'null'
-seo-description: アセットをプレビューする方法について説明します。
-uuid: 4a01be21- e37f-4d79-9220- f4e177e9179a
+seo-description: アセットをプレビューする方法を説明します。
+uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: 管理者
 content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/managing_ assets
-discoiquuid: 17d0bfd6- fc62-4ed6-8a51-7ac1a6bb96cc
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 パラメータレイヤーのあるテンプレートアセットをプレビューする場合は、パラメータや画像プリセットを変更できます。変更はインラインで行われるため、同じプレビューウィンドウに直ちに結果が表示されます。
 
-[Dynamic Media Classicビューアライブラリの例](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)も参照してください。
+Adobe Viewers Reference Library Examples(こことここも参照 [し](/help/assets/vlist/vlist.html)[](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html))。
 
 **アセットをプレビューするには**
 
