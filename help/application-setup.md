@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENTONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 ビューアによっては、コミュニティ機能を追加できます。コミュニティ機能には、埋め込みボタン、電子メールボタン、リンクボタンおよびアクセスボタンがあります。これらのボタンを使用すると、ビューアを使用するユーザーが他のユーザーとビューアを共有したり、Dynamic Media Classic webサイトを開いたりできます。
 
-Adobe Viewers Reference Library Examples(こことここも参照 [し](/help/assets/vlist/vlist.html)[](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html))。
+Adobe Viewers Reference Library Examplesも参 [照してください](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ### レスポンシブデザインの Web ページ用ビューアのサポート {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 次の表に、現在使用可能なダイナミックメディアクラシックビューアプリセットを示します。 この表には、ビューアのデスクトップまたは携帯端末との互換性と、各ビューアで使用されるテクノロジも示されます。
 
-Adobe Viewers Reference Library Examples(こことここも参照 [し](/help/assets/vlist/vlist.html)[](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html))。
+Adobe Viewers Reference Library Examplesも参 [照してください](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ビューアでサポートされる Web ブラウザーとオペレーティングシステムのバージョンについて詳しくは、ビューアのリリースノートに記載されています。
 
