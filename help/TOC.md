@@ -5,7 +5,7 @@ audience: エンドユーザー
 user-guide-title: Dynamic Media Classicヘルプ
 index: y
 translation-type: tm+mt
-source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
+source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 # Dynamic Media Classicヘルプ {#using}
 
 + [ダイナミックメディアクラシックドキュメントホーム](home.md)
-+ [2020年上半期に発売予定の新しいダイナミックメディアクラシックユーザーインターフェイス](new-ui-2020.md)
+<!-- + [New Dynamic Media Classic user interface coming in first half of 2020](new-ui-2020.md)-->
 + [Experience League別ダイナミックメディアニュースレター](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classicの紹介 {#intro}
    + [ダイナミックメディアクラシックについて](introduction.md)
