@@ -5,7 +5,7 @@ description: Dynamic Media Classicテクニカルドキュメント
 seo-description: 'Adobe Dynamic Media Classic（旧称Scene7）の技術ドキュメント、リリースノートおよびセルフヘルプマテリアル '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -14,19 +14,20 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 Dynamic Media Classicヘルプへようこそ。 ここでは、利用可能なすべてのリソースにアクセスして、ダイナミックメディアクラシック（旧称Scene7）の使用に関する詳細を確認できます。
 
-## Dynamic Media Classicテクニカルドキュメント
+## 2020年上半期に発売予定の新しいダイナミックメディアクラシックユーザーインターフェイス
 
-* [リリースノート](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [ユーザーガイド](introduction.md)
+Dynamic Media Classicのユーザーは、2020年上半期にユーザーインターフェイスが更新される可能性があります。 このエクスペリエンスは、更新されたログインと、貴重なリソースへのリンクを提供します。 さらに、この更新は、ブラウザーのAdobe flashテクノロジーに依存しなくなります。
 
-## Dynamic Media Classic開発者向けリソース
+よくあ [る質問を参照](new-ui-2020.md)。
 
-* [Adobe Viewersリファレンスガイド](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html)
-* [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [画像サービングおよび画像レンダリング API](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html)
+## ダイナミックメディア開発者向けリソース
 
-## ダイナミックメディアクラシックのウェビナーとチュートリアル
+* [ダイナミックメディア開発者向けリソースランディングページ](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) — ビューアリファレンスガイド、画像サービング/画像レンダリングAPI、画像制作システムAPI、およびDynamic Media Classicリリースノートが含まれます。
+* [Viewerライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) — ビデオ、買い物可能なメディア、混在メディア、スピンセット、インラインズーム、画像セット、スウォッチセット、フライアウトのビューア例が含まれます。
 
+## ダイナミックメディアクラシックニュースレター、ウェビナー、チュートリアル
+
+* [Dynamic mediaニュースレターアーカイブ](dynamic-media-newsletter.md)
 * [画像へのシャープの適用のベストプラクティス](/help/assets/s7_sharpening_images.pdf)
 * [資産のROIの最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true) — サイトやモバイルアプリ全体にリッチメディアを配信するための業界のベストプラクティスを紹介します。 このウェビナーでは、複数のデバイスにわたってビデオを効率的に配信する方法、マーケティングキャンペーンで動的なクリエイティブを配信する方法、画像、スタイルガイド、またはLookbookショップ可能にする方法を示す例とデモを紹介します。
 * [コンテンツ配信のライフサイクルの促進](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) — このウェビナーでは、リッチメディアの管理と配信の次世代プラットフォームであるAdobe Experience Manager Assetsのオンデマンドの概要とデモを紹介します。 クリエイティブチームとマーケティングチーム間でアセットを共同作業し、共有してアセットレビュープロセスを合理化する方法を説明します。アセットの検索、使用、再利用、共有を容易にするための、アセットのメタデータを効率的に管理するベストプラクティス、およびインタラクティブなクロスチャネルリッチメディアエクスペリエンスの配信方法。
