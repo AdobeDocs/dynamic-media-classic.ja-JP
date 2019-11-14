@@ -5,7 +5,7 @@ description: Dynamic Media Classicテクニカルドキュメント
 seo-description: 'Adobe Dynamic Media Classic（旧称Scene7）の技術ドキュメント、リリースノートおよびセルフヘルプマテリアル '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
+source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
 
 Dynamic Media Classicヘルプへようこそ。 ここでは、利用可能なすべてのリソースにアクセスして、ダイナミックメディアクラシック（旧称Scene7）の使用に関する詳細を確認できます。
 
-<!-- ## New Dynamic Media Classic user interface coming in first half of 2020
+## 2020年上半期に発売予定の新しいダイナミックメディアクラシックユーザーインターフェイス
 
-Dynamic Media Classic users can expect a refresh of their user interface in the first half of 2020. The experience will deliver an updated log-in with links to valuable resources. Plus, this update will no longer rely on Adobe Flash technology in the browser.
+Dynamic Media Classicのユーザーは、2020年上半期にユーザーインターフェイスが更新される可能性があります。 このエクスペリエンスは、更新されたログインと、貴重なリソースへのリンクを提供します。 さらに、この更新は、ブラウザーのAdobe flashテクノロジーに依存しなくなります。
 
-See [Frequently Asked Questions](new-ui-2020.md).-->
+よくあ [る質問を参照](new-ui-2020.md)。
 
 ## ダイナミックメディア開発者向けリソース
 
