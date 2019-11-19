@@ -1,19 +1,19 @@
 ---
 description: 'Experience LeagueのDynamic mediaニュースレターは月刊ニュースレターです。 Dynamic mediaとDynamic Media Classicの使い方をすばやく習得できるように設計されており、すぐに価値を実現できます。 このワンストップショップニュースレターでは、ビデオの制作方法、ソリューションの概要、画像プリセット、ビューアプリセット、ビデオプロファイルなどの主な機能の紹介など、高度な知識構築リソースを利用できます。 '
-keywords: ダイナミックメディア；ニュースレター；製品の更新；ヒントとテクニック；イベント；顧客の成功；ブログ；ブログ；画像；ビデオ；機能；機能
+keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: このワンストップショップニュースレターでは、ビデオの制作方法、ソリューションの概要、画像プリセット、ビューアプリセット、ビデオプロファイルなどの主な機能の紹介など、知識を蓄積するリソースを利用できます。
 seo-title: 'Adobe Dynamic mediaニュースレター '
-solution: ダイナミックメディア
+solution: Dynamic Media
 title: Dynamic mediaニュースレター
 translation-type: tm+mt
-source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
+source-git-commit: 83cc98c151a040031312fea7b560be9792a941ab
 
 ---
 
 
 # ![Dynamic mediaニュースレターロゴ](/help/assets/dynamic-media-newsletter-logo.png)
 
-Experience Leagueの毎月のダイナミックメディアニュースレターは、Dynamic mediaとDynamic Media Classicの使い方をすばやく習得できるように設計されており、すぐに価値の実現を開始できます。
+Experience Leagueの毎月のダイナミックメディアニュースレターは、Dynamic mediaとDynamic Media Classicの使い勝手を改善し、すぐに価値の実現を始められるように設計されています。
 
 このワンストップショップニュースレターでは、ハウツービデオ、ソリューション概要、画像プリセット、ビューアプリセット、ビデオプロファイルなど、ソリューションの主な機能の紹介など、重要な知識構築リソースを紹介します。
 
@@ -22,6 +22,14 @@ Experience Leagueの毎月のダイナミックメディアニュースレター
 [新規登録して](https://www.adobe.com/subscription/dynamic-media-newsletter.html) 、ダイナミックメディアニュースレターを毎月受信トレイに受信します。
 
 ## Dynamic mediaニュースレターの号を見逃した場合
+
+* **[2019年11月、この](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)**&#x200B;問題では11:
+
+   * Dynamic Media Classicユーザーインターフェイスの更新。
+   * 強力な新セキュリティ機能。
+   * 休暇シーズンがうまくいくように準備する方法。
+   * 同僚とニュースレターを共有して、チームの専門知識を構築します。
+   * Dynamic mediaのシニア製品マネージャ、Aporva Guptaにお問い合わせください。
 
 * **[2019年10月、10号](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**&#x200B;この問題：
 
