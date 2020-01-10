@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Dynamic Media Classic Help
 index: y
 translation-type: tm+mt
-source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
+source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Dynamic Media Classic Media Portalのヘルプ](help-scene7-media-portal.md)
    + [Adobe トレーニングサービス](training-services.md)
    + [役立つリソース](popular-resources.md)
+   + [トレーニングビデオ](training-videos.md)
 + はじめに {#getting-started}
    + [Adobe Dynamic Media Classicプラットフォームの概要](scene7-platform-overview.md)
    + [Scene7 Publishing System デスクトップバージョンの使用](using-scene7-publishing-system-desktop.md)
@@ -152,7 +153,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [混在メディアセットの公開](publishing-mixed-media-set.md)
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [クイックスタート：Dynamic Media ClassicとAdobe Analyticsの統合 ](quick-start-integrating-scene7-analytics.md)
+   + [クイックスタート：Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-scene7-analytics.md)
    + [Adobe Analytics へのログイン](log-analytics.md)
    + [Adobe Analytics レポートの設定](configuring-analytics-reports.md)
    + [Adobe Analytics 計測キットを使用したビューアの計測](instrumenting-viewer-using-analytics-instrumentation.md)
