@@ -1,8 +1,8 @@
 ---
 title: Dynamic Media Classicトレーニングビデオ
-description: 'null'
+description: はじめに、ダイナミックイメージング、ビデオ、Media Portal、テンプレートおよび画像オーサリングとレンダリングに関するDynamic Media Classicトレーニングビデオ。
 translation-type: tm+mt
-source-git-commit: 19126573aa4fa4d313e30273f0b1af03082565c8
+source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 ---
 
