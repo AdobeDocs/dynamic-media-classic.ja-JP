@@ -4,13 +4,13 @@ seo-title: 画質を最適化するためのベストプラクティス
 description: 'null'
 seo-description: 画像の画質を最適化するためのベストプラクティスを紹介します。
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 ---
 
@@ -49,7 +49,7 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 
 Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
+アンシャープマ [スクを使用した画像へのシャープの適用も参照してくださ](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)い。
 
 Dynamic Media Classicを使用すると、取り込み時、配信時、またはその両方で画像にシャープを適用できます。 ただし、ほとんどの場合は、両方ではなくいずれかの方法のみを使用して画像にシャープを適用することをお勧めします。通常は、配信時に URL 上の画像にシャープを適用すると最良の結果を得られます。
 
