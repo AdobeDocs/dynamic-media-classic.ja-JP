@@ -6,7 +6,7 @@ seo-title: 'Adobe Dynamic mediaニュースレター '
 solution: Dynamic Media
 title: Dynamic mediaニュースレター
 translation-type: tm+mt
-source-git-commit: e68bef4e597e81269d863e37fcd1d1b33c842836
+source-git-commit: 15beb1fbac7e6bf2c7d593806dc84efeea37d620
 
 ---
 
@@ -22,6 +22,15 @@ Experience Leagueの毎月のダイナミックメディアニュースレター
 [新規登録して](https://www.adobe.com/subscription/dynamic-media-newsletter.html) 、ダイナミックメディアニュースレターを毎月受信トレイに受信します。
 
 ## Dynamic mediaニュースレターの号を見逃した場合
+
+* **[2020年2月、この問](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@5lYjerUalNCDQd6ABlMufSyP3GqbFDn747uBiom3-3_efxsaEjuw8LNhJxrs89ft1vcsQzjvxTGMo55w-4k0YyBVGiL6m5AWSe9I7H7wIXKT0Efz.html)**題の第2号：
+
+   * 新しいSkill Builderウェビナーに参加し、Dynamic Media Classicエキスパートに変身します。
+   * ダイナミックメディアの場所については、Adobe Summit 2020を参照してください。
+   * ダイナミックメディアの切り抜きマジックの使い方を確認します。
+   * 無料の監査を活用して、Dynamic Media Classicからより多くの価値を引き出すことができます。
+   * ダイナミックメディアクラシックの新しいユーザーインターフェイスについて説明します。
+   * Adobe Experience cloudの顧客成功担当マネージャー、Georgia Myers氏にお問い合わせください。
 
 * **[2020年1月、この問](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**題では1号：
 
