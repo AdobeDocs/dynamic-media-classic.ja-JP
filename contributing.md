@@ -1,40 +1,59 @@
 ---
-source-git-commit: 31d89e17826bac5c7afa9faf0bc1d26f129da1e8
+source-git-commit: e38c05edf1fe238d6a36b878df9369eadd31d792
 translation-type: tm+mt
 
 ---
-# 貢献度
+# Adobe Dynamic Media Classicドキュメントへの貢献
 
-寄稿ありがとうございました。
+Adobe Dynamic Media Classicドキュメントにご参加いただき、ありがとうございます。 アドビの読者コミュニティ全体およびアドビの従業員のコンテンツ貢献を歓迎します。
 
-次に、このプロジェクトに貢献する際に従うガイドラインを示します。
+このファイルでは、貢献方法を説明し、貢献を行う際に従うべきガイドラインを示します。
 
-## 行動コード
+## Adobe Open Source Code of Condact
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). 参加することにより、この行動規範を遵守することが期待されます。Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+このプロジェクトでは、 [Adobe Open Source Code of Condactを採用しました](code-of-conduct.md)。 お客様は、ドキュメントに貢献することで、この行動規範に従うことに同意するものとします。 Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## 質問がある場合
+## 貢献のガイドライン
 
-問題の報告から始めます。このプロジェクトの既存の承諾者は、プロジェクトの方向に関するコンセンサスに到達し、問題のあるスレッド内の問題解決策に取り組んでいます（適切な場合）。
+ドキュメントの改善に貢献したことを歓迎しますが、貢献は可能な限り、特定のガイドラインと基準に従うようお願いします。 詳しくは、『Adobe Dynamic Media Classic [ドキュメントへの貢献に関するガイドライン](guidelines.md) 』を参照してください。
 
-## 寄稿者使用許諾契約
+## 貢献方法
 
-このプロジェクトへのすべてのサードパーティの寄稿者には、署名された寄稿者使用許諾契約が含まれている必要があります。これにより、アドビの権限をプロジェクトの一部として再配布する権限が付与されます。[CLAに署名](https://opensource.adobe.com/cla.html)します。Adobe CLAを一度に送信する必要があるので、以前に送信したことがある場合は、使用することをお勧めします。
+私たちはできるだけ簡単にあなたの貢献を提出したい。 次の2つの方法で貢献できます。
 
-## コードのレビュー
+* [雑誌号の作成](#create-an-issue)
+* [プル要求の作成](#create-a-pull-request)
 
-すべての送信は、プルリクエスト形式でおこなわれ、プロジェクト承諾者のレビューを受ける必要があります。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+どの方法を選択するかは、GitHubのドキュメントを自分でどの程度自由に編集しているかによって異なります。
 
-<!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
-submitting a pull request!
--->
+>[!NOTE]
+>
+>お客様が提出する貢献度は、アドビの利 [用条件でカバーされます。](https://www.adobe.com/legal/terms.html)
 
-## 寄稿者からcommitterへ
+### 雑誌号の作成 {#create-an-issue}
 
-コミュニティからの貢献度を高めましょう。寄稿者よりも後のステップに進み、プロジェクトで完全な書き込みアクセス権と、そのプロジェクトに参加する場合は、プロジェクトに招待する必要があります。既存のcommiterは、招待が発行される前に遅延合意（無音は承認）に達する必要がある内部指名プロセスを採用します。資格があり、より深く関わる必要があると考えられる場合は、既存の承諾者に連絡して、それに関する意見を聞くことができます。
+現在のドキュメントに関する提案、観察、または何かの記述についての質問はありますか。 次に、雑誌号を作成してください。 また、何か貢献すべき点があるが、ドキュメントを編集したり、自分で取り込み要求を行ったりするのに不安を感じる場合にも、問題は非常に役立ちます。
 
-## セキュリティ上の問題
+問題を使用すると、ドキュメントに対する改善のアイデアを簡単に説明でき、ドキュメントチームのメンバーが確認できます。 任意のページの右 **側のナビゲーション** ・パネルの上部にある「Log an issue」リンクをクリックするだけで、雑誌号を作成できます。
 
-セキュリティ上の問題は、この問題トラッカーには報告できません。代わりに、セキュリティ専門家に問題を [報告します](https://helpx.adobe.com/security/alertus.html)
+### プル要求の作成 {#create-a-pull-request}
+
+問題が見つかり、その修正方法が正確にわかっている場合は、プル要求の作成を検討します。 プルリクエストを使用すると、ドキュメントに対して独自の編集を行い、ドキュメントチームのメンバーがドキュメントを含めるかどうかを確認できます。 任意のページの右 **側のナビゲーション** ・パネルの上部にある「Edit this page」リンクをクリックするだけで、推奨された変更を行い、プル要求を作成します。
+
+すべてのプル要求には、署名付きの寄稿者使用許諾契約(CLA) [が添付されている必要があります。](https://opensource.adobe.com/cla.html)これにより、アドビの権限をプロジェクトの一部として再配布する権限が付与されます。Adobe CLARを一度に1度だけ送信する必要があるので、以前に1つを送信した場合は、問題なく実行できます。
+
+### 概要ビデオ
+
+以下のビデオで、問題の作成方法と取り込み要求の作成方法の概要を簡単に確認できます。
+
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
+
+### Adobe Employeesからの貢献
+
+アドビの従業員でプルリクエストを行う場合は、のプライベートリポジトリを使用してくださ `https://git.corp.adobe.com/AdobeDocs`い。
+
+問題が発生した場合は、公開リポジトリを自由に使用してください。
+
+## 詳細情報
+
+GitHubオーサリングプ [ラットフォームの使用方法の詳細については](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 、『Adobe Docs Contributor Guide』を参照してください。
