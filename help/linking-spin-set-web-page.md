@@ -2,13 +2,13 @@
 title: Web ページへのスピンセットのリンク
 seo-title: Web ページへのスピンセットのリンク
 description: 'null'
-seo-description: スピンセットをWebページにリンクする方法について説明します。
-uuid: d3c5773e-60c4-4e8b-9c48- e1e3eb8028d0
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/spin_ sets
-discoiquuid: 651b21ef- e322-4e6d-8e37-45ffd56f7a58
+seo-description: Webページにスピンセットをリンクする方法を説明します。
+uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -17,7 +17,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # Web ページへのスピンセットのリンク{#linking-a-spin-set-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列または埋め込みコードを使用して、スピンセットなどのダイナミックメディアImage Serverのコンテンツにアクセスします。この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションにスピンセットの URL 文字列や埋め込みコードを設定するには、Scene7 Publishing System から URL 文字列や埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、スピンセットを含むDynamic Media Image Serverのコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションにスピンセットの URL 文字列や埋め込みコードを設定するには、Scene7 Publishing System から URL 文字列や埋め込みコードをコピーします。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Webサイトやアプリケーションは、URL文字列または埋め込み�
 
 ## Web ページへのスピンセット URL の追加 {#adding-spin-set-urls-to-your-web-page}
 
-スピンセットは、すべてのズームビューアと同様、スピンセットをズームウィンドウ内に表示するダイナミックページ（ASP や JSP）経由で配信されます。Dynamic Media ClassicプラットフォームへのURL呼び出しは、ズームビューアで同じプロトコルに従います。ただし、ビューアプリセット名は、管理者が初期設定のスピンセットビューアプリセットとして定義したプリセットによって決まります。例えば、次の URL 構文の例（リンクは無効）には、`viewer.jsp` という名前のプリセット名が含まれていて、SKU パラメーターはスピンセット名になっています。
+スピンセットは、すべてのズームビューアと同様、スピンセットをズームウィンドウ内に表示するダイナミックページ（ASP や JSP）経由で配信されます。Dynamic Media ClassicプラットフォームへのURL呼び出しは、ズームビューアでは同じプロトコルに従います。 ただし、ビューアプリセット名は、管理者が初期設定のスピンセットビューアプリセットとして定義したプリセットによって決まります。例えば、次の URL 構文の例（リンクは無効）には、`viewer.jsp` という名前のプリセット名が含まれていて、SKU パラメーターはスピンセット名になっています。
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
@@ -54,7 +54,7 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 ## スピンセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-spin-set-viewer}
 
-埋め込みコード機能を使用すると、選択したスピンセットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択したスピンセットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードの編集はできません。
 
 **スピンセットビューアの埋め込みコードをコピーするには**
 
