@@ -2,10 +2,10 @@
 title: ガイドズーム用のズームターゲットの作成
 seo-title: ガイドズーム用のズームターゲットの作成
 description: 'null'
-seo-description: ガイドズーム用のズームターゲットを作成する方法について説明します。
+seo-description: ガイドズーム用のズームターゲットの作成方法を説明します。
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
@@ -51,7 +51,7 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
 
 1. Click **[!UICONTROL Select Target]** (arrow), click to select the zoom target you created, and adjust the size and position of the target.
 
-   * **サイズ変**&#x200B;更ズームターゲットの隅にポインタを合わせ、ドラッグしてターゲットを拡大または縮小します。
+   * **サイズ変**&#x200B;更ズームターゲットの隅にポインタを移動し、ドラッグして画像を拡大または縮小します。ターゲット
 
    * **位置ズ**&#x200B;ームターゲット上にポインタを移動し、別の位置にドラッグします。
 
@@ -62,7 +62,7 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
    >「名前」ボックスに入力する内容は名前以上の意味があり、ズームターゲットにポインタを移動すると、「名前」ボックスに入力した内容が表示されます。ズームターゲットの簡単な説明を「名前」ボックスに入力することにより、ユーザはズームできる対象を知ることができます。
 
 1. 必要に応じて、「ユーザデータ」フィールドにユーザデータを入力します。このフィールドは、Web サイトデザイナーがズームターゲットに情報を追加できるように用意されています。
-1. Click **[!UICONTROL Save]**.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ズームターゲットの座標とズームレベルが保存されます。入力した名前とともにズームターゲットのサムネール画像が画面の右側に表示されます。
 
@@ -76,17 +76,17 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
 
 * **再配置**&#x200B;ターゲットを選択ボタン（矢印）で、ターゲットをクリックして選択します。 次に、ターゲットを別の位置にドラッグします。
 
-* **サイズ**&#x200B;変更「ターゲットを選択」ボタン（矢印）を使用して、ターゲットをクリックして選択します。 ポインタをズームターゲットの隅に移動し、ドラッグしてターゲットを拡大または縮小します。
+* **サイズ変**&#x200B;更「ターゲットを選択」ボタン（矢印）を使用して、ターゲットをクリックして選択します。 ポインタをズームターゲットの隅に移動し、ドラッグしてターゲットを拡大または縮小します。
 
-* **削除**&#x200B;画面の右側で、ターゲットのサムネール画像をクリックします。 次に、「ターゲット **[!UICONTROL を削除」をクリックしま]**&#x200B;す。
+* **削除**&#x200B;画面の右側でターゲットのサムネール画像をクリックします。 次に、「削除」 **[!UICONTROL ターゲット]**。
 
-* **名前の**&#x200B;変更画面の右側で、ターゲットのサムネール画像をクリックします。 Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
+* **名前の変**&#x200B;更画面の右側でターゲットのサムネール画像をクリックします。 Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
 
 ### ズームターゲットのコピー {#copying-zoom-targets}
 
 ある画像から別の画像にズームターゲットをコピーすることができます。2 つの画像に同様のコンテンツが表示され、ズームターゲットが同じ位置に属しているようにするには、ターゲットをコピーします。ズームターゲットを別の画像にコピーするには、次の手順に従います。
 
 1. ズームターゲットエディタ画面で、コピーするズームターゲットを含む画像を開きます。
-1. 「ターゲット **[!UICONTROL のコピー先」をクリックしま]**&#x200B;す。
+1. 「コピー先 **[!UICONTROL ターゲット」をクリックし]**&#x200B;ます。
 1. In the Select Images dialog box, select an image and click **[!UICONTROL Select]**.
 
