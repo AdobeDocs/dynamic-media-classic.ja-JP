@@ -4,8 +4,8 @@ seo-title: 混在メディアセットビューアのプリセットの設定
 description: 'null'
 seo-description: 混在メディアセットビューアのプリセットを設定する方法について説明します。
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
@@ -51,9 +51,9 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 1. コミュニティ機能（埋め込み、リンク、アクセス）をビューアに追加するには、次のいずれかのオプションを指定します。
 
-   * **Email** Click On（電子メール）をクリックして、ビューアで「Email」ボタンを有効にします。 セットの表示中に電子メールボタンをクリックすると、セットへのリンクが含まれる電子メールが開きます。
+   * **EmailClick** On（電子メールボタンをビューアで有効にする）。 セットの表示中に電子メールボタンをクリックすると、セットへのリンクが含まれる電子メールが開きます。
 
-   * **「埋め込み**」「クリック」 「埋め込みボタンラベル」ボックスに、埋め込みボタンとしてビューアに表示する名前を入力します。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **「埋め込み」**「ライブ」をクリックします。 「埋め込みボタンラベル」ボックスに、埋め込みボタンとしてビューアに表示する名前を入力します。If desired, click **Browse** to locate and select a custom skin for the button.
 
    * **Link** Click Live。 「リンクボタンのラベル」ボックスに、リンクボタンとしてビューアに表示する名前を入力します。If desired, click **Browse** to locate and select a custom skin for the button.
 
