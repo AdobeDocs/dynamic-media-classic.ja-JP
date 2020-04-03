@@ -2,13 +2,13 @@
 title: ビデオへのチャプターマーカーの追加
 seo-title: ビデオへのチャプターマーカーの追加
 description: 'null'
-seo-description: ビデオにチャプターマーカーを追加する方法について説明します。
-uuid: 4e1e6daf- afc6-49d9- ac90-183fe2a903b2
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/categories/video
-discoiquuid: 8bc5e552-2abb-41f0-89d2- bdf3ae5d96c2
+seo-description: ビデオにチャプターマーカーを追加する方法を説明します。
+uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -51,7 +51,7 @@ Cost-efficient access to rapidly evolving technology.
 
 HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターのファイル名拡張子は .vtt です。WebVTT のキャプション規格について、さらに詳しく調べることができます。
 
-[WebVTTを参照してください。Webビデオテキストトラックの形式](https://dev.w3.org/html5/webvtt/)。
+See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
 
 **ビデオにチャプターマーカーを追加するには**
 
