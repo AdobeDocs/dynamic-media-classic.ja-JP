@@ -2,11 +2,11 @@
 title: ビデオへのキャプションの追加
 seo-title: ビデオへのキャプションの追加
 description: 'null'
-seo-description: ビデオにキャプションを追加する方法について説明します
-uuid: 4cc64469-4369-44a9-83db-63baong51aba8a
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
+seo-description: ビデオにキャプションを追加する方法を説明します。
+uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -31,7 +31,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 [ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
 
-Dynamic Media Classicには、キャプションファイルをJSON（JavaScript Object Notation）形式に変換する機能があります。この変換によって、隠されたビデオ内容全文として、JSON テキストを Web ページに埋め込むことができます。検索エンジンがこのコンテンツをクロールしてインデックスを付けることで、ビデオが発見されやすくなり、顧客に対してビデオコンテンツの詳細を示すことができます。
+Dynamic Media Classicには、キャプションファイルをJSON(JavaScript Object Notation)形式に変換する機能があります。 この変換によって、隠されたビデオ内容全文として、JSON テキストを Web ページに埋め込むことができます。検索エンジンがこのコンテンツをクロールしてインデックスを付けることで、ビデオが発見されやすくなり、顧客に対してビデオコンテンツの詳細を示すことができます。
 
 See [Serving static (non-image) contents](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_serving_static_nonimage_contents.html) in the *Adobe Image Serving API Help* for more information about using the JSON function in a URL.
 
@@ -41,7 +41,7 @@ See [Serving static (non-image) contents](https://marketing.adobe.com/resources/
 
    | ビューアタイプ | キャプションファイル |
    |--- |--- |
-   | HTML5 | HTML5 ビデオビューアを使用している場合、作成するキャプションファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。キャプションのファイル名拡張子は .vtt です。WebVTT のキャプション規格について、さらに詳しく調べることができます。<br><br>[WebVTT](https://dev.w3.org/html5/webvtt/)を参照してください。Webビデオテキストトラックの形式。<br><br>Scene7 Publishing System の外部でキャプションファイルを作成するために使用できるツールやサービスは、無料のものも有料のものもあります。例えば、スタイリングなしの単純なビデオキャプションファイルを作成するには、次の無料のオンラインキャプション作成および編集ツールを使用できます。 <br><br>[WebVTTキャプションメーカー](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html)<br><br>最良の結果を得るには、Internet Explorer9以上、Google ChromeまたはSafariのツールを使用します。<br><br>このツールで、<b>「Enter URL of video file」</b>フィールドにビデオファイルの URL を貼り付けて、<b>「Load」</b>をクリックします。<br><br>例えば、ビデオファイルにダイナミックメディアクラシックURLを使用している場合、SPSで（アダプティブビデオセットやマスタービデオではなく）個別のビデオアセットをダブルクリックして、詳細ビューで開きます。詳細ビューの右側のパネルで、「URL と埋め込みコード」を展開します。次に、「モバイル」グループで、「モバイル (プログレッシブ)」の右にある「URL をコピー」をクリックします。This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. その後、Internet Explorer、Chrome または Safari でビデオをネイティブに再生できます。作成するサイトの画面に示される指示に従って、WebVTT ファイルを保存します。完了したら、キャプションファイルのコンテンツをコピーしてプレーンテキストエディターに貼り付け、.vtt のファイル名拡張子で保存します。<br><br><b>注意:</b> 英語以外の言語のビデオキャプションをグローバルサポートする場合、WebVTT標準では、サポートする言語ごとに個別の. vttファイルを作成して呼び出す必要があることに注意してください。<br><br>通常、キャプション VTT ファイルにはビデオファイルと同じ名前を指定し、captions を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。 |
+   | HTML5 | HTML5 ビデオビューアを使用している場合、作成するキャプションファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。キャプションのファイル名拡張子は .vtt です。WebVTT のキャプション規格について、さらに詳しく調べることができます。<br><br>[WebVTT](https://dev.w3.org/html5/webvtt/):Webビデオテキストトラックの形式。 <br><br>Scene7 Publishing System の外部でキャプションファイルを作成するために使用できるツールやサービスは、無料のものも有料のものもあります。例えば、スタイルを設定しない単純なビデオキャプションファイルを作成する場合、次の無料のオンラインキャプションオーサリングおよび編集ツールを使用できます。 <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html)<br><br>最良の結果を得るには、Internet Explorer 9以降、Google ChromeまたはSafariのツールを使用します。 <br><br>このツールで、<b>「Enter URL of video file」</b>フィールドにビデオファイルの URL を貼り付けて、<b>「Load」</b>をクリックします。<br><br>例えば、ビデオファイルにダイナミックメディアクラシックURLを使用している場合、SPSで、（アダプティブビデオセットやマスタービデオではなく）個々のビデオアセットを重複クリックし、詳細表示で開きます。 詳細ビューの右側のパネルで、「URL と埋め込みコード」を展開します。次に、「モバイル」グループで、「モバイル (プログレッシブ)」の右にある「URL をコピー」をクリックします。This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. その後、Internet Explorer、Chrome、または Safari で、ビデオを再生できます。作成するサイトの画面に示される指示に従って、WebVTT ファイルを保存します。完了したら、キャプションファイルのコンテンツをコピーしてプレーンテキストエディターに貼り付け、.vtt のファイル名拡張子で保存します。<br><br><b>注意：</b> 英語以外の言語でビデオキャプションをグローバルにサポートする場合、WebVTT標準では、サポートする言語ごとに個別の.vttファイルを作成し、呼び出す必要があることに注意してください。 <br><br>通常、キャプション VTT ファイルにはビデオファイルと同じ名前を指定し、captions を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。 |
 
 1. Scene7 Publishing System で、WebVTT、DFXP または SMPTE の XML キャプションファイルをアップロードします。
 
