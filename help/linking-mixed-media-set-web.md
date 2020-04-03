@@ -2,13 +2,13 @@
 title: Web ページへの混在メディアセットのリンク
 seo-title: Web ページへの混在メディアセットのリンク
 description: 'null'
-seo-description: 混在メディアセットをWebページにリンクする方法について説明します。
-uuid: 120326a2-77e9-77e9-4d6f-9b02-0a00fa9
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/mixed_ media_ sets
-discoiquuid: b33dc4-509d-4878- a769-76642bfaeb4e
+seo-description: 混在メディアセットをWebページにリンクする方法を説明します。
+uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
@@ -44,7 +44,7 @@ source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
 ## 混在メディアセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-埋め込みコード機能を使用すると、選択した混在メディアセットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択した混在メディアセットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードの編集はできません。
 
 **混在メディアセットビューアの埋め込みコードをコピーするには**
 
