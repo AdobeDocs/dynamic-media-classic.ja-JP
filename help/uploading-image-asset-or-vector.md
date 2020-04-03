@@ -2,10 +2,10 @@
 title: 画像アセットまたはベクトルアセットのアップロード
 seo-title: 画像アセットまたはベクトルアセットのアップロード
 description: 'null'
-seo-description: 画像アセットまたはベクトルアセットをアップロードする方法について説明します。
+seo-description: 画像アセットまたはベクトルアセットをアップロードする方法を説明します。
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
@@ -22,7 +22,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 *共有秘密キー*&#x200B;を要求するには、Scene 7 テクニカルサポートまで s7support@adobe.com 宛に電子メールをお送りください。
 
-電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。ダイナミックメディアクラシックからキーを受け取ったら、後で使用できるようにローカルに保存します。
+電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Dynamic Media Classicからキーを受け取ったら、後で使用できるようにローカルに保存します。
 
 ## アップロードトークンの取得 {#retrieving-the-upload-token}
 
@@ -123,7 +123,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
 * アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
-* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「角」、「許容値」および「塗りつぶし方法」を設定します。 詳しくは、アップロード時の画像編集オ [プションのノックアウトの背景を参照してくださ](image-editing-options-upload.md#image-editing-options-at-upload)い。
+* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「角」、「許容値」、「塗りつぶし方法」を設定します。 詳しくは、アップロード時の画像編集オ [プションのノックアウトの背景を参照してくださ](image-editing-options-upload.md#image-editing-options-at-upload)い。
 * アップロードするファイルの名前
 
 <!-- 
@@ -138,13 +138,13 @@ Last Modified Date:
 
 ![]()
 
-上記のフォームに関連付けられたHTMLソースコードは、次のリンクをクリックすると表示できます。
+上のフォームに関連付けられたHTMLソースコードを表示するには、次のリンクをクリックします。
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Firefoxで、ブラウザーウィンドウを右クリックし、「ページソースを表示」をク **リックします**。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**「送信」**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
+Firefoxで、ブラウザーウィンドウを右クリックし、「 **表示ページソース**」 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**「送信」**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
 
-XML 応答を Internet Explorer で表示するには、**表示／ソース**&#x200B;をクリックします。To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. XML 応答の表示には、Firefox を使用することをお勧めします。
+XML 応答を Internet Explorer で表示するには、**表示／ソース**&#x200B;をクリックします。To view XML response in Firefox, click **Tools > Web Developer > Page Source**. XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -286,7 +286,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
 * アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
-* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「角」、「許容値」および「塗りつぶし方法」を設定します。 詳しくは、アップロード時の画像編集オ [プションのノックアウトの背景を参照してくださ](image-editing-options-upload.md#image-editing-options-at-upload)い。
+* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「角」、「許容値」、「塗りつぶし方法」を設定します。 詳しくは、アップロード時の画像編集オ [プションのノックアウトの背景を参照してくださ](image-editing-options-upload.md#image-editing-options-at-upload)い。
 * アップロードするファイルの名前
 
 <!-- 
