@@ -2,10 +2,10 @@
 title: '"クイックスタート：ビデオ"'
 seo-title: '"クイックスタート：ビデオ"'
 description: 'null'
-seo-description: 概要とビデオのクイックスタートを参照してください。
+seo-description: ビデオの概要とクイック開始を参照してください。
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
@@ -17,7 +17,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 # クイックスタート：ビデオ{#quick-start-video}
 
-Adobe Dynamic Media Classic videoは、デスクトップ、iOS、Android、BlackberryおよびWindows携帯端末を含む複数の画面にストリーミングする高品質なアダプティブビデオを簡単に公開できるエンドツーエンドのソリューションです。 アダプティブビデオセットは、同じビデオを異なるビットレート（400 kbps、800 kbps および 1000 kbps）やフォーマットでエンコードしたバージョンをグループ化します。デスクトップコンピュータまたは携帯端末は、使用可能な帯域幅を検出します。
+Adobe Dynamic Media Classic Videoは、デスクトップ、iOS、Android、BlackberryおよびWindows携帯端末を含む複数の画面にストリーミングする高品質なアダプティブビデオを簡単に公開できるエンドツーエンドのソリューションです。 アダプティブビデオセットは、同じビデオを異なるビットレート（400 kbps、800 kbps および 1000 kbps）やフォーマットでエンコードしたバージョンをグループ化します。デスクトップコンピュータまたは携帯端末は、使用可能な帯域幅を検出します。
 
 例えば、iOS の携帯端末では、3G、4G または Wi-Fi などの帯域幅を検出します。それに基づき、アダプティブビデオセットに含まれる各種ビデオビットレートの中から適切にエンコードされたビデオを自動的に選択します。ビデオはデスクトップ、携帯端末またはタブレットにストリーミングされます。
 
@@ -29,11 +29,11 @@ Adobe Dynamic Media Classic videoは、デスクトップ、iOS、Android、Blac
 1. 次の条件を使用して、帯域幅速度の変更に基づいてビデオプレーヤーが切り替わります。
 
    1. プレイヤーは、推定帯域幅以下で最も高い帯域幅ストリームを選択します。
-   1. プレイヤーは、使用可能な帯域幅の80 %しか考慮しません。 しかし、切り替えると、過大評価を避け、即座に切り替える必要がなくなるので、70%しか会話ができなくなります。
+   1. プレイヤーは、使用可能な帯域幅の80%しか考慮しません。 しかし、上に切り替えると、過大評価を避け、即座に切り替えを行わなくてはならない70%の割合で会話が進みます。
 
-アルゴリズムの技術情報については、https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp [で](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) 「アルゴリズムのロジック」を参照してください。
+アルゴリズムの技術情報については、 [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) （英語のみ）のアルゴリズムのロジックを参照してください。
 
-単一のビデオとアダプティブビデオセットを管理する場合、ダイナミックメディアクラシックは次の機能をサポートします。
+単一のビデオおよびアダプティブビデオセットを管理する場合、ダイナミックメディアクラシックは次の機能をサポートします。
 
 * 多数あるサポート対象のビデオ形式およびオーディオ形式のビデオを、複数の画面で再生できる MP4 H.264 形式でアップロードします。定義済みのDynamic Media Classicアダプティブビデオプリセット、単一のビデオエンコーディングプリセットを使用したり、独自のエンコーディングをカスタマイズしてビデオの品質とサイズを制御したりできます。
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic videoは、デスクトップ、iOS、Android、Blac
 
    `**Note:**` マスター/ソースビデオおよびその他のソース形式のビデオは ** 、アダプティブビデオセットに追加されません。
 
-* Univeral_HTML5_Video、Universal_HTML5_MixedMedia_dark、Universal_HTML5_MixedMedia_lightビューアおよびUniversal_HTML5_Video、Universal_HTML5_MixedMedia_dark、Universal_HTML5_MixedMedia_Mediaのビデオチャプナビゲーションのビデオキャプションライトビューア
+* Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark、Universal_HTML5_MixedMedia_lightビューアおよびUniversal_HTML5_Video、Universal_HTML5_MixedMedia_dark、Universal_HTML5_MixedMedia_Media_Mixedのビデオチャプターナビゲーションライトビューア
 
    詳しくは、[ビデオへのキャプションの追加](adding-captions-video.md)を参照してください。
 
@@ -52,15 +52,15 @@ Adobe Dynamic Media Classic videoは、デスクトップ、iOS、Android、Blac
 
    アダプティブビデオストリーミングは様々な iOS プラットフォームでサポートされています。
 
-   最新のサポート状況については、『 [Adobe Viewers Reference Guide』を参照してください](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)。
+   Adobe Viewersリファレンスガイドの最新のサポ [ートを参照してください](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)。
 
-   ダイナミックMedia Classicは、MP4 H.264ビデオのモバイルビデオ再生をサポートします。 次の Web サイトを参照すると、このビデオ形式をサポートする Blackberry 端末が見つかります。
+   ダイナミックメディアクラシックは、MP4 H.264ビデオのモバイルビデオ再生をサポートしています。 次の Web サイトを参照すると、このビデオ形式をサポートする Blackberry 端末が見つかります。
 
-   Blackberryでサポート [されるビデオ形式を参照してください](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)。
+   Blackberryでサポート [されているビデオ形式を参照してくださ](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)い。
 
    次を参照すると、このビデオ形式をサポートする Windows 端末が見つかります。
 
-   Windows phoneでサ [ポートされるビデオ形式を参照してください](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)。
+   Windows Phoneでサ [ポートされるビデオ形式を参照してください](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)。
 
 * 次のビデオを含む、ダイナミックメディアクラシックビューアプリセットを使用してビデオを再生します。
 
@@ -70,16 +70,16 @@ Adobe Dynamic Media Classic videoは、デスクトップ、iOS、Android、Blac
 * ブランドニーズに合わせてビデオプレーヤーを設定します。
 * 簡素な URL または埋め込みコードを使用して、ビデオを Web サイト、モバイルサイトまたはモバイルアプリケーションに統合します。
 
-**クイックスタート**
+**クイック開始**
 
-次の順を追ったワークフローに従って、Dynamic Media Classicのアダプティブビデオセットをすばやく習得できます。 各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
+次の手順に従って、Dynamic Media Classicのアダプティブビデオセットをすばやく習得できるように、ワークフローを説明します。 各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
 
-**1. ビデオのアップロードとエンコード**
+**1.ビデオのアップロードとエンコード**
 
 次の 2 つのシナリオのうちいずれかを使用して、アダプティブビデオセットをアップロードおよび生成します。
 
-* **エンコード済みビデオのアップロード**&#x200B;ビデオが既にDynamic Media Classicの外部でエンコードされている場合は、グローバルナビゲーションバーの「アップロード」をクリックして **** 、MP4ビデオファイルを参照し、Scene7 Publishing systemに直接アップロードします。 次に、**ビルド／アダプティブビデオセット**&#x200B;をクリックします。ビデオファイルを参照します。目的のビデオファイルを「アダプティブビデオセット」テーブルにドラッグアンドドロップし、セットを保存します。
-* **マスターソースビデオのアップロード****** ビデオがエンコードされていない場合は、グローバルナビゲーションバーの「アップロード」をクリックしてマスタービデオソースファイル（MP4以外）をアップロードし、Scene7 Publishing systemでMP4ファイルにエンコードするようにします。 アップロードオプションを設定ダイアログボックスの「eVideo オプション」で、「**アダプティブビデオ**」を選択します。
+* **エンコード済みビデオのアップロ**&#x200B;ードビデオが既にDynamic Media Classic以外でエンコードされている場合は、グローバルナビゲーションバーの「アップロード **** 」をクリックして、MP4ビデオファイルを参照し、Scene7 Publishing Systemに直接アップロードします。 次に、**ビルド／アダプティブビデオセット**&#x200B;をクリックします。ビデオファイルを参照します。目的のビデオファイルを「アダプティブビデオセット」テーブルにドラッグアンドドロップし、セットを保存します。
+* **マスターソースビデオのアップロ****** ードビデオがエンコードされていない場合は、グローバルナビゲーションバーの「アップロード」をクリックしてマスタービデオソースファイル（MP4以外）をアップロードし、Scene7 Publishing SystemでMP4ファイルにエンコードするようにします。 アップロードオプションを設定ダイアログボックスの「eVideo オプション」で、「**アダプティブビデオ**」を選択します。
 
    これは推奨されているオプションで、アップロードしたビデオのサイズに合わせて、ビデオに適切なエンコーディングプリセット（16:9 または 4:3）を自動的に適用するアダプティブビデオセットを作成できます。アップロードジョブを送信すると、アダプティブビデオセットが自動的に作成されます。このアダプティブビデオセットには、適切な縦横比の 3 つのビデオエンコードが含まれます。
 
@@ -91,7 +91,7 @@ Adobe Dynamic Media Classic videoは、デスクトップ、iOS、Android、Blac
 
 **オプション**
 
-Dynamic Media Classicには、定義済みのビデオエンコーディングプリセットが多数用意されています。 これらの定義済みプリセットは、今日の最も一般的なビデオエンコーディング設定を反映しており、ターゲット画面での再生用に最適化されています。
+ダイナミックMedia Classicオファーには、定義済みのビデオエンコーディングプリセットが多数あります。 これらの定義済みプリセットは、今日の最も一般的なビデオエンコーディング設定を反映しており、ターゲット画面での再生用に最適化されています。
 
 ただし、さらにカスタマイズする必要がある場合は、管理者はビデオプリセットを作成して、エンドユーザー向けのビデオのサイズと再生操作をカスタマイズすることもできます。管理者は、ビデオプリセットページでビデオプリセットを追加および管理することができます。ビデオプリセットページは、設定／アプリケーション設定／ビデオプリセット／シングルエンコーディングプリセットからアクセスできます。ビデオプリセットページには、ビデオプリセットの追加、編集、削除およびアクティブ化を行うオプションがあります。
 
@@ -107,7 +107,7 @@ Dynamic Media Classicには、定義済みのビデオエンコーディング�
 
 **オプション**
 
-ビューアプリセットのカスタマイズ — ダイナミックメディアクラシックには、ビデオ配信用の定義済みビューアプリセットが用意されています。 これらのプリセットは、ビューアの外観と、その再生コントロールの動作を決定します。管理者はビデオビューアをカスタマイズするために、ビューアプリセットページでビューアプリセットを追加および管理することができます。このページを開くには、Scene7 Publishing System の右上隅にある設定／ビューアプリセットをクリックします。ビューアプリセットページには、ビューアプリセットの追加、編集、削除およびアクティブ化を行うコマンドがあります。
+ビューアプリセットのカスタマイズ — ビデオ配信用の定義済みオファーのビューアプリセット。 これらのプリセットは、ビューアの外観と、その再生コントロールの動作を決定します。管理者はビデオビューアをカスタマイズするために、ビューアプリセットページでビューアプリセットを追加および管理することができます。このページを開くには、Scene7 Publishing System の右上隅にある設定／ビューアプリセットをクリックします。ビューアプリセットページには、ビューアプリセットの追加、編集、削除およびアクティブ化を行うコマンドがあります。
 
 詳しくは、[ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working_with_video_viewer_presets)を参照してください。
 
