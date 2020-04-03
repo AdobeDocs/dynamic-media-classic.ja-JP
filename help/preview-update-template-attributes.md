@@ -2,12 +2,12 @@
 title: テンプレート属性のプレビューと更新
 seo-title: テンプレート属性のプレビューと更新
 description: 'null'
-seo-description: テンプレート属性をプレビューおよび更新する方法について説明します。
+seo-description: テンプレート属性のプレビューおよび更新方法を説明します。
 uuid: ef5848e9-5302-42a4-8184-1b1151ff10db
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/template- publishing
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
 discoiquuid: 10397c2f-0fb0-4580-9bba-009e8ab7d1e2
 translation-type: tm+mt
 source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
