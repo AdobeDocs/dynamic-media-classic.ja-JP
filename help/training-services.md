@@ -17,7 +17,7 @@ source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
 
 # Adobe トレーニングサービス{#adobe-training-services}
 
-Dynamic Media Classicは、ビデオチュートリアル、講師が指導するワークショップおよびWebセッション、デモの形でトレーニングを提供します。
+Dynamic Media Classicオファーは、ビデオチュートリアル、講師が指導するワークショップおよびWebセッション、デモの形でトレーニングを受けます。
 
 **Adobe トレーニングサービス**
 
@@ -35,10 +35,10 @@ See [Quick Start Video Tutorials](https://marketing.adobe.com/resources/help/en_
 
 ダイナミックメディアクラシックビューアの機能に関するデモをご覧ください。
 
-デモを参 [照してください](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html)。
+デモを参 [照してくださ](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html)い。
 
 **ヘルプの「はじめに」の章**
 
-ヘルプシステムの「はじめに」の節には、Dynamic Media Classicを初めて使用するユーザー向けの説明が表示されます。 プラットフォーム、ナビゲーション、設定、アセット管理、およびリッチメディアの作成方法などに関する基本情報が説明されています。
+ヘルプシステムの「はじめに」の節に、Dynamic Media Classicの初心者向けの説明が表示されます。 プラットフォーム、ナビゲーション、設定、アセット管理、およびリッチメディアの作成方法などに関する基本情報が説明されています。
 
 詳しくは、[はじめに](scene7-platform-overview.md)を参照してください。
