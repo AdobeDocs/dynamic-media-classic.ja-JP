@@ -2,13 +2,13 @@
 title: 画像セットの表示
 seo-title: 画像セットの表示
 description: 'null'
-seo-description: 画像セットを表示する方法について説明します。
-uuid: bb5b0entity- abc0-4236- ac43-09edb9bb3651
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/image_ sets
-discoiquuid: 027aa3e0- f085-48ae- awa9-7b805bdf8ab
+seo-description: 画像セットの表示方法を説明します。
+uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
@@ -19,7 +19,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 画像セットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。画像セットには「ズームビューア : カスタム」ビューアプリセットを使用します。
 
-Dynamic Media Classicには初期設定のビューアプリセットが付属しています。管理者は、ビューアプリセットを作成または変更できます。
+ダイナミックMedia Classicには、初期設定のビューアプリセットが用意されています。 管理者は、ビューアプリセットを作成または変更できます。
 
 ## 画像セットのズームビューアプリセットの設定 {#setting-up-zoom-viewer-presets-for-image-sets}
 
@@ -28,9 +28,9 @@ Dynamic Media Classicには初期設定のビューアプリセットが付属�
 1. **設定**／**ビューアプリセット**&#x200B;をクリックします。
 1. 次のいずれかの方法で、ビューアプリセット画面でビューアプリセットを作成または編集します。
 
-   **「追加** 」をクリックします。ビューアプリセットを追加ダイアログボックスで、プラットフォームを選択し、「ズームビューア : カスタム」を選択して、「追加」をクリックします。既存のプリセットからズームビューアプリセットを作成することもできます。プリセットの名前を表示して選択し、「編集」ボタンを選択します。ビューアを設定画面で、プリセットの新しい名前を入力します。
+   **クリックの作成** 」を参照して追加ください。 ビューアプリセットを追加ダイアログボックスで、プラットフォームを選択し、「ズームビューア : カスタム」を選択して、「追加」をクリックします。既存のプリセットからズームビューアプリセットを作成することもできます。プリセットの名前を表示して選択し、「編集」ボタンを選択します。ビューアを設定画面で、プリセットの新しい名前を入力します。
 
-   **編集** プリセットの名前を編集して選択し、 **「編集**」をクリックします。
+   **編集** ：プリセットの名前を表示し、選択して「編集」をクリック **します**。
 
 1. ビューアを設定画面で、オプションを選択します。
 
@@ -51,7 +51,7 @@ Dynamic Media Classicには初期設定のビューアプリセットが付属�
    * アセットウィンドウの上のツールバーの右側にある&#x200B;**「リストビュー」**&#x200B;をクリックします。In the Asset window, hover on an asset, then click **Preview**.
    * アセットウィンドウの上のツールバーの右側にある&#x200B;**「グリッドビュー」**&#x200B;をクリックします。アセットウィンドウのアセットサムネールウィンドウで、**「プレビュー」**&#x200B;をクリックします。
    * アセットウィンドウの上のツールバー右側にある&#x200B;**「詳細ビュー」**&#x200B;をクリックします。同じツールバーで、**「プレビュー」**&#x200B;をクリックします。
-   * アセットウィンドウで、アセットを選択します。On the toolbar, click **File** &gt; **Preview**.
+   * アセットウィンドウで、アセットを選択します。On the toolbar, click **File** > **Preview**.
 
 1. （オプション）プレビューウィンドウ下部のドロップダウンリストで、アセットの URL がコピーされるときにアセットの URL に適用する URL エンコーディングを選択します。
 1. ビューアのリンクをクリックして、選択したビューアでアセットをプレビューします。
