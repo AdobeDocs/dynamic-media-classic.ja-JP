@@ -2,11 +2,11 @@
 title: ディスク使用状況に関する情報の取得
 seo-title: ディスク使用状況に関する情報の取得
 description: 'null'
-seo-description: ディスク使用状況情報を取得する方法について説明します。
-uuid: 01361693-53d0-4072- b7c3- f284631d28cf
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
+seo-description: ディスクの使用状況に関する情報を取得する方法を説明します。
+uuid: 01361693-53d0-4072-b7c3-f284631d28cf
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
