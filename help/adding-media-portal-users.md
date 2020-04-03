@@ -2,13 +2,13 @@
 title: Media Portal のユーザの追加と管理
 seo-title: Media Portal のユーザの追加と管理
 description: 'null'
-seo-description: Media Portalユーザを追加および管理する方法について説明します
-uuid: 96d4103c-6428-4ce1- b9e4-231599304f27
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/media_ portal
-discoiquuid: 5e933045- ce1a-41b9- ba8b-2151c396b7a2
+seo-description: Media Portalユーザの追加方法と管理方法を説明します。
+uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -73,7 +73,7 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 | 姓 | 姓。 |
 | 電子メール | 有効な電子メールアドレス。 |
 | パスワード | パスワード（大文字と小文字を区別）。 |
-| ユーザの役割 | Media Portal AdminMediaPortal UserPolicyPolicyRepositoryMediaPortal寄稿者ユーザ |
+| ユーザの役割 | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUser |
 | グループ | 各ユーザの 1 つまたは複数のアカウントグループ割り当てをカンマで区切ったリストです。アカウント名にプリフィックスを付け、スラッシュ（/）で区切ることで、グループを指定します。例えば、PortalCo/IT の場合、PortalCo はアカウント、IT は PortalCo アカウント内のグループです。 |
 
 次のサンプルスプレッドシートで、CSV ファイルのレイアウト方法の例を示します。
@@ -105,30 +105,30 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 
 ## Media Portal ユーザ向けのご案内の電子メールメッセージの設定 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定するか、Dynamic Media Classicに送信しないように指示します。
+新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定するか、Dynamic Media Classicに送信しないように設定できます。
 
 1. **設定**／**アプリケーション設定**／**管理設定**／**ユーザ管理**&#x200B;を選択します。
 1. In the User Administration Setup screen, click **Email Settings**.
 1. 電子メール設定ダイアログボックスで、次のいずれかの設定を指定します。
 
-   **新規ユーザにサインアップしたことを電子メールで通知しない場合は、この** オプションの選択を解除します。
+   **電子メールの送信** 新しいユーザーにサインアップしたことを電子メールで通知しない場合は、このオプションの選択を解除します。
 
-   **デフォルトのパスワード** 新規ユーザーの一時パスワードを入力するか、またはフィールドに空のパスワードを生成するための空白のままにします。ユーザは、初めてログインしたときにパスワードを変更するように指示されます。
+   **デフォルトのパスワード** ：新規ユーザーの一時パスワードを入力するか、フィールドを空のままにして、ランダムなパスワードを生成します。 ユーザは、初めてログインしたときにパスワードを変更するように指示されます。
 
-   **置換URL** 別のURLからDynamic Media Classicにアクセスする場合、初期設定のURLとは異なるURLを入力します。
+   **置換URL** ユーザーが別のURLを使用してDynamic Media Classicにアクセスする場合、デフォルトとは異なるURLを入力します。
 
 ## その他のユーザ管理タスク {#other-user-management-tasks}
 
 ユーザ管理設定画面から、次のタスクも実行できます。
 
-**ユーザリストのフィルタと並べ替えユーザリスト** をフィルタしてユーザを検索します。詳しくは、ユーザリストのフィルタリングと並べ替えを参照してください。
+**ユーザリストのフィルタと並べ替え** Media Portalユーザのリストをフィルタして、ユーザを特定します。 詳しくは、ユーザリストのフィルタリングと並べ替えを参照してください。
 
-**削除ユーザー** リストからユーザーを削除します。詳しくは、ユーザの削除を参照してください。
+**ユーザーの削除** ：ユーザーを削除します。 詳しくは、ユーザの削除を参照してください。
 
-**ユーザー** のアクティブ化と非アクティブ化ユーザがフォルダにアクセスするのを停止します。詳しくは、ユーザのアクティブ化と非アクティブ化を参照してください。
+**ユーザーのアクティブ化と非アクティブ化** ユーザーによるフォルダへのアクセスを停止します。 詳しくは、ユーザのアクティブ化と非アクティブ化を参照してください。
 
-**ユーザー情報** の編集ユーザに関する最新情報を入力します。詳しくは、ユーザ情報の編集を参照してください。
+**ユーザ情報の編集** ：ユーザに関する最新の情報を入力します。 詳しくは、ユーザ情報の編集を参照してください。
 
-**ユーザ定義フィールド** の作成ユーザ定義のカスタムメタデータフィールドを作成して、Scene7Publishing Systemのアセットを整理するのに役立ちます。このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
+**ユーザ定義フィールドの作成** Scene7 Publishing Systemのアセットを整理するのに役立つ、ユーザ定義のカスタムメタデータフィールドを作成します。 このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
 
 [ユーザ定義フィールド](application-setup.md#user_defined_fields)を参照してください。
