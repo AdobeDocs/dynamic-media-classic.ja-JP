@@ -2,13 +2,13 @@
 title: '"クイックスタート：画像セット"'
 seo-title: '"クイックスタート：画像セット"'
 description: 'null'
-seo-description: 画像セットの操作方法をすばやく習得できるように、概要とクイックスタート画像セットです。
+seo-description: 画像セットの概要とクイック開始を参照し、画像セットの操作方法をすばやく習得できます。
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/image_ sets
-discoiquuid: 612a425f-2840-46c4-8e5a- c0bc5f738f4e
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,15 +17,15 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # クイックスタート：画像セット{#quick-start-image-sets}
 
-Dynamic Media Classic画像セットには、統合されたビューア操作があります。動的な画像セットビューアでは、ユーザがサムネール画像をクリックすると、項目の様々なビューが表示されます。画像セットを使用すると、項目の高解像度ビューを表示できます。
+ダイナミックメディアクラシック画像セットは、統合された表示操作をユーザに提供します。 動的な画像セットビューアでは、ユーザがサムネール画像をクリックすると、項目の様々なビューが表示されます。画像セットを使用すると、項目の高解像度の代替表示を表示できます。
 
 画像セットビューアでは、ズームツールを使用して、詳細に画像を確認できます。また必要に応じて、画像セットのガイドズーム用のズームターゲットや画像マップを作成できます。画像セットによって、統合的で詳細な表示操作が可能になります。
 
-ここでは、Dynamic Media Classicの画像セットの操作方法をすばやく習得できるように、手順について簡潔に説明します。
+この画像セットのクイック開始は、Dynamic Media Classicの画像セットの操作方法をすばやく習得できるように設計されています。
 
-**1. 複数のビューおよびスウォッチ用のマスター画像のアップロード**
+**1.複数のビューおよびスウォッチ用のマスター画像のアップロード**
 
-まず、画像セット用の画像をアップロードします。ユーザは画像セットビューアをズームできるので、ズーム機能を考慮して画像を選択します。そのため、長辺が少なくとも 2000 pixel の画像を使用してください。Dynamic Media Classicは、多くの画像ファイル形式をサポートしていますが、可逆圧縮形式のTIFF、PNG、EPS画像を使用することをお勧めします。
+まず、画像セット用の画像をアップロードします。ユーザは画像セットビューアをズームできるので、ズーム機能を考慮して画像を選択します。最大サイズで 2,000 ピクセル以上の画像を使用してください。Dynamic Media Classicは、多くの画像ファイル形式をサポートしていますが、可逆圧縮TIFF、PNG、EPS画像をお勧めします。
 
 グローバルナビゲーションバーの「アップロード」ボタンを選択して、コンピュータから Scene7 Publishing System のフォルダにファイルをアップロードします。
 
@@ -41,9 +41,9 @@ Dynamic Media Classic画像セットには、統合されたビューア操作�
 
 [画像セットへのズームターゲットと画像マップの追加](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)も参照してください。
 
-**3. 必要に応じて画像セットビューアのプリセットを設定する**
+**3. 必要に応じて、画像セットビューアのプリセットを設定します**
 
-管理者は、画像セットビューアのプリセットを作成または変更できます。Dynamic Media Classicには、各リッチメディアタイプの初期設定のビューアプリセットが付属しています。ズームビューア : カスタム／画像、または画像セット / 複数ビューのプリセットを使用して、画像セットを表示します。
+管理者は、画像セットビューアのプリセットを作成または変更できます。ダイナミックMedia Classicには、各リッチメディアタイプの初期設定のビューアプリセットが用意されています。 ズームビューア : カスタム／画像、または画像セット / 複数ビューのプリセットを使用して、画像セットを表示します。
 
 ビューアプリセットは、アプリケーション設定画面で追加または編集できます。
 
@@ -57,11 +57,11 @@ Dynamic Media Classic画像セットには、統合されたビューア操作�
 
 **5. 画像セットの公開**
 
-画像セットを公開すると、それがDynamic Media Classicサーバに配置され、URL文字列がアクティブになります。
+画像セットを公開すると、その画像セットがダイナミックメディアクラシックサーバに配置され、URL文字列がアクティブになります。
 
 >[!NOTE]
 >
->画像セットを作成して保存したときに「保存後に公開」を選択した場合、この手順は必要ありません。
+>この手順は、画像セットを作成して保存した際に「**保存後に公開」を選択した場合は不要です（初期設定）。
 
 Click the Mark for Publish icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
@@ -69,7 +69,7 @@ Click the Mark for Publish icon to the left of its name in the Browse Panel. The
 
 **6. 画像セットから Web サイトへのリンク**
 
-画像セットのURL呼び出しが作成され、公開後にアクティブになります。これらの URL は、プレビュー画面からコピーすることができます。
+画像セットのURL呼び出しが作成され、公開後にアクティブになります。 これらの URL は、プレビュー画面からコピーすることができます。
 
 画像セットを選択して、「プレビュー」ボタンをクリックします。プレビュー画面が開きます。Select an Image Set Viewer Preset and click **Copy URL**.
 
