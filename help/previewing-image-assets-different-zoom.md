@@ -2,13 +2,13 @@
 title: 様々なズームビューアでの画像アセットのプレビュー
 seo-title: 様々なズームビューアでの画像アセットのプレビュー
 description: 'null'
-seo-description: 様々なズームビューアで画像アセットをプレビューする方法について説明します。
-uuid: 244c0faa-2a33-416f-8987- bdc0c85f5c2e
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/categories/zoom
-discoiquuid: b072d3b7-0d30-4903-9c87-5fbcc89bd51
+seo-description: 様々なズームビューアでプレビュー画像アセットを画像化する方法を説明します。
+uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
