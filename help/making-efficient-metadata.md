@@ -2,13 +2,13 @@
 title: メタデータの使用の効率化
 seo-title: メタデータの使用の効率化
 description: 'null'
-seo-description: メタデータをより効率的に使用する方法について説明します。
-uuid: 6690b815- ca5f-491f-94eb-3d4657fbb8ed
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/media_ portal
-discoiquuid: b399c2b2-3e59-43e7- aa7d- dd4fdf4e9bad
+seo-description: メタデータをより効率的に使用する方法を説明します。
+uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
