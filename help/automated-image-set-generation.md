@@ -2,13 +2,13 @@
 title: 画像セットの自動生成
 seo-title: 画像セットの自動生成
 description: 'null'
-seo-description: '画像セットの生成を自動化する方法について説明します。 '
-uuid: bd4b3252-3e77-4230-9684- cd6d28b8eecb
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/image_ sets
-discoiquuid: 1a9b525e-6120-44c7- b11a- e56bfb7cd017
+seo-description: '画像セットの生成を自動化する方法を説明します。 '
+uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
