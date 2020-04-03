@@ -2,12 +2,12 @@
 title: アップロードしたアセットの削除
 seo-title: アップロードしたアセットの削除
 description: 'null'
-seo-description: アップロードされたアセットを削除する方法について説明します。
-uuid: edd2b688- c377-4be1- ba16- d2dd2e6f716d
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-discoiquuid: dd338c8c-06c6-44d5-8493- dc2087eeafb
+seo-description: アップロードしたアセットを削除する方法を説明します。
+uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -46,7 +46,7 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 |--- |--- |--- |
 | op | 必須 | 削除 |
 | shared_secret | 必須 | 会社の共有秘密キー. |
-| <ul><li>画像の場合:image_ name</li><li>ベクトル：fxg_name</li></ul> | 必須 | 削除するアセットの名前。 |
+| <ul><li>画像の場合：image_name</li><li>ベクトル：fxg_name</li></ul> | 必須 | 削除するアセットの名前。 |
 
 **サンプル画像の URL：**
 
