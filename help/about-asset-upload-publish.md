@@ -2,12 +2,12 @@
 title: アセットのアップロードと公開について
 seo-title: アセットのアップロードと公開について
 description: 'null'
-seo-description: Dynamic Media Classicでのアセットのアップロードと公開について説明します。
-uuid: 01a9c2d7-16bf-4fb2-9001- cb07a6233692
-contentOwner: rbrfh
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/categories/upload_ and_ publish_ assets
-discoiquuid: 47dcbb26- b90f-40d7-964e- f08fe98fcdbb
+seo-description: Dynamic Media Classicでのアセットのアップロードと公開の概要です。
+uuid: 01a9c2d7-16bf-4fb2-9001-cb07a6233692
+contentOwner: rbrough
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -16,17 +16,17 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 # アセットのアップロードと公開について{#about-uploading-and-publishing-assets}
 
-Dynamic Media Classicの作業は、次の3つの基本領域にあります。
+ダイナミックメディアクラシックでの作業は、次の3つの基本領域に分類されます。
 
 * Scene7 Publishing System へファイルアセットをアップロードする
 * リッチメディアアセットの作成に使用できるようにファイルを管理する
-* Webサイトやアプリケーションに配信できるように、アセットファイルをDynamic Media Classicサーバーに公開します。
+* Webサイトやアプリケーションに配信できるように、アセットファイルをDynamic Media Classicサーバーに公開する。
 
-アセットファイルをScene7Publishing Systemにアップロードするとき、およびアセットファイルをDynamic Media Classicサーバーに公開すると、システムはこれらのファイル転送をジョブページに記録します。このページで、アップロードおよび公開操作を追跡および監視することができます。
+アセットファイルをSPSにアップロードする場合、およびアセットファイルをダイナミックメディアクラシックサーバに公開する場合、システムはこれらのファイル転送をジョブページに記録します。 このページで、アップロードおよび公開操作を追跡および監視することができます。
 
 >[!NOTE]
 >
->*ファイルをアップロードすると、そのファイルのURLがDynamic Media Classicによって生成されます。URL は、ファイルを公開するまでアクティブになりません。*
+>*ファイルをアップロードすると、そのファイルのURLがダイナミックメディアクラシックによって生成されます。 URL は、ファイルを公開するまでアクティブになりません。*
 
 >[!NOTE]
 >
