@@ -2,13 +2,13 @@
 title: ソースおよびエンコードされたビデオの書き出し
 seo-title: ソースおよびエンコードされたビデオの書き出し
 description: 'null'
-seo-description: ソースビデオとエンコードされたビデオを書き出す方法について説明します。
-uuid: 17511bdf-27b7-41e1- bf39- a5e39f55f5d8
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/categories/video
-discoiquuid: f6a2dc19-7eb5-41f7- b6f2- de1979ed1d4e
+seo-description: ソースビデオとエンコードされたビデオを書き出す方法を説明します。
+uuid: 17511bdf-27b7-41e1-bf39-a5e39f55f5d8
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
