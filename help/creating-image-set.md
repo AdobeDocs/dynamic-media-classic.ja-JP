@@ -2,13 +2,13 @@
 title: 画像セットの作成
 seo-title: 画像セットの作成
 description: 'null'
-seo-description: 画像セットの作成方法について説明します。
-uuid: 689fdc14-4f51-4c94-8515- cd8551e101d8
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/image_ sets
-discoiquuid: 3f356410- b30e-4870- ad95-6e5a9dc126c8
+seo-description: 画像セットの作成方法を説明します。
+uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -34,9 +34,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 次のいずれかの操作を行います。
 
-   **参照パネルで画像** を選択し、画像セットに使用する画像を選択し、ビルド/画像セットをクリックします。
+   **最初に画像を選択します** 。参照パネルで、画像セットに含める画像を選択し、ビルド/画像セットをクリックします。
 
-   **画像セット画面から、ビルド/画像セットを** クリックします。画像セット画面が開きます。アセットライブラリでフォルダを選択し、画像セットに使用する画像を画像セット画面にドラッグします。
+   **開始セット画面でビルド** /画像セットをクリックします。 画像セット画面が開きます。アセットライブラリでフォルダを選択し、画像セットに使用する画像を画像セット画面にドラッグします。
 
 1. 画像の順序を変更するには、画像を別の場所にドラッグします。
 1. ページ右下付近にある「**保存後に公開**」が選択済み（初期設定）であることを確認します。
@@ -50,7 +50,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 | セットが既に公開されているか？ | 編集内容の保存前に「保存後に公開」オプションが選択されているか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 |--- |--- |--- |--- |
 | はい | はい | 公開 | 公開 |
-| はい | いいえ | 公開 | 既存のセットメンバーは公開状態を維持します。編集中に追加した新しいセットメンバーは、公開または非公開の状態を維持します。 |
+| はい | いいえ | 公開 | 既存のセットメンバーは、公開状態を保持します。編集中に追加した新しいセットメンバーは、公開状態または非公開の状態を保持します。 |
 | いいえ | はい | 公開 | 公開 |
 | いいえ | いいえ | 非公開 | 既存のセットメンバーおよび編集中に追加した新しいセットメンバーの公開または非公開の状態が維持される。 |
 
