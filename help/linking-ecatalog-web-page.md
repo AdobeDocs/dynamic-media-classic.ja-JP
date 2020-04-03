@@ -2,13 +2,13 @@
 title: Web ページへの eCatalog のリンク
 seo-title: Web ページへの eCatalog のリンク
 description: 'null'
-seo-description: eCatalogをWebページにリンクする方法について説明します。
+seo-description: eCatalogをWebページにリンクする方法を説明します。
 uuid: 90098a90-180b-477a-8533-24a52a93200b
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/eCatalog/eCatalog
-discoiquuid: 140640f2-3ca4-4b6c- a240-5f01be87fa9c
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -17,7 +17,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # Web ページへの eCatalog のリンク{#linking-an-ecatalog-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列または埋め込みコードを使用して、eCatalogなどのダイナミックメディアImage Serverのコンテンツにアクセスします。この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションに eCatalog の URL 文字列や埋め込みコードを設定するには、Scene7 Publishing System から URL 文字列や埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogなどのDynamic Media Image Serverのコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションに eCatalog の URL 文字列や埋め込みコードを設定するには、Scene7 Publishing System から URL 文字列や埋め込みコードをコピーします。
 
 >[!NOTE]
 >
@@ -46,11 +46,11 @@ Webサイトやアプリケーションは、URL文字列または埋め込み�
 
 eCatalog にアクセスする方法としてよく使われるのは、eCatalog の表紙のサムネールを Web ページにリンクとして貼り付ける方法です。中央にきちんと表示されるポップアップウィンドウで eCatalog が起動するように、IT 部門の担当者と相談してください。また、ブラウザ画面にツールバーやアドレスバーなどを表示しないように依頼してください。
 
-詳しくは、"Adobeビューアリファレンスガイド»の?«HTML5eCatalogビューアの埋め込み[](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_ecatalog_viewer_about.html)
+詳しくは、『Adobeビューアリファレンスガ [イド』のHTML5 eCatalogビューアの埋め込みを参照してください](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_ecatalog_viewer_about.html)。
 
 ## eCatalog ビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-埋め込みコード機能を使用すると、選択した eCatalog のビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択した eCatalog のビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードの編集はできません。
 
 **eCatalog ビューアの埋め込みコードをコピーするには**
 
