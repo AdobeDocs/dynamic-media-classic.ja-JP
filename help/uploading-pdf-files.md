@@ -4,8 +4,8 @@ seo-title: PDF ファイルのアップロード
 description: 'null'
 seo-description: eCatalogに関連付けられたPDFファイルをアップロードする方法を説明します。
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
@@ -42,11 +42,11 @@ PDF ファイルを Scene7 Publishing System にアップロードする前に�
 
 * **検索語を抽出（オプション）** eCatalogで閲覧者がキーワードで検索できるようにするには、このオプションを選択します。
 
-* **複数ページのPDFからeCatalogを自動生成（オプション）**&#x200B;アップロード時にeCatalogを自動的に作成する場合は、このオプションを選択します。 PDF ファイルを選択してから「ビルド」コマンドを選択しなくても、eCatalog 画面が開き、eCatalog で作業できるようになります。eCatalog の名前は、PDF ファイルの名前をもとに付けられます。
+* **複数のページのPDFからeCatalogを自動生成（オプション）**&#x200B;アップロード時にeCatalogを自動的に作成する場合は、このオプションを選択します。 PDF ファイルを選択してから「ビルド」コマンドを選択しなくても、eCatalog 画面が開き、eCatalog で作業できるようになります。eCatalog の名前は、PDF ファイルの名前をもとに付けられます。
 
 * **解像度** Dynamic Media Classicでは、推奨の解像度は150 ppiです。
 
-* **Colorspace** Dynamic Media Classicでは、「自動検出」を選択することを推奨します。 一般的に PDF のカラースペースは、印刷出力が目的の場合には CMYK、オンライン表示が目的の場合には RGB になります。PDF に両方のカラースペースが含まれている場合は、「RGB としてレンダリング」または「CMYK としてレンダリング」のいずれかを選択して、一方のカラースペースを選択できます。例えば、ページのグラフィックに CMYK カラースペースが使用され、ピクチャに RGB カラースペースが使用されている場合には、両方のカラースペースが PDF に含まれます。ICC プロファイルをアップロードしておくと、カラースペースメニューにその名前が表示され、選択して使用できます。
+* **「自動検出」**&#x200B;を選択することを推奨します。 一般的に PDF のカラースペースは、印刷出力が目的の場合には CMYK、オンライン表示が目的の場合には RGB になります。PDF に両方のカラースペースが含まれている場合は、「RGB としてレンダリング」または「CMYK としてレンダリング」のいずれかを選択して、一方のカラースペースを選択できます。例えば、ページのグラフィックに CMYK カラースペースが使用され、ピクチャに RGB カラースペースが使用されている場合には、両方のカラースペースが PDF に含まれます。ICC プロファイルをアップロードしておくと、カラースペースメニューにその名前が表示され、選択して使用できます。
 
    詳しくは、[ICC プロファイル](icc-profiles.md#icc_profiles)を参照してください。
 
@@ -54,9 +54,9 @@ PDF ファイルを Scene7 Publishing System にアップロードする前に�
 
 * **ConvertTo SRGB** SRGB(Standard Red Green Blue)に変換します。 Web ページに画像を表示する場合のカラースペースには SRGB が推奨されます。
 
-* **[元のカラースペースを維持**]元のカラースペースを保持します。
+* **[元のカラースペースを保持]**&#x200B;元のカラースペースを保持します。
 
-* **カスタム/変換先**&#x200B;メニューを開き、「変換前」と「変換後」のカラースペースを選択できます。 標準の Photoshop カラースペースまたは Scene7 Publishing System にアップロードされたカラースペースを選択できます。
+* **「カスタムの開始日」**/「終了日」を選択すると、「変換前」と「変換後」のカラースペースを選択できます。 標準の Photoshop カラースペースまたは Scene7 Publishing System にアップロードされたカラースペースを選択できます。
 
 詳しくは、[ICC プロファイル](icc-profiles.md#icc_profiles)を参照してください。
 
