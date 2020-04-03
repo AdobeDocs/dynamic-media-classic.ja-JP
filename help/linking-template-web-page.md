@@ -2,13 +2,13 @@
 title: Web ページへのテンプレートのリンク
 seo-title: Web ページへのテンプレートのリンク
 description: 'null'
-seo-description: テンプレートをWebページにリンクする方法について説明します。
-uuid: f111ef06-4ac-454c-86ce-5d640236d40b
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/templates/template_ basics
-discoiquuid: 989dba07-448a-45b1- b157- af50abb5359a
+seo-description: テンプレートをWebページにリンクする方法を説明します。
+uuid: f111ef06-4afc-454c-86ce-5d640236d40b
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -17,7 +17,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # Web ページへのテンプレートのリンク{#linking-a-template-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列を使用してダイナミックメディアImage Serverのコンテンツにアクセスします。テンプレートを公開すると、Dynamic Media ClassicはダイナミックメディアImage Server上のテンプレートを参照するURL文字列をアクティブにします。この URL を Web ブラウザにペーストしてテストすることができます。
+Webサイトやアプリケーションは、URL文字列を使用してDynamic Media Image Serverのコンテンツにアクセスします。 テンプレートを公開すると、ダイナミックメディアイメージサーバー上のテンプレートを参照するURL文字列がアクティブになります。 この URL を Web ブラウザにペーストしてテストすることができます。
 
 これらの URL 文字列を Web ページおよびアプリケーションに配置するには、Scene7 Publishing System から URL 文字列をコピーします。画像プリセットとともに生成されたテンプレート URL 文字列を取得するには、プレビュー画面または参照パネル（詳細ビュー）に進みます。そして、画像プリセットを選択して、「URL をコピー」ボタンを選択します。
 
