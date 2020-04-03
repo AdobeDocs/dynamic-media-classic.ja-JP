@@ -2,10 +2,10 @@
 title: サインインとサインアウト
 seo-title: サインインとサインアウト
 description: 'null'
-seo-description: ダイナミックメディアクラシックでのログインとログアウトについて説明します。
+seo-description: ダイナミックメディアクラシックでのサインインとサインアウトについて説明します。
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
@@ -27,7 +27,7 @@ Dynamic Media Classicを使用する前に、次の事項を確認してくだ�
 
 * **ログイン名**&#x200B;電子メールアドレスをログイン名として使用します。
 
-* **パスワ**&#x200B;ード一時パスワードは、Dynamic Media ClassicまたはDynamic Media Classic管理者から「ようこそ」という電子メールで取得します。 初回のサインイン時に、この一時パスワードを変更するよう求められます。
+* **パスワ**&#x200B;ード一時パスワードは、Dynamic Media ClassicまたはDynamic Media Classic管理者から「ご案内」の電子メールで取得します。 初回のサインイン時に、この一時パスワードを変更するよう求められます。
 
 ## サインイン {#sign-in}
 
