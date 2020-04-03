@@ -2,13 +2,13 @@
 title: Web ページへのズームビューアのリンク
 seo-title: Web ページへのズームビューアのリンク
 description: 'null'
-seo-description: ズームビューアをWebページにリンクする方法について説明します。
-uuid: cd350ea4-267e-4a8a- aed8-7553df86b438
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/categories/zoom
-discoiquuid: df5471c1- cda-4dd4- a7f1-5b9193b41f98
+seo-description: ズームビューアをWebページにリンクする方法を説明します。
+uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -17,7 +17,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # Web ページへのズームビューアのリンク{#linking-zoom-viewers-to-your-web-pages}
 
-Webサイトやアプリケーションは、マスター画像や関連付けられたズームターゲットなど、ダイナミックメディアImage Serverのコンテンツに、URL文字列または埋め込みコードを使用して、ズームビューアプリセットにアクセスします。この URL 文字列は、公開処理中にアクティブになります。これらの URL 文字列や埋め込みコードを Web ページやアプリケーションに配置するには、Scene7 Publishing System から URL 文字列または埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、マスター画像や関連するズームターゲットなどのDynamic Media Image Serverコンテンツやズームビューアプリセットにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらの URL 文字列や埋め込みコードを Web ページやアプリケーションに配置するには、Scene7 Publishing System から URL 文字列または埋め込みコードをコピーします。
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ Webサイトやアプリケーションは、マスター画像や関連付け�
 
 通常、Web サイトの閲覧者は、ズームアイコン（一般的には虫めがねのアイコン）を選択して画像をズームします。このアイコンを選択すると、ポップアップウィンドウで画像を表示する動的 Web ページ（ASP または JSP）が起動します。このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
 
-詳しくは、"Adobeビューアリファレンスガイド»の?«HTML5基本ズームビューアの埋め込み[](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_basic_zoom_viewer_about.html)
+詳しくは、『Adobeビューアリファレンスガ [イド』のHTML5基本ズームビューアの埋め込みを参照してください](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_basic_zoom_viewer_about.html)。
 
 ## ズームビューアの埋め込みコードのコピー {#copying-the-embed-copy-of-a-zoom-viewer}
 
-埋め込みコード機能を使用すると、選択したズームビューアのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択したズームビューアのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードの編集はできません。
 
 **ズームビューアの埋め込みコードをコピーするには**
 
