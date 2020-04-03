@@ -2,13 +2,13 @@
 title: 'eCatalog ビューアによる eCatalog のプレビュー '
 seo-title: 'eCatalog ビューアによる eCatalog のプレビュー '
 description: 'null'
-seo-description: eCatalogビューアでeCatalogをプレビューする方法について説明します。
-uuid: fdf2129- e558-4f27- b30f-564126b6b3f2
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/eCatalog/eCatalog
-discoiquuid: 92022dce-6534-4d93- befe-9dd2818c7b41
+seo-description: eCatalogビューアでeCatalogをプレビューする方法を説明します。
+uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
