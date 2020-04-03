@@ -3,12 +3,12 @@ title: DOM 操作
 seo-title: DOM 操作
 description: 'null'
 seo-description: DOM操作について説明します。
-uuid: 275cd49d-2a55-41f9-80b0- e147d0cd2907
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/template- publishing
-discoiquuid: 890ca93e-3146-4347-864b- bd5e94037038
+uuid: 275cd49d-2a55-41f9-80b0-e147d0cd2907
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 890ca93e-3146-4347-864b-bd5e94037038
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -19,9 +19,9 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 DOM（ドキュメントオブジェクトモデル）操作は、XML コードを直接操作してデザインファイルを編集する方法です。DOM 操作では、コンテンツや外観の変更など、可変デザイン要素を詳細に制御することができます。また、必要に応じて新しい要素を作成することもできます。
 
-Dynamic Media Classicでは、テンプレートの公開後にURLコマンドを使用して、Dynamic Media Classic FXGテンプレートのDOMを操作できます。FXG テンプレートのデザイン要素は、URL を通じてコマンドを渡すことで操作します。この方法により、グラフィックの属性を動的に操作および追加することができます。
+Dynamic Media Classicを使用すると、テンプレートの公開後に、URLコマンドを使用してダイナミックMedia Classic FXGテンプレートのDOMを操作できます。 FXG テンプレートのデザイン要素は、URL を通じてコマンドを渡すことで操作します。この方法により、グラフィックの属性を動的に操作および追加することができます。
 
-DOM操作を使用するには、s7を作成します。elementIDを使用します。
+DOM操作を使用するには、IllustratorファイルをダイナミックメディアクラシックFXGファイルに変換してSPSにアップロードする前に、ファイル内にs7:elementIDを作成します。
 
 >[!NOTE]
 >
@@ -54,8 +54,8 @@ Illustrator でオブジェクトの s7:elementID を作成する前に、オブ
 Illustrator でオブジェクトの s7:elementID を作成するには、次の手順に従います。
 
 1. オブジェクトを選択します。
-1. **ウィンドウ** / **レイヤー**&#x200B;をクリックします。
-1. レイヤーパネルで、オブジェクトレイヤーにs7という名前を付けます。elementID.To do so, enter the letters `id` (for identification), a colon ( `:`), and description to identify the element. s7:elementID オブジェクトレイヤー名の例を次に示します。
+1. ウィンドウ **/レイヤーをク** リックしま ****&#x200B;す。
+1. レイヤーパネルで、オブジェクトレイヤーにs7:elementIDの名前を付けます。 To do so, enter the letters `id` (for identification), a colon ( `:`), and description to identify the element. s7:elementID オブジェクトレイヤー名の例を次に示します。
 
    `id:BackgroundColor`
 
@@ -65,7 +65,7 @@ Illustrator でオブジェクトの s7:elementID を作成するには、次の
 
 ## FXG テンプレートの公開 {#publish-fxg-templates}
 
-FXGテンプレートを公開すると、それがDynamic Media Classicサーバーに配置され、Webサイトやアプリケーションで使用できるようになります。公開処理中に、Scene7 Publishing System は Web サイトやアプリケーションに必要な URL 文字列もアクティブにします。
+公開したFXGテンプレートは、Dynamic Media Classicサーバーに保存され、Webサイトやアプリケーションで使用できるようになります。 公開処理中に、Scene7 Publishing System は Web サイトやアプリケーションに必要な URL 文字列もアクティブにします。
 
 >[!NOTE]
 >
@@ -73,10 +73,10 @@ FXGテンプレートを公開すると、それがDynamic Media Classicサー�
 
 ### FXG テンプレートを公開用にマーク {#mark-fxg-templates-for-publish}
 
-テンプレートとそのすべてのサポートファイルは、ダイナミックメディア画像サーバに配置するために公開用にマークする必要があります。
+テンプレートとそのすべてのサポートファイルをダイナミックメディアイメージサーバに配置するには、公開用にマークする必要があります。
 
 1. 参照パネルで、使用されているグラフィック、画像、およびフォントとともに、FXG テンプレートを選択します。
-1. 「公開用 **にマーク」をクリック**&#x200B;します。
+1. 「公開用 **にマーク」をクリックしま**&#x200B;す。
 
 ### FXG テンプレートの公開 {#publish-your-fxg-template}
 
