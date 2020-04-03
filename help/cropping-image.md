@@ -2,13 +2,13 @@
 title: 画像の切り抜き
 seo-title: 画像の切り抜き
 description: 'null'
-seo-description: 画像を切り抜く方法について説明します。
-uuid: 84f199de- cbfc-4d06-877f-6e9148e82e15
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/master_ files
-discoiquuid: 99dfa476-4f11-4569- a27e- a76ed7787674
+seo-description: 画像を切り抜く方法を説明します。
+uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 translation-type: tm+mt
 source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
@@ -45,7 +45,7 @@ Scene7 Publishing System で、画像を切り抜くことができます。シ�
 
 1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
 
-1. 切り抜きエディタウィンドウで、切り抜きボックスで切り抜く画像の部分を配置します。What appears inside the box remains when you click **Save** and crop the image.
+1. 切り抜きエディタウィンドウで、切り抜かない画像の部分を切り抜きボックスに配置します。 What appears inside the box remains when you click **Save** and crop the image.
 1. 切り抜き領域を調整するには、次のいずれかの操作を行います。
 
    * ボックスの辺または角をドラッグします。切り抜きボックスの縦横比（形状）を維持しながらサイズを変更するには、Shift キーを押しながらドラッグします。
