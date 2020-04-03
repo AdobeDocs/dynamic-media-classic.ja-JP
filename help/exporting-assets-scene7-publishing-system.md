@@ -2,10 +2,10 @@
 title: Scene7 Publishing System からのアセットの書き出し
 seo-title: Scene7 Publishing System からのアセットの書き出し
 description: 'null'
-seo-description: Scene7 Publishing systemからアセットを書き出す方法について説明します。
+seo-description: Scene7 Publishing Systemからアセットを書き出す方法を説明します。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
@@ -21,18 +21,18 @@ Scene7 Publishing System で編集したアセットを、ローカルネット�
 
 書き出しジョブの場合、圧縮 ZIP ファイルの最大ファイルサイズは 1 GB です。また、許可されている最大アセット数は書き出しジョブあたり合計 500 個までです。
 
-Dynamic Media Classicは、ジョブ画面に書き出しジョブの記録を保持します。
+書き出しジョブは、ジョブ画面に記録されます。
 
 **Scene7 Publishing System からアセットを書き出すには**
 
 1. 書き出すアセットを選択し、**ファイル**／**書き出し**&#x200B;を選択します。
 1. 選択したアセットを書き出しウィンドウで、**「イメージ」オプション**&#x200B;をクリックしてから、次のオプションを指定します（ユーザが指定できるオプションは管理者が決定します）。
 
-   * **プリセット**（オプション）アセットを書き出す際に形式を設定するには、画像プリセットを選択します。 「画像プリセット」を選択した場合、アセットは画像プリセットで定義されている形式を採用するため、その他の形式オプションを選択できなくなります。
+   * **プリセット**（オプション）アセットを書き出す際に、画像プリセットを選択して、アセットの形式を設定します。 「画像プリセット」を選択した場合、アセットは画像プリセットで定義されている形式を採用するため、その他の形式オプションを選択できなくなります。
 
    * **変換**&#x200B;アセットファイルまたは元の画像を変換します。
 
-   * **[サイズ**]標準サイズを選択できます。 または、サイズドロップダウンリストからその他をクリックして、希望の測定単位を選択してから、幅と高さを指定します。
+   * **サイズ**&#x200B;標準サイズを選択できます。 または、サイズドロップダウンリストからその他をクリックして、希望の測定単位を選択してから、幅と高さを指定します。
 
       詳しくは、[Media Portal ユーザが使用できる書き出しオプションの指定](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)も参照してください。
 
@@ -40,7 +40,7 @@ Dynamic Media Classicは、ジョブ画面に書き出しジョブの記録を�
 
    * **カラー** RGB、CMYKまたはグレーを選択します。
 
-   * **解像度**&#x200B;は72、150または300 ppiを選択します。
+   * **解像度** 72、150または300 ppiを選択します。
 
    * **ジョブ名**：書き出しにジョブ名を割り当てることができます。
 
