@@ -2,12 +2,12 @@
 title: テンプレートの公開
 seo-title: テンプレートの公開
 description: 'null'
-seo-description: テンプレートを公開する方法について説明します。
-uuid: 9b8e5b94-6958-4725- bcbc-5e6a9c4d1b02
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/templates/template_ basics
+seo-description: テンプレートを公開する方法を説明します。
+uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
@@ -17,7 +17,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # テンプレートの公開{#publishing-templates}
 
-テンプレートを公開すると、それがダイナミックメディアImage Serverに配置され、Webサイトやアプリケーションで使用できるようになります。公開処理中に、Scene7 Publishing System は Web サイトやアプリケーションに必要な URL 文字列もアクティブにします。
+公開したテンプレートは、Dynamic Media Image Serverに保存され、Webサイトやアプリケーションでテンプレートを使用できるようになります。 公開処理中に、Scene7 Publishing System は Web サイトやアプリケーションに必要な URL 文字列もアクティブにします。
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 ## 公開用にテンプレートをマーク {#marking-templates-for-publish}
 
-テンプレートとそのすべてのサポートファイルは、ダイナミックメディア画像サーバに配置するために、公開用にマークする必要があります。You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+テンプレートとそのすべてのサポートファイルをダイナミックメディアイメージサーバに配置するには、それらを公開用にマークする必要があります。 You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
 
 ## テンプレートの公開 {#publishing-your-template}
 
-テンプレートをダイナミックメディア画像サーバに公開するには、まずグローバルナビゲーションバーの「公開」ボタンを選択します。次に、「日時」オプションを選択して、必要に応じて公開ジョブ名を入力し、「公開を開始」ボタンを選択します。
+テンプレートをDynamic Media Image Serverに公開するには、開始のグローバルナビゲーションバーの「公開」ボタンを選択します。 次に、「日時」オプションを選択して、必要に応じて公開ジョブ名を入力し、「公開を開始」ボタンを選択します。
 
 >[!MORELIKETHIS]
 >
