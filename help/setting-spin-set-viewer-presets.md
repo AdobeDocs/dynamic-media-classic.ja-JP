@@ -2,13 +2,13 @@
 title: スピンセットビューアのプリセットの設定
 seo-title: スピンセットビューアのプリセットの設定
 description: 'null'
-seo-description: スピンセットビューアプリセットを設定する方法について説明します。
-uuid: e095f989- f3df-46ea- be62-812922805dc0
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/spin_ sets
-discoiquuid: 9dfaa37a-59ab-46ae-94c3- c0ab9f940023
+seo-description: スピンセットビューアのプリセットを設定する方法について説明します。
+uuid: e095f989-f3df-46ea-be62-812922805dc0
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # スピンセットビューアのプリセットの設定{#setting-up-spin-set-viewer-presets}
 
-スピンセットビューアプリセットによって、ビューアのスタイル、動作、外観が決まります。ダイナミックメディアClassicには、初期設定のスピンセットビューアプリセットが付属しています。また、管理者は、独自のスピンセットビューアプリセットを作成することもできます。異なる色、境界線、フォントおよび画像設定のスピンセットビューアプリセットを設定することもできます。
+スピンセットビューアプリセットによって、ビューアのスタイル、動作、外観が決まります。ダイナミックMedia Classicには、初期設定のスピンセットビューアプリセットが用意されています。 また、管理者は、独自のスピンセットビューアプリセットを作成することもできます。異なる色、境界線、フォントおよび画像設定のスピンセットビューアプリセットを設定することもできます。
 
 スピンセットプリセットを作成するには、次の手順に従います。
 
