@@ -1,32 +1,32 @@
 ---
-title: eCatalogでの情報パネルコンテンツの管理
-seo-title: eCatalogでの情報パネルコンテンツの管理
+title: eCatalogでの情報パネルのコンテンツの管理
+seo-title: eCatalogでの情報パネルのコンテンツの管理
 description: 'null'
-seo-description: eCatalogで情報パネルのコンテンツを管理する方法について説明します。
-uuid: 5aa634f9-0874-4bb5- a3d9-8ce4d5577941
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/eCatalog/eCatalog
-discoiquuid: be277831-77cc-4011- ae30- e75c18eec99b
+seo-description: eCatalogで情報パネルのコンテンツを管理する方法を説明します。
+uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 ---
 
 
-# eCatalogでの情報パネルコンテンツの管理{#managing-info-panel-content-in-ecatalogs}
+# eCatalogでの情報パネルのコンテンツの管理{#managing-info-panel-content-in-ecatalogs}
 
 eCatalog 内のロールオーバーに画像マップテキストを使用するだけでなく、情報パネルを使用して、リンクを含む多数のロールオーバーテキストを追加できます。また、期限付きキャッシュを使用し、コンテンツを更新するスケジュールを設定して、情報パネルを管理することもできます。
 
-infoPanel設定とデータは、Dynamic Media Classicの次の機能を使用して管理できます。
+Dynamic Media Classicの次の機能を使用して、情報パネルの設定とデータを管理できます。
 
 * 情報パネル設定パネルでは、情報パネルのテキスト表示に使用するテンプレート、エラーのデフォルト応答、情報をキャッシュする時間数を指定できます。eCatalog を自動的に公開するかどうかを指定することもできます。
 * 情報パネルのデータフィードパネルでは、情報パネルのロールオーバーテキストに表示するテキストを含む CSV ファイルを指定したり、情報を更新する時刻を設定したりできます。
 * メタデータを取り込みダイアログボックス（ページをマップビューからアクセス）では、ロールオーバーテキストの情報を含むタブ区切りの TXT ファイルを読み込むことができます。ロールオーバーテキストには、この TXT オプションまたはデータフィードパネルの CSV ファイルオプションを使用できます。
 * ページをマップビューには、特定の画像マップに表示する xml をプレビューするオプションがあります。
 
-## eCatalog用の応答テンプレートの設定 {#set-up-a-response-template-for-ecatalogs}
+## eCatalogの応答テンプレートの設定 {#set-up-a-response-template-for-ecatalogs}
 
 情報パネルでのテキスト表示に使用する応答テンプレートを 3 つのプリセットから選択できます。これらのプリセットの応答テンプレートによって、情報パネルでの情報の表示方法、行数と列数、文字サイズ、フォントなどが決まります。プリセットの応答テンプレートを選択することも、独自のテンプレートを作成することもできます。
 
@@ -43,7 +43,7 @@ infoPanel設定とデータは、Dynamic Media Classicの次の機能を使用�
    * 応答テンプレートメニューからプリセットを選択します。テンプレートデザインの XML が「ユーザテンプレート」ボックスに表示されます。
    * 「カスタム」を選択して、独自の応答テンプレートを作成します。「ユーザテンプレート」ボックスに、テンプレートの XML 定義を入力します。プリセットのテンプレートを基に、独自のテンプレートを作成できます。
 
-1. 例えば、システムで会社名と eCatalog 名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
+1. （オプション）「初期設定の応答」ボックスに、画像マップの情報を取得する際にエラーが発生した場合に表示するテキストを入力します。 例えば、システムで会社名と eCatalog 名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
 1. 「応答 TTL」ボックスに、データをキャッシュするまでの時間数を入力します。
 
    * データが 1 日中頻繁に更新される場合は、数値を小さくします。
@@ -83,11 +83,11 @@ Last Modified Date:
 
 1. eCatalog をダブルクリックして詳細ビューで開きます。
 1. 情報パネル設定パネルをクリックして開きます。
-1. **"S7Infoコンテンツをアップロード」をクリック**&#x200B;します。
-1. **「参照」をクリック**&#x200B;し、使用するタブ区切りTXTファイル、CSVファイルまたはSSVファイルを選択して、「 **開く**」をクリックします。
+1. **「S7Infoコンテンツをアップロード」をクリックします**。
+1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
 1. 「**アップロード**」をクリックします。
 
-Dynamic Media Classicでは、アップロードが成功したかどうかを通知する電子メールメッセージが送信されます。
+ダイナミックMedia Classicから、アップロードが成功したかどうかを知らせる電子メールが送信されます。
 
 ## 画像マップのロールオーバーキーテキストのプレビュー {#preview-rollover-key-text-for-an-image-map}
 
@@ -97,5 +97,5 @@ Dynamic Media Classicでは、アップロードが成功したかどうかを�
 1. 「ページをマップ」をクリックします。
 1. 画面右側の上部にある表で、表示メニューから「情報パネル」を選択します。
 
-   情報パネルテキストを含む各画像マップの横にロールオーバーキーテキストが表示されます。
+   情報パネルテキストを含む各画像マップの横に、rollover-key テキストが表示されます。
 
