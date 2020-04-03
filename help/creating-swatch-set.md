@@ -2,12 +2,12 @@
 title: スウォッチセットの作成
 seo-title: スウォッチセットの作成
 description: 'null'
-seo-description: スウォッチセットを作成する方法について説明します。
-uuid: 250b3525-310d-4481- b0bc- f9057e823e0b
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/swatch_ sets
+seo-description: スウォッチセットの作成方法を説明します。
+uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
@@ -23,11 +23,8 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## スウォッチセットの作成 {#create}
 
-セットを作成する場合、「保存後 **に公開」** オプションはセットおよびセットメンバーに次のように影響します。
-|保存前に「保存後に公開」オプションが選択されていますか?| State保存後に設定する|保存後のセットメンバーの状態|
-|——|——|——|
-|はい|公開済み|発行済み|
-|いいえ|未公開|セットmembers hold their published or unpublished state.|
+セットを作成する場合、「保存後に公 **開」オプションは** 、セットおよびセットメンバーに対して次のように影響します。
+|&quot;保存後に公開&quot;オプションが選択されましたか？|保存後の設定の状態|保存後の設定メンバの状態||—|—|—||はい|発行済み|発行済み||No|非公開|セットメンバーの公開または非公開の状態が維持されます。|
 
 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)も参照してください。
 
@@ -35,9 +32,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 次のいずれかの操作を行います。
 
-   **参照パネルで画像を選択** し、画像を選択して、ビルド/スウォッチセットをクリックします。
+   **最初に画像を選択します** 。参照パネルで画像を選択し、ビルド/スウォッチセットをクリックします。
 
-   **スウォッチセット画面から、ビルド/スウォッチセット** をクリックします。アセットライブラリでフォルダーを選択し、画像をスウォッチセットページの「ビュー」セクションにドラッグします。
+   **開始セット画面でビルド** /スウォッチセットをクリックします。 アセットライブラリでフォルダーを選択し、画像をスウォッチセットページの「ビュー」セクションにドラッグします。
 
 1. スウォッチセットページの「スウォッチ」プレースホルダーボックスにスウォッチの色、パターンまたは仕上げをドラッグします。
 
@@ -55,7 +52,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 | セットが既に公開されているか？ | 編集内容の保存前に「保存後に公開」オプションが選択されているか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 |--- |--- |--- |--- |
 | はい | はい | 公開 | 公開 |
-| はい | いいえ | 公開 | 既存のセットメンバーは公開状態を維持します。編集中に追加した新しいセットメンバーは、公開または非公開の状態を維持します。 |
+| はい | いいえ | 公開 | 既存のセットメンバーは、公開状態を保持します。編集中に追加した新しいセットメンバーは、公開状態または非公開の状態を保持します。 |
 | いいえ | はい | 公開 | 公開 |
 | いいえ | いいえ | 非公開 | 既存のセットメンバーおよび編集中に追加した新しいセットメンバーの公開または非公開の状態が維持される。 |
 
