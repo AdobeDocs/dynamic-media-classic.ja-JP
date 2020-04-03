@@ -4,8 +4,8 @@ seo-title: 設定の基本
 description: 'null'
 seo-description: 設定画面を使用して個人設定を入力する方法を説明します。 管理者の場合は、会社情報の設定を行うことができます。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
@@ -28,11 +28,11 @@ Scene7 Publishing System の設定画面を使用して、個人設定を入力�
 
 * **画像プリセット**&#x200B;画像プリセットは、マスター画像を様々なサイズや形式で表示するための保存された形式です。
 
-* **ビューアプリセット**&#x200B;ビューアプリセットは、リッチメディアをビューアで表示する際の表示方法を決定します。
+* **ビューアプリセット**&#x200B;ビューアプリセットは、ビューアでリッチメディアを表示する方法を決定します。
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media Classicユーザーの役割と権限](administration-setup.md#user_administration)
+>* [Dynamic Media Classicのユーザの役割と権限](administration-setup.md#user_administration)
 >* [画像プリセット](application-setup.md#image_presets)
 >* [ビューアプリセット](application-setup.md#viewer_presets)
 
