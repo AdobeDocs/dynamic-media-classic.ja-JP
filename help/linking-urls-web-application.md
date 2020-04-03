@@ -2,12 +2,12 @@
 title: Web アプリケーションへの URL のリンク
 seo-title: Web アプリケーションへの URL のリンク
 description: 'null'
-seo-description: URLをWebアプリケーションにリンクする方法について説明します。
+seo-description: URLをWebアプリケーションにリンクする方法を説明します。
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/image_ sizing
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
@@ -17,7 +17,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # Web アプリケーションへの URL のリンク{#linking-urls-to-your-web-application}
 
-Webサイトやアプリケーションは、URL文字列を使用してダイナミックメディアImage Serverのコンテンツにアクセスします。画像を公開すると、ダイナミックメディアImage Server上の画像プリセットを参照するURL文字列がアクティブになります。これらの URL を Web ブラウザにペーストしてテストすることができます。
+Webサイトやアプリケーションは、URL文字列を使用してDynamic Media Image Serverのコンテンツにアクセスします。 画像を公開すると、ダイナミックメディアイメージサーバ上の画像プリセットを参照するURL文字列がアクティブになります。 これらの URL を Web ブラウザにペーストしてテストすることができます。
 
 これらの URL 文字列を Web ページおよびアプリケーションに配置するには、Scene7 Publishing System から URL 文字列をコピーします。画像プリセットとともに生成された URL 文字列を取得するには、プレビュー画面または参照パネル（詳細ビュー）に進みます。
 
@@ -25,7 +25,7 @@ Webサイトやアプリケーションは、URL文字列を使用してダイ�
 
 画像プリセットとともに生成された URL 文字列は、プレビューまたは詳細ビューから取得できます。URL をコピーすると、URL はクリップボードに格納され、必要に応じてペーストできるようになります。
 
-***注意**:URLは、アセットを公開するまでアクティブになりません。*
+***注意&#x200B;**:URLは、アセットを公開するまでアクティブになりません。*
 
 ### プレビューからの画像プリセットの URL の取得 {#obtaining-an-image-preset-url-from-preview}
 
@@ -50,11 +50,11 @@ Webサイトやアプリケーションは、URL文字列を使用してダイ�
 
 ## 画像プリセットの URL 文字列について {#about-image-preset-url-strings}
 
-ダイナミックメディア画像サーバへの画像サイズ変更のURL呼び出しには、次の基本構文があります。
+ダイナミックメディアイメージサーバへの画像サイズ変更のURL呼び出しの基本構文は、次のとおりです。
 
 *パス*/*Image Server 名*/*アカウント名*/*image画像名*?*モディファイア 1*&amp;*モディファイア 2*&amp;...
 
-ダイナミックメディアImage ServerのURLでは、画像を表示するための指示が、疑問符（?）の後に表示されます。例えば、次の URL 呼び出しは、「backpack」という名前の画像を幅 250 pixel で配信します。
+ダイナミックメディアイメージサーバのURLでは、イメージを表示するためのサーバへの指示が疑問符(?)の後に表示されます。 例えば、次の URL 呼び出しは、「backpack」という名前の画像を幅 250 pixel で配信します。
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
