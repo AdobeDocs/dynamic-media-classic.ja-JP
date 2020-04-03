@@ -2,13 +2,13 @@
 title: 画像セットへのズームターゲットと画像マップの追加
 seo-title: 画像セットへのズームターゲットと画像マップの追加
 description: 'null'
-seo-description: 画像セットにズームターゲットと画像マップを含める方法について説明します。
-uuid: 1f5a00fe-3cc2-4668- a051-59e0ee50b35
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/image_ sets
-discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922広告
+seo-description: 画像セットにズーム画像とターゲットマップを含める方法を説明します。
+uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
