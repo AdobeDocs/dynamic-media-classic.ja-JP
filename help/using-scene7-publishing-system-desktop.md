@@ -2,13 +2,13 @@
 title: Scene7 Publishing System デスクトップバージョンの使用
 seo-title: Scene7 Publishing System デスクトップバージョンの使用
 description: 'null'
-seo-description: Scene7Publishing Systemデスクトップバージョンの使用方法について説明します。
-uuid: a7882266- ddde-4a05-8c4f-2b32635e2f21
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/getting_ started
-discoiquuid: 75ccbb1d-1662-4849- b7a9- de4bc3794e9d
+seo-description: Scene7 Publishing Systemデスクトップバージョンの使用方法を説明します。
+uuid: a7882266-ddde-4a05-8c4f-2b32635e2f21
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
+discoiquuid: 75ccbb1d-1662-4849-b7a9-de4bc3794e9d
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -25,7 +25,7 @@ Scene7 デスクトップを最大限に活用するため、お使いのシス�
 
 * Microsoft® Windows® 7 以降または Mac OS X 10.6 以降（Macintosh® Intel プロセッサー搭載）が必要。
 * 3 GB 以上の RAM が必要（4 GB 以上を推奨）。
-* 最小解像度1000X640-（1024X768以上を推奨）
+* 最小解像度1000 X 640（1024 X 768以上を推奨）
 * Adobe AIR 15.0 以降が必要。
 
 ## Scene7 Publishing System デスクトップバージョンのインストール {#installing-scene-publishing-system-desktop-version}
