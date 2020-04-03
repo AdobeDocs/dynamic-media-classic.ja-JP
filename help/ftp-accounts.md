@@ -2,12 +2,12 @@
 title: FTP アカウントの管理
 seo-title: FTP アカウントの管理
 description: 'null'
-seo-description: FTPアカウントの管理方法について説明します。
-uuid: c9410f44-14bf-4f55- a199- f0f0de459219
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/media_ portal
+seo-description: FTPアカウントの管理方法を説明します。
+uuid: c9410f44-14bf-4f55-a199-f0f0de459219
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
