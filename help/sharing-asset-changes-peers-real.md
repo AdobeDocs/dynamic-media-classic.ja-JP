@@ -2,12 +2,12 @@
 title: アセット変更内容のピアとのリアルタイム共有
 seo-title: アセット変更内容のピアとのリアルタイム共有
 description: 'null'
-seo-description: アセットの変更をピアとリアルタイムで共有する方法について説明します。
+seo-description: アセットの変更をピアとリアルタイムで共有する方法を説明します。
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/managing_ assets
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # アセット変更内容のピアとのリアルタイム共有{#sharing-asset-changes-with-peers-in-real-time}
 
-Dynamic Media Classicの複数のコピーが同じ会社内の1台以上のコンピューターで実行されている場合、すべてのピアクライアントを使用して、Dynamic Media Classicクライアントの次のアクションがリアルタイムで更新されます。
+同じ会社内の1つ以上のコンピューターで複数のDynamic Media Classicが実行されている場合、任意のDynamic Media Classicクライアントからの次の操作が、すべてのピアクライアントでリアルタイムに更新されます。
 
 * アセットの編集（ビルダ、画像エディタなど）
 * アセット名の変更
