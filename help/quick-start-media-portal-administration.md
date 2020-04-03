@@ -1,14 +1,14 @@
 ---
-title: 「クイックスタート:Media Portal"
-seo-title: 「クイックスタート:Media Portal"
+title: 「クイック開始:Media Portal»
+seo-title: 「クイック開始:Media Portal»
 description: 'null'
-seo-description: Media Portalの技術および管理の操作方法をすばやく習得できるように、紹介とクイックスタートを紹介します。
-uuid: 0dbd6146- b392-4e03-955b-0b323b654b9f
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/media_ portal
-discoiquuid: 1385a092-0b2c-4e05- ad1e- ce3685022300
+seo-description: Media Portalの概要とクイック開始を参照して、Media Portalの操作方法と管理方法をすばやく習得できます。
+uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,15 +17,15 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # Quick Start: Media Portal{#quick-start-media-portal}
 
-このブラウザベースの「セルフサービス」環境では、会社が承認した形式でアセットを容易に参照、検索、プレビューおよび書き出すことができるよう、管理者によって制御されたビューをMedia PortalのユーザがDynamic Media Classicアセットに提供します。
+Media Portalを使用すると、会社は承認されたクリエイティブアセットを容易に取得、制御し、外部のパートナーやチャネル、社内のビジネスユーザに配信できます。 このブラウザベースの「セルフサービス」環境は、会社が承認した形式でアセットに簡単にアクセス、参照、検索、プレビューおよび書き出しできるように、Media Portalユーザに管理者が制御した「表示」を提供します。
 
 管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。Media Portal インターフェイスで、フォント、フォントカラー、フォントサイズを指定でき、ロゴなどのブランド要素を取り入れることができます。
 
-**クイックスタート**
+**クイック開始**
 
 ここでは、Media Portal の管理方法をすばやく習得できるように、手順について簡潔に説明します。各手順の最後に、それぞれの内容について詳しく説明している参照先を示しています。
 
-**1. Media Portal ユーザの役割について**
+**1.Media Portal ユーザの役割について**
 
 Media Portal ユーザには、ユーザ、寄稿者、寄稿者ユーザの 3 つの役割があります。役割ごとに実行できる作業は異なります。例えば、寄稿者はファイルとフォルダの名前を変更したり、削除したりすることができますが、ユーザはこのどちらの作業も実行できません。様々な役割を理解することで、ユーザを追加するときに、ユーザに付与する責任を理解できます。
 
