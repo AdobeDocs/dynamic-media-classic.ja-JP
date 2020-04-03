@@ -2,12 +2,12 @@
 title: 混在メディアセットの作成
 seo-title: 混在メディアセットの作成
 description: 'null'
-seo-description: 混在メディアセットの作成方法について説明します。
-uuid: a0c6e5fa-7a85-4376- b9a3- b72ae63d3d95
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-discoiquuid: 0ff9e763-897c-4ba5- b606- a95d5e45f35e
+seo-description: 混在メディアセットの作成方法を説明します。
+uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 translation-type: tm+mt
 source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
@@ -60,7 +60,7 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 | セットが既に公開されているか？ | 編集内容の保存前に「保存後に公開」オプションが選択されているか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 |--- |--- |--- |--- |
 | はい | はい | 公開 | 公開 |
-| はい | いいえ | 公開 | 既存のセットメンバーは公開状態を維持します。編集中に追加した新しいセットメンバーは、公開または非公開の状態を維持します。 |
+| はい | いいえ | 公開 | 既存のセットメンバーは、公開状態を保持します。編集中に追加した新しいセットメンバーは、公開状態または非公開の状態を保持します。 |
 | いいえ | はい | 公開 | 公開 |
 | いいえ | いいえ | 非公開 | 既存のセットメンバーおよび編集中に追加した新しいセットメンバーの公開または非公開の状態が維持される。 |
 
