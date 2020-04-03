@@ -2,13 +2,13 @@
 title: 画像セットの Web ページへのリンク
 seo-title: 画像セットの Web ページへのリンク
 description: 'null'
-seo-description: 画像セットをWebページにリンクする方法について説明します。
-uuid: 8153a228- b2ec-4bc2-8996-266113a83df5
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/image_ sets
-discoiquuid: 40f4abab-9059-4d92- a761- f6d573b42e00
+seo-description: 画像セットをWebページにリンクする方法を説明します。
+uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -44,13 +44,13 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 ## Web ページへの画像セットの URL の追加 {#adding-image-set-urls-to-your-web-page}
 
-画像セットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、ポップアップズームウィンドウに画像セットを表示する動的ページ（JSP）が起動します。ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
+画像セットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、ポップアップズームウィンドウで画像セットを表示する動的ページ(JSP)が起動します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
-詳しくは、"Adobeビューアリファレンスガイド»の?«HTML5ズームビューアの埋め込み[](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_zoom_viewer_about.html)
+詳しくは、『Adobeビューアリファレンスガ [イド』のHTML5ズームビューアの埋め込みを参照してください](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_zoom_viewer_about.html)。
 
 ## 画像セットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-image-set-viewer}
 
-埋め込みコード機能を使用すると、選択した画像セットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択した画像セットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードの編集はできません。
 
 **画像セットビューアの埋め込みコードをコピーするには**
 
