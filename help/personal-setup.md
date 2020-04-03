@@ -2,13 +2,13 @@
 title: 個人設定
 seo-title: 個人設定
 description: 'null'
-seo-description: すべてのユーザーは、Dynamic Media Classicの個人設定画面の設定を変更できます。
-uuid: 29cb825a~ f158-4a1e-9d5f-7636ee411b6e
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/カテゴリ/セットアップ
-discoiquuid: 6314e7b7-5bde-4fe2-8674- e4fc525d4d1c
+seo-description: すべてのユーザが、ダイナミックメディアクラシックの個人設定画面で設定を変更できます。
+uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
+discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -65,17 +65,17 @@ Windows 7 または Windows 8 を実行するコンピューターで Web-to-Pri
 
 | 実行ソフトウェア | 操作 |
 |--- |--- |
-| Adobe Creative Cloud 2014 の Adobe Illustrator 18 | <ul><li>解凍されたフォルダーのルートにある CC-2014 をクリックします。</li><li>使用している Adobe Illustrator の bit バージョンに応じて、win32 または win64 をクリックします。</li><li>libraries／flame をクリックし、`aflame.dll` を Adobe Illustrator の実行可能フォルダーにコピーします。`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`例えば、. </li></ul><br/>**注意**:この例のパスは64ビットの場所です。32ビットの場所は、プログラムファイル（x86）の下にあります。 <br/><ul><li>libraries フォルダーに戻り、flamingo をクリックし、`aflamingo.dll` を前の手順と同じ Adobe Illustrator 実行可能フォルダーにコピーします。 </li><li>手順 2 で選択した win32 または win64 フォルダーに戻り、`AdobeS7FXGFileFormat.aip` を Adobe Illustrator のプラグインフォルダーにコピーします。`C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`例えば、. </li></ul> <br/>**注意**:この例のパスは64ビットの場所です。32ビットの場所は、プログラムファイル（x86）の下にあります。 |
-| Adobe Creative Cloud の Adobe Illustrator 17 | <ul><li>解凍されたフォルダーのルートにある CC をクリックします。 </li><li>使用している Adobe Illustrator の bit バージョンに応じて、win32 または win64 をクリックします。</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`例えば、.</li></ul><br/>**注意**:この例のパスは64ビットの場所です。32ビットの場所は、プログラムファイル（x86）の下にあります。 |
-| Adobe Creative Suite 6 の Adobe Illustrator 16 | <ul><li>解凍されたフォルダーのルートにある 6.0 をクリックします。 </li><li>使用している Adobe Illustrator の bit バージョンに応じて、win32 または win64 をクリックします。 </li><li>AdobeS7FXGFileFormat.aip を Adobe Illustrator のプラグインフォルダーにコピーします。`C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`例えば、.</li></ul><br/>**注意**:この例のパスは64ビットの場所です。32ビットの場所は、プログラムファイル（x86）の下にあります。 |
+| Adobe Creative Cloud 2014 の Adobe Illustrator 18 | <ul><li>解凍されたフォルダーのルートにある CC-2014 をクリックします。</li><li>使用している Adobe Illustrator の bit バージョンに応じて、win32 または win64 をクリックします。</li><li>libraries／flame をクリックし、`aflame.dll` を Adobe Illustrator の実行可能フォルダーにコピーします。For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**注意&#x200B;**:次の例は、64ビットの場所のパスです。32ビットの場所は、代わりに「プログラムファイル(x86)」に分類されます。<br/><ul><li>libraries フォルダーに戻り、flamingo をクリックし、`aflamingo.dll` を前の手順と同じ Adobe Illustrator 実行可能フォルダーにコピーします。 </li><li>手順 2 で選択した win32 または win64 フォルダーに戻り、`AdobeS7FXGFileFormat.aip` を Adobe Illustrator のプラグインフォルダーにコピーします。For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**注意&#x200B;**:次の例は、64ビットの場所のパスです。32ビットの場所は、代わりに「プログラムファイル(x86)」に分類されます。 |
+| Adobe Creative Cloud の Adobe Illustrator 17 | <ul><li>解凍されたフォルダーのルートにある CC をクリックします。 </li><li>使用している Adobe Illustrator の bit バージョンに応じて、win32 または win64 をクリックします。</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator&#39;s plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**注意&#x200B;**:次の例は、64ビットの場所のパスです。32ビットの場所は、代わりに「プログラムファイル(x86)」に分類されます。 |
+| Adobe Creative Suite 6 の Adobe Illustrator 16 | <ul><li>解凍されたフォルダーのルートにある 6.0 をクリックします。 </li><li>使用している Adobe Illustrator の bit バージョンに応じて、win32 または win64 をクリックします。 </li><li>AdobeS7FXGFileFormat.aip を Adobe Illustrator のプラグインフォルダーにコピーします。For example, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**注意&#x200B;**:次の例は、64ビットの場所のパスです。32ビットの場所は、代わりに「プログラムファイル(x86)」に分類されます。 |
 
 ### Mac
 
 | 実行ソフトウェア | 操作 |
 |--- |--- |
-| Adobe Creative Cloud 2014 の Adobe Illustrator 18 | <ul><li>解凍されたフォルダーのルートにある CC-2014／mac64 をクリックします。</li><li>libraries／flame をクリックし、`aflame.framework` フォルダーを Adobe Illustrator パッケージ内容フォルダーにコピーします。`/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`例えば、.（Adobe Illustratorのパッケージコンテンツフォルダーを開くには、Adobe illustrator CC2014アイコンを右クリックし、コンテキストメニューから「パッケージの内容を表示」をクリックします）。</li><li>libraries フォルダーに戻り、`flamingo` をクリックし、`aflamingo.framework` フォルダーを前の手順と同じ Adobe Illustrator パッケージ内容フォルダーにコピーします。</li><li>手順 1 で選択した mac64 フォルダーに戻り、`AdobeS7FXGFileFormat.aip` フォルダーを Adobe Illustrator のプラグインフォルダーにコピーします。`/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`例えば、.</li></ul><br/> |
-| Adobe Creative Cloud の Adobe Illustrator 17 | <ul><li>解凍されたフォルダーのルートからCC/mac64をクリックします</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Creative Suite 6 の Adobe Illustrator 16 | <ul><li>解凍されたフォルダーのルートから、6.0/mac64をクリックします</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`例えば、.</li></ul> |
+| Adobe Creative Cloud 2014 の Adobe Illustrator 18 | <ul><li>解凍されたフォルダーのルートにある CC-2014／mac64 をクリックします。</li><li>libraries／flame をクリックし、`aflame.framework` フォルダーを Adobe Illustrator パッケージ内容フォルダーにコピーします。For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. （Adobe Illustratorのパッケージコンテンツフォルダーを開くには、Adobe illustrator CC 2014アイコンを右クリックし、コンテキストメニューから「パッケージコンテンツを表示」をクリックします）。</li><li>libraries フォルダーに戻り、`flamingo` をクリックし、`aflamingo.framework` フォルダーを前の手順と同じ Adobe Illustrator パッケージ内容フォルダーにコピーします。</li><li>手順 1 で選択した mac64 フォルダーに戻り、`AdobeS7FXGFileFormat.aip` フォルダーを Adobe Illustrator のプラグインフォルダーにコピーします。For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Creative Cloud の Adobe Illustrator 17 | <ul><li>解凍されたフォルダーのルートにあるCC/mac64をクリックします。</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Creative Suite 6 の Adobe Illustrator 16 | <ul><li>解凍されたフォルダーのルートにある6.0/mac64をクリックします。</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
 
 この設定により、プラグインが Adobe Illustrator で使用できるようになります。
 
@@ -122,7 +122,7 @@ Windows 7 または Windows 8 を実行するコンピューターで Web-to-Pri
 ## 電子メール
 
 * **電子メールオプション**
-   * アップロードおよび公開ジョブが完了したときに、Dynamic Media Classicで電子メールで通知する方法を選択します。ジョブ完了通知は、警告またはエラーが発生した場合のみ受信することができます。
+   * ジョブのアップロードと公開が完了したときに、電子メールで通知する方法を選択します。 ジョブ完了通知は、警告またはエラーが発生した場合のみ受信することができます。
 * **電子メールの範囲**
    * 会社のすべてのジョブの電子メールを受信するか、自分が実行したアップロードおよび公開ジョブの電子メールのみを受信するかを指定します。
 * **電子メールタイプ**
@@ -132,12 +132,12 @@ Windows 7 または Windows 8 を実行するコンピューターで Web-to-Pri
    * インターフェイスの言語を指定します。
 * **パスワード**
 * **新しいパスワード**
-   * 新しい有効なパスワードを入力します。パスワードは、以下の要件を満たしている必要があります。
-      * 8~25文字の長さにする
-      * 最低1文字の小文字を含む
-      * 1つ以上の大文字を含む
-      * 数字を少なくとも1つ含む
-      * 次の特殊文字を少なくとも1つ含めます。#$&amp;-_:{}
+   * 新しい有効なパスワードを入力します。 パスワードは、次の要件を満たしている必要があります。
+      * 長さは8 ～ 25文字
+      * 小文字を1文字以上含む
+      * 大文字を少なくとも1文字含む
+      * 少なくとも1つの数字を含む
+      * 次の特殊文字の少なくとも1つを含む：#$&amp;-_:{}
 
 * **パスワードの再入力**
    * 新しいパスワードをもう一度入力して、正しく入力したことを確認します。
