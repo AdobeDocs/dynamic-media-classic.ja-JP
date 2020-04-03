@@ -2,12 +2,12 @@
 title: XML ファイル
 seo-title: XML ファイル［XML ふぁいる］
 description: 'null'
-seo-description: XML ベースのシステムを使用して画像と画像情報を管理する Web サイトでは、XML ファイルを Scene7 Publishing System にアップロードできます。XMLファイルについて詳しくは、を参照してください。
-uuid: 6301d042-2040-4408- b816-8f134482beb7
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-discoiquuid: 16216ce8- a81f-4efa-8ca6- a985256604db
+seo-description: XML ベースのシステムを使用して画像と画像情報を管理する Web サイトでは、XML ファイルを Scene7 Publishing System にアップロードできます。XMLファイルについての詳細。
+uuid: 6301d042-2040-4408-b816-8f134482beb7
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 16216ce8-a81f-4efa-8ca6-a985256604db
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
