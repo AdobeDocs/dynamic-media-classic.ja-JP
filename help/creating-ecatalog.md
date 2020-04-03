@@ -2,13 +2,13 @@
 title: eCatalog の作成
 seo-title: eCatalog の作成
 description: 'null'
-seo-description: eCatalogの作成方法について説明します。
-uuid: 2ah05c2-7052-426c- b61d-7f9091f7ace8
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK_ PK/eCatalog/eCatalog
-discoiquuid: 28889c60-596a-40d2-85d4- f48a4f86b932
+seo-description: eCatalogの作成方法を説明します。
+uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
 source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
@@ -36,9 +36,9 @@ eCatalog を作成する際には、「**保存後に公開**」オプション�
 
 1. 以下のいずれかの手順に従って、eCatalog を作成してください。
 
-   **参照パネルでファイルを選択し、ファイルを選択して、ビルド/** eCatalogをクリックします。
+   **最初にファイルを選択し** 、参照パネルでファイルを選択し、ビルド/eCatalogをクリックします。
 
-   **eCatalog画面から、ビルド/eCatalogを** クリックします。アセットライブラリのフォルダーを選択し、そのフォルダーから eCatalog ページの「ページ順序」タブにファイルをドラッグします。
+   **開始は、eCatalog画面でビルド** /eCatalogをクリックします。 アセットライブラリのフォルダーを選択し、そのフォルダーから eCatalog ページの「ページ順序」タブにファイルをドラッグします。
 
    ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
 
@@ -46,11 +46,11 @@ eCatalog を作成する際には、「**保存後に公開**」オプション�
 1. 必要に応じて、ページまたは見開きページをクリックし、1 アップボタン、2 アップボタン、カスタムボタンを選択してページ単位または見開きページ単位でレイアウトを変更することができます。eCatalog レイアウトを変更ダイアログボックスが表示されます。Select the Selected Spreads options and click **OK**.
 1. 必要に応じて、次の手順のいずれかに従いページの順番を変更します。
 
-   **ドラッグ** ページまたは見開きページを新しい位置にドラッグします。ページの移動先になる部分に縦線が表示されます。
+   **ドラッグ** ：ページまたは見開きページを新しい位置にドラッグします。 ページの移動先になる部分に縦線が表示されます。
 
-   **移動先ボタン** をクリックしてページまたは見開きページを選択し、「移動先」ボタンをクリックして、ページの前に表示するページを選択します。
+   **移動先ボタン** ：ページまたは見開きページを選択し、「移動先」ボタンをクリックして、ページを前に表示するページをメニューで選択します。
 
-   **シーケンス#** で、シーケンス#フィールドにページ番号を入力します。
+   **シーケンス#** リスト表示の「シーケンス#」フィールドにページ番号を入力します。
 
 1. 操作が完了したら、ページ右下付近にある「**保存後に公開**」が選択済み（初期設定）であることを確認します。
 1. 「**保存**」をクリックします。
@@ -66,7 +66,7 @@ eCatalog を作成する際には、「**保存後に公開**」オプション�
 | セットが既に公開されているか？ | 編集内容の保存前に「保存後に公開」オプションが選択されているか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 |--- |--- |--- |--- |
 | はい | はい | 公開 | 公開 |
-| はい | いいえ | 公開 | 既存のセットメンバーは公開状態を維持します。編集中に追加した新しいセットメンバーは、公開または非公開の状態を維持します。 |
+| はい | いいえ | 公開 | 既存のセットメンバーは、公開状態を保持します。編集中に追加した新しいセットメンバーは、公開状態または非公開の状態を保持します。 |
 | いいえ | はい | 公開 | 公開 |
 | いいえ | いいえ | 非公開 | 既存のセットメンバーおよび編集中に追加した新しいセットメンバーの公開または非公開の状態が維持される。 |
 
@@ -92,7 +92,7 @@ eCatalog を作成する際には、「**保存後に公開**」オプション�
 
 ## 目次のカスタマイズ {#customizing-the-table-of-contents-toc}
 
-ダイナミックメディアClassicでは、eCatalog画面の「ページ順序」タブのeCatalogに初期設定のページ番号が表示されます。ページの名前を独自に定義する場合は、目次を構成するページラベルを変更します。表紙と裏表紙には名前を付けることをお勧めします。例えば、表紙ページで"Page0-1"の代わりに"Cover"という文字を読み取ることができます。
+eCatalog画面の「ページ順序」タブで、eCatalogの初期設定のページ番号がダイナミックMedia Classicに表示されます。 ページの名前を独自に定義する場合は、目次を構成するページラベルを変更します。表紙と裏表紙には名前を付けることをお勧めします。例えば、表紙には「Page 0-1」ではなく「Cover」と表示されます。
 
 カスタマイズした eCatalog の目次は、手動で作成するか、CSV（Mac OS のみ）または XML ファイルからページ名を読み込んで作成できます。
 
@@ -108,19 +108,19 @@ eCatalog を作成する際には、「**保存後に公開**」オプション�
 
 ページ名の読み込みは、eCatalog のページ数が多い場合にお勧めします。ページ名は、タブ区切りファイルまたは XML ファイルから読み込めます。
 
-目次ラベルは、画像のユーザデータフィールドに保存されます。このデータをリストとしてフォーマット `name=<value>`` pairs separated by two question marks “??” `します。例えば、tocENという名前のTOCフィールドに1つのラベルを設定するには、画像のユーザデータを次のように設定します。
+TOCラベルは、画像のユーザデータフィールドに保存されます。このデータをのリストとして形式設定しま `name=<value>`` pairs separated by two question marks “??” `す。 例えば、「tocEN」という名前のTOCフィールドに1つのラベルを設定するには、画像のユーザデータを次のように設定します。
 
-tocEN=&lt;EN_page_label&gt;
+tocEN=&lt;EN_page_label>
 
 tocEN と tocFR という 2 つの TOC フィールドに別々のラベルを設定するには、次のように設定します。
 
-tocEN=&lt;EN_page_label&gt;??tocFR=&lt;FR_page_label&gt;
+tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>
 
 ユーザデータフィールドをタブ区切りファイルに読み込むには、次のように、フィールドユーザデータを含めます。
 
 | IPSID | Userdata |
 |--- |--- |
-| `<image_IPS_ID>` | tocEN=&lt;EN_page_label&gt;??tocFR=&lt;FR_page_label&gt; |
+| `<image_IPS_ID>` | tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label> |
 
 ユーザデータフィールドを XML ファイルに読み込むには、次のように、属性`vc_userdata` を含めます。
 
