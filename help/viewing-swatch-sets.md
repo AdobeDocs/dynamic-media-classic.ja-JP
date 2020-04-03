@@ -2,12 +2,12 @@
 title: スウォッチセットの表示
 seo-title: スウォッチセットの表示
 description: 'null'
-seo-description: スウォッチセットを表示する方法について説明します。
-uuid: 80df403b- b03f-428f-9784- c3f774567bd0
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/swatch_ sets
+seo-description: スウォッチセットの表示方法を説明します。
+uuid: 80df403b-b03f-428f-9784-c3f774567bd0
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
@@ -19,7 +19,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 スウォッチセットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。スウォッチセットには「ズームビューア : カスタム」ビューアプリセットを使用します。
 
-Dynamic Media Classicには初期設定のビューアプリセットが付属しています。管理者は、ビューアプリセットを作成または変更できます。
+ダイナミックMedia Classicには、初期設定のビューアプリセットが用意されています。 管理者は、ビューアプリセットを作成または変更できます。
 
 ## スウォッチセットのズームビューアプリセットの設定 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
@@ -51,7 +51,7 @@ Dynamic Media Classicには初期設定のビューアプリセットが付属�
    * アセットウィンドウの上のツールバーの右側にある&#x200B;**「リストビュー」**&#x200B;をクリックします。アセットウィンドウでアセットにカーソルを合わせ、**「プレビュー」**&#x200B;をクリックします。
    * アセットウィンドウの上のツールバーの右側にある&#x200B;**「グリッドビュー」**&#x200B;をクリックします。アセットウィンドウのアセットサムネールウィンドウで、**「プレビュー」**&#x200B;をクリックします。
    * アセットウィンドウの上のツールバー右側にある&#x200B;**「詳細ビュー」**&#x200B;をクリックします。同じツールバーで、**「プレビュー」**&#x200B;をクリックします。
-   * アセットウィンドウで、アセットを選択します。On the toolbar, click **File** &gt; **Preview**.
+   * アセットウィンドウで、アセットを選択します。On the toolbar, click **File** > **Preview**.
 
 1. （オプション）プレビューウィンドウ下部のドロップダウンリストで、アセットの URL がコピーされるときにアセットの URL に適用する URL エンコーディングを選択します。
 1. ビューアのリンクをクリックして、選択したビューアでアセットをプレビューします。
