@@ -2,10 +2,10 @@
 title: アセットのプレビュー
 seo-title: アセットのプレビュー
 description: 'null'
-seo-description: アセットをプレビューする方法を説明します。
+seo-description: アセットのプレビュー方法を説明します。
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
-contentOwner: 管理者
-content-type: 参照
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
