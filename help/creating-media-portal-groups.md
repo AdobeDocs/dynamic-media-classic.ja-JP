@@ -2,13 +2,13 @@
 title: Media Portal グループの作成と管理
 seo-title: Media Portal グループの作成と管理
 description: 'null'
-seo-description: Media Portalグループを作成および管理する方法について説明します。
-uuid: 23f360e1- ddcb-491b- ab9f-428f3ac9c316
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/media_ portal
-discoiquuid: 91524d36- b77a-4dc4- acba- a7bd85297e98
+seo-description: Media Portalグループの作成方法と管理方法について説明します。
+uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -67,7 +67,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
    | ファイル名の変更 |  | X |  |
    | ファイルの削除 |  |  | X |
 
-1. **「閉じる」**&#x200B;をクリックします。
+1. 「**閉じる**」をクリックします。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 1. **設定**／**Media Portal 設定**／**グループ**&#x200B;をクリックします。
 1. 「グループリスト」ページで、グループを選択し、編集または削除します。
 
-   **Editing a group** Click Edit, and then choose options in the Edit Group dialog box.
+   **グループの編集** 「編集」をクリックし、グループの編集ダイアログボックスでオプションを選択します。
 
-   **グループを削除するには、「削除」** をクリックします。
+   **グループの削除「削除** 」をクリックします。
 
