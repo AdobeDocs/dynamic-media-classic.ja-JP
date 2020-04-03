@@ -2,13 +2,13 @@
 title: スピンセットのプレビュー
 seo-title: スピンセットのプレビュー
 description: 'null'
-seo-description: スピンセットをプレビューする方法について説明します。
-uuid: 5b9d4c37- a4ec-40c5-8f14- da875d71226e
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/spin_ sets
-discoiquuid: 4b32ffff-4387-4699-9ba9- c3b23a2c3607
+seo-description: スピンセットのプレビュー方法を説明します。
+uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
