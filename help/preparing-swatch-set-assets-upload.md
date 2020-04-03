@@ -2,13 +2,13 @@
 title: スウォッチセットのアセットのアップロードの準備
 seo-title: スウォッチセットのアセットのアップロードの準備
 description: 'null'
-seo-description: スウォッチセットアセットをアップロード用に準備する方法について説明します。
-uuid: ed78da8c- d708-418b-97ce-3c37d9df9c90
-contentOwner: 管理者
-content-type: 参照
-products: SG_ PREPERNEMENTMANAGER/Dynamic- Media- Scene-7
-geptopics: SG_ SCESTESEVENT_ PK/categories/swatch_ sets
-discoiquuid: 0c851prop- be05-46a9-8654-3d028f3217a4
+seo-description: スウォッチセットのアセットをアップロード用に準備する方法について説明します。
+uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -24,7 +24,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 * 同じジャケットのブラック、ブラウン、グリーンのショット
 * ブラック、ブラウン、グリーンのカラースウォッチ
 
-ユーザはスウォッチセットで画像をズームできるので、長辺が少なくとも 2000 pixel の画像を使用してください。
+ユーザはスウォッチセットで画像をズームできるので、長辺が少なくとも 2000 pixel の画像を使用してください。Dynamic Media Classicは、多くの画像ファイル形式をサポートしていますが、可逆圧縮TIFF、PNG、EPS画像をお勧めします。
 
 アセットのアップロードについて詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
