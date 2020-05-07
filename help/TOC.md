@@ -2,21 +2,24 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Dynamic Media Classicヘルプ
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 78%
 
 ---
 
 
 # Dynamic Media Classicヘルプ {#using}
 
-+ [ダイナミックメディアクラシックドキュメントのホーム](home.md)
-+ [2020年上半期に発売予定の新しいDynamic Media Classicユーザーインターフェイス](new-ui-2020.md)
-+ [Experience Leagueによるダイナミックメディアニュースレター](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classicの紹介 {#intro}
-   + [ダイナミックメディアクラシックについて](introduction.md)
++ [ダイナミックMedia Classicドキュメントホーム](home.md)
++ [2020年上半期に提供予定の新しいDynamic Media Classicユーザーインターフェイス](new-ui-2020.md)
++ [Experience League別ダイナミックメディアニュースレター](dynamic-media-newsletter.md)
++ Adobe Dynamic Media Classicの概要 {#intro}
+   + [Dynamic Media Classicについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
    + [新機能](whats-new.md)
    + [必要システム構成](system-requirements.md)
@@ -42,7 +45,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [管理設定](administration-setup.md)
 + Media Portal {#media-portal}
    + [必要システム構成](system-requirements-1.md)
-   + [クイック開始:Media Portal](quick-start-media-portal-administration.md)
+   + [クイック開始: Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal ユーザの役割](media-portal-user-roles.md)
    + [Media Portal グループの作成と管理](creating-media-portal-groups.md)
    + [Media Portal のユーザの追加と管理](adding-media-portal-users.md)
@@ -87,7 +90,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [ズーム画像の公開](publishing-zoom-images.md)
    + [Web ページへのズームビューアのリンク](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [クイック開始:eCatalog](quick-start-ecatalog.md)
+   + [クイック開始: eCatalog](quick-start-ecatalog.md)
    + [PDF ファイルのアップロード](uploading-pdf-files.md)
    + [eCatalog の作成](creating-ecatalog.md)
    + [eCatalog 画像マップの作成](creating-ecatalog-image-maps.md)
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [テンプレートの公開](publishing-templates.md)
    + [Web ページへのテンプレートのリンク](linking-template-web-page.md)
    + [コンテンツのバリエーションの管理](content-variations.md)
-+ Template publishing {#template-publishing}
-   + [クイック開始:印刷テンプレート](quick-start-template-publishing.md)
-   + [Adobe Illustratorでの初期テンプレートの作成](create-initial-template-illustrator.md)
-   + [印刷テンプレート用のファイルのアップロード](upload-files-template-publishing.md)
-   + [可変性の定義：パラメータ化と DOM 操作について](defining-variability-parameterization-versus-dom.md)
-   + [ダイナミックメディアクラシックでのテンプレートのパラメータ化](parameterizing-template-scene7.md)
-   + [テンプレート属性のプレビューと更新](preview-update-template-attributes.md)
-   + [DOM 操作](dom-manipulation.md)
-   + [FXG テンプレートの Web ページへのリンク](linking-fxg-template-web-page.md)
-   + [PDF ドキュメントの作成](creating-pdf-document.md)
 + ビデオ {#video}
    + [クイックスタート：ビデオ](quick-start-video.md)
    + [ベストプラクティス：HTML5 ビデオビューアの使用](best-practice-using-html5-video.md)
@@ -153,7 +146,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [混在メディアセットの公開](publishing-mixed-media-set.md)
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [クイック開始:Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-scene7-analytics.md)
+   + [クイック開始: Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-scene7-analytics.md)
    + [Adobe Analytics へのログイン](log-analytics.md)
    + [Adobe Analytics レポートの設定](configuring-analytics-reports.md)
    + [Adobe Analytics 計測キットを使用したビューアの計測](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -162,10 +155,10 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Adobe Analytics ビデオレポートの有効化](enabling-analytics-video-reports.md)
    + [Adobe Analytics 設定情報の公開](publishing-analytics-configuration-information.md)
 + ターゲットクラシック統合 {#target-classic}
-   + [クイック開始:ターゲットクラシック統合](quick-start-target-classic-integration.md)
-   + [Adobe Dynamic Media ClassicとAdobe Dynamic Media Classicの統合](integrating-scene7-target-classic.md)
+   + [クイック開始: ターゲットクラシック統合](quick-start-target-classic-integration.md)
+   + [Adobe Dynamic Media ClassicとAdobe Media Classicの統合](integrating-scene7-target-classic.md)
    + [オファーセットの作成](creating-offer-set.md)
-   + [オファーセットのAdobeターゲットクラシックへのプッシュ](pushing-offer-sets-target-classic.md)
+   + [オファーセットをAdobeターゲットクラシックにプッシュする](pushing-offer-sets-target-classic.md)
 + ユーザ生成コンテンツ {#user-generated-content}
    + [ユーザー生成コンテンツについて](about-ugc.md)
    + [アップロードしたアセットの削除](deleting-uploaded-asset.md)
