@@ -9,7 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: e37612b066909fdba486bd72ee4ae3712294f50a
+source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+workflow-type: tm+mt
+source-wordcount: '3867'
+ht-degree: 51%
 
 ---
 
@@ -52,6 +55,8 @@ TAR および ZIP のアップロードサポートには、ファイルを解�
 ### ダイナミックメディアでサポートされていない画像形式 {#unsupported-image-formats-dynamic-media}
 
 次のリストでは、ダイナミックメディアでサポートされていないラスターイメージファイル形式のサブタイプにつ *いて説明します* 。
+
+ダイナミックメディアでサポートされていないファイル形式の [検出も参照してください](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)。
 
 * 100 MBを超えるIDATチャンクサイズを持つPNGファイル。
 * PSBファイル。
