@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media Classicヘルプ
 index: y
 translation-type: tm+mt
-source-git-commit: 2ba41733263b9b186c45e97e6b2350aeb2b400ac
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 79%
+source-wordcount: '725'
+ht-degree: 78%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 79%
    + [開発者向けリソース](developer-resources.md)
    + [新機能](whats-new.md)
    + [必要システム構成](system-requirements.md)
-   + [Adobe Scene7 Publishing System デスクトップアプリケーション](scene7-publishing-system-desktop-applications.md)
+   + [Adobe Dynamic Media Classicデスクトップアプリケーションは、準備中です。](dynamic-media-classic-desktop-app.md)
    + [サポート](support.md)
    + [Dynamic Media Classic Media Portalのヘルプ](help-scene7-media-portal.md)
    + [Adobe トレーニングサービス](training-services.md)
