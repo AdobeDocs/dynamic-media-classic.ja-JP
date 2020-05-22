@@ -1,15 +1,15 @@
 ---
-title: 2020年上半期に提供予定の新しいDynamic Media Classicユーザーインターフェイス
-seo-title: 2020年上半期に提供予定の新しいDynamic Media Classicユーザーインターフェイス
-description: Dynamic Media Classicのユーザーは、2020年の前半にユーザーインターフェイスの更新を期待できます。 このエクスペリエンスでは、重要なリソースへのリンクを含む更新されたログインが提供されます。また、この更新は、ブラウザーのAdobe Flashテクノロジーに依存しなくなります。
-seo-description: Dynamic Media Classicのユーザーは、2020年の前半にユーザーインターフェイスの更新を期待できます。 このエクスペリエンスでは、重要なリソースへのリンクを含む更新されたログインが提供されます。また、この更新は、ブラウザーのAdobe Flashテクノロジーに依存しなくなります。
+title: 2020年6月31日より新しいDynamic Media Classicログインエクスペリエンスが提供されます。
+seo-title: 新しいダイナミックメディアクラシック（2020年6月31日）
+description: Dynamic Media Classicのユーザーは、2020年6月31日にユーザーインターフェイスが更新される予定です。 このエクスペリエンスでは、重要なリソースへのリンクを含む更新されたログインが提供されます。また、この更新は、ブラウザーのAdobe Flashテクノロジーに依存しなくなります。
+seo-description: Dynamic Media Classicのユーザーは、2020年6月31日にユーザーインターフェイスの更新を予定しています。 このエクスペリエンスでは、重要なリソースへのリンクを含む更新されたログインが提供されます。また、この更新は、ブラウザーのAdobe Flashテクノロジーに依存しなくなります。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
