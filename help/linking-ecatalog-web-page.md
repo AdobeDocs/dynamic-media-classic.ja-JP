@@ -10,14 +10,17 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 91%
 
 ---
 
 
 # Web ページへの eCatalog のリンク{#linking-an-ecatalog-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogなどのDynamic Media Image Serverのコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションに eCatalog の URL 文字列や埋め込みコードを設定するには、Scene7 Publishing System から URL 文字列や埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogなどのImage ServerのコンテンツにDynamic Mediaからアクセスします。 この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションに eCatalog の URL 文字列や埋め込みコードを設定するには、Scene7 Publishing System から URL 文字列や埋め込みコードをコピーします。
 
 >[!NOTE]
 >
@@ -46,7 +49,7 @@ Webサイトやアプリケーションは、URL文字列や埋め込みコー�
 
 eCatalog にアクセスする方法としてよく使われるのは、eCatalog の表紙のサムネールを Web ページにリンクとして貼り付ける方法です。中央にきちんと表示されるポップアップウィンドウで eCatalog が起動するように、IT 部門の担当者と相談してください。また、ブラウザ画面にツールバーやアドレスバーなどを表示しないように依頼してください。
 
-詳しくは、『Adobeビューアリファレンスガ [イド』のHTML5 eCatalogビューアの埋め込みを参照してください](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_ecatalog_viewer_about.html)。
+詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「HTML5 eCatalogビューアの [埋め込み](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)」を参照してください。
 
 ## eCatalog ビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-ecatalog-viewer}
 
