@@ -2,7 +2,7 @@
 title: Web ページへのスウォッチセットのリンク
 seo-title: Web ページへのスウォッチセットのリンク
 description: 'null'
-seo-description: スウォッチセットをWebページにリンクする方法を説明します。
+seo-description: スウォッチセットをWebページにリンクする方法について説明します。
 uuid: 1f623bf2-3bb0-481f-b063-79e4ce125424
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +49,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 スウォッチセットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、ポップアップズームウィンドウでスウォッチセットを表示する動的ページ（ASP または JSP）が起動します。ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
-詳しくは、『Adobeビューアリファレンスガ [イド』のHTML5ズームビューアの埋め込みを参照してください](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_zoom_viewer_about.html)。
+詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「HTML5ズームビューアの [埋め込み](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)」を参照してください。
 
 ## スウォッチセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-swatch-set-viewer}
 
