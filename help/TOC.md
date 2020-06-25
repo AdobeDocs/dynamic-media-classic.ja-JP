@@ -2,35 +2,36 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classicヘルプ
+user-guide-title: Dynamic Mediaクラシックヘルプ
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 77%
+source-wordcount: '730'
+ht-degree: 76%
 
 ---
 
 
-# Dynamic Media Classicヘルプ {#using}
+# Dynamic Mediaクラシックヘルプ {#using}
 
-+ [ダイナミックMedia Classicドキュメントホーム](home.md)
-+ [2020年6月31日より新しいDynamic Media Classicログインエクスペリエンスが提供されます。](new-ui-2020.md)
-+ [Experience League別ダイナミックメディアニュースレター](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classicの概要 {#intro}
-   + [Dynamic Media Classicについて](introduction.md)
++ [Dynamic Mediaクラシックドキュメントホーム](home.md)
++ [ベストプラクティスのチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [2020年6月30日より公開された新しいDynamic MediaClassicログインエクスペリエンス](new-ui-2020.md)
++ [Experience League別Dynamic Mediaニュースレター](dynamic-media-newsletter.md)
++ AdobeDynamic Mediaクラシックの紹介 {#intro}
+   + [Dynamic Mediaについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
    + [新機能](whats-new.md)
    + [必要システム構成](system-requirements.md)
-   + [Adobe Dynamic Media Classicデスクトップアプリケーションは、準備中です。](dynamic-media-classic-desktop-app.md)
+   + [AdobeDynamic Mediaクラシックデスクトップアプリは、近日公開予定です。](dynamic-media-classic-desktop-app.md)
    + [サポート](support.md)
-   + [Dynamic Media Classic Media Portalのヘルプ](help-scene7-media-portal.md)
+   + [Dynamic MediaClassic Media Portalのヘルプ](help-scene7-media-portal.md)
    + [Adobe トレーニングサービス](training-services.md)
    + [役立つリソース](popular-resources.md)
    + [トレーニングビデオ](training-videos.md)
 + はじめに {#getting-started}
-   + [Adobe Dynamic Media Classicプラットフォームの概要](scene7-platform-overview.md)
+   + [Adobe Platforms Classicプラットフォームの概要](scene7-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [サインインとサインアウト](signing-out.md)
    + [ナビゲーションの基本](navigation-basics.md)
@@ -145,7 +146,7 @@ ht-degree: 77%
    + [混在メディアセットの公開](publishing-mixed-media-set.md)
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [クイック開始: Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-scene7-analytics.md)
+   + [クイック開始: Dynamic MediaClassicとAdobeAnalyticsの統合](quick-start-integrating-scene7-analytics.md)
    + [Adobe Analytics へのログイン](log-analytics.md)
    + [Adobe Analytics レポートの設定](configuring-analytics-reports.md)
    + [Adobe Analytics 計測キットを使用したビューアの計測](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -153,11 +154,11 @@ ht-degree: 77%
    + [Adobe Analytics レポートの表示による統合のテスト](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics ビデオレポートの有効化](enabling-analytics-video-reports.md)
    + [Adobe Analytics 設定情報の公開](publishing-analytics-configuration-information.md)
-+ ターゲットクラシック統合 {#target-classic}
-   + [クイック開始: ターゲットクラシック統合](quick-start-target-classic-integration.md)
-   + [Adobe Dynamic Media ClassicとAdobe Media Classicの統合](integrating-scene7-target-classic.md)
++ Targetクラシック統合 {#target-classic}
+   + [クイック開始: Targetクラシック統合](quick-start-target-classic-integration.md)
+   + [Adobe ClassicとAdobe TargetClassicの統合](integrating-scene7-target-classic.md)
    + [オファーセットの作成](creating-offer-set.md)
-   + [オファーセットをAdobeターゲットクラシックにプッシュする](pushing-offer-sets-target-classic.md)
+   + [オファーセットをAdobe Targetクラシックにプッシュする](pushing-offer-sets-target-classic.md)
 + ユーザ生成コンテンツ {#user-generated-content}
    + [ユーザー生成コンテンツについて](about-ugc.md)
    + [アップロードしたアセットの削除](deleting-uploaded-asset.md)
