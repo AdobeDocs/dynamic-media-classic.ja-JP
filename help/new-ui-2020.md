@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 新しいDynamic Mediaクラシックログインエクスペリエンスが利用できるようになりました {#new-ui-2020}
 
-必要システム構成を確認し、 [AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md) （英語のみ）をダウンロードしてインストールしてから、サインインするを参照してください。
+必要システム構成を確認し、新しいアプリをダウンロードしてインストールした後、 [AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md) を参照してください。
 
 ## _最終更新日：2020年6月30日_
 
@@ -24,37 +24,31 @@ Dynamic Mediaクラシックユーザーは、新しいログインエクスペ�
 
 ### **_2020年12月31日にブラウザーがAdobe Flashのサポートを停止した場合、Adobe Classic（旧称Scene7）に何らかの影響がありますか。_**
 
-Adobe Flash Playerは、WebブラウザーでAdobe FlashPlatform上で開発されたコンテンツを使用できるWebブラウザープラグインです。 現在ラベルが付いている、または現在製品でラベルが付いているClassicDynamic Media [!DNL Scene7 Publishing System][!DNL SPS] のWebユーザーインターフェイスには、Adobe Flash Playerが必要です。 アドビから、お客様に対してデスクトップアプリケーションを提供いたしました。このデスクトップアプリケーションは、ブラウザーアプリケーションに取って代わるものになりました。
+Adobe Flash Playerは、Adobe Flashプラットフォーム上で開発されたコンテンツをWebブラウザーで使用できるWebブラウザープラグインです。 Dynamic MediaClassicのWebユーザーインターフェイス（現在、ラベルが付いているか、製品内にある） [!DNL Scene7 Publishing System][!DNL SPS] には、Adobe Flash Playerが必要でした。 2020年12月31日にAdobe Flashが廃止されると、Dynamic Mediaクラシックのお客様はWebユーザーインターフェイスにログインできなくなります。 このため、アドビでは、ユーザーに対して、ブラウザーエクスペリエンスに代わるデスクトップアプリケーションを提供しています。
 
-### **_Dynamic Mediaクラシックのお客様は、いつ新しいデスクトップアプリケーションをご利用いただけますか？_**
-
-新しいDynamic MediaのClassicデスクトップアプリケーションをダウンロードしてインストールできるようになりました。 2020年12月31日にAdobe Flash Playerが非推奨となる前に、スムーズなトランジションを確保するため、2020年10月1日までにアプリケーションをインストールすることをお勧めします。  この日には、（製品の「」と表示された）Dynamic MediaClassicのブラウザーバージョンにサインインできなくな [!DNL Scene7 Publishing System] ります。
-
-必要システム構成を確認し、 [AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md) （英語のみ）をダウンロードしてインストールしてから、サインインするを参照してください。
+必要システム構成を確認し、新しいアプリをダウンロードしてインストールした後、 [AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md) を参照してください。
 
 ### **_新しいデスクトップアプリケーションにアクセスする方法_**
 
-新しいデスクトップアプリは、macOS用の `.dmg` インストーラーで、Windows用の `.exe` インストーラーです。
+新しいデスクトップアプリは、macOS用の `.dmg` インストーラーとして、またはWindows用の `.exe` インストーラーとして入手できます。
 
-必要システム構成を確認し、 [AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md) （英語のみ）をダウンロードしてインストールしてから、サインインするを参照してください。
+必要システム構成を確認し、新しいアプリをダウンロードしてインストールした後、 [AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md) を参照してください。
 
-ダウンロードリンクは、Dynamic Mediaのクラシックニュースレターを通しても共有されます。
+ダウンロードリンクは、 [Dynamic Mediaクラシックニュースレター購読ページを通しても共有されます。](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
 
-### **_新しいデスクトップアプリケーションはどのように動作しますか？_**
+### **_新しいデスクトップアプリケーションの仕組み_**
 
-デスクトップアプリケーションをダウンロード、インストール、起動した後、更新されたログインエクスペリエンスが表示されます。 既存のユーザー名とパスワードを入力し、地域に応じて適切なDynamic Mediaを選択すると、Servers Classicにサインインします。 全体的なエクスペリエンスは、使い慣れたブラウザーのバージョンと同じであることに注意してください。 デスクトップアプリから、Classic ProductionおよびStagingのDynamic Mediaにアクセスできます。 また、この機能の資格を持っている場合は、Media Portalにアクセスすることもできます。
+デスクトップアプリケーションをダウンロード、インストール、起動した後、更新されたログインエクスペリエンスが表示されます。 既存のユーザー名とパスワードを入力し、地域に応じて適切なDynamic Mediaを選択すると、Servers Classicにサインインします。 全体的なエクスペリエンスは、使い慣れたWebブラウザーのバージョンと同じです。 デスクトップアプリから、Classic ProductionおよびStagingのDynamic Mediaにアクセスできます。 また、この機能の資格を持っている場合は、Media Portalにアクセスすることもできます。
 
 >[!IMPORTANT]
 >
 >一度にインストールしてアクティブにできるのは、デスクトップアプリケーションのインスタンスの1つだけです。
 
-必要システム構成を確認し、 [AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md) （英語のみ）をダウンロードしてインストールしてから、サインインするを参照してください。
-
 ### **_Dynamic MediaクラシックAPIを使用して製品にアクセスし、Webユーザーインターフェイスを使用してログインしない場合はどうなりますか。_**
 
 ClassicDynamic Mediaの基になるAPIに変更はありません。
 
-### **_この新しいデスクトップアプリケーションエクスペリエンスには、サードパーティ製統合への移行や変更が必要になりますか？_**
+### **_この新しいデスクトップアプリケーションエクスペリエンスには、サードパーティ製統合への移行や変更が必要ですか？_**
 
 いいえ. Dynamic Mediaクラシックをご利用のお客様は、新しいデスクトップアプリケーションを使用するために、サードパーティ製の統合を移行または変更する必要はありません。
 
@@ -68,13 +62,21 @@ ClassicDynamic Mediaの基になるAPIに変更はありません。
 
 ### **_私の会社には厳しいセキュリティ要件があります。 新しいDynamic MediaのClassicデスクトップアプリでは、これらの要件をどのように処理しますか。_**
 
-アドビは、アドビの製品がお客様のセキュリティ要件を満たすように取り組んでいます。 新しいDynamic Mediaクラシックデスクトップアプリは、アドビのすべてのセキュリティ標準に準拠した高いセキュリティ機能を引き続き提供します。
+アドビは、アドビの製品がお客様のセキュリティ要件を満たすように取り組んでいます。 新しいDynamic Mediaクラシックデスクトップアプリは、引き続き、アドビのすべてのセキュリティ標準に準拠した高いセキュリティ機能をお客様に提供します。
 
 ### **_会社では、コンピューターにソフトウェアやアプリをインストールできません。 新しいデスクトップアプリケーションにアクセスする方法を教えてください。_**
 
 会社で、承認なしにソフトウェアとアプリケーションをダウンロードしてシステムにインストールできない場合は、新しいDynamic MediaのClassicデスクトップアプリケーションにアクセスする権限を取得するために、ITチームに早い段階で作業します。 2020年12月31日以降、ブラウザーのバージョンは非推奨になることに注意してください。 新しいデスクトップアプリケーションのダウンロードが終了するまで待たないようにすることが重要です。
 
-### **_新しいDynamic MediaのClassicデスクトップアプリで新しいSKUが必要になりますか。 ライセンスコストが関与しているか。_**
+### **_新しいデスクトップアプリケーションの複数のインスタンスを同時に開くことはできますか？_**
+
+いいえ。新しいDynamic MediaClassicデスクトップアプリケーションを構築するAIRテクノロジは、特定の時点でアプリケーションの複数のインスタンスを開く操作を制限します。
+
+### **_ローカルコンピューターを介してDynamic Mediaクラシックにアップロードできるファイルの数に制限はありますか。_**
+
+Windowsで新しいDynamic Mediaクラシックデスクトップアプリを使用する場合、アップロード **[!UICONTROL ダイアログボックスを使用して、一度に最大150個のファイルをアップロードできます]** 。 この制限には2020年末までに対処する予定です。 macOSプラットフォームでは ** 、アップロードに関する制限はありません。
+
+### **_新しいDynamic MediaのClassicデスクトップアプリで新しいSKUが必要ですか。 ライセンスコストが関与しているか。_**
 
 新しいDynamic MediaのClassicデスクトップアプリを使用する場合、SKUやライセンスの変更は必要ありません。
 
@@ -90,8 +92,7 @@ ClassicDynamic Mediaの基になるAPIに変更はありません。
 
 Dynamic Mediaクラシックは、リッチメディア戦略を強化するために設計された、強力で豊富な機能を備えたソリューションです。 すべての機能を確実に活用するために、次の実用的なリソースを確認してください。
 
-* [ベストプラクティスガイド](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
-* [Adobe Experience League](https://guided.adobe.com/#recommended/solutions/experience-manager)
+* [Dynamic Mediaのベストプラクティスのチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Dynamic Mediaブログ投稿](https://theblog.adobe.com/tag/dynamic-media/)
 * [Dynamic Mediaニュースレターアーカイブ](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
@@ -100,4 +101,7 @@ Dynamic Mediaクラシックは、リッチメディア戦略を強化するた�
 ### **_私は、AEM Assetsを持つDynamic Mediaへのアップグレードについてもっと学びたいと思っています。 詳細情報はどこで入手できますか。_**
 
 次世代のリッチメディアオーサリング、公開、動的配信にアップグレードする利点について詳しくは、 [Dynamic Mediaアップグレードポータルを参照してください](http://exploreadobe.com/dynamic-media-upgrade/)。
+
+
+<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
 
