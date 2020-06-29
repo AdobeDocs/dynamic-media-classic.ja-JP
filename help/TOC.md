@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Mediaクラシックヘルプ
 index: y
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 76%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 76%
 
 + [Dynamic Mediaクラシックドキュメントホーム](home.md)
 + [ベストプラクティスのチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [2020年6月30日より公開された新しいDynamic MediaClassicログインエクスペリエンス](new-ui-2020.md)
++ [新しいDynamic Mediaクラシックログインエクスペリエンスが利用可能](new-ui-2020.md)
 + [Experience League別Dynamic Mediaニュースレター](dynamic-media-newsletter.md)
 + AdobeDynamic Mediaクラシックの紹介 {#intro}
+   + [AdobeDynamic Mediaクラシックデスクトップアプリ — 利用可能](dynamic-media-classic-desktop-app.md)
    + [Dynamic Mediaについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
    + [新機能](whats-new.md)
    + [必要システム構成](system-requirements.md)
-   + [AdobeDynamic Mediaクラシックデスクトップアプリは、近日公開予定です。](dynamic-media-classic-desktop-app.md)
    + [サポート](support.md)
    + [Dynamic MediaClassic Media Portalのヘルプ](help-scene7-media-portal.md)
    + [Adobe トレーニングサービス](training-services.md)
