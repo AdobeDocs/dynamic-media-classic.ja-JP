@@ -8,98 +8,87 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 871d12eccc3ce183c8fb2785bad02ad490491157
+source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
 
-# 準備中： AdobeDynamic Mediaクラシックデスクトップアプリ {#dynamic-media-classic-desktop-app}
+# 利用可能： AdobeDynamic Mediaクラシックデスクトップアプリ {#dynamic-media-classic-desktop-app}
 
-Dynamic Mediaクラシックのユーザーは、ブラウザーのAdobe Flashテクノロジーに依存しなくなった新しいデスクトップアプリケーションを利用できます。 この新しいアプリは、2020年6月30日にWindowsおよびmacOSで利用可能になります。
+Dynamic Mediaクラシックのユーザーは、ブラウザーのAdobe Flashテクノロジーに依存しなくなった新しいデスクトップアプリケーションエクスペリエンスにアクセスできるようになりました。
 
-2020年6月30日公開予定の [新規Dynamic Mediaクラシックログインエクスペリエンスに関するFAQを参照してください](/help/new-ui-2020.md)。
-
-<!--
-
-# Adobe Dynamic Media Classic desktop app {#dynamic-media-classic-desktop-app}
-
-Dynamic Media Classic users now have access to a new desktop app experience that no longer relies on Adobe Flash technology in the browser. 
-
-This new app is now available for Windows and macOS.
+この新しいアプリがWindowsとmacOSで使用できるようになりました。
 
 >[!IMPORTANT]
 >
->We recommend that you install the new Adobe Dynamic Media Classic desktop app by October 1, 2020. Doing so will ensure you have a smooth transition before Adobe Flash Player is deprecated on December 31, 2020. On that date, you will no longer be able to log on to the browser version of Adobe Dynamic Media Classic user interface, labeled as Scene7 Publishing System in the product.
+>2020年10月1日までに、新しいAdobeDynamic Mediaクラシックデスクトップアプリケーションをインストールすることをお勧めします。 これにより、スムーズなトランジションが確保され、Adobe Flash Playerが2020年12月31日に廃止されます。 この日、製品のScene7 Publishing Systemというラベルが付いたAdobeDynamic MediaClassicユーザインターフェイスのブラウザバージョンにログオンできなくなります。
 
-See the FAQ for the [New Dynamic Media Classic sign in experience now available](/help/new-ui-2020.md).
+新 [規Dynamic MediaクラシックログインエクスペリエンスのFAQを参照してください](/help/new-ui-2020.md)。
 
-## System requirements for Adobe Dynamic Media Classic desktop app {#system-requirements-dmc-app}
+## AdobeDynamic Mediaクラシックデスクトップアプリケーションの必要システム構成 {#system-requirements-dmc-app}
 
-Adobe Dynamic Media Classic desktop app is compatible with the following operating systems:
-* macOS X 10.10 or newer.
-* Windows 7 or newer.
+AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペレーティングシステムと互換性があります。
+* macOS X 10.10以降。
+* Windows 7以降。
 
-## Download and install Adobe Dynamic Media Classic desktop app {#installation-dmc-app}
+## AdobeDynamic Mediaクラシックデスクトップアプリケーションのダウンロードとインストール {#installation-dmc-app}
 
-1. Uninstall any older Dynamic Media Classic desktop app versions on your system.
+1. システム上の古いDynamic MediaのClassicデスクトップアプリケーションをすべてアンインストールします。
 
-1. Download the latest installer for Adobe Dynamic Media Classic desktop app.
+1. AdobeDynamic Mediaクラシックデスクトップアプリ用の最新インストーラーをダウンロードします。
 
-    * macOS (.dmg) &ndash; [Text](link).
-    * Windows (.exe) &ndash; [Text](link).
+   * macOS(.dmg) - [ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)。
+   * Windows(.exe) - [ダウンロード](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)。
 
-1. Do one of the following based on the installer you downloaded.
+1. ダウンロードしたインストーラーに基づいて、次のいずれかの操作を行います。
 
-    * **For macOS** &ndash; In the **[!UICONTROL Drag & drop to install]** dialog box, drag **[!UICONTROL Adobe Dynamic Media Classic]** and drop it onto **[!UICONTROL Applications]**.
+   * **macOSの場合** - **[!UICONTROL Drag &amp; drop to install]** （ドラッグ&amp;ドロップしてインストール）ダイアログボックスで、 **[!UICONTROL AdobeDynamic MediaClassic]** （クラシック）をドラッグし、「 **[!UICONTROL Applications]**（アプリケーション）」にドロップします。
 
-        ![Drag and drop install on macOS](/help/assets/dragondrop-install.png)
+      ![macOSでのドラッグ&amp;ドロップによるインストール](/help/assets/dragondrop-install.png)
 
-    * In the **[!UICONTROL Applications]** folder, tap the Adobe Dynamic Media Classic icon.
-    * In the dialog box, tap **[!UICONTROL Open]** to open the Adobe Dynamic Media Classic desktop app.
+   * 「 **[!UICONTROL Applications]** 」フォルダーで、「AdobeDynamic Mediaクラシック」アイコンをタップします。
+   * ダイアログボックスで「 **[!UICONTROL 開く]** 」をタップし、AdobeDynamic Mediaクラシックデスクトップアプリケーションを開きます。
 
-        ![Open downloaded app](/help/assets/open-dmclassicapp.png)
+      ![ダウンロードしたアプリを開く](/help/assets/open-dmclassicapp.png)
 
-    * **For Windows** &ndash; Run the installer binary and follow the on-screen instructions to install the desktop app.
+   * **Windowsの場合** — インストーラーバイナリを実行し、画面に表示される指示に従ってデスクトップアプリケーションをインストールします。
 
-1. When you open the application, the new Adobe Dynamic Media Classic Sign In page is displayed:
+1. アプリを開くと、新しいAdobeDynamic Mediaクラシックログインページが表示されます。
 
-    ![Dynamic Media Classic sign in](/help/assets/dmclassic-login.png)
+   ![Dynamic Mediaクラシックサインイン](/help/assets/dmclassic-login.png)
 
-1. Use the same credentials as your browser credentials to sign in to Adobe Dynamic Media Classic.
+1. ブラウザーの資格情報と同じ資格情報を使用してAdobeDynamic Mediaクラシックにサインインします。
 
-    For the **[!UICONTROL Server]** to use, see the following mapping for the production environment:
+   使用する **[!UICONTROL Server]** 、実稼働環境に対する次のマッピングを参照してください。
 
-    | Browser URL | Desktop app server name |
-    |---|---|
-    | https://s7sps1.scene7.com/ | NA (North America) production |
-    | https://s7sps3.scene7.com/ | EMEA (Europe, Middle East, and Africa) production |
-    | https://s7sps5.scene7.com/ | APAC (Asia-Pacific) production |
- 
-1. Post the login UI, you will notice the familiar browser UI experience. You can carry your day to day activity as usual now on the desktop app UI.
+   | ブラウザーURL | デスクトップアプリサーバー名 |
+   |---|---|
+   | https://s7sps1.scene7.com/ | NA（北米）プロダクション |
+   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）プロダクション |
+   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
-## Known limitations in Dynamic Media Classic 
- 
-**_Applies to Windows only &ndash; Is there a limitation on the number of files that can be uploaded through the desktop app UI?_**<br>Yes, a maximum of 150 files can be uploaded at a time by way of the desktop app UI.
+1. ログインUIを投稿すると、使い慣れたブラウザーUIが表示されます。 デスクトップアプリUIでは、通常どおり1日アクティビティを提供できます。
 
-**_Applies to Windows and macOS &ndash; How do I switch between companies?_**<br>To switch between companies, do the following:
-* In the Dynamic Media Classic app, select the new company from the company drop-down list.
-* When the pop-up appears, tap **[!UICONTROL OK]** to sign out and close the app.
+## ClassicDynamic Mediaの既知の制限
 
-    ![Restart the app to use the new company](/help/assets/dmclassic-new-company.png)
-* Restart Dynamic Media Classic, then sign in as usual to work with the new company.
+**_Windowsのみに適用 — デスクトップアプリUIからアップロードできるファイルの数に制限はありますか？_**<br>&#x200B;はい。1度にアップロードできるファイル数は、デスクトップアプリUIから最大150個です。
 
-## Tips and Tricks 
+**_WindowsとmacOSに適用されます。会社を切り替える方法を教えてください。_**<br>&#x200B;会社を切り替えるには、次の手順を実行します。
+* Dynamic Mediaクラシックアプリで、会社のドロップダウンリストから新しい会社を選択します。
+* ポップアップが表示されたら、「 **[!UICONTROL OK]** 」をタップしてサインアウトし、アプリを閉じます。
 
-**_I am unable to see Media Cart panel on the landing page of Dynamic Media Classic._**<br>In Dynamic Media Classic, tap **[!UICONTROL Setup > Personal Setup]**. In the Browser section, make sure **[!UICONTROL Show MediaPortal Features]** is selected (checked). Tap **[!UICONTROL Save > Close]**.
- 
-**_Publish state (green indicator) of an asset is not reflected correctly._**<br>In the browser UI, a re-login to the UI was required to see the correct publish state of assets. In the desktop app, we have introduced a **[!UICONTROL Refresh]** icon on the toolbar, to the right of the **[!UICONTROL Select None]** button. Tap the **[!UICONTROL Refresh]** icon to see the latest status of all the assets on the given page. No re-login required as with the browser UI.
+   ![新しい会社を使用するには、アプリを再起動します](/help/assets/dmclassic-new-company.png)
+* Dynamic MediaClassicを再起動し、通常どおりにサインインして新しい会社を使用します。
 
-![Refresh icon](/help/assets/refresh-icon.png)
-*Refresh icon*
- 
-**_I don't see batch set presets working in the desktop app._**<br>Tap **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Ensure the relevant **[!UICONTROL Batch Set Preset]** is enabled. Click **[!UICONTROL Save and Submit upload]**. 
+## ヒントとテクニック
 
--->
+**_Dynamic Mediaクラシックのランディングページにカートパネルが表示されません。_**<br> Dynamic Mediaクラシックで、 **[!UICONTROL 設定/個人設定をタップします]**。 「ブラウザー」セクションで、「Media Portal機能を **[!UICONTROL 表示」が選択されている(オンになっている]** )ことを確認します。 **[!UICONTROL 保存/閉じるをタップします]**。
+
+**_アセットの公開状態（緑のインジケーター）が正しく反映されません。_**<br>&#x200B;アセットの正しい公開状態を確認するには、ブラウザUIでUIに再ログインする必要がありました。 デスクトップアプリでは、ツールバーの「なしを **[!UICONTROL 選択]** 」ボタンの右側に **[!UICONTROL 「更新]** 」アイコンが追加されました。 「 **[!UICONTROL 更新]** 」アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザーUIと同様に、再ログインする必要はありません。
+
+![更新アイコン](/help/assets/refresh-icon.png)*更新アイコン*
+
+**_デスクトップアプリでバッチセットプリセットが機能していない。_**<br>&#x200B;ア **[!UICONTROL ップロード/ジョブオプション/バッチセットプリセットをタップします]**。 関連する **[!UICONTROL バッチセットプリセットが有効になっていることを確認します]** 。 「アップロードを **[!UICONTROL 保存して送信]**」をクリックします。
