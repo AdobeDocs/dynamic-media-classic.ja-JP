@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Mediaクラシックヘルプ
 index: y
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 76%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 76%
 + [Experience League別Dynamic Mediaニュースレター](dynamic-media-newsletter.md)
 + AdobeDynamic Mediaクラシックの紹介 {#intro}
    + [AdobeDynamic Mediaクラシックデスクトップアプリ — 利用可能](dynamic-media-classic-desktop-app.md)
-   + [Dynamic Mediaについて](introduction.md)
+   + [Dynamic Mediaクラシックヘルプについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
    + [新機能](whats-new.md)
    + [必要システム構成](system-requirements.md)
