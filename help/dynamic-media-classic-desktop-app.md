@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Dynamic Mediaクラシックのユーザーは、ブラウザーのAdobe Flash�
 >
 >2020年10月1日までに、新しいAdobeDynamic Mediaクラシックデスクトップアプリケーションをインストールすることをお勧めします。 これにより、スムーズなトランジションが確保され、Adobe Flash Playerが2020年12月31日に廃止されます。 この日、製品のScene7 Publishing Systemというラベルが付いたAdobeDynamic MediaClassicユーザインターフェイスのブラウザバージョンにログオンできなくなります。
 
-新 [規Dynamic MediaクラシックログインエクスペリエンスのFAQを参照してください](/help/new-ui-2020.md)。
+新しい [Dynamic Mediaクラシックのログインエクスペリエンスに関するFAQをご覧いただけます。](/help/new-ui-2020.md)
 
 ## AdobeDynamic Mediaクラシックデスクトップアプリケーションの必要システム構成 {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 
 1. AdobeDynamic Mediaクラシックデスクトップアプリ用の最新インストーラーをダウンロードします。
 
-   * macOS(.dmg) - [ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)。
-   * Windows(.exe) - [ダウンロード](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)。
+   * [macOS(.dmg) — ダウンロードします。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.exe) — ダウンロード](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. ダウンロードしたインストーラーに基づいて、次のいずれかの操作を行います。
 
