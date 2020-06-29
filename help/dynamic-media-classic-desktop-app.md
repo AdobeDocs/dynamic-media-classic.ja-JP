@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -47,18 +47,18 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 
    * **macOSの場合** - **[!UICONTROL Drag &amp; drop to install]** （ドラッグ&amp;ドロップしてインストール）ダイアログボックスで、 **[!UICONTROL AdobeDynamic MediaClassic]** （クラシック）をドラッグし、「 **[!UICONTROL Applications]**（アプリケーション）」にドロップします。
 
-      ![macOSでのドラッグ&amp;ドロップによるインストール](/help/assets/dragondrop-install.png)
+      ![macOSでのドラッグ&amp;ドロップによるインストール](/help/assets/dragondrop-install1.png)
 
    * 「 **[!UICONTROL Applications]** 」フォルダーで、「AdobeDynamic Mediaクラシック」アイコンをタップします。
    * ダイアログボックスで「 **[!UICONTROL 開く]** 」をタップし、AdobeDynamic Mediaクラシックデスクトップアプリケーションを開きます。
 
-      ![ダウンロードしたアプリを開く](/help/assets/open-dmclassicapp.png)
+      ![ダウンロードしたアプリを開く](/help/assets/open-dmclassicapp1.png)
 
    * **Windowsの場合** — インストーラーバイナリを実行し、画面に表示される指示に従ってデスクトップアプリケーションをインストールします。
 
 1. アプリを開くと、新しいAdobeDynamic Mediaクラシックログインページが表示されます。
 
-   ![Dynamic Mediaクラシックサインイン](/help/assets/dmclassic-login.png)
+   ![Dynamic Mediaクラシックサインイン](/help/assets/dmclassic-login1.png)
 
 1. ブラウザーの資格情報と同じ資格情報を使用してAdobeDynamic Mediaクラシックにサインインします。
 
@@ -80,7 +80,7 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 * Dynamic Mediaクラシックアプリで、会社のドロップダウンリストから新しい会社を選択します。
 * ポップアップが表示されたら、「 **[!UICONTROL OK]** 」をタップしてサインアウトし、アプリを閉じます。
 
-   ![新しい会社を使用するには、アプリを再起動します](/help/assets/dmclassic-new-company.png)
+   ![新しい会社を使用するには、アプリを再起動します](/help/assets/dmclassic-new-company1.png)
 * Dynamic MediaClassicを再起動し、通常どおりにサインインして新しい会社を使用します。
 
 ## ヒントとテクニック
@@ -89,6 +89,6 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 
 **_アセットの公開状態（緑のインジケーター）が正しく反映されません。_**<br>&#x200B;アセットの正しい公開状態を確認するには、ブラウザUIでUIに再ログインする必要がありました。 デスクトップアプリでは、ツールバーの「なしを **[!UICONTROL 選択]** 」ボタンの右側に **[!UICONTROL 「更新]** 」アイコンが追加されました。 「 **[!UICONTROL 更新]** 」アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザーUIと同様に、再ログインする必要はありません。
 
-![更新アイコン](/help/assets/refresh-icon.png)*更新アイコン*
+![更新アイコン](/help/assets/refresh-icon1.png)*更新アイコン*
 
 **_デスクトップアプリでバッチセットプリセットが機能していない。_**<br>&#x200B;ア **[!UICONTROL ップロード/ジョブオプション/バッチセットプリセットをタップします]**。 関連する **[!UICONTROL バッチセットプリセットが有効になっていることを確認します]** 。 「アップロードを **[!UICONTROL 保存して送信]**」をクリックします。
