@@ -1,20 +1,20 @@
 ---
-title: 新しいDynamic MediaClassicログインエクスペリエンスが利用可能
-seo-title: 新しいDynamic Mediaクラシックデスクトップアプリが利用可能
+title: AdobeDynamic Mediaクラシックデスクトップアプリ
+seo-title: AdobeDynamic Mediaクラシックデスクトップアプリ
 description: Dynamic Mediaクラシックユーザーは、ユーザーインターフェイスが完全に更新されるようになりました。 このアップデートでは、貴重なリソースへのリンクを含む更新されたサインインが提供されます。また、このアップデートでは、ブラウザーのAdobe Flashテクノロジーに依存しなくなりました。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 
-# 新しいDynamic Mediaクラシックログインエクスペリエンスが利用できるようになりました {#new-ui-2020}
+# AdobeDynamic Mediaクラシックデスクトップアプリ — 利用可能 {#new-ui-2020}
 
 必要システム構成を確認し、新しいアプリをダウンロードしてインストールした後、 [AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md) を参照してください。
 
