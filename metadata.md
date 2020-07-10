@@ -4,26 +4,29 @@ solution-title: 学習とサポート
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: 使い始める前に
-getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
+getting-started-url: https://docs.adobe.com/content/help/en/dynamic-media-classic/using/getting-started/scene7-platform-overview.html
 tutorials-title: チュートリアル
-tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://github.com/AdobeDocs/dynamic-media-classic.en
+tutorials-url: https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/training-videos.html
+git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-classic.ja-JP
 translation-type: tm+mt
-source-git-commit: 9b1bdd86ab4dc5148a0fea3157c8c3cbbeac0728
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
 
-# 内部使用のためのメタデータ
+# 内部使用用のメタデータ
 
-metadata.mdファイルにはリポジトリ内のユーザガイドTOC.mdファイルに渡すリポジトリレベルのメタデータが含まれます。 任意のユーザガイドのmetadata.mdコンテンツを変更する場合は、任意のTOC.mdファイルで変更します。
+metadata.mdファイルには、リポジトリ内のユーザガイドTOC.mdファイルに渡されるリポジトリレベルのメタデータが含まれます。 ユーザガイドのmetadata.mdコンテンツを変更する場合は、任意のTOC.mdファイルで変更します。
 
-| メタデータ | 役割 |
+| メタデータ | 何をするか |
 |--- |--- |
-| solution-title | 記事のヘッダーでリンクとして使用 |
+| ソリューションタイトル | 記事のヘッダーにリンクとして使用 |
 | solution-hub-url | ヘルプハブページを開きます |
-| 溶液のアイコン | ソリューションタイトルの横にソリューションアイコンを表示します。 未実装 |
+| 解決策 | ソリューションタイトルの横にソリューションアイコンを表示します。 未実装 |
 | getting-started-url | ヘルプの「はじめに」ページへのリンク |
-| tutorials-url | ビデオチュートリアルへのリンク（ヘルプxチュートリアルまたはKTチュートリアル） |
-| ミニ目次レベル | 右側のレールに表示する見出しレベルの数を指定します。 デフォルトは2です。 |
+| tutorials-url | ビデオチュートリアルへのリンク（ヘルプクリックスチュートリアルまたはKTチュートリアル） |
+| ミニ目次レベル | 右側のレールに表示される見出しレベルの数を指定します。 デフォルトは2です。 |
 | ギットレポ | 内部で使用するマスターレポートの場所を指定します |
