@@ -2,7 +2,7 @@
 title: Adobe トレーニングサービス
 seo-title: Adobe トレーニングサービス
 description: 'null'
-seo-description: アドビトレーニングサービスの詳細。
+seo-description: アドビトレーニングサービスについて詳しく説明します。
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -10,35 +10,32 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
 
 # Adobe トレーニングサービス{#adobe-training-services}
 
-Dynamic Media Classicオファーは、ビデオチュートリアル、講師が指導するワークショップおよびWebセッション、デモの形でトレーニングを受けます。
+Dynamic Mediaクラシックオファーは、ビデオチュートリアル、講師が指導するワークショップやWebセッション、デモの形でトレーニングを受けています。
 
 **Adobe トレーニングサービス**
 
 Adobe トレーニングサービスは、お客様のニーズに合わせてカスタマイズされた詳細なクラスルーム形式のトレーニングを提供しています。トレーニングには、地域の講義形式のクラスルーム、Web ベースのセッション、カスタマイズしたオンサイトワークショップがあります。地域のクラスはすべてのお客様が利用でき、北米および EMEA の各地で定期的に開催されています。カスタムセッションは、初めて使用するユーザから熟練ユーザ、エンドユーザ、管理者、IT 担当者向けにカスタマイズすることができます。
 
-詳しくは、 [Adobeトレーニングサービスを参照してくださ](https://training.adobe.com/training.html)[](https://www.adobe.com/go/learn_sc7_trainingrequest_en)い。
-
-**クイックスタートビデオチュートリアル**
-
-Media Portal、ダイナミックイメージング、eCatalogs、eVideos、Web to Print、および Scene7 Publishing System の理解と使用に関連する他の多数の主題について学ぶことができます。
-
-See [Quick Start Video Tutorials](https://marketing.adobe.com/resources/help/en_US/home/index.html#Scene7).
+詳しくは、 [Adobeトレーニングサービス](https://training.adobe.com/training.html)[](https://www.adobe.com/go/learn_sc7_trainingrequest_en)を参照してください。
 
 **デモ**
 
-ダイナミックメディアクラシックビューアの機能に関するデモをご覧ください。
+Dynamic Mediaクラシックビューアの機能に関するデモをご覧ください。
 
-デモを参 [照してくださ](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html)い。
+詳しくは、 [デモを参照してください](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html)。
 
 **ヘルプの「はじめに」の章**
 
-ヘルプシステムの「はじめに」の節に、Dynamic Media Classicの初心者向けの説明が表示されます。 プラットフォーム、ナビゲーション、設定、アセット管理、およびリッチメディアの作成方法などに関する基本情報が説明されています。
+ヘルプシステムの「はじめに」の節では、Dynamic Mediaクラシックを初めて使用するユーザーに対する説明を示します。 プラットフォーム、ナビゲーション、設定、アセット管理、およびリッチメディアの作成方法などに関する基本情報が説明されています。
 
 詳しくは、[はじめに](scene7-platform-overview.md)を参照してください。
