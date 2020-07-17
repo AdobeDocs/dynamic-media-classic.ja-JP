@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
 1. ログインUIを投稿すると、使い慣れたブラウザーUIが表示されます。 デスクトップアプリUIでは、通常どおり1日アクティビティを提供できます。
+
+## Dynamic Mediaクラシックデスクトップアプリの使用に関するビデオウォークスルー
+
+Dynamic Mediaクラシックデスクトップアプリの使用に関する [ビデオのウォークスルー(長さ](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) : 2分36秒)。
 
 ## ClassicDynamic Mediaの既知の制限
 
