@@ -6,21 +6,21 @@ seo-description: eCatalogをWebページにリンクする方法を説明しま�
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 91%
+source-wordcount: '678'
+ht-degree: 87%
 
 ---
 
 
 # Web ページへの eCatalog のリンク{#linking-an-ecatalog-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogなどのImage ServerのコンテンツにDynamic Mediaからアクセスします。 この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションに eCatalog の URL 文字列や埋め込みコードを設定するには、Scene7 Publishing System から URL 文字列や埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogなどのImage ServerのコンテンツにDynamic Mediaからアクセスします。 この URL 文字列は、公開処理中にアクティブになります。WebページやアプリケーションにeCatalogのURL文字列や埋め込みコードを設定するには、Dynamic MediaクラシックからURL文字列や埋め込みコードをコピーします。
 
 >[!NOTE]
 >
