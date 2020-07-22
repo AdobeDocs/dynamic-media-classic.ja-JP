@@ -2,15 +2,18 @@
 title: スウォッチセットの表示
 seo-title: スウォッチセットの表示
 description: 'null'
-seo-description: スウォッチセットの表示方法を説明します。
+seo-description: スウォッチセットを表示する方法を説明します。
 uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 スウォッチセットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。スウォッチセットには「ズームビューア : カスタム」ビューアプリセットを使用します。
 
-ダイナミックMedia Classicには、初期設定のビューアプリセットが用意されています。 管理者は、ビューアプリセットを作成または変更できます。
+Dynamic Mediaクラシックには、初期設定のビューアプリセットが付属しています。 管理者は、ビューアプリセットを作成または変更できます。
 
 ## スウォッチセットのズームビューアプリセットの設定 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
