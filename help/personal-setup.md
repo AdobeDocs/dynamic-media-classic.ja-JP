@@ -2,18 +2,18 @@
 title: 個人設定
 seo-title: 個人設定
 description: 'null'
-seo-description: すべてのユーザーが、ダイナミックメディアクラシックの個人設定画面で設定を変更できます。
+seo-description: すべてのユーザが、Dynamic Mediaクラシックの個人設定画面で設定を変更できます。
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 80%
+source-wordcount: '1194'
+ht-degree: 75%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->個人設定画面には、Scene7 Publishing System で各自が持っているユーザの役割（会社の管理者、管理者、ユーザ）が表示されます。
+>個人設定画面のリストは、Dynamic Mediaクラシックでのユーザの役割を持ちます。 会社管理者、管理者またはユーザー。
 
 個人設定では、参照パネルの初期設定の動作、電子メールの受信方法およびパスワードの設定を管理します。これらの設定を変更したら、必ず「保存」をクリックしてください。
 
@@ -34,11 +34,11 @@ ht-degree: 80%
 
 ### デスクトップバージョン
 
-「今すぐインストール」をクリックして、Scene7 Publishing System デスクトップバージョンをローカルハードドライブにインストールします。または、「今すぐ再インストール」をクリックして、デスクトップバージョンをインストールし直します。
+「今すぐインストール」をクリックして、ClassicデスクトップバージョンのDynamic Mediaをローカルハードドライブにインストールします。 または、「今すぐ再インストール」をクリックして、デスクトップバージョンをインストールし直します。
 
 ## ローカルのハードドライブにプラグインをインストールするには
 
-1. Scene7 Publishing System の個人設定ページの Web-to-Print 向け Illustrator プラグインで、「**今すぐダウンロード**」をクリックして **Illustrator Plug-in for Web-to-Print.zip** ファイルをダウンロードします。
+1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
 1. この ZIP ファイルを一時フォルダーに解凍します。
 
    解凍されたファイルのルートに readme ファイルがあります。このファイルには、プラグインに関する追加情報が記載されています。
@@ -83,8 +83,6 @@ ht-degree: 80%
    * 画像の後ろに市松模様のレイヤーを表示して、アルファチャンネルを含む画像の透明部分を簡単に判別できるようにします。
 * **ファイルサイズを表示**
    * ブラウズ時にアセットのファイルサイズを表示します。
-* **SPS の終了時に確認する**
-   * Scene7 Publishing System を終了する前に確認ウィンドウを表示します。
 * **検索にユーザ定義フィールドを含める**
    * 実行する多くのメタデータ検索でシステムのパフォーマンスを向上させるために、選択されていません（デフォルト）。
 
@@ -106,7 +104,7 @@ ht-degree: 80%
 ## 電子メール
 
 * **電子メールオプション**
-   * ジョブのアップロードと公開が完了したときに、Dynamic Media Classicから電子メールで通知する方法を選択します。 ジョブ完了通知は、警告またはエラーが発生した場合のみ受信することができます。
+   * ジョブのアップロードと公開が完了したときに、Dynamic Mediaに電子メールで通知する方法を選択します。 ジョブ完了通知は、警告またはエラーが発生した場合のみ受信することができます。
 * **電子メールの範囲**
    * 会社のすべてのジョブの電子メールを受信するか、自分が実行したアップロードおよび公開ジョブの電子メールのみを受信するかを指定します。
 * **電子メールタイプ**
