@@ -1,23 +1,26 @@
 ---
-title: 「クイック開始:Media Portal»
-seo-title: 「クイック開始:Media Portal»
+title: '「クイック開始: Media Portal»'
+seo-title: '「クイック開始: Media Portal»'
 description: 'null'
-seo-description: Media Portalの概要とクイック開始を参照して、Media Portalの操作方法と管理方法をすばやく習得できます。
+seo-description: Media Portalの操作方法と管理方法をすばやく習得できるように、Media Portalの概要とクイック開始を紹介します。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 84%
 
 ---
 
 
 # Quick Start: Media Portal{#quick-start-media-portal}
 
-Media Portalを使用すると、会社は承認されたクリエイティブアセットを容易に取得、制御し、外部のパートナーやチャネル、社内のビジネスユーザに配信できます。 このブラウザベースの「セルフサービス」環境は、会社が承認した形式でアセットに簡単にアクセス、参照、検索、プレビューおよび書き出しできるように、Media Portalユーザに管理者が制御した「表示」を提供します。
+Media Portalを使用すると、承認されたクリエイティブアセットを会社が容易に取得、制御および外部のパートナーやチャネル、社内のビジネスユーザに配信できます。 このブラウザベースの「セルフサービス」環境は、会社で承認された形式でアセットに簡単にアクセス、参照、検索、プレビューおよび書き出すことができるように、Media PortalDynamic Mediaに管理者が制御した「表示」を提供します。
 
 管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。Media Portal インターフェイスで、フォント、フォントカラー、フォントサイズを指定でき、ロゴなどのブランド要素を取り入れることができます。
 
@@ -45,7 +48,7 @@ Media Portal ユーザには、ユーザ、寄稿者、寄稿者ユーザの 3 �
 
 **4. FTP アカウントの管理**
 
-Media Portal に関連付けられた個別の FTP アカウントを保有し、Scene7 Publishing System アカウントの特定のフォルダにマッピングすることができます。この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
+Media Portalに関連付けられ、Media Classicアカウントの特定のDynamic Mediaにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
 
 [FTP アカウントの管理](ftp-accounts.md#managing_ftp_accounts)を参照してください。
 
