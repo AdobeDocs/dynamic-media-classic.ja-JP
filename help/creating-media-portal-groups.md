@@ -2,15 +2,18 @@
 title: Media Portal グループの作成と管理
 seo-title: Media Portal グループの作成と管理
 description: 'null'
-seo-description: Media Portalグループの作成方法と管理方法について説明します。
+seo-description: Media Portalグループの作成および管理方法を説明します。
 uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 96%
 
 ---
 
@@ -96,5 +99,5 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
    **グループの編集** 「編集」をクリックし、グループの編集ダイアログボックスでオプションを選択します。
 
-   **グループの削除「削除** 」をクリックします。
+   **グループの削除** 「削除」をクリックします。
 
