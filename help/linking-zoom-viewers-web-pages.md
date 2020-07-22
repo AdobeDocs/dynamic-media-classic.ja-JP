@@ -6,21 +6,21 @@ seo-description: ズームビューアをWebページにリンクする方法を
 uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 89%
+source-wordcount: '673'
+ht-degree: 86%
 
 ---
 
 
 # Web ページへのズームビューアのリンク{#linking-zoom-viewers-to-your-web-pages}
 
-Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、マスター画像や関連付けられているズームターゲットなどのImage ServerコンテンツやズームビューアプリセットにDynamic Mediaからアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらの URL 文字列や埋め込みコードを Web ページやアプリケーションに配置するには、Scene7 Publishing System から URL 文字列または埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、マスター画像や関連付けられているズームターゲットなどのImage ServerコンテンツやズームビューアプリセットにDynamic Mediaからアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、Dynamic MediaクラシックからURL文字列または埋め込みコードをコピーします。
 
 >[!NOTE]
 >
