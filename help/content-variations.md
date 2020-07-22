@@ -2,15 +2,18 @@
 title: コンテンツのバリエーションの管理
 seo-title: コンテンツのバリエーションの管理
 description: 'null'
-seo-description: コンテンツのバリエーションを管理する方法を説明します。
+seo-description: コンテンツのバリエーションを管理する方法について説明します。
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 97%
 
 ---
 
