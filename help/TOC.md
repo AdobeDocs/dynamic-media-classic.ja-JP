@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Mediaクラシックヘルプ
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 76%
+source-wordcount: '736'
+ht-degree: 75%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 76%
    + [新機能](whats-new.md)
    + [必要システム構成](system-requirements.md)
    + [サポート](support.md)
-   + [Dynamic MediaClassic Media Portalのヘルプ](help-scene7-media-portal.md)
+   + [Dynamic MediaClassic Media Portalのヘルプ](help-dmc-media-portal.md)
    + [Adobe トレーニングサービス](training-services.md)
    + [役立つリソース](popular-resources.md)
    + [トレーニングビデオ](training-videos.md)
 + はじめに {#getting-started}
-   + [Adobe Platforms Classicプラットフォームの概要](scene7-platform-overview.md)
+   + [Adobe Platforms Classicプラットフォームの概要](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [サインインとサインアウト](signing-out.md)
    + [ナビゲーションの基本](navigation-basics.md)
@@ -70,7 +70,7 @@ ht-degree: 76%
    + [アセットの移動、名前変更、削除](moving-renaming-deleting-assets.md)
    + [詳細ビューでの操作 ](detail-view.md)
    + [メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md)
-   + [Scene7 Publishing System からのアセットの書き出し](exporting-assets-scene7-publishing-system.md)
+   + [Dynamic Mediaクラシックからのアセットの書き出し](exporting-assets-from-dmc.md)
    + [アセット変更内容のピアとのリアルタイム共有](sharing-asset-changes-peers-real.md)
    + [アセットのプリント](printing-assets.md)
    + [ごみ箱フォルダの管理](trash-folder.md)
@@ -146,7 +146,7 @@ ht-degree: 76%
    + [混在メディアセットの公開](publishing-mixed-media-set.md)
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [クイック開始: Dynamic MediaClassicとAdobeAnalyticsの統合](quick-start-integrating-scene7-analytics.md)
+   + [クイック開始: Dynamic MediaClassicとAdobeAnalyticsの統合](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics へのログイン](log-analytics.md)
    + [Adobe Analytics レポートの設定](configuring-analytics-reports.md)
    + [Adobe Analytics 計測キットを使用したビューアの計測](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,11 +154,11 @@ ht-degree: 76%
    + [Adobe Analytics レポートの表示による統合のテスト](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics ビデオレポートの有効化](enabling-analytics-video-reports.md)
    + [Adobe Analytics 設定情報の公開](publishing-analytics-configuration-information.md)
-+ Targetクラシック統合 {#target-classic}
-   + [クイック開始: Targetクラシック統合](quick-start-target-classic-integration.md)
-   + [Adobe ClassicとAdobe TargetClassicの統合](integrating-scene7-target-classic.md)
++ Target Standard/Premiumの統合 {#target-classic}
+   + [クイック開始: Target Standard/Premiumの統合](quick-start-target-integration.md)
+   + [Adobe Standard/PremiumとのAdobeDynamic MediaClassicの統合](integrating-dmc-with-target.md)
    + [オファーセットの作成](creating-offer-set.md)
-   + [オファーセットをAdobe Targetクラシックにプッシュする](pushing-offer-sets-target-classic.md)
+   + [オファーセットをAdobe Target標準/プレミアムにプッシュする](pushing-offer-sets-target.md)
 + ユーザ生成コンテンツ {#user-generated-content}
    + [ユーザー生成コンテンツについて](about-ugc.md)
    + [アップロードしたアセットの削除](deleting-uploaded-asset.md)
