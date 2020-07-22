@@ -2,22 +2,25 @@
 title: Web サイトやモバイルサイトへのビデオの配信
 seo-title: Web サイトやモバイルサイトへのビデオの配信
 description: 'null'
-seo-description: Webサイトやモバイルサイトにビデオを配信する方法を説明します。
+seo-description: Webサイトやモバイルサイトにビデオを配信する方法について説明します。
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 69%
 
 ---
 
 
 # Web サイトやモバイルサイトへのビデオの配信{#deploying-video-to-your-websites-and-mobile-sites}
 
-Webサイト、モバイルサイトおよびデスクトップアプリケーションは、URL文字列または埋め込みコードを使用して、ビデオなどのDynamic Media Classicサーバーコンテンツにアクセスします。 Dynamic Media Classicは、公開処理中にこれらのURL文字列をアクティブにします。 Web ページ、モバイルページおよびデスクトップアプリケーションにビデオの URL 文字列または埋め込みコードを設定するには、Scene7 Publishing System から URL 文字列または埋め込みコードをコピーします。
+Webサイト、モバイルサイト、デスクトップアプリケーションは、URL文字列または埋め込みコードを使用して、ビデオなどのDynamic Mediaクラシックサーバーコンテンツにアクセスします。 Dynamic Mediaクラシックは、公開処理中に、これらのURL文字列をアクティブにします。 Webページ、モバイルページおよびデスクトップアプリケーションにビデオのURL文字列または埋め込みコードを設定するには、Dynamic MediaクラシックからURL文字列または埋め込みコードをコピーします。
 
 >[!NOTE]
 >
@@ -25,19 +28,19 @@ Webサイト、モバイルサイトおよびデスクトップアプリケー�
 
 ## ビデオの公開 {#publishing-video}
 
-ビデオを公開すると、ダイナミックメディアクラシックサーバーは、ビデオをWebサイト、モバイルサイトまたはアプリケーションに配信できます。
+ビデオを公開すると、Dynamic MediaはClassic ServerからWebサイト、モバイルサイトまたはアプリケーションにビデオを配信できます。
 
 ビデオの公開に使用できる方法は次の 2 つあります。
 
 * **アップロード時にビデオを自動的に即時公開する**
 
-   ビデオのアップロード処理の一環として、Dynamic Media Classicは、ビデオがアップロードされエンコードされる際に、ビデオを自動的に公開できます。 この即時公開機能があることで、アップロードとエンコード後にビデオを個別に公開する必要がありません。
+   ビデオのアップロード処理の一環として、Dynamic MediaClassicは、ビデオがアップロードされエンコードされたときに、自動的にビデオを公開できます。 この即時公開機能があることで、アップロードとエンコード後にビデオを個別に公開する必要がありません。
 
 * **アップロード後にビデオを手動で公開する**
 
    ビデオをすぐに公開したくない場合は、いつでもビデオを手動で公開できます。
 
-ビデオを公開すると、HTML ページやアプリケーションのコードで使用できる URL 文字列が、Scene7 Publishing System によってアクティブになります。
+ビデオを公開すると、HTMLページやDynamic MediaコードのURL文字列がアクティブになります。
 
 **ビデオを公開するには**
 
@@ -133,22 +136,23 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 
 ## サードパーティのビデオプレーヤーを使用したビデオの配信 {#deploying-video-using-a-third-party-video-player}
 
-Dynamic Media Classicビデオビューアの代わりにサードパーティのビデオプレーヤーまたはカスタムのビルドビデオプレーヤーを使用する場合、HLSマルチビットレートビデオストリーミングまたはプログレッシブダウンロードで機能するダイレクトビデオURLを取得できます。
+Dynamic Mediaのクラシックビデオビューアの代わりに、サードパーティのビデオプレーヤーまたはカスタム仕様のビデオプレーヤーを使用する場合、HLSマルチビットレートビデオストリーミングまたはプログレッシブダウンロードで機能するダイレクトビデオURLを取得できます。
 
 **サードパーティのビデオプレーヤーを使用してビデオを配信するには**
 
-1. Scene7 Publishing System のグローバルナビゲーションバーで、**設定**／**アプリケーション設定**／**全般設定**&#x200B;をクリックします。
+1. In Dynamic Media Classic, on the Global Navigation bar, click **Setup** > **Application Setup** > **General Settings**.
 1. 使用する URL のタイプに応じて、次のいずれかの操作を行います。
 * HLSストリーミングビデオのダイレクトURL（マルチビットレート）を生成するには
 
-   アプリケー **ションの全般設定** ページの「サー **バー** 」グループの「発行済みサーバー名 **** 」テキストフィールドで、次の構文を使用してダイレクトURLを作成します。例え `server/is/content/company/folder/filename.m3u8`ば、公開済みサーバー名が手順2 `https://s7d9.scene7.com/.` の構文を使用している場合、ダイレクトURLは次のようになります。
+   ア **プリケーションの全般設定** ページの「 **サーバ** 」グループの「 **公開先サーバー名** 」テキストフィールドで、次の構文を使用してダイレクトURLを作成します。 `server/is/content/company/folder/filename.m3u8`
+例えば、公開済みサーバー名が手順2の構文を `https://s7d9.scene7.com/.` 使用している場合、ダイレクトURLは次のようになります。
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * HLSストリーミングビデオのダイレクトURL（シングルビットレート）を生成するには
 
    On the **Application General Settings** page, in the **Servers** group, in the **HLS Streaming Server Name** text field, construct the direct URL using the following syntax:
    `server/company/folder/filename.ext.m3u8`
-例えば、HLSストリーミングサーバー名が `https://s7mbrstream.scene7.com/hls-vod/`、 手順 2 の構文を使用して、次のようなダイレクト URL を作成できます。
+例えば、HLSストリーミングサーバー名が次のと `https://s7mbrstream.scene7.com/hls-vod/`します。 手順 2 の構文を使用して、次のようなダイレクト URL を作成できます。
    `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * プログレッシブビデオのダイレクト URL を生成するには
@@ -159,13 +163,13 @@ For example, suppose the progressive video server name is `https://s7d9.scene7.c
 
 ## ビデオサムネールの操作 {#working-with-video-thumbnails}
 
-Dynamic Media Classicは、エンコードされたビデオおよびエンコード済みのビデオのサムネールを生成します。 ビデオサムネールは、画像アセットと同じように使用できます。また、Dynamic Media Classicが生成するビデオサムネールのURLを取得し、これらのURLをScene7 Publishing Systemの外部に配信することもできます。 例えば、Web サイト上の検索結果、関連するビデオリスト、ビデオ再生リストにサムネールを配信できます。
+Dynamic Mediaクラシックは、エンコードされたビデオとあらかじめエンコードされたビデオのサムネールを生成します。 ビデオサムネールは、画像アセットと同じように使用できます。また、Dynamic MediaClassicが生成するビデオサムネールのURLを取得し、これらのURLをDynamic MediaClassicの外部に導入できます。 例えば、Web サイト上の検索結果、関連するビデオリスト、ビデオ再生リストにサムネールを配信できます。
 
 ビデオの最初の不均一のフレーム（真っ黒でないフレーム、真っ白でないフレームなど）に基づきサムネールが生成されます。
 
 ### ビデオサムネールの URL の取得 {#obtaining-video-thumbnail-urls}
 
-ダイナミックMedia Classicは、アップロード処理中にビデオサムネールを自動的に生成します。 サムネールは、リストビューとグリッドビューの参照パネルに表示されます。
+Dynamic Mediaクラシックは、アップロード処理中にビデオサムネールを自動的に生成します。 サムネールは、リストビューとグリッドビューの参照パネルに表示されます。
 
 ビデオサムネールの URL を生成するには、公開操作を実行します。
 
@@ -175,7 +179,7 @@ Dynamic Media Classicは、エンコードされたビデオおよびエンコ�
 
 ### ビデオビューアでのポスターフレームの変更 {#modifying-poster-frames-in-video-viewers}
 
-*ポスターフレーム*&#x200B;は、ビデオの再生開始前にビデオビューアに表示される最初のフレームです。ダイナミックMedia Classicでは、ビデオサムネールがポスターフレームとして使用されます。
+*ポスターフレーム*&#x200B;は、ビデオの再生開始前にビデオビューアに表示される最初のフレームです。Dynamic Mediaクラシックでは、ビデオサムネールがポスターフレームとして使用されます。
 
 ポスターフレームに画像修飾子を適用できます。例えば、ポスターフレームを切り抜いたり、透明にしたりすることができます。ポスターフレームを変更するには、ビデオビューアの設定画面を開いて、「ポスター画像修飾子」セクションに修飾子を入力します。
 
