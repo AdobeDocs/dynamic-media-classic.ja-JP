@@ -6,11 +6,11 @@ seo-description: アドビトレーニングサービスについて詳しく説
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 57%
@@ -38,4 +38,4 @@ Dynamic Mediaクラシックビューアの機能に関するデモをご覧く�
 
 ヘルプシステムの「はじめに」の節では、Dynamic Mediaクラシックを初めて使用するユーザーに対する説明を示します。 プラットフォーム、ナビゲーション、設定、アセット管理、およびリッチメディアの作成方法などに関する基本情報が説明されています。
 
-詳しくは、[はじめに](scene7-platform-overview.md)を参照してください。
+詳しくは、[はじめに](dmc-platform-overview.md)を参照してください。
