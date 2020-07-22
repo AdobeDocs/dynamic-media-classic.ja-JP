@@ -6,14 +6,14 @@ seo-description: Dynamic Mediaクラシックのアプリケーション領域�
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '11120'
-ht-degree: 71%
+source-wordcount: '10982'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->アプリケーション設定ページでは、Scene7 Publishing System 管理者のみが設定を変更できます。
+>Dynamic Mediaクラシック管理者のみが、アプリケーション設定ページの設定を変更できます。
 
 ## 全般設定 {#general-settings}
 
@@ -36,119 +36,113 @@ ht-degree: 71%
 
 [セキュアテストサービスのテスト](testing-assets-making-them-public.md#testing_the_secure_testing_service)も参照してください。
 
-**Published Server Name** ：このサーバーは、アカウントに固有のすべてのシステム生成URL呼び出しで使用されるライブCDNサーバーです。 Dynamic MediaのClassicサポート技術者からの指示がない限り、このサーバー名を変更しないでください。
+* **Published Server Name** — このサーバーは、アカウントに固有のすべてのシステム生成URL呼び出しで使用されるライブCDNサーバーです。 Dynamic MediaのClassicサポート技術者からの指示がない限り、このサーバー名を変更しないでください。
 
-**接触チャネルサーバー名** ：このサーバーは、品質保証テストにのみ使用されます。 Dynamic MediaのClassicサポート技術者による指示がない限り、このサーバー名を変更しないでください。
+* **接触チャネルサーバー名** — このサーバーは、品質保証テストにのみ使用されます。 Dynamic MediaのClassicサポート技術者による指示がない限り、このサーバー名を変更しないでください。
 
-**AGM Server Name** このサーバーは、Web-to-Printのテンプレートに使用されます。 このサーバは会社全体に適用されます。Dynamic MediaのClassicサポート技術者による指示がない限り、このサーバー名を変更しないでください。
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-**Test&amp;Server Name** :Test&amp;Server URLの先頭から.comまで。 このURLを取得する方法については、「Dynamic MediaクラシックとTargetクラシックの連携」を参照してください。
+* **Test&amp;Server Name** - Test&amp;Server URLの先頭から.comまで。 For instructions about obtaining this URL, see Integrating [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium].
 
-**iOSストリーミングサーバ名** :Dynamic MediaClassic iOSストリーミングサーバのURLです。 このサーバは、HTTP プロトコルを使用して iOS ベースのデバイスにストリーミングビデオを配信します。
+<!-- **Test Publish Context Server Name** -->
 
-**プログレッシブビデオサーバ名** :Dynamic MediaのクラシックプログレッシブビデオサーバのURLです。 このサーバは、HTTP プロトコルを使用してプログレッシブビデオを配信します。
+* **iOSストリーミングサーバ名** - iOSストリーミングサー [!DNL Dynamic Media Classic] バのURL。 このサーバは、HTTP プロトコルを使用して iOS ベースのデバイスにストリーミングビデオを配信します。
 
-**非公開アセットのURLを表示** ：アセットが公開済みかどうかに関係なく、Dynamic Mediaがアセットをプレビューする際にURLを表示する場合は、このオプションを選択します。 アセットが公開されていない場合は、URL は機能しません。ただし、この URL を予定や組織的な目的で使用することができます。
+* **プログレッシブビデオサーバ名** — プログレッシブ [!DNL Dynamic Media Classic] ビデオサーバのURL。 このサーバは、HTTP プロトコルを使用してプログレッシブビデオを配信します。
 
-**AIRのインストールを許可** このオプションを選択すると、ユーザはScene7 Publishing Systemデスクトップバージョンをローカルハードドライブにダウンロードできます。 ユーザーはこのアプリケーションを個人設定画面の「デスクトップバージョン」領域からインストールします。
+* **非公開アセットのURLを表示** — アセットが公開済みかどうかに関係なく、アセットをプレビューする際にURLを表示する場合 [!DNL Dynamic Media Classic] は、このオプションを選択します。 アセットが公開されていない場合は、URL は機能しません。ただし、この URL を予定や組織的な目的で使用することができます。
 
-AIR ユーザは、既存のアプリを手動でアンインストールし、Web バージョンの Scene7 Publishing System を（「個人設定」で）再インストールしてください。この手順に従って一度再インストールしておけば、Scene7 Publishing System AIR の新バージョンがサーバに用意されるたび、アップグレードが要求されるようになります。Scene7 Publishing System は、アップグレード処理を効率化するアプリケーションアップデートフレームワークに統合されています。
+<!-- **Allow AIR install** Select this option to allow users to download Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-**CDN無効化テンプレート** :CDN(コンテンツ配信ネットワーク)キャッシュを無効にするために使用するテンプレートを指定します。
+<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Dynamic Media Classic AIR. Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
+* **CDN無効化テンプレート** - CDN(コンテンツ配信ネットワーク)キャッシュを無効にするために使用するテンプレートを指定します。
 
-`https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+   For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
-If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
+   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-CDN 無効化テンプレートを設定し、Backpack_B という名前の画像を選択し、次に、**ファイル**／**CDN を無効にする**&#x200B;をクリックすると、CDN 無効化インターフェイスで次の生成された URL が使用されます。
+   If the Template just contains `<ID>`, then Dynamic Media Classic fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-`https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+   CDN 無効化テンプレートを設定し、Backpack_B という名前の画像を選択し、次に、**ファイル**／**CDN を無効にする**&#x200B;をクリックすると、CDN 無効化インターフェイスで次の生成された URL が使用されます。
 
-「URL」リストボックスで、「**続行**」をクリックして、特定の画像 URL 呼び出しに対応するキャッシュをクリアします。「URL」リストボックスに URL を入力または貼り付けることで、URL を追加することもできます。つまり、事前にテンプレートを設定する必要はありません。
+   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-CDN 無効化テンプレートを選択し、CDN 無効化要求を行った後、キャッシュのクリアにかかる推定時間を示すインジケーターがユーザーインターフェイスでポップアップ表示されます。
+   「URL」リストボックスで、「**続行**」をクリックして、特定の画像 URL 呼び出しに対応するキャッシュをクリアします。「URL」リストボックスに URL を入力または貼り付けることで、URL を追加することもできます。つまり、事前にテンプレートを設定する必要はありません。
 
-同様に、**ファイル**／**CDN を無効にする**&#x200B;をクリックしたときに、SPS の中で複数の画像が選択されていた場合、各画像は保存されたテンプレート URL の中で参照されます。したがって、自社の Web サイト（製品詳細や検索結果など）を参照する各 URL を参照する CDN 無効化テンプレートを定義できます。これにより、キャッシュの無効化の対象として 1 つ以上の画像を選択したときに、それらの URL が自動的にインターフェイスに入力されます。
+   CDN 無効化テンプレートを選択し、CDN 無効化要求を行った後、キャッシュのクリアにかかる推定時間を示すインジケーターがユーザーインターフェイスでポップアップ表示されます。
 
-詳しくは、[コンテンツのキャッシング](scene7-platform-overview.md#content_caching)を参照してください。
+   Similarly, if multiple images are selected within Dynamic Media Classic when you click **File** > **Invalidate CDN**, each image is referenced in the saved Template URL. したがって、自社の Web サイト（製品詳細や検索結果など）を参照する各 URL を参照する CDN 無効化テンプレートを定義できます。これにより、キャッシュの無効化の対象として 1 つ以上の画像を選択したときに、それらの URL が自動的にインターフェイスに入力されます。
 
-詳しくは、[アセットの再公開と CDN の遅延](publishing-files.md#republished_assets_and_cdn_delays)を参照してください。
+   詳しくは、[コンテンツのキャッシング](dmc-platform-overview.md#content_caching)を参照してください。
 
-**参照**
+   詳しくは、[アセットの再公開と CDN の遅延](publishing-files.md#republished_assets_and_cdn_delays)を参照してください。
 
-**プロジェクトを表示** :ClassicDynamic Mediaのアセットを編成する手段としてプロジェクトを使用できるかどうかを決定します。 詳しくは、プロジェクトを使用したアセットの編成を参照してください。
+### 参照
 
-**サンプルのeVideoコンテンツを表示** eVideoサンプルコンテンツの表示/非表示を切り替えます。
+* **プロジェクトを表示** -Dynamic Mediaクラシックアセットを編成する手段としてプロジェクトを使用できるかどうかを指定します。 詳しくは、プロジェクトを使用したアセットの編成を参照してください。
 
-**「生成されたコンテンツをフォルダに表示** 」は、アセットから生成されたコンテンツを表示します。 例えば、PDFファイルをアップロード中にラスタライズすると、Images Classicは、元のPDFの各ページに対して1つのDynamic Mediaを作成します。 「生成されたコンテンツを表示」が選択されている場合、元の PDF がアップロードされたときに生成された各画像が、PDF がアップロードされたフォルダの PDF とともに表示されます。
+* **サンプルのeVideoコンテンツを表示** - eVideoサンプルコンテンツの表示をオンまたはオフにします。
 
-**デフォルトでは、「エンコードされたビデオを表示** 」が選択解除（オフ）されています。
+* **生成されたコンテンツを表示** — フォルダ内で、アセットから生成されたコンテンツを表示します。 例えば、PDFファイルをアップロード中にラスタライズすると、Images Classicは、元のPDFの各ページに対して1つのDynamic Mediaを作成します。 「生成されたコンテンツを表示」が選択されている場合、元の PDF がアップロードされたときに生成された各画像が、PDF がアップロードされたフォルダの PDF とともに表示されます。
 
-エンコードされた、同じビデオからの多くの派生物を確認せずに、Scene7 Publishing systemでビデオをすばやく検索および参照するには、このオプションをオフ（デフォルト）のままにします。ユーザーインターフェイスには、アップロードしたソースビデオであり、すべての派生物の作成に使用されたマスタービデオサムネールと、エンコードされたビデオセットのすべての「子」派生物を含む「親」アダプティブビデオセットサムネールのみが表示されます。
+* **エンコードされたビデオを表示** — デフォルトでは選択解除（オフ）。
 
-ただし、「マスタービデオ」または「アダプティブビデオセット」から、個々のエンコードされたビデオにアクセスできます。このようなアクセスを行うには、ビデオサムネール画像をダブルクリックして、詳細ビューを開きます。右側のパネルの&#x200B;**エンコードされたビデオ**&#x200B;をクリックすると、すべての「子」ビデオにアクセスできます。
+   同じビデオのエンコードされた大量の派生物をナビゲートすることなく、Dynamic MediaClassicでビデオをすばやく検索して参照するには、このオプションを選択解除（初期設定）のままにします。 ユーザーインターフェイスには、アップロードしたソースビデオであり、すべての派生物の作成に使用されたマスタービデオサムネールと、エンコードされたビデオセットのすべての「子」派生物を含む「親」アダプティブビデオセットサムネールのみが表示されます。
 
-**ファイル／再処理**&#x200B;を使用すると、アダプティブビデオセットから直接、エンコードされた「子」ビデオをさらに作成できます。Scene7 Publishing System では、自動的にアダプティブビデオセットの「親」マスタービデオを検出し、それをトランスコーディングのソースビデオとして使用します。ただし、新しく作成した個々のエンコードされたビデオを保存すると、検索または参照するときには表示されません。しかし、詳細ビューの「エンコードされたビデオ」タブからはアクセスできます。
+   ただし、「マスタービデオ」または「アダプティブビデオセット」から、個々のエンコードされたビデオにアクセスできます。このようなアクセスを行うには、ビデオサムネール画像をダブルクリックして、詳細ビューを開きます。右側のパネルの&#x200B;**エンコードされたビデオ**&#x200B;をクリックすると、すべての「子」ビデオにアクセスできます。
 
-詳しくは、[ビデオのアップロードとトランスコード](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
+   **ファイル／再処理**&#x200B;を使用すると、アダプティブビデオセットから直接、エンコードされた「子」ビデオをさらに作成できます。Dynamic Mediaクラシックは、アダプティブビデオセットの「親」マスタービデオを自動的に検出し、それをトランスコードのソースビデオとして使用します。 ただし、新しく作成した個々のエンコードされたビデオを保存すると、検索または参照するときには表示されません。しかし、詳細ビューの「エンコードされたビデオ」タブからはアクセスできます。
 
-検索または参照時に、エンコードされたすべてのビデオ派生物にアクセスできるようにしておくには、**「エンコードされたビデオを表示」**&#x200B;を選択します。
+   詳しくは、[ビデオのアップロードとトランスコード](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
 
-ビルドメニューには、個々のビデオでのみ機能する、または、オプションで機能するアクションがあります。この機能により、**「エンコードされたビデオを表示」**&#x200B;がどう設定されているかに関係なく、エンコードされたすべてのビデオ派生物を必ず表示するようになり、ユーザはその中から選択できます。The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
+   検索または参照時に、エンコードされたすべてのビデオ派生物にアクセスできるようにしておくには、**「エンコードされたビデオを表示」**&#x200B;を選択します。
 
->[注意]
->
->ビデオアセットのアップロードとエンコードにScene7 Publishing Systemを使用しなかった場合、このオプションが選択されていなくても、Dynamic MediaClassicはエンコードされたすべてのビデオを個々に表示します。
+   ビルドメニューには、個々のビデオでのみ機能する、または、オプションで機能するアクションがあります。この機能により、**「エンコードされたビデオを表示」**&#x200B;がどう設定されているかに関係なく、エンコードされたすべてのビデオ派生物を必ず表示するようになり、ユーザはその中から選択できます。The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-**[サブフォルダを更新]ボタン** ：サブフォルダの[更新]ボタンの表示をオンまたはオフにします。
+   >[注意]
+   >
+   >ビデオアセットのアップロードとエンコードにDynamic MediaClassicを使用しなかった場合、Dynamic MediaClassicは、このオプションが選択されていなくても、個々のエンコードされたビデオをすべて表示します。
 
-**Dynamic MediaクラシックFTPアカウント**
+* **サブフォルダの更新ボタンを表示** — サブフォルダの更新ボタンの表示をオンまたはオフにします。
 
-**サーバー** :FTPアカウントサーバーをリストします。
+### Dynamic MediaクラシックFTPアカウント
 
-**[ユーザ名** ] FTPアカウントのユーザ名をリストします。
+* **サーバー** - FTPアカウントサーバーをリストします。
 
-**アプリケーションへのアップロード**
+* **ユーザー名** - FTPアカウントのユーザー名をリストします。
 
-**Overwrite Images** Images Classicでは、2つのファイルに同じ名前を付けることはできません。 各項目の Scene7 Publishing System ID（画像名からファイル名拡張子を取り除いた部分）を固有のものにする必要があります。この規則のため、アップロードダイアログボックスには上書きオプションがあります。このオプションの実際の効果は、指定した「画像を上書き」オプションによって異なります。これらのオプションは、置き換え画像のアップロード方法、つまり元の画像を置き換えるか、画像を重複させるかを指定します。重複する画像名には「-1」が付けられます（例えば、chair.tif は chair-1.tif に変更されます）。これらのオプションは、元の画像とは別のフォルダにアップロードされる画像や、元の画像と異なるファイル名拡張子（JPG、TIF、PNG など）を持つ画像に影響を与えます（詳しくは、「画像を上書き」オプションの使用を参照してください）。
+### アプリケーションへのアップロード
 
-**現在のフォルダでベース名と拡張子が同じファイルを上書き**
+* **画像の上書き** -Dynamic Mediaクラシックでは、2つのファイルに同じ名前を付けることはできません。 各項目のDynamic MediaクラシックID（画像名からファイル名拡張子を取り除いた部分）は、一意である必要があります。 この規則のため、アップロードダイアログボックスには上書きオプションがあります。このオプションの実際の効果は、指定した「画像を上書き」オプションによって異なります。これらのオプションは、置き換え画像のアップロード方法、つまり元の画像を置き換えるか、画像を重複させるかを指定します。重複する画像名には「-1」が付けられます（例えば、chair.tif は chair-1.tif に変更されます）。これらのオプションは、元の画像とは別のフォルダにアップロードされる画像や、元の画像と異なるファイル名拡張子（JPG、TIF、PNG など）を持つ画像に影響を与えます（詳しくは、「画像を上書き」オプションの使用を参照してください）。
 
-このオプションは最も厳格な置換規則です。置き換え画像を元の画像と同じフォルダにアップロードし、置き換え画像と元の画像のファイル名拡張子が同じになっている必要があります。これらの要件が満たされない場合は、重複する画像が作成されます。
+   * **現在のフォルダでベース名と拡張子が同じファイルを上書き** — このオプションは、置き換えの最も厳格な規則です。 置き換え画像を元の画像と同じフォルダにアップロードし、置き換え画像と元の画像のファイル名拡張子が同じになっている必要があります。これらの要件が満たされない場合は、重複する画像が作成されます。
 
-**現在のフォルダでベース名が同じファイルを上書き**
+   * **現在のフォルダでベース名が同じファイルを上書き(拡張子に関係なく** ) — 置き換え画像を元のフォルダと同じフォルダにアップロードする必要がありますが、ファイル名拡張子が元のフォルダと異なる場合もあります。 例えば、chair.jpg を chair.tif に置き換える場合などです。
 
-置き換え画像を元の画像と同じフォルダにアップロードする必要がありますが、ファイル名拡張子が同じでなくても構いません。例えば、chair.jpg を chair.tif に置き換える場合などです。
+   * **任意のフォルダでベース名と拡張子が同じファイルを上書き** — 置き換え画像と元の画像のファイル名拡張子が同じである必要があります（例えば、chair.jpgはchair.jpgで置き換えられ、chair.tifでは置き換えられません）。 ただし、置き換え画像を、元の画像と別のフォルダにアップロードできます。更新された画像は新しいフォルダにあり、元の場所のファイルはなくなります。
 
-**任意のフォルダでベース名と拡張子が同じファイルを上書き**
+   * **任意のフォルダでベース名が同じベース名を上書き（拡張子に関係なく）** — このオプションは、最も包括的な置換ルールです。 置き換え画像を、元の画像と別のフォルダにアップロードでき、ファイル名拡張子が異なるファイルをアップロードして、元のファイルと置き換えることができます。元のファイルが別のフォルダにある場合、置き換え画像は、アップロード先の新しいフォルダに存在します。
 
-置き換え画像と元の画像のファイル名拡張子は同じになっている必要があります（例えば、chair.jpg は chair.jpg で置き換えられますが、chair.tif では置き換えられません）。ただし、置き換え画像を、元の画像と別のフォルダにアップロードできます。更新された画像は新しいフォルダにあり、元の場所のファイルはなくなります。
+* **公開を保持** - Images Classicにアップロードする置き換え画像が、置き換えるDynamic Mediaの「公開準備完了」設定を保持するか、アップロード時に指定された設定を使用するかを指定します。
 
-**任意のフォルダでベース名が同じファイルを上書き**
+* **初期設定のカラープロファイル** - CMYK画像を追加する際に、初期設定のカラープロファイルオプションの一部として適用するカラープロファイルを指定します。
 
-このオプションは最も包括的な置換規則です。置き換え画像を、元の画像と別のフォルダにアップロードでき、ファイル名拡張子が異なるファイルをアップロードして、元のファイルと置き換えることができます。元のファイルが別のフォルダにある場合、置き換え画像は、アップロード先の新しいフォルダに存在します。
+* **初期設定のアップロードオプション** — アップロードオプションを設定ダイアログボックスを開き、初期設定のアップロードオプションを指定できます。 これらのオプションについて詳しくは、アップロードオプションを参照してください。
 
-**公開を保持** :Images Classicにアップロードする置き換え画像が、置き換えるDynamic Mediaの「公開準備完了」設定を保持するか、アップロード時に指定された設定を保持するかを指定します。
+### アプリケーションの画像マップエディタ
 
-**初期設定のカラープロファイル** :CMYK画像を追加する際に、初期設定のカラープロファイルオプションの一部として適用するカラープロファイルを指定します。
+* **初期設定の画像マッピングHREF** — 画像マッピングHREF列に使用する初期設定のURLを定義します。 この URL は、新しい画像マップを作成するときに表示される初期設定の URL です。
 
-**初期設定のアップロードオプション** ：アップロードオプションを設定ダイアログボックスを開き、初期設定のアップロードオプションを指定できます。 これらのオプションについて詳しくは、アップロードオプションを参照してください。
+* **初期設定の画像マッピングテンプレート** — 画像マッピングHREFテンプレートの初期設定のJavaScriptを定義します。 画像マップをクリックしたときに実行されるカスタムコードをここに設定できます。
 
-**アプリケーションの画像マップエディタ**
+### アプリケーションのその他の設定
 
-**初期設定の画像マッピングHREF** ：画像マッピングHREF列に使用する初期設定のURLを定義します。 この URL は、新しい画像マップを作成するときに表示される初期設定の URL です。
-
-**初期設定の画像マッピングテンプレート** ：画像マッピングHREFテンプレートの初期設定のJavaScriptを定義します。 画像マップをクリックしたときに実行されるカスタムコードをここに設定できます。
-
-**アプリケーションのその他の設定**
-
-**ごみ箱のごみ箱のクリーンアップ警告** (Clean Up Warnings)アセットは、7日以内に自動的に削除されます。 ごみ箱内のアセットが完全に削除される 4 日前に会社の管理者に通知を送信する場合、「ごみ箱の項目が自動的に削除される前に電子メールを送信する」を選択します。詳しくは、ごみ箱フォルダの管理を参照してください。
+* **ごみ箱のクリーンアップ警告** — ごみ箱内のアセットは7日以内に自動的に削除されます。 ごみ箱内のアセットが完全に削除される 4 日前に会社の管理者に通知を送信する場合、「ごみ箱の項目が自動的に削除される前に電子メールを送信する」を選択します。詳しくは、ごみ箱フォルダの管理を参照してください。
 
 ## 「画像を上書き」オプションの使用 {#using-the-overwrite-images-option}
 
-Dynamic Mediaクラシックでは、2つのファイルに同じ名前を付けることはできません。 各項目の Scene7 Publishing System ID（画像名からファイル名拡張子を取り除いた部分）を固有のものにする必要があります。この規則のため、アップロードダイアログボックスには「画像を上書き」オプションがあります。このオプションによる具体的な効果は、各社の Scene7 Publishing System 内部設定の設定値によって異なります。
+Dynamic Mediaクラシックでは、2つのファイルに同じ名前を付けることはできません。 各項目のDynamic MediaクラシックID（画像名からファイル名拡張子を取り除いた部分）は、一意である必要があります。 この規則のため、アップロードダイアログボックスには「画像を上書き」オプションがあります。このオプションの実際の効果は、各会社のDynamic Mediaのクラシック内部設定の設定によって異なります。
 
 以前に画像をアップロードした後で元のファイルを変更（または置き換えた）場合は、選択した上書きオプションにより、Dynamic MediaがClassicで画像を置き換える方法が指定されます。 画像に関する情報は変わりませんが、古い画像は新しい画像に置き換わります。フォルダーに、Dynamic Mediaクラシックにまだ存在しない画像も含まれている場合、これらの画像は追加されます。
 
@@ -257,7 +251,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **色** 次のオプションを選択します。
 
-**出力カラープロファイル** 「初期設定を使用」を選択するか、Scene7 Publishing Systemで使用可能ないずれかのICCカラープロファイルを選択します。
+**出力カラープロファイル** :「デフォルトを使用」を選択するか、Dynamic Mediaクラシックで使用可能なICCカラープロファイルの1つを選択します。
 
 詳しくは、[ICC プロファイル](icc-profiles.md#icc_profiles)も参照してください。
 
@@ -278,7 +272,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * プリセット名の横にある「アクティブ」チェックボックスを選択解除して、プリセットを Media Portal ユーザ用の Scene7 Publishing System ユーザインターフェイスから完全に削除します。
+   * プリセット名の横にある「アクティブ」チェックボックスをオフにすると、プリセット名がMedia Portalユーザ用のClassicDynamic Mediaインターフェイス全体から削除されます。
 
 ## アダプティブビデオプリセットのアクティブ化または非アクティブ化 {#activating-or-deactivating-adaptive-video-presets}
 
@@ -290,7 +284,7 @@ Dynamic Mediaクラシックオファーアダプティブビデオエンコー�
 
 **アダプティブビデオプリセットをアクティブ化または非アクティブ化するには**
 
-1. Scene7 Publishing System の右上隅近くで、**設定**／**アプリケーション設定**／**ビデオプリセット**／**アダプティブビデオプリセット**&#x200B;をクリックします。
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets**.
 1. アダプティブビデオプリセットページで、プリセット名の横にあるチェックボックスを選択解除して、アップロードオプションを設定ダイアログボックスの「eVideo オプション」リストからプリセットを削除します。
 1. 「**閉じる**」をクリックします。
 
@@ -446,7 +440,7 @@ Dynamic Mediaクラシックオファーアダプティブビデオエンコー�
 
 >[!NOTE]
 >
->**Flashビューア提供終了のお知らせ** - 2017年1月31日、Adobe Scene7 Publishing Systemは、Flashビューアプラットフォームのサポートを正式に終了しました。 この重要な変更について詳しくは、次のFAQ Webサイトを参照してください。 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Flashビューアの提供終了のお知らせ** - 2017年1月31日、Adobe AdobeDynamic MediaクラシックはFlashビューアプラットフォームのサポートを正式に終了しました。 この重要な変更について詳しくは、次のFAQ Webサイトを参照してください。 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 *ビューアプリセット*&#x200B;は、ユーザのコンピュータ画面および携帯端末上でリッチメディアアセットがどのように表示されるかを決定する設定です。管理者は、ビューアプリセットを作成できます。一連のビューア構成オプション用の設定があります。例えば、ビューアの表示サイズ、ズーム動作、カラースキーム、境界線およびフォントを変更できます。
 
@@ -494,7 +488,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 ### Dynamic Mediaクラシックビューアプリセット互換表 {#scene-viewer-preset-compatibility-matrix}
 
-**Flashビューア提供終了のお知らせ**: 2017年1月31日、Adobe Scene7 Publishing SystemはFlashビューアプラットフォームのサポートを正式に終了しました。
+**Flashビューア提供終了のお知らせ**: 2017年1月31日、Adobe AdobeDynamic MediaクラシックはFlashビューアプラットフォームのサポートを正式に終了しました。
 
 この重要な変更について詳しくは、次のFAQ Webサイトを参照してください。 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
@@ -613,7 +607,7 @@ Dynamic Mediaクラシックは、MP4 H.264ビデオのモバイルビデオ再�
 
 **ビューアプリセットを追加および編集するには**
 
-1. Scene7 Publishing System の右上隅近くにある&#x200B;**設定**／**ビューアプリセット**&#x200B;をクリックします。
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    プリセットのリストをフィルタリングすることができます。例えば、ビデオビューアのプリセットのみを表示するには、表の真上にある「ビューア」ドロップダウンメニューから「ビデオビューア」を選択します。
 
@@ -647,7 +641,7 @@ Dynamic Mediaクラシックは、MP4 H.264ビデオのモバイルビデオ再�
 
 既存のHTML5ビューアプリセットを書き出して、新しいHTML5ビューアプリセットを作成する際の基本として使用できます。 この書き出しオプションが便利なのは、ビューアプリセットをゼロから作成する必要がなくなる点にあります。代わりに、外観や動作が希望に近いプリセットを書き出すことで、それをデザインを調整するための出発点として使用できます。
 
-Scene7 Publishing Systemにあらかじめ用意されている初期設定のビューアプリセットCSSファイルは、すべて、に配置されたアセットを指す相対画像サービングパスを使用することに注意してくだ `Scene7SharedAssets`さい。 例えば、次に示すのは、にあるビューアプリセットCSSファイル内の画像アセットの相対パスで `Scene7SharedAsset`す。 `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`ただし、Viewer CSSファイルを独自のサイトでホストしている場合は、独自の環境ー内のImage Serverへの明示的なパスを使用して、これらの相対画像パスを解決する必要があります。 例えば、上の相対パスを明示的なパスに更新する場合、次のようになります。は、image serverへの直接パス `https://s7d1.scene7.com` です。 `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Dynamic Mediaクラシックの初期設定の初期設定の初期設定のビューアプリセットCSSファイルは、に配置されたアセットを指す相対画像サービングパスを使用することに注意してくだ `Scene7SharedAssets`さい。 例えば、次に示すのは、にあるビューアプリセットCSSファイル内の画像アセットの相対パスで `Scene7SharedAsset`す。 `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`ただし、Viewer CSSファイルを独自のサイトでホストしている場合は、独自の環境ー内のImage Serverへの明示的なパスを使用して、これらの相対画像パスを解決する必要があります。 例えば、上の相対パスを明示的なパスに更新する場合、次のようになります。は、image serverへの直接パス `https://s7d1.scene7.com` です。 `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **HTML5ビューアプリセットを書き出すには**
 
@@ -670,7 +664,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    書き出しが完了すると、CSSファイルが生成されます。 そのファイルをダウンロードして展開します。
 
 1. CSS ファイルを CSS エディタで開き、変更を行い、ファイルを保存します。
-1. CSSファイルをScene7 Publishing Systemにアップロードします。
+1. CSSファイルをDynamic Mediaクラシックにアップロードします。
 
    詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
@@ -706,12 +700,15 @@ URL がクリップボードにコピーされます。Web ページ、携帯端
 
    * **「グリッドビュー」**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL および埋め込みコードパネルで、必要なビューアの右側の&#x200B;**「URL をコピー」**&#x200B;をクリックします。
    * **「グリッドビュー」**&#x200B;をクリックします。アセットの参照パネルで 1 つのアセットを選択して、サムネール画像の下にある&#x200B;**プレビュー**／**ビューアリスト**&#x200B;をクリックします。
+
    ビューアリストページの表の「アクション」列にある&#x200B;**「URL をコピー」**&#x200B;をクリックします。
 
    * **「リスト表示」**&#x200B;をクリックします。アセットの参照パネルで 1 つのアセットを選択して、サムネール画像の右側にある&#x200B;**プレビュー**／**ビューアリスト**&#x200B;をクリックします。
+
    ビューアリストページの表の「アクション」列にある&#x200B;**「URL をコピー」**&#x200B;をクリックします。
 
    * **「グリッドビュー」**、**「リストビュー」**、または&#x200B;**「詳細ビュー」**&#x200B;をクリックします。同じツールバーにある&#x200B;**プレビュー**／**ビューアリスト**&#x200B;をクリックします。
+
    ビューアリストページの表の「アクション」列にある&#x200B;**「URL をコピー」**&#x200B;をクリックします。
 
 ### ビューアプリセットの埋め込みコードのコピー {#copying-the-embed-code-of-a-viewer-preset}
@@ -727,12 +724,15 @@ URL がクリップボードにコピーされます。Web ページ、携帯端
 
    * **「グリッドビュー」**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL パネルで、**「埋め込みコード」**&#x200B;をクリックします。
    * **「グリッドビュー」**&#x200B;をクリックします。アセットの参照パネルで 1 つのアセットを選択して、サムネール画像の下にある&#x200B;**プレビュー**／**ビューアリスト**&#x200B;をクリックします。
+
    ビューアリストページの表の「アクション」列の下にある&#x200B;**「埋め込みコード」**&#x200B;をクリックします。
 
    * **「リストビュー」**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットを選択して、サムネール画像の右側にある&#x200B;**プレビュー**／**ビューアリスト**&#x200B;をクリックします。
+
    ビューアリストページの表の「アクション」列の下にある&#x200B;**「埋め込みコード」**&#x200B;をクリックします。
 
    * **「グリッドビュー」**、**「リストビュー」**、または&#x200B;**「詳細ビュー」**&#x200B;をクリックします。同じツールバーにある&#x200B;**プレビュー**／**ビューアリスト**&#x200B;をクリックします。
+
    ビューアリストページの表の「アクション」列の下にある&#x200B;**「埋め込みコード」**&#x200B;をクリックします。
 
 1. 埋め込みコードダイアログボックスで、**「クリップボードにコピー」**&#x200B;をクリックします。
@@ -740,7 +740,7 @@ URL がクリップボードにコピーされます。Web ページ、携帯端
 
 ## 初期設定ビューアの設定 {#configuring-default-viewers}
 
-初期設定ビューアを使用して、Scene7 Publishing System でプレビューを使用したときに表示される、アセットに関連付けられた初期設定ビューアを設定できます。次のアセットタイプの初期設定のプレビュー環境を設定できます。
+初期設定ビューアを使用して、Dynamic Mediaクラシックのプレビューを使用する場合に、アセットに関連付けられる初期設定ビューアを設定できます。 次のアセットタイプの初期設定のプレビュー環境を設定できます。
 
 * 画像
 * ビデオ
@@ -816,9 +816,9 @@ Dynamic Mediaクラシックには定義済みのメタデータ表示が付属�
 
 ## ユーザ定義フィールド {#user-defined-fields}
 
-Media Portal 管理者または会社管理者が、ユーザ定義のカスタムメタデータフィールドを作成できます。カスタムフィールドを使用すると、Scene7 Publishing System内のアセットを整理するのに役立ちます。 必要に応じて、フィールドをアクティブにすることができます。 アクティブ化すると、これらのカスタムメタデータフィールドの名前は、詳細ビューのメタデータパネルに表示されます。ユーザは、ユーザ定義メタデータフィールドに情報を入力して、アセットの説明を追加することができます。また、ユーザ定義メタデータフィールドを検索条件にすることもできます。
+Media Portal 管理者または会社管理者が、ユーザ定義のカスタムメタデータフィールドを作成できます。カスタムフィールドは、Dynamic Mediaクラシックでアセットを整理するのに役立ちます。 必要に応じて、フィールドをアクティブにすることができます。 アクティブ化すると、これらのカスタムメタデータフィールドの名前は、詳細ビューのメタデータパネルに表示されます。ユーザは、ユーザ定義メタデータフィールドに情報を入力して、アセットの説明を追加することができます。また、ユーザ定義メタデータフィールドを検索条件にすることもできます。
 
-ユーザ定義メタデータフィールドの効果的な使用方法の 1 つとして、特定の発売（販売）でアセットのアクティブ化の時間を遅らせることができます。「アクティベーション」フィールドは、 *日付型に基づいて定義します*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System は、アセットの公開ステータスと公開ヒストリーを確認します。アクティベーション時間内でない場合、公開ステータスは「未公開」と表示されます。
+ユーザ定義メタデータフィールドの効果的な使用方法の 1 つとして、特定の発売（販売）でアセットのアクティブ化の時間を遅らせることができます。「アクティベーション」フィールドは、 *日付型に基づいて定義します*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Mediaクラシックは、アセットの公開ステータスと公開ヒストリーを確認します。 アクティベーション時間内でない場合、公開ステータスは「未公開」と表示されます。
 
 >[!NOTE]
 >
@@ -880,9 +880,9 @@ Media Portal 管理者または会社管理者のみが、ユーザ定義フィ�
 
 ## ファイルの最適化 {#optimize-files}
 
-Scene7 Publishing System にファイルをアップロードすると、それらが保存および公開用に最適化されます。ただし、アップロード処理を中断した場合は、一部の画像が最適化されません。この場合は、「画像がまだ最適化されていません」というメッセージが表示されます。これらのファイルは、管理者が最適化できます。
+Dynamic Mediaクラシックにファイルをアップロードすると、ストレージおよび公開用にファイルが最適化されます。 ただし、アップロード処理を中断した場合は、一部の画像が最適化されません。この場合は、「画像がまだ最適化されていません」というメッセージが表示されます。これらのファイルは、管理者が最適化できます。
 
-Scene7 Publishing System は、ファイルを検索し、以前に最適化が完全でなかった画像のみを最適化します。
+Dynamic Mediaクラシックは、ファイルを検索し、以前に完全に最適化されなかった画像のみを最適化します。
 
 1. **設定** / **アプリケーション設定**&#x200B;を選択し、「ファイルの&#x200B;**最適化**」を選択します。
 1. Enter information for the optimization job and click **Submit**.
@@ -891,7 +891,7 @@ Scene7 Publishing System は、ファイルを検索し、以前に最適化が�
 
 ## バッチセットプリセット {#batch-set-presets}
 
-バッチセットプリセットを使用して、Scene7 Publishing System にアセットをアップロードするジョブを実行中に、画像セットやスピンセットを自動的に作成できます。
+バッチセットプリセットを使用して、Dynamic MediaClassicにアセットをアップロードするジョブの実行中に、画像セットまたはスピンセットを自動的に作成します。
 
 会社の管理者は、まずセットにグループ化するアセットに対して命名規則を定義します。その後、バッチセットプリセットを作成してこれらの画像を参照することができます。各プリセットは、プリセット手法で定義された命名規則に一致する画像を使用してセットの構成方法を定義する、固有の名前を持ち自己完結した命令のセットです。
 
