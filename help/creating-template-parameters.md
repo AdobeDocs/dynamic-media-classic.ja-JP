@@ -2,15 +2,18 @@
 title: テンプレートパラメータの作成
 seo-title: テンプレートパラメータの作成
 description: 'null'
-seo-description: テンプレートパラメータの作成方法を説明します。
+seo-description: テンプレートパラメーターの作成方法を説明します。
 uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 「レイヤー」リストで、パラメータを作成するレイヤーの名前の隣にあるパラメータボタン  を選択します。パラメータ画面が開きます。レイヤー上の各パラメータの名前、値および種類が表示されます。
 1. テンプレート画像に含める各パラメータの名前の隣にあるオンオプションを選択します。
-1. [閉じる **** ]を選択して、[パラメータ]画面を閉じます。
+1. 「 **閉じる** 」を選択して、パラメータ画面を終了します。
 
 >[!NOTE]
 >
