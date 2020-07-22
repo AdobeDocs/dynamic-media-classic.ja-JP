@@ -2,22 +2,25 @@
 title: '"クイックスタート：スピンセット"'
 seo-title: '"クイックスタート：スピンセット"'
 description: 'null'
-seo-description: スピンセットの概要と開始を紹介し、すばやく習得できるようにします。
+seo-description: 操作方法をすばやく習得できるように、スピンセットの概要とクイック開始を説明します。
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 68%
 
 ---
 
 
 # クイックスタート：スピンセット{#quick-start-spin-sets}
 
-スピンセットを使用することで、現実と同じようにオブジェクトを回転させて確認することができます。つまり、アイテムをあらゆる角度から表示して、特徴的な部分を詳細に確認できるようになります。スピンセットでは、360°の方向からアイテムを表示することができます。Dynamic Media Classicのオファーには、閲覧者が項目を回転できる1次元のスピンセットと、閲覧者が項目を回転および反転できる2次元のスピンセットがあります。 また、数回マウスをクリックするだけで、任意の表示を「自由形式」でズームおよびパンできます。 これらの機能により、特定の方向からアイテムを詳細に確認することができます。
+スピンセットを使用することで、現実と同じようにオブジェクトを回転させて確認することができます。つまり、アイテムをあらゆる角度から表示して、特徴的な部分を詳細に確認できるようになります。スピンセットでは、360°の方向からアイテムを表示することができます。Dynamic Mediaクラシックオファーは、ビューアで項目を回転できる1次元スピンセットと、ビューアで項目を回転および反転できる2次元スピンセットを使用します。 また、数回マウスをクリックするだけで、自由形式のズームやパン機能を使用することもできます。 これらの機能により、特定の方向からアイテムを詳細に確認することができます。
 
 ![スピンセット用の画像.](/help/assets/spin_set.png)
 
@@ -27,13 +30,13 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 **クイック開始**
 
-このスピンセットクイック開始は、Dynamic Media Classicのスピンセットの操作方法をすばやく習得できるように設計されています。 手順 1 ～ 7 に従ってください。各手順の最後に、それぞれの内容について詳しく説明している参照先を示しています。
+ここでは、Dynamic Mediaクラシックのスピンセットの操作方法をすばやく習得できるように、手順について簡潔に説明します。 手順 1 ～ 7 に従ってください。各手順の最後に、それぞれの内容について詳しく説明している参照先を示しています。
 
 **1.画像の作成とアップロード**
 
-1次元のスピンセットには少なくとも8 ～ 12枚の写真が必要で、2次元のスピンセットには16 ～ 24枚の写真が必要です。 アイテムが回転および反転しているように見せるには、一定の角度間隔でアイテムを撮影する必要があります。例えば、1 次元スピンセットに 12 枚の写真を含めるには、アイテムを 30°（360°/12）単位で回転させて撮影します。
+1次元スピンセットを使用するには、少なくとも8 ～ 12枚の写真が必要で、2次元スピンセットには16 ～ 24枚の写真が必要です。 アイテムが回転および反転しているように見せるには、一定の角度間隔でアイテムを撮影する必要があります。例えば、1 次元スピンセットに 12 枚の写真を含めるには、アイテムを 30°（360°/12）単位で回転させて撮影します。
 
-グローバルナビゲーションバーの「アップロード」ボタンを選択して、コンピュータまたはネットワークから Scene7 Publishing System にスピン画像をアップロードします。
+グローバルナビゲーションバーの「アップロード」ボタンを選択して、コンピュータまたはネットワークからDynamic Mediaクラシックにスピン画像をアップロードします。
 
 詳しくは、[スピンセット画像のキャプチャに関するガイドライン](creating-spin-set.md#guidelines-for-shooting-spin-set-images)を参照してください。
 
@@ -85,16 +88,16 @@ Last Modified Date:
 
 **6. スピンセットの公開**
 
-スピンセットを公開すると、スピンセットがDynamic Media Classicサーバーに保存され、Webサイトやアプリケーションに動的に配信できるようになります。 また、ダイナミックメディア画像サーバーからWebサイトやアプリケーションにスピンセットを呼び出すURL文字列もアクティブにします。
+スピンセットを公開すると、スピンセットがWebサイトやDynamic Mediaに動的に配信されるように、Webサイトやアプリケーションに配信されます。 また、Dynamic MediaのImage ServerからWebサイトやアプリケーションにスピンセットを呼び出すURL文字列もアクティブにします。
 
-To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. グローバル **ナビゲーション** バーの「公開」をクリックして、公開を開始します。 On the Publish screen, click **Start Publish**.
+To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. グローバルナビゲーションバーの **「公開** 」をクリックして、公開を開始します。 On the Publish screen, click **Start Publish**.
 
 詳しくは、[スピンセットの公開](publishing-spin-set.md#publishing-a-spin-set)を参照してください。
 
 **7. Web ページへのスピンセットのリンク**
 
-スピンセットのURL引き出し線文字列は、スピンセットを公開すると作成され、アクティブになります。 これらの URL は、プレビュー画面からコピーすることができます。
+Dynamic Mediaクラシックは、スピンセットのURL引き出し線文字列を作成し、公開した後でアクティブにします。 これらの URL は、プレビュー画面からコピーすることができます。
 
-スピンセットを選択し、「 **プレビュー**」 プレビュー画面が開きます。スピンセットビューアプリセットを選択し、次に、「 **URLをコピー**」をクリック
+スピンセットを選択し、「 **プレビュー**」をクリックします。 プレビュー画面が開きます。スピンセットビューアプリセットを選択し、次に、「URLを **コピー**」をクリックします。
 
 詳しくは、[Web ページへのスピンセットのリンク](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page)を参照してください。
