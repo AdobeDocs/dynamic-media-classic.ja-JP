@@ -2,15 +2,18 @@
 title: 画像セットの表示
 seo-title: 画像セットの表示
 description: 'null'
-seo-description: 画像セットの表示方法を説明します。
+seo-description: 画像セットを表示する方法を説明します。
 uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 画像セットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。画像セットには「ズームビューア : カスタム」ビューアプリセットを使用します。
 
-ダイナミックMedia Classicには、初期設定のビューアプリセットが用意されています。 管理者は、ビューアプリセットを作成または変更できます。
+Dynamic Mediaクラシックには、初期設定のビューアプリセットが付属しています。 管理者は、ビューアプリセットを作成または変更できます。
 
 ## 画像セットのズームビューアプリセットの設定 {#setting-up-zoom-viewer-presets-for-image-sets}
 
@@ -28,9 +31,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 1. **設定**／**ビューアプリセット**&#x200B;をクリックします。
 1. 次のいずれかの方法で、ビューアプリセット画面でビューアプリセットを作成または編集します。
 
-   **クリックの作成** 」を参照して追加ください。 ビューアプリセットを追加ダイアログボックスで、プラットフォームを選択し、「ズームビューア : カスタム」を選択して、「追加」をクリックします。既存のプリセットからズームビューアプリセットを作成することもできます。プリセットの名前を表示して選択し、「編集」ボタンを選択します。ビューアを設定画面で、プリセットの新しい名前を入力します。
+   **クリックの作成** 追加。 ビューアプリセットを追加ダイアログボックスで、プラットフォームを選択し、「ズームビューア : カスタム」を選択して、「追加」をクリックします。既存のプリセットからズームビューアプリセットを作成することもできます。プリセットの名前を表示して選択し、「編集」ボタンを選択します。ビューアを設定画面で、プリセットの新しい名前を入力します。
 
-   **編集** ：プリセットの名前を表示し、選択して「編集」をクリック **します**。
+   **編集** プリセットの名前が表示され、プリセットを選択して「 **編集**」をクリックします。
 
 1. ビューアを設定画面で、オプションを選択します。
 
