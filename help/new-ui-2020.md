@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe Flash Playerは、Adobe Flashプラットフォーム上で開発された
 
 >[!IMPORTANT]
 >
->一度にインストールしてアクティブにできるのは、デスクトップアプリケーションのインスタンスの1つだけです。
+>特定のコンピューターに一度にインストール *し* 、アクティブにできるデスクトップアプリケーションのインスタンスは1つだけです。 ただし、複数のコンピューターにまたがってインストールできる数に制限はありません。
 
 ### **_Dynamic MediaクラシックAPIを使用して製品にアクセスし、Webユーザーインターフェイスを使用してログインしない場合はどうなりますか。_**
 
