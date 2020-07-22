@@ -6,34 +6,37 @@ seo-description: メタデータの表示、追加、書き出しの方法を説
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2262'
+ht-degree: 78%
 
 ---
 
 
 # メタデータの表示、追加、書き出し{#viewing-adding-and-exporting-metadata}
 
-Scene7 Publishing System で操作するファイルに、固有な情報を格納することができます。この情報のことを&#x200B;*メタデータ*&#x200B;といいます。Dynamic Media Classicのメタデータを使用して、アセットの編成、検索、フィルタリングおよび並べ替えを行うことができます。
+You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. Dynamic Mediaクラシックでは、メタデータを使用して、アセットの整理、検索、フィルタリングおよび並べ替えを行うことができます。
 
-メタデータは、Dynamic Media Classicで生成された情報（ファイル作成日、公開日、キーワードなど）と共に詳細表示に表示されます。 メタデータを表示するには、詳細ビューでアセットを開いて、メタデータパネルを選択します。メタデータは詳細ビューで入力して編集できます。
+メタデータは、ファイル作成日、公開日、キーワードなど、Classicで生成されたDynamic Mediaと共に詳細表示に表示されます。 メタデータを表示するには、詳細ビューでアセットを開いて、メタデータパネルを選択します。メタデータは詳細ビューで入力して編集できます。
 
-一部のメタデータは、直接ファイルに埋め込まれます。ファイルにこのメタデータが含まれている場合、Dynamic Media Classicはそのメタデータをファイルと共に自動的にアップロードします。 Adobe Photoshop、InDesign、Illustratorおよびその他のアプリケーションで、ソースアセットにメタデータを埋め込むことができます。Dynamic Media Classicは、このメタデータを認識します。 詳細ビューのメタデータパネルで個々のファイルにメタデータを追加することもできます。アセット間で統一をとるために、会社の管理者は、入力できるメタデータフィールドを指定したメタデータテンプレートを作成できます。
+一部のメタデータは、直接ファイルに埋め込まれます。ファイルにこのメタデータが含まれる場合、Dynamic Mediaクラシックはこのメタデータをファイルと共に自動的にアップロードします。 Adobe Photoshop、InDesign、Illustratorおよびその他のアプリケーションで、ソースアセットにメタデータを埋め込むことができます。 Dynamic Mediaクラシックは、このメタデータを認識します。 詳細ビューのメタデータパネルで個々のファイルにメタデータを追加することもできます。アセット間で統一をとるために、会社の管理者は、入力できるメタデータフィールドを指定したメタデータテンプレートを作成できます。
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## メタデータの表示 {#view-metadata}
 
-アセットのメタデータを表示するには、詳細ビューでアセットを開いて、メタデータパネルをクリックします。メタデータビューメニューでオプションを選択して、一連のメタデータフィールドを選択します。ダイナミックメディアクラシックオファーの次のメタデータ表示:
+アセットのメタデータを表示するには、詳細ビューでアセットを開いて、メタデータパネルをクリックします。メタデータビューメニューでオプションを選択して、一連のメタデータフィールドを選択します。Dynamic Mediaクラシックは、次のメタデータ表示をオファーします。
 
-* **コンパクト**&#x200B;表示値の基本リスト。
+* **コンパクト表示**&#x200B;値の基本リスト。
 
-* **International Press Telecommunications** Councilで定義されるIPTCの値。
+* **IPTC** Values（International Press Telecommunications Councilで定義）。
 
-* **XMP** Values。拡張可能なメタデータプラットフォームで定義されます。
+* **XMP** Valuesは、XMPメタデータプラットフォームで定義されます。
 
 管理者はメタデータビューを作成できます。これらのビューは、メタデータビューメニューにも表示されます。メタデータビューの作成方法について詳しくは、[メタデータビュー](application-setup.md#metadata_views)を参照してください。
 
@@ -67,16 +70,16 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 1. キーワードを削除するには、そのキーワードを選択して「削除」をクリックします。そのキーワードがキーワード候補テーブルに移動します。
 
 >[!NOTE]
-ファイルをDynamic Media Classicにアップロードする際に、ファイルにキーワードを追加できます。 アップロードオプションを設定ダイアログボックスで、「追加メタデータ」を選択して、キーワードを入力します。詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
+Dynamic MediaをClassicにアップロードする際に、ファイルにキーワードを追加できます。 アップロードオプションを設定ダイアログボックスで、「追加メタデータ」を選択して、キーワードを入力します。詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
 
 ## メタデータの取り込み {#import-metadata}
 
 メタデータを 1 つずつ手動で入力する代わりに、タブ区切りファイルまたは XML ファイルから数多くのアセット用のメタデータを取り込むことができます。タブ区切りファイルまたは XML ファイルにメタデータを入力してファイルを取り込む方法の方が、個々のアセットにメタデータを入力する方法より手間が省けます。タブ区切りファイルの最初の行に、ID、およびメタデータを記録するフィールドの名前を入力します。後続の各行に、アセット ID 名に続けてメタデータ値を入力します。タブ区切りファイルまたは XML ファイルに含まれていないフィールドは変更されません。XML ファイルからメタデータを取り込むには、DTD に準拠していることを確認します。
 
 >[!NOTE]
-Scene7 Publishing System にメタデータを正しく取り込むために、メタデータを入力するためのテンプレートを作成できます。テンプレートを作成したら、テンプレートをメタデータの入力用に使用できます。詳しくは、[アップロードするメタデータを入力するためのテンプレートの作成](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)を参照してください。
+メタデータを入力するためのテンプレートを作成して、Dynamic Mediaクラシックにメタデータを正しく取り込むことができます。 テンプレートを作成したら、テンプレートをメタデータの入力用に使用できます。詳しくは、[アップロードするメタデータを入力するためのテンプレートの作成](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)を参照してください。
 
-標準化されたプロパティの詳細については、次を参照してください。https://www.adobe.com/devnet/xmp.html
+標準化されたプロパティの詳細については、次を参照してください。 https://www.adobe.com/devnet/xmp.html
 
 1. 参照パネルで、タブ区切りファイルまたは XML ファイルからメタデータを追加する画像を選択します。
 1. **ファイル**／**メタデータを取り込み**&#x200B;をクリックします。
@@ -127,9 +130,9 @@ XML 取り込みでは、有効な XML のみを受け入れます。XMP また�
 
 ## メタデータを使用して ID をバッチで名前変更 {#batch-rename-ids-using-metadata}
 
-タブ区切りファイルまたは XML ファイルから取り込んだメタデータを使用して、Scene7 Publishing System ID の名前を変更することができます。取り込まれたメタデータは、メタデータファイルで指定されている画像だけに適用されます。参照パネルで画像が選択されているかどうかは関係ありません。
+タブ区切りファイルまたはXMLファイルから読み込んだメタデータを使用して、Dynamic Mediaの名前をクラシックIDに変更できます。 取り込まれたメタデータは、メタデータファイルで指定されている画像だけに適用されます。参照パネルで画像が選択されているかどうかは関係ありません。
 
-To rename an image’s Scene7 Publishing System ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
+To rename an image’s Dynamic Media Classic ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
 
 例：
 
@@ -143,7 +146,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 ## アップロードするメタデータを入力するためのテンプレートの作成 {#create-a-template-for-entering-metadata-to-upload}
 
-ダイナミックMedia Classicオファーは、メタデータを記録するためのテンプレートを作成するためのコマンドです。 テンプレートを使用すると、メタデータを確実に正しい形式で入力することができるため、Scene7 Publishing System に正しくアップロードすることができます。メタデータを記録して Scene7 Publishing System に取り込むためのテンプレートを作成するには、次の手順に従います。
+Dynamic Mediaクラシックオファーは、メタデータを記録するためのテンプレートを作成するためのコマンドです。 テンプレートを使用すると、メタデータを確実に正しい形式で入力し、Dynamic Mediaクラシックに正しくアップロードできます。 メタデータを記録してDynamic Mediaクラシックに読み込むためのテンプレートを作成するには、次の手順に従います。
 
 1. テンプレートに含めるメタデータフィールドを持つ画像アセットを選択します。
 1. ファイル／メタデータを取り込みを選択します。
@@ -173,9 +176,9 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 システムは、ユーザ定義フィールドに対応するカスタムスキーマを自動的に生成し、「s7udf」プリフィックスを付けます。これらは既存のユーザ定義フィールドであり、独自の「設定」セクションで編集されます。
 
 >[!NOTE]
-スキーマを変更しても、アセットのメタデータ自体は決して変更されません。ただし、スキーマの変更は、変更後は SPS およびメタデータサーバのどの機能でも表示されなくなり、アクセスすることもできません。同様に、アセットに対応するメタデータが存在する場合、対応するスキーマを作成すると、SPS およびメタデータサーバでそのメタデータが使用できるようになります。
+スキーマを変更しても、アセットのメタデータ自体は決して変更されません。ただし、ClassicとMetadata Serverの一部のDynamic Mediaでは表示されず、変更後はアクセスできません。 同様に、アセットのメタデータが存在する場合は、一致するスキーマを作成すると、メタデータがDynamic MediaClassicおよびメタデータサーバで使用できるようになります。
 
-メタデータスキーマエディタは、SPS の内部で会社のカスタムスキーマをグラフィック形式で追加または編集するための手段を提供します。スキーマは、プリフィックス、名前空間、およびプロパティリストで定義されます。
+メタデータスキーマエディターは、Dynamic Mediaクラシック内でカスタム会社スキーマをグラフィック形式で追加または編集するオファーです。 スキーマは、プリフィックス、名前空間、およびプロパティリストで定義されます。
 
 * 名前
 
@@ -183,11 +186,11 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 * プリフィックス
 
-   スキーマの技術的な固有の識別子です。a ～ z、および A ～ Z の英字に限定されています。プリフィックスは SPS UI の中で表示されませんが、アセットに対応するメタデータを XMP ブロックおよびアドビ システムズ社のデータベースに格納するときに使用されます。メタデータサーバおよび取り込みに関連するメタデータ検索クエリの中で、メタデータフィールドを固有に識別するために、プリフィックスが使用されます。
+   スキーマの技術的な固有の識別子です。a ～ z、A ～ Zの文字に制限されます。 プリフィックスはDynamic MediaクラシックUIには表示されませんが、アセットのメタデータがXMPブロックとデータベースに保存されている場合に使用されます。 メタデータサーバおよび取り込みに関連するメタデータ検索クエリの中で、メタデータフィールドを固有に識別するために、プリフィックスが使用されます。
 
 * 名前空間
 
-   Technical unique identifier for the schema, typically a URL in the form `https://your.company.com/name/version/`. 標準スキーマリストで例を参照してください。名前空間は SPS UI の中で表示されませんが、メタデータを XMP ブロックに格納するときに使用されます。
+   Technical unique identifier for the schema, typically a URL in the form `https://your.company.com/name/version/`. 標準スキーマリストで例を参照してください。この名前空間は、Dynamic MediaクラシックUIには表示されませんが、XMPブロックにメタデータを保存するために使用されます。
 
 * 説明
 
@@ -200,7 +203,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 | プロパティ | 説明 |
 |--- |--- |
-| ID | このプロパティの技術的な識別子。ID は SPS UI の中で表示されませんが、アセットに対応するメタデータを XMP ブロックおよびアドビ システムズ社のデータベースに格納するときに使用されます。ID は、メタデータサーバに対して検索クエリを作成するために使用されます。ID には、以下のようないくつかの制限があります。 <ul><li>スペースなし</li><li>「.」、「:」、「$」は使用不可</li><li>1 文字目は数字ではない</li><li>ベストプラクティスは、1文字目に a ～ z、または A ～ Z を使用することです</li></ul> <br>ID は作成した後に変更できません。 |
+| ID | このプロパティの技術的な識別子。このIDはDynamic MediaクラシックUIには表示されませんが、アセットのメタデータがXMPブロックとアドビのデータベースに保存されている場合に使用されます。 ID は、メタデータサーバに対して検索クエリを作成するために使用されます。ID には、以下のようないくつかの制限があります。 <ul><li>スペースなし</li><li>「.」、「:」、「$」は使用不可</li><li>1 文字目は数字ではない</li><li>ベストプラクティスは、1文字目に a ～ z、または A ～ Z を使用することです</li></ul> <br>ID は作成した後に変更できません。 |
 | ラベル | このプロパティの UI 名。 |
 | 構造 | データタイプとともに、プロパティのタイプを決定します。構造は次のいずれかです。<ul><li>シンプルタイプ：データタイプの単一の値</li><li>シーケンス：同じデータタイプを持つ複数の値から構成されるリスト</li><li>自由選択：定義済みのリストからいずれかの項目を選択、またはフリーテキストを入力。データタイプは文字列または整数のみを使用可能</li><li>選択肢から選択：定義済みのリスト（ポップアップまたはコンボボックス）からいずれかの項目を選択</li></ul> |
 | データタイプ | 以下の使用可能なタイプから選択します。 <ul><li>文字列</li><li>整数</li><li>浮動小数点</li><li>はい／いいえ（ブール値）</li><li>日付</li></ul> |
@@ -210,7 +213,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 | プロパティ | 説明 |
 |--- |--- |
-| ID | この値の技術的な識別子。ID は SPS UI の中で表示されませんが、アセットに対応するメタデータを XMP ブロックおよびデータベースに格納するときに使用されます。ID は、メタデータサーバに対する検索クエリの中で使用されます。ID にスペースを含めることはできません。ID は作成した後に変更できません。 |
+| ID | この値の技術的な識別子。このIDは、Dynamic MediaクラシックUIには表示されませんが、アセットのメタデータがXMPブロックとデータベースに格納されている場合に使用されます。 ID は、メタデータサーバに対する検索クエリの中で使用されます。ID にスペースを含めることはできません。ID は作成した後に変更できません。 |
 | ラベル | この値の UI 名。 |
 
 >[!MORELIKETHIS]
