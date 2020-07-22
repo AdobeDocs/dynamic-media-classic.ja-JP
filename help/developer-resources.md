@@ -6,27 +6,27 @@ seo-description: Dynamic Mediaが利用できる開発者向けリソースに�
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
 
 # 開発者向けリソース{#developer-resources}
 
-Dynamic Mediaクラシックには、各Dynamic MediaのClassicソフトウェアモジュールの最新メジャーバージョンに関するドキュメントが用意されています。 モジュールドキュメントは、Image Authoring、Scene7 Publishing System、Image Serverおよび画像レンダリング、ビューアで使用できます。
+Dynamic Mediaクラシックには、各Dynamic MediaのClassicソフトウェアモジュールの最新メジャーバージョンに関するドキュメントが用意されています。 モジュールドキュメントは、Image Authoring、Image Classic、Image ServerとImage Rendering、ビューアで使用できます。
 
 また、一部のモジュールのリリースノートもあります。リリースノートには、拡張機能、新機能、ヒント、トラブルシューティングに関するアドバイス、未解決の既知の問題など、リリースに関する詳細情報が記載されています。また、リッチメディア機能のインタラクティブな例とそれらをアクティブにする方法も記載されています。また、リリースノートでは、ライセンス許諾されたソフトウェアを使用するユーザ向けのインストールおよび設定に関する情報も提供しています。
 
 画像サービングと画像レンダリングのリファレンスガイド、およびビューアでは、これらのサーバモジュールのHTTPプロトコルについて説明しています。 Webサイト開発者は、Webサイトやカスタムアプリケーション用にDynamic Mediaのクラシックリッチメディアをさらにカスタマイズして活用したい場合、これらのガイドを使用できます。 Dynamic Mediaクラシックでは、読者がデスクトップアプリケーション、一般的なhttpプロトコル標準および表記、基本的な画像処理用語に精通していることを前提としています。
 
 
-**Scene7 Publishing System API**
+**Dynamic MediaクラシックAPI**
 
 | ドキュメント | Web アドレス |
 |--- |--- |
