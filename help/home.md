@@ -3,11 +3,11 @@ title: Dynamic Mediaクラシックテクニカルドキュメント
 seo-title: AdobeDynamic Mediaクラシックのテクニカルドキュメントとセルフヘルプ
 description: Dynamic Mediaクラシックテクニカルドキュメント
 seo-description: 'AdobeDynamic Mediaクラシック（旧称Scene7）のテクニカルドキュメント、リリースノートおよびセルフヘルプマテリアル '
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 11%
 
 ---
@@ -33,7 +33,7 @@ Dynamic Mediaクラシックヘルプへようこそ。 Dynamic Mediaクラシ�
 * [Dynamic Media月刊ニュースレター](dynamic-media-newsletter.md)
 * [ガイド： Dynamic Mediaクラシックの使用に関するベストプラクティス](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
 * [ガイド： 画像にシャープを適用するためのベストプラクティスガイド](/help/assets/s7_sharpening_images.pdf)
-* [ガイド： Adobe Dynamic Media ClassicがSEO](/help/assets/s7_seo.pdf) — 検索エンジンをサポートする仕組み。現在、Webサイトや画像を検索できます。 Scene7 Publishing Systemは、より多くのトラフィックがImages ClassicDynamic MediaのWebサイトに送られるように、画像検索エンジンをわかりやすくする努力をサポートしています。 PDFのこのガイドでは、これを実現するための背景と実装の推奨事項を示します。
+* [ガイド： Adobe Dynamic Media ClassicがSEO](/help/assets/s7_seo.pdf) — 検索エンジンをサポートする仕組み。現在、Webサイトや画像を検索できます。 Dynamic Mediaクラシックは、より多くのトラフィックがDynamic MediaクラシックのユーザのWebサイトに送られるように、画像検索エンジンをわかりやすくする努力をサポートしています。 PDFのこのガイドでは、これを実現するための背景と実装の推奨事項を示します。
 * [ウェビナー： レスポンシブデザインのベストプラクティス](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) — モバイル戦略を改善する方法の実用的なヒントを紹介します。 レスポンシブデザインの実例を確認します。複数のデバイスで機能し、画像の解像度または画像の向き（縦長または横長）を動的に変更することでモバイルのパフォーマンスを向上させる、1 つのマスターアセットを作成します。また、画像を動的にトリミング、拡大縮小またはサイズ変更する方法についても説明します。
 * [ウェビナー： ベストプラクティスDynamic Mediaを使用したインタラクティブエクスペリエンスの提供Classic](http://seminars.adobeconnect.com/p7wb8ej3u6d/) -Dynamic MediaClassicでコンテンツを出し入れする方法と、最適なパフォーマンスとエクスペリエンスを得るための画像プリセットの設定方法について説明します。 また、ビューアプリセットおよびキャッシュ設定についても説明します。
 * [ウェビナー： 資産のROIの最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) — サイトやモバイルアプリ全体にリッチメディアを配信する業界のベストプラクティスを学びます。 このウェビナーでは、複数のデバイスにわたってビデオを効率的に配信する方法、マーケティングキャンペーンに動的なクリエイティブを配信する方法、画像、スタイルガイド、またはルックブックを買い物客の対象としてコンバージョンを高める方法を示す例とデモを紹介します。
