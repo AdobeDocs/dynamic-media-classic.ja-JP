@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f541bf3a6f364029df868215953b14c15ae474c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Dynamic Mediaクラシックのユーザーは、ブラウザーのAdobe Flash�
 
 >[!IMPORTANT]
 >
->2020年10月1日までに、新しいAdobeDynamic Mediaクラシックデスクトップアプリケーションをインストールすることをお勧めします。 これにより、スムーズなトランジションが確保され、Adobe Flash Playerが2020年12月31日に廃止されます。 この日、製品のScene7 Publishing Systemというラベルが付いたAdobeDynamic MediaClassicユーザインターフェイスのブラウザバージョンにログオンできなくなります。
+>2020年10月1日までに、新しいAdobeDynamic Mediaクラシックデスクトップアプリケーションをインストールすることをお勧めします。 これにより、スムーズなトランジションが確保され、Adobe Flash Playerが2020年12月31日に廃止されます。 この日、製品で「Dynamic Mediaクラシック」とラベル付けされたAdobeDynamic Mediaクラシックユーザーインターフェイスのブラウザーバージョンにログオンできなくなります。
 
 新しい [Dynamic Mediaクラシックのログインエクスペリエンスに関するFAQをご覧いただけます。](/help/new-ui-2020.md)
 
