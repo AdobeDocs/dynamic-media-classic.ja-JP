@@ -4,9 +4,9 @@ seo-title: AdobeDynamic Mediaクラシックデスクトップアプリ
 description: Dynamic Mediaクラシックユーザーは、ユーザーインターフェイスが完全に更新されるようになりました。 このアップデートでは、貴重なリソースへのリンクを含む更新されたサインインが提供されます。また、このアップデートでは、ブラウザーのAdobe Flashテクノロジーに依存しなくなりました。
 contentOwner: rbrough
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
