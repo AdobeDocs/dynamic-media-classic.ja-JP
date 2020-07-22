@@ -2,15 +2,18 @@
 title: eCatalogでの情報パネルのコンテンツの管理
 seo-title: eCatalogでの情報パネルのコンテンツの管理
 description: 'null'
-seo-description: eCatalogで情報パネルのコンテンツを管理する方法を説明します。
+seo-description: eCatalogの情報パネルのコンテンツを管理する方法について説明します。
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 eCatalog 内のロールオーバーに画像マップテキストを使用するだけでなく、情報パネルを使用して、リンクを含む多数のロールオーバーテキストを追加できます。また、期限付きキャッシュを使用し、コンテンツを更新するスケジュールを設定して、情報パネルを管理することもできます。
 
-Dynamic Media Classicの次の機能を使用して、情報パネルの設定とデータを管理できます。
+Dynamic Mediaクラシックの次の機能を使用して、情報パネルの設定とデータを管理できます。
 
 * 情報パネル設定パネルでは、情報パネルのテキスト表示に使用するテンプレート、エラーのデフォルト応答、情報をキャッシュする時間数を指定できます。eCatalog を自動的に公開するかどうかを指定することもできます。
 * 情報パネルのデータフィードパネルでは、情報パネルのロールオーバーテキストに表示するテキストを含む CSV ファイルを指定したり、情報を更新する時刻を設定したりできます。
@@ -43,7 +46,7 @@ Dynamic Media Classicの次の機能を使用して、情報パネルの設定�
    * 応答テンプレートメニューからプリセットを選択します。テンプレートデザインの XML が「ユーザテンプレート」ボックスに表示されます。
    * 「カスタム」を選択して、独自の応答テンプレートを作成します。「ユーザテンプレート」ボックスに、テンプレートの XML 定義を入力します。プリセットのテンプレートを基に、独自のテンプレートを作成できます。
 
-1. （オプション）「初期設定の応答」ボックスに、画像マップの情報を取得する際にエラーが発生した場合に表示するテキストを入力します。 例えば、システムで会社名と eCatalog 名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
+1. （オプション）「デフォルト応答」ボックスに、Dynamic Mediaマップの情報を取得する際にエラーが発生した場合に表示するテキストを入力します。 例えば、システムで会社名と eCatalog 名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
 1. 「応答 TTL」ボックスに、データをキャッシュするまでの時間数を入力します。
 
    * データが 1 日中頻繁に更新される場合は、数値を小さくします。
@@ -83,11 +86,11 @@ Last Modified Date:
 
 1. eCatalog をダブルクリックして詳細ビューで開きます。
 1. 情報パネル設定パネルをクリックして開きます。
-1. **「S7Infoコンテンツをアップロード」をクリックします**。
+1. **「S7Infoコンテンツをアップロード**」をクリックします。
 1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
 1. 「**アップロード**」をクリックします。
 
-ダイナミックMedia Classicから、アップロードが成功したかどうかを知らせる電子メールが送信されます。
+Dynamic Mediaクラシックでは、アップロードが成功したかどうかを知らせる電子メールが送信されます。
 
 ## 画像マップのロールオーバーキーテキストのプレビュー {#preview-rollover-key-text-for-an-image-map}
 
