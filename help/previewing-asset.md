@@ -6,11 +6,14 @@ seo-description: アセットのプレビュー方法を説明します。
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 パラメータレイヤーのあるテンプレートアセットをプレビューする場合は、パラメータや画像プリセットを変更できます。変更はインラインで行われるため、同じプレビューウィンドウに直ちに結果が表示されます。
 
-Adobe Viewers Reference Library Examplesも参 [照してください](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+『 [Adobe Viewersリファレンスライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)』も参照してください。
 
 **アセットをプレビューするには**
 
