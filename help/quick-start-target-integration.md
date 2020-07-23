@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 19%
 
 ---
 
 
-# クイック開始: Target Standard/Premiumの統合{#quick-start-target-integration}
+# クイック開始: Adobe Target標準/プレミアム統合{#quick-start-target-integration}
 
 Adobe Target標準/プレミアムは、複数のA/Bおよび多変量分析テストを迅速かつ継続的に実行し、効果を測定し、セグメント化、ターゲティング、自動パーソナライゼーションを通じてオンラインコンテンツの関連性を高めるため、マーケターに直接管理を提供します。
 
@@ -34,7 +34,7 @@ Dynamic Mediaクラシックでは、Target Standard/プレミアムキャンペ
 
 このクイック開始では、Target Standard/プレミアムのHTMLオファーセットをすばやく習得できます。 手順 1 ～ 3 に従ってください。各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
 
-**1.Enter your Target Standard/Premium URL in the Application General Settings screen.**
+**1.Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
 
 Dynamic MediaクラシックをTarget Standard/プレミアムと統合するには、Target Standard/プレミアムURLが必要です。 Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. 詳しくは、Dynamic MediaClassicとTarget Standard/プレミアムの [統合を参照してください](integrating-dmc-with-target.md#integrating-dmc-with-target)。
 
@@ -50,6 +50,6 @@ Dynamic MediaクラシックをTarget Standard/プレミアムと統合するに
 
 詳しくは、[オファーセットの作成](creating-offer-set.md#creating_an_offer_set)を参照してください。
 
-**3. オファーセットをTarget Standard/プレミアムにプッシュ**
+**3. オファーセットをAdobe Target標準/プレミアムにプッシュ**
 
 In the Test&amp;Target Offer Set screen, click **Push Offers**, and enter your login credentials in the Test&amp;Target Login dialog box. 詳しくは、 [オファーセットのTarget Standard/プレミアムへのプッシュを参照してください](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
