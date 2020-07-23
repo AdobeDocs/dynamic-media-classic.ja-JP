@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Mediaクラシックヘルプ
 index: y
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 75%
 
 ---
@@ -154,9 +154,9 @@ ht-degree: 75%
    + [Adobe Analytics レポートの表示による統合のテスト](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics ビデオレポートの有効化](enabling-analytics-video-reports.md)
    + [Adobe Analytics 設定情報の公開](publishing-analytics-configuration-information.md)
-+ Target Standard/Premiumの統合 {#target-classic}
-   + [クイック開始: Target Standard/Premiumの統合](quick-start-target-integration.md)
-   + [Adobe Standard/PremiumとのAdobeDynamic MediaClassicの統合](integrating-dmc-with-target.md)
++ Adobe Target標準/プレミアム統合 {#target-classic}
+   + [クイック開始: Adobe Target標準/プレミアム統合](quick-start-target-integration.md)
+   + [Dynamic MediaClassicとAdobe TargetStandard/Premiumの統合](integrating-dmc-with-target.md)
    + [オファーセットの作成](creating-offer-set.md)
    + [オファーセットをAdobe Target標準/プレミアムにプッシュする](pushing-offer-sets-target.md)
 + ユーザ生成コンテンツ {#user-generated-content}
