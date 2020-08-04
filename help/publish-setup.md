@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2409'
 ht-degree: 65%
 
 ---
@@ -37,7 +37,7 @@ Image Server 画面では、Image Server から画像を配信するための初
 
 **カタログ管理** これらの設定は、Dynamic MediaClassicとカタログとの関係を決定します。 ほとんどのWebサーバーとは異なり、Dynamic MediaImage ServerのURL呼び出しは、固有の画像ファイルではなく、マニフェストまたはカタログファイルに対して行われます。 カタログファイル（eCatalog と混同しないでください）には、Image Server に公開されたすべてのコンテンツのリストと、各画像へのパスが含まれています。Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
 
-**要求属性** ：これらの設定は、サーバーから配信できる画像に制限を設けます。
+**要求属性** ：これらの設定は、サーバーから配信できる画像に制限を設けます。 例えば、 *返信画像の* 最大サイズ制限は **[!UICONTROL 、]** Width **[!UICONTROL 5000、]****** Height 5000です。
 
 **初期設定の要求属性** ：これらの設定は、画像の初期設定の外観に関係します。
 
@@ -54,7 +54,7 @@ Image Server 画面では、Image Server から画像を配信するための初
 例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。この機能を実現するには、ロケールマップ文字列を指定します。次に、必要な言語に翻訳したテキスト文字列を追加して、ビューアのプリセットのツールチップテキストを編集します。
 
 >[!NOTE]
-> 「ローカライゼーションサポート」オプションを設定するには、AdobeDynamic Mediaクラシックテクニカルサポートにお問い合わせいただくか、s7support@adobe.comまで電子メールをお送りください。
+> ローカライゼーションサポートオプションの設定については、AdobeDynamic Mediaクラシックテクニカルサポートにお問い合わせいただくか、s7support@adobe.comまで電子メールをお送りください。
 
 **「ローカリゼーションサポート」**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
 
