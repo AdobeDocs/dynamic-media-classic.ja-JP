@@ -1,37 +1,37 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Dynamic Mediaクラシックヘルプ
+user-guide-title: Adobeダイナミックメディアクラシックガイド
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 75%
+source-wordcount: '739'
+ht-degree: 74%
 
 ---
 
 
-# Dynamic Mediaクラシックヘルプ {#using}
+# Adobeダイナミックメディアクラシックガイド {#using}
 
-+ [Dynamic Mediaクラシックドキュメントホーム](home.md)
++ [Adobeダイナミックメディアクラシックガイド](home.md)
 + [ベストプラクティスのチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新しいDynamic Mediaクラシックログインエクスペリエンスが利用可能](new-ui-2020.md)
-+ [Experience League別Dynamic Mediaニュースレター](dynamic-media-newsletter.md)
-+ AdobeDynamic Mediaクラシックの紹介 {#intro}
-   + [AdobeDynamic Mediaクラシックデスクトップアプリ — 利用可能](dynamic-media-classic-desktop-app.md)
-   + [Dynamic Mediaクラシックヘルプについて](introduction.md)
++ [新しいDynamic Media Classicログインエクスペリエンスが利用可能](new-ui-2020.md)
++ [Experience League別ダイナミックメディアニュースレター](dynamic-media-newsletter.md)
++ AdobeDynamic Media Classicの概要 {#intro}
+   + [Adobeダイナミックメディアクラシックデスクトップアプリケーション — 利用可能](dynamic-media-classic-desktop-app.md)
+   + [Dynamic Media Classicヘルプについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
    + [新機能](whats-new.md)
    + [必要システム構成](system-requirements.md)
    + [サポート](support.md)
-   + [Dynamic MediaClassic Media Portalのヘルプ](help-dmc-media-portal.md)
+   + [Dynamic Media Classic Media Portalのヘルプ](help-dmc-media-portal.md)
    + [Adobe トレーニングサービス](training-services.md)
    + [役立つリソース](popular-resources.md)
    + [トレーニングビデオ](training-videos.md)
 + はじめに {#getting-started}
-   + [Adobe Platforms Classicプラットフォームの概要](dmc-platform-overview.md)
+   + [Adobeダイナミックメディアクラシックプラットフォームの概要](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [サインインとサインアウト](signing-out.md)
    + [ナビゲーションの基本](navigation-basics.md)
@@ -45,7 +45,7 @@ ht-degree: 75%
    + [管理設定](administration-setup.md)
 + Media Portal {#media-portal}
    + [必要システム構成](system-requirements-1.md)
-   + [クイック開始: Media Portal](quick-start-media-portal-administration.md)
+   + [クイック開始:Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal ユーザの役割](media-portal-user-roles.md)
    + [Media Portal グループの作成と管理](creating-media-portal-groups.md)
    + [Media Portal のユーザの追加と管理](adding-media-portal-users.md)
@@ -70,7 +70,7 @@ ht-degree: 75%
    + [アセットの移動、名前変更、削除](moving-renaming-deleting-assets.md)
    + [詳細ビューでの操作 ](detail-view.md)
    + [メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md)
-   + [Dynamic Mediaクラシックからのアセットの書き出し](exporting-assets-from-dmc.md)
+   + [Dynamic Media Classicからのアセットの書き出し](exporting-assets-from-dmc.md)
    + [アセット変更内容のピアとのリアルタイム共有](sharing-asset-changes-peers-real.md)
    + [アセットのプリント](printing-assets.md)
    + [ごみ箱フォルダの管理](trash-folder.md)
@@ -90,7 +90,7 @@ ht-degree: 75%
    + [ズーム画像の公開](publishing-zoom-images.md)
    + [Web ページへのズームビューアのリンク](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [クイック開始: eCatalog](quick-start-ecatalog.md)
+   + [クイック開始:eCatalog](quick-start-ecatalog.md)
    + [PDF ファイルのアップロード](uploading-pdf-files.md)
    + [eCatalog の作成](creating-ecatalog.md)
    + [eCatalog 画像マップの作成](creating-ecatalog-image-maps.md)
@@ -146,7 +146,7 @@ ht-degree: 75%
    + [混在メディアセットの公開](publishing-mixed-media-set.md)
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [クイック開始: Dynamic MediaClassicとAdobeAnalyticsの統合](quick-start-integrating-dmc-analytics.md)
+   + [クイック開始:Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics へのログイン](log-analytics.md)
    + [Adobe Analytics レポートの設定](configuring-analytics-reports.md)
    + [Adobe Analytics 計測キットを使用したビューアの計測](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -155,8 +155,8 @@ ht-degree: 75%
    + [Adobe Analytics ビデオレポートの有効化](enabling-analytics-video-reports.md)
    + [Adobe Analytics 設定情報の公開](publishing-analytics-configuration-information.md)
 + Adobe Target標準/プレミアム統合 {#target-classic}
-   + [クイック開始: Adobe Target標準/プレミアム統合](quick-start-target-integration.md)
-   + [Dynamic MediaClassicとAdobe TargetStandard/Premiumの統合](integrating-dmc-with-target.md)
+   + [クイック開始:Adobe Target標準/プレミアム統合](quick-start-target-integration.md)
+   + [Dynamic Media ClassicとAdobe TargetStandard/Premiumの統合](integrating-dmc-with-target.md)
    + [オファーセットの作成](creating-offer-set.md)
    + [オファーセットをAdobe Target標準/プレミアムにプッシュする](pushing-offer-sets-target.md)
 + ユーザ生成コンテンツ {#user-generated-content}
