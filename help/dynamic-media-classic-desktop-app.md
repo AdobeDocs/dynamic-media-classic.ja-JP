@@ -1,66 +1,71 @@
 ---
-title: AdobeDynamic Mediaクラシックデスクトップアプリ — 利用可能
-seo-title: AdobeDynamic Mediaクラシックデスクトップアプリ — 利用可能
+title: Adobeダイナミックメディアクラシックデスクトップアプリケーション — 利用可能
+seo-title: Adobeダイナミックメディアクラシックデスクトップアプリケーション — 利用可能
 description: 'null'
-seo-description: Dynamic Mediaクラシックデスクトップアプリの詳細を表示します。
+seo-description: Dynamic Media Classicデスクトップアプリケーションについて詳しく説明します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 477a8fd6ffee00cd586d91f6eeda8e676753a90f
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
 
 
-# 利用可能： AdobeDynamic Mediaクラシックデスクトップアプリ {#dynamic-media-classic-desktop-app}
+# 利用可能：Adobeダイナミックメディアクラシックデスクトップアプリケーション {#dynamic-media-classic-desktop-app}
 
-Dynamic Mediaクラシックのユーザーは、ブラウザーのAdobe Flashテクノロジーに依存しなくなった新しいデスクトップアプリケーションエクスペリエンスにアクセスできるようになりました。
+Dynamic Media Classicユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった、新しいデスクトップアプリケーションエクスペリエンスにアクセスできるようになりました。
 
 この新しいアプリがWindowsとmacOSで使用できるようになりました。
 
 >[!IMPORTANT]
 >
->2020年10月1日までに、新しいAdobeDynamic Mediaクラシックデスクトップアプリケーションをインストールすることをお勧めします。 これにより、スムーズなトランジションが確保され、Adobe Flash Playerが2020年12月31日に廃止されます。 この日、製品で「Dynamic Mediaクラシック」とラベル付けされたAdobeDynamic Mediaクラシックユーザーインターフェイスのブラウザーバージョンにログオンできなくなります。
+>2020年10月1日までに、新しいAdobeのダイナミックメディアクラシックデスクトップアプリケーションをインストールすることをお勧めします。 これにより、スムーズなトランジションが得られ、AdobeFlash Playerは2020年12月31日に廃止されます。 この日、製品でDynamic Media Classicとラベル付けされたAdobeダイナミックメディアクラシックユーザーインターフェイスのブラウザーバージョンにログオンできなくなります。
 
-新しい [Dynamic Mediaクラシックのログインエクスペリエンスに関するFAQをご覧いただけます。](/help/new-ui-2020.md)
+新しい [Dynamic Media Classicのログインエクスペリエンスに関するFAQを参照してください。](/help/new-ui-2020.md)
 
-## AdobeDynamic Mediaクラシックデスクトップアプリケーションの必要システム構成 {#system-requirements-dmc-app}
+## Adobeダイナミックメディアクラシックデスクトップアプリケーションの必要システム構成 {#system-requirements-dmc-app}
 
-AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペレーティングシステムと互換性があります。
+AdobeのDynamic Media Classicデスクトップアプリケーションは、次のオペレーティングシステムと互換性があります。
 * macOS X 10.10以降。
 * Windows 7以降。
 
-## AdobeDynamic Mediaクラシックデスクトップアプリケーションのダウンロードとインストール {#installation-dmc-app}
+## macOSまたはWindowsにAdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてインストールする {#installation-dmc-app}
 
-1. システム上の古いDynamic MediaのClassicデスクトップアプリケーションをすべてアンインストールします。
+関連項目:
 
-1. AdobeDynamic Mediaクラシックデスクトップアプリ用の最新インストーラーをダウンロードします。
+* [macOSでのAdobeDynamic Media Classicデスクトップアプリケーションのダウンロードと *サイレント* インストール](#install-silent-mac-dmc-app)
+* [WindowsにAdobeDynamic Media Classicデスクトップアプリケーションをダウンロードし *てサイレント* ・インストールする](#install-silent-windows-dmc-app)
 
-   * [macOS(.dmg) — ダウンロードします。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.exe) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+1. システム上で古いバージョンのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
+
+1. Adobeダイナミックメディアクラシックデスクトップアプリケーション用の最新インストーラーをダウンロードします。
+
+   * [macOS(.DMG) — ダウンロード。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.EXE) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. ダウンロードしたインストーラーに基づいて、次のいずれかの操作を行います。
 
-   * **macOSの場合** - **[!UICONTROL Drag &amp; drop to install]** （ドラッグ&amp;ドロップしてインストール）ダイアログボックスで、 **[!UICONTROL AdobeDynamic MediaClassic]** （クラシック）をドラッグし、「 **[!UICONTROL Applications]**（アプリケーション）」にドロップします。
+   * **macOSの場合** - [ **[!UICONTROL ドラッグ&amp;ドロップしてインストール]** ]ダイアログボックスで、 **[!UICONTROL AdobeDynamic Media Classic]** をドラッグし、 **[!UICONTROL Applications]**&#x200B;にドロップします。
 
       ![macOSでのドラッグ&amp;ドロップによるインストール](/help/assets/dragondrop-install1.png)
 
-   * 「 **[!UICONTROL Applications]** 」フォルダーで、「AdobeDynamic Mediaクラシック」アイコンをタップします。
-   * ダイアログボックスで「 **[!UICONTROL 開く]** 」をタップし、AdobeDynamic Mediaクラシックデスクトップアプリケーションを開きます。
+   * Applications **[!UICONTROL フォルダーで、Adobeダイナミックメディアクラシックアイコンをタップします]** 。
+   * ダイアログボックスで「 **[!UICONTROL 開く]** 」をタップし、AdobeのDynamic Media Classicデスクトップアプリケーションを開きます。
 
       ![ダウンロードしたアプリを開く](/help/assets/open-dmclassicapp1.png)
 
    * **Windowsの場合** — インストーラーバイナリを実行し、画面に表示される指示に従ってデスクトップアプリケーションをインストールします。
 
-1. アプリを開くと、新しいAdobeDynamic Mediaクラシックログインページが表示されます。
+1. アプリケーションを開くと、新しいAdobeのDynamic Media Classicログインページが表示されます。
 
-   ![Dynamic Mediaクラシックサインイン](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classicのサインイン](/help/assets/dmclassic-login1.png)
 
-1. ブラウザーの資格情報と同じ資格情報を使用してAdobeDynamic Mediaクラシックにサインインします。
+1. ブラウザーの資格情報と同じ資格情報を使用して、Adobeダイナミックメディアクラシックにサインインします。
 
    使用する **[!UICONTROL Server]** 、実稼働環境に対する次のマッピングを参照してください。
 
@@ -72,27 +77,111 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 
 1. ログインUIを投稿すると、使い慣れたブラウザーUIが表示されます。 デスクトップアプリUIでは、通常どおり1日アクティビティを提供できます。
 
-## Dynamic Mediaクラシックデスクトップアプリの使用に関するビデオウォークスルー
+## macOSでのAdobeDynamic Media Classicデスクトップアプリケーションのダウンロードと *サイレント* インストール {#install-silent-mac-dmc-app}
 
-Dynamic Mediaクラシックデスクトップアプリの使用に関する [ビデオのウォークスルー(長さ](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) : 2分36秒)。
+関連項目:
 
-## ClassicDynamic Mediaの既知の制限
+* [MacまたはWindowsにAdobeDynamic Media Classicデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
+* [WindowsにAdobeDynamic Media Classicデスクトップアプリケーションをダウンロードし *てサイレント* ・インストールする](#install-silent-windows-dmc-app)
 
-**_Windowsのみに適用 — デスクトップアプリUIからアップロードできるファイルの数に制限はありますか？_**<br>&#x200B;はい。1度にアップロードできるファイル数は、デスクトップアプリUIから最大150個です。
+macOSにAdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードして *サイレント* ・インストールするには：
 
-**_WindowsとmacOSに適用されます。会社を切り替える方法を教えてください。_**<br>&#x200B;会社を切り替えるには、次の手順を実行します。
-* Dynamic Mediaクラシックアプリで、会社のドロップダウンリストから新しい会社を選択します。
+1. システム上で古いバージョンのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
+
+1. macOS用Adobeダイナミックメディアクラシックデスクトップアプリケーション用の最新インストーラーをダウンロードします。
+
+   * [macOS(.DMG) — ダウンロード。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+
+1. 次のコマンドを使用して、ダウンロードしたディスク・イメージ(.DMG)をマウントポイントの場所にマウントします。
+
+   `hdiutil attach adobe-dynamic-media-classic-20.20.1.dmg -mountpoint <mount_point_path>`
+
+1. 次のコマンドを使用して、.APPファイルを **[!UICONTROL Applications]** （アプリケーション）にコピーします。
+
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
+Unmount DMG - hdiutil detach <mount_point_path>`
+
+1. アプリケーションを開くと、新しいAdobeのDynamic Media Classicログインページが表示されます。
+
+   ![Dynamic Media Classicのサインイン](/help/assets/dmclassic-login1.png)
+
+1. ブラウザーの資格情報と同じ資格情報を使用して、Adobeダイナミックメディアクラシックにサインインします。
+
+   使用する **[!UICONTROL Server]** 、実稼働環境に対する次のマッピングを参照してください。
+
+   | ブラウザーURL | デスクトップアプリサーバー名 |
+   |---|---|
+   | https://s7sps1.scene7.com/ | NA（北米）プロダクション |
+   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）プロダクション |
+   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
+
+## WindowsにAdobeDynamic Media Classicデスクトップアプリケーションをダウンロードし *てサイレント* ・インストールする {#install-silent-windows-dmc-app}
+
+使用するコマンドは、基本的なMSIサイレントインストール用です。 ただし、Dynamic Media Classicデスクトップアプリケーションのインストーラーは、InstallShieldを使用して作成されたInstallScript MSIインストーラーです。 インストーラーを記録モードで実行すると、ユーザーの操作が応答ファイルに記録されます。 次に、この応答ファイルは、「サイレントモードでの [実行インストール」で説明されているように、サイレントインストールに使用されます。](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+
+関連項目:
+
+* [MacまたはWindowsにAdobeDynamic Media Classicデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
+* [WindowsにAdobeDynamic Media Classicデスクトップアプリケーションをダウンロードし *てサイレント* ・インストールする](#install-silent-windows-dmc-app)
+
+WindowsにAdobeDynamic Media Classicデスクトップアプリケーションをダウンロードして *サイレント* ・インストールするには：
+
+1. システム上で古いバージョンのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
+
+1. Adobeダイナミックメディアクラシックデスクトップアプリケーション用の最新インストーラーをダウンロードします。
+
+   * [Windows (.EXE) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+
+1. 次のコマンドを使用して、インストーラーを記録モードで実行します。
+
+   `adobe-dynamic-media-classic-20.20.1.exe /r /f1"C:\Setup.iss"`
+
+1. GUIインストーラーウィンドウで、インストールの手順に従って操作や入力（インストール場所など）を `Setup.iss` ファイルに記録します。
+
+1. 作成した `Setup.iss` ファイルを他のコンピューター `adobe-dynamic-media-classic-20.20.1.exe` にコピーします。
+
+1. サイレントインストールを行うには、次のコマンドを実行します。
+
+   `adobe-dynamic-media-classic-20.20.1.exe /s /f1"C:\Setup.iss"`
+
+   コマンドラインパラメータの詳細については、 [Setup.exeおよびUpdate.exeのコマンドラインパラメータを参照してください。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+
+1. アプリケーションを開くと、新しいAdobeのDynamic Media Classicログインページが表示されます。
+
+   ![Dynamic Media Classicのサインイン](/help/assets/dmclassic-login1.png)
+
+1. ブラウザーの資格情報と同じ資格情報を使用して、Adobeダイナミックメディアクラシックにサインインします。
+
+   使用する **[!UICONTROL Server]** 、実稼働環境に対する次のマッピングを参照してください。
+
+   | ブラウザーURL | デスクトップアプリサーバー名 |
+   |---|---|
+   | https://s7sps1.scene7.com/ | NA（北米）プロダクション |
+   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）プロダクション |
+   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
+
+
+## Dynamic Media Classic Desktop Appの使用に関するビデオのウォークスルー
+
+Dynamic Media Classic Desktop Appの使用に関する [ビデオのウォークスルー(長さ](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) :2分36秒)。
+
+## Dynamic Media Classicの既知の制限
+
+**_Windowsのみに適用 — デスクトップアプリUIからアップロードできるファイルの数に制限はありますか？_**<br>はい。1度にアップロードできるファイル数は、デスクトップアプリUIから最大150個です。
+
+**_WindowsとmacOSに適用されます。会社を切り替える方法を教えてください。_**<br>会社を切り替えるには、次の手順を実行します。
+* Dynamic Media Classicアプリで、「会社」ドロップダウンリストから新しい会社を選択します。
 * ポップアップが表示されたら、「 **[!UICONTROL OK]** 」をタップしてサインアウトし、アプリを閉じます。
 
    ![新しい会社を使用するには、アプリを再起動します](/help/assets/dmclassic-new-company1.png)
-* Dynamic MediaClassicを再起動し、通常どおりにサインインして新しい会社を使用します。
+* Dynamic Media Classicを再起動し、通常どおりにサインインして新しい会社を使用します。
 
 ## ヒントとテクニック
 
-**_Dynamic Mediaクラシックのランディングページにカートパネルが表示されません。_**<br> Dynamic Mediaクラシックで、 **[!UICONTROL 設定/個人設定をタップします]**。 「ブラウザー」セクションで、「Media Portal機能を **[!UICONTROL 表示」が選択されている(オンになっている]** )ことを確認します。 **[!UICONTROL 保存/閉じるをタップします]**。
+**_Dynamic Media Classicのランディングページにカートパネルが表示されません。_**<br>Dynamic Media Classicで、**[!UICONTROL 設定/個人設定をタップします&#x200B;]**。 「ブラウザー」セクションで、「Media Portal機能を**[!UICONTROL 表示」が選択されている(オンになっている&#x200B;]**)ことを確認します。**[!UICONTROL 保存/閉じるをタップします&#x200B;]**。
 
-**_アセットの公開状態（緑のインジケーター）が正しく反映されません。_**<br>&#x200B;アセットの正しい公開状態を確認するには、ブラウザUIでUIに再ログインする必要がありました。 デスクトップアプリでは、ツールバーの「なしを **[!UICONTROL 選択]** 」ボタンの右側に **[!UICONTROL 「更新]** 」アイコンが追加されました。 「 **[!UICONTROL 更新]** 」アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザーUIと同様に、再ログインする必要はありません。
+**_アセットの公開状態（緑のインジケーター）が正しく反映されません。_**<br>アセットの正しい公開状態を確認するには、ブラウザUIでUIに再ログインする必要がありました。 デスクトップアプリでは、ツールバーの「なしを**[!UICONTROL 選択&#x200B;]**」ボタンの右側に**[!UICONTROL 「更新&#x200B;]**」アイコンが追加されました。 「**[!UICONTROL 更新&#x200B;]**」アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザーUIと同様に、再ログインする必要はありません。
 
 ![更新アイコン](/help/assets/refresh-icon1.png)*更新アイコン*
 
-**_デスクトップアプリでバッチセットプリセットが機能していない。_**<br>&#x200B;ア **[!UICONTROL ップロード/ジョブオプション/バッチセットプリセットをタップします]**。 関連する **[!UICONTROL バッチセットプリセットが有効になっていることを確認します]** 。 「アップロードを **[!UICONTROL 保存して送信]**」をクリックします。
+**_デスクトップアプリでバッチセットプリセットが機能していない。_**<br>ア**[!UICONTROL ップロード/ジョブオプション/バッチセットプリセットをタップします&#x200B;]**。 関連する**[!UICONTROL バッチセットプリセットが有効になっていることを確認します&#x200B;]**。 「アップロードを**[!UICONTROL 保存して送信&#x200B;]**」をクリックします。
