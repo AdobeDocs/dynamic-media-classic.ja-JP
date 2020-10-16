@@ -161,7 +161,7 @@ WindowsにAdobeDynamic Media Classicデスクトップアプリケーション�
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
 
-## Dynamic Media Classic Desktop Appの使用に関するビデオのウォークスルー
+## Dynamic Media Classic Desktop Appの使用に関するビデオのウォークスルー{#dynamic-media-classic-desktop-app-1}
 
 Dynamic Media Classic Desktop Appの使用に関する [ビデオのウォークスルー(長さ](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) :2分36秒)。
 
