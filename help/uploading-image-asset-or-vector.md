@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 86%
+source-wordcount: '1536'
+ht-degree: 84%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 86%
 
 ## 共有秘密キーの要求 {#requesting-a-shared-secret-key}
 
-*共有秘密キー*&#x200B;を要求するには、Scene 7 テクニカルサポートまで s7support@adobe.com 宛に電子メールをお送りください。
+Admin Consoleを *使用して* 共有秘密キー [を要求し、サポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースでは、共有秘密キーをリクエストします。
 
-電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Dynamic Mediaクラシックからキーを受け取ったら、今後使用するためにローカルに保存します。
+電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Dynamic Media Classicからキーを受け取ったら、今後使用できるようにローカルに保存します。
 
 ## アップロードトークンの取得 {#retrieving-the-upload-token}
 
