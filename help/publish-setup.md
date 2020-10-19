@@ -2,24 +2,24 @@
 title: 公開設定
 seo-title: 公開設定
 description: 'null'
-seo-description: 公開設定画面の設定は、初期設定でアセットがWebサイトやDynamic Mediaに対してClassicサーバーからどのように配信されるかを決定します。
+seo-description: 公開設定画面の設定は、初期設定でアセットがDynamic Media ClassicサーバーからWebサイトやアプリケーションにどのように配信されるかを決定します。
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '2409'
-ht-degree: 65%
+source-wordcount: '2421'
+ht-degree: 64%
 
 ---
 
 
 # 公開設定 {#publish-setup}
 
-公開設定画面の設定は、初期設定でアセットがWebサイトやDynamic Mediaに対してClassicサーバーからどのように配信されるかを決定します。 設定を指定しなかった場合、Dynamic MediaClassicサーバは、公開設定画面の初期設定に従ってアセットを配信します。 例えば、解像度属性が含まれていない画像を配信するように要求した場合、画像は Image Server 画面に指定されている初期設定のオブジェクト解像度設定で配信されます。
+公開設定画面の設定は、初期設定でアセットがDynamic Media ClassicサーバーからWebサイトやアプリケーションにどのように配信されるかを決定します。 設定を指定しなかった場合、Dynamic Media Classicサーバは、公開設定画面の初期設定に従ってアセットを配信します。 例えば、解像度属性が含まれていない画像を配信するように要求した場合、画像は Image Server 画面に指定されている初期設定のオブジェクト解像度設定で配信されます。
 
 管理者は、Image Server 画面、画像レンダラ画面、ビネット画面の初期設定を変更して、サーバからアセットを配信するための初期設定を指定することができます。
 
@@ -27,15 +27,15 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->公開設定画面は、詳しい知識がある Web サイト開発者またはプログラマ向けに用意されています。Dynamic Mediaクラシックでは、これらの画面の設定を変更するユーザは、Dynamic Mediaクラシック、HTTPプロトコルの標準と表記、基本的な画像処理技術に精通していると想定しています。
+>公開設定画面は、詳しい知識がある Web サイト開発者またはプログラマ向けに用意されています。Dynamic Media Classicでは、これらの画面の設定を変更するユーザーは、Dynamic Media Classic、HTTPプロトコルの標準および表記、基本的な画像処理技術に精通していると想定しています。
 
 ## Image Server {#image-server}
 
 Image Server 画面では、Image Server から画像を配信するための初期設定を指定します。次の 5 つのカテゴリの設定を指定できます（設定について詳しくは、Image Server 画面を参照してください）。
 
-これらの設定は、Dynamic MediaのClassicサポート担当者の支援を受けた場合にのみ変更してください。
+これらの設定は、Dynamic Media Classicサポート担当者の支援を受けた場合にのみ変更してください。
 
-**カタログ管理** これらの設定は、Dynamic MediaClassicとカタログとの関係を決定します。 ほとんどのWebサーバーとは異なり、Dynamic MediaImage ServerのURL呼び出しは、固有の画像ファイルではなく、マニフェストまたはカタログファイルに対して行われます。 カタログファイル（eCatalog と混同しないでください）には、Image Server に公開されたすべてのコンテンツのリストと、各画像へのパスが含まれています。Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
+**カタログ管理** これらの設定は、Dynamic Media Classicとカタログとの関係を決定します。 ほとんどのWebサーバーとは異なり、Dynamic Media Image ServerのURL呼び出しは、固有の画像ファイルではなく、マニフェストまたはカタログファイルに送信されます。 カタログファイル（eCatalog と混同しないでください）には、Image Server に公開されたすべてのコンテンツのリストと、各画像へのパスが含まれています。Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
 
 **要求属性** ：これらの設定は、サーバーから配信できる画像に制限を設けます。 例えば、 *返信画像の* 最大サイズ制限は **[!UICONTROL 、]** Width **[!UICONTROL 5000、]****** Height 5000です。
 
@@ -54,7 +54,7 @@ Image Server 画面では、Image Server から画像を配信するための初
 例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。この機能を実現するには、ロケールマップ文字列を指定します。次に、必要な言語に翻訳したテキスト文字列を追加して、ビューアのプリセットのツールチップテキストを編集します。
 
 >[!NOTE]
-> ローカライゼーションサポートオプションの設定については、AdobeDynamic Mediaクラシックテクニカルサポートにお問い合わせいただくか、s7support@adobe.comまで電子メールをお送りください。
+> 「ローカライゼーションサポート」オプションを設定するには、Admin Consoleを [使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、セットアップヘルプを要求します。
 
 **「ローカリゼーションサポート」**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
 
@@ -62,9 +62,9 @@ Image Server 画面では、Image Server から画像を配信するための初
 
 >[!NOTE]
 >
->ロケールマップフィールドなど、Dynamic Mediaクラシックのローカライゼーションサポートオプションを設定する場合は、AdobeDynamic Mediaクラシックテクニカルサポートにお問い合わせください。 または、s7support@adobe.com まで電子メールをお送りください。
+>ロケールマップフィールドなど、ダイナミックメディアクラシックでローカライゼーションサポートオプションを設定する場合は、Admin Consoleを [使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、セットアップヘルプを要求します。
 
-Dynamic MediaClassicは、eコマースWebサイトの製品の画像を管理するのが一般的です。 国際的なビジネスでは、同じ製品のアセットの表示が国によって異なるという課題に直面します。通常、この相違はメディア全体のごくわずかな部分に関するものです。このような相違に対処するため、国ごとにすべてのアセットをコピーして異なる部分だけを上書きするのは大変な作業で、マスターアセットは 1 つという概念に矛盾します。このようなアセットの相違によって、オーディオトラックが異なる国別のビデオから、製品に使用される電源コードの違いという微妙ながらも重要な違いまで対応できます。Dynamic Mediaクラシックでは、基本的なルックアップメカニズムを使用します。 Image Server が検索するアセットのサフィックスの順序を定義します（必要なロケールから始めます）。
+Dynamic Media Classicは、eコマースWebサイトの製品の画像を管理するのが一般的な方法です。 国際的なビジネスでは、同じ製品のアセットの表示が国によって異なるという課題に直面します。通常、この相違はメディア全体のごくわずかな部分に関するものです。このような相違に対処するため、国ごとにすべてのアセットをコピーして異なる部分だけを上書きするのは大変な作業で、マスターアセットは 1 つという概念に矛盾します。このようなアセットの相違によって、オーディオトラックが異なる国別のビデオから、製品に使用される電源コードの違いという微妙ながらも重要な違いまで対応できます。Dynamic Media Classicでは、基本的な検索メカニズムを使用します。 Image Server が検索するアセットのサフィックスの順序を定義します（必要なロケールから始めます）。
 
 **アセットのローカライズ**
 
@@ -100,7 +100,7 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 
 **アセットのローカリゼーションの実装**
 
-Dynamic Mediaクラシックと画像サービングには、画像と静的コンテンツのローカライゼーションを可能にするインターフェイスがあります。
+ダイナミックMedia Classicと画像サービングには、画像や静的コンテンツのローカライゼーションを可能にするインターフェイスがあります。
 
 ローカリゼーションを行わない場合、Image Server の URL は次のようになります。
 
@@ -120,7 +120,7 @@ On receipt of the http call by the Image Server, the `locale=` parameter is pars
 
 >[!NOTE]
 >
->グローバルロケール設定は現在、Dynamic Mediaクラシックインターフェイス内ではなく、API経由で設定した場合にのみ可能です。
+>グローバルロケール設定は、現在、ダイナミックメディアクラシックインターフェイス内ではなく、API経由で設定した場合にのみ可能です。
 
 **サフィックスの例**
 
@@ -140,7 +140,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 **defaultImage について**
 
-Image Server は、要求されたロケールの選択肢を 1 つずつ検索します。一致するものがなかった場合、ロケールの選択肢が defaultImage に適用され、一致するバージョンが返されます。したがって、各ロケールにローカライゼーションのない画像のオプションが含まれているか、ローカライズされたdefaultImageのDynamic MediaがFolio Classicで使用可能になっている必要があります。
+Image Server は、要求されたロケールの選択肢を 1 つずつ検索します。一致するものがなかった場合、ロケールの選択肢が defaultImage に適用され、一致するバージョンが返されます。したがって、各ロケールにローカライゼーションのない画像のオプションが含まれるか、ローカライズされたdefaultImageのバージョンがDynamic Media Classicで使用可能になります。
 
 **localeMap の検索のシナリオ**
 
@@ -223,7 +223,7 @@ Using the first example as a basis, images for all languages may have the suffix
 
 画像レンダラ画面では、画像レンダリングサーバから画像セットを配信するための初期設定を指定します。次の 5 つのカテゴリの設定を指定できます（設定について詳しくは、Image Server 画面を参照してください）。
 
-**カタログ管理** これらの設定は、ClassicDynamic Mediaとカタログファイルとの関係を決定します。 Dynamic MediaClassic Render ServerのURL呼び出しがカタログに対して行われ、その後カタログがサーバから画像を配信するための呼び出しを行います。 これらの設定は、Dynamic MediaのClassicサポート担当者の支援を受けた場合にのみ変更してください。
+**カタログ管理** これらの設定では、Dynamic Media Classicとカタログファイルとの関係が決まります。 Dynamic Media Classic Render ServerのURL呼び出しがカタログに対して行われ、その後カタログがサーバから画像を配信するための呼び出しを行います。 これらの設定は、Dynamic Media Classicサポート担当者の支援を受けた場合にのみ変更してください。
 
 **Session Attributes** ：これらの設定は、エラーパラメーター、相対画像URLのURLおよびオブジェクトの重なりを許可するかどうかを指定します。
 
