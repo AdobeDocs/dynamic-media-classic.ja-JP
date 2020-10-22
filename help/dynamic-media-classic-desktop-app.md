@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bc79edcdb378fab906df851971acd33f8af18105
+source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 0%
@@ -58,13 +58,13 @@ AdobeのDynamic Media Classicデスクトップアプリケーションは、次
 
    最新バージョンは20.20.2で、以下で入手できます。
 
-   * [macOS(.DMG) — ダウンロード。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows (.EXE) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
    GA(General Availability)バージョンは20.20.1で、次の場所で入手できます。
 
-   * [macOS(.DMG) — ダウンロード。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 
 
@@ -111,7 +111,7 @@ macOSで最新バージョンのAdobeダイナミックメディアクラシッ�
 
 1. macOS用Adobeダイナミックメディアクラシックデスクトップアプリケーション用の最新インストーラーをダウンロードします。
 
-   * [macOS(.DMG) — ダウンロード。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. 次のコマンドを使用して、ダウンロードしたディスク・イメージ(.DMG)をマウントポイントの場所にマウントします。
 
@@ -151,7 +151,7 @@ Windowsに最新バージョンのDynamic Media Classicデスクトップアプ�
 
 1. Adobeダイナミックメディアクラシックデスクトップアプリケーション用の最新インストーラーをダウンロードします。
 
-   * [Windows (.EXE) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. 次のコマンドを使用して、インストーラーを記録モードで実行します。
 
