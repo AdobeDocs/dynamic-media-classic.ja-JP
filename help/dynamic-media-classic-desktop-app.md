@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
+source-git-commit: bc79edcdb378fab906df851971acd33f8af18105
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 0%
@@ -63,8 +63,8 @@ AdobeのDynamic Media Classicデスクトップアプリケーションは、次
 
    GA(General Availability)バージョンは20.20.1で、次の場所で入手できます。
 
-   * [macOS(.DMG) — ダウンロード。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+   * [macOS(.DMG) — ダウンロード。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.EXE) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 
 
@@ -182,7 +182,7 @@ Windowsに最新バージョンのDynamic Media Classicデスクトップアプ�
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
 
-## Dynamic Media Classic Desktop Appの使用に関するビデオのウォークスルー {#dynamic-media-classic-desktop-app-1}
+## Dynamic Media Classic Desktop Appの使用に関するビデオのウォークスルー
 
 Dynamic Media Classic Desktop Appの使用に関する [ビデオのウォークスルー(長さ](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) :2分36秒)。
 
