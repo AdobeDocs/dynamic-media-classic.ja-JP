@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
+source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ AdobeのDynamic Media Classicデスクトップアプリケーションは、次
 
 関連項目:
 
-* [MacまたはWindowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
+* [Macに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-mac-dmc-app)
 * [Windowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
 
 1. システム上で古いバージョンのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
@@ -143,7 +143,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 関連項目:
 
 * [MacまたはWindowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
-* [Windowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
+* [macOS上の最新Adobeのダイナミックメディアクラシックデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-mac-dmc-app)
 
 Windowsに最新バージョンのDynamic Media Classicデスクトップアプリケーションをダウンロードして *サイレント* Adobeするには：
 
