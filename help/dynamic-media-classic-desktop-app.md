@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8d226f9b68e8f4d756825b26599bae37e06cf088
+source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ AdobeのDynamic Media Classicデスクトップアプリケーションは、次
 
 関連項目:
 
-* [macOSで最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードして *サイレント* にインストールする](#install-silent-mac-dmc-app)
-* [Windowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードして *サイレント* ・インストールする](#install-silent-windows-dmc-app)
+* [MacまたはWindowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
+* [Windowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
 
 1. システム上で古いバージョンのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
 
@@ -65,6 +65,7 @@ AdobeのDynamic Media Classicデスクトップアプリケーションは、次
 
    * [macOS(.DMG) — ダウンロード。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
    * [Windows (.EXE) — ダウンロード](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+
 
 
 
@@ -102,7 +103,7 @@ AdobeのDynamic Media Classicデスクトップアプリケーションは、次
 関連項目:
 
 * [MacまたはWindowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
-* [Windowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードして *サイレント* ・インストールする](#install-silent-windows-dmc-app)
+* [Windowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
 
 macOSで最新バージョンのAdobeダイナミックメディアクラシックデスクトップアプリケーションをダウンロードして *サイレント* にインストールするには：
 
@@ -142,7 +143,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 関連項目:
 
 * [MacまたはWindowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
-* [Windowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードして *サイレント* ・インストールする](#install-silent-windows-dmc-app)
+* [Windowsに最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
 
 Windowsに最新バージョンのDynamic Media Classicデスクトップアプリケーションをダウンロードして *サイレント* Adobeするには：
 
