@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
+source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -182,9 +182,26 @@ Windowsに最新バージョンのDynamic Media Classicデスクトップアプ�
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
 
-## Dynamic Media Classic Desktop Appの使用に関するビデオのウォークスルー {#dynamic-media-classic-desktop-app-1}
+## Dynamic Media Classic Desktop Appの使用に関するビデオのウォークスルー {#dmc-app-video-walk-through}
 
 Dynamic Media Classic Desktop Appの使用に関する [ビデオのウォークスルー(長さ](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) :2分36秒)。
+
+## デスクトップアプリを使用して、コンピューター上の画像キャッシュとアセットキャッシュをクリアする
+
+1. ダイナミックメディアクラシックデスクトップアプリケーションの右上隅近くで、 **[!UICONTROL 設定]** / **[!UICONTROL 個人設定をタップします]**。
+1. 個 **[!UICONTROL 人設定]** ページの「 **[!UICONTROL デスクトップ]** 」見出しの下で、次のいずれかの操作を行います。
+   * 「画像キャッシュを **[!UICONTROL 消去]** 」をタップして、ダイナミックメディアにキャッシュされたすべてのAdobeファイルをコンピューターから削除します。 「 **[!UICONTROL OK]**」をタップします。
+   * 「アセットキャッシュを **[!UICONTROL 消去]** 」をタップして、ダイナミックメディアにキャッシュされたすべてのAdobeアセットファイルをコンピュータから削除します。 「 **[!UICONTROL OK]**」をタップします。
+1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+
+### 画像キャッシュとアセットキャッシュの手動によるクリア
+
+デスクトップアプリケーションを使用して画像とアセットのキャッシュを消去する以外に、ファイルシステムから直接キャッシュを消去することで、手動でこのタスクを実行することもできます。
+
+1. オペレーティングシステムに応じて、次の場所に移動します。
+
+   * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Dynamic Media Classic 20.20.1の既知の制限（20.20.2で修正）
 
