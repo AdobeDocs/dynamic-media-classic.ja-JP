@@ -2,7 +2,7 @@
 title: PDF の操作
 seo-title: PDF の操作
 description: 'null'
-seo-description: Dynamic MediaクラシックでPDFを操作する方法を説明します。
+seo-description: Dynamic Media ClassicでPDFを使用する方法を説明します。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 56%
@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # PDF の操作{#working-with-pdfs}
 
-PDF(Portableドキュメント形式)ファイルは、eCatalogの作成にDynamic MediaClassicで最もよく使用されます。 PDFファイルをアップロードすると、Dynamic Mediaクラシックによって、初期設定では、ページがリッチメディアの作成に使用できるように、ページがラスタライズ、つまりリッピングされます。
+PDF(Portable Media Format)ファイルは、ダイナミックメディアクラシックでeCatalogを作成する際に最もよく使用される形式です。 PDFファイルをアップロードすると、初期設定では、そのページがリッチメディアの作成に使用できるように、ダイナミックMedia Classicによってページがラスタライズ、つまりリッピングされます。
 
 ## PDF アップロードオプション {#pdf-upload-options}
 
@@ -64,7 +64,7 @@ PDF ファイルのアップロードに関するオプションは、アップ�
 
 **[元のカラースペースを保持** ]元のカラースペースを保持します。
 
-**「カスタムの開始点/終了点** 」でメニューを開き、「変換前」と「変換後」のカラースペースを選択できます。 標準のPhotoshopカラースペースまたはPhotoshop ClassicDynamic Mediaにアップロードしたカラースペースを選択できます。
+**「カスタムの開始点/終了点** 」でメニューを開き、「変換前」と「変換後」のカラースペースを選択できます。 標準のPhotoshopカラースペースまたはダイナミックメディアクラシックにアップロードしたカラースペースを選択できます。
 
 詳しくは、[ICC プロファイル](icc-profiles.md#icc_profiles)を参照してください。
 
@@ -83,7 +83,7 @@ PDF ファイルのアップロードに関するオプションは、アップ�
 
    **色に基づくトリミング** 0に設定すると、PDFの隅で選択した色と正確に一致するピクセルのみが切り抜かれます。 設定値が 1 に近づくにつれ、許容される色の違いが大きくなります。
 
-   **透明部分に基づいたトリミング0に設定すると** 、完全に透明なピクセルのみが切り抜かれます。 設定値が1に近づくにつれ、透明度の低い透明度も許容されます。
+   **透明部分に基づいたトリミング0に設定すると** 、完全に透明なピクセルのみが切り抜かれます。設定値が1に近づくにつれ、透明度の低い透明度も許容されます。
 
 ## PDF ページの端の切り抜き {#cropping-from-the-sides-of-pdf-pages}
 
