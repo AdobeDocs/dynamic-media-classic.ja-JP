@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 88%
@@ -58,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **ビデオにチャプターマーカーを追加するには**
 
-1. Dynamic Mediaクラシック以外で単純なテキストエディターを使用して、ビデオチャプターファイルを作成します。
+1. Dynamic Media Classicの外部でシンプルなテキストエディターを使用して、ビデオチャプターファイルを作成します。
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    通常、チャプター VTT ファイルにはビデオファイルと同じ名前を指定し、`chapters` を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。
 
-1. Dynamic Mediaクラシックで、WebVTTチャプターファイルをアップロードします。
+1. Dynamic Media Classicで、WebVTTチャプターファイルをアップロードします。
 
    詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
 1. 左側のアセットライブラリパネルで、アップロードしたチャプターファイルに関連付けるビデオファイルを含んでいるアセットフォルダーに移動します。
-1. アセットの参照パネルで 1 つのビデオアセットを選択して、アセットのサムネール画像の下にある&#x200B;**プレビュー**／**ビューアリスト**&#x200B;をクリックします。
+1. アセットの参照パネルで 1 つのビデオアセットを選択して、アセットのサムネール画像の下にある&#x200B;**[!UICONTROL プレビュー]**／**[!UICONTROL ビューアリスト]**&#x200B;をクリックします。
 1. ビューアリストの表で、**Univeral_HTML5_Video** という名前の HTML5 ビューアを探し、次のいずれかの操作を行います。
 
-   * ポップアップビデオビューアの操作については、名前の最も右側にある&#x200B;**「URL をコピー」**&#x200B;をクリックします。
+   * ポップアップビデオビューアの操作については、名前の最も右側にある&#x200B;**[!UICONTROL 「URL をコピー」]**&#x200B;をクリックします。
 
       コピーしたビデオの URL を次の構文と共に追加し、この URL とコピーしたキャプションファイルの URL を関連付けます。
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 埋め込まれたビデオビューアの操作については、名前の最も右側にある&#x200B;**「埋め込みコード」**&#x200B;をクリックします。
+   * 埋め込まれたビデオビューアの操作については、名前の最も右側にある&#x200B;**[!UICONTROL 「埋め込みコード」]**&#x200B;をクリックします。
 
-      埋め込みコードダイアログボックスで、**「クリップボードにコピー」**&#x200B;をクリックします。
+      埋め込みコードダイアログボックスで、**[!UICONTROL 「クリップボードにコピー」]**&#x200B;をクリックします。
 
       For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
 
