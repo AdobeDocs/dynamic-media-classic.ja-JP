@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 86%
@@ -22,7 +22,7 @@ ht-degree: 86%
 
 スウォッチセットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。スウォッチセットには「ズームビューア : カスタム」ビューアプリセットを使用します。
 
-Dynamic Mediaクラシックには、初期設定のビューアプリセットが付属しています。 管理者は、ビューアプリセットを作成または変更できます。
+ダイナミックMedia Classicには、初期設定のビューアプリセットが用意されています。 管理者は、ビューアプリセットを作成または変更できます。
 
 ## スウォッチセットのズームビューアプリセットの設定 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
