@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 69%
@@ -20,9 +20,9 @@ ht-degree: 69%
 
 # Web ページへのテンプレートのリンク{#linking-a-template-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列を使用してDynamic MediaのImage Serverコンテンツにアクセスします。 テンプレートを公開すると、Dynamic MediaClassicは、Dynamic MediaImage Server上のテンプレートを参照するURL文字列をアクティブにします。 この URL を Web ブラウザにペーストしてテストすることができます。
+Webサイトやアプリケーションは、URL文字列を使用してDynamic Media Image Serverのコンテンツにアクセスします。 テンプレートを公開すると、Dynamic Media Classicは、Dynamic Media Image Server上のテンプレートを参照するURL文字列をアクティブにします。 この URL を Web ブラウザにペーストしてテストすることができます。
 
-WebページやアプリケーションにURL文字列を設定するには、Dynamic MediaクラシックからURL文字列をコピーします。 画像プリセットとともに生成されたテンプレート URL 文字列を取得するには、プレビュー画面または参照パネル（詳細ビュー）に進みます。そして、画像プリセットを選択して、「URL をコピー」ボタンを選択します。
+WebページやアプリケーションにURL文字列を設定するには、Dynamic Media ClassicからURL文字列をコピーします。 画像プリセットとともに生成されたテンプレート URL 文字列を取得するには、プレビュー画面または参照パネル（詳細ビュー）に進みます。そして、画像プリセットを選択して、「URL をコピー」ボタンを選択します。
 
 >[!NOTE]
 >
