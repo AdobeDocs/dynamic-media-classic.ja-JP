@@ -1,8 +1,8 @@
 ---
-title: Adobe Standard/PremiumとのAdobeDynamic MediaClassicの統合
-seo-title: Adobe Standard/PremiumとのAdobeDynamic MediaClassicの統合
+title: AdobeのDynamic Media ClassicとAdobe Target標準/プレミアムの統合
+seo-title: AdobeのDynamic Media ClassicとAdobe Target標準/プレミアムの統合
 description: 'null'
-seo-description: AdobeDynamic MediaClassicとAdobe Standard/Premiumを統合する方法を説明します。
+seo-description: AdobeのダイナミックメディアクラシックをAdobe Target標準/プレミアムと統合する方法を説明します。
 uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 10%
@@ -18,9 +18,9 @@ ht-degree: 10%
 ---
 
 
-# Adobe Standard/PremiumとのAdobeDynamic MediaClassicの統合 {#integrating-dmc-with-target}
+# AdobeのDynamic Media ClassicとAdobe Target標準/プレミアムの統合 {#integrating-dmc-with-target}
 
-Before you can integrate [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium], you must enter your Target URL in the [!DNL Dynamic Media Classic] Application General Settings screen. TargetURLを取得して、アプリケーションの全般設定画面に入力するには、次の手順に従います。
+Before you can integrate [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium], you must enter your Target URL in the [!DNL Dynamic Media Classic] Application General Settings screen. ターゲットURLを取得して、アプリケーションの全般設定画面に入力するには、次の手順に従います。
 
 1. サインイン [!DNL Adobe Experience Cloud]し、アカウントにサインインし [!DNL Target Standard/Premium] ます。
 1. ログインした後に、ブラウザのアドレスバーに表示されている URL の先頭から *.com* までをコピーします。
