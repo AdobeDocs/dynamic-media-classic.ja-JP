@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 86%
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 # Web ページへのズームビューアのリンク{#linking-zoom-viewers-to-your-web-pages}
 
-Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、マスター画像や関連付けられているズームターゲットなどのImage ServerコンテンツやズームビューアプリセットにDynamic Mediaからアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、Dynamic MediaクラシックからURL文字列または埋め込みコードをコピーします。
+Webサイトやアプリケーションは、Dynamic Media Image Serverのコンテンツ(マスター画像や関連付けられているズームターゲットなど)とズームビューアプリセットに、URL文字列や埋め込みコード経由でアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、Dynamic Media ClassicからURL文字列または埋め込みコードをコピーします。
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Webサイトやアプリケーションは、URL文字列や埋め込みコー�
 
 通常、Web サイトの閲覧者は、ズームアイコン（一般的には虫めがねのアイコン）を選択して画像をズームします。このアイコンを選択すると、ポップアップウィンドウで画像を表示する動的 Web ページ（ASP または JSP）が起動します。このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
 
-詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「HTML5基本ズームビューアの [埋め込み](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)」を参照してください。
+詳細およびコードサンプルについては、AdobeビューアリファレンスガイドのHTML5基本ズームビューアの [埋め込みを参照してください](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)。
 
 ## ズームビューアの埋め込みコードのコピー {#copying-the-embed-copy-of-a-zoom-viewer}
 
