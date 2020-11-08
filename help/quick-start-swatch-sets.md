@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 63%
@@ -20,17 +20,17 @@ ht-degree: 63%
 
 # クイックスタート：スウォッチセット{#quick-start-swatch-sets}
 
-Dynamic Mediaクラシックスウォッチセットは、統合されたビューア操作をユーザに提供します。 動的なスウォッチセットビューアで、ユーザはサムネールをクリックするだけで、様々な色、素材、テクスチャ、仕上げまたは布地のアイテムを表示できます。
+ダイナミックMedia Classicスウォッチセットは、統合されたビューア操作をユーザに提供します。 動的なスウォッチセットビューアで、ユーザはサムネールをクリックするだけで、様々な色、素材、テクスチャ、仕上げまたは布地のアイテムを表示できます。
 
 **クイック開始**
 
-ここでは、Dynamic Mediaクラシックのスウォッチセットの操作方法をすばやく習得できるように、手順について簡潔に説明します。
+ここでは、Dynamic Media Classicのスウォッチセットの操作方法をすばやく習得できるように、スウォッチセットのクイック開始を説明します。
 
 **1.画像とスウォッチファイルのアップロード**
 
 まず、スウォッチセット用の画像とスウォッチファイルをアップロードします。
 
-グローバルナビゲーションバーの「アップロード」をクリックして、コンピュータからDynamic Mediaクラシックのフォルダにファイルをアップロードします。 詳しくは、[スウォッチセットのアセットのアップロードの準備](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)と[ファイルのアップロード](uploading-files.md#uploading-your-files)を参照してください。
+グローバルナビゲーションバーの「アップロード」をクリックして、コンピューターからDynamic Media Classicのフォルダーにファイルをアップロードします。 詳しくは、[スウォッチセットのアセットのアップロードの準備](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)と[ファイルのアップロード](uploading-files.md#uploading-your-files)を参照してください。
 
 **2．スウォッチセットの作成**
 
@@ -38,7 +38,7 @@ Dynamic Mediaクラシックスウォッチセットは、統合されたビュ�
 
 **3. スウォッチセットビューアのプリセットの設定**
 
-管理者は、画像セットビューアのプリセットを作成または変更できます。Dynamic MediaClassicには、各リッチメディアタイプに対して初期設定のビューアプリセットが用意されています。 ズームビューア : カスタム／画像セット / カラースウォッチのプリセットを使用してスウォッチセットを表示します。
+管理者は、画像セットビューアのプリセットを作成または変更できます。ダイナミックMedia Classicには、各リッチメディアタイプに対して初期設定のビューアプリセットが用意されています。 ズームビューア : カスタム／画像セット / カラースウォッチのプリセットを使用してスウォッチセットを表示します。
 
 詳しくは、[ビューアプリセットの作成と編集](application-setup.md#adding-and-editing-viewer-presets)を参照してください。
 
@@ -50,7 +50,7 @@ Dynamic Mediaクラシックスウォッチセットは、統合されたビュ�
 
 **5. スウォッチセットの公開**
 
-スウォッチセットを公開すると、そのスウォッチセットがSwatch Classicサーバに配置され、URL文字列がアクティブになります。
+スウォッチセットを公開すると、Dynamic Media Classicサーバに配置され、URL文字列がアクティブになります。
 
 Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
@@ -58,6 +58,6 @@ Click the **Mark For Publish** icon to the left of its name in the Browse Panel.
 
 **6. Web ページへのスウォッチセットのリンク**
 
-Dynamic Mediaセットを公開すると、スウォッチセットのURL呼び出しが作成され、アクティブになります。 これらの URL は、プレビュー画面からコピーすることができます。
+ダイナミックMedia Classicは、スウォッチセットを公開すると、スウォッチセットのURL呼び出しを作成し、アクティブにします。 これらの URL は、プレビュー画面からコピーすることができます。
 
 スウォッチセットを選択して、「プレビュー」ボタンを選択します。プレビュー画面が開きます。スウォッチセットビューアプリセットを選択して、「URL をコピー」ボタンを選択します。詳しくは、[Web ページへのスウォッチセットのリンク](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)を参照してください。
