@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 75%
@@ -20,7 +20,7 @@ ht-degree: 75%
 
 # スピンセットビューアのプリセットの設定{#setting-up-spin-set-viewer-presets}
 
-スピンセットビューアプリセットによって、ビューアのスタイル、動作、外観が決まります。Dynamic Mediaクラシックには、初期設定のスピンセットビューアプリセットが付属しています。 また、管理者は、独自のスピンセットビューアプリセットを作成することもできます。異なる色、境界線、フォントおよび画像設定のスピンセットビューアプリセットを設定することもできます。
+スピンセットビューアプリセットによって、ビューアのスタイル、動作、外観が決まります。ダイナミックMedia Classicには、初期設定のスピンセットビューアプリセットが付属しています。 また、管理者は、独自のスピンセットビューアプリセットを作成することもできます。異なる色、境界線、フォントおよび画像設定のスピンセットビューアプリセットを設定することもできます。
 
 スピンセットプリセットを作成するには、次の手順に従います。
 
