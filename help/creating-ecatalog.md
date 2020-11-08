@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 78%
@@ -95,7 +95,7 @@ eCatalog を作成する際には、「**保存後に公開**」オプション�
 
 ## 目次のカスタマイズ {#customizing-the-table-of-contents-toc}
 
-Dynamic Mediaクラシックでは、eCatalog画面の「ページ順序」タブにあるeCatalogで、初期設定のページ番号が提供されます。 ページの名前を独自に定義する場合は、目次を構成するページラベルを変更します。表紙と裏表紙には名前を付けることをお勧めします。例えば、表紙には、「Page 0-1」ではなく「Cover」と表示されます。
+eCatalog画面の「ページ順序」タブにあるeCatalogで、デフォルトのページ番号がダイナミックMedia Classicによって提供されます。 ページの名前を独自に定義する場合は、目次を構成するページラベルを変更します。表紙と裏表紙には名前を付けることをお勧めします。例えば、表紙には、「Page 0-1」ではなく「Cover」と表示されます。
 
 カスタマイズした eCatalog の目次は、手動で作成するか、CSV（Mac OS のみ）または XML ファイルからページ名を読み込んで作成できます。
 
@@ -111,7 +111,7 @@ Dynamic Mediaクラシックでは、eCatalog画面の「ページ順序」タ�
 
 ページ名の読み込みは、eCatalog のページ数が多い場合にお勧めします。ページ名は、タブ区切りファイルまたは XML ファイルから読み込めます。
 
-TOCラベルは、画像のユーザデータフィールドに保存されます。 このデータをのリストとしてフォーマット `name=<value>` し ` pairs separated by two question marks “??” `ます。 例えば、「tocEN」という名前のTOCフィールドに1つのラベルを設定するには、画像のユーザデータを次のように設定します。
+TOCラベルは、画像のユーザデータフィールドに保存されます。このデータをのリストとしてフォーマット `name=<value>` し ` pairs separated by two question marks “??” `ます。 例えば、「tocEN」という名前のTOCフィールドに1つのラベルを設定するには、画像のユーザデータを次のように設定します。
 
 tocEN=&lt;EN_page_label>
 
