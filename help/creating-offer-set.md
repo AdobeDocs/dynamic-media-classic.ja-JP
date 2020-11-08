@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -28,11 +28,11 @@ ht-degree: 57%
 
 For templates, click **Add and Preview**, then set the parameters you choose. 他のオファーセットのタイプにはパラメーターが含まれていませんが、「**プレビュー**」をクリックしてプリセットを変更することでカスタマイズ可能です。
 
-Dynamic Mediaセットを編集および作成するためのオファークラシックオファーツール。
+オファーセットの編集および作成を行うためのダイナミックMedia Classicオファーツール。
 
 >[!NOTE]
 >
->オファーセットを作成する前に、Dynamic Mediaセットに使用するすべてのアセットをClassicに公開する必要があります。 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)を参照してください。
+>オファーセットを作成する前に、ダイナミックメディアクラシックに設定するアセットに使用するすべてのアセットを公開してください。 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)を参照してください。
 
 ## オファーセットのタイプ {#types-of-offer-sets}
 
@@ -40,7 +40,7 @@ Dynamic Mediaセットを編集および作成するためのオファークラ�
 
 * **画像**&#x200B;オファーセット用に画像をアセンブリできます。 各画像は、セット内に異なるオファーを含みます。
 
-* **画像テンプレート** Templates ClassicのDynamic Mediaテンプレートは、ビルド/基本テンプレートコマンドを使用してパラメータ化できます。 テンプレートのパラメータ、コンポーネントを通じて、テキストフレームのテキストや様々な画像をスワップアウトおよびカスタマイズできます。オファーセットの場合は、テンプレートパラメータを使用して、オファーセット内の同じ画像のバリエーションなどを作成できます。画像テンプレートの作成とパラメータ化について詳しくは、テンプレートパラメータの作成を参照してください。
+* **画像テンプレート** Dynamic Media Classicで、ビルド/基本テンプレートコマンドを使用して画像テンプレートをパラメータ化できます。 テンプレートのパラメータ、コンポーネントを通じて、テキストフレームのテキストや様々な画像をスワップアウトおよびカスタマイズできます。オファーセットの場合は、テンプレートパラメータを使用して、オファーセット内の同じ画像のバリエーションなどを作成できます。画像テンプレートの作成とパラメータ化について詳しくは、テンプレートパラメータの作成を参照してください。
 
 * **ビデオ**&#x200B;オファーセット用にビデオをアセンブルできます。 各ビデオはセット内の異なるオファーになります。
 
@@ -60,7 +60,7 @@ Dynamic Mediaセットを編集および作成するためのオファークラ�
 1. テンプレートまたはバナーを選択します。
 1. **ビルド**／**Test&amp;Target オファーセット**&#x200B;をクリックします。
 
-   テストTargetオファーセットページのリストオファーは、オファーセット内にあります。 リストの先頭アイテムがオブジェクトです。
+   テストターゲットオファーセットページのリストオファーは、オファーセット内にあります。 リストの先頭アイテムがオブジェクトです。
 
 1. オブジェクトを選択し、「**追加とプレビュー**」をクリックします。
 
@@ -69,13 +69,13 @@ Dynamic Mediaセットを編集および作成するためのオファークラ�
 1. パラメータ値を変更して、オファーを作成します。例えば、テキストフィールドに別のテキストを入力したり、レイヤーのサイズを変更したり、画像を別の画像に入れ替えたり、別のビューアプリセットを選択したりすることができます。
 1. 「**保存**」または「**名前を付けて保存**」をクリックして、オファーをオファーセットの一部として保存します。
 
-   テストTargetオファーセットページには、作成したオファーがリストされます。
+   テストターゲットオファーセットページには、作成したオファーがリストされます。
 
 1. 手順 3 から 5 を繰り返して、セットのオファーをさらに作成します。
 1. When you finish, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. Click **Close**, enter a name for the offer set, and then click **Save**.
 
-テスト&amp;Targetオファーセットページを閉じる前に、オファーセットをTarget Standard/プレミアムにプッシュします。 詳しくは、[Test&amp;Target へのオファーセットのプッシュ](pushing-offer-sets-target.md#pushing_offer_sets_to_target)を参照してください。
+Test&amp;ターゲットオファーセットページを閉じる前に、オファーセットをTarget Standard/Premiumにプッシュします。 詳しくは、[Test&amp;Target へのオファーセットのプッシュ](pushing-offer-sets-target.md#pushing_offer_sets_to_target)を参照してください。
 
 ## Creating an offer set with images or videos {#creating-an-offer-set-with-images-or-videos}
 
@@ -90,11 +90,11 @@ Dynamic Mediaセットを編集および作成するためのオファークラ�
 
 **画像またはビデオを使用してオファーセットを作成するには**
 
-1. オファーセット用の画像またはビデオをアセンブルします。 テスト&amp;Targetオファーセット画面、グリッド表示またはリスト表示で開始し、次のいずれかの方法を使用します。
+1. オファーセット用の画像またはビデオをアセンブルします。 テスト&amp;ターゲットオファーセット画面、グリッド表示またはリスト表示で開始し、次のいずれかの方法を使用します。
 
-   * **テスト&amp;Targetオファーセット画面**&#x200B;ビル **[!UICONTROL ド/テスト&amp;Targetオファーセットをクリックします]**。 画像またはビデオを画面にドラッグします。異なるサイズの画像またはビデオを作成するには、画像またはビデオの複数のコピーをドラッグして、個別にサイズを設定します。
+   * **テスト&amp;ターゲットオファーセット画面**&#x200B;ビル **[!UICONTROL ド/テスト&amp;ターゲットオファーセットをクリックします]**。 画像またはビデオを画面にドラッグします。異なるサイズの画像またはビデオを作成するには、画像またはビデオの複数のコピーをドラッグして、個別にサイズを設定します。
 
-   * **グリッドまたはリストの表示**&#x200B;画像またはビデオを選択し、 **[!UICONTROL ビルド/Test&amp;Targetオファーセットをクリックします]**。
+   * **グリッドまたはリストの表示**&#x200B;画像またはビデオを選択し、 **[!UICONTROL ビルド/Test&amp;ターゲットオファーセットをクリックします]**。
 
 1. または、画像またはビデオを選択して「**プレビュー**」をクリックします。プレビューオファーページで、選択した画像またはビデオのサイズと外観を変更できます。 または、オファーセット内のすべての画像またはビデオを変更できます。
 
@@ -106,7 +106,7 @@ Dynamic Mediaセットを編集および作成するためのオファークラ�
 1. After you finish creating offers for the offer set and choosing Image Presets for different images, ensure that **Publish after save** is selected (default).
 1. 「**保存**」をクリックし、オファーセットの名前を入力し、「**保存**」をクリックします。
 
-テストTargetオファーセットページを閉じる前に、オファーセットをTarget Standard/プレミアムにプッシュします。 詳しくは、[Test&amp;Target へのオファーセットのプッシュ](pushing-offer-sets-target.md#pushing_offer_sets_to_target)を参照してください。
+テストターゲットオファーセットページを閉じる前に、オファーセットをTarget Standard/Premiumにプッシュします。 詳しくは、[Test&amp;Target へのオファーセットのプッシュ](pushing-offer-sets-target.md#pushing_offer_sets_to_target)を参照してください。
 
 ## オファーセットの編集 {#editing-an-offer-set}
 
@@ -124,17 +124,17 @@ Dynamic Mediaセットを編集および作成するためのオファークラ�
 **オファーセットを編集するには**
 
 1. To edit an offer set, display the offer set in Grid view or List view, and then click its **Edit** rollover button.
-1. テストTargetオファーセットページで、次のいずれかの操作を行います。
+1. テストターゲットオファーセットページで、次のいずれかの操作を行います。
 
    * **オファーの削除**&#x200B;オファーを選択し、 
 **「削除** 」で、オファーをセットから削除します。
    * **オファーの追加**&#x200B;オファーの追加方法は、操作しているオファーセットのタイプに応じて異なります。
    * **テンプレート**&#x200B;クリック 
 **&amp;プレビュー追加**、および追加プレビューオファーページで別のオファーを作成します。
-   * **画像とビデオ**&#x200B;画像またはビデオをテストTargetオファーセットページにドラッグします。
+   * **画像とビデオ**&#x200B;画像またはビデオをテストターゲットオファーセットページにドラッグします。
    >[!NOTE]
    >
-   >キャンペーンと関連付けられているオファーセットは削除できません。キャンペーンに関連付けられているオファーセットを削除するには、Target Standard/プレミアムにサインインし、最初にキャンペーンの関連付けを削除します。 キャンペーンから関連付けを解除した後でも、アセットを削除するにはDynamic Media Classicからのみ可能で、Target Standard/プレミアムへのサインインが必要です。Target Standard/プレミアム内からは削除できません。
+   >キャンペーンと関連付けられているオファーセットは削除できません。キャンペーンに関連付けられているオファーセットを削除するには、Target Standard/Premiumにサインインし、最初にキャンペーンの関連付けを削除します。 キャンペーンから関連付けを解除した後でも、アセットを削除するにはDynamic Media Classicからのみ可能です。Target Standard/Premiumにサインインする必要があり、Target Standard/Premium内からは削除できません。
 
 1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. 「**保存**」をクリックし、保存するフォルダーを選択し、セットの名前を入力して、「**保存**」をクリックします。
