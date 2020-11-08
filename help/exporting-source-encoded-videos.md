@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 78%
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 ソースビデオには、参照パネルで「マスタービデオ」というラベルが付けられます。エンコードされたビデオのラベルは「ビデオ」になります。ソースビデオはマスタービデオと同様に書き出すことができます。ビデオファイルを書き出すには、ビデオファイルを参照パネルで選択し、ファイル／書き出しを選択します。
 
-詳しくは、Dynamic Mediaクラシックからのアセットの [書き出しを参照してください](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
+詳しくは、ダイナミックMedia Classic [からのアセットの書き出しを参照してください](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
 
 >[!MORELIKETHIS]
 >
