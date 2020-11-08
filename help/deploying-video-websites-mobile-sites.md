@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 69%
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 # Web サイトやモバイルサイトへのビデオの配信{#deploying-video-to-your-websites-and-mobile-sites}
 
-Webサイト、モバイルサイト、デスクトップアプリケーションは、URL文字列または埋め込みコードを使用して、ビデオなどのDynamic Mediaクラシックサーバーコンテンツにアクセスします。 Dynamic Mediaクラシックは、公開処理中に、これらのURL文字列をアクティブにします。 Webページ、モバイルページおよびデスクトップアプリケーションにビデオのURL文字列または埋め込みコードを設定するには、Dynamic MediaクラシックからURL文字列または埋め込みコードをコピーします。
+Webサイト、モバイルサイトおよびデスクトップアプリケーションは、URL文字列または埋め込みコードを使用して、ビデオなどのDynamic Media Classicサーバーコンテンツにアクセスします。 Dynamic Media Classicは、公開処理中に、これらのURL文字列をアクティブにします。 Webページ、モバイルページおよびデスクトップアプリケーションにビデオのURL文字列または埋め込みコードを設定するには、Dynamic Media ClassicからURL文字列または埋め込みコードをコピーします。
 
 >[!NOTE]
 >
@@ -28,19 +28,19 @@ Webサイト、モバイルサイト、デスクトップアプリケーショ�
 
 ## ビデオの公開 {#publishing-video}
 
-ビデオを公開すると、Dynamic MediaはClassic ServerからWebサイト、モバイルサイトまたはアプリケーションにビデオを配信できます。
+ビデオを公開すると、Dynamic Media Classic ServerはビデオをWebサイト、モバイルサイトまたはアプリケーションに配信できます。
 
 ビデオの公開に使用できる方法は次の 2 つあります。
 
 * **アップロード時にビデオを自動的に即時公開する**
 
-   ビデオのアップロード処理の一環として、Dynamic MediaClassicは、ビデオがアップロードされエンコードされたときに、自動的にビデオを公開できます。 この即時公開機能があることで、アップロードとエンコード後にビデオを個別に公開する必要がありません。
+   ビデオのアップロード処理の一環として、Dynamic Media Classicは、ビデオがアップロードされエンコードされたときに、自動的にビデオを公開できます。 この即時公開機能があることで、アップロードとエンコード後にビデオを個別に公開する必要がありません。
 
 * **アップロード後にビデオを手動で公開する**
 
    ビデオをすぐに公開したくない場合は、いつでもビデオを手動で公開できます。
 
-ビデオを公開すると、HTMLページやDynamic MediaコードのURL文字列がアクティブになります。
+ビデオを公開すると、HTMLページやアプリケーションコードのURL文字列がアクティブになります。
 
 **ビデオを公開するには**
 
@@ -136,7 +136,7 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 
 ## サードパーティのビデオプレーヤーを使用したビデオの配信 {#deploying-video-using-a-third-party-video-player}
 
-Dynamic Mediaのクラシックビデオビューアの代わりに、サードパーティのビデオプレーヤーまたはカスタム仕様のビデオプレーヤーを使用する場合、HLSマルチビットレートビデオストリーミングまたはプログレッシブダウンロードで機能するダイレクトビデオURLを取得できます。
+Dynamic Media Classicビデオビューアの代わりに、サードパーティのビデオプレーヤーまたはカスタムに組み込まれたビデオプレーヤーを使用する場合、HLSマルチビットレートビデオストリーミングまたはプログレッシブダウンロードで機能するダイレクトビデオURLを取得できます。
 
 **サードパーティのビデオプレーヤーを使用してビデオを配信するには**
 
@@ -163,13 +163,13 @@ For example, suppose the progressive video server name is `https://s7d9.scene7.c
 
 ## ビデオサムネールの操作 {#working-with-video-thumbnails}
 
-Dynamic Mediaクラシックは、エンコードされたビデオとあらかじめエンコードされたビデオのサムネールを生成します。 ビデオサムネールは、画像アセットと同じように使用できます。また、Dynamic MediaClassicが生成するビデオサムネールのURLを取得し、これらのURLをDynamic MediaClassicの外部に導入できます。 例えば、Web サイト上の検索結果、関連するビデオリスト、ビデオ再生リストにサムネールを配信できます。
+Dynamic Media Classicは、エンコードされたビデオおよび事前にエンコードされたビデオのサムネールを生成します。 ビデオサムネールは、画像アセットと同じように使用できます。また、Dynamic Media Classicが生成するビデオサムネールのURLを取得し、これらのURLをDynamic Media Classicの外部にデプロイできます。 例えば、Web サイト上の検索結果、関連するビデオリスト、ビデオ再生リストにサムネールを配信できます。
 
 ビデオの最初の不均一のフレーム（真っ黒でないフレーム、真っ白でないフレームなど）に基づきサムネールが生成されます。
 
 ### ビデオサムネールの URL の取得 {#obtaining-video-thumbnail-urls}
 
-Dynamic Mediaクラシックは、アップロード処理中にビデオサムネールを自動的に生成します。 サムネールは、リストビューとグリッドビューの参照パネルに表示されます。
+Dynamic Media Classicは、アップロード処理中にビデオサムネールを自動的に生成します。 サムネールは、リストビューとグリッドビューの参照パネルに表示されます。
 
 ビデオサムネールの URL を生成するには、公開操作を実行します。
 
@@ -179,7 +179,7 @@ Dynamic Mediaクラシックは、アップロード処理中にビデオサム�
 
 ### ビデオビューアでのポスターフレームの変更 {#modifying-poster-frames-in-video-viewers}
 
-*ポスターフレーム*&#x200B;は、ビデオの再生開始前にビデオビューアに表示される最初のフレームです。Dynamic Mediaクラシックでは、ビデオサムネールがポスターフレームとして使用されます。
+*ポスターフレーム*&#x200B;は、ビデオの再生開始前にビデオビューアに表示される最初のフレームです。ダイナミックMedia Classicでは、ビデオサムネールがポスターフレームとして使用されます。
 
 ポスターフレームに画像修飾子を適用できます。例えば、ポスターフレームを切り抜いたり、透明にしたりすることができます。ポスターフレームを変更するには、ビデオビューアの設定画面を開いて、「ポスター画像修飾子」セクションに修飾子を入力します。
 
