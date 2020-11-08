@@ -1,8 +1,8 @@
 ---
-title: Dynamic Mediaクラシックからのアセットの書き出し
-seo-title: Dynamic Mediaクラシックからのアセットの書き出し
+title: Dynamic Media Classicからのアセットの書き出し
+seo-title: Dynamic Media Classicからのアセットの書き出し
 description: 'null'
-seo-description: Dynamic Mediaクラシックからアセットを書き出す方法を説明します。
+seo-description: Dynamic Media Classicからアセットを書き出す方法を説明します。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 69%
@@ -18,15 +18,15 @@ ht-degree: 69%
 ---
 
 
-# Dynamic Mediaクラシックからのアセットの書き出し{#exporting-assets-from-dmc}
+# Dynamic Media Classicからのアセットの書き出し{#exporting-assets-from-dmc}
 
-Networks Classicで編集したアセットは、ローカルDynamic Mediaドライブに保存できます。 書き出されたアセットは、ダウンロード用または電子メールでの送信用に ZIP ファイルにまとめられます。
+Dynamic Media Classicで編集したアセットは、ローカルネットワークドライブに保存できます。 書き出されたアセットは、ダウンロード用または電子メールでの送信用に ZIP ファイルにまとめられます。
 
 書き出しジョブの場合、圧縮 ZIP ファイルの最大ファイルサイズは 1 GB です。また、許可されている最大アセット数は書き出しジョブあたり合計 500 個までです。
 
-書き出しジョブは、Dynamic Media画面に記録されます。
+書き出しジョブの記録は、ダイナミックMedia Classicのジョブ画面に保持されます。
 
-**Dynamic Mediaクラシックからアセットを書き出すには**
+**Dynamic Media Classicからアセットを書き出すには**
 
 1. 書き出すアセットを選択し、**ファイル**／**書き出し**&#x200B;を選択します。
 1. 選択したアセットを書き出しウィンドウで、**「イメージ」オプション**&#x200B;をクリックしてから、次のオプションを指定します（ユーザが指定できるオプションは管理者が決定します）。
