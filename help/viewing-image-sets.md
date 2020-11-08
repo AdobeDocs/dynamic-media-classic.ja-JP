@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 画像セットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。画像セットには「ズームビューア : カスタム」ビューアプリセットを使用します。
 
-Dynamic Mediaクラシックには、初期設定のビューアプリセットが付属しています。 管理者は、ビューアプリセットを作成または変更できます。
+ダイナミックMedia Classicには、初期設定のビューアプリセットが用意されています。 管理者は、ビューアプリセットを作成または変更できます。
 
 ## 画像セットのズームビューアプリセットの設定 {#setting-up-zoom-viewer-presets-for-image-sets}
 
