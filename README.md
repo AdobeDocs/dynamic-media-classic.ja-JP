@@ -1,18 +1,14 @@
 ---
-source-git-commit: 9168ecfc0871874c71f9338e27a48e04aea47804
+source-git-commit: 2e36fc555c7e16406e68d289a97be72b87be8036
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '155'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 0%
 
 ---
-# Adobeダイナミックメディアクラシックドキュメント
+# AdobeDynamic Mediaクラシックドキュメント
 
-| EXL-PR | EXL | プレビュー | アクティブ化 | 公開 | ヘルプ |
-|--- |--- |--- |--- |--- |--- |
-| [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_pr-exl/lastBuild/) | [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_exl/lastBuild/lastBuild) | [プレビューURL](https://experienceleague.corp.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [ライブURL](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en) | [オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
-
-これは、Adobeのダイナミックメディアクラシックドキュメントのリポジトリです。
+これは、AdobeのDynamic Mediaクラシックドキュメントのリポジトリです。
 
 ドキュメントに対する貢献を歓迎します。 次のリソースを参照してください。
 
