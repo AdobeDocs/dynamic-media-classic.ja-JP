@@ -20,7 +20,7 @@ ht-degree: 88%
 
 # FTP アカウントの管理{#managing-ftp-accounts}
 
-Media Portal 管理者のみが、FTP アカウントを管理できます。In addition, only users with the role of *Media Portal Contributor-User *or *Media Portal Contributor* can upload digital assets.
+Media Portal 管理者のみが、FTP アカウントを管理できます。また、デジタルアセットをアップロードできるのは、*Media Portal寄稿者ユーザ*または&#x200B;*Media Portal寄稿者*&#x200B;の役割を持つユーザのみです。
 
 既存の Media Portal ユーザは、管理設定のユーザ管理ページからアクティブ化または非アクティブ化できることに注意してください。
 
@@ -40,7 +40,7 @@ Media Portal 管理者のみが、FTP アカウントを管理できます。In 
 
    詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
-## 既存の FTP アカウントの削除 {#deleting-an-existing-ftp-account}
+## 既存の FTP アカウントの削除  {#deleting-an-existing-ftp-account}
 
 1. **設定**／**Media Portal**／**FTP アカウント**&#x200B;をクリックします。
 1. FTP アカウントを追加ページの既存のアカウント表で、削除するFTP アカウントを選択します。
