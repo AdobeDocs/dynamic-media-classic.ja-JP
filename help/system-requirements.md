@@ -2,7 +2,7 @@
 title: 必要システム構成
 seo-title: 必要システム構成
 description: 'null'
-seo-description: 'Dynamic Mediaクラシックを使用する場合の最適なエクスペリエンスの必要システム構成について説明します。 '
+seo-description: 'Dynamic Mediaクラシックを使用する場合の最高のエクスペリエンスの必要システム構成を説明します。 '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 # 必要システム構成 {#system-requirements}
 
-Dynamic Mediaクラシックデスクトップアプリを最大限に活用するために、お使いのシステムが次の必要システム構成と推奨事項を満たしていることを確認してください。
+Dynamic Mediaクラシックデスクトップアプリを最大限に活用するために、お使いのシステムが以下の必要システム構成および推奨事項を満たしていることを確認してください。
 
 * Microsoft® Windows® 7以降またはmacOS X 10.6以降のMacintosh® Intelプロセッサーが必要。
 * 3 GB 以上の RAM が必要（4 GB 以上を推奨）。
