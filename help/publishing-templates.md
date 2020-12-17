@@ -20,19 +20,19 @@ ht-degree: 40%
 
 # テンプレートの公開{#publishing-templates}
 
-公開したテンプレートはDynamic MediaImage Serverに保存され、Webサイトやアプリケーションでテンプレートを利用できるようになります。 公開処理中に、Dynamic MediaクラシックはWebサイトやアプリケーションに必要なURL文字列もアクティブにします。
+公開したテンプレートはWebサイトやアプリケーションで利用できる、Dynamic MediaImage Serverに保存されます。 公開処理中に、Dynamic MediaクラシックはWebサイトやアプリケーションに必要なURL文字列もアクティブにします。
 
 >[!NOTE]
 >
 >テンプレートを使用するには、フォントや画像など、テンプレートを作成するのに使用したすべてのコンテンツを公開します。必要なすべてのファイルを含めないと、公開時にエラーメッセージが表示されます。
 
-## 公開用にテンプレートをマーク {#marking-templates-for-publish}
+## 公開用にテンプレートをマーク  {#marking-templates-for-publish}
 
-テンプレートとそのすべてのサポートファイルをDynamic MediaImage Serverに配置するには、それらを公開用にマークする必要があります。 You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+テンプレートとそのすべてのサポートファイルをDynamic MediaImage Serverに配置するには、それらを公開用にマークする必要があります。 参照パネルで&#x200B;**公開用にマーク**&#x200B;アイコンをクリックして、これらの項目を公開用にマークすることができます。
 
 ## テンプレートの公開 {#publishing-your-template}
 
-Dynamic MediaImage Serverにテンプレートを公開するには、グローバルナビゲーションバーの「公開」ボタンを開始します。 次に、「日時」オプションを選択して、必要に応じて公開ジョブ名を入力し、「公開を開始」ボタンを選択します。
+テンプレートをDynamic MediaImage Serverに公開するには、グローバルナビゲーションバーの「公開」ボタンを開始します。 次に、「日時」オプションを選択して、必要に応じて公開ジョブ名を入力し、「公開を開始」ボタンを選択します。
 
 >[!MORELIKETHIS]
 >
