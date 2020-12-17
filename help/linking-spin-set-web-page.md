@@ -20,13 +20,13 @@ ht-degree: 88%
 
 # Web ページへのスピンセットのリンク{#linking-a-spin-set-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、スピンセットなどのDynamic Media Image Serverのコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。WebページやアプリケーションにスピンセットのURL文字列や埋め込みコードを設定するには、Dynamic Media ClassicからURL文字列や埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、スピンセットなどのDynamic MediaImage Serverのコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。WebページやアプリケーションにスピンセットのURL文字列や埋め込みコードを設定するには、Dynamic MediaクラシックからURL文字列や埋め込みコードをコピーします。
 
 >[!NOTE]
 >
 >URL は、アセットを公開するまでアクティブになりません。
 
-## スピンセットの URL のコピー {#copying-a-spin-set-url}
+## スピンセットの URL のコピー  {#copying-a-spin-set-url}
 
 1. アセットの参照パネルの「表示」ドロップダウンリストで&#x200B;**「スピンセット」**&#x200B;をクリックします。
 1. 左側のアセットライブラリパネルで、コピーする埋め込みコードを持つスピンセットを含むアセットフォルダに移動します。
@@ -45,15 +45,15 @@ Webサイトやアプリケーションは、URL文字列や埋め込みコー�
 
       ビューアリストページの表の「アクション」列の下で、**「URL をコピー」**&#x200B;をクリックします。
 
-## Web ページへのスピンセット URL の追加 {#adding-spin-set-urls-to-your-web-page}
+## Web ページへのスピンセット URL の追加  {#adding-spin-set-urls-to-your-web-page}
 
-スピンセットは、すべてのズームビューアと同様、スピンセットをズームウィンドウ内に表示するダイナミックページ（ASP や JSP）経由で配信されます。Dynamic Media ClassicプラットフォームへのURL呼び出しは、ズームビューアと同じプロトコルに従います。 ただし、ビューアプリセット名は、管理者が初期設定のスピンセットビューアプリセットとして定義したプリセットによって決まります。例えば、次の URL 構文の例（リンクは無効）には、`viewer.jsp` という名前のプリセット名が含まれていて、SKU パラメーターはスピンセット名になっています。
+スピンセットは、すべてのズームビューアと同様、スピンセットをズームウィンドウ内に表示するダイナミックページ（ASP や JSP）経由で配信されます。Dynamic MediaクラシックプラットフォームへのURL呼び出しは、ズームビューアと同じプロトコルに従います。 ただし、ビューアプリセット名は、管理者が初期設定のスピンセットビューアプリセットとして定義したプリセットによって決まります。例えば、次の URL 構文の例（リンクは無効）には、`viewer.jsp` という名前のプリセット名が含まれていて、SKU パラメーターはスピンセット名になっています。
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-この URL 構文の例（リンクは無効）には、SKU 番号（`sku=backpack_spin`）が含まれています。The string after `sku=` is the Spin Set name ( `backpack spin`).
+この URL 構文の例（リンクは無効）には、SKU 番号（`sku=backpack_spin`）が含まれています。`sku=`の後の文字列はスピンセット名(`backpack spin`)です。
 
 ## スピンセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-spin-set-viewer}
 
