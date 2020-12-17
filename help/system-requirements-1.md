@@ -18,7 +18,7 @@ ht-degree: 43%
 ---
 
 
-# Media Portalの必要システム構成 {#system-requirements}
+# Media Portalの必要システム構成{#system-requirements}
 
 Dynamic MediaクラシックMedia Portalを最大限に活用するために、お使いのシステムが以下の必要システム構成および推奨事項を満たしていることを確認してください。
 
