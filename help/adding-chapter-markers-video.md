@@ -50,15 +50,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-この例では、`Chapter 1` はキュー識別子（オプション）です。`00:00:000 --> 01:04:364` というキュー時間では、そのチャプターの開始時間と終了時間を「00:00:000」という形式で指定しています。末尾の 3 桁はミリ秒であり、必要に応じて 000 のままにすることができます。The chapter title of `The bicycle store behind it all` is the actual description of the chapter’s contents. キュー識別子、開始キュー時間およびチャプタータイトルはすべて、ビデオプレーヤーでユーザーがビデオのタイムライン内の視覚的なキューポイントにマウスポインターを置いたときにポップアップ表示されます。
+この例では、`Chapter 1` はキュー識別子（オプション）です。`00:00:000 --> 01:04:364` というキュー時間では、そのチャプターの開始時間と終了時間を「00:00:000」という形式で指定しています。末尾の 3 桁はミリ秒であり、必要に応じて 000 のままにすることができます。`The bicycle store behind it all`のチャプタータイトルは、チャプターの内容の実際の説明です。 キュー識別子、開始キュー時間およびチャプタータイトルはすべて、ビデオプレーヤーでユーザーがビデオのタイムライン内の視覚的なキューポイントにマウスポインターを置いたときにポップアップ表示されます。
 
 HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターのファイル名拡張子は .vtt です。WebVTT のキャプション規格について、さらに詳しく調べることができます。
 
-See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
+[WebVTT:Webビデオテキストトラックの形式](https://dev.w3.org/html5/webvtt/)です。
 
 **ビデオにチャプターマーカーを追加するには**
 
-1. Dynamic Media Classicの外部でシンプルなテキストエディターを使用して、ビデオチャプターファイルを作成します。
+1. Dynamic Mediaクラシック以外のシンプルなテキストエディターを使用して、ビデオチャプターファイルを作成します。
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    通常、チャプター VTT ファイルにはビデオファイルと同じ名前を指定し、`chapters` を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。
 
-1. Dynamic Media Classicで、WebVTTチャプターファイルをアップロードします。
+1. Dynamic Mediaクラシックで、WebVTTチャプターファイルをアップロードします。
 
    詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
@@ -86,7 +86,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
       埋め込みコードダイアログボックスで、**[!UICONTROL 「クリップボードにコピー」]**&#x200B;をクリックします。
 
-      For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
+      HTML5 `Universal_HTML5_Video`ビューアの場合、コピーした埋め込みコードを次の構文と共に追加します。
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
