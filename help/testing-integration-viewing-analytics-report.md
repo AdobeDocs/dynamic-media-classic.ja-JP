@@ -20,15 +20,15 @@ ht-degree: 42%
 
 # Adobe Analytics レポートの表示による統合のテスト{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-必要な変数をAdobe Analyticsで作成し、それらの変数をDynamic Media Classicイベントにリンクし、必要な実装手順を完了した後で、設定をテストする必要があります。 データが Adobe Analytics 内で収集されることをテストして確認できます。設定が正常に動作する場合は、それ以上の手順は必要ありません。上記の手順に従ってDynamic Media Classicイベントデータを1つ以上のカスタムトラフィック変数にリンクしたと仮定し、次のワークフローに従ってAdobe Analytics内のデータをテストします。
+必要な変数をAdobe Analyticsで作成し、それらの変数をDynamic Mediaクラシックイベントにリンクし、必要な実装手順を完了した後、設定をテストする必要があります。 データが Adobe Analytics 内で収集されることをテストして確認できます。設定が正常に動作する場合は、それ以上の手順は必要ありません。上記の手順に従って、Dynamic Mediaクラシックイベントデータを1つ以上のカスタムトラフィック変数にリンクしたと仮定し、次のワークフローに従ってAdobe Analytics内のデータをテストします。
 
 **Adobe Analytics レポートを表示して統合をテストするには**
 
-1. アカウントからDynamic Media Classicビューアを起動します。特に、取り込む指標をブロードキャストするビューアを起動し、このビューアを操作してイベントデータを作成します。
+1. アカウントからDynamic Mediaクラシックビューアを起動し、特に、取り込む指標をブロードキャストするビューアを起動し、このビューアを操作してイベントデータを作成します。
 
    例えば、画像セット内の最も人気のある代替表示を測定する場合は、画像セットをプレビューして、様々なサムネール画像をクリックします。
 
-1. Inside Adobe Analytics, go to Custom Traffic > Custom Traffic 1-10 > [Name of prop], selecting your traffic prop name from the menu choices.
+1. Adobe Analytics内で、カスタムトラフィック/カスタムトラフィック1-10/[prop]の名前に移動し、メニュー項目から適切なトラフィックprop名を選択します。
 
    例えば、サンプルアカウントで LoadAsset prop にアクセスするための適切なメニュー項目は、カスタムトラフィック／カスタムトラフィック 1～10／LoadAsset となります。カスタム prop が 11 個以上ある場合は、追加のメニュー項目も表示されます。
 
@@ -36,6 +36,6 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->すべてのDynamic Media Classicビューアデータは、Adobe Analyticsのカスタムトラフィックレポートまたはカスタムコンバージョンレポートに表示およびレポートされます。
+>すべてのDynamic Mediaクラシックビューアのデータは、Adobe Analyticsのカスタムトラフィックレポートまたはカスタムコンバージョンレポートに表示およびレポートされます。
 
-For more information, see [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en).
+詳しくは、[www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en)を参照してください。
