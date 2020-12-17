@@ -20,9 +20,9 @@ ht-degree: 36%
 
 # Adobe Analytics へのログイン{#log-in-to-adobe-analytics}
 
-ログインしてAdobe Analyticsレポートを設定し、Adobe Analyticsレポート変数をDynamic Media Classicイベントに対応付ける前に、Adobe Analyticsの「Webサービスへのアクセス」グループのメンバーとして追加されていることを確認します。 このグループのメンバーは、インターフェイスで設定された権限に関係なく、Marketing Cloud の Web Services API 経由で指定したレポートスイートの全レポートにアクセスできます。グループにメンバーを追加するには、Adobe Analytics で、**管理ツール**／**ユーザー管理**／**グループの編集**&#x200B;をクリックします。
+ログインしてAdobe Analyticsレポートを設定し、Adobe Analyticsレポート変数をDynamic Mediaクラシックイベントに一致させる前に、Adobe Analyticsの[Webサービスへのアクセス]グループのメンバーとして追加されていることを確認します。 このグループのメンバーは、インターフェイスで設定された権限に関係なく、Marketing Cloud の Web Services API 経由で指定したレポートスイートの全レポートにアクセスできます。グループにメンバーを追加するには、Adobe Analytics で、**管理ツール**／**ユーザー管理**／**グループの編集**&#x200B;をクリックします。
 
-ログイン時に、Marketing Cloud組織IDを入力して、最新のビデオ分析を使用することもできます。 IDを入力しない場合でも、ビデオレポートは機能します。 ただし、Dynamic Media Classicの外部のクライアントの他のデータとデータが正しく統合されない可能性があります。
+ログイン時に、Marketing Cloud組織IDを入力して、最新のビデオ分析を使用することもできます。 IDを入力しない場合でも、ビデオレポートは機能します。 ただし、Data Classicの外部のクライアントの他のデータとデータが正しく統合されない可能性があります。
 
 >[!NOTE]
 >
@@ -30,15 +30,15 @@ ht-degree: 36%
 
 **Adobe Analytics にログインするには**
 
-1. ダイナミックメディアクラシックページの右上隅近くにある設定/アプリケーション **[!UICONTROL 設定をタップします]**。
-1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
-1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
-1. [ **[!UICONTROL Adobe Analyticsログイン]** ]ダイアログボックスで、[パスワード ** ]テキストフィールドに会社名、Marketing Cloud組織ID （オプション）、ユーザ名、 **** 共有秘密キーを入力します。
+1. Dynamic Mediaクラシックページの右上隅近くにある&#x200B;**[!UICONTROL セットアップ/アプリケーション設定]**&#x200B;をタップします。
+1. 左側のウィンドウの「**[!UICONTROL アプリケーション設定]**」で、**[!UICONTROL Adobe Analytics]**&#x200B;をタップします。
+1. Adobe Analytics設定ページで、**[!UICONTROL Adobe Analyticsログイン]**&#x200B;をタップします。
+1. **[!UICONTROL Adobe Analyticsログイン]**&#x200B;ダイアログボックスで、会社名、Marketing Cloud組織ID（オプション）、ユーザー名、*共有秘密*&#x200B;キーを&#x200B;**[!UICONTROL パスワード]**&#x200B;テキストフィールドに入力します。
 
-   Analytics管理コンソールから *共有秘密* キーを取得できます。 ユーザーアカウントのAPI証明書の取得 [方法を参照してください](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)。
+   Analytics管理コンソールから&#x200B;*共有暗号鍵*&#x200B;キーを取得できます。 [ユーザーアカウントのAPI資格情報を取得する方法](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)を参照してください。
 
 1. 「**[!UICONTROL ログイン]**」をクリックします。
-1. 「 **[!UICONTROL レポートスイート]** 」ドロップダウンメニューで、レポートスイートを選択し、「 **[!UICONTROL OK]**」をクリックします。
+1. **[!UICONTROL レポートスイート]**&#x200B;ドロップダウンメニューで、レポートスイートを選択し、**[!UICONTROL 「OK]**」をクリックします。
 
    >[!NOTE]
    >
