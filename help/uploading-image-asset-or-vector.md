@@ -21,11 +21,11 @@ ht-degree: 84%
 
 画像アセットをアップロードするには、その前に共有秘密キーを要求する必要があります。この共有秘密キーを、アップロードトークンの取得に使用します。取得したら、このアップロードトークンを使用して、画像アセットまたはベクトルアセットをアップロードします。
 
-## 共有秘密キーの要求 {#requesting-a-shared-secret-key}
+## 共有秘密キーの要求  {#requesting-a-shared-secret-key}
 
-Admin Consoleを *使用して* 共有秘密キー [を要求し、サポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースでは、共有秘密キーをリクエストします。
+*共有秘密キー*&#x200B;を[Admin Consoleを使用してリクエストし、サポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースでは、共有秘密キーをリクエストします。
 
-電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Dynamic Media Classicからキーを受け取ったら、今後使用できるようにローカルに保存します。
+電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Dynamic Mediaクラシックからキーを受け取ったら、今後使用するためにローカルに保存します。
 
 ## アップロードトークンの取得 {#retrieving-the-upload-token}
 
@@ -34,10 +34,10 @@ Admin Consoleを *使用して* 共有秘密キー [を要求し、サポート�
 アップロードトークンは英数字で構成された文字列で、一定の期間しか利用できません。アップロードトークンを取得するために共有秘密キーを送信する場合は、以下の URL を使用します。
 
 * 画像
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`この例では、共有秘密キーは `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`この例では、共有秘密キーは  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * ベクトル
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`この例では、共有秘密キーは `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`この例では、共有秘密キーは  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
 初期設定で、アップロードトークンは取得後 5 分（300 秒）で有効期限切れになります。期限を延長するには、URL に `expires` パラメータを追加し、必要とする時間を秒単位で入力します。例えば、次のサンプル画像の URL では、1800 秒間有効なアップロードトークンを取得します。
 
@@ -90,7 +90,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 詳しくは、[画像アセットのアップロード](uploading-image-asset-or-vector.md#uploading_an_image_asset)を参照してください。
 
-## 画像アセットのアップロード {#uploading-an-image-asset}
+## 画像アセットのアップロード  {#uploading-an-image-asset}
 
 一定時間有効なアップロードトークンを取得したら、画像アセットをアップロードできます。この例では、マルチパート／フォームとしてアセットをアップロードし、残りの値を URL クエリ文字列として送信します。
 
@@ -98,7 +98,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+`upload_token`フィールドと`company_name`フィールドは必須です。
 
 詳しくは、[アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token)を参照してください。
 
@@ -110,7 +110,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
+`file_limit`パラメーターは、ファイルサイズ制限をバイト単位で指定します。 `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
 
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
 
@@ -126,7 +126,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
 * アセットに関連付けられているカラープロファイルとファイル名を保持するかどうかを指定します。
-* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「隅」、「許容値」、「塗りつぶし方法」を設定します。 アップロード時の「 [画像編集オプション」の「ノックアウトの背景」を参照してください](image-editing-options-upload.md#image-editing-options-at-upload)。
+* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「隅」、「許容値」、「塗りつぶし方法」を設定します。 [アップロード](image-editing-options-upload.md#image-editing-options-at-upload)の「画像編集オプション」の「ノックアウトの背景」を参照してください。
 * アップロードするファイルの名前
 
 <!-- 
@@ -145,9 +145,9 @@ Last Modified Date:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Firefoxで、ブラウザーウィンドウを右クリックし、「 **表示ページのソース**」をクリックします。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**「送信」**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
+Firefoxで、ブラウザーウィンドウを右クリックし、「**表示ページのソース**」をクリックします。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**「送信」**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
 
-XML 応答を Internet Explorer で表示するには、**表示／ソース**&#x200B;をクリックします。To view XML response in Firefox, click **Tools > Web Developer > Page Source**. XML 応答の表示には、Firefox を使用することをお勧めします。
+XML 応答を Internet Explorer で表示するには、**表示／ソース**&#x200B;をクリックします。FirefoxでXML応答を表示するには、**ツール/Web開発者/ページソース**&#x200B;をクリックします。 XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -205,7 +205,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 POST
 
-### 画像のアセットメタデータの取得 {#getting-asset-metadata-for-images}
+### 画像のアセットメタデータの取得  {#getting-asset-metadata-for-images}
 
 `image_info` を使用して、アップロードしたアセットのメタデータを取得できます。次に例を示します。
 
@@ -253,7 +253,7 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 
 GET と POST
 
-## ベクトルアセットのアップロード {#uploading-a-vector-asset}
+## ベクトルアセットのアップロード  {#uploading-a-vector-asset}
 
 一定時間有効なアップロードトークンを取得したら、ベクトルアセットをアップロードできます。この例では、マルチパート／フォームとしてアセットをアップロードし、残りの値を URL クエリ文字列として送信します。
 
@@ -261,7 +261,7 @@ GET と POST
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+`upload_token`フィールドと`company_name`フィールドは必須です。
 
 詳しくは、[アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token)を参照してください。
 
@@ -273,7 +273,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
+`file_limit`パラメーターは、ファイルサイズ制限をバイト単位で指定します。 `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
 
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
 
@@ -289,7 +289,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
 * アセットに関連付けられているカラープロファイルとファイル名を保持するかどうかを指定します。
-* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「隅」、「許容値」、「塗りつぶし方法」を設定します。 アップロード時の「 [画像編集オプション」の「ノックアウトの背景」を参照してください](image-editing-options-upload.md#image-editing-options-at-upload)。
+* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「隅」、「許容値」、「塗りつぶし方法」を設定します。 [アップロード](image-editing-options-upload.md#image-editing-options-at-upload)の「画像編集オプション」の「ノックアウトの背景」を参照してください。
 * アップロードするファイルの名前
 
 <!-- 
@@ -380,7 +380,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 |--- |--- |--- |
 | op | 必須 | アップロード |
 | upload_token | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
-| company_name | 必須 | アップロードを実行する会社の名前。 |
+| 会社名 | 必須 | アップロードを実行する会社の名前。 |
 | file_limit | オプション | アセットのファイルサイズ制限（バイト単位）。 |
 | file_exts | オプション | アセットファイルで使用できる拡張子のリスト。 |
 
