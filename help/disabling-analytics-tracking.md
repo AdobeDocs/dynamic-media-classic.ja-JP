@@ -2,7 +2,7 @@
 title: Adobe Analytics 追跡の無効化
 seo-title: Adobe Analytics 追跡の無効化
 description: 'null'
-seo-description: アドビのAnalytics追跡を無効にする方法を説明します。
+seo-description: Adobe Analytics追跡を無効にする方法を説明します。
 uuid: 6998bb18-1809-4fc7-a1b6-d75c24798620
 contentOwner: admin
 content-type: reference
@@ -22,8 +22,8 @@ ht-degree: 53%
 
 **Adobe Analytics 追跡を無効にするには**
 
-1. Dynamic MediaクラシックのAdobeAnalytics設定ページで、すべてのイベントをオフにします。
+1. Dynamic MediaクラシックのAdobe Analytics設定ページで、すべてのイベントをオフにします。
 1. 保存して公開します。
 
-This turns off the support through Dynamic Media Classic and through URLs obtained from the **CopyURL** feature. 独自の追跡機能を実装する場合は、独自の実装と競合しないように、設定ページで Adobe Analytics 追跡を無効にしてください。
+これにより、Dynamic MediaClassicを介したサポート、および&#x200B;**CopyURL**&#x200B;機能から取得したURLを介したサポートがオフになります。 独自の追跡機能を実装する場合は、独自の実装と競合しないように、設定ページで Adobe Analytics 追跡を無効にしてください。
 
