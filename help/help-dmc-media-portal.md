@@ -1,8 +1,8 @@
 ---
-title: Dynamic MediaClassic Media Portalのヘルプ
-seo-title: Dynamic MediaClassic Media Portalのヘルプ
+title: Dynamic MediaクラシックMedia Portalのヘルプ
+seo-title: Dynamic MediaクラシックMedia Portalのヘルプ
 description: 'null'
-seo-description: Dynamic Media向けClassic Media Portalのヘルプを参照する方法を説明します。
+seo-description: Dynamic MediaクラシックMedia Portalのヘルプを参照する方法を説明します。
 uuid: d8d2ebe1-0228-43c3-8321-c51ffac7fd58
 contentOwner: admin
 content-type: reference
@@ -18,8 +18,8 @@ ht-degree: 0%
 ---
 
 
-# Dynamic MediaClassic Media Portalのヘルプ{#help-for-scene-media-portal}
+# Dynamic MediaクラシックMedia Portalのヘルプ{#help-for-scene-media-portal}
 
 次のヘルプドキュメントは、Dynamic Mediaクラシックからも利用できます。
 
-**Dynamic MediaクラシックMedia Portal** AdobeDynamic MediaクラシックMedia Portalを使用すると、ポータルの環境は、会社に承認された形式で簡単にアセットをアップロード、参照、検索、プレビューおよび書き出すことができます。 www.adobe.com/go/learn_sc7_mediaportalusing_enを参照し [てください](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)。
+**Dynamic MediaクラシックMedia** Portalの使用Adobe Classic Media Portalは、ポータルの環境が、会社に承認された形式で簡単にアセットをアップロード、参照、検索、プレビューおよび書き出すことができるブラウザベースのユーザです。[www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)を参照してください。
