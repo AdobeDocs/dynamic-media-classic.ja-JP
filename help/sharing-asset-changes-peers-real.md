@@ -20,7 +20,7 @@ ht-degree: 83%
 
 # アセット変更内容のピアとのリアルタイム共有{#sharing-asset-changes-with-peers-in-real-time}
 
-同じ会社内の1台以上のコンピューターで複数のDynamic MediaClassicが実行されている場合、任意のDynamic MediaClassicクライアントからの次の操作が、すべてのピアクライアントとリアルタイムで更新されます。
+同じ会社内の1台以上のコンピュータで複数のDynamic Mediaクラシックを実行すると、任意のDynamic Mediaクラシッククライアントからの次の操作がすべてのピアクライアントとリアルタイムで更新されます。
 
 * アセットの編集（ビルダ、画像エディタなど）
 * アセット名の変更
