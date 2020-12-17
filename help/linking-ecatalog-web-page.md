@@ -20,13 +20,13 @@ ht-degree: 87%
 
 # Web ページへの eCatalog のリンク{#linking-an-ecatalog-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogなどのDynamic Media Image Serverのコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。WebページやアプリケーションにeCatalogのURL文字列や埋め込みコードを設定するには、Dynamic Media ClassicからURL文字列や埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogなどのDynamic MediaImage Serverのコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。WebページやアプリケーションにeCatalogのURL文字列や埋め込みコードを設定するには、Dynamic MediaクラシックからURL文字列や埋め込みコードをコピーします。
 
 >[!NOTE]
 >
 >URL は、アセットを公開するまでアクティブになりません。
 
-## eCatalog の URL のコピー {#copying-an-ecatalog-url}
+## eCatalog の URL のコピー  {#copying-an-ecatalog-url}
 
 1. アセットの参照パネルの「表示」ドロップダウンリストで&#x200B;**「カタログ」**&#x200B;をクリックします。
 1. 左側のアセットライブラリパネルで、コピーする埋め込みコードを持つ eCatalog を含むアセットフォルダに移動します。
@@ -45,11 +45,11 @@ Webサイトやアプリケーションは、URL文字列や埋め込みコー�
 
       ビューアリストページの表の「アクション」列の下で、**「URL をコピー」**&#x200B;をクリックします。
 
-## Web ページへの eCatalog URL の追加 {#adding-ecatalog-urls-to-your-web-page}
+## Web ページへの eCatalog URL の追加  {#adding-ecatalog-urls-to-your-web-page}
 
 eCatalog にアクセスする方法としてよく使われるのは、eCatalog の表紙のサムネールを Web ページにリンクとして貼り付ける方法です。中央にきちんと表示されるポップアップウィンドウで eCatalog が起動するように、IT 部門の担当者と相談してください。また、ブラウザ画面にツールバーやアドレスバーなどを表示しないように依頼してください。
 
-詳細およびコードサンプルについては、AdobeビューアリファレンスガイドのHTML5 eCatalogビューアの [埋め込みを参照してください](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)。
+詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5 eCatalogビューアの埋め込み](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)」を参照してください。
 
 ## eCatalog ビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-ecatalog-viewer}
 
