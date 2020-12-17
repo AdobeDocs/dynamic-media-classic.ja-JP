@@ -20,15 +20,15 @@ ht-degree: 27%
 
 # ズーム画像の公開{#publishing-zoom-images}
 
-公開したズーム画像はDynamic MediaのImage Serverに保存され、Webサイトやアプリケーションで使用できるようになります。 公開処理の一環として、Dynamic MediaクラシックはURL文字列をアクティブにします。 これらの URL 文字列を Web サイトの HTML コードに配置することができます。
+公開したズーム画像はDynamic MediaImage Serverに保存され、Webサイトやアプリケーションで使用できるようになります。 公開処理の一環として、Dynamic MediaクラシックはURL文字列をアクティブにします。 これらの URL 文字列を Web サイトの HTML コードに配置することができます。
 
 ## 画像を公開用にマーク {#marking-images-for-publish}
 
-画像をDynamic MediaのImage Serverにコピーするには、画像を公開用にマークする必要があります。 You can mark your images for publish in the Browse Panel by selecting the **Mark for Publish** icon. または、画像をアップロードするときに、画像を公開用にマークすることもできます。
+画像をDynamic MediaImage Serverにコピーするには、画像を公開用にマークする必要があります。 参照パネルで&#x200B;**公開用にマーク**&#x200B;アイコンを選択して、画像を公開用にマークすることができます。 または、画像をアップロードするときに、画像を公開用にマークすることもできます。
 
-## 画像の公開 {#publishing-the-images}
+## 画像の公開  {#publishing-the-images}
 
-To publish zoom images, start by clicking **Publish** on the Global Navigation bar. Then, select a **When option (One-Time or Recurring)**, optionally enter a name for the publish job, and click **Start Publish**.
+ズーム画像を公開するには、グローバルナビゲーションバーの「**公開**」をクリックして開始します。 次に、「**日時」オプション（「一時」または「定期」）**&#x200B;を選択し、必要に応じて公開ジョブの名前を入力し、「**開始公開**」をクリックします。
 
 >[!MORELIKETHIS]
 >
