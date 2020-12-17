@@ -45,11 +45,11 @@ ht-degree: 91%
 
       ビューアリストページの表の「アクション」列の下で、**「URL をコピー」**&#x200B;をクリックします。
 
-## Web ページへの画像セットの URL の追加 {#adding-image-set-urls-to-your-web-page}
+## Web ページへの画像セットの URL の追加  {#adding-image-set-urls-to-your-web-page}
 
 画像セットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、ポップアップズームウィンドウで画像セットを表示する動的ページ(JSP)が起動します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
-詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「HTML5ズームビューアの [埋め込み](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)」を参照してください。
+詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5ズームビューアの埋め込み](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)」を参照してください。
 
 ## 画像セットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-image-set-viewer}
 
