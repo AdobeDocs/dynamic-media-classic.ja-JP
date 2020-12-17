@@ -22,7 +22,7 @@ ht-degree: 78%
 
 ソースビデオには、参照パネルで「マスタービデオ」というラベルが付けられます。エンコードされたビデオのラベルは「ビデオ」になります。ソースビデオはマスタービデオと同様に書き出すことができます。ビデオファイルを書き出すには、ビデオファイルを参照パネルで選択し、ファイル／書き出しを選択します。
 
-詳しくは、ダイナミックMedia Classic [からのアセットの書き出しを参照してください](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
+詳しくは、[Dynamic Mediaクラシックからのアセットの書き出し](exporting-assets-from-dmc.md#exporting-assets-from-dmc)を参照してください。
 
 >[!MORELIKETHIS]
 >
