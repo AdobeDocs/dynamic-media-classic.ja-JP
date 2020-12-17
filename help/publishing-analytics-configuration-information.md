@@ -2,7 +2,7 @@
 title: Adobe Analytics 設定情報の公開
 seo-title: Adobe Analytics 設定情報の公開
 description: 'null'
-seo-description: アドビのAnalytics設定情報を公開する方法を説明します。
+seo-description: Adobe Analyticsの設定情報を公開する方法を説明します。
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -20,11 +20,11 @@ ht-degree: 45%
 
 # Adobe Analytics 設定情報の公開{#publishing-adobe-analytics-configuration-information}
 
-Dynamic Mediaクラシックビューアを公開すると、アドビのAnalyticsレポートの設定に関する情報がDynamic Mediaクラシックサーバーに送信されます。 この情報はビューアに埋め込まれます。ビューアに含まれる情報をDynamic Mediaクラシックサーバで使用できるようにするには、公開が必要です。 サーバーから、ユーザーがビューアでアクティビティを実行した後に、Adobe Analytics へ情報を転送することができます。
+Dynamic Mediaクラシックビューアを公開すると、Adobe Analyticsレポートの設定に関する情報がDynamic Mediaクラシックサーバに送信されます。 この情報はビューアに埋め込まれます。ビューアに含まれる情報をDynamic Mediaクラシックサーバで使用できるようにするには、公開が必要です。 サーバーから、ユーザーがビューアでアクティビティを実行した後に、Adobe Analytics へ情報を転送することができます。
 
 >[!NOTE]
 >
->アドビのAnalyticsでアドビのAnalyticsレポート設定を変更する場合は、必ずAdobe Classicから再度AdobeAnalyticsにログオンし、Dynamic MediaのAnalytics設定を再保存してから再公開してください。
+>Adobe AnalyticsでAdobe Analyticsレポートの設定を変更する場合は、必ずDynamic MediaクラシックからAdobe Analyticsに再度ログオンし、Adobe Analyticsの設定を保存し直してから、再公開してください。
 
 詳しくは、[Adobe Analytics へのログイン](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 
