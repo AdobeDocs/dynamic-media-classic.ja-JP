@@ -20,8 +20,8 @@ ht-degree: 44%
 
 # Media Portal{#media-portal}
 
-Adobe Media Portal を使用すると、承認されたクリエイティブアセットを容易に取得および制御し、社外のパートナーやチャンネルおよび社内のビジネスユーザに配信できます。このブラウザベースの「セルフサービス」環境は、会社で承認された形式でアセットを容易にアップロード、参照、検索、プレビューおよび書き出すことができる、管理者が制御した「表示」をDynamic Mediaクラシックアセットに提供します。
+Adobe Media Portal を使用すると、承認されたクリエイティブアセットを容易に取得および制御し、社外のパートナーやチャンネルおよび社内のビジネスユーザに配信できます。このブラウザベースの「セルフサービス」環境は、会社で承認された形式で容易にアセットをアップロード、参照、検索、プレビューおよび書き出すことができる、管理者が制御した「表示」をDynamic Mediaクラシックアセットに提供します。
 
-For more information about Media Portal including system requirements, see [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+必要システム構成など、Media Portalについて詳しくは、[www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)を参照してください。
 
 Media Portal の管理については、[クイックスタート：Media Portal の管理](quick-start-media-portal-administration.md#quick_start_media_portal_administration)を参照してください。
