@@ -1,6 +1,6 @@
 ---
-title: '「クイック開始: Media Portal»'
-seo-title: '「クイック開始: Media Portal»'
+title: 「クイック開始:Media Portal»
+seo-title: 「クイック開始:Media Portal»
 description: 'null'
 seo-description: Media Portalの操作方法と管理方法をすばやく習得できるように、Media Portalの概要とクイック開始を紹介します。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
@@ -18,9 +18,9 @@ ht-degree: 84%
 ---
 
 
-# Quick Start: Media Portal{#quick-start-media-portal}
+# クイック開始:Media Portal{#quick-start-media-portal}
 
-Media Portalを使用すると、承認されたクリエイティブアセットを会社が容易に取得、制御および外部のパートナーやチャネル、社内のビジネスユーザに配信できます。 このブラウザベースの「セルフサービス」環境は、会社で承認された形式でアセットに簡単にアクセス、参照、検索、プレビューおよび書き出すことができるように、Media PortalDynamic Mediaに管理者が制御した「表示」を提供します。
+Media Portalを使用すると、承認されたクリエイティブアセットを会社が容易に取得、制御および外部のパートナーやチャネル、社内のビジネスユーザに配信できます。 このブラウザベースの「セルフサービス」環境は、会社で承認された形式で簡単にアセットにアクセス、参照、検索、プレビューおよび書き出すことができる、管理者によって制御された「表示」をMedia Portalユーザに提供します。
 
 管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。Media Portal インターフェイスで、フォント、フォントカラー、フォントサイズを指定でき、ロゴなどのブランド要素を取り入れることができます。
 
@@ -40,15 +40,15 @@ Media Portal ユーザには、ユーザ、寄稿者、寄稿者ユーザの 3 �
 
 詳しくは、[Media Portal グループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)を参照してください。
 
-**3. ユーザの追加**
+**3.ユーザの追加**
 
 ユーザを追加する際、ユーザに役割（ユーザ、寄稿者または寄稿者ユーザ）を割り当てます。また、ユーザを 1 つまたは複数のグループに割り当てます。ユーザの追加を速やかに行うため、ユーザリストを CSV ファイル形式でアップロードできます。新しいユーザにはご案内の電子メールメッセージと Media Portal へのログオン手順が送信されます。
 
 詳しくは、[Media Portal ユーザの追加と管理](adding-media-portal-users.md#adding_and_managing_media_portal_users)を参照してください。
 
-**4. FTP アカウントの管理**
+**4.FTP アカウントの管理**
 
-Media Portalに関連付けられ、Media Classicアカウントの特定のDynamic Mediaにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
+Media Portalに関連付けられ、Dynamic Mediaクラシックアカウントの特定のフォルダにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
 
 [FTP アカウントの管理](ftp-accounts.md#managing_ftp_accounts)を参照してください。
 
@@ -58,25 +58,25 @@ Media Portalに関連付けられ、Media Classicアカウントの特定のDyna
 
 詳しくは、[Media Portal ユーザの役割](media-portal-user-roles.md#media_portal_user_roles)を参照してください。
 
-**5. 書き出しオプションの指定**
+**5.書き出しオプションの指定**
 
 Media Portal ユーザは、ファイルを書き出すときに、ファイルの形式を変更してオリジナルのマスターファイルを書き出すことができます。ただし、ユーザにその権限があることが条件です。管理者は、ユーザによるファイルの書き出し方法を指定します。
 
 詳しくは、[Media Portal ユーザが使用できる書き出しオプションの指定](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)を参照してください。
 
-**6. 画像プリセットの作成**
+**6.画像プリセットの作成**
 
 画像プリセットは、画像を書き出すときにサイズ、画質、形式、解像度およびその他の画像の外観を変更する、一連の定義済みの設定です。画像プリセットを作成して、ユーザが書き出すときに画像の形式を変更する方法を制御できます。
 
 詳しくは、[画像プリセットの作成と有効化](creating-enabling-image-presets.md#creating_and_enabling_image_presets)を参照してください。
 
-**7. メタデータプリセットとユーザ定義メタデータフィールドの作成**
+**7.メタデータプリセットとユーザ定義メタデータフィールドの作成**
 
 メタデータは、ファイルを記述し、識別します。アセットの検索と整理に使用されます。メタデータが正しく入力され、データを必要とするメタデータフィールドに値が入力されるようにするため、メタデータプリセットを作成できます。メタデータプリセットは、メタデータエントリの定義済みセットです。操作するファイルを一意に記述するメタデータフィールドを作成することもできます。
 
 詳しくは、[メタデータの使用の効率化](making-efficient-metadata.md#making_more_efficient_use_of_metadata)を参照してください。
 
-**8. Media Portal 画面のカスタマイズ**
+**8.Media Portal 画面のカスタマイズ**
 
 Media Portal スタイル設定によって、Media Portal 画面に自社ロゴとカラーを使用してブランド化できます。スタイル設定を使用して Media Portal に会社のスタンプを配置します。
 
