@@ -35,28 +35,30 @@ ht-degree: 69%
 
 ズームビューアのサイズを変更して、Web ページで使用しているサイズと一致させることができます。この設定を永続的に変更するには、設定画面でビューアのサイズを変更します（管理者のみ実行できます）。詳しくは、[ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)を参照してください。
 
-## ズームターゲットの作成と編集 {#creating-and-editing-zoom-targets}
+## ズームターゲットの作成と編集  {#creating-and-editing-zoom-targets}
 
 ズームターゲットエディタ画面でズームターゲットを作成および編集します。この画面を開くには、画像を選択し、次のいずれかの手順を実行します。
 
-* Click the rollover **[!UICONTROL Edit]** button and choose Zoom Targets.
-* In the Browse Panel, display the image in **[!UICONTROL Detail View]**, then click **[!UICONTROL Zoom Targets]**.
+* ロールオーバー時に表示される「**[!UICONTROL 編集]**」ボタンをクリックし、「ズームターゲット」を選択します。
+* 参照パネルで、画像を&#x200B;**[!UICONTROL 詳細表示]**&#x200B;に表示し、**[!UICONTROL ズームターゲット]**&#x200B;をクリックします。
 
-On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (arrow) to select a target before changing its size or position. Click **[!UICONTROL Add Targets]** (rectangle) to create a zoom target on the image. ズームターゲットエディタ画面には、ズームターゲットの削除、コピーおよび名前付けを行うツールもあります。
+ズームターゲットエディタ画面で、**[!UICONTROL ターゲットを選択]**&#x200B;ボタン（矢印）をクリックしてターゲットを選択し、サイズや位置を変更します。 **[!UICONTROL ターゲット追加]**（長方形）をクリックして、画像上にズームターゲットを作成します。 ズームターゲットエディタ画面には、ズームターゲットの削除、コピーおよび名前付けを行うツールもあります。
 
-### ズームターゲットの作成 {#creating-a-zoom-target}
+### ズームターゲットの作成  {#creating-a-zoom-target}
 
 ズームターゲットエディタ画面を開き、次の手順に従ってズームターゲットを作成します。
 
-1. Click **[!UICONTROL Add Targets]** (rectangle), move the pointer over the image, and click where you want to the zoom target to be.
+1. **[!UICONTROL ターゲット追加]**（長方形）をクリックし、ポインタを画像の上に移動して、ズームターゲットを配置する場所をクリックします。
 
    ズームターゲットのサムネール画像が画面の右側のパネルに表示されます。
 
-1. Click **[!UICONTROL Select Target]** (arrow), click to select the zoom target you created, and adjust the size and position of the target.
+1. **[!UICONTROL ターゲットを選択]**（矢印）をクリックし、作成したズームターゲットをクリックして選択し、ターゲットのサイズと位置を調整します。
 
-   * **サイズ変更**&#x200B;ポインタをズームターゲットの隅に移動し、ドラッグしてターゲットを拡大または縮小します。
+   * ****
+サイズ変更ポインタをズームターゲットの隅に移動し、ドラッグしてターゲットを拡大または縮小します。
 
-   * **位置**&#x200B;ズームターゲット上にポインタを移動し、別の位置にドラッグします。
+   * ****
+位置ズームターゲット上にポインタを移動し、別の位置にドラッグします。
 
 1. 「名前」ボックスにズームターゲットの名前を入力します。
 
@@ -73,23 +75,27 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
 >
 >ズームビューアでズームターゲットの外観を確認するには、ズームターゲットエディタ画面で「プレビュー」ボタンをクリックし、プレビュー画面の「ズームビューア」を選択します。この画面については、[様々なズームビューアでの画像のプレビュー](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers)を参照してください。
 
-### ズームターゲットの編集 {#editing-zoom-targets}
+### ズームターゲットの編集  {#editing-zoom-targets}
 
 ズームターゲットを編集するには、ズームターゲットエディタ画面で次の手順を実行します。
 
-* **再配置** Targetを選択ボタン（矢印）を使用して、ターゲットをクリックして選択します。 次に、ターゲットを別の位置にドラッグします。
+* **位置**
+変更ターゲットを選択ボタン（矢印）を使用して、ターゲットをクリックして選択します。次に、ターゲットを別の位置にドラッグします。
 
-* **サイズ変更**「Targetを選択」ボタン（矢印）を使用してターゲットをクリックし、選択します。 ポインタをズームターゲットの隅に移動し、ドラッグしてターゲットを拡大または縮小します。
+* ****
+サイズ変更ターゲットを選択ボタン（矢印）を使用して、ターゲットをクリックして選択します。ポインタをズームターゲットの隅に移動し、ドラッグしてターゲットを拡大または縮小します。
 
-* **削除**&#x200B;画面の右側にあるターゲットのサムネール画像をクリックします。 次に、「 **[!UICONTROL Targetを削除]**」をクリックします。
+* ****
+削除画面の右側にあるターゲットのサムネール画像をクリックします。次に、「**[!UICONTROL ターゲットを削除]**」をクリックします。
 
-* **名前の変更**&#x200B;画面の右側にあるターゲットのサムネール画像をクリックします。 Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
+* ****
+名前変更画面の右側にあるターゲットのサムネール画像をクリックします。次に、「**[!UICONTROL 名前]**」テキストフィールドに名前を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
 ### ズームターゲットのコピー {#copying-zoom-targets}
 
 ある画像から別の画像にズームターゲットをコピーすることができます。2 つの画像に同様のコンテンツが表示され、ズームターゲットが同じ位置に属しているようにするには、ターゲットをコピーします。ズームターゲットを別の画像にコピーするには、次の手順に従います。
 
 1. ズームターゲットエディタ画面で、コピーするズームターゲットを含む画像を開きます。
-1. 「Targetの **[!UICONTROL コピー先]**」をクリックします。
-1. In the Select Images dialog box, select an image and click **[!UICONTROL Select]**.
+1. 「**[!UICONTROL ターゲットを]**&#x200B;にコピー」をクリックします。
+1. 画像を選択ダイアログボックスで、画像を選択し、「**[!UICONTROL 選択]**」をクリックします。
 
