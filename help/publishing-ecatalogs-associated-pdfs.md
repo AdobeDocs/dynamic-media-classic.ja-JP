@@ -20,7 +20,7 @@ ht-degree: 34%
 
 # eCatalogと関連PDFの公開{#publishing-ecatalogs-and-associated-pdfs}
 
-公開したeCatalogとPDFはDynamic MediaのImage Serverに保存され、Webサイトやアプリケーションで利用できるようになります。 公開処理の一環として、Dynamic MediaクラシックはURL文字列をアクティブにします。 この URL 文字列は、HTML Web ページコードに組み込むことができます。
+公開したeCatalogとPDFは、Dynamic MediaImage Serverに保存され、Webサイトやアプリケーションで利用できるようになります。 公開処理の一環として、Dynamic MediaクラシックはURL文字列をアクティブにします。 この URL 文字列は、HTML Web ページコードに組み込むことができます。
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ ht-degree: 34%
 
 eCatalogをDynamic MediaImage Serverに公開するには：
 
-1. Click **Publish** on the Global Navigation bar.
+1. グローバルナビゲーションバーの「**発行**」をクリックします。
 1. 公開画面の「日時」オプションで「一時」または「定期」を選択します。
 1. （オプション）公開ジョブに名前を入力しますが、タイムスタンプはそのままにしておいてください。
 
    閲覧者がキーワード検索できるように eCatalog を設定する場合は、キーワードが公開されていることを確認します。「詳細」をクリックし、「詳細オプション」をクリックします。 「公開」ドロップダウンメニューで、「すべて公開（検索データを含める）」をクリックします。 このオプションは初期設定ではオンになっています。
 
-1. Click **Start Publish**.
+1. 「**開始発行**」をクリックします。
 
 >[!MORELIKETHIS]
 >
