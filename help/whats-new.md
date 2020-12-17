@@ -2,7 +2,7 @@
 title: 新機能
 seo-title: 新機能
 description: 'null'
-seo-description: 最新のリリースノートから、Classicの新機能についてDynamic Mediaします。
+seo-description: 最新のリリースノートを使用して、新しいDynamic Mediaクラシックについて説明します。
 uuid: 78b88ec0-69fc-481b-af54-4c2d0a31057f
 contentOwner: admin
 content-type: reference
@@ -20,4 +20,4 @@ ht-degree: 10%
 
 # 新機能 {#what-s-new}
 
-Adobe Classicの最新リリースDynamic Media（新機能、拡張機能および修正点など）を確認するには、 [Dynamic Mediaクラシックリリースノート](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html)を参照してください。
+新機能、拡張機能、修正など、最新AdobeのDynamic Mediaクラシックリリース情報について詳しくは、[Dynamic Mediaクラシックリリースノート](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html)を参照してください。
