@@ -18,7 +18,7 @@ ht-degree: 87%
 ---
 
 
-# Previewing image assets with different Zoom viewers{#previewing-image-assets-with-different-zoom-viewers}
+# 様々なズームビューアでの画像アセットのプレビュー{#previewing-image-assets-with-different-zoom-viewers}
 
 ビューアリスト画面で、様々なズームビューアプリセットを使用して画像をプレビューできます。
 
