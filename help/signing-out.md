@@ -1,8 +1,6 @@
 ---
-title: サインインとサインアウト
-seo-title: サインインとサインアウト
-description: 'null'
-seo-description: Learn in and lign in the signing in and out in the Service Classic
+title: AdobeDynamic Mediaクラシックへのサインインとログアウト
+description: AdobeDynamic Mediaクラシックへのログインとクラシックからのサインアウト、および北米(NA)、ヨーロッパ、中東、アフリカ(EMEA)、アジア太平洋(APAC)の本番環境サーバーへの接続について説明します。
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,23 +8,23 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 4%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Dynamic Mediaクラシックにサインイン{#sign-in}
+# AdobeDynamic Mediaクラシック{#sign-in}にサインイン
 
-Dynamic Mediaクラシックへのサインインとログアウトは、デスクトップアプリケーションとWebブラウザーのどちらを使用しているかによって異なります。
+Dynamic Mediaクラシックへのサインインとログアウトは、デスクトップアプリケーション[と[Webブラウザー](#sign-out)のどちらを使用しているかによって異なります。](#sign-in-dmc-app)
 
 サインイン方法に関係なく、Dynamic Mediaクラシックを使用する前に、次の設定を確認してください。
 
-* **ログイン**
+* **ユーザー**
 名電子メールアドレスをログイン名として使用します。
 
 * **パ**
