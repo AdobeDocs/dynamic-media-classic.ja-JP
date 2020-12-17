@@ -17,31 +17,31 @@ ht-degree: 16%
 
 # 役立つリソース{#popular-resources}
 
-## Dynamic Mediaクラシックテクニカルドキュメント
+## Dynamic Mediaクラシック技術文書
 
 * [リリースノート](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [ユーザーガイド](introduction.md)
 
 ## Dynamic Mediaクラシック開発者向けリソース
 
-* [Adobe Viewersリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)
+* [Adobeビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)
 * [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 * [画像サービングおよび画像レンダリング API](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html)
 
-## Dynamic Mediaクラシックのウェビナーとチュートリアル
+## Dynamic MediaクラシックウェビナーとTutorials
 
 * [画像へのシャープの適用のベストプラクティス](/help/assets/s7_sharpening_images.pdf)
-* [資産のROIの最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) — サイトやモバイルアプリ全体にリッチメディアを配信する業界のベストプラクティスを学びます。 このウェビナーでは、複数のデバイスにわたってビデオを効率的に配信する方法、マーケティングキャンペーンに動的なクリエイティブを配信する方法、画像、スタイルガイド、またはルックブックを買い物客の対象としてコンバージョンを高める方法を示す例とデモを紹介します。
-* [コンテンツ配信のライフサイクルの迅速化](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) — このウェビナーでは、リッチメディアの管理と配信を実現する次世代プラットフォームである、Adobe Experience Manager資産のオンデマンドの概要とデモを紹介します。 クリエイティブチームとマーケティングチームの間でアセットを共同作業し、共有して、アセットレビュープロセスを合理化する方法について説明します。 アセットを簡単に見つけ、使用、再利用、共有できるようにアセットメタデータを効率的に管理するベストプラクティスと、チャネル間でのインタラクティブなリッチメディアエクスペリエンスの配信方法です。
-* [モバイル最適化のデザイン](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) — 対象を絞り込んだリッチメディアをすべてのDynamic Mediaに効率的に配信するには、Mobile Optimization Classicを使用します。 このウェビナーでは、モバイルアプリやレスポンシブサイトで効果的な画像やビデオの表示エクスペリエンスをデザインし、配信する方法を学びます。
-* [Adobe Dynamic Media ClassicがSEO](/help/assets/s7_seo.pdf) — 検索エンジンをサポートする仕組み。現在、Webサイトや画像を検索できます。 Dynamic Mediaクラシックは、より多くのトラフィックがDynamic MediaクラシックユーザのWebサイトに送られるように、画像をより検索エンジンに使いやすくする努力をサポートしています。 このPDFでは、これを実現するための背景と実装の推奨事項を示します。
-* [Dynamic Mediaクラシックを使用した休日のコンバージョンの最大化](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true) — このウェビナーでは、自動ワークフローを設定して監視フォルダーからコンテンツを取得し、スピンセットとビデオを自動的に作成する方法について説明します。 また、変更をすばやく管理したり画像を更新したりする方法も説明します。
-* [Dynamic Mediaを使用したインタラクティブなエクスペリエンスを提供するためのベストプラクティス](https://seminars.adobeconnect.com/p7wb8ej3u6d/) — このウェビナーでは、Dynamic MediaClassicでコンテンツを出し入れする方法と、最適なパフォーマンスとエクスペリエンスを得るための画像プリセットの設定方法について説明します。 また、ビューアプリセットおよびキャッシュ設定についても説明します。
-* [レスポンシブデザインのベストプラクティス](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) — このウェビナーでは、モバイル戦略を改善する方法の実用的なヒントについて説明しています。 レスポンシブデザインの実例を確認します。複数のデバイスで機能し、画像の解像度または画像の向き（縦長または横長）を動的に変更することでモバイルのパフォーマンスを向上させる、1 つのマスターアセットを作成します。また、画像を動的にトリミング、拡大縮小またはサイズ変更する方法についても説明します。
+* [資産のROIの最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — サイトやモバイルアプリにリッチメディアを配信する業界のベストプラクティスを学びます。このウェビナーでは、複数のデバイスにわたってビデオを効率的に配信する方法、マーケティングキャンペーンに動的なクリエイティブを配信する方法、画像、スタイルガイド、またはルックブックを買い物客に提供する方法の例とデモを示します。
+* [コンテンツ配信のライフサイクルの迅速化](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — このウェビナーでは、リッチメディアの管理と配信を実現する次世代プラットフォームであるAdobe Experience Manager資産のオンデマンドの概要とデモをご紹介します。クリエイティブチームとマーケティングチームの間でアセットを共同作業し、共有して、アセットレビュープロセスを合理化する方法について説明します。アセットを簡単に見つけ、使用、再利用、共有できるようにアセットメタデータを効率的に管理するベストプラクティスと、チャネル間でのインタラクティブなリッチメディアエクスペリエンスの配信方法です。
+* [モバイル向けデザインの最適化](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 対象を絞り込んだリッチメディアをすべてのデバイスに効率的に配信するには、Dynamic Mediaクラシックを使用します。このウェビナーでは、モバイルアプリやレスポンシブサイトで効果的な画像やビデオの表示エクスペリエンスをデザインし、配信する方法を学びます。
+* [AdobeDynamic Media ClassicがSEO](/help/assets/s7_seo.pdf)  — 検索エンジンをサポートする仕組み。現在、Webサイトや画像を検索できます。Dynamic Mediaクラシックは、Dynamic MediaクラシックユーザのWebサイトへのトラフィックが増えるように、画像を検索エンジンに使いやすくする努力をサポートしています。 このPDFでは、これを実現するための背景と実装の推奨事項を示します。
+* [Dynamic Mediaクラシックを使用した休日のコンバージョンの最大化](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true)  — このウェビナーでは、自動ワークフローを設定して監視フォルダーからコンテンツを取得し、スピンセットとビデオを自動的に作成する方法について説明します。また、変更をすばやく管理したり画像を更新したりする方法も説明します。
+* [Dynamic Mediaクラシックを使用したインタラクティブなエクスペリエンスの提供に関するベストプラクティス](https://seminars.adobeconnect.com/p7wb8ej3u6d/)  — このウェビナーでは、Dynamic Mediaクラシックのコンテンツを入手および出力する方法と、最適なパフォーマンスとエクスペリエンスを得るための画像プリセットの設定方法について説明します。また、ビューアプリセットおよびキャッシュ設定についても説明します。
+* [レスポンシブデザインのベストプラクティス](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html)  — このウェビナーでは、モバイル戦略を改善する方法の実用的なヒントについて説明しています。レスポンシブデザインの実例を確認します。複数のデバイスで機能し、画像の解像度または画像の向き（縦長または横長）を動的に変更することでモバイルのパフォーマンスを向上させる、1 つのマスターアセットを作成します。また、画像を動的にトリミング、拡大縮小またはサイズ変更する方法についても説明します。
 
 ## Dynamic Mediaクラシックトレーニング
 
-現在利用可能なトレーニングコース [を見るには](https://training.adobe.com/training/courses.html#product=adobe-scene7) 、ここを参照してください。
+現在利用可能なトレーニングコースを見るには、[ここ](https://training.adobe.com/training/courses.html#product=adobe-scene7)に行ってください。
 [Dynamic Mediaクラシックのトレーニングビデオ](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/training-videos.html)。
 
-Classic [Dynamic Mediaで利用可能なすべての人気リソースを参照してください](home.md)。
+[Dynamic Mediaクラシック](home.md)の人気のあるリソースをすべてご覧ください。
