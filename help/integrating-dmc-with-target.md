@@ -1,8 +1,8 @@
 ---
-title: AdobeのDynamic Media ClassicとAdobe Target標準/プレミアムの統合
-seo-title: AdobeのDynamic Media ClassicとAdobe Target標準/プレミアムの統合
+title: AdobeDynamic MediaクラシックとAdobe Target標準/プレミアムの統合
+seo-title: AdobeDynamic MediaクラシックとAdobe Target標準/プレミアムの統合
 description: 'null'
-seo-description: AdobeのダイナミックメディアクラシックをAdobe Target標準/プレミアムと統合する方法を説明します。
+seo-description: AdobeDynamic MediaクラシックをAdobe Target標準/プレミアムと統合する方法を説明します。
 uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: admin
 content-type: reference
@@ -18,18 +18,18 @@ ht-degree: 10%
 ---
 
 
-# AdobeのDynamic Media ClassicとAdobe Target標準/プレミアムの統合 {#integrating-dmc-with-target}
+# AdobeDynamic MediaクラシックとAdobe Target標準/プレミアムの統合{#integrating-dmc-with-target}
 
-Before you can integrate [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium], you must enter your Target URL in the [!DNL Dynamic Media Classic] Application General Settings screen. ターゲットURLを取得して、アプリケーションの全般設定画面に入力するには、次の手順に従います。
+[!DNL Dynamic Media Classic]と[!DNL Target Standard/Premium]を統合する前に、[!DNL Dynamic Media Classic]アプリケーションの全般設定画面でターゲットURLを入力する必要があります。 ターゲットURLを取得して、アプリケーションの全般設定画面に入力するには、次の手順に従います。
 
-1. サインイン [!DNL Adobe Experience Cloud]し、アカウントにサインインし [!DNL Target Standard/Premium] ます。
+1. [!DNL Adobe Experience Cloud]で、[!DNL Target Standard/Premium]アカウントにサインインします。
 1. ログインした後に、ブラウザのアドレスバーに表示されている URL の先頭から *.com* までをコピーします。
 
-   For example, if the *fictional* URL (URLs paths always contain forward slashes, not back slashes as in this example) in the address bar is `https:\\www.myfictionalsite.com/categories/admin/home.do`, copy only this portion of the *fictional* URL: `https:\\www.myfictionalsite.com`.
+   例えば、アドレスバーに表示される&#x200B;*架空の* URL（URLのパスには、この例のようにバックスラッシュではなく、常にスラッシュが含まれる）が`https:\\www.myfictionalsite.com/categories/admin/home.do`の場合、*架空の* URLの次の部分のみをコピーします。`https:\\www.myfictionalsite.com`。
 
-   In step 5, you paste the portion of the URL you copied into the [!DNL Dynamic Media Classic] Application General Settings screen.
+   手順5で、コピーしたURLの一部を[!DNL Dynamic Media Classic]アプリケーションの全般設定画面に貼り付けます。
 
-1. で、 [!DNL Dynamic Media Classic]設定 **/** アプリケーション設定 ****&#x200B;をクリックします。
-1. 5アプリケーションの全般設定ページの「 **[!UICONTROL Test&amp;Application Server Name]** 」フィールドに、手順2でコピーしたURLを貼り付けます。
+1. [!DNL Dynamic Media Classic]で、**セットアップ**/**アプリケーションセットアップ**&#x200B;をクリックします。
+1. 5アプリケーションの全般設定ページの「**[!UICONTROL Test&amp;ターゲットサーバー名]**」フィールドに、手順2でコピーしたURLを貼り付けます。
 1. 「**閉じる**」をクリックします。
 
