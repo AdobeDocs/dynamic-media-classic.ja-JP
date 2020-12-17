@@ -20,13 +20,13 @@ ht-degree: 86%
 
 # Web ページへのズームビューアのリンク{#linking-zoom-viewers-to-your-web-pages}
 
-Webサイトやアプリケーションは、Dynamic Media Image Serverのコンテンツ(マスター画像や関連付けられているズームターゲットなど)とズームビューアプリセットに、URL文字列や埋め込みコード経由でアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、Dynamic Media ClassicからURL文字列または埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、マスター画像や関連付けられているズームターゲットなどのDynamic MediaImage Serverコンテンツやズームビューアプリセットにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、Dynamic MediaクラシックからURL文字列または埋め込みコードをコピーします。
 
 >[!NOTE]
 >
 >URL は、アセットを公開するまでアクティブになりません。
 
-## ズームビューアの URL のコピー {#copying-a-zoom-viewer-url}
+## ズームビューアの URL のコピー  {#copying-a-zoom-viewer-url}
 
 1. 左側のアセットライブラリパネルで、コピーする URL を持つズームビューアを含むアセットフォルダに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
@@ -44,11 +44,11 @@ Webサイトやアプリケーションは、Dynamic Media Image Serverのコン
 
       ビューアリストページの表の「アクション」列にある&#x200B;**「URL をコピー」**&#x200B;をクリックします。
 
-## Web ページへのズームビューアの URL の追加 {#adding-zoom-viewer-urls-to-your-web-page}
+## Web ページへのズームビューアの URL の追加  {#adding-zoom-viewer-urls-to-your-web-page}
 
 通常、Web サイトの閲覧者は、ズームアイコン（一般的には虫めがねのアイコン）を選択して画像をズームします。このアイコンを選択すると、ポップアップウィンドウで画像を表示する動的 Web ページ（ASP または JSP）が起動します。このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
 
-詳細およびコードサンプルについては、AdobeビューアリファレンスガイドのHTML5基本ズームビューアの [埋め込みを参照してください](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)。
+詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5基本ズームビューアの埋め込み](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)」を参照してください。
 
 ## ズームビューアの埋め込みコードのコピー {#copying-the-embed-copy-of-a-zoom-viewer}
 
