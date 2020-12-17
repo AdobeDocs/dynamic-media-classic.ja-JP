@@ -26,13 +26,13 @@ Dynamic MediaクラシックHTML5ビデオビューアプリセットは堅牢�
 
 HTML5 と CSS を使用した再生コンポーネントの設計、再生の埋め込み、およびブラウザーの機能に基づくアダプティブストリーミングおよびプログレッシブストリーミングの使用ができる機能を単一のプレーヤーに統合することで、リッチメディアコンテンツをデスクトップユーザーとモバイルユーザーの両方に提供し、ビデオ配信の効率化を確実に行うことができます。
 
-『Adobeビューアリファレンスガイド』の [「HTML5ビューアについて](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) 」も参照してください。
+Adobeビューアリファレンスガイドの[HTML5ビューアについて](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html)も参照してください。
 
-## Dynamic Mediaクラシックビデオビューアを使用したデスクトップコンピューターおよび携帯端末でのビデオの再生 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
+## Dynamic Mediaクラシックビデオビューアを使用したデスクトップコンピューターおよび携帯端末でのビデオ再生{#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 デスクトップおよびモバイル向けのアダプティブビデオストリーミングの場合、ビットレートの切り替えに使用するビデオは、アダプティブビデオセット内のすべてのMP4ビデオに基づきます。
 
-ビデオ再生は、HLSまたはプログレッシブビデオを使用して行われます。 HLS(HTTP Live Streaming)は、アダプティブビデオストリーミングのAppleの標準で、ネットワーク帯域幅容量に基づいて再生を自動調整します。 また、残りのビデオがダウンロードされるまで待たなくても、顧客はビデオ内の任意の時点を「検索」できます。 「 [HTTP Live Streaming](https://developer.apple.com/streaming/)」も参照してください。 プログレッシブビデオは、ビデオをローカルにダウンロードして保存することで配信されます。プログレッシブビデオは、ユーザーのデスクトップ画面または携帯端末にローカルに保存されます。
+ビデオ再生は、HLSまたはプログレッシブビデオを使用して行われます。 HLS(HTTP Live Streaming)は、アダプティブビデオストリーミングのAppleの標準で、ネットワーク帯域幅容量に基づいて再生を自動調整します。 また、残りのビデオがダウンロードされるまで待たなくても、顧客はビデオ内の任意の時点を「検索」できます。 [HTTPライブストリーミング](https://developer.apple.com/streaming/)も参照してください。 プログレッシブビデオは、ビデオをローカルにダウンロードして保存することで配信されます。プログレッシブビデオは、ユーザーのデスクトップ画面または携帯端末にローカルに保存されます。
 
 次の表に、Dynamic Mediaクラシックビデオビューアを使用するデスクトップコンピューターおよび携帯端末でのビデオのデバイス、ブラウザー、再生方法を示します。
 
