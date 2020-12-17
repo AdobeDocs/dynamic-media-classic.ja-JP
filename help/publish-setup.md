@@ -2,7 +2,7 @@
 title: 公開設定
 seo-title: 公開設定
 description: 'null'
-seo-description: 公開設定画面の設定は、初期設定でアセットがDynamic Media ClassicサーバーからWebサイトやアプリケーションにどのように配信されるかを決定します。
+seo-description: 公開設定画面の設定は、初期設定でアセットがDynamic MediaクラシックサーバからWebサイトやアプリケーションにどのように配信されるかを決定します。
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
@@ -19,7 +19,7 @@ ht-degree: 64%
 
 # 公開設定 {#publish-setup}
 
-公開設定画面の設定は、初期設定でアセットがDynamic Media ClassicサーバーからWebサイトやアプリケーションにどのように配信されるかを決定します。 設定を指定しなかった場合、Dynamic Media Classicサーバは、公開設定画面の初期設定に従ってアセットを配信します。 例えば、解像度属性が含まれていない画像を配信するように要求した場合、画像は Image Server 画面に指定されている初期設定のオブジェクト解像度設定で配信されます。
+公開設定画面の設定は、初期設定でアセットがDynamic MediaクラシックサーバからWebサイトやアプリケーションにどのように配信されるかを決定します。 設定を指定しなかった場合、Dynamic Mediaクラシックサーバは、公開設定画面の初期設定に従ってアセットを配信します。 例えば、解像度属性が含まれていない画像を配信するように要求した場合、画像は Image Server 画面に指定されている初期設定のオブジェクト解像度設定で配信されます。
 
 管理者は、Image Server 画面、画像レンダラ画面、ビネット画面の初期設定を変更して、サーバからアセットを配信するための初期設定を指定することができます。
 
@@ -27,34 +27,34 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->公開設定画面は、詳しい知識がある Web サイト開発者またはプログラマ向けに用意されています。Dynamic Media Classicでは、これらの画面の設定を変更するユーザーは、Dynamic Media Classic、HTTPプロトコルの標準および表記、基本的な画像処理技術に精通していると想定しています。
+>公開設定画面は、詳しい知識がある Web サイト開発者またはプログラマ向けに用意されています。Dynamic Mediaクラシックでは、これらの画面の設定を変更するユーザーは、Dynamic Mediaクラシック、HTTPプロトコルの標準と表記、基本的な画像処理技術に精通していると想定しています。
 
 ## Image Server {#image-server}
 
 Image Server 画面では、Image Server から画像を配信するための初期設定を指定します。次の 5 つのカテゴリの設定を指定できます（設定について詳しくは、Image Server 画面を参照してください）。
 
-これらの設定は、Dynamic Media Classicサポート担当者の支援を受けた場合にのみ変更してください。
+これらの設定は、Dynamic Mediaクラシックのサポート担当者の支援を受けた場合にのみ変更してください。
 
-**カタログ管理** これらの設定は、Dynamic Media Classicとカタログとの関係を決定します。 ほとんどのWebサーバーとは異なり、Dynamic Media Image ServerのURL呼び出しは、固有の画像ファイルではなく、マニフェストまたはカタログファイルに送信されます。 カタログファイル（eCatalog と混同しないでください）には、Image Server に公開されたすべてのコンテンツのリストと、各画像へのパスが含まれています。Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
+**カタログ** 管理これらの設定は、Dynamic Mediaクラシックとカタログとの関係を決定します。ほとんどのWebサーバーとは異なり、Dynamic MediaImage ServerのURL呼び出しは、固有の画像ファイルではなく、マニフェストまたはカタログファイルに送られます。 カタログファイル（eCatalog と混同しないでください）には、Image Server に公開されたすべてのコンテンツのリストと、各画像へのパスが含まれています。Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
 
-**要求属性** ：これらの設定は、サーバーから配信できる画像に制限を設けます。 例えば、 *返信画像の* 最大サイズ制限は **[!UICONTROL 、]** Width **[!UICONTROL 5000、]****** Height 5000です。
+**要求** 属性これらの設定は、サーバから配信できる画像に制限を設けます。例えば、*最大* **[!UICONTROL 返信画像サイズの制限]**&#x200B;は&#x200B;**[!UICONTROL 幅]** 5000、**[!UICONTROL 高さ]** 5000です。
 
-**初期設定の要求属性** ：これらの設定は、画像の初期設定の外観に関係します。
+**初期設定の要求** 属性これらの設定は、画像の初期設定の外観に関係します。
 
-**共通のサムネール属性** これらの設定は、サムネール画像の初期設定の外観と配置に関係します。
+**共通のサムネール** 属性これらの設定は、サムネール画像の初期設定の外観と配置に関係します。
 
-**カタログフィールドの初期設定** これらの設定は、画像の解像度と初期設定のサムネールの種類に関係します。
+**カタログ** フィールドの初期設定これらの設定は、画像の解像度と初期設定のサムネールの種類に関係します。
 
-**カラーマネジメント属性** ：これらの設定によって、使用されるICCカラープロファイルが決まります。
+**カラーマネジメント** 属性これらの設定は、使用するICCカラープロファイルを決定します。
 
-**互換性属性** この設定により、後方互換性を確保するために、バージョン3.6の場合と同様に、テキストレイヤーの先頭と末尾の段落が処理されます。
+**互換性** 属性この設定により、後方互換性を確保するために、バージョン3.6の場合と同様に、テキストレイヤーの先頭と末尾の段落が処理されます。
 
-**ローカライゼーションサポート** これらの設定を使用して、複数のロケール属性を管理できます。 また、ロケールマップ文字列を指定することもできます。これにより、ビューアのツールチップで使用する言語を指定できます。
+**ローカライゼーション** サポートこれらの設定を使用して、複数のロケール属性を管理できます。また、ロケールマップ文字列を指定することもできます。これにより、ビューアのツールチップで使用する言語を指定できます。
 
 例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。この機能を実現するには、ロケールマップ文字列を指定します。次に、必要な言語に翻訳したテキスト文字列を追加して、ビューアのプリセットのツールチップテキストを編集します。
 
 >[!NOTE]
-> 「ローカライゼーションサポート」オプションを設定するには、Admin Consoleを [使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、セットアップヘルプを要求します。
+> ローカライゼーションサポートオプションを設定するには、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、セットアップヘルプを要求します。
 
 **「ローカリゼーションサポート」**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
 
@@ -62,9 +62,9 @@ Image Server 画面では、Image Server から画像を配信するための初
 
 >[!NOTE]
 >
->ロケールマップフィールドなど、ダイナミックメディアクラシックでローカライゼーションサポートオプションを設定する場合は、Admin Consoleを [使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、セットアップヘルプを要求します。
+>ロケールマップフィールドなど、Dynamic Mediaクラシックでローカライゼーションサポートオプションを設定する場合は、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、セットアップヘルプを要求します。
 
-Dynamic Media Classicは、eコマースWebサイトの製品の画像を管理するのが一般的な方法です。 国際的なビジネスでは、同じ製品のアセットの表示が国によって異なるという課題に直面します。通常、この相違はメディア全体のごくわずかな部分に関するものです。このような相違に対処するため、国ごとにすべてのアセットをコピーして異なる部分だけを上書きするのは大変な作業で、マスターアセットは 1 つという概念に矛盾します。このようなアセットの相違によって、オーディオトラックが異なる国別のビデオから、製品に使用される電源コードの違いという微妙ながらも重要な違いまで対応できます。Dynamic Media Classicでは、基本的な検索メカニズムを使用します。 Image Server が検索するアセットのサフィックスの順序を定義します（必要なロケールから始めます）。
+Dynamic Mediaクラシックは、eコマースWebサイトの製品画像を管理するのが一般的です。 国際的なビジネスでは、同じ製品のアセットの表示が国によって異なるという課題に直面します。通常、この相違はメディア全体のごくわずかな部分に関するものです。このような相違に対処するため、国ごとにすべてのアセットをコピーして異なる部分だけを上書きするのは大変な作業で、マスターアセットは 1 つという概念に矛盾します。このようなアセットの相違によって、オーディオトラックが異なる国別のビデオから、製品に使用される電源コードの違いという微妙ながらも重要な違いまで対応できます。Dynamic Mediaクラシックでは、基本的なルックアップメカニズムを使用します。 Image Server が検索するアセットのサフィックスの順序を定義します（必要なロケールから始めます）。
 
 **アセットのローカライズ**
 
@@ -74,11 +74,11 @@ IS（画像サービング）要求のロケールは、次の IS/IR（画像レ
 
 このコマンドはロケール ID（locId）文字列を受け入れ、大文字小文字は区別しません。ロケール ID は通常、英文字と「_」を含む 2 ～ 6 文字の文字列です。
 
-IS supports arbitrary printable ASCII strings.The `locale=` command has a global scope, meaning that it is applied to the entire request, including all nested IS and IR requests, referenced templates, and image layers. 要求ごとに複数のロケールを設定すること、例えばレイヤーごとに異なるロケールを設定することはできません。ただし、ネストされた要求での明示的なオーバーライドは可能だと考えられます。
+ISは、任意の印刷可能なASCII文字列をサポートします。`locale=`コマンドは、グローバルスコープを持ち、ネストされたIS要求とIR要求、参照テンプレート、イメージレイヤーを含め、要求全体に適用されます。 要求ごとに複数のロケールを設定すること、例えばレイヤーごとに異なるロケールを設定することはできません。ただし、ネストされた要求での明示的なオーバーライドは可能だと考えられます。
 
-If `locale=` is not specified, `attribute::DefaultLocale` is passed to the translation engines. Limited input validation is applied to the `locale=` value. Empty `locale=` values are permitted. Because `locale=` has a global scope, `attribute::DefaultLocale` is provided by the main catalog for the entire request.
+`locale=`を指定しない場合、`attribute::DefaultLocale`は翻訳エンジンに渡されます。 `locale=`値に適用される入力検証には制限があります。 空の`locale=`値を使用できます。 `locale=`はグローバルスコープなので、`attribute::DefaultLocale`は要求全体のメインカタログから提供されます。
 
-Some of the benefits of using `locale=` and `attribute::DefaultLocale` include the following:
+`locale=`と`attribute::DefaultLocale`を使用する利点の一部を次に示します。
 
 * 複数のロケールでコンテンツを共有できる。
 * 汎用 ID を使用して、ロケール固有のコンテンツにアクセスできる。
@@ -100,27 +100,27 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 
 **アセットのローカリゼーションの実装**
 
-ダイナミックMedia Classicと画像サービングには、画像や静的コンテンツのローカライゼーションを可能にするインターフェイスがあります。
+Dynamic Mediaクラシックと画像サービングには、画像と静的コンテンツのローカライゼーションを可能にするインターフェイスがあります。
 
 ローカリゼーションを行わない場合、Image Server の URL は次のようになります。
 
 `https://server/is/image/company/image`
 
-With localization, an Image Server URL adds the `locale=` parameter to the path, as in the following:
+ローカライゼーションが有効な場合、Image Server URLは次のように`locale=`パラメータをパスに追加します。
 
 `https://server/is/image/company/image?locale=de_DE`
 
-On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** > **Application Setup** > **Publish Setup** > **Image Server** > **Localization Support** group.
+Image ServerがHTTP呼び出しを受け取ると、`locale=`パラメーターが、**設定**/**アプリケーション設定**/**公開設定**/**ローカライゼーションサーバー**/**アプリケーションサポートにあるlocaleMapフィールドによって解析されます。a10/>グループ。**
 
 ロケールマップフィールドには、パイプ記号（|）で区切られたエントリのリストが含まれています。
 
-各エントリには、コンマ区切りの値のリストが含まれています。The first value is the search value that is passed by the `locale=` parameter. その他の値はサフィックス値または置換値で、既存の画像に一致するまで順次検索されます。
+各エントリには、コンマ区切りの値のリストが含まれています。最初の値は、`locale=`パラメーターによって渡される検索値です。 その他の値はサフィックス値または置換値で、既存の画像に一致するまで順次検索されます。
 
 サフィックス値または置換値が適用されるかどうかは、**設定**／**アプリケーション設定**／**公開設定**／**Image Server**／**ローカリゼーションサポート**&#x200B;グループのグローバルロケール設定によって決まります。
 
 >[!NOTE]
 >
->グローバルロケール設定は、現在、ダイナミックメディアクラシックインターフェイス内ではなく、API経由で設定した場合にのみ可能です。
+>グローバルロケール設定は、現在、Dynamic Mediaクラシックインターフェイス内ではなく、API経由で設定した場合にのみ可能です。
 
 **サフィックスの例**
 
@@ -136,11 +136,11 @@ On receipt of the http call by the Image Server, the `locale=` parameter is pars
 
 URL でロケールが定義されていない場合、Image Server は DefaultLocale（定義されている場合）を取り込み、URL に適用します。
 
-If an unknown or empty locale parameter is supplied with `locale=`, then the localeMap is scanned for the empty value “starting with,”. localeMap で、ロケールが不明の場合に適用する初期設定のロケールを含めるよう設定しておくことが重要です。
+`locale=`で不明または空のロケールパラメータが提供されている場合、localeMapでは「,」で始まる空の値が検索されます。 localeMap で、ロケールが不明の場合に適用する初期設定のロケールを含めるよう設定しておくことが重要です。
 
 **defaultImage について**
 
-Image Server は、要求されたロケールの選択肢を 1 つずつ検索します。一致するものがなかった場合、ロケールの選択肢が defaultImage に適用され、一致するバージョンが返されます。したがって、各ロケールにローカライゼーションのない画像のオプションが含まれるか、ローカライズされたdefaultImageのバージョンがDynamic Media Classicで使用可能になります。
+Image Server は、要求されたロケールの選択肢を 1 つずつ検索します。一致するものがなかった場合、ロケールの選択肢が defaultImage に適用され、一致するバージョンが返されます。したがって、各ロケールにローカライゼーションのない画像のオプションが含まれているか、ローカライズされたdefaultImageのバージョンがDynamic Mediaクラシックで使用可能になっている必要があります。
 
 **localeMap の検索のシナリオ**
 
@@ -148,7 +148,7 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-You map these locales to the suffixes `_E`, `_G`, and `_F`, for English, German, and French, respectively. すべての例で、汎用の入力画像 ID は `myImg` です。
+これらのロケールを、英語は`_E`、ドイツ語は`_G`、フランス語は`_F`のサフィックスにマップします。 すべての例で、汎用の入力画像 ID は `myImg` です。
 
 localeMap の検索の標準的な動作&#x200B;**
 
@@ -175,7 +175,7 @@ localeMap の検索の標準的な動作&#x200B;**
 | fr | myImg_F,myImg |
 | その他 | myImg_E,myImg |
 
-You could also have a dedicated locSuffix, such as U, just for unknown locales, and force to the default image if no `_U` exists, as in the following:
+また、次のように、不明なロケールのみにUなど専用のlocSuffixを設定し、`_U`が存在しない場合はデフォルトの画像を強制することもできます。
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,U`
 
@@ -187,7 +187,7 @@ You could also have a dedicated locSuffix, such as U, just for unknown locales, 
 
 ヨーロッパ、中東、北米などロケールをグループ化し、肌の露出度など地域の基準に対処することが望ましい場合が多くあります。多層検索を使用して、このような効果を実現することができます。
 
-この例では、西欧で使用するコレクションと中東で使用するコレクションをサポートするとします。どちらのコレクションも汎用の画像コレクションに基づいて作成し、いくつかの画像を追加または変更します。Both collections are then further refined for specific locales, such as `m1, m2` for two middle-eastern variants, and `w1, w2,` and `w3` for three Western locales, except that images are shared for `w1` and `w3`. 不明なロケールは汎用のコレクションのみにマッピングされ、ロケール固有の画像にはアクセスされません。マッピングは次のようになります。
+この例では、西欧で使用するコレクションと中東で使用するコレクションをサポートするとします。どちらのコレクションも汎用の画像コレクションに基づいて作成し、いくつかの画像を追加または変更します。次に、2つの中東の異形の`m1, m2`や、3つの西側のロケールの`w1, w2,`と`w3`のように、両方のコレクションが特定のロケール用にさらに絞り込まれます。ただし、画像は`w1`と`w3`で共有されます。 不明なロケールは汎用のコレクションのみにマッピングされ、ロケール固有の画像にはアクセスされません。マッピングは次のようになります。
 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -203,7 +203,7 @@ You could also have a dedicated locSuffix, such as U, just for unknown locales, 
 
 一部の画像の命名規則で、汎用の画像 ID がサポートされない場合があります。要求にある汎用 ID を、カタログ内の特定の ID にマップする必要があります。ただし、正確な特定の ID が不明な場合があります。
 
-Using the first example as a basis, images for all languages may have the suffixes `_1`, `_2`, or `_3`. Images that are specific to French locales may have the suffixes `_22` or `_23` suffix. And images that are specific to German locales may have the suffixes `_470` or `_480`.
+最初の例を基に、すべての言語の画像に`_1`、`_2`、または`_3`のサフィックスを付けることができます。 フランス語のロケールに固有の画像には、`_22`または`_23`のサフィックスを付加できます。 また、ドイツ語のロケールに特有の画像には`_470`または`_480`のサフィックスを付けることができます。
 
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
@@ -217,21 +217,21 @@ Using the first example as a basis, images for all languages may have the suffix
 
 * ローカリゼーションの使用は ID に基づく呼び出しに限られ、パスに基づくアセットの呼び出しには使用できません。したがって、ロケールを使用してビデオを呼び出す場合は、ビデオのフルパスではなく会社 ID またはアセット ID として呼び出す必要があります。つまり、rtmp のメソッドはパスに基づくビデオの呼び出しのみに使用できるので、ローカリゼーションでは使用できません。
 * localeMap がアクティブな場合は、単一のビデオを含む混在メディアセットを使用できません。使用した場合は、このセットのコンテンツの呼び出しが失敗します。この問題の回避策として、単一のビデオをアダプティブビデオセットに追加することができます。追加したら、このアダプティブビデオセットを混在メディアセットに追加します。
-* アダプティブビデオセットのコンテンツの要求など、ローカライズされない要求があります。したがって、アダプティブビデオセットをローカリゼーションで使用する場合は、アダプティブビデオセットを混在メディアセット内に配置してください。Then, call the set into a Mixed Media viewer with the `locale=` parameter.
+* アダプティブビデオセットのコンテンツの要求など、ローカライズされない要求があります。したがって、アダプティブビデオセットをローカリゼーションで使用する場合は、アダプティブビデオセットを混在メディアセット内に配置してください。次に、`locale=`パラメーターを使用して混在メディアビューア内のセットを呼び出します。
 
 ## 画像レンダラ {#image-renderer}
 
 画像レンダラ画面では、画像レンダリングサーバから画像セットを配信するための初期設定を指定します。次の 5 つのカテゴリの設定を指定できます（設定について詳しくは、Image Server 画面を参照してください）。
 
-**カタログ管理** これらの設定では、Dynamic Media Classicとカタログファイルとの関係が決まります。 Dynamic Media Classic Render ServerのURL呼び出しがカタログに対して行われ、その後カタログがサーバから画像を配信するための呼び出しを行います。 これらの設定は、Dynamic Media Classicサポート担当者の支援を受けた場合にのみ変更してください。
+**カタログ** 管理これらの設定は、Catalog Classicとカタログファイルとの関係を決定します。Dynamic MediaクラシックRender ServerのURL呼び出しはカタログに対して行われ、その後カタログがサーバから画像を配信するための呼び出しを行います。 これらの設定は、Dynamic Mediaクラシックのサポート担当者の支援を受けた場合にのみ変更してください。
 
-**Session Attributes** ：これらの設定は、エラーパラメーター、相対画像URLのURLおよびオブジェクトの重なりを許可するかどうかを指定します。
+**Session** Attributesこれらの設定は、エラーパラメーター、相対画像URLのURLおよびオブジェクトの重なりを許可するかどうかを指定します。
 
-**初期設定のマテリアル属性** これらの設定は、画像の初期設定の解像度とシャープの設定を指定します。
+**初期設定のマテリアル** 属性これらの設定は、画像の初期設定の解像度とシャープの設定を指定します。
 
-**応答画像属性** これらの設定は、画像の初期設定の外観に関係します。
+**応答画像** 属性これらの設定は、画像の初期設定の外観に関係します。
 
-**カラーマネジメント属性** これらの設定は、画像の初期設定のカラー設定に関係します。
+**カラーマネジメント** 属性これらの設定は、画像の初期設定のカラー設定に関係します。
 
 ## ビネット {#vignette}
 
