@@ -26,7 +26,7 @@ ht-degree: 84%
 >
 >ユーザを追加する前に、ユーザを管理するためのグループを設定します。Media Portal では、ユーザを 1 つまたは複数のグループに割り当てないと、ユーザを追加できません。詳しくは、[Media Portal グループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)を参照してください。
 
-## Media Portal のパスワードの処理 {#handling-media-portal-passwords}
+## Media Portal のパスワードの処理  {#handling-media-portal-passwords}
 
 Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップしたときに、それらのユーザにパスワードが記載されたご案内の電子メールが送信されます。管理者は、Media Portal ユーザがこのパスワードを変更できるようにするかどうかを指定できます。
 
@@ -38,7 +38,7 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 >
 >パスワードの変更が許可された Media Portal ユーザは、**[!UICONTROL 設定]**／**[!UICONTROL 個人設定]**&#x200B;を選択して、個人設定画面でパスワードを変更することができます。
 
-## Media Portal ユーザの追加 {#adding-a-media-portal-user}
+## Media Portal ユーザの追加  {#adding-a-media-portal-user}
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL アプリケーション設定]**／**[!UICONTROL 管理設定]**／**[!UICONTROL ユーザ管理]**&#x200B;をクリックします。
 1. ユーザ管理ページで、**「追加」**&#x200B;をクリックします。
@@ -60,13 +60,13 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 
 ユーザを追加すると、追加を通知する電子メールメッセージが Media Portal からユーザに送信されます。メッセージには、一時パスワードと Media Portal の URL が含まれています。
 
-## Media Portal ユーザリストのアップロード {#uploading-a-media-portal-user-list}
+## Media Portal ユーザリストのアップロード  {#uploading-a-media-portal-user-list}
 
 多数のユーザを追加する場合は、ユーザリストをアップロードできます。ユーザは、現在選択されているアカウントに自動的に追加されます。
 
 ユーザリストは、ユーザ情報を含む CSV（カンマ区切り）ファイル形式で作成します。リストがアップロードされると、リスト内のユーザが自動的にアカウントに追加され、指定されているグループが割り当てられます。追加を通知する電子メールが各新規ユーザに送信されます。この電子メールには、Media Portal へのリンクと一時パスワードが含まれます。
 
-### CSV ファイルの作成 {#creating-the-csv-file}
+### CSV ファイルの作成  {#creating-the-csv-file}
 
 次の形式とフィールドに従った CSV ファイル（filename.csv）を作成します。ファイルの最初の行には、次の表の列見出しを含める必要があります。列の順序は任意です。列はすべて必須です。
 
@@ -87,7 +87,7 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 | Kevin | Marks | `kevinm@myco.com` | welcome | Media Portal ユーザ | PortalCo/MktgGroup, PortalCo/test |
 
 
-### CSV ファイルのアップロード {#uploading-the-csv-file}
+### CSV ファイルのアップロード  {#uploading-the-csv-file}
 
 1. ユーザ管理設定画面を開きます。
 1. **[!UICONTROL ユーザリストをアップロード]**&#x200B;をクリックします。
@@ -99,7 +99,7 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 >
 >CSV ファイルの形式が正しくなかった場合は、次のエラーメッセージが表示されます。「アップロードした CSV ファイルの処理中にエラーが発生しました。ファイルの内容を調べて、データが有効であることを確認してください。」また、CSV に既存の IP または IPS ユーザが含まれていた場合、そのユーザはユーザリストに追加されません。
 
-## 選択可能な Media Portal ユーザリストの生成 {#generating-a-selectable-list-of-media-portal-users}
+## 選択可能な Media Portal ユーザリストの生成  {#generating-a-selectable-list-of-media-portal-users}
 
 Media Portal ユーザの名前と電子メールアドレスをポップアップウィンドウに表示できます。このリストは、ユーザ名とアドレスを Media Portal 以外で使用するためにカットおよびペーストする場合に便利です。
 
@@ -107,32 +107,32 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 1. **[!UICONTROL 「ユーザの役割が」]**&#x200B;ドロップダウンリストで、Media Portal ユーザの役割名を選択し、**[!UICONTROL 「更新」]**&#x200B;をクリックして、Media Portal ユーザの 1 つのクラスの名前のみを表示します。
 1. **[!UICONTROL 「ポップアップリスト」]**&#x200B;をクリックすると、ポップアップウィンドウが開きます。このリストをコピーしてペーストできます。
 
-## Media Portal ユーザ向けのご案内の電子メールメッセージの設定 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
+## Media Portal ユーザ向けのご案内の電子メールメッセージの設定  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定するか、Dynamic Media Classicで送信しないように設定できます。
+新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定するか、Dynamic Mediaクラシックに送信しないように設定できます。
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL アプリケーション設定]**／**[!UICONTROL 管理設定]**／**[!UICONTROL ユーザ管理]**&#x200B;を選択します。
-1. In the User Administration Setup screen, click **[!UICONTROL Email Settings]**.
+1. ユーザ管理設定画面で、「**[!UICONTROL 電子メール設定]**」をクリックします。
 1. 電子メール設定ダイアログボックスで、次のいずれかの設定を指定します。
 
-   **[!UICONTROL 電子メールを送信]** 新しいユーザーにサインアップが完了したことを電子メールで通知しない場合は、このオプションの選択を解除します。
+   **[!UICONTROL 電子メールの送信]** 新しいユーザーにサインアップが完了したことを電子メールで通知しない場合は、このオプションの選択を解除します。
 
-   **[!UICONTROL デフォルトのパスワード]** 新規ユーザーの一時パスワードを入力するか、フィールドを空のままにしてDynamic Media Classicでランダムなパスワードを生成します。 ユーザは、初めてログインしたときにパスワードを変更するように指示されます。
+   **[!UICONTROL デフォルトの]** パスワード新規ユーザーの一時パスワードを入力するか、フィールドを空のままにして、Dynamic Mediaクラシックでランダムなパスワードを生成します。ユーザは、初めてログインしたときにパスワードを変更するように指示されます。
 
-   **[!UICONTROL 置換URL]** ユーザーが別のURLを使用してDynamic Media Classicにアクセスする場合、デフォルトとは異なるURLを入力します。
+   **[!UICONTROL 置換]** URLユーザが別のURLを使用してDynamic Mediaクラシックにアクセスする場合、デフォルトとは異なるURLを入力します。
 
 ## その他のユーザ管理タスク {#other-user-management-tasks}
 
 ユーザ管理設定画面から、次のタスクも実行できます。
 
-**[!UICONTROL ユーザリストのフィルタリングと並べ替え]** Media Portalユーザのリストをフィルタして、ユーザを探します。 詳しくは、ユーザリストのフィルタリングと並べ替えを参照してください。
+**[!UICONTROL ユーザ]** リストのフィルタリングと並べ替えMedia Portalユーザのリストをフィルタして、ユーザを探します。詳しくは、ユーザリストのフィルタリングと並べ替えを参照してください。
 
-**[!UICONTROL ユーザーの削除]** リストからユーザーを削除します。 詳しくは、ユーザの削除を参照してください。
+**[!UICONTROL ユーザーの削除]** リストからユーザーを削除します。詳しくは、ユーザの削除を参照してください。
 
-**[!UICONTROL ユーザーのアクティブ化と非アクティブ化]** ：ユーザーによるフォルダーへのアクセスを停止します。 詳しくは、ユーザのアクティブ化と非アクティブ化を参照してください。
+**[!UICONTROL ユーザーのアクティブ化と非アクティブ化]** ユーザーによるフォルダーへのアクセスを停止します。詳しくは、ユーザのアクティブ化と非アクティブ化を参照してください。
 
-**[!UICONTROL ユーザー情報の編集]** ：ユーザーに関する最新の情報を入力します。 詳しくは、ユーザ情報の編集を参照してください。
+**[!UICONTROL ユーザー]** 情報の編集ユーザーに関する最新の情報を入力します。詳しくは、ユーザ情報の編集を参照してください。
 
-**[!UICONTROL ユーザ定義フィールドの作成]** Dynamic Media Classicのアセットの整理に役立つ、ユーザ定義のカスタムメタデータフィールドを作成します。 このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
+**[!UICONTROL ユーザ定義]** フィールドの作成ユーザ定義のカスタムメタデータフィールドを作成し、Dynamic Mediaクラシックでのアセットの整理に役立ちます。このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
 
 [ユーザ定義フィールド](application-setup.md#user_defined_fields)を参照してください。
