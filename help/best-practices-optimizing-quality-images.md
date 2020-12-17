@@ -24,60 +24,60 @@ ht-degree: 60%
 
 Dynamic Mediaクラシックには、画像の調整と最適化、および結果のレンダリングを行うための100を超える画像サービングコマンドが含まれています。 重要なコマンドおよびベストプラクティスを使用して、このプロセスを効率化し、良い結果をすばやく得るために、次のガイドラインが役に立ちます。
 
-「 [スマートイメージング](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)」も参照してください。
+[スマートイメージング](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)も参照してください。
 
-## Best practices for image format (&amp;fmt=) {#best-practices-for-image-format-fmt}
+## 画像形式(&amp;fmt=) {#best-practices-for-image-format-fmt}のベストプラクティス
 
 * 良い画質および扱いやすいサイズと幅で画像を配信するには、JPG または PNG が最良の選択肢です。
-* URLに形式コマンドが指定されていない場合、Dynamic Media配信サービングの初期設定はJPGです。
+* URLに形式コマンドが指定されていない場合、Dynamic Media画像サービングの初期設定では、配信はJPGになります。
 * JPG は 10:1 の比率で圧縮され、通常は比較的小さい画像ファイルサイズになります。PNGは約2:1の比率で圧縮されますが、画像に空の背景が含まれる場合など、一部のケースでは圧縮されます。 ただし、一般的に PNG ファイルのサイズは JPG ファイルよりも大きくなります。
 * JPG は非可逆圧縮を使用します。この方式では、圧縮中に画像要素（ピクセル）が消失します。一方、PNG は可逆圧縮を使用します。
 * JPG では、シャープなエッジとコントラストを持つ人工的な画像よりも写実的な画像の方がより忠実に圧縮されます。
 * 画像に透明部分が含まれる場合は、PNG を使用します。JPG では透明化がサポートされません。
 
-As a best practice for image format, start with the most common setting `&fmt=JPG`.
+画像形式のベストプラクティスとして、最も一般的な設定`&fmt=JPG`を持つ開始を行います。
 
 ## 画像サイズのベストプラクティス {#best-practices-for-image-size}
 
-画像サイズの動的な縮小は、Dynamic Mediaの画像サービングで実行される最も一般的なタスクの1つです。 このタスクでは、サイズを指定し、さらにオプションとして画像の縮小に使用するダウンサンプリングモードを指定します。
+画像サイズの動的な縮小は、Dynamic Media画像サービングで実行される最も一般的なタスクの1つです。 このタスクでは、サイズを指定し、さらにオプションとして画像の縮小に使用するダウンサンプリングモードを指定します。
 
-* For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. これらのパラメーターにより、縦横比に応じて画像の幅が自動的に設定されます。
-* `&resMode=<value>` ダウンサンプリングに使用するアルゴリズムを制御します。 との開始 `&resMode=sharp2`。 この値により、最良の画質になります。While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
+* 画像サイズに関しては、`&wid=<value>`と`&hei=<value>`を使用するか、単に`&hei=<value>`を使用するのが、最も適切で簡単な方法です。 これらのパラメーターにより、縦横比に応じて画像の幅が自動的に設定されます。
+* `&resMode=<value>` ダウンサンプリングに使用するアルゴリズムを制御します。`&resMode=sharp2`との開始。 この値により、最良の画質になります。ダウンサンプリング値`=bilin`を使用する方が高速ですが、アーチファクトのエイリアシングを引き起こすことがよくあります。
 
-画像サイズに関するベストプラクティスとして、 `&wid=<value>&hei=<value>&resMode=sharp2` または `&hei=<value>&resMode=sharp2`
+画像サイズ変更のベストプラクティスとして、`&wid=<value>&hei=<value>&resMode=sharp2`または`&hei=<value>&resMode=sharp2`を使用します
 
 ## 画像へのシャープ適用のベストプラクティス {#best-practices-for-image-sharpening}
 
-画像へのシャープ適用は、Web サイト上の画像を管理する上で最も複雑な側面であり、ミスが多く起きるところです。次の役立つリソースを参照して、Dynamic Mediaクラシックでのシャープ適用とアンシャープマスクの仕組みを詳しく学習してください。
+画像へのシャープ適用は、Web サイト上の画像を管理する上で最も複雑な側面であり、ミスが多く起きるところです。以下の役立つリソースを参照し、Dynamic Mediaクラシックでのシャープ適用とアンシャープマスクの仕組みを詳しく学習してください。
 
-ベストプラクティスに関するホワイトペーパーの [シャープの適用(Adobe Images ClassicおよびImage Server](/help/assets/s7_sharpening_images.pdf))。
+ベストプラクティスに関するホワイトペーパー[AdobeDynamic MediaクラシックおよびImage Server](/help/assets/s7_sharpening_images.pdf)に画像にシャープを適用します。
 
-アンシャープマスクを使用した画像への [シャープの適用も参照してください](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)。
+詳しくは、[アンシャープマスクを使用した画像へのシャープの適用](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)も参照してください。
 
 Dynamic Mediaクラシックでは、取り込み時、配信時、またはその両方で画像にシャープを適用できます。 ただし、ほとんどの場合は、両方ではなくいずれかの方法のみを使用して画像にシャープを適用することをお勧めします。通常は、配信時に URL 上の画像にシャープを適用すると最良の結果を得られます。
 
 画像へのシャープの適用に使用できる方法は次の 2 つあります。
 
-* Simple sharpening ( `&op_sharpen`) - Similar to the sharpen filter used in Photoshop, simple sharpening applies basic sharpening to the final view of the image following dynamic resizing. ただし、この方法にはユーザーが設定できる項目はありません。The best practice is to not use `&op_sharpen` unless required.
-* Unsharp masking ( `&op_USM`) - Unsharp masking is an industry standard sharpening filter. ベストプラクティスとして、次のガイドラインに従って、アンシャープマスクを使用して画像にシャープを適用します。アンシャープマスクでは、次の 3 つのパラメーターを制御できます。
+* 単純なシャープ(`&op_sharpen`) -Photoshopで使用されているシャープフィルターと同様に、単純なシャープは、動的なサイズ変更の後に最終的な表示に対して基本的なシャープを適用します。 ただし、この方法にはユーザーが設定できる項目はありません。ベストプラクティスは、必要でない限り`&op_sharpen`を使用しないことです。
+* アンシャープマスク(`&op_USM`) — アンシャープマスクは、業界標準のシャープフィルターです。 ベストプラクティスとして、次のガイドラインに従って、アンシャープマスクを使用して画像にシャープを適用します。アンシャープマスクでは、次の 3 つのパラメーターを制御できます。
 
    * `&op_sharpen=amount,radius,threshold`
 
       * `amount`（0 ～ 5、効果の強度）
       * `radius`（0 ～ 250、シャープが適用されるオブジェクト周囲に描画される「シャープ線」の幅、ピクセル単位）
 
-         `radius` パラメーターと `amount` パラメーターは互いに反作用することに注意してください。Reducing `radius` can be compensated by increasing `amount`. `Radius` ではより細かい制御が可能であり、値を低く設定すると、端のピクセルだけがシャープになり、高く設定すると広範囲のピクセルがシャープになります。
+         `radius` パラメーターと `amount` パラメーターは互いに反作用することに注意してください。`radius`を減らすことは、`amount`を増やすことで補うことができます。 `Radius` ではより細かい制御が可能であり、値を低く設定すると、端のピクセルだけがシャープになり、高く設定すると広範囲のピクセルがシャープになります。
 
       * `threshold` （0 ～ 255、効果の感度）
 
          このパラメーターは、シャープにされるピクセルが周囲の領域とどの程度違えば、そのピクセルをエッジのピクセルと見なしてフィルターによりシャープにするかを決定するものです。しきい値は、肌のトーンのような類似した色の領域に過度なシャープが適用されることを防ぐために使用できます。例えば、しきい値を 12 にした場合、肌のトーンの明るさにわずかな差があっても無視して「ノイズ」が加わるのを防ぎながら、まつげと肌が隣り合う場所など、コントラストの高い領域に対してエッジコントラストを追加することができます。
       フィルターで使用するベストプラクティスを含む、これら 3 つのパラメーターの設定方法について詳しくは、次のリソースを参照してください。
 
-      画像への [シャープの適用に関するDynamic Mediaクラシックヘルプトピック](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)。
+      [画像へのシャープの適用](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)に関するDynamic Mediaクラシックヘルプトピックです。
 
-      Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
+      ベストプラクティスに関するホワイトペーパー[Adobe Scene7パブリッシングシステムおよびImage Server](/help/assets/s7_sharpening_images.pdf)に画像にシャープを適用します。
 
-   * Dynamic Mediaクラシックでは、4つ目のパラメーターを制御することもできます。 monochrome ( `0,1`): このパラメーターは、アンシャープマスクが各カラーコンポーネントに個別に適用されるか（値 `0` を使用）、画像の明るさ／適用度に適用されるか（値 `1` を使用）を示します。
+   * Dynamic Mediaクラシックでは、4番目のパラメーターも制御できます。モノクロ(`0,1`)。 このパラメーターは、アンシャープマスクが各カラーコンポーネントに個別に適用されるか（値 `0` を使用）、画像の明るさ／適用度に適用されるか（値 `1` を使用）を示します。
 
 
 ベストプラクティスとして、まずはアンシャープマスクの radius パラメーターを使用します。はじめに使用できる radius 設定は次のとおりです。
@@ -91,27 +91,27 @@ amount を 1.75 から 4 まで徐々に増やします。シャープ適用で�
 
 monochrome パラメーター設定は 0 のままにします。
 
-## JPEG 圧縮（&amp;qlt=）のベストプラクティス {#best-practices-for-jpeg-compression-qlt}
+## JPEG 圧縮（&amp;qlt=）のベストプラクティス  {#best-practices-for-jpeg-compression-qlt}
 
 * このパラメーターは JPG エンコーディングの画質を制御します。値を高く設定すると画質は上がりますがファイルサイズが大きくなり、低く設定すると画質は下がりますがファイルサイズが小さくなります。このパラメーターの範囲は 0 ～ 100 です。
-* 高画質を目的として最適化する場合にも、このパラメーターの値を 100 以外に設定してください。90 や 95 の設定と 100 の設定の違いはほぼ認識できない程度ですが、100 を設定すると画像ファイルのサイズが不必要に増加します。Therefore, to optimize for quality but avoid image files becoming too large, set the `qlt=` value to 90 or 95.
-* To optimize for a small image file size but keep image quality at an acceptable level, set the `qlt=` value to 80. 70 ～ 75 以下の値に設定すると、画質が大幅に低下します。
-* As a best practice, to stay in the middle, set the `qlt=` value to 85 to stay in the middle.
+* 高画質を目的として最適化する場合にも、このパラメーターの値を 100 以外に設定してください。90 や 95 の設定と 100 の設定の違いはほぼ認識できない程度ですが、100 を設定すると画像ファイルのサイズが不必要に増加します。したがって、画質を上げるために最適化を行いながら、画像ファイルが大きくなりすぎないようにするには、`qlt=`値を90または95に設定します。
+* 小さい画像ファイルサイズに対して最適化を行いながら、画質を許容可能なレベルに維持するには、`qlt=`値を80に設定します。 70 ～ 75 以下の値に設定すると、画質が大幅に低下します。
+* ベストプラクティスとして、中央にとどまるには、`qlt=`値を85に設定し、中央に留まるようにします。
 * `qlt=` = での chroma フラグの使用
 
-   * The `qlt=` parameter has a second setting that lets you turn on RGB chromaticity downsampling using the normal value `,0` (default), or turn it off using the value `,1`.
-   * To keep it simple, start with RGB chromaticity downsampling turned off ( `,1`). この設定により通常は画質が上がります。特にシャープなエッジやコントラストを多く含む人工的な画像ではそうなります。
+   * `qlt=`パラメーターには、標準値`,0`（デフォルト）を使用してRGB色度ダウンサンプリングをオンにするか、値`,1`を使用してオフにする第2の設定があります。
+   * 簡単にするために、RGB色度ダウンサンプリングをオフにした開始(`,1`)。 この設定により通常は画質が上がります。特にシャープなエッジやコントラストを多く含む人工的な画像ではそうなります。
 
-As a best practice for JPG compression use `&qlt=85,0`.
+JPG圧縮のベストプラクティスとして、`&qlt=85,0`を使用します。
 
-## Best practices for JPEG sizing (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
+## JPEGサイズ(&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}のベストプラクティス
 
 `jpegSize` は、メモリに制約のあるデバイスに配信するために画像が特定のサイズを上回らないようにする場合に便利なパラメーターです。
 
-* This parameter is set in kilobytes ( `jpegSize=<size_in_kilobytes>`). このパラメーターには、画像配信で許可される最大サイズを定義します。
-* `&jpegSize=` は、JPG圧縮パラメーターとやり取り `&qlt=`します。 If the JPG response with the specified JPG compression parameter ( `&qlt=`) does not exceed the `jpegSize` value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
+* このパラメーターはキロバイト単位(`jpegSize=<size_in_kilobytes>`)で設定します。 このパラメーターには、画像配信で許可される最大サイズを定義します。
+* `&jpegSize=` は、JPG圧縮パラメーターとやり取り `&qlt=`します。指定したJPG圧縮パラメーター(`&qlt=`)を含むJPG応答が`jpegSize`値を超えない場合、画像は`&qlt=`の定義に従って返されます。 それ以外の場合は、`&qlt=`が徐々に減らされ、画像が許容される最大サイズに合うか、または画像が許容されないと判断されてエラーが返されます。
 
-As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are delivering JPG images to devices with limited memory.
+ベストプラクティスとして、メモリに制約のあるデバイスにJPG画像を配信する場合は、`&jpegSize=`を設定し、パラメーター`&qlt=`を追加します。
 
 ## ベストプラクティスのまとめ {#best-practices-summary}
 
@@ -127,7 +127,7 @@ As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are de
 
 実験中は、ワークフローを最適化するために次の一般的な推奨事項が役に立つでしょう。
 
-* 様々なパラメーターをリアルタイムでテストします。例えば、Dynamic MediaのクラシックURLで直接テストしたり、Dynamic MediaClassicの画像調整機能を使用して調整プレビューをリアルタイムで実行したりできます。
-* ベストプラクティスとして、Dynamic Media画像サービングコマンドを画像プリセットにグループ化できます。 An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. URL パス内にカスタムプリセット名を指定すると、そのプリセットが呼び出されます。この機能により、Web サイト上での様々な画像使用パターンに関するコマンドおよび画質設定を管理でき、URL 全体の長さを短縮することもできます。
+* 様々なパラメーターをリアルタイムでテストします。例えば、Dynamic MediaクラシックURLで直接テストする場合や、調整操作にリアルタイムプレビューを提供するDynamic Mediaクラシックの画像調整機能を使用する場合です。
+* ベストプラクティスとして、Dynamic Media画像サービングコマンドを画像プリセットにグループ化できます。 画像プリセットは、基本的に、`$thumb_low$`や`&product_high$`などのカスタムプリセット名を持つURLコマンドマクロです。 URL パス内にカスタムプリセット名を指定すると、そのプリセットが呼び出されます。この機能により、Web サイト上での様々な画像使用パターンに関するコマンドおよび画質設定を管理でき、URL 全体の長さを短縮することもできます。
 * また、Dynamic Mediaクラシックでは、画質を調整するためのより高度な方法も提供されています。例えば、取り込み時に画像にシャープを適用できます。 レンダリング結果をさらに微調整して最適化する高度な使用例については、アドビのプロフェッショナルサービスまでお問い合わせください。個々のお客様向けの情報とベストプラクティスを提供いたします。
 
