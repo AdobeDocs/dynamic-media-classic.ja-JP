@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '1032'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -117,7 +117,7 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 
    **[!UICONTROL 電子メールの送信]** 新しいユーザーにサインアップが完了したことを電子メールで通知しない場合は、このオプションの選択を解除します。
 
-   **[!UICONTROL デフォルトの]** パスワード新規ユーザーの一時パスワードを入力するか、フィールドを空のままにして、Dynamic Mediaクラシックでランダムなパスワードを生成します。ユーザは、初めてログインしたときにパスワードを変更するように指示されます。
+   **[!UICONTROL デフォルトの]** パスワード新規ユーザーの一時パスワードを入力するか、フィールドを空のままにして、Dynamic Mediaクラシックでランダムなパスワードを生成します。ユーザーは、初めてログインしたときにパスワードを変更するように求められます。
 
    **[!UICONTROL 置換]** URLユーザが別のURLを使用してDynamic Mediaクラシックにアクセスする場合、デフォルトとは異なるURLを入力します。
 
