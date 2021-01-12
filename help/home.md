@@ -5,7 +5,7 @@ description: AdobeDynamic Mediaクラシックテクニカルドキュメント
 seo-description: 'AdobeDynamic Mediaクラシック（旧称Scene7）のテクニカルドキュメント、リリースノートおよびセルフヘルプ資料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 13%
@@ -19,7 +19,7 @@ Dynamic Mediaクラシックヘルプへようこそ。 Dynamic Mediaクラシ�
 
 ## 2020年6月30日より公開された新しいDynamic Mediaクラシックログインエクスペリエンス
 
-2020年6月30日に、Dynamic Mediaクラシックのユーザーは、新しいログインエクスペリエンスにアクセスできるようになります。このログインエクスペリエンスでは、ブラウザーのAdobeFlashテクノロジーに依存しなくなります。 詳しくは、次のよくある質問を参照してください。
+2020年6月30日に、Dynamic Mediaクラシックのユーザーは、新しいログインエクスペリエンスにアクセスできるようになります。これにより、ブラウザーのAdobeFlashテクノロジーに依存しなくなります。 詳しくは、次のよくある質問を参照してください。
 
 [よくある質問](new-ui-2020.md)を参照してください。 2020年5月7日現在の新しい更新。
 
