@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 64%
+source-wordcount: '1947'
+ht-degree: 63%
 
 ---
 
@@ -61,9 +61,9 @@ Dynamic Mediaクラシックでは、複数のユーザの役割をサポート�
 
    保存後、ユーザを別の会社に追加するかどうかを確認するメッセージが表示されます。ユーザを会社に追加する場合は、「追加」をクリックします。
 
-   すべての新規ユーザーに、ランダムに生成されたパスワードが与えられます。ユーザーは、初めてDynamic Mediaクラシックにログインしたときにパスワードを変更する必要があります。
+   すべての新規ユーザーに、ランダムに生成されたパスワードが与えられます。ユーザーは、初めてDynamic Mediaクラシックデスクトップアプリケーションにサインインしたときに、パスワードを変更する必要があります。
 
-   新規ユーザを追加した後、新規ユーザにご案内の電子メールが送信されます。この電子メールには、一時パスワードと、Scene7 Publishing System へのログオン方法が記載されています。
+   新規ユーザを追加した後、新規ユーザにご案内の電子メールが送信されます。この電子メールには、一時パスワードと、Dynamic Mediaクラシックへのサインイン方法が記載されています。
 
    ご案内の電子メールを受信しない場合は、Dynamic Mediaクラシックのログインページ(https://s7sps1.scene7.com)に移動し、「パスワードを忘れた場合」をクリックしてください。 パスワードがリセットされ、新しい電子メールが送信されます。ユーザが電子メールを受信せず、迷惑メールフォルダにもない場合は、テクニカルサポートに問い合わせてください。
 
