@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,12 @@ Dynamic Mediaクラシックは、リッチメディア戦略を強化するた�
 ### **_私はAEM AssetsとDynamic Mediaへのアップグレードについてもっと知りたい。詳細情報はどこで入手できますか？_**
 
 次世代のリッチメディアオーサリング、公開、動的配信にアップグレードする利点について詳しくは、[Dynamic Mediaアップグレードポータル](http://exploreadobe.com/dynamic-media-upgrade/)を参照してください。
+
+>[!MORELIKETHIS]
+>
+>* [Dynamic Mediaクラシックデスクトップアプリケーションへのサインインとログアウト](/help/signing-out.md)
+>* [Dynamic Mediaクラシックデスクトップアプリケーションのダウンロードとインストール](/help/dynamic-media-classic-desktop-app.md)
+
 
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
