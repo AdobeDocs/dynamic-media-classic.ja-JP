@@ -1,8 +1,6 @@
 ---
 title: ビデオ SEO（検索エンジン最適化）
-seo-title: ビデオ SEO（検索エンジン最適化）
-description: 'null'
-seo-description: ビデオSEOの設定方法を説明します。
+description: ビデオSEOの設定方法を説明します。
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '978'
 ht-degree: 66%
 
 ---
