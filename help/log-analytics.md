@@ -1,8 +1,6 @@
 ---
 title: Adobe Analytics へのログイン
-seo-title: Adobe Analytics へのログイン
-description: 'null'
-seo-description: Adobe Analyticsへのログイン方法を説明します。
+description: Adobe Analyticsへのログイン方法を説明します。
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '351'
 ht-degree: 36%
 
 ---
