@@ -1,8 +1,6 @@
 ---
-title: '"ベストプラクティス：HTML5 ビデオビューアの使用"'
-seo-title: '"ベストプラクティス：HTML5 ビデオビューアの使用"'
-description: 'null'
-seo-description: HTML5ビデオビューアの使用に関するベストプラクティスを説明します。
+title: HTML5ビデオビューア使用のベストプラクティス
+description: HTML5ビデオビューアの使用に関するベストプラクティスを説明します。
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 29%
+source-wordcount: '422'
+ht-degree: 25%
 
 ---
 
 
-# ベストプラクティス：HTML5 ビデオビューアの使用{#best-practice-using-the-html-video-viewer}
+# HTML5ビデオビューア{#best-practice-using-the-html-video-viewer}の使用に関するベストプラクティス
 
 Dynamic MediaクラシックHTML5ビデオビューアプリセットは堅牢なビデオプレーヤーです。 プレーヤーの設計の点では、標準のWeb開発ツールを使用して、ビデオプレーヤーのすべての機能を作成できます。 例えば、ボタン、コントロールおよびカスタムのポスター画像背景を HTML5 と CSS を使用して設計し、顧客にカスタマイズした外観を提供することができます。
 
