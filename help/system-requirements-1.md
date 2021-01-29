@@ -1,8 +1,6 @@
 ---
 title: 必要システム構成
-seo-title: 必要システム構成
-description: 'null'
-seo-description: 'Media Portalを使用する場合の最適な体験に必要なシステム構成について説明します。 '
+description: 'Media Portalを使用する場合の最適な体験に必要なシステム構成について説明します。 '
 uuid: e870b198-19ae-4647-8833-2764358de53d
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '93'
 ht-degree: 43%
 
 ---
