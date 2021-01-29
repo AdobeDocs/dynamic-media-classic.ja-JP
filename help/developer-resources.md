@@ -1,17 +1,15 @@
 ---
 title: 開発者向けリソース
-seo-title: 開発者向けリソース
-description: 'null'
-seo-description: Dynamic Mediaで利用可能な開発者向けリソースを紹介します。
+description: Dynamic Mediaで利用可能な開発者向けリソースを紹介します。
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 39%
 
 ---
