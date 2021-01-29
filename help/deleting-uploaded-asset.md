@@ -1,18 +1,16 @@
 ---
 title: アップロードしたアセットの削除
-seo-title: アップロードしたアセットの削除
-description: 'null'
-seo-description: アップロードしたアセットを削除する方法を説明します。
+description: アップロードしたアセットを削除する方法を説明します。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 87%
+source-wordcount: '94'
+ht-degree: 88%
 
 ---
 
