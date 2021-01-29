@@ -1,8 +1,6 @@
 ---
 title: eCatalogでの情報パネルのコンテンツの管理
-seo-title: eCatalogでの情報パネルのコンテンツの管理
-description: 'null'
-seo-description: eCatalogの情報パネルのコンテンツを管理する方法について説明します。
+description: eCatalogの情報パネルのコンテンツを管理する方法について説明します。
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 81%
+source-wordcount: '868'
+ht-degree: 82%
 
 ---
 
