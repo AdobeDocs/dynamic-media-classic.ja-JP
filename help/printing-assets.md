@@ -1,8 +1,6 @@
 ---
 title: アセットのプリント
-seo-title: アセットのプリント
-description: 'null'
-seo-description: アセットを印刷する方法を説明します。
+description: アセットを印刷する方法を説明します。
 uuid: 6cd5ba38-ec80-461f-b095-6cd4d7ea7814
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: e4a2a5b8-a074-4f0e-a607-0c47acbb81b4
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 90%
+source-wordcount: '58'
+ht-degree: 91%
 
 ---
 
