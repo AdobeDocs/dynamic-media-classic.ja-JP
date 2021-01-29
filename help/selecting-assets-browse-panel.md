@@ -1,8 +1,6 @@
 ---
 title: 参照パネルでのアセットの選択
-seo-title: 参照パネルでのアセットの選択
-description: 'null'
-seo-description: 参照パネルでアセットを選択する方法を説明します。
+description: 参照パネルでアセットを選択する方法を説明します。
 uuid: 0790e6d0-b898-42b1-977f-8316e6b19573
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 8e6ce2bf-c99b-4106-942a-1716f152c7b2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 29%
+source-wordcount: '99'
+ht-degree: 31%
 
 ---
 
