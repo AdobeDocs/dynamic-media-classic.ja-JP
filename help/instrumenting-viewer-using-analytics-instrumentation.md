@@ -1,8 +1,6 @@
 ---
 title: Adobe Analytics 計測キットを使用したビューアの計測
-seo-title: Adobe Analytics 計測キットを使用したビューアの計測
-description: 'null'
-seo-description: Adobe Analytics計測キットを使用してビューアを計測する方法を説明します。
+description: Adobe Analytics計測キットを使用してビューアを計測する方法を説明します。
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 38%
+source-wordcount: '299'
+ht-degree: 36%
 
 ---
 
