@@ -1,8 +1,6 @@
 ---
 title: 画像プリセットの設定
-seo-title: 画像プリセットの設定
-description: 'null'
-seo-description: 画像プリセットの設定方法を説明します。
+description: 画像プリセットの設定方法を説明します。
 uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '649'
 ht-degree: 65%
 
 ---
@@ -65,7 +63,7 @@ Dynamic Mediaクラシックには、既に使用可能な「ベストプラク�
    |--- |--- |--- |--- |--- |
    | Cross-Sell（ミニサムネール） | 75 x 75 | 1.5 | 0.8 | 5 |
    | Thumbnail | 150 × 150 | 1.1 | 1 | 5 |
-   | Main | 350 x 350 | 1 | 1 | 6 |
+   | Main | 350 x 350 | 3 | 3 | 6 |
    | Enlarge | 500 x 500 | 1.2 | 1.2 | 5 |
 
 1. 「**保存**」をクリックします。
