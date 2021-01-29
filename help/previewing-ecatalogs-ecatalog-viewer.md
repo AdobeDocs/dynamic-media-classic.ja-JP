@@ -1,8 +1,6 @@
 ---
 title: 'eCatalog ビューアによる eCatalog のプレビュー '
-seo-title: 'eCatalog ビューアによる eCatalog のプレビュー '
-description: 'null'
-seo-description: eCatalogビューアでeCatalogをプレビューする方法を説明します。
+description: eCatalogビューアでeCatalogをプレビューする方法を説明します。
 uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '254'
 ht-degree: 96%
 
 ---
