@@ -1,17 +1,15 @@
 ---
 title: 画像アセットまたはベクトルアセットのアップロード
-seo-title: 画像アセットまたはベクトルアセットのアップロード
-description: 'null'
-seo-description: 画像アセットまたはベクトルアセットをアップロードする方法を説明します。
+description: 画像アセットまたはベクトルアセットをアップロードする方法を説明します。
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1527'
 ht-degree: 84%
 
 ---
