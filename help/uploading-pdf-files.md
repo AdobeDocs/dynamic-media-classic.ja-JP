@@ -1,17 +1,15 @@
 ---
 title: PDF ファイルのアップロード
-seo-title: PDF ファイルのアップロード
-description: 'null'
-seo-description: eCatalogに関連付けられたPDFファイルをアップロードする方法を説明します。
+description: eCatalogに関連付けられたPDFファイルをアップロードする方法を説明します。
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '696'
 ht-degree: 71%
 
 ---
