@@ -1,8 +1,6 @@
 ---
 title: 画質を最適化するためのベストプラクティス
-seo-title: 画質を最適化するためのベストプラクティス
-description: 'null'
-seo-description: 画質を最適化するためのベストプラクティスを紹介します。
+description: 画質を最適化するためのベストプラクティスを紹介します。
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1517'
 ht-degree: 60%
 
 ---
