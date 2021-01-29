@@ -1,8 +1,6 @@
 ---
 title: プロジェクトを使用したアセットの編成
-seo-title: プロジェクトを使用したアセットの編成
-description: 'null'
-seo-description: プロジェクトを使用して作業を整理する方法を説明します。
+description: プロジェクトを使用して作業を整理する方法を説明します。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '481'
 ht-degree: 59%
 
 ---
