@@ -1,8 +1,6 @@
 ---
 title: 混在メディアセットの公開
-seo-title: 混在メディアセットの公開
-description: 'null'
-seo-description: 混在メディアセットを公開する方法を説明します。
+description: 混在メディアセットを公開する方法を説明します。
 uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 59%
 
 ---
