@@ -1,16 +1,14 @@
 ---
 title: AdobeDynamic Mediaクラシックデスクトップアプリ — 現在提供中
-seo-title: AdobeDynamic Mediaクラシックデスクトップアプリ — 現在提供中
-description: 'null'
-seo-description: Dynamic Mediaクラシックデスクトップアプリの詳細を表示します。
+description: Dynamic Mediaクラシックデスクトップアプリの詳細を表示します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -34,12 +32,18 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 * macOS X 10.10以降。
 * Windows 7以降。
 
-## 最新バージョン20.20.2の修正点{#latest-fixes-desktop-app}
+## 最新バージョン(20.21.1)の修正点{#latest-fixes-desktop-app}
+
+* タイムアウトにより次のメッセージが表示されるログインの問題が発生しました：*このユーザーは、許可なくグループに割り当てられる可能性があります。 管理者に問い合わせてください。*
+* ビューアプリセットは、間違ったパスワードが試行されるたびに複製されます。
+* ルートフォルダーに大量のアセットがあることが原因で、デスクトップアプリケーションが応答しなくなる。 (Windowsで修正されました。（macOSで必要に応じて動作）。
+
+## 以前のバージョン(20.20.2)の修正点{#previous-version-fixes-desktop-app}
 
 * macOSとWindowsの両方で、デスクトップアプリのユーザーインターフェイスからアップロードできるファイル数に制限はありません。
 * 会社を切り替えるために、デスクトップアプリケーションからサインアウトする必要はありません。
 * Ctrl + Vキーで貼り付け操作を実行できるようになりました。
-* 今後、新しいバージョンのデスクトップアプリがリリースされると、ユーザーにはデスクトップアプリ内で通知されます。
+* 今後、新しいバージョンのデスクトップアプリがリリースされると、ユーザーにはデスクトップアプリ内で通知されます。 —>
 
 ## macOSまたはWindows {#installation-dmc-app}に最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードしてインストールします。
 
@@ -52,20 +56,14 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 
 1. AdobeDynamic Mediaクラシックデスクトップアプリ用の最新インストーラーをダウンロードします。
 
-   >[!NOTE]
-   >
-   >GAバージョンを既にインストール済みのユーザーは、最新バージョンをインストールする前に、ローカルのWindowsシステムから&#x200B;*アンインストール*&#x200B;する必要があります。 または、ユーザーは、ローカルのmacOSシステムにインストールされているGAバージョンを&#x200B;*簡単に*&#x200B;最新バージョンに置き換えることができます。 新しいユーザーは、最新バージョン20.20.2を直接インストールする必要があります。
+   * 最新バージョン(20.21.1)は、次の場所で入手できます。
 
-   最新バージョンは20.20.2で、以下で入手できます。
+      * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * 以前のバージョン(20.20.2)は、次の場所で入手できます。
 
-   * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
-
-   GA(General Availability)バージョンは20.20.1で、次の場所で入手できます。
-
-   * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
-
+      * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+      * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 
 
@@ -111,11 +109,11 @@ macOSに最新バージョンのAdobeDynamic Mediaクラシックデスクトッ
 
 1. macOS用AdobeDynamic Mediaクラシックデスクトップアプリケーション用の最新インストーラーをダウンロードします。
 
-   * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
 
 1. 次のコマンドを使用して、ダウンロードしたディスク・イメージ(.DMG)をマウントポイントの場所にマウントします。
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
 
 1. 次のコマンドを使用して、.APPファイルを&#x200B;**[!UICONTROL Applications]**&#x200B;にコピーします。
 
@@ -151,19 +149,19 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
 1. AdobeDynamic Mediaクラシックデスクトップアプリ用の最新インストーラーをダウンロードします。
 
-   * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 1. 次のコマンドを使用して、インストーラーを記録モードで実行します。
 
-   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
 
 1. GUIインストーラーウィンドウで、インストールする手順に従って、インストール場所などの操作や入力を`Setup.iss`ファイルに記録します。
 
-1. 作成した`Setup.iss`ファイルと`adobe-dynamic-media-classic-20.20.2.exe`を他のコンピューターにコピーします。
+1. 作成した`Setup.iss`ファイルと`adobe-dynamic-media-classic-20.21.1.exe`を他のコンピューターにコピーします。
 
 1. サイレントインストールを行うには、次のコマンドを実行します。
 
-   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
 
    コマンドラインパラメータの詳細については、[Setup.exeおよびUpdate.exeのコマンドラインパラメータを参照してください。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
