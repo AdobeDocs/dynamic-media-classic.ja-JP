@@ -1,8 +1,6 @@
 ---
 title: 'ファイルの公開 '
-seo-title: 'ファイルの公開 '
-description: 'null'
-seo-description: ファイルを公開する方法を説明します。
+description: ファイルを公開する方法を説明します。
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1654'
 ht-degree: 76%
 
 ---
@@ -105,7 +103,7 @@ Dynamic Mediaクラシックは、以前に公開されたことのない、新�
 ユーザーリストからユーザー名を選択します。ジョブページで、ジョブをユーザー名で並べ替えることができます。名前を選択することで、公開ジョブをユーザに関連付けます。
 
 **HTTP**
-通知後続の公開ジョブをトリガするURLを入力します。
+通知後続の公開ジョブをトリガーするURLを入力します。
 
 詳しくは、[アップロードジョブおよび公開ジョブによるジョブのトリガ](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)を参照してください。
 
