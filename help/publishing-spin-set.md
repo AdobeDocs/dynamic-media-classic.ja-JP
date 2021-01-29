@@ -1,8 +1,6 @@
 ---
 title: スピンセットの公開
-seo-title: スピンセットの公開
-description: 'null'
-seo-description: スピンセットを公開する方法を説明します。
+description: スピンセットを公開する方法を説明します。
 uuid: 3b21ee5c-e494-48d0-8ccf-cb7670d11f5b
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 47%
+source-wordcount: '174'
+ht-degree: 46%
 
 ---
 
