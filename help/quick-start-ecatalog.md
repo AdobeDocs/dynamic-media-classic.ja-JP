@@ -1,8 +1,6 @@
 ---
 title: 「クイック開始:eCatalogs"
-seo-title: 「クイック開始:eCatalogs"
-description: 'null'
-seo-description: eCatalogの操作方法をすばやく習得できるように、eCatalogの概要とクイック開始を説明します。
+description: eCatalogの操作方法をすばやく習得できるように、eCatalogの概要とクイック開始を説明します。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1446'
 ht-degree: 63%
 
 ---
