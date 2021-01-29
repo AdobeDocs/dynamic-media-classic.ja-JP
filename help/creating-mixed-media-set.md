@@ -1,17 +1,15 @@
 ---
 title: 混在メディアセットの作成
-seo-title: 混在メディアセットの作成
-description: 'null'
-seo-description: 混在メディアセットの作成方法を説明します。
+description: 混在メディアセットの作成方法を説明します。
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '619'
 ht-degree: 95%
 
 ---
