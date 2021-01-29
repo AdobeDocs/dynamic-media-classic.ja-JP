@@ -1,8 +1,6 @@
 ---
 title: '"クイックスタート：スピンセット"'
-seo-title: '"クイックスタート：スピンセット"'
-description: 'null'
-seo-description: 操作方法をすばやく習得できるように、スピンセットの概要とクイック開始を説明します。
+description: 操作方法をすばやく習得できるように、スピンセットの概要とクイック開始を説明します。
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '752'
 ht-degree: 68%
 
 ---
