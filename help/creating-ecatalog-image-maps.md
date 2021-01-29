@@ -1,8 +1,6 @@
 ---
 title: eCatalog 画像マップの作成
-seo-title: eCatalog 画像マップの作成
-description: 'null'
-seo-description: eCatalog画像マップの作成方法を説明します。
+description: eCatalog画像マップの作成方法を説明します。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1491'
 ht-degree: 77%
 
 ---
@@ -46,7 +44,7 @@ eCatalog では、eCatalog 画面の「ページをマップ」タブで画像�
    詳しくは、[テンプレートを使用した JavaScript と URL の入力](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)を参照してください。
 
 1. （オプション）「表示」ドロップダウンリストで、「**ロールオーバーテキスト**」をクリックし、ユーザが画像マップにポインタを合わせたときに画面に表示するテキストを入力します。
-1. （オプション）「表示」ドロップダウンリストで、「**その他のアクション**」をクリックし、ユーザが画像マップにポインタを合わせたときにぼかしや焦点合わせを行う属性を入力します。
+1. （オプション）「表示」ドロップダウンリストで、「**その他のアクション**」をクリックし、ユーザが画像マップにポインタを合わせたときにぼかしや焦点合わせをトリガーする属性を入力します。
 
    詳しくは、[画像マップのその他のアクションの定義](creating-image-maps.md#defining_other_actions_for_image_maps)を参照してください。
 
