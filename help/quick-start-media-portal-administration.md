@@ -1,8 +1,6 @@
 ---
 title: 「クイック開始:Media Portal»
-seo-title: 「クイック開始:Media Portal»
-description: 'null'
-seo-description: Media Portalの操作方法と管理方法をすばやく習得できるように、Media Portalの概要とクイック開始を紹介します。
+description: Media Portalの操作方法と管理方法をすばやく習得できるように、Media Portalの概要とクイック開始を紹介します。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '704'
 ht-degree: 84%
 
 ---
