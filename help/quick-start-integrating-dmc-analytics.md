@@ -1,8 +1,6 @@
 ---
 title: 「クイック開始:Dynamic MediaクラシックとAdobe Analyticsの統合»
-seo-title: 「クイック開始:Dynamic MediaクラシックとAdobe Analyticsの統合»
-description: 'null'
-seo-description: Dynamic MediaクラシックとAdobe分析を統合し、すばやく習得できるようにするための概要とクイック開始です。
+description: Dynamic MediaクラシックとAdobe分析を統合し、すばやく習得できるようにするための概要とクイック開始です。
 uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 44%
+source-wordcount: '673'
+ht-degree: 45%
 
 ---
 
