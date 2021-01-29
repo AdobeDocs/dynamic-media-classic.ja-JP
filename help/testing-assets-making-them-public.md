@@ -1,8 +1,6 @@
 ---
 title: アセットを公開する前のテスト
-seo-title: アセットを公開する前のテスト
-description: 'null'
-seo-description: アセットを公開する前にテストする方法を説明します。
+description: アセットを公開する前にテストする方法を説明します。
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 54%
 
 ---
