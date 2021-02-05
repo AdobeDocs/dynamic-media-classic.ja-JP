@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Dynamic Mediaクラシックのユーザーは、新しいデスクトップア�
 
 >[!IMPORTANT]
 >
->2020年10月1日までに、新しいAdobeのDynamic Mediaクラシックデスクトップアプリをインストールすることをお勧めします。 これにより、スムーズなトランジションが得られ、AdobeFlash Playerは2020年12月31日に廃止されます。 この日、製品に「Dynamic Mediaクラシック」と表示されたAdobeDynamic Mediaクラシックユーザーインターフェイスのブラウザーバージョンにログオンできなくなります。
+>Adobeでは、2020年10月1日までに新しいAdobeのDynamic Mediaクラシックデスクトップアプリケーションをインストールすることをお勧めします。 これにより、スムーズなトランジションが得られ、AdobeFlash Playerは2020年12月31日に廃止されます。 その日以降は、AdobeのDynamic Mediaクラシックユーザインターフェイスのブラウザバージョンにログオンできません。製品のラベルは「Dynamic Mediaクラシック」です。
 
 [新しいDynamic MediaクラシックログインエクスペリエンスのFAQを参照してください。](/help/new-ui-2020.md)
 
 ## AdobeDynamic Mediaクラシックデスクトップアプリケーション{#system-requirements-dmc-app}の必要システム構成
 
 AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペレーティングシステムと互換性があります。
-* macOS X 10.10以降。
+
+* macOS 10.10以降。
 * Windows 7以降。
 
 ## 最新バージョン(20.21.1)の修正点{#latest-fixes-desktop-app}
 
-* タイムアウトにより次のメッセージが表示されるログインの問題が発生しました：*このユーザーは、許可なくグループに割り当てられる可能性があります。 管理者に問い合わせてください。*
+* タイムアウトにより次のメッセージが表示されるログインの問題が発生しました：*このユーザーは、権限なしでグループに割り当てられる場合があります。 管理者に問い合わせてください。*
 * ビューアプリセットは、間違ったパスワードが試行されるたびに複製されます。
-* ルートフォルダーに大量のアセットがあることが原因で、デスクトップアプリケーションが応答しなくなる。 (Windowsで修正されました。（macOSで必要に応じて動作）。
+* ルートフォルダー内の多くのアセットが原因で、デスクトップアプリケーションが応答しなくなる。 (Windowsで修正されました。（macOSで必要に応じて動作）。
 
 ## 以前のバージョン(20.20.2)の修正点{#previous-version-fixes-desktop-app}
 
@@ -84,7 +85,7 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 
    ![Dynamic Mediaクラシックサインイン](/help/assets/dmclassic-login1.png)
 
-1. ブラウザーの資格情報と同じ資格情報を使用して、AdobeDynamic Mediaクラシックにサインインします。
+1. AdobeDynamic Mediaクラシックデスクトップアプリにサインインするには、ブラウザーでDynamic Mediaクラシックにログオンするのに使用したのと同じ資格情報を使用します。
 
    **[!UICONTROL Server]**&#x200B;を使用するには、本番環境の次のマッピングを参照してください。
 
@@ -94,7 +95,7 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
    | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）プロダクション |
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
-1. ログインUIを投稿すると、使い慣れたブラウザーUIが表示されます。 デスクトップアプリUIでは、通常どおり1日アクティビティを提供できます。
+1. ログイン後は、使い慣れたブラウザーユーザーインターフェイスが表示されます。 デスクトップアプリケーションでは、通常どおり1日のDynamic Mediaクラシックアクティビティを継続できます。
 
 ## macOS {#install-silent-mac-dmc-app}に最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードして&#x200B;*サイレント*&#x200B;インストールします
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Dynamic Mediaクラシックサインイン](/help/assets/dmclassic-login1.png)
 
-1. ブラウザーの資格情報と同じ資格情報を使用して、AdobeDynamic Mediaクラシックにサインインします。
+1. AdobeDynamic Mediaクラシックデスクトップアプリにサインインするには、ブラウザーでDynamic Mediaクラシックにログオンするのに使用したのと同じ資格情報を使用します。
 
    **[!UICONTROL Server]**&#x200B;を使用するには、本番環境の次のマッピングを参照してください。
 
@@ -169,7 +170,7 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
    ![Dynamic Mediaクラシックサインイン](/help/assets/dmclassic-login1.png)
 
-1. ブラウザーの資格情報と同じ資格情報を使用して、AdobeDynamic Mediaクラシックにサインインします。
+1. AdobeDynamic Mediaクラシックデスクトップアプリにサインインするには、ブラウザーでDynamic Mediaクラシックにログオンするのに使用したのと同じ資格情報を使用します。
 
    **[!UICONTROL Server]**&#x200B;を使用するには、本番環境の次のマッピングを参照してください。
 
@@ -194,7 +195,7 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
 ### 画像キャッシュとアセットキャッシュの手動によるクリア
 
-デスクトップアプリケーションを使用して画像とアセットのキャッシュを消去する以外に、ファイルシステムから直接キャッシュを消去することで、手動でこのタスクを実行することもできます。
+デスクトップアプリケーションを使用して画像とアセットのキャッシュを消去する以外に、ファイルシステムから直接手動でキャッシュをクリアできます。
 
 1. オペレーティングシステムに応じて、次の場所に移動します。
 
@@ -207,7 +208,7 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
 **_WindowsとmacOSに適用されます。会社を切り替える方法を教えてください。_**<br>会社を切り替えるには、次の手順を実行します。
 * Dynamic Mediaクラシックアプリで、「会社」ドロップダウンリストから新しい会社を選択します。
-* ポップアップが表示されたら、「**[!UICONTROL OK]**」をタップしてサインアウトし、アプリを閉じます。
+* ポップアップウィンドウが表示されたら、「**[!UICONTROL OK]**」をタップしてサインアウトし、アプリを閉じます。
 
    ![新しい会社を使用するには、アプリを再起動します](/help/assets/dmclassic-new-company1.png)
 * Dynamic Mediaクラシックを再起動し、通常どおりにサインインして新しい会社を使用します。
@@ -216,7 +217,7 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
 **_Dynamic Mediaクラシックのランディングページでカートパネルが表示されません。_**<br>Dynamic Mediaクラシックで、**[!UICONTROL 設定/個人設定をタップします&#x200B;]**。「ブラウザー」セクションで、「**[!UICONTROL MediaPortal機能を表示&#x200B;]**」が選択されている（オンになっている）ことを確認します。**[!UICONTROL 保存/]**を閉じるをタップします。
 
-**_アセットの公開状態（緑のインジケーター）が正しく反映されません。_**<br>アセットの正しい公開状態を確認するには、ブラウザUIでUIに再ログインする必要がありました。デスクトップアプリでは、ツールバーの**[!UICONTROL 「なしを選択」]**ボタンの右側に**[!UICONTROL 更新&#x200B;]**アイコンが追加されました。**[!UICONTROL 更新&#x200B;]**アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザーUIと同様に、再ログインする必要はありません。
+**_アセットの公開状態（緑のインジケーター）が正しく反映されません。_**<br>ブラウザーのユーザーインターフェイスで、アセットの正しい公開状態を確認するには、UIに再ログインする必要がありました。デスクトップアプリケーションでは、Adobeがツールバーの**[!UICONTROL 「なしを選択」]**ボタンの右に**[!UICONTROL 更新&#x200B;]**アイコンを追加しました。**[!UICONTROL 更新&#x200B;]**アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザーUIと同様に再ログインする必要はありません。
 
 ![更新](/help/assets/refresh-icon1.png)
 *アイコン更新アイコン*
