@@ -1,17 +1,15 @@
 ---
 title: 'ファイルの公開 '
-description: ファイルを公開する方法を説明します。
-uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
+description: アセットをDynamic MediaImage Serverに公開します。 アセットは1回限りで公開することも、定期的に公開するようにDynamic Mediaクラシックを設定することもできます。 アセットの公開が完了すれば、それらを配信することができます。Dynamic MediaクラシックからURL呼び出しをコピーして、それらをWebサイトやアプリケーションに追加できます。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 76%
+source-wordcount: '1706'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +18,7 @@ ht-degree: 76%
 
 アセットをDynamic MediaImage Serverに公開します。 アセットは1回限りで公開することも、定期的に公開するようにDynamic Mediaクラシックを設定することもできます。 アセットの公開が完了すれば、それらを配信することができます。Dynamic MediaクラシックからURL呼び出しをコピーして、それらをWebサイトやアプリケーションに追加できます。
 
-Dynamic Mediaクラシックでは、HTTP/2を介したすべての画像とビデオの配信がサポートされるようになりました。 つまり、画像またはビデオの公開済みURLまたは埋め込みコードは、ホストされているアセットを受け入れる任意のアプリケーションと統合できます。 その後、公開済みのアセットは、HTTP/2プロトコルを使用して配信されます。 この配信方式により、ブラウザーとサーバーとの通信方法が改善され、すべてのDynamic Mediaクラシックアセットの応答時間と読み込み時間が向上します。 [HTTP2配信のコンテンツFAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)を参照してください。
+Dynamic Mediaクラシックでは、HTTP/2を介したすべての画像とビデオの配信がサポートされるようになりました。 つまり、画像またはビデオの公開済みURLまたは埋め込みコードは、ホストされているアセットを受け入れる任意のアプリケーションと統合できます。 その後、公開済みのアセットは、HTTP/2プロトコルを使用して配信されます。 この配信方式により、ブラウザーとサーバーとの通信方法が改善され、すべてのDynamic Mediaクラシックアセットの応答時間と読み込み時間が向上します。 [HTTP2配信のコンテンツFAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)を参照してください。
 
 ## アップロード後に公開 {#publish-after-uploading}
 
