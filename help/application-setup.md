@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: c6160315007fa1658f88a857589ec11ac3f0d5ae
 workflow-type: tm+mt
-source-wordcount: '10914'
+source-wordcount: '10925'
 ht-degree: 68%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 68%
 
 Dynamic Mediaクラシックでは、2つのファイルに同じ名前を付けることはできません。 各項目のDynamic MediaクラシックID（画像名からファイル名拡張子を取り除いた部分）は、一意である必要があります。 この規則のため、アップロードダイアログボックスには「画像を上書き」オプションがあります。このオプションの実際の効果は、各会社のDynamic Mediaクラシック内部設定の設定によって異なります。
 
-以前に画像をアップロードした後で元のファイルを変更（または置き換えた）した場合、選択した上書きオプションで、Dynamic Mediaクラシックの画像の置き換え方法が指定されます。 画像に関する情報は変わりませんが、古い画像は新しい画像に置き換わります。フォルダーに、まだDynamic Mediaクラシックに存在しない画像も含まれている場合、これらの画像は追加されます。
+以前に画像をアップロードした後で元のファイルを変更（または置き換えた）した場合、選択した上書きオプションで、Dynamic Mediaクラシックの画像の置き換え方法が指定されます。 画像に関する情報は変わりませんが、古い画像は新しい画像に置き換わります。フォルダーに、まだDynamic Mediaクラシックに存在しない画像も含まれている場合は、これらの画像が追加されます。
 
 アップロードした画像が何らかの形で変更された（画像が変更された）が、画像への参照が同じままの場合には、このオプションを使用します。Adobe® PDF をアップロードしてリッピングする場合にも、上書きは便利です。Dynamic Mediaクラシック&#x200B;**&#x200B;の画像のリップ方法を微調整するには、アップロードダイアログボックスでICCカラープロファイルオプションを調整し、上書き機能を使用して再度アップロードします。
 
@@ -368,7 +368,7 @@ Dynamic Mediaクラシックオファーアダプティブビデオエンコー�
 
 |  | エンコードプリセット名/ツールヒントテキスト | ターゲット接続速度（Kbps） | エンコードファイルのサフィックス | ビデオのデータレート（Kbps） | 幅/高さ（ピクセル） | fps | オーディオビットレート（kbps） | 推奨 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9、512x288、モバイル（iPhone、iPad、Android）、（400 Kbps） | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | ソースと同じ | 64 | 低解像度、3G |
+| 1 | 16:9、512x288、モバイル（iPhone、iPad、Android）、（400 Kbps） | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | ソースと同じ | 64 | 低解像度、3G |
 | 2 | 4:3、384x288px、モバイル（iPhone、iPad、Android）、（400 Kbps） | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | ソースと同じ | 64 | 低解像度、3G |
 | 3 | 16:9、512x288、モバイル（Phone、iPad、Android）、（600 Kbps） | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | ソースと同じ | 64 | 中解像度、3G |
 | 4 | 4:3、384x288、モバイル（iPhone、iPad、Android）、（600 Kbps） | 700 | _Mobile_384x288_600 | 800 | 384 x 288 | ソースと同じ | 64 | 中解像度、3G |
@@ -389,7 +389,7 @@ Dynamic Mediaクラシックオファーアダプティブビデオエンコー�
 
 |  | エンコードプリセット名/ツールヒントテキスト | ターゲット接続速度（Kbps） | エンコードファイルのサフィックス | ビデオのデータレート（Kbps） | 幅/高さ（ピクセル） | fps | オーディオビットレート（Kbps） | 推奨 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9、480x270（400 Kbps） | 500 | _480x270_400K | 400 | 480 x 270 | ソースと同じ | 64 | 低解像度のワイドスクリーン |
+| 1 | 16:9、480x270（400 Kbps） | 500 | _480x270_400K | 400 | 480 x 270 | ソースと同じ | 64 | 低解像度のワイドスクリーン |
 | 2 | 16:9、640x360（800 Kbps） | 900 | _640x360_800K | 800 | 640 x 360 | ソースと同じ | 80 | 中解像度のワイドスクリーン |
 | 3 | 16:9、800x450（1200 Kbps） | 1.5 Mbps | _800x450_1200K | 1200 | 800 x 450 | ソースと同じ | 96 | 中～高解像度 |
 | 4 | 16:9、1280x720（2000 Kbps） | 3.0 Mbps | _1280x720_2000K | 2000 | 1280 x 720 | ソースと同じ | 128 | 高精細、ワイドスクリーン |
@@ -402,7 +402,7 @@ Dynamic Mediaクラシックオファーアダプティブビデオエンコー�
 
 |  | エンコードプリセット名/ツールヒントテキスト | ターゲット接続速度（Kbps） | エンコードファイルのサフィックス | ビデオのデータレート（Kbps） | 幅/高さ（ピクセル） | fps | オーディオビットレート（Kbps） | 推奨 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9、480x270（400 Kbps）、OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | ソースと同じ | 64 | 低解像度のワイドスクリーン |
+| 1 | 16:9、480x270（400 Kbps）、OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | ソースと同じ | 64 | 低解像度のワイドスクリーン |
 | 2 | 16:9、640x360（800 Kbps）、OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | ソースと同じ | 80 | 中解像度のワイドスクリーン |
 | 3 | 16:9、800x450（1200 Kbps）、OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | ソースと同じ | 96 | 中～高解像度 |
 | 4 | 16:9、1280x720（2000 Kbps）、OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000 | 1280 x 720 | ソースと同じ | 128 | 高精細、ワイドスクリーン |
@@ -456,7 +456,7 @@ Dynamic Mediaクラシックオファーアダプティブビデオエンコー�
 
 Web ページごとに異なるニーズがあります。HTML5 ビューアを個別のブラウザーウィンドウで開くリンクを表示した Web ページが必要なときもあります。また、ホスティングページに直接 HTML5 ビューアを埋め込む必要がある場合もあります。後者の場合、その Web ページは静的なレイアウトになる場合もあれば、「レスポンシブ」に処理して、デバイスごと、あるいはブラウザーウィンドウのサイズごとに異なる表示にする場合もあります。これらのニーズに対応するために、Dynamic Mediaクラシックに付属のHTML5ビューアでは、静的なWebページとレスポンシブデザインのWebページの両方がサポートされています。
 
-Webページにレスポンシブビューアを埋め込む方法について詳しくは、*Adobe画像サービングAPIヘルプ*&#x200B;の[レスポンシブな静的画像ライブラリ](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)を参照してください。
+レスポンシブビューアをWebページに埋め込む方法について詳しくは、[レスポンシブ画像ライブラリについて](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api)、[レスポンシブ画像ライブラリの使用](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api)、[コマンドリファレンス — コマンド属性](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library)を参照してください。
 
 ### ビューアプリセットのタイプ {#viewer-preset-types}
 
