@@ -1,13 +1,11 @@
 ---
 title: 公開設定
 description: 公開設定画面の設定は、初期設定でアセットがDynamic MediaクラシックサーバからWebサイトやアプリケーションにどのように配信されるかを決定します。
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 64%
@@ -21,7 +19,7 @@ ht-degree: 64%
 
 管理者は、Image Server 画面、画像レンダラ画面、ビネット画面の初期設定を変更して、サーバからアセットを配信するための初期設定を指定することができます。
 
-公開設定画面を開くには、設定／アプリケーション設定／公開設定をクリックします。
+公開設定画面を開くには、**設定**/**アプリケーション設定**/**公開設定**&#x200B;をクリックします。
 
 >[!NOTE]
 >
