@@ -1,17 +1,15 @@
 ---
 title: Web ページへのズームビューアのリンク
 description: ズームビューアをWebページにリンクする方法を説明します。
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +44,7 @@ Webサイトやアプリケーションは、URL文字列や埋め込みコー�
 
 通常、Web サイトの閲覧者は、ズームアイコン（一般的には虫めがねのアイコン）を選択して画像をズームします。このアイコンを選択すると、ポップアップウィンドウで画像を表示する動的 Web ページ（ASP または JSP）が起動します。このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
 
-詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5基本ズームビューアの埋め込み](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)」を参照してください。
+詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5基本ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
 
 ## ズームビューアの埋め込みコードのコピー {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -74,5 +72,4 @@ Webサイトやアプリケーションは、URL文字列や埋め込みコー�
 
    埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-1. 「閉じる」をクリックします。
-
+1. 「**閉じる**」をクリックします。
