@@ -1,16 +1,14 @@
 ---
 title: '"クイックスタート：ビデオ"'
-description: すばやく習得できるビデオの概要とクイック開始を紹介します。
-uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
+description: AdobeDynamic Mediaクラシックビデオの概要とクイック開始を参照してください。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1441'
 ht-degree: 65%
 
 ---
@@ -53,7 +51,7 @@ AdobeDynamic Mediaクラシックビデオは、高品質のアダプティブ�
 
    アダプティブビデオストリーミングは様々な iOS プラットフォームでサポートされています。
 
-   最新のサポート状況については、『[Adobeビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
+   最新のサポート状況については、『[Adobeビューアリファレンスガイド](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)』を参照してください。
 
    Dynamic Mediaクラシックは、MP4 H.264ビデオのモバイルビデオ再生をサポートしています。 次の Web サイトを参照すると、このビデオ形式をサポートする Blackberry 端末が見つかります。
 
