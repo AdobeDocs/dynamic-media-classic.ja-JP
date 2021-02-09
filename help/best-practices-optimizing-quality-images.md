@@ -1,16 +1,14 @@
 ---
 title: 画質を最適化するためのベストプラクティス
 description: 画質を最適化するためのベストプラクティスを紹介します。
-uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1474'
 ht-degree: 60%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 60%
 
 Dynamic Mediaクラシックには、画像の調整と最適化、および結果のレンダリングを行うための100を超える画像サービングコマンドが含まれています。 重要なコマンドおよびベストプラクティスを使用して、このプロセスを効率化し、良い結果をすばやく得るために、次のガイドラインが役に立ちます。
 
-[スマートイメージング](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)も参照してください。
+[スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)も参照してください。
 
 ## 画像形式(&amp;fmt=) {#best-practices-for-image-format-fmt}のベストプラクティス
 
@@ -50,7 +48,7 @@ Dynamic Mediaクラシックには、画像の調整と最適化、および結�
 
 ベストプラクティスに関するホワイトペーパー[AdobeDynamic MediaクラシックおよびImage Server](/help/assets/s7_sharpening_images.pdf)に画像にシャープを適用します。
 
-詳しくは、[アンシャープマスクを使用した画像へのシャープの適用](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)も参照してください。
+<!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
 Dynamic Mediaクラシックでは、取り込み時、配信時、またはその両方で画像にシャープを適用できます。 ただし、ほとんどの場合は、両方ではなくいずれかの方法のみを使用して画像にシャープを適用することをお勧めします。通常は、配信時に URL 上の画像にシャープを適用すると最良の結果を得られます。
 
@@ -70,11 +68,7 @@ Dynamic Mediaクラシックでは、取り込み時、配信時、またはそ�
 
          このパラメーターは、シャープにされるピクセルが周囲の領域とどの程度違えば、そのピクセルをエッジのピクセルと見なしてフィルターによりシャープにするかを決定するものです。しきい値は、肌のトーンのような類似した色の領域に過度なシャープが適用されることを防ぐために使用できます。例えば、しきい値を 12 にした場合、肌のトーンの明るさにわずかな差があっても無視して「ノイズ」が加わるのを防ぎながら、まつげと肌が隣り合う場所など、コントラストの高い領域に対してエッジコントラストを追加することができます。
 
-         フィルターで使用するベストプラクティスを含む、これら 3 つのパラメーターの設定方法について詳しくは、次のリソースを参照してください。
-
-         [画像へのシャープの適用](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)に関するDynamic Mediaクラシックヘルプトピックです。
-
-         ベストプラクティスに関するホワイトペーパー[Adobe Scene7パブリッシングシステムおよびImage Server](/help/assets/s7_sharpening_images.pdf)に画像にシャープを適用します。
+         フィルターで使用するベストプラクティスを含む、これら3つのパラメーターの設定方法について詳しくは、[Adobe Scene7パブリッシングシステムおよびImage Server](/help/assets/s7_sharpening_images.pdf)での画像へのシャープの適用を参照してください。
 
       * Dynamic Mediaクラシックでは、4番目のパラメーターも制御できます。モノクロ(`0,1`)。 このパラメーターは、アンシャープマスクが各カラーコンポーネントに個別に適用されるか（値 `0` を使用）、画像の明るさ／適用度に適用されるか（値 `1` を使用）を示します。
 
