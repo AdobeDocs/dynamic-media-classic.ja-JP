@@ -1,16 +1,14 @@
 ---
 title: 「クイック開始:Dynamic MediaクラシックとAdobe Analyticsの統合»
-description: Dynamic MediaクラシックとAdobe分析を統合し、すばやく習得できるようにするための概要とクイック開始です。
-uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
+description: Dynamic MediaクラシックとAdobe Analyticsを統合して、すばやく作業を始めるのに役立つ紹介とクイック開始です。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 45%
 
 ---
@@ -24,7 +22,7 @@ Adobe AnalyticsとDynamic Mediaクラシックを統合すると、Webサイト�
 
 Adobe Analytics レポートを使用して、Web サイト上でのユーザーアクティビティの全体像を明確に把握できます。どの製品プレゼンテーションが売上につながり、どのプレゼンテーションが顧客の興味を引きつけないかがわかります。
 
-「[Adobe Analytics でのビデオの測定](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)」も参照してください。
+「[Adobe Analytics でのビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)」も参照してください。
 
 >[!NOTE]
 >
