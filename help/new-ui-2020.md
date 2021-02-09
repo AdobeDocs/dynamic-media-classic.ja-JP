@@ -1,14 +1,13 @@
 ---
 title: AdobeDynamic Mediaクラシックデスクトップアプリ
-seo-title: AdobeDynamic Mediaクラシックデスクトップアプリ
 description: Dynamic Mediaクラシックのユーザーは、ユーザーインターフェイスを完全に最新の状態に更新できるようになりました。 このアップデートでは、貴重なリソースへのリンクを含む更新されたログインが提供されます。また、このアップデートでは、ブラウザーのAdobeFlashテクノロジに依存しなくなりました。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -90,11 +89,11 @@ Windowsで新しいDynamic Mediaクラシックデスクトップアプリを使
 
 Dynamic Mediaクラシックは、リッチメディア戦略を強化するために設計された強力で豊富な機能を備えたソリューションです。 すべての機能を確実に活用するために、次の実用的なリソースを確認してください。
 
-* [Dynamic Mediaのベストプラクティスのチュートリアル](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Dynamic Mediaのベストプラクティスのチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Dynamic Mediaブログ投稿](https://theblog.adobe.com/tag/dynamic-media/)
-* [Dynamic Mediaニュースレターアーカイブ](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Dynamic Mediaニュースレターアーカイブ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-さらに、[Dynamic Mediaのニュースレター](https://www.adobe.com/subscription/dynamic-media-newsletter.html)に登録し、最新ニュース、情報、トレーニングの機会、[スマートイメージング](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)などの強力な機能、補足的な監査プログラムについて最新情報を提供します。
+さらに、[Dynamic Mediaのニュースレター](https://www.adobe.com/subscription/dynamic-media-newsletter.html)に登録し、最新ニュース、情報、トレーニングの機会、[スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)などの強力な機能、補足的な監査プログラムについて最新情報を提供します。
 
 ### **_私はAEM AssetsとDynamic Mediaへのアップグレードについてもっと知りたい。詳細情報はどこで入手できますか？_**
 
