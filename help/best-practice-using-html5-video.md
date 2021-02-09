@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 25%
 
 ---
@@ -24,7 +24,7 @@ Dynamic MediaクラシックHTML5ビデオビューアプリセットは堅牢�
 
 HTML5 と CSS を使用した再生コンポーネントの設計、再生の埋め込み、およびブラウザーの機能に基づくアダプティブストリーミングおよびプログレッシブストリーミングの使用ができる機能を単一のプレーヤーに統合することで、リッチメディアコンテンツをデスクトップユーザーとモバイルユーザーの両方に提供し、ビデオ配信の効率化を確実に行うことができます。
 
-Adobeビューアリファレンスガイドの[HTML5ビューアについて](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html)も参照してください。
+Adobeビューアリファレンスガイドの[HTML5ビューアについて](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)も参照してください。
 
 ## Dynamic Mediaクラシックビデオビューアを使用したデスクトップコンピューターおよび携帯端末でのビデオ再生{#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
