@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 36%
+source-wordcount: '354'
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 36%
 1. Adobe Analytics設定ページで、**[!UICONTROL Adobe Analyticsログイン]**&#x200B;をタップします。
 1. **[!UICONTROL Adobe Analyticsログイン]**&#x200B;ダイアログボックスで、会社名、Marketing Cloud組織ID（オプション）、ユーザー名、*共有秘密*&#x200B;キーを&#x200B;**[!UICONTROL パスワード]**&#x200B;テキストフィールドに入力します。
 
-   Analytics管理コンソールから&#x200B;*共有暗号鍵*&#x200B;キーを取得できます。 [ユーザーアカウントのAPI資格情報を取得する方法](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)を参照してください。
+   Analytics管理コンソールから&#x200B;*共有暗号鍵*&#x200B;キーを取得できます。 [ユーザーアカウントのAPI資格情報を取得する方法](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md)を参照してください。
 
 1. 「**[!UICONTROL ログイン]**」をクリックします。
 1. **[!UICONTROL レポートスイート]**&#x200B;ドロップダウンメニューで、レポートスイートを選択し、**[!UICONTROL 「OK]**」をクリックします。
