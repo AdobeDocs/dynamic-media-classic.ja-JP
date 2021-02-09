@@ -5,9 +5,9 @@ description: AdobeDynamic Mediaクラシックテクニカルドキュメント
 seo-description: 'AdobeDynamic Mediaクラシック（旧称Scene7）のテクニカルドキュメント、リリースノートおよびセルフヘルプ資料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 13%
 
 ---
@@ -25,7 +25,7 @@ Dynamic Mediaクラシックヘルプへようこそ。 Dynamic Mediaクラシ�
 
 ## Dynamic Media の開発者向けリソース
 
-* [Dynamic Media開発者向けリソースランディングページ](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)  — ビューアリファレンスガイド、画像サービング/画像レンダリングAPI、画像制作システムAPI、Dynamic Mediaクラシックリリースノートが含まれています。
+* [Dynamic Media開発者向けリソースランディングページ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  — ビューアリファレンスガイド、画像サービング/画像レンダリングAPI、画像制作システムAPI、Dynamic Mediaクラシックリリースノートが含まれています。
 * [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  — ビデオ、買い物可能なメディア、混在メディア、スピンセット、インラインズーム、画像セット、スウォッチセット、フライアウトのビューア例が含まれます。
 
 ## Dynamic Mediaクラシックユーザーリソース
