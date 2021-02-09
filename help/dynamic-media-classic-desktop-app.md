@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
 ## Dynamic Mediaクラシックデスクトップアプリの使用に関するビデオウォークスルー{#dmc-app-video-walk-through}
 
-[ビデオのウォークスルービデオを見る(Dynamic Mediaクラシックデスクトップアプリの使用)](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (長さ：2分36秒)。
+[ビデオのウォークスルービデオを見る(Dynamic Mediaクラシックデスクトップアプリの使用)](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (長さ：2分36秒)。
 
 ## デスクトップアプリを使用して、コンピューター上の画像キャッシュとアセットキャッシュをクリアする
 
