@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 * タイムアウトにより次のメッセージが表示されるログインの問題が発生しました：*このユーザーは、権限なしでグループに割り当てられる場合があります。 管理者に問い合わせてください。*
 * ビューアプリセットは、間違ったパスワードが試行されるたびに複製されます。
 * ルートフォルダー内の多くのアセットが原因で、デスクトップアプリケーションが応答しなくなる。 (Windowsで修正されました。（macOSで必要に応じて動作）。
+* jlkjlkj
 
 ## 以前のバージョン(20.20.2)の修正点{#previous-version-fixes-desktop-app}
 
@@ -189,11 +190,11 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
 1. Dynamic Mediaクラシックデスクトップアプリケーションの右上隅近くで、**[!UICONTROL セットアップ]**/**[!UICONTROL 個人設定]**&#x200B;をタップします。
 1. **[!UICONTROL 個人設定]**&#x200B;ページの&#x200B;**[!UICONTROL デスクトップ]**&#x200B;見出しの下で、次のいずれかの操作を行います。
-   * 「**[!UICONTROL 画像キャッシュをクリア]**」をタップすると、Dynamic MediaにキャッシュされたAdobeファイルがすべてコンピューターから削除されます。 「**[!UICONTROL OK]**」をタップします。
-   * 「**[!UICONTROL アセットキャッシュをクリア]**」をタップすると、Dynamic MediaがキャッシュしたすべてのAdobeファイルがコンピューターから削除されます。 「**[!UICONTROL OK]**」をタップします。
+   * Dynamic MediaにキャッシュされたすべてのAdobeの画像ファイルをコンピューターから削除するには、「**[!UICONTROL 画像キャッシュをクリア]**」をタップし、「**[!UICONTROL OK]**」をタップします。
+   * Dynamic MediaがキャッシュしたアセットファイルをAdobeーからすべて削除するには、「**[!UICONTROL アセットキャッシュをクリア]**」をタップし、「**[!UICONTROL OK]**」をタップします。
 1. ページ右下隅の「**[!UICONTROL 閉じる]**」をタップします。
 
-### 画像キャッシュとアセットキャッシュの手動によるクリア
+### 手動での画像キャッシュとアセットキャッシュのクリア{#clear-cache}
 
 デスクトップアプリケーションを使用して画像とアセットのキャッシュを消去する以外に、ファイルシステムから直接手動でキャッシュをクリアできます。
 
@@ -201,6 +202,10 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+
+## Dynamic MediaClassic 2021.1の既知の制限
+
+* **[!UICONTROL Server]**&#x200B;ドロップダウンリストが空になるのは、Dynamic Mediaクラシックデスクトップアプリケーション20.21.1 — シナリオ：Dynamic MediaClassic 20.20.1または20.20.2をインストールしてサインインし、アプリケーションを閉じます。 次に、Dynamic MediaClassic 20.21.1に更新します。サインインしようとすると、**[!UICONTROL アカウント]**&#x200B;にサインインダイアログボックスの&#x200B;**[!UICONTROL サーバー]**&#x200B;ドロップダウンリストが空になります。 この問題を回避するには、[手動でキャッシュ](#clear-cache)をクリアします。
 
 ## Dynamic MediaClassic 20.20.1の既知の制限（20.20.2で修正）
 
@@ -211,6 +216,7 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 * ポップアップウィンドウが表示されたら、「**[!UICONTROL OK]**」をタップしてサインアウトし、アプリを閉じます。
 
    ![新しい会社を使用するには、アプリを再起動します](/help/assets/dmclassic-new-company1.png)
+
 * Dynamic Mediaクラシックを再起動し、通常どおりにサインインして新しい会社を使用します。
 
 ## ヒントとテクニック
