@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
+source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -205,7 +205,7 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
 ## Dynamic MediaClassic 2021.1の既知の制限
 
-* **[!UICONTROL Server]**&#x200B;ドロップダウンリストが空になるのは、Dynamic Mediaクラシックデスクトップアプリケーション20.21.1 — シナリオ：Dynamic MediaClassic 20.20.1または20.20.2をインストールしてサインインし、アプリケーションを閉じます。 次に、Dynamic MediaClassic 20.21.1に更新します。サインインしようとすると、**[!UICONTROL アカウント]**&#x200B;にサインインダイアログボックスの&#x200B;**[!UICONTROL サーバー]**&#x200B;ドロップダウンリストが空になります。 この問題を回避するには、[手動でキャッシュ](#clear-cache)をクリアします。
+* **[!UICONTROL Server]**&#x200B;ドロップダウンリストが空になるのは、Dynamic Mediaクラシックデスクトップアプリケーション20.21.1 — シナリオ：Dynamic MediaClassic 20.20.1または20.20.2をインストールしてサインインし、アプリケーションを閉じます。 次に、Dynamic MediaClassic 20.21.1に更新します。サインインしようとすると、**[!UICONTROL アカウント]**&#x200B;にサインインダイアログボックスの&#x200B;**[!UICONTROL サーバー]**&#x200B;ドロップダウンリストが空になります。 この問題を回避するには、[手動でキャッシュ](#clear-cache)をクリアする必要があります（上記の手順を参照）。
 
 ## Dynamic MediaClassic 20.20.1の既知の制限（20.20.2で修正）
 
