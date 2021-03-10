@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 0%
@@ -44,7 +44,7 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 * macOSとWindowsの両方で、デスクトップアプリのユーザーインターフェイスからアップロードできるファイル数に制限はありません。
 * 会社を切り替えるために、デスクトップアプリケーションからサインアウトする必要はありません。
 * Ctrl + Vキーで貼り付け操作を実行できるようになりました。
-* 今後、新しいバージョンのデスクトップアプリがリリースされると、ユーザーにはデスクトップアプリ内で通知されます。 —>
+* 今後、新しいバージョンのデスクトップアプリがリリースされると、ユーザーにはデスクトップアプリ内で通知されます。
 
 ## macOSまたはWindows {#installation-dmc-app}に最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードしてインストールします。
 
