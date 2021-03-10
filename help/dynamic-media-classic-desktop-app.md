@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
+source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 * タイムアウトにより次のメッセージが表示されるログインの問題が発生しました：*このユーザーは、権限なしでグループに割り当てられる場合があります。 管理者に問い合わせてください。*
 * ビューアプリセットは、間違ったパスワードが試行されるたびに複製されます。
 * ルートフォルダー内の多くのアセットが原因で、デスクトップアプリケーションが応答しなくなる。 (Windowsで修正されました。（macOSで必要に応じて動作）。
-* jlkjlkj
 
 ## 以前のバージョン(20.20.2)の修正点{#previous-version-fixes-desktop-app}
 
