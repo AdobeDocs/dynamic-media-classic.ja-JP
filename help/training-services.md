@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
+feature: Dynamic Mediaクラシック
+role: 管理者、実業家
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 56%
+source-wordcount: '172'
+ht-degree: 54%
 
 ---
 
