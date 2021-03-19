@@ -1,15 +1,17 @@
 ---
 title: アセットのアップロードと公開について
-description: Dynamic Mediaクラシックでのアセットのアップロードと公開について説明します。
+description: Dynamic Mediaクラシックでのアセットのアップロードおよび公開方法を説明します。
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
+feature: Dynamic Mediaクラシック，アセット管理
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 35%
+source-wordcount: '222'
+ht-degree: 34%
 
 ---
 
