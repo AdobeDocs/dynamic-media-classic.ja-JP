@@ -4,11 +4,13 @@ description: Dynamic Mediaクラシックのアセット管理の概要
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+feature: Dynamic Mediaクラシック，アセット管理
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 83%
+source-wordcount: '159'
+ht-degree: 79%
 
 ---
 
