@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
+feature: Dynamic Mediaクラシック
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3437'
+source-wordcount: '3442'
 ht-degree: 65%
 
 ---
@@ -202,7 +204,7 @@ ht-degree: 65%
 
    **[** 折り返しなし]テキストボックスの横幅が小さすぎる場合はテキストを折り返さず、代わりにテキストの一部を省略します。
 
-   **NB折り返し** （改行なしラップ）テキストボックスに収まるようにテキストを折り返し、単語は改行しません。
+   **NB折り返し** （改行なしラップ）テキストボックスに収まるようにテキストを折り返し、単語の途中では改行しません。
 
    **** 位置キャンバス上のテキストボックスの位置を指定します。
 
