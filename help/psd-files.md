@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
+feature: Dynamic Mediaクラシック，アセット管理
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 64%
+source-wordcount: '1032'
+ht-degree: 63%
 
 ---
 
 
 # PSD ファイルの操作 {#working-with-psd-files}
 
-PSD(Photoshopドキュメントファイル)は、Dynamic Mediaクラシックでテンプレートを作成する際に最もよく使用されるファイルです。 PSDファイルをアップロードする場合、ファイルから自動的にDynamic Mediaクラシックテンプレートを作成できます（アップロード画面の「テンプレートを作成」オプションを選択）。
+PSD(Photoshopドキュメントファイル)は、Dynamic Mediaクラシックでテンプレートを作成する際に最もよく使用されるファイルです。 PSDファイルをアップロードする場合は、ファイルから自動的にDynamic Mediaクラシックテンプレートを作成できます（アップロード画面の「テンプレートを作成」オプションを選択）。
 
 Dynamic Mediaクラシックでは、ファイルを使用してテンプレートを作成すると、レイヤーを持つPSDファイルから複数の画像が作成されます。各レイヤーに対して1つのイメージが作成されます。
 
