@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
+feature: Dynamic Mediaクラシック，ビューア，ビデオ
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 84%
+source-wordcount: '774'
+ht-degree: 83%
 
 ---
 
