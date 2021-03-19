@@ -1,15 +1,17 @@
 ---
 title: 'ファイルの公開 '
-description: アセットをDynamic MediaImage Serverに公開します。 アセットは1回限りで公開することも、定期的に公開するようにDynamic Mediaクラシックを設定することもできます。 アセットの公開が完了すれば、それらを配信することができます。Dynamic MediaクラシックからURL呼び出しをコピーして、それらをWebサイトやアプリケーションに追加できます。
+description: 「アセットをDynamic MediaImage Serverに公開する方法を学びます。 アセットは1回限りで公開することも、定期的に公開するようにDynamic Mediaクラシックを設定することもできます。 アセットの公開が完了すれば、それらを配信することができます。You can can copy the URL callsic from the website Classic and add thes is themel.」
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+feature: Dynamic Mediaクラシック，アセット管理
+role: 開業医
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 75%
+source-wordcount: '1715'
+ht-degree: 74%
 
 ---
 
