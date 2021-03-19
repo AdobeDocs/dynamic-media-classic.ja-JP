@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
+feature: Dynamic Mediaクラシック，アセット管理
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 79%
+source-wordcount: '590'
+ht-degree: 78%
 
 ---
 
@@ -60,8 +62,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 開いているアセットを操作するためのツールが詳細ビューに表示されます。利用可能なツールは、操作しているアセットタイプによって異なります。ただし、次の機能は常に表示されます。
 
-* **publishの項目名の左側にある**
-Publishアイコンをクリックするか、 **** ファイル/ **[!UICONTROL パブリッシュまたはフ]** ァイル/非公開をクリックします ****。
+* **publish用の項目名の左側にある**
+Publishアイコンをクリックするか、 **** ファイル/ **[!UICONTROL パブリッシュまたは]** ファイル/非公開 ****&#x200B;をクリックします。
 
 * **ア**
 セットの名前の変更名前を選択し、新しい名前を入力します。
