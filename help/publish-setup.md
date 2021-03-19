@@ -1,13 +1,15 @@
 ---
 title: 公開設定
-description: 公開設定画面の設定は、初期設定でアセットがDynamic MediaクラシックサーバからWebサイトやアプリケーションにどのように配信されるかを決定します。
+description: 公開設定では、初期設定でアセットがDynamic MediaクラシックサーバーからWebサイトやアプリケーションにどのように配信されるかを指定できます。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Mediaクラシック
+role: 管理者
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2422'
 ht-degree: 64%
 
 ---
