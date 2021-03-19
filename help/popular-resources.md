@@ -2,10 +2,12 @@
 title: 役立つリソース
 description: ウェビナー、トレーニングビデオ、ベストプラクティスに関する情報および開発者向けリソースへのリンクです。
 contentOwner: Rick Brough
+feature: Dynamic Mediaクラシック
+role: 管理者、実業家
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 16%
 
 ---
