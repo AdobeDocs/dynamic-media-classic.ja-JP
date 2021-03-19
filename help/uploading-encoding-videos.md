@@ -8,10 +8,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
+feature: Dynamic Mediaクラシック，ビューア，ビデオ
+role: 開業医
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3945'
 ht-degree: 81%
 
 ---
@@ -240,7 +242,7 @@ Dynamic Mediaクラシックでソースビデオをエンコードする際の�
 |--- |--- |--- |--- |
 | ソース | 1920 x 1080 | 1 | 1 |
 | エンコード済み | 960 x 540 | 2 | 2 |
-| エンコード済み | 640 x 360 | 3 | 3 |
+| エンコード済み | 640 x 360 | 3 | 1 |
 | エンコード済み | 480 x 270 | 4 | 4 |
 
 ### エンコードされたビデオファイル形式  {#encoded-video-file-format}
