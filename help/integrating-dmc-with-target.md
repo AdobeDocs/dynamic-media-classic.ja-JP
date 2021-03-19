@@ -7,16 +7,18 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
+feature: Dynamic Mediaクラシック
+role: データエンジニア、管理者、実業家
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 11%
+source-wordcount: '174'
+ht-degree: 10%
 
 ---
 
 
-# AdobeDynamic MediaクラシックとAdobe Target標準/プレミアムの統合{#integrating-dmc-with-target}
+# AdobeDynamic MediaクラシックとAdobe Target標準/プレミアムとの統合{#integrating-dmc-with-target}
 
 [!DNL Dynamic Media Classic]と[!DNL Target Standard/Premium]を統合する前に、[!DNL Dynamic Media Classic]アプリケーションの全般設定画面でターゲットURLを入力する必要があります。 ターゲットURLを取得して、アプリケーションの全般設定画面に入力するには、次の手順に従います。
 
