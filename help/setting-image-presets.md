@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
+feature: Dynamic Mediaクラシック，画像プリセット
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 65%
+source-wordcount: '656'
+ht-degree: 64%
 
 ---
 
@@ -49,7 +51,7 @@ Dynamic Mediaクラシックには、既に使用可能な「ベストプラク�
    Dynamic Mediaクラシックでは、次の「ベストプラクティス」オプションを開始に推奨しています。
 
    * **形式：JPEGまたは要件に合う他の形式を**
-選択します。すべての Web ブラウザーで JPEG 画像形式がサポートされています。JPEG 形式は、小さいファイルサイズと画質のバランスが優れています。ただし、JPEG 形式の画像は非可逆圧縮方式を使用しているので、圧縮設定が低すぎると画像に望ましくないアーティファクトが発生する可能性があります。そのため、（スライダ上の）圧縮品質を75に設定することを推奨します。 この設定は、画質と小さなファイルサイズのバランスが取れた設定です。
+選択します。すべての Web ブラウザーで JPEG 画像形式がサポートされています。JPEG 形式は、小さいファイルサイズと画質のバランスが優れています。ただし、JPEG 形式の画像は非可逆圧縮方式を使用しているので、圧縮設定が低すぎると画像に望ましくないアーティファクトが発生する可能性があります。そのため、Dynamic Mediaクラシックでは圧縮品質（スライダ上）を75に設定することをお勧めします。 この設定は、画質と小さなファイルサイズのバランスが取れた設定です。
 
    * **シャ**
 ープ：「シャープ」は選択しません(このシャープフィルターオファーでは、「アンシャープマスク」設定よりも制御が少なくなります)。
@@ -63,7 +65,7 @@ Dynamic Mediaクラシックには、既に使用可能な「ベストプラク�
    |--- |--- |--- |--- |--- |
    | Cross-Sell（ミニサムネール） | 75 x 75 | 1.5 | 0.8 | 5 |
    | Thumbnail | 150 × 150 | 1.1 | 1 | 5 |
-   | Main | 350 x 350 | 3 | 3 | 6 |
+   | Main | 350 x 350 | 1 | 3 | 6 |
    | Enlarge | 500 x 500 | 1.2 | 1.2 | 5 |
 
 1. 「**保存**」をクリックします。
