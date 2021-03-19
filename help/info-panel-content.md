@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
+feature: Dynamic Mediaクラシック，ビューア，eCatalog
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 82%
+source-wordcount: '875'
+ht-degree: 81%
 
 ---
 
@@ -88,7 +90,7 @@ Last Modified Date:
 1. 「**参照**」をクリックし、使用するタブ区切りのTXTファイル、CSVファイルまたはSSVファイルを選択して、「**開く**」をクリックします。
 1. 「**アップロード**」をクリックします。
 
-Dynamic Mediaクラシックから、アップロードが成功したかどうかを知らせる電子メールが送信されます。
+Dynamic Mediaクラシックからは、アップロードが成功したかどうかを知らせる電子メールが送信されます。
 
 ## 画像マップのロールオーバーキーテキストのプレビュー {#preview-rollover-key-text-for-an-image-map}
 
