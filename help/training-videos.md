@@ -1,10 +1,12 @@
 ---
 title: Dynamic Mediaクラシックトレーニングビデオ
 description: はじめに、ダイナミックイメージング、ビデオ、Media Portal、テンプレート、および画像オーサリングとレンダリングに関するDynamic Mediaクラシックトレーニングビデオ。
+feature: Dynamic Mediaクラシック
+role: 管理者、実業家
 translation-type: tm+mt
-source-git-commit: 1e7635e1e8c1e9da09b22b8bdc0a71a39cd53088
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '6544'
+source-wordcount: '6550'
 ht-degree: 0%
 
 ---
