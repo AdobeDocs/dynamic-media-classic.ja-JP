@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
+feature: Dynamic Mediaクラシック
+role: 管理者、実業家
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1197'
 ht-degree: 75%
 
 ---
@@ -36,7 +38,7 @@ ht-degree: 75%
 
 ## ローカルのハードドライブにプラグインをインストールするには
 
-1. Dynamic Mediaクラシックの個人設定ページの「Web-to-Print向けIllustratorプラグイン」で、「**今すぐダウンロード**」をクリックして&#x200B;**Web-to-Print向けIllustratorプラグイン**&#x200B;ファイルをダウンロードします。
+1. Dynamic Mediaクラシックの個人設定ページの「IllustratorWeb-to-Print向けプラグイン」で、「**今すぐダウンロード**」をクリックして&#x200B;**Web-to-Print向けIllustratorプラグイン**&#x200B;ファイルをダウンロードします。
 1. この ZIP ファイルを一時フォルダーに解凍します。
 
    解凍されたファイルのルートに readme ファイルがあります。このファイルには、プラグインに関する追加情報が記載されています。
