@@ -5,11 +5,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+feature: Dynamic Mediaクラシック，ビューア，ビデオ
+role: 開業医
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 65%
+source-wordcount: '1448'
+ht-degree: 64%
 
 ---
 
@@ -28,7 +30,7 @@ AdobeDynamic Mediaクラシックビデオは、高品質のアダプティブ�
 1. 次の条件を使用して、帯域幅速度の変更に基づいてビデオプレーヤーが切り替わります。
 
    1. プレイヤーは、推定帯域幅以下で最も高い帯域幅ストリームを選択します。
-   1. プレイヤーは、使用可能な帯域幅の80%しか考慮しません。 しかし、上に切り替える場合は、過大評価を避け、即座に切り替える必要がないように、70%で会話がより多くなります。
+   1. プレイヤーは、使用可能な帯域幅の80%しか考慮しません。 しかし、上に切り替える場合は、過大評価を避け、即座に切り替える必要がないように、70%で会話率が高くなります。
 
 技術的な情報については、[https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)にあるアルゴリズムのロジックを参照してください。
 
