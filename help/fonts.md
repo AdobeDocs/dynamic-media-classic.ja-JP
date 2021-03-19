@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
+feature: Dynamic Mediaクラシック
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 40%
+source-wordcount: '432'
+ht-degree: 39%
 
 ---
 
@@ -54,13 +56,13 @@ Dynamic Mediaクラシックでは、次のフォントタイプをサポート�
 
 **フォント** スタイルオプションは、標準、太字、斜体、太字斜体です。
 
-**フォント** の種類TrueTypeとAdobeの種類1を指定できます。これらのフォントを別の名前で呼び出す場合は、その名前を入力します。
+**フォント** の種類TrueTypeとAdobe Type1を指定できます。これらのフォントを別の名前で呼び出す場合は、その名前を入力します。
 
 **フォントタイプ** 省略形オプションは次のとおりです。
 
 **PDF/PostScriptのレンダリングと画像サービングに使用される** TTFTrueTypeフォントファイル。
 
-**adobeフォントメトリクス情報が含まれ、画像サービングに使用される** AFMAdobe PostScriptフォントファイル。
+**Adobeフォントメトリクス情報が含まれ、画像サービングに使用される** AFMAdobe PostScriptフォントファイル。
 
 **バイナリフォントメトリック情報を含む** PFMAdobe PostScriptフォントファイル。
 
