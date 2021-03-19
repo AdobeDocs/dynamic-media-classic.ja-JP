@@ -1,14 +1,16 @@
 ---
 title: AdobeDynamic Mediaクラシックデスクトップアプリ — 現在提供中
-description: Dynamic Mediaクラシックデスクトップアプリの詳細を表示します。
+description: Dynamic Mediaクラシックデスクトップアプリケーションの詳細を表示します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
+feature: Dynamic Mediaクラシック
+role: 管理者、実業家
 translation-type: tm+mt
-source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
+source-git-commit: 24f8d9f6e997269d879562d777199d3d86d8114a
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
