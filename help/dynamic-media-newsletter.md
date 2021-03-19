@@ -2,10 +2,12 @@
 description: 'Experience LeagueのDynamic Mediaニュースレターは月刊ニュースレターです。 Dynamic MediaとDynamic Mediaクラシックを素早く使いこなせるように設計されており、価値をすぐに実感できます。 このワンストップショップニュースレターでは、貴重なナレッジビルディングリソースをご利用いただけます。 ビデオやソリューションの概要の説明が含まれます。 画像プリセット、ビューアプリセット、ビデオプロファイルなど、主な機能についても説明します。 '
 keywords: ダイナミックメディア；ニュースレター；製品の更新；ヒントとテクニック；イベント；顧客の成功；ブログ；画像；ビデオ；機能；機能
 title: Dynamic Mediaニュースレター
+feature: Dynamic Mediaクラシック
+role: 管理者、実業家
 translation-type: tm+mt
-source-git-commit: 416ac66db1cbe60a2cac80f72db1e3e0354f9e0a
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
