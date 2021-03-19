@@ -6,10 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
+feature: Dynamic Mediaクラシック，アセット管理
+role: 開業医
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3859'
 ht-degree: 43%
 
 ---
@@ -255,11 +257,11 @@ Dynamic Mediaクラシックデスクトップアプリケーションを使用�
 
 * **POSTSCRIPTOPTIONS** -PostScript®ファイルのラスタライズ、ファイルの切り抜き、透明な背景の維持、解像度の選択およびカラースペースの選択を行うことができます。詳しくは、[PostScript ファイルおよび Illustrator ファイルの操作](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)を参照してください。
 
-* **PHOTOSHOPOPTIONS** -Adobe®Photoshop®ファイルからのテンプレートの作成、レイヤーの維持、レイヤーの命名方法の指定、テキストの抽出、テンプレートに画像をアンカーする方法の指定を行うことができます。詳しくは、[PSD アップロードオプション](psd-files.md#psd_upload_options)を参照してください。
+* **PhotoshopOPTIONS** -Adobe®Photoshop®ファイルからのテンプレートの作成、レイヤーの維持、レイヤーの命名方法の指定、テキストの抽出、テンプレートに画像をアンカーする方法の指定を行うことができます。詳しくは、[PSD アップロードオプション](psd-files.md#psd_upload_options)を参照してください。
 
 * **PDFOPTIONS**  — ファイルのラスタライズ、検索語やリンクの抽出、eCatalogの自動生成、解像度の設定およびカラースペースの選択を行うことができます。詳しくは、[PDF アップロードオプション](pdfs.md#pdf_upload_options)を参照してください。
 
-* **ILLUSTRATOROPTIONS** -Adobe Illustrator®ファイルのラスタライズ、透明な背景の維持、解像度の選択およびカラースペースの選択を行うことができます。詳しくは、[PostScript ファイルおよび Illustrator ファイルの操作](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)を参照してください。
+* **IllustratorOPTIONS** -Adobe Illustrator®ファイルのラスタライズ、透明な背景の維持、解像度の選択およびカラースペースの選択を行うことができます。詳しくは、[PostScript ファイルおよび Illustrator ファイルの操作](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)を参照してください。
 
 * **EVIDEOOPTIONS**  — ビデオプリセットを選択してビデオファイルをトランスコードできます。詳しくは、[ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)を参照してください。
 
