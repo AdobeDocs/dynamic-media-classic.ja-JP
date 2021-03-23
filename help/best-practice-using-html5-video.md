@@ -10,21 +10,27 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Mediaクラシック，ビューア，ビデオ
 role: 開業医
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 24%
+source-wordcount: '427'
+ht-degree: 12%
 
 ---
 
 
 # HTML5ビデオビューア{#best-practice-using-the-html-video-viewer}の使用に関するベストプラクティス
 
-Dynamic MediaクラシックHTML5ビデオビューアプリセットは堅牢なビデオプレーヤーです。 プレーヤーの設計の点では、標準のWeb開発ツールを使用して、ビデオプレーヤーのすべての機能を作成できます。 例えば、ボタン、コントロールおよびカスタムのポスター画像背景を HTML5 と CSS を使用して設計し、顧客にカスタマイズした外観を提供することができます。
+Dynamic MediaクラシックHTML5ビデオビューアプリセットは堅牢なビデオプレーヤーです。 プレーヤーの設計の点では、標準のWeb開発ツールを使用してビデオプレーヤーの全機能を作成できます。 例えば、ボタン、コントロールおよびカスタムのポスター画像背景を HTML5 と CSS を使用して設計し、顧客にカスタマイズした外観を提供することができます。
 
 ビューアの再生の点では、ブラウザーのビデオ機能が自動的に検出されます。次に、HLS（アダプティブビデオストリーミング）を使用してビデオを提供します。 または、その配信メソッドが存在しない場合は、代わりにHTML5プログレッシブが使用されます。
 
-HTML5 と CSS を使用した再生コンポーネントの設計、再生の埋め込み、およびブラウザーの機能に基づくアダプティブストリーミングおよびプログレッシブストリーミングの使用ができる機能を単一のプレーヤーに統合することで、リッチメディアコンテンツをデスクトップユーザーとモバイルユーザーの両方に提供し、ビデオ配信の効率化を確実に行うことができます。
+単一のプレーヤーに組み合わせることで、次のような機能を実現できます。
+
+* HTML5とCSSを使用して設計された再生コンポーネント
+* 埋め込み再生
+* ブラウザの機能に基づくアダプティブストリーミングとプログレッシブストリーミングの使用
+
+リッチメディアコンテンツの提供先を、デスクトップユーザーとモバイルユーザーに拡張できます。 また、ビデオエクスペリエンスを合理化することもできます。
 
 Adobeビューアリファレンスガイドの[HTML5ビューアについて](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)も参照してください。
 
@@ -44,9 +50,9 @@ Adobeビューアリファレンスガイドの[HTML5ビューアについて](h
 | デスクトップ | Firefox 45以降 | HLSビデオストリーミング。 |
 | デスクトップ | クロム | HLSビデオストリーミング。 |
 | デスクトップ | Safari(Mac) | HLSビデオストリーミング。 |
-| モバイル | Chrome（Android 6以前） | プログレッシブダウンロード |
-| モバイル | Chrome（Android 7以降） | HLSビデオストリーミング。 |
-| モバイル | Android（デフォルトのブラウザー） | プログレッシブダウンロード |
+| モバイル | Chrome（Android™ 6以前） | プログレッシブダウンロード |
+| モバイル | Chrome（Android™ 7以降） | HLSビデオストリーミング。 |
+| モバイル | Android™（デフォルトのブラウザ） | プログレッシブダウンロード |
 | モバイル | Safari(iOS) | HLSビデオストリーミング。 |
 | モバイル | Chrome(iOS) | HLSビデオストリーミング。 |
-| モバイル | Blackberry | HLSビデオストリーミング。 |
+| モバイル | BlackBerry® | HLSビデオストリーミング。 |
