@@ -10,17 +10,17 @@ discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 feature: Dynamic Mediaクラシック，アセット管理
 role: 開業医
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 31%
+source-wordcount: '249'
+ht-degree: 23%
 
 ---
 
 
 # マスター画像のアップロード{#uploading-master-images}
 
-画像をDynamic Mediaクラシックにアップロードする前に、画質が最も高いサイズと形式であることを確認してください。 Dynamic Mediaクラシックでは、十分なピクセル数（長辺が1500 ～ 2000 pixelの画像）を持つ高品質の画像をアップロードすることをお勧めします。 これにより、あらゆるダイナミックイメージングに対応できます。
+画像をDynamic Mediaクラシックにアップロードする前に、画像が最高の画質を持つサイズと形式であることを確認してください。 Dynamic Mediaクラシックでは、十分なピクセル数（長辺が1500 ～ 2000 pixelの画像）を持つ高品質の画像をアップロードすることをお勧めします。 このサイズ変更により、必要なダイナミックイメージングを行うことができます。
 
 画像のアップロードについて詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
@@ -32,7 +32,7 @@ ht-degree: 31%
 サイズ使用が予想される最大サイズの画像を作成します。一般的な画像サイズは、長辺が 1500 ～ 2500 pixel です。ズーム機能を使用する場合は、詳細なズームを最適化するために、長辺が少なくとも2000 pixelの画像を使用することをお勧めします。 Dynamic Mediaクラシックでは、それぞれ25メガピクセルまでの画像をレンダリングできます。 例えば、5000 x 5000メガピクセルの画像や、25メガピクセルまでのその他のサイズの組み合わせを使用できます。
 
 * **ファイル**
-形式ダイナミックMedia Classicは、TIFF、BMP、JPEG、PSD、GIF、EPSなど、すべての標準的な画像ファイル形式をサポートします。可逆圧縮画像形式の TIFF および PNG を使用することをお勧めします。JPEG 画像を使用する場合は、最高の画質設定を使用してください。
+形式ダイナミックMedia Classicは、TIFF、BMP、JPEG、PSD、GIF、EPSなど、すべての標準的な画像ファイル形式をサポートします。可逆圧縮画像形式の TIFF および PNG を使用することをお勧めします。JPEG画像を使用する場合は、最高の画質設定を使用してください。
 
 * **Color**
 spaceRGBは、Web画像表示用のカラースペースです。印刷に一般的に使用されるCMYK画像は、アップロード時に自動的にRGBに変換されます。RGB への変換用の ICC カラープロファイルが埋め込まれた CMYK 画像をアップロードすることをお勧めします。詳しくは、ICC プロファイルも参照してください。
