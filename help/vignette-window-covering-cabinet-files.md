@@ -10,19 +10,19 @@ discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 feature: Dynamic Mediaクラシック，アセット管理
 role: 開業医
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 45%
+source-wordcount: '143'
+ht-degree: 26%
 
 ---
 
 
 # ビネット、ウィンドウカバリング、キャビネットファイルの操作{#working-with-vignette-window-covering-and-cabinet-files}
 
-Scene7では、Dynamic Mediaクラシック画像オーサリングツールのユーザは、ビネット（VNTファイル）、ウィンドウカバリング（VNWファイル）、キャビネット（VNCファイル）を使用できます。 これらのファイルは、Dynamic Mediaクラシックでは作成または編集できません。
+Dynamic Mediaクラシック画像オーサリングツールのユーザは、*ビネット（VNTファイル）、ウィンドウカバリング（VNWファイル）、キャビネット（VNCファイル）を*&#x200B;使用できます。 これらのファイルは、Dynamic Mediaクラシックでは作成または編集できません。
 
-ビネット、ウィンドウカバリング、およびキャビネットは、オーサリングされた画像です。Image Authoringと呼ばれる別のDynamic Mediaクラシックプログラムを使用すると、イメージ内のオブジェクトをマスクして、同じイメージを様々なテクスチャや色で表示できます。 例えば、様々な布地が張られたソファ、様々な窓装飾を施した窓、様々な木材でできたキャビネットなどを表示できます。
+ビネット、ウィンドウカバリング、およびキャビネットは、オーサリングされた画像です。Image Authoringと呼ばれる別のDynamic Mediaクラシックプログラムを使用すると、イメージ内のオブジェクトをマスクして、同じイメージを様々なテクスチャや色で表示できます。 例えば、様々な布地が張られたソファ、様々な窓装飾を施した窓、様々な木材で仕上げたキャビネットなどが表示されます。
 
 ビネット、ウィンドウカバリング、およびキャビネットの各ファイルは、他のファイルと同じようにアップロードします。
 
