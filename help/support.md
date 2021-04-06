@@ -8,13 +8,12 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Mediaクラシック
 role: 管理者、実業家
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9801d5707bef099da72f9163826188b703e75168
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 33%
+source-wordcount: '189'
+ht-degree: 28%
 
 ---
-
 
 # サポート {#support}
 
@@ -23,13 +22,15 @@ ht-degree: 33%
 | サポート | 製品版 |
 |--- |--- |
 | 案件数 | 無制限. |
-| 返答期間 | FAQについては、[https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)を参照してください。 |
-| SLA(Service Level Agreement) | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Adobeシステムのステータスの確認 | [Dynamic Mediaクラシックのシステムステータス](https://status.adobe.com/products/1175)。 |
+| 答えが見つからない場合 | [サポートからヘルプを得るには、チケットを開きます](https://experienceleague.adobe.com/?support-solution=General#support)。 |
+| コミュニティフォーラム | [Experience Managerコミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
+| SLA(Service Level Agreement) | [サポートサービス/利用条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
 | サポート対象ユーザー | 組織あたり最大10人のユーザーをサポート対象ユーザーに指定できます。サポート対象ユーザーは、カスタマーケアに問い合わせてサポート案件をオープンできます。 |
-| ソーシャルサポート | FAQについては、[https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/contact/enterprise-support.ec.html)を参照してください。 |
 | 無料のライブ Web トレーニングとビデオチュートリアル | 含まれる. |
-| サポートケースの作成 | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
-| 電話サポート | <ul><li>米国/カナダ：(800) 898-9743、(800)497-033、(408)454-5910 </li> <li>日本：+81-3-6743-9632 </li><li>英国：+44 (0)20 35641782</li><li>ドイツ：+49 (0)69 51709005</li><li>フランス：+33 157324085</li><li>オランダ：+31 (0)20 2035138 （週末の英語サポート）</li></ul> |
+| 電話サポート | <ul><li>米国およびカナダ：1-800-497-0335 </li><li>[他の地域の電話番号](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)。</li></ul> |
+
+<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 テクニカルサポートに問題を報告される際には、次の情報をご提供ください。
 
@@ -39,4 +40,3 @@ ht-degree: 33%
 * 問題の説明と問題を再現するのに必要な手順.
 * エラーメッセージ（ある場合）。
 * ブラウザーのタイプとバージョン（該当する場合）。
-
