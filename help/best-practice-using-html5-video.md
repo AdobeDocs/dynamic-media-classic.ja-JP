@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Mediaクラシック，ビューア，ビデオ
-role: 開業医
+role: Business Practitioner
+exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '431'
 ht-degree: 12%
 
 ---
-
 
 # HTML5ビデオビューア{#best-practice-using-the-html-video-viewer}の使用に関するベストプラクティス
 
 Dynamic MediaクラシックHTML5ビデオビューアプリセットは堅牢なビデオプレーヤーです。 プレーヤーの設計の点では、標準のWeb開発ツールを使用してビデオプレーヤーの全機能を作成できます。 例えば、ボタン、コントロールおよびカスタムのポスター画像背景を HTML5 と CSS を使用して設計し、顧客にカスタマイズした外観を提供することができます。
 
-ビューアの再生の点では、ブラウザーのビデオ機能が自動的に検出されます。次に、HLS（アダプティブビデオストリーミング）を使用してビデオを提供します。 または、その配信メソッドが存在しない場合は、代わりにHTML5プログレッシブが使用されます。
+ビューアの再生の点では、ブラウザーのビデオ機能が自動的に検出されます。次に、HLS（HTTPライブストリーミング）を使用してビデオを提供します。これはアダプティブビデオストリーミングとも呼ばれます。 または、その配信メソッドが存在しない場合は、代わりにHTML5プログレッシブが使用されます。
 
 単一のプレーヤーに組み合わせることで、次のような機能を実現できます。
 
