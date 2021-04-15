@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Mediaクラシック，コラボレーション，アセット管理
-role: 管理者、実業家
+role: Administrator,Business Practitioner
+exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 82%
+source-wordcount: '1009'
+ht-degree: 81%
 
 ---
-
 
 # Media Portal のユーザの追加と管理{#adding-and-managing-media-portal-users}
 
@@ -83,8 +83,8 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 
 | 名 | 姓 | 電子メール | パスワード | ユーザの役割 | グループ |
 |--- |--- |--- |--- |--- |--- |
-| Peter | Peterson | `petep@company.com` | welcome | MediaPortal 管理者 | PortalCo/IT,PortalCo/Admin |
-| Kevin | Marks | `kevinm@myco.com` | welcome | Media Portal ユーザ | PortalCo/MktgGroup, PortalCo/test |
+| プレーリー | カット | `prairiek@company.com` | welcome | MediaPortal 管理者 | PortalCo/IT,PortalCo/Admin |
+| リック | ブルー | `rickb@myco.com` | welcome | Media Portal ユーザ | PortalCo/MktgGroup, PortalCo/test |
 
 
 ### CSV ファイルのアップロード  {#uploading-the-csv-file}
@@ -105,9 +105,9 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL アプリケーション設定]**／**[!UICONTROL 管理設定]**／**[!UICONTROL ユーザ管理]**&#x200B;をクリックします。
 1. **[!UICONTROL 「ユーザの役割が」]**&#x200B;ドロップダウンリストで、Media Portal ユーザの役割名を選択し、**[!UICONTROL 「更新」]**&#x200B;をクリックして、Media Portal ユーザの 1 つのクラスの名前のみを表示します。
-1. **[!UICONTROL 「ポップアップリスト」]**&#x200B;をクリックすると、ポップアップウィンドウが開きます。このリストをコピーしてペーストできます。
+1. **[!UICONTROL 「ポップアップリスト」]**&#x200B;をクリックすると、ポップアップウィンドウが開きます。このリストをコピーして貼り付けます。
 
-## Media Portal ユーザ向けのご案内の電子メールメッセージの設定  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
+## Media Portal ユーザ向けのご案内の電子メールメッセージの設定 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定するか、Dynamic Mediaクラシックに送信しないように設定できます。
 
@@ -115,24 +115,24 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 1. ユーザ管理設定画面で、「**[!UICONTROL 電子メール設定]**」をクリックします。
 1. 電子メール設定ダイアログボックスで、次のいずれかの設定を指定します。
 
-   **[!UICONTROL 電子メールの送信]** 新しいユーザーにサインアップが完了したことを電子メールで通知しない場合は、このオプションの選択を解除します。
+   * **[!UICONTROL 電子メールを送信]**  — 新しいユーザーにサインアップが完了したことを電子メールで通知しない場合は、このオプションの選択を解除します。
 
-   **[!UICONTROL デフォルトの]** パスワード新規ユーザーの一時パスワードを入力するか、フィールドを空のままにして、Dynamic Mediaクラシックでランダムなパスワードを生成します。ユーザーは、初めてログインしたときにパスワードを変更するように求められます。
+   * **[!UICONTROL デフォルトのパスワード]**  — 新規ユーザーの一時パスワードを入力するか、フィールドを空のままにして、Dynamic Mediaクラシックでランダムなパスワードを生成させます。ユーザーは、初めてログインしたときにパスワードを変更するように求められます。
 
-   **[!UICONTROL 置換]** URLユーザが別のURLを使用してDynamic Mediaクラシックにアクセスする場合、デフォルトとは異なるURLを入力します。
+   * **[!UICONTROL 置換URL]**  — ユーザーが別のURLを使用してDynamic Mediaクラシックにアクセスした場合、デフォルトとは異なるURLを入力します。
 
 ## その他のユーザ管理タスク {#other-user-management-tasks}
 
 ユーザ管理設定画面から、次のタスクも実行できます。
 
-**[!UICONTROL ユーザ]** リストのフィルタリングと並べ替えMedia Portalユーザのリストをフィルタして、ユーザを探します。詳しくは、ユーザリストのフィルタリングと並べ替えを参照してください。
+* **[!UICONTROL ユーザリストのフィルタリングと並べ替え]** - Media Portalユーザのリストをフィルタしてユーザを特定します。
 
-**[!UICONTROL ユーザーの削除]** リストからユーザーを削除します。詳しくは、ユーザの削除を参照してください。
+* **[!UICONTROL ユーザーの削除]** -リストからユーザーを削除します。
 
-**[!UICONTROL ユーザーのアクティブ化と非アクティブ化]** ユーザーによるフォルダーへのアクセスを停止します。詳しくは、ユーザのアクティブ化と非アクティブ化を参照してください。
+* **[!UICONTROL ユーザーのアクティブ化と非アクティブ化]**  — ユーザーによるフォルダーへのアクセスを停止します。
 
-**[!UICONTROL ユーザー]** 情報の編集ユーザーに関する最新の情報を入力します。詳しくは、ユーザ情報の編集を参照してください。
+* **[!UICONTROL ユーザー情報の編集]**  — ユーザーに関する最新の情報を入力します。
 
-**[!UICONTROL ユーザ定義]** フィールドの作成ユーザ定義のカスタムメタデータフィールドを作成し、Dynamic Mediaクラシックでのアセットの整理に役立ちます。このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
+* **[!UICONTROL ユーザ定義フィールドの作成]**  — ユーザ定義のカスタムメタデータフィールドを作成して、Dynamic Mediaクラシックでのアセットの整理に役立てます。このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
 
 [ユーザ定義フィールド](application-setup.md#user_defined_fields)を参照してください。
