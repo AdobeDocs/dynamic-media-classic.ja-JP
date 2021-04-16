@@ -8,25 +8,25 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Mediaクラシック
-role: データエンジニア、管理者、実業家
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 50%
+source-wordcount: '1196'
+ht-degree: 46%
 
 ---
-
 
 # Adobe Analytics レポートの設定{#configuring-adobe-analytics-reports}
 
 Adobe Analytics で Adobe Analytics レポートに含める情報を指定するには、Adobe Analytics 設定画面に移動します。レポートを設定した後、この画面リストは、情報を取得する各ビューアイベントに対して、対応するAdobe Analytics変数とDynamic Mediaクラシック変数を設定します。 これらのビューアイベント、Adobe Analytics変数、Dynamic Mediaクラシック変数の組み合わせによって、レポートされる情報が決まります。
 
-ビューアイベントを変数と関連付ける機能のほか、Adobe Analytics 設定画面にはビューアイベントをアクティブ化、編集および削除するためのツールがあります。
+ビューアイベントを変数に関連付ける他に、Adobe Analytics設定画面には、ビューアイベントのアクティブ化、編集および削除を行うためのオファーツールがあります。
 
 >[!NOTE]
 >
->Adobe AnalyticsでAdobe Analyticsレポートの設定を変更する場合は、必ずAdobeDynamic MediaクラシックからAdobe Analyticsに再度ログオンし、Adobe Analyticsの設定を保存し直してから再公開してください。
+>Adobe AnalyticsでAdobe Analyticsレポートの設定を変更する場合は、必ずAdobeDynamic MediaクラシックからAdobe Analyticsに再度ログオンし、Adobe Analyticsの設定を再度保存してから再公開してください。
 
 詳しくは、[Adobe Analytics へのログイン](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 
@@ -38,7 +38,7 @@ Adobe Analytics で Adobe Analytics レポートに含める情報を指定す�
 
 **Adobe Analytics変数をDynamic Mediaクラシックビューアのイベントと変数に割り当てるには**
 
-1. Dynamic MediaクラシックからAdobe Analyticsにログインし、レポートスイートを選択した後、Adobe Analytics設定ページの表の最も右側の列で、「**有効にする**」をクリックしてビューアイベントをアクティブ化します。
+1. Dynamic MediaクラシックからAdobe Analyticsにログインし、レポートスイートを選択した後、Adobe Analytics設定ページの右側の表の列で、「**[!UICONTROL 有効にする]**」をクリックしてビューアイベントをアクティブ化します。
 1. 「変数」列で、目的のビューアイベントの矢印ボタンをクリックして、変数ペア選択機能を表示します。
 
    詳しくは、[ビューアイベント](configuring-analytics-reports.md#viewer_events)を参照してください。
@@ -60,7 +60,7 @@ Adobe Analytics で Adobe Analytics レポートに含める情報を指定す�
 
 ### ビューアイベント {#viewer-events}
 
-ビューアのイベントは、Dynamic Mediaクラシックビューアでユーザが実行するアクションを記述します。 ユーザーが特定のアクション（サムネールのクリック、ビデオの開始または停止など）を開始すると、ビューアは Web ページに対して、イベントとそのイベントに関連付けられたデータを「ブロードキャスト」します。
+ビューアのイベントは、Dynamic Mediaクラシックビューアでユーザが実行するアクションを記述します。 ユーザーが特定の操作（サムネールのクリック、ビデオの開始または停止など）を開始すると、ビューアはWebページに対して、そのイベントに関連付けられたデータと共にイベントを「ブロードキャスト」します。
 
 次の表に、Adobe Analytics 設定画面に追加できるビューアイベントを示します。
 
