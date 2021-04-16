@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Mediaクラシック，アセット管理
-role: 開業医
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1584'
 ht-degree: 60%
 
 ---
-
 
 # ジョブファイルの確認{#checking-job-files}
 
@@ -121,7 +121,7 @@ Dynamic Mediaクラシックへのファイルのアップロードを監視し�
 | 時間 | 0 ～ 23 | 24 時間表記を使用のこと. | `, - * /` |
 | 日付 | 1-31 | 日付と曜日の両方に数値を指定することはできません。これらのフィールドの1つには、`?`ワイルドカード文字を使用する必要があります。 | `, - * / ? L C` |
 | 月 | 1 ～ 12またはJan、Feb、Mar、Apr、May、Jun、Jul、Aug、Sep、Oct、Nov、Dec | 値は大文字と小文字が区別されます。 | `, - * /` |
-| 曜日 | Mon、Tue、Wed、Thu、Fri、Sat、Sun | 値は大文字と小文字が区別されます。 日付と曜日の両方に数値を指定することはできません。いずれかのフィールドに ?ワイルドカード文字を指定する必要があります。 | `, - * / ? L C #` |
+| 曜日 | Mon、Tue、Wed、Thu、Fri、Sat、Sun | 値は大文字と小文字が区別されます。 日付と曜日の両方に数値を指定することはできません。これらのフィールドの1つには、`?`ワイルドカード文字を使用する必要があります。 | `, - * / ? L C #` |
 | 年（オプション） | 空または1970-2099 |  | `, - * /` |
 
 
