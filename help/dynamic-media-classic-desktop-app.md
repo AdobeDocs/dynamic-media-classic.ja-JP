@@ -9,10 +9,10 @@ feature: Dynamic Mediaクラシック
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 0%
+source-wordcount: '1845'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dynamic Mediaクラシックのユーザーは、新しいデスクトップアプリケーションエクスペリエンスにアクセスできるようになりました。このエクスペリエンスでは、AdobeのFlashテクノロジーに依存しなくなりました。
 
-この新しいアプリがWindowsとmacOSで使用できるようになりました。
+この新しいアプリケーションは、Windows®とmacOSで使用できるようになりました。
 
 >[!IMPORTANT]
 >
@@ -33,41 +33,57 @@ Dynamic Mediaクラシックのユーザーは、新しいデスクトップア�
 AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペレーティングシステムと互換性があります。
 
 * macOS 10.10以降。
-* Windows 7以降。
+* Windows® 7以降。
+
+>[!NOTE]
+>
+>*マイナー*&#x200B;リリースに対しては、Dynamic Mediaクラシックデスクトップアプリケーション内のアップグレード通知は生成されません。 マイナーリリースの修正を受けるお客様は、アップグレードできます。
+
+## マイナーリリース(20.21.2)の修正点{#minor-release}
+
+* 20.21.1の「サーバ」ドロップダウンが空であるという既知の制限。
+* **[!UICONTROL アップロードオプション]**&#x200B;で、**[!UICONTROL Photoshopオプション]**&#x200B;の下のレイヤーの初期設定値が&#x200B;**[!UICONTROL Photoshopとレイヤー名]**&#x200B;になりました。 PSD ファイルのレイヤーは、個別の画像としてアップロードされます。
+   * 以前の初期設定の&#x200B;**[!UICONTROL レイヤー名]**&#x200B;は、PSDファイルのレイヤー名またはレイヤー番号に従って、画像に名前が付けられていました。 PSDファイル内のレイヤー名が初期設定のPhotoshopレイヤー名の場合は、レイヤー番号が使用されました。
+   * 新しい初期設定の&#x200B;**[!UICONTROL Photoshopとレイヤー名]**&#x200B;では、PSDファイルの後にレイヤー名またはレイヤー番号が続く名前が画像に付けられます。 PSD ファイルのレイヤー名が、初期設定の Photoshop レイヤー名の場合は、レイヤー番号が使用されます。
+   * Dynamic Mediaクラシックのレイヤー画像には一意の名前が付けられるので、既存のPSDまたはテンプレート（元のPSDファイル内の共有レイヤー名）は更新されません。
+* アセットのサムネールの破損。
 
 ## 最新バージョン(20.21.1)の修正点{#latest-fixes-desktop-app}
 
 * タイムアウトにより次のメッセージが表示されるログインの問題が発生しました：*このユーザーは、権限なしでグループに割り当てられる場合があります。 管理者に問い合わせてください。*
 * ビューアプリセットは、間違ったパスワードが試行されるたびに複製されます。
-* ルートフォルダー内の多くのアセットが原因で、デスクトップアプリケーションが応答しなくなる。 (Windowsで修正されました。（macOSで必要に応じて動作）。
+* ルートフォルダー内の多くのアセットが原因で、デスクトップアプリケーションが応答しなくなる。 (Windows®で修正されました。（macOSで必要に応じて動作）。
 
 ## 以前のバージョン(20.20.2)の修正点{#previous-version-fixes-desktop-app}
 
-* macOSとWindowsの両方で、デスクトップアプリのユーザーインターフェイスからアップロードできるファイル数に制限はありません。
+* macOSとWindows®の両方で、デスクトップアプリのユーザーインターフェイスからアップロードできるファイル数に制限はありません。
 * 会社を切り替えるために、デスクトップアプリケーションからサインアウトする必要はありません。
-* Ctrl + Vキーで貼り付け操作を実行できるようになりました。
+* Windows®で、貼り付け操作用のCtrl + Vが機能するようになりました。
 * 今後、新しいバージョンのデスクトップアプリがリリースされると、ユーザーにはデスクトップアプリ内で通知されます。
 
-## macOSまたはWindows {#installation-dmc-app}に最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードしてインストールします。
+## macOSまたはWindows® {#installation-dmc-app}に最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードしてインストールします
 
 関連項目:
 
 * [Macに最新AdobeのDynamic Mediaクラシックデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-mac-dmc-app)
-* [Windowsに最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
+* [Windows®で最新AdobeのDynamic Mediaクラシックデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
 
 1. 古いバージョンのDynamic Mediaクラシックデスクトップアプリケーションをシステムからアンインストールします。
 
 1. AdobeDynamic Mediaクラシックデスクトップアプリ用の最新インストーラーをダウンロードします。
 
-   * 最新バージョン(20.21.1)は、次の場所で入手できます。
+   * 最新バージョン(20.21.2)は、次の場所で入手できます。
 
-      * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
-   * 以前のバージョン(20.20.2)は、次の場所で入手できます。
+      * [macOS(.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+      * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * 以前のバージョン(20.21.1)は、次の場所で入手できます。
 
-      * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-      * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+      * [macOS(.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
+
+<!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. ダウンロードしたインストーラーに基づいて、次のいずれかの操作を行います。
@@ -103,8 +119,8 @@ AdobeDynamic Mediaクラシックデスクトップアプリは、次のオペ�
 
 関連項目:
 
-* [MacまたはWindowsに最新AdobeのDynamic Mediaクラシックデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
-* [Windowsに最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
+* [MacまたはWindows®に最新AdobeのDynamic Mediaクラシックデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
+* [Windows®で最新AdobeのDynamic Mediaクラシックデスクトップアプリケーションをダウンロードしてサイレントインストールする](#install-silent-windows-dmc-app)
 
 macOSに最新バージョンのAdobeDynamic Mediaクラシックデスクトップアプリをダウンロードして&#x200B;*サイレント*&#x200B;インストールするには：
 
@@ -112,11 +128,11 @@ macOSに最新バージョンのAdobeDynamic Mediaクラシックデスクトッ
 
 1. macOS用AdobeDynamic Mediaクラシックデスクトップアプリケーション用の最新インストーラーをダウンロードします。
 
-   * [macOS(.DMG) — ダウンロード。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+   * [macOS(.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
 
 1. 次のコマンドを使用して、ダウンロードしたディスク・イメージ(.DMG)をマウントポイントの場所にマウントします。
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
 
 1. 次のコマンドを使用して、.APPファイルを&#x200B;**[!UICONTROL Applications]**&#x200B;にコピーします。
 
@@ -137,36 +153,36 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）プロダクション |
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
-## Windows {#install-silent-windows-dmc-app}に最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードして&#x200B;*サイレント*&#x200B;インストールする
+## Windows® {#install-silent-windows-dmc-app}に最新AdobeのDynamic Mediaクラシックデスクトップアプリをダウンロードして&#x200B;*サイレント*&#x200B;インストールします
 
-使用するコマンドは、基本的なMSIサイレントインストール用です。 ただし、Dynamic Mediaクラシックデスクトップアプリケーションのインストーラーは、InstallShieldを使用して作成されたInstallScript MSIインストーラーです。 インストーラーを記録モードで実行すると、ユーザーの操作が応答ファイルに記録されます。 次に、[サイレントモードでのインストールの実行で説明されているように、この応答ファイルをサイレントインストールに使用します。](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+使用するコマンドは、基本的なMSIサイレントインストール用です。 ただし、Dynamic Mediaクラシックデスクトップアプリケーションのインストーラーは、InstallShieldを使用して作成されたInstallScript MSIインストーラーです。 インストーラーを記録モードで実行すると、ユーザーの操作が応答ファイルに記録されます。 次に、[サイレントモードでのインストールの実行で説明されているように、この応答ファイルをサイレントインストールに使用します。](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 関連項目:
 
-* [MacまたはWindowsに最新AdobeのDynamic Mediaクラシックデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
+* [MacまたはWindows®に最新AdobeのDynamic Mediaクラシックデスクトップアプリケーションをダウンロードしてインストールする](#installation-dmc-app)
 * [macOSで最新AdobeのDynamic Mediaクラシックデスクトップアプリケーションをダウンロードし、サイレントインストールする](#install-silent-mac-dmc-app)
 
-Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクトップアプリをダウンロードして&#x200B;*サイレント*&#x200B;インストールするには：
+Windows®で最新バージョンのAdobeDynamic Mediaクラシックデスクトップアプリをダウンロードして&#x200B;*サイレント*&#x200B;インストールするには：
 
 1. 古いバージョンのDynamic Mediaクラシックデスクトップアプリケーションをシステムからアンインストールします。
 
 1. AdobeDynamic Mediaクラシックデスクトップアプリ用の最新インストーラーをダウンロードします。
 
-   * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
 
 1. 次のコマンドを使用して、インストーラーを記録モードで実行します。
 
-   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
 
 1. GUIインストーラーウィンドウで、インストールする手順に従って、インストール場所などの操作や入力を`Setup.iss`ファイルに記録します。
 
-1. 作成した`Setup.iss`ファイルと`adobe-dynamic-media-classic-20.21.1.exe`を他のコンピューターにコピーします。
+1. 作成した`Setup.iss`ファイルと`adobe-dynamic-media-classic-20.21.2.exe`を他のコンピューターにコピーします。
 
 1. サイレントインストールを行うには、次のコマンドを実行します。
 
-   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
 
-   コマンドラインパラメータの詳細については、[Setup.exeおよびUpdate.exeのコマンドラインパラメータを参照してください。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   コマンドラインパラメータの詳細については、[Setup.exeおよびUpdate.exeのコマンドラインパラメータを参照してください。](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 1. アプリを開くと、新しいAdobeの「Dynamic Mediaクラシックログイン」ページが表示されます。
 
@@ -202,7 +218,7 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 1. オペレーティングシステムに応じて、次の場所に移動します。
 
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Dynamic MediaClassic 20.21.1の既知の制限
 
@@ -210,9 +226,10 @@ Windowsに最新バージョンのAdobeDynamic Mediaクラシックデスクト�
 
 ## Dynamic MediaClassic 20.20.1の既知の制限（20.20.2で修正）
 
-**_Windowsのみに適用 — デスクトップアプリUIからアップロードできるファイルの数に制限はありますか？_**<br>はい。1度にアップロードできるファイル数は、デスクトップアプリUIから最大150個です。
+**_Windows®にのみ適用されます。デスクトップアプリUIからアップロードできるファイルの数に制限はありますか。_**<br>はい。1度にアップロードできるファイル数は、デスクトップアプリUIから最大150個です。
 
-**_WindowsとmacOSに適用されます。会社を切り替える方法を教えてください。_**<br>会社を切り替えるには、次の手順を実行します。
+**_Windows®とmacOSに適用 —会社を切り替える方法を教えてください。_**<br>会社を切り替えるには、次の手順を実行します。
+
 * Dynamic Mediaクラシックアプリで、「会社」ドロップダウンリストから新しい会社を選択します。
 * ポップアップウィンドウが表示されたら、「**[!UICONTROL OK]**」をタップしてサインアウトし、アプリを閉じます。
 
