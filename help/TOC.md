@@ -1,13 +1,13 @@
 ---
 cloud: Experience Cloud
-product: Adobe Dynamic Media Classic
+product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
 user-guide-description: Dynamic Media Classic の使用の詳細
 index: y
 translation-type: tm+mt
-source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
+source-git-commit: 97accb7238f698be740f3ae6759b747db347c061
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 77%
