@@ -4,8 +4,8 @@ seo-title: AdobeDynamic Mediaクラシックの技術ドキュメントとセル
 description: AdobeDynamic Mediaクラシックテクニカルドキュメント
 seo-description: 'AdobeDynamic Mediaクラシック（旧称Scene7）のテクニカルドキュメント、リリースノートおよびセルフヘルプ資料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Mediaクラシック
-role: 管理者、実業家
+feature: Dynamic Media Classic
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt

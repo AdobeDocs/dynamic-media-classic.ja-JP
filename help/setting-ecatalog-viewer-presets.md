@@ -6,8 +6,8 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
-feature: Dynamic Mediaクラシック，ビューア，ビューアプリセット，eCatalog
-role: 開業医
+feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

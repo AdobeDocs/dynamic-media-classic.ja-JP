@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Mediaクラシック，アセット管理，メタデータ
-role: 開業医
+feature: Dynamic Media Classic,Asset Management,Metadata
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt

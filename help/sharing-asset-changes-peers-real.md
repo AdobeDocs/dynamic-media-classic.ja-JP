@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
-feature: Dynamic Mediaクラシック，アセット管理，コラボレーション
-role: 管理者、実業家
+feature: Dynamic Media Classic,Asset Management,Collaboration
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
-feature: Dynamic Mediaクラシック
-role: 管理者
+feature: Dynamic Media Classic
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt

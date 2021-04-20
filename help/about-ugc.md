@@ -6,8 +6,8 @@ contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
-feature: Dynamic Mediaクラシック
-role: 管理者、実業家
+feature: Dynamic Media Classic
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

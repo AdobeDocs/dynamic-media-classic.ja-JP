@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
-feature: Dynamic Mediaクラシック
-role: 開業医
+feature: Dynamic Media Classic
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

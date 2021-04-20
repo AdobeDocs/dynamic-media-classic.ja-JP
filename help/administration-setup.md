@@ -6,7 +6,7 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
-feature: Dynamic Mediaクラシック
+feature: Dynamic Media Classic
 role: Administrator
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 translation-type: tm+mt

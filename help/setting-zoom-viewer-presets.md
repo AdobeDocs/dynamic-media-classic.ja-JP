@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
-feature: Dynamic Mediaクラシック，ビューア，ズーム
-role: 開業医
+feature: Dynamic Media Classic,Viewers,Zoom
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

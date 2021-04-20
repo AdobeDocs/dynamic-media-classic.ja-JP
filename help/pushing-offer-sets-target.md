@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 39a05654-4f66-4f1e-aec5-ebe6d174353f
-feature: Dynamic Mediaクラシック
-role: データエンジニア、管理者、実業家
+feature: Dynamic Media Classic
+role: Data Engineer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

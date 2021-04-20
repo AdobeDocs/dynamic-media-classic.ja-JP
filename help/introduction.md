@@ -4,8 +4,8 @@ seo-title: AdobeDynamic Mediaクラシック
 description: Dynamic Mediaクラシックの概要
 seo-description: Dynamic Mediaクラシックの概要
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Mediaクラシック
-role: 管理者、実業家
+feature: Dynamic Media Classic
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

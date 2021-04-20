@@ -5,8 +5,8 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
-feature: Dynamic Mediaクラシック
-role: 管理者、実業家
+feature: Dynamic Media Classic
+role: Administrator,Business Practitioner
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 translation-type: tm+mt
 source-git-commit: ed39a8f7febe194a70fb00acbb9d346f6e9a57ca

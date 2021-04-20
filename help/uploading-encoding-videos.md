@@ -8,8 +8,8 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Mediaクラシック，ビューア，ビデオ
-role: 開業医
+feature: Dynamic Media Classic,Viewers,Video
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

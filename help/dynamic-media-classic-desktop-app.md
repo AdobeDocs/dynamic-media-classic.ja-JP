@@ -5,7 +5,7 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
-feature: Dynamic Mediaクラシック
+feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt

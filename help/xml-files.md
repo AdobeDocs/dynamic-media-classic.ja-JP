@@ -4,8 +4,8 @@ description: XMLベースのシステムを使用して画像と画像情報を�
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Mediaクラシック
-role: 開業医
+feature: Dynamic Media Classic
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt

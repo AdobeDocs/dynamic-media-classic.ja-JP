@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
-feature: Dynamic Mediaクラシック，ビューア，スピンセット
-role: 開業医
+feature: Dynamic Media Classic,Viewers,Spin Sets
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
