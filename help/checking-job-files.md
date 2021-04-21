@@ -7,14 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Mediaクラシック，アセット管理
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 60%
+source-wordcount: '1583'
+ht-degree: 61%
 
 ---
 
@@ -54,9 +54,11 @@ Dynamic Mediaクラシックへのファイルのアップロードを監視し�
 
 **アセット** をアップロードした送信済みのByLists。
 
-***注意&#x200B;**:進行状況バーの横にあるキャンセルボタンをクリックして、進行中の公開ジョブとアップロードジョブをキャンセルできます。*
+>[!NOTE]
+>
+>進行状況バーの横にあるキャンセルボタンをクリックして、処理中の公開ジョブとアップロードジョブをキャンセルできます。
 
-## ジョブページでのビューの変更 {#changing-views-on-the-jobs-page}
+## ジョブページでのビューの変更  {#changing-views-on-the-jobs-page}
 
 ジョブを並べ替えたり、ジョブページの「ヒストリー」タブの表示方法を変更するには、次の手順に従います。
 
