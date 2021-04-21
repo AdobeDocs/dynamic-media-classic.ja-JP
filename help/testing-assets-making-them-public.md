@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Mediaクラシック，アセット管理
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 54%
+source-wordcount: '1100'
+ht-degree: 55%
 
 ---
-
 
 # アセットを公開する前のテスト {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ ht-degree: 54%
 
 非公開のアセットは、セキュアテストサービスでは直ちに使用可能になり、公開の必要はありません。この結果、アセットを公開用画像サーバに対して公開する前に、プレビューを実行できます。
 
-***注意&#x200B;**:セキュアテストサービスは、内部公開コンテキストで設定されたカタログサーバを利用します。したがって、会社がセキュアテストに発行するように設定されている場合は、Dynamic Mediaクラシックでアップロードされたアセットがセキュアテストサービスですぐに使用可能になることに注意してください。 この機能は、アップロード時にアセットが公開用にマークされているかどうかを全く考慮しません。*
+>[!NOTE]
+>
+>セキュアテストサービスは、内部公開コンテキストにより設定されたカタログサーバを活用します。したがって、会社がセキュアテストに発行するように設定されている場合は、Dynamic Mediaクラシックでアップロードされたアセットがセキュアテストサービスですぐに使用可能になることに注意してください。 この機能は、アップロード時にアセットが公開用にマークされているかどうかを全く考慮しません。
 
 セキュアテストサービスでは、現在、次のアセットタイプと機能をサポートしています。
 
@@ -145,4 +147,3 @@ Last Modified Date:
    外部（自宅のコンピューターから、または 3G 接続経由）から会社のネットワークにアクセスし、サイトの公開バージョンですべての公開アセットが表示され、非公開コンテンツはいずれも表示されないことを確認します。
 
    ステージングバージョンで、どのアセットも表示されないことを確認します。承認されていない IP アドレスからセキュアテストサービスにアクセスしているからです。
-
