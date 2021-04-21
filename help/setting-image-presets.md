@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic,Image Presets
+feature: Dynamic Mediaクラシック，画像プリセット
 role: Business Practitioner
+exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 64%
 
 ---
-
 
 # 画像プリセットの設定{#setting-up-image-presets}
 
@@ -30,7 +30,7 @@ Dynamic Mediaクラシックには、既に使用可能な「ベストプラク�
 
 会社の管理者は、独自の画像プリセットを作成できます。新しい画像プリセットまたは開始に、Dynamic Mediaクラシックが提供する初期設定の画像プリセットを作成、編集し、新しい名前で保存することができます。
 
-**画像プリセットを作成するには**
+**画像プリセットを作成するには:**
 
 1. **設定**／**画像プリセット**&#x200B;をクリックします。
 
@@ -65,7 +65,7 @@ Dynamic Mediaクラシックには、既に使用可能な「ベストプラク�
    |--- |--- |--- |--- |--- |
    | Cross-Sell（ミニサムネール） | 75 x 75 | 1.5 | 0.8 | 5 |
    | Thumbnail | 150 × 150 | 1.1 | 1 | 5 |
-   | Main | 350 x 350 | 1 | 3 | 6 |
+   | Main | 350 x 350 | 3 | 3 | 6 |
    | Enlarge | 500 x 500 | 1.2 | 1.2 | 5 |
 
 1. 「**保存**」をクリックします。
