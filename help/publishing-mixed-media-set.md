@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Mediaクラシック，ビューア，混在メディアセット
 role: Business Practitioner
+exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 57%
+source-wordcount: '258'
+ht-degree: 63%
 
 ---
-
 
 # 混在メディアセットの公開{#publishing-a-mixed-media-set}
 
 Dynamic MediaクラシックビデオサーバおよびImage Serverへの公開用にマークした混在メディアセットを公開するための公開ジョブを作成します。 Dynamic Mediaクラシックオファーは、特定のサーバに公開するための高度な公開オプションと、既に公開されているアセットを再公開するためのオプションを提供します。
 
-***注意&#x200B;**:混在メディアセットは、**ビデオ&#x200B;**サーバにも**Image Serverにも公開する必要があります&#x200B;**。**ビデオサーバー&#x200B;**を使用して、公開用にマークした実際のビデオを公開します。また、**Image Server **を使用して、ビデオサムネールなどの関連アセットや、アダプティブビデオセットの設定情報を公開します。*
+>[!NOTE]
+>
+>混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。**ビデオサーバー**&#x200B;を使用して、公開用にマークした実際のビデオを公開します。また、**Image Server**&#x200B;を使用して、ビデオサムネールなどの関連アセットを公開し、アダプティブビデオセットの設定情報を行うこともできます。
 
 Dynamic Mediaクラシックでは、ジョブ画面で公開ジョブを追跡します。
 
@@ -42,21 +44,20 @@ Last Modified Date:
 
 1. 次のいずれかの操作を行います。
 
-   * 参照パネルで、公開する各ファイル名の横にある&#x200B;**公開用にマーク**  をクリックします。
-   * アップロード画面で、公開する各ファイル名の横にある&#x200B;**公開用にマーク**  をクリックします。
+   * 参照パネルで、公開する各ファイル名の横にある&#x200B;**[!UICONTROL 公開用にマーク]**  をクリックします。
+   * アップロード画面で、公開する各ファイル名の横にある&#x200B;**[!UICONTROL 公開用にマーク]**  をクリックします。
 
-1. グローバルナビゲーションバーで「**公開**」をクリックします。
+1. グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックします。
 1. 希望のスケジュールオプションを設定します。
-1. （オプション）「**ジョブ名**」フィールドに、公開ジョブの名前を入力します。
-1. 「**詳細**」オプションの「**公開先**」ドロップダウンリストで、「**ビデオサーバー**」を選択します。
+1. （オプション）「**[!UICONTROL ジョブ名]**」フィールドに、公開ジョブの名前を入力します。
+1. 「**[!UICONTROL 詳細]**」オプションの「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL ビデオサーバー]**」を選択します。
 
    設定できるその他のオプションについては、[詳細公開オプション](publishing-files.md#advanced_publish_options)を参照してください。
 
-1. 「**公開を送信**」をクリックします。
+1. 「**[!UICONTROL 公開を送信]**」をクリックします。
 1. 上記の手順 2～4 を繰り返します。
-1. 「**詳細**」の「**公開先**」ドロップダウンリストで、「**Image Server**」を選択します。
+1. 「**[!UICONTROL 詳細]**」の「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL Image Server]**」を選択します。
 
    設定できるその他のオプションについては、[詳細公開オプション](publishing-files.md#advanced_publish_options)を参照してください。
 
-1. 「**公開を送信**」をクリックします。
-
+1. 「**[!UICONTROL 公開を送信]**」をクリックします。
