@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
+feature: Dynamic Mediaクラシック，コラボレーション，画像プリセット，アセット管理
 role: Administrator,Business Practitioner
+exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 81%
 
 ---
-
 
 # 画像プリセットの作成と有効化{#creating-and-enabling-image-presets}
 
@@ -27,7 +27,7 @@ Media Portal 管理者は画像プリセットを作成して、画像が書き�
 画像アセットを書き出す際、以下の制限が適用されます。
 
 * 幅 x 高さは、画像あたり 100 MB 以下である必要があります。例えば、画像が 10K x 10K を超えたり、8K x 12K のような縦横比を超えてはいけません。
-* 書き出しジョブあたり、ファイルサイズの合計は最大で 1 GB です。
+* 書き出しジョブあたりのファイルの合計サイズは最大1 GBです。
 * 書き出しジョブあたり、アセットの合計は最大で 500 個です。
 
 >[!NOTE]
