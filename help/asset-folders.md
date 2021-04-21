@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Mediaクラシック，アセット管理
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 49%
@@ -36,9 +36,11 @@ Dynamic Mediaクラシックのファイルアセットは、フォルダーに�
 
 * **フォルダを開く**  — フォルダを選択し、参照パネルにその内容を表示します。
 
-***ヒント&#x200B;**:アセットライブラリの左側の展開/折りたたみコントロールをクリックして、アセットライブラリの表示/非表示を切り替えることができます。参照パネルの作業領域を広げるには、アセットライブラリパネルを折りたたみます。*
+>[!TIP]
+>
+>アセットライブラリの左側の&#x200B;**[!UICONTROL 展開]**&#x200B;または&#x200B;**[!UICONTROL 折りたたみ]**&#x200B;コントロールをクリックして、アセットライブラリの表示/非表示を切り替えることができます。 参照パネルの作業領域を広げるには、アセットライブラリパネルを折りたたみます。
 
-## フォルダの作成 {#creating-folders}
+## フォルダの作成  {#creating-folders}
 
 フォルダを作成するには、次の手順に従います。
 
