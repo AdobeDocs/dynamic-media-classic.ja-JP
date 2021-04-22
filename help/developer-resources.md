@@ -6,50 +6,50 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Mediaクラシック，SDK/API
 role: Developer
+exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 38%
+source-wordcount: '273'
+ht-degree: 40%
 
 ---
 
-
-# 開発者向けリソース{#developer-resources}
+# 開発者向けリソース {#developer-resources}
 
 Dynamic Mediaクラシックでは、各Dynamic Mediaクラシックソフトウェアモジュールの最新メジャーバージョンに関するドキュメントを提供しています。 Image Authoring、Dynamic Mediaクラシック、Image Serverと画像レンダリング、ビューアでは、モジュールドキュメントを使用できます。
 
 また、一部のモジュールのリリースノートもあります。リリースノートには、拡張機能、新機能、ヒント、トラブルシューティングに関するアドバイス、未解決の既知の問題など、リリースに関する詳細情報が記載されています。また、リッチメディア機能のインタラクティブな例とそれらをアクティブにする方法も記載されています。また、リリースノートでは、ライセンス許諾されたソフトウェアを使用するユーザ向けのインストールおよび設定に関する情報も提供しています。
 
-画像サービングと画像レンダリングのリファレンスガイド、およびビューアでは、これらのサーバモジュールのHTTPプロトコルについて説明しています。 Webサイト開発者は、Webサイトやカスタムアプリケーション用に、Dynamic Mediaクラシックリッチメディアをさらにカスタマイズして活用したい場合、これらのガイドを使用できます。 Dynamic Mediaクラシックでは、読者がデスクトップアプリ、一般的なhttpプロトコル標準および表記、基本的な画像処理用語に精通していることを前提としています。
+画像サービングと画像レンダリングのリファレンスガイド、およびビューアでは、これらのサーバモジュールのHTTPプロトコルについて説明しています。 Webサイト開発者は、Webサイトやカスタムアプリケーション用にDynamic Mediaクラシックリッチメディアをさらにカスタマイズして使用する場合、これらのガイドを使用できます。 Dynamic Mediaクラシックでは、ユーザーがデスクトップアプリ、一般的なhttpプロトコル標準および表記、基本的な画像処理用語に精通していることを前提としています。
 
 
-**Dynamic MediaクラシックAPI**
+## Dynamic MediaクラシックAPI
 
 | ドキュメント | Web アドレス |
 |--- |--- |
 | API リファレンスガイド | ドキュメントについては、Dynamic Mediaクラシックテクニカルサポートにお問い合わせください。 |
 
-**Image Authoring**
+## Image Authoring
 
 | ドキュメント | Web アドレス |
 |--- |--- |
 | ユーザーガイド | このドキュメントについては、Dynamic Mediaクラシックテクニカルサポートにお問い合わせください。 |
 | リリースノート | このドキュメントについては、Dynamic Mediaクラシックテクニカルサポートにお問い合わせください。 |
 
-**画像サービングおよび画像レンダリング**
+## 画像サービングおよび画像レンダリング
 
 | ドキュメント | Web アドレス |
 |--- |--- |
-| API リファレンスガイド | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) |
+| API リファレンスガイド | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 
-**ビューア**
+## ビューア
 
 | ドキュメント | Web アドレス |
 |--- |--- |
-| ビューアリファレンスガイドおよびリリースノート | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) |
+| ビューアリファレンスガイドおよびリリースノート | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 | ビューアライブラリの例 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 
