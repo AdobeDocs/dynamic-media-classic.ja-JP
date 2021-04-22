@@ -4,23 +4,23 @@ seo-title: AdobeDynamic Mediaクラシック
 description: Dynamic Mediaクラシックの概要
 seo-description: Dynamic Mediaクラシックの概要
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic
+feature: Dynamic Mediaクラシック
 role: Administrator,Business Practitioner
+exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 30%
+source-wordcount: '249'
+ht-degree: 31%
 
 ---
-
 
 # Dynamic Mediaクラシックヘルプ{#scene7-overview}
 
 動的なリッチコンテンツをすべてのAdobeや画面にアップロード、管理、加工および公開するための主要なオンデマンドクロスメディアパブリッシングシステム、Dynamic Mediaクラシックをご利用いただき、ありがとうございます。 AdobeDynamic Mediaクラシックソリューションには、次の機能が含まれます。
 
 * ダイナミックイメージング：リアルタイムの編集、フォーマット操作、サイズ変更、インタラクティブなズームとパン。カラースウォッチとテクスチャスウォッチ、360°スピン、画像テンプレート、マルチメディアビューア。
-* eCatalog:オーサリング、ホットスポットリンク、検索対応、動的に提供されるオンラインカタログを設定可能なビューアに公開および配信できます。
+* eCatalog:オーサリング、ホットスポットリンク、検索対応、公開、動的に提供されるオンラインカタログを設定可能なビューアに配信できます。
 * Media Portal:セルフサービス環境は、管理者が管理する「表示」をDynamic Mediaクラシックアセットに提供し、アセットのアップロード、参照、検索、プレビューおよび書き出しを容易に行うことができます。
 * eVideo:任意の形式での最終版ビデオのアップロード、ホットスポットとビデオテンプレートの管理、編集、作成、設定可能なビデオビューアへの公開およびストリーミング
 * ビジュアルコンフィギュレータ：カラーテクスチャ、サーフェス、パターン、モノグラムのリアルタイムレンダリング、製品画像またはシーンへの彫印など、オンライン上で設定可能な視覚的効果によりパーソナライズおよびカスタマイズを可能にするリアルタイムのレンダリング技術です。
@@ -41,4 +41,3 @@ ht-degree: 30%
 * [クイック開始:基本テンプレート](/help/quick-start-template-basics.md)
 * [クイックスタート：ビデオ](/help/quick-start-video.md)
 * [クイックスタート：ズーム](/help/quick-start-zoom.md)
-
