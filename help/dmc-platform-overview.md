@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
-feature: Dynamic Media Classic
+feature: Dynamic Mediaクラシック
 role: Administrator,Business Practitioner
+exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 32%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
-
 
 # AdobeDynamic Mediaクラシックプラットフォームの概要{#adobe-scene-platform-overview}
 
@@ -26,17 +26,13 @@ Dynamic Mediaクラシックは、統合されたリッチメディア管理、�
 
 Dynamic Mediaクラシックの主なワークフロー手順は次のとおりです。
 
-* **アセットのアップロードと管理**
-メディアアセットをDynamic Mediaクラシックにアップロードします。システム上のアセットに対して、整理、参照および検索を行うことができます。また、アセットにメタデータを適用することもできます。
+* **アセットのアップロードと管理**  — メディアアセットをDynamic Mediaクラシックにアップロードします。システム上のアセットに対して、整理、参照および検索を行うことができます。また、アセットにメタデータを適用することもできます。
 
-* **リッチ**
-メディアの作成eCatalog、画像セット、スピンセット、スウォッチセット、混在メディアセット、基本テンプレート、FXGテンプレートなど、様々なアセット設定を作成できます。詳しくは、リッチメディアについてを参照してください。
+* **リッチメディアの作成** - eCatalog、画像セット、スピンセット、スウォッチセット、混在メディアセット、基本テンプレート、FXGテンプレートなど、様々なアセット設定を作成できます。
 
-* **アセットの公開と**
-管理Dynamic MediaクラシックSaasネットワークへの公開、および公開時のアセットのステータス監視、ユーザ権限の管理、セキュリティの維持を行います。
+* **公開と管理** -Dynamic MediaクラシックSaaSネットワークにアセットを公開し、公開されたアセットのステータス監視、ユーザ権限の管理、セキュリティの維持を行います。
 
-* **ServeDeliverメディアをDynamic MediaクラシックSaaSネットワークからWebページ、アプリケーション、モバイルデバイスに配信します。**
-メディアはパフォーマンスに関して最適化されており、CDNキャッシュと共に配信されます。Dynamic Mediaクラシックでは、各アセットのURLが提供されます。 アセットを公開すると、URL がアクティブになります。
+* **提供**  — メディアをDynamic MediaクラシックSaaSネットワークからWebページ、アプリケーション、モバイルデバイスに配信します。メディアはパフォーマンスに関して最適化されており、CDNキャッシュと共に配信されます。Dynamic Mediaクラシックでは、各アセットのURLが提供されます。 アセットを公開すると、URL がアクティブになります。
 
 ![Dynamic Mediaクラシックワークフロープロセス](/help/assets/gs_workflow.png)
 
@@ -50,4 +46,4 @@ Dynamic Mediaクラシックで生成されるURL文字列には、アセット�
 
 ## コンテンツのキャッシング {#content-caching}
 
-Dynamic Mediaクラシックが動的に生成する画像は、キャッシュに優しく、ほとんどの場合、画像はJPEG画像で、画像を識別する一意のURL呼び出しを持ちます。 画像はコンテンツ配信ネットワーク（CDN）方式で配信されます。この方式は、コンテンツ配信を高速化するために、サーバをインターネット上で相互接続する方式です。画像はグローバルに配置されたサーバ間で配信されてから、コンピュータに配信されます。CDNベンダーを使用したキャッシュメカニズムを実装する場合は、CDN対応のDynamic MediaImage Serverを指すようにサーバ名を変更します。 Dynamic MediaClassicの各エディションには、CDNキャッシュのバンドルが含まれています。
+Dynamic Mediaクラシックが動的に生成する画像は、キャッシュに優しく、通常、これらはJPEG画像を識別する一意のURL呼び出しを持つ画像です。 画像はコンテンツ配信ネットワーク（CDN）方式で配信されます。この方式は、コンテンツ配信を高速化するために、サーバをインターネット上で相互接続する方式です。画像はグローバルに配置されたサーバ間で配信されてから、コンピュータに配信されます。CDNベンダーを使用したキャッシュメカニズムを実装する場合は、CDN対応のDynamic MediaImage Serverを指すようにサーバ名を変更します。 Dynamic MediaClassicの各エディションには、CDNキャッシュのバンドルが含まれています。
