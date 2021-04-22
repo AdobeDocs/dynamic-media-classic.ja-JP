@@ -5,20 +5,20 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-feature: Dynamic Media Classic
+feature: Dynamic Mediaクラシック
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 16%
+source-wordcount: '244'
+ht-degree: 17%
 
 ---
 
-
 # Adobe Analytics ビデオレポートの有効化{#enabling-adobe-analytics-video-reports}
 
-Adobe Analyticsハートビートベースのビデオレポートを使用する場合、Dynamic MediaクラシックでAdobe Analyticsを設定する際に、4つのビデオビューアイベント（再生、一時停止、停止、マイルストーン）を有効にする必要はなくなりました。 ビデオハートビートは、標準搭載のDynamic MediaクラシックHTML5ビデオビューアおよびMixedMediaビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。
+Adobe Analyticsハートビートベースのビデオレポートを使用する場合、Dynamic MediaクラシックでAdobe Analyticsを設定する際に、4つのビデオビューアイベント（再生、一時停止、停止、マイルストーン）を有効にする必要はなくなりました。 ビデオハートビートは、標準搭載のDynamic MediaクラシックHTML5ビデオビューアおよび混在メディアビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。
 
 * ストリーミングメディアと「ハートビート指標」の概要については、[ストリーミングメディア用のAdobe Analyticsについて](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media)を参照してください。
 
@@ -35,4 +35,3 @@ Adobe Analyticsハートビートベースのビデオレポートを使用す�
 >[!NOTE]
 >
 >ライセンスを取得したAdobe AnalyticsのソリューションにVideo Heartbeatが含まれていない場合は、この章で説明する手順に従って、Adobe Analytics変数をDynamic Mediaクラシックビューアのイベントと変数に割り当てる必要があります。
-
