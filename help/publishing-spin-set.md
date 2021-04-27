@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Mediaクラシック，ビューア，スピンセット
 role: Business Practitioner
+exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 44%
+source-wordcount: '176'
+ht-degree: 22%
 
 ---
-
 
 # スピンセットの公開{#publishing-a-spin-set}
 
@@ -24,11 +24,11 @@ ht-degree: 44%
 
 ## スピンセットを公開用にマーク {#marking-a-spin-set-for-publish}
 
-スピンセットをDynamic Mediaクラシック画像サーバにコピーするには、スピンセットを公開用にマークします。 参照パネルで、名前の左にある公開用にマークアイコン  を選択して、スピンセットを公開用にマークすることができます。スピンセット自体を公開用にマークすると、セット内のすべての画像が公開用にマークされます。
+スピンセットをDynamic Mediaクラシック画像サーバにコピーするには、スピンセットを公開用にマークします。 参照パネルで、名前の左にある&#x200B;**[!UICONTROL 公開用にマーク]**&#x200B;アイコンをクリックして、スピンセットを公開用にマークすることができます。 スピンセット自体を公開用にマークすると、セット内のすべての画像が公開用にマークされます。
 
 ## スピンセットの公開  {#publishing-the-spin-set}
 
-スピンセットをDynamic MediaImage Serverに公開するには、開始してグローバルナビゲーションバーの「公開」ボタンを選択します。 次に、「日時」オプションを選択して、必要に応じて公開ジョブ名を入力し、「公開を開始」ボタンを選択します。
+スピンセットをDynamic MediaImage Serverに公開するには、グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックします。 次に、**[!UICONTROL 「]**&#x200B;日時」オプションを選択します。 必要に応じて、公開ジョブの名前を入力できます。 「**[!UICONTROL 公開を送信]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
