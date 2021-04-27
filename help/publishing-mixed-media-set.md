@@ -11,10 +11,10 @@ feature: Dynamic Mediaクラシック，ビューア，混在メディアセッ�
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 63%
+ht-degree: 55%
 
 ---
 
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**混在メディアセットを公開するには**
+**混在メディアセットを公開するには:**
 
 1. 次のいずれかの操作を行います。
 
