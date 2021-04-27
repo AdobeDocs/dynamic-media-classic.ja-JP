@@ -7,22 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: e4a2a5b8-a074-4f0e-a607-0c47acbb81b4
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Mediaクラシック，アセット管理
 role: Business Practitioner
+exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 81%
+source-wordcount: '50'
+ht-degree: 34%
 
 ---
 
-
 # アセットのプリント{#printing-assets}
 
-アセットをプリントするには、次の手順に従います。
-
 1. 参照パネルで、プリントするアセットを 1 つまたは複数選択します。
-1. ファイル／プリントを選択するか、Ctrl + P キー（Windows）または Command + P キー（Mac OS）を押します。
-1. 印刷ダイアログボックスで、プリントする部数を選択し、「印刷」ボタンを選択します。
-
+1. **[!UICONTROL ファイル]**/**[!UICONTROL 印刷]**&#x200B;をクリックするか、`Ctrl+P`(Windows®)または`Command+P`(Macintosh)を押します。
+1. 印刷ダイアログボックスで、印刷する部数を選択し、「**[!UICONTROL 印刷]**」をクリックします。
