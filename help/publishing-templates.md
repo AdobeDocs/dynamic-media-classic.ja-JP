@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
-feature: Dynamic Media Classic
+feature: Dynamic Mediaクラシック
 role: Business Practitioner
+exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 38%
+source-wordcount: '171'
+ht-degree: 22%
 
 ---
-
 
 # テンプレートの公開{#publishing-templates}
 
@@ -26,13 +26,13 @@ ht-degree: 38%
 >
 >テンプレートを使用するには、フォントや画像など、テンプレートを作成するのに使用したすべてのコンテンツを公開します。必要なすべてのファイルを含めないと、公開時にエラーメッセージが表示されます。
 
-## 公開用にテンプレートをマーク  {#marking-templates-for-publish}
+## 公開用にテンプレートをマーク {#marking-templates-for-publish}
 
-テンプレートとそのすべてのサポートファイルをDynamic MediaImage Serverに配置するには、それらを公開用にマークする必要があります。 参照パネルで&#x200B;**公開用にマーク**&#x200B;アイコンをクリックして、これらの項目を公開用にマークすることができます。
+テンプレートとそのすべてのサポートファイルをDynamic MediaImage Serverに配置するには、それらを公開用にマークする必要があります。 参照パネルで&#x200B;**[!UICONTROL 公開用にマーク]**&#x200B;アイコンをクリックして、これらの項目を公開用にマークすることができます。
 
 ## テンプレートの公開 {#publishing-your-template}
 
-テンプレートをDynamic MediaImage Serverに公開するには、グローバルナビゲーションバーの「公開」ボタンを開始します。 次に、「日時」オプションを選択して、必要に応じて公開ジョブ名を入力し、「公開を開始」ボタンを選択します。
+テンプレートをDynamic MediaImage Serverに公開するには、グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックし、「**[!UICONTROL 日時]**」オプションを選択します。 必要に応じて、公開ジョブの名前を入力できます。 「**[!UICONTROL 公開を送信]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
