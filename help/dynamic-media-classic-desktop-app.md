@@ -9,9 +9,9 @@ feature: Dynamic Mediaクラシック
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1850'
 ht-degree: 1%
 
 ---
@@ -246,4 +246,4 @@ Windows®で最新バージョンのAdobeDynamic Mediaクラシックデスク�
 ![更新](/help/assets/refresh-icon1.png)
 *アイコン更新アイコン*
 
-**_デスクトップアプリでバッチセットプリセットが機能していない。_**<br>ア**[!UICONTROL ップロード/ジョブオプション/バッチセットプリセットをタップします&#x200B;]**。関連する**[!UICONTROL バッチセットプリセット&#x200B;]**が有効になっていることを確認します。 「**[!UICONTROL アップロードを保存して送信&#x200B;]**」をクリックします。
+**_デスクトップアプリケーションでバッチセットプリセットが機能していない。_**<br>ア**[!UICONTROL ップロード/ジョブオプション/バッチセットプリセットをタップします&#x200B;]**。関連する**[!UICONTROL バッチセットプリセット&#x200B;]**が有効になっていることを確認します。 「**[!UICONTROL アップロードを保存して送信&#x200B;]**」をクリックします。
