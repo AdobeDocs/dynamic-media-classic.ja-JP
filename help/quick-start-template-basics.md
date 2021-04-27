@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
-feature: Dynamic Media Classic
+feature: Dynamic Mediaクラシック
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 71%
+source-wordcount: '785'
+ht-degree: 70%
 
 ---
-
 
 # クイックスタート：基本テンプレート{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ PSD ファイルからテンプレートを作成するには、ファイルを�
 
 必ず、テンプレートに関連付けられているすべての画像を公開してください。
 
-テンプレートを公開するには、公開用にマークして、グローバルナビゲーションバーの「公開」ボタンを選択します。次に、「公開を開始」ボタンを選択します。詳しくは、[テンプレートの公開](publishing-templates.md#publishing_templates)を参照してください。
+テンプレートを公開するには、公開用にマークして、グローバルナビゲーションバーの「公開」ボタンを選択します。次に、「**[!UICONTROL 発行を送信]**」をクリックします。 詳しくは、[テンプレートの公開](publishing-templates.md#publishing_templates)を参照してください。
 
 **5.Web ページへのテンプレートのリンク**
 
