@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Mediaクラシック，ビューア，スピンセット
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 67%
 
 ---
-
 
 # クイックスタート：スピンセット{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Last Modified Date:
 
 スピンセットを公開すると、スピンセットがDynamic Mediaクラシックサーバに保存され、Webサイトやアプリケーションに動的に配信できるようになります。 また、Dynamic MediaImage ServerからWebサイトやアプリケーションにスピンセットを呼び出すためのURL文字列がアクティブになります。
 
-スピンセットを公開するには、参照パネルで名前の横の&#x200B;**公開用にマーク**&#x200B;アイコンを選択して、スピンセットを公開用にマークします。 グローバルナビゲーションバーの「**発行**」をクリックして、発行を開始します。 公開画面で、「**開始公開**」をクリックします。
+スピンセットを公開するには、参照パネルで名前の横の&#x200B;**公開用にマーク**&#x200B;アイコンを選択して、スピンセットを公開用にマークします。 グローバルナビゲーションバーの「**発行**」をクリックして、発行を開始します。 公開画面で、「**公開を送信**」をクリックします。
 
 詳しくは、[スピンセットの公開](publishing-spin-set.md#publishing-a-spin-set)を参照してください。
 
