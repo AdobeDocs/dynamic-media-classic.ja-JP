@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Mediaクラシック，ビューア，画像セット
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 61%
 
 ---
-
 
 # クイックスタート：画像セット{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ Dynamic Mediaクラシック画像セットは、統合されたビューア操�
 >
 >画像セットを作成して保存した際に「**保存後に公開」を選択した場合は、この手順は不要です（初期設定）。
 
-参照パネルで、名前の左側にある公開用にマークアイコンをクリックします。次に、「**発行**」をクリックします。 公開画面で、「**開始公開**」をクリックします。
+参照パネルで、名前の左側にある公開用にマークアイコンをクリックします。次に、「**発行**」をクリックします。 公開画面で、「**公開を送信**」をクリックします。
 
 詳しくは、[公開](publishing-files.md#publishing-files)を参照してください。
 
-**6.画像セットから Web サイトへのリンク**
+**6.画像セットから Web サイトへのリンク:**
 
 画像セットを公開すると、画像セットのURL呼び出しが作成され、アクティブになります。 これらの URL は、プレビュー画面からコピーすることができます。
 
