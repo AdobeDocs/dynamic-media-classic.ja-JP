@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 39a05654-4f66-4f1e-aec5-ebe6d174353f
-feature: Dynamic Media Classic
+feature: Dynamic Mediaクラシック
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 778fd54b-a9e5-40c5-aff1-a156a5c15923
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 5%
+source-wordcount: '283'
+ht-degree: 0%
 
 ---
 
-
 # オファーセットをAdobe Target標準/プレミアムにプッシュ{#pushing-offer-sets-to-target}
 
-オファーセットを作成または編集した後、次の手順に従ってTarget Standard/Premiumにプッシュします。
+オファーセットを作成または編集した後、次の手順に従って、Adobe Target標準/プレミアムにプッシュします。
 
 1. テストターゲットオファーセット画面で、「**[!UICONTROL オファーをプッシュ]**」をクリックします。
 1. クライアントコードとログイン資格情報を入力します。
 1. 「**[!UICONTROL ログイン]**」をクリックします。
 
-Target Standard/Premiumへの転送中に、オファー名の開始にプリフィックスS7_が自動的に付加されます。 このプレフィックスは、Test&amp;ClassicオファーをTest&amp;ターゲットオファーリストで簡単に見つけられるように追加されています。 例えば、オファーは、「S7_&lt;オファーセット名>_&lt;オファー名>」のように表示されます。
+Adobe Target標準/プレミアムへの転送中に、プレフィックス`S7_`がオファー名の開始に自動的に付加されます。 このプレフィックスは、Test&amp;ClassicオファーをTest&amp;ターゲットオファーリストで簡単に見つけられるように追加されています。 例えば、オファーは`S7_<name of offer set>_<offer name>`のように表示されます。
 
-Dynamic Mediaクラシックは、Target Standard/Premiumのウィジェットオファーにプッシュします。 Widgetオファーを使用して、Target Standard/Premiumの外部で独自のオファーコンテンツをホストできます。 ウィジェットのオファーは、Target Standard/Premiumの外部でホストされる標準のオファーに似ています。 Target Standard/Premiumでは、サーバーに保存されたオファーコンテンツをデプロイできるので、より高度で動的な使用方法が可能です。 ウィジェットオファーはURLからコンテンツを取得し、約2時間そのコンテンツをキャッシュして提供します。 ウィジェットオファーは、Target Standard/Premium以外の他のオファーが実行できない、動的コンテンツ生成機能を提供します。 オファーを提供するmboxに、`mboxProductID`や`mbox.offerId`などのmboxパラメーターが含まれる場合、リクエストされたURLに`productId=[PRODUCT_ID]`や`offerID=[OFFERID]`のURLパラメーターが追加されます。 これらのパラメーターは、ウィジェットオファーURLで利用できるサービスによって、mboxからの製品情報や注文情報を使用するTarget Standard/Premiumの外部のコンテンツを返すために使用できます。 また、ウィジェットオファーはAPIを介してアクセスし、Target Standard/Premium以外でプログラム的にオファーを作成することもできます。
+Dynamic Mediaクラシックは、Adobe Target標準/プレミアムウィジェットオファーにプッシュされます。 ウィジェットオファーを使用して、Adobe Target標準/プレミアムの外部で独自のオファーコンテンツをホストできます。 ウィジェットのオファーは、Adobe Target標準/プレミウムの外部でホストされる標準オファーに似ています。 Standard/Premiumでは、サーバーに保存されたオファーコンテンツをAdobe TargetStandard/Premiumでデプロイできるので、より高度で動的な使用が可能です。 ウィジェットオファーはURLからコンテンツを取得し、約2時間そのコンテンツをキャッシュして提供します。 ウィジェットオファーは、Adobe Target標準/プレミアム以外の他のオファーが実行できない、動的コンテンツ生成機能を提供します。 オファーを提供するmboxに、`mboxProductID`や`mbox.offerId`などのmboxパラメーターが含まれる場合、リクエストされたURLに`productId=[PRODUCT_ID]`や`offerID=[OFFERID]`のURLパラメーターが追加されます。 これらのパラメーターは、ウィジェットオファーのURLで利用できるサービスによって、mboxからの製品情報や注文情報を使用する、Adobe Target標準/プレミアム外のコンテンツを返すために使用できます。 また、WidgetオファーはAPIを介してアクセスし、Adobe Target標準/Premium以外でオファーをプログラム的に作成することもできます。
