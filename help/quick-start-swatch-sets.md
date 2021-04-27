@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Mediaクラシック，ビューア
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 62%
 
 ---
-
 
 # クイックスタート：スウォッチセット{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Dynamic Mediaクラシックスウォッチセットは、統合されたビュ�
 
 スウォッチセットを公開すると、そのスウォッチセットがDynamic Mediaクラシックサーバに配置され、URL文字列がアクティブになります。
 
-参照パネルで名前の左側にある&#x200B;**公開用にマーク**&#x200B;アイコンをクリックします。次に、「**発行**」をクリックします。 公開画面で、「**開始公開**」をクリックします。
+参照パネルで名前の左側にある&#x200B;**公開用にマーク**&#x200B;アイコンをクリックします。次に、「**発行**」をクリックします。 公開画面で、「**公開を送信**」をクリックします。
 
 詳しくは、[公開](publishing-files.md#publishing-files)を参照してください。
 
