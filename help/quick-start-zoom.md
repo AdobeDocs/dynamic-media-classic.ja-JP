@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Mediaクラシック，ビューア，ズーム
 role: Business Practitioner
+exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 64%
+source-wordcount: '835'
+ht-degree: 63%
 
 ---
-
 
 # クイックスタート：ズーム{#quick-start-zoom}
 
@@ -62,7 +62,7 @@ Dynamic Mediaクラシックオファーズームビューアプリセットの�
 
 ズーム画像を公開すると、それらをDynamic MediaImage Serverに保存して、Webサイトやアプリケーションに配信できるようにします。 公開処理の一環として、Dynamic MediaクラシックはURL文字列をアクティブにします。 これらのURL文字列は、ズーム画像をDynamic MediaのImage ServerからWebサイトやアプリケーションに呼び出します。
 
-グローバルナビゲーションバーの「公開」ボタンを選択して、公開を開始します。公開画面では、「公開を開始」ボタンを選択します。詳しくは、[ズーム画像の公開](publishing-zoom-images.md#publishing_zoom_images)を参照してください。
+グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックします。[公開]ダイアログボックスで、[公開を送信]をクリックします。 詳しくは、[ズーム画像の公開](publishing-zoom-images.md#publishing_zoom_images)を参照してください。
 
 **6.Web ページへのズームビューアのリンク**
 
