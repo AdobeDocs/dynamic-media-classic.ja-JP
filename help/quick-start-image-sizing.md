@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Mediaクラシック，アセット管理
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 55%
+source-wordcount: '850'
+ht-degree: 54%
 
 ---
-
 
 # クイックスタート：画像サイズ変更{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ ht-degree: 55%
 * マスター画像をDynamic MediaImage Serverに公開して、画像をWebサイトやアプリケーションに動的に配信できるようにします。
 * 公開すると、Dynamic MediaのImage ServerからWebサイトやアプリケーションに画像を呼び出すためのURL文字列がアクティブになります。 公開後、Webサイトやアプリケーションの必要な場所に、Dynamic Mediaクラシック生成URLをコピーして配置できます。
 
-グローバルナビゲーションバーの「公開」ボタンを選択して、公開を開始します。公開画面では、「公開を開始」ボタンを選択します。詳しくは、[マスター画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
+グローバルナビゲーションバーの「公開」ボタンを選択して、公開を開始します。[公開]ダイアログボックスで、[**[!UICONTROL 公開の送信]**]をクリックします。 詳しくは、[マスター画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
 
-**5.Web アプリケーションへの URL のリンク**
+**5.Web アプリケーションへの URL のリンク:**
 
 Dynamic Mediaクラシックでは、画像のURL引き出し線文字列を作成します。 画像をDynamic MediaImage Serverに公開すると、URLがアクティブになります。 これらの URL 文字列は、参照パネル（詳細ビュー）またはプレビュー画面からコピーすることができます。URL 文字列をコピーしたら、それらを Web サイトやアプリケーションで使用することができます。画像サイズ変更用の URL によって、Web ページコード内の静的な画像の名前への参照が置き換えられます。URL はマスター画像名を参照します。この画像名は、表示する新しい画像ごとにデータベースによって置き換えられます。
 
