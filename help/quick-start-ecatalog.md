@@ -11,9 +11,9 @@ feature: Dynamic Mediaクラシック，ビューア，eCatalog
 role: Business Practitioner
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1427'
 ht-degree: 50%
 
 ---
@@ -50,11 +50,9 @@ eCatalog を作成する際に、ページや見開きページの並び順を�
 >
 >これで、Dynamic MediaクラシックでeCatalogをオーサリングできるようになりました。
 
-## クイック開始
-
 ここでは、eCatalog の操作方法をすばやく習得できるように、手順について簡潔に説明します。手順 1 ～ 7 に従ってください。各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
 
-### 1. PDFファイルのアップロード
+## 1. PDFファイルのアップロード
 
 eCatalog のもとになるファイルは、ほとんどの場合 Adobe PDF ファイルです。PDF ファイルは印刷を目的としたファイルなので、通常、CMYK 画像が含まれています。Dynamic Mediaクラシックでは、これらの画像が検出され、標準のCMYKカラープロファイルを使用して変換されます。 ただし、カスタムカラープロファイルをアップロードして使用する必要があります。
 
@@ -64,7 +62,7 @@ eCatalog のもとになるファイルは、ほとんどの場合 Adobe PDF フ
 
 詳しくは、[PDF ファイルのアップロード](uploading-pdf-files.md#uploading_the_pdf_files)を参照してください。
 
-### 2. eCatalogの作成
+## 2. eCatalogの作成
 
 参照パネルでPDFファイルまたは画像ファイルを選択して、eCatalogを作成します。 「**[!UICONTROL ビルド]**」をクリックし、「**[!UICONTROL eCatalogs]**」を選択します。
 
@@ -76,7 +74,7 @@ eCatalogページの「**[!UICONTROL ページ順序]**」タブで、「レイ�
 
 詳しくは、[eCatalog の作成](creating-ecatalog.md)を参照してください。
 
-### 3.画像マップの作成
+## 3.画像マップの作成
 
 画像マップを使用すると、eCatalogページに別の縦横比を追加できます。 画像マップとは、ページの中で、項目に関する詳細情報を表示できる領域を指します。画像マップにポインタを合わせると、その項目の説明が表示されます。また、画像マップをクリックすると、外部参照先の Web ページに移動し、項目に関する詳細情報を参照できます。
 
@@ -92,7 +90,7 @@ eCatalog 画面内の情報パネル設定を使用して、画像マップの�
 
 詳しくは、[情報パネルのコンテンツの管理](info-panel-content.md#managing-info-panel-content)を参照してください。
 
-### 4. eCatalogビューアプリセットの設定
+## 4. eCatalogビューアプリセットの設定
 
 エンドユーザは eCatalog ビューアで eCatalog を表示します。管理者には eCatalog ビューアを設定する権限があります。アウトラインカラーを変更したり、eCatalog 用の自社用「スキン」を選択したりできます。Dynamic Mediaクラシックには、eCatalogビューアプリセットがいくつか用意されています。 eCatalogの表示に使用するプリセットを選択できます。 管理者であれば、独自の eCatalog ビューアプリセットを作成することもできます。
 
@@ -100,7 +98,7 @@ eCatalogビューアプリセットを作成するには、グローバルナビ
 
 詳しくは、[eCatalog ビューアプリセットの設定](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)を参照してください。
 
-### 5. eCatalogビューアでのeCatalogのプレビュー
+## 5. eCatalogビューアでのeCatalogのプレビュー
 
 eCatalog ビューアのスタイルと動作は、eCatalog ビューアプリセットによって設定されます。
 
@@ -110,7 +108,7 @@ eCatalogビューアプリセットでeCatalogがどのように表示される�
 
 詳しくは、[eCatalog ビューアによる eCatalog のプレビュー](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)を参照してください。
 
-### 6. eCatalogと関連PDFの公開
+## 6. eCatalogと関連PDFの公開
 
 公開したeCatalogと関連PDFは、Dynamic MediaImage Serverに保存され、Webサイトやアプリケーションに配信できるようになります。 公開処理の一環として、eCatalogのURL文字列がアクティブになります。 このURLを使用して、eCatalogをDynamic MediaImage Serverから呼び出してWebサイトやアプリケーションに送信します。
 
@@ -118,7 +116,7 @@ eCatalogビューアプリセットでeCatalogがどのように表示される�
 
 詳しくは、[eCatalogと関連PDFの公開](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)を参照してください。
 
-### 7. eCatalogのWebページへのリンク
+## 7. eCatalogのWebページへのリンク
 
 eCatalogをDynamic Media Image Serverに公開すると、eCatalogを表示するのに必要なURL呼び出し文字列が、Dynamic Mediaクラシックによってアクティブになります。 プレビュー画面や参照パネル（詳細ビュー）でパネル内の URL を選択すれば、この URL 文字列をコピーすることができます。URL 文字列をコピーしておけば、Web サイトやアプリケーションでその URL を使用することができます。
 
