@@ -9,7 +9,7 @@ feature: Dynamic Mediaクラシック，ビューア，ビデオ
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 43%
@@ -40,7 +40,9 @@ AdobeDynamic Mediaクラシックビデオは、高品質のアダプティブ�
 
    アダプティブビデオセットが生成されると、MP4ビデオが含まれます。
 
-   `**Note:**` マスター/ソースビデオおよびその他のソースフォーマットのビデオは、アダプティブビデオセットに ** 追加されません。
+   >[!NOTE]
+   >
+   >マスター/ソースビデオおよびその他のソースフォーマットのビデオは、アダプティブビデオセットに&#x200B;*追加されません*。
 
 * Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark、Universal_HTML5_MixedMedia_lightビューアのビデオキャプションと、Universal_HTML5_MixedMedia_dark、Universal_HTML5_MixedMediaVideaのビデオチャプナビゲーションライトビューア
 
