@@ -7,7 +7,7 @@ breadcrumb-title: Dynamic Media Classic ガイド
 user-guide-description: Dynamic Media Classic の使用の詳細
 index: y
 translation-type: tm+mt
-source-git-commit: 97accb7238f698be740f3ae6759b747db347c061
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 77%
@@ -33,7 +33,7 @@ ht-degree: 77%
    + [役立つリソース](popular-resources.md)
    + [トレーニングビデオ](training-videos.md)
 + はじめに {#getting-started}
-   + [AdobeDynamic Mediaクラシックプラットフォームの概要](dmc-platform-overview.md)
+   + [AdobeDynamic Mediaクラシックプログラムの概要](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [サインインとサインアウト](signing-out.md)
    + [ナビゲーションの基本](navigation-basics.md)
