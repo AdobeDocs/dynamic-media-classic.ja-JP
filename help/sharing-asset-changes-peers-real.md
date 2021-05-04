@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
-feature: Dynamic Media Classic,Asset Management,Collaboration
+feature: Dynamic Mediaクラシック，アセット管理，コラボレーション
 role: Administrator,Business Practitioner
+exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 68%
+source-wordcount: '280'
+ht-degree: 50%
 
 ---
 
-
 # アセット変更内容のピアとのリアルタイム共有{#sharing-asset-changes-with-peers-in-real-time}
 
-同じ会社内の1台以上のコンピュータで複数のDynamic Mediaクラシックを実行すると、任意のDynamic Mediaクラシッククライアントからの次の操作がすべてのピアクライアントとリアルタイムで更新されます。
+同じ会社内の1台以上のコンピュータで複数のDynamic Mediaクラシックを実行している場合、任意のDynamic Mediaクラシッククライアントからの次の操作が、すべてのピアクライアントでリアルタイムに更新されます。
 
 * アセットの編集（ビルダ、画像エディタなど）
 * アセット名の変更
@@ -33,6 +33,6 @@ ht-degree: 68%
 
 サインインすると、ピアの更新を許可または拒否するように求められます。 選択は「記憶」できるので、この操作は一度限りです。選択をクリアするには、Global Settings の Peer Assisted Networking パネルで該当するサイトを削除します。
 
-ピアによって変更されたアセットの編集中だった場合、ピアによる変更をビルダまたはエディタに取り込むよう求められます。「はい」を選択すると、ビルダまたはエディタはアセットに対して行われていた変更を破棄し、更新されたアセットを読み込みます。「いいえ」を選択すると、ビルダまたはエディタでアセットは変更されず、行われていた変更内容がそのセッション内に保持されます。
+ピアによって変更されたアセットの編集中だった場合、ピアによる変更をビルダまたはエディタに取り込むよう求められます。「**[!UICONTROL はい]**」を選択すると、ビルダまたはエディタはアセットに対して行われた変更を破棄し、更新されたアセットを読み込みます。 「**[!UICONTROL いいえ]**」を選択した場合、ビルダーまたはエディターでアセットは変更されず、行った変更はそのセッション内に保持されます。
 
 アセットを保存するとき、新しいバージョンが存在することが通知され、行った変更内容でそのアセットを上書きするかどうかの指定を求められます。
