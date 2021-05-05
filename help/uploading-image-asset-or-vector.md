@@ -4,16 +4,16 @@ description: 画像アセットまたはベクトルアセットをアップロ�
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic
+feature: Dynamic Mediaクラシック
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 84%
+source-wordcount: '1497'
+ht-degree: 78%
 
 ---
-
 
 # 画像アセットまたはベクトルアセットのアップロード{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 
 *アップロードトークン*&#x200B;は、ほかのユーザが同じ共有秘密キーを使用してアセットをアップロードすることができないようにします。つまり、アップロードの合法性とソースの信頼性を確保します。
 
-アップロードトークンは英数字で構成された文字列で、一定の期間しか利用できません。アップロードトークンを取得するために共有秘密キーを送信する場合は、以下の URL を使用します。
+アップロードトークンは英数字で構成された文字列で、一定の期間しか利用できません。共有秘密キーを代わりに次のURLを使用して、アップロードトークンを取得できるようにします。
 
 * 画像
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`この例では、共有秘密キーは  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ ht-degree: 84%
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-画像について正常に完了した場合の応答は次のようになります。
+画像に対する正常な応答は、次のように表示されます。
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**使用可能な HTTP メソッド：** GET および POST
+**使用できるHTTPメソッド：**
+`GET` および  `POST`
 
 これで、画像アセットをアップロードできるようになりました。
 
@@ -123,9 +124,10 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * アップロードトークン.
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
-* アセットに関連付けられているカラープロファイルとファイル名を保持するかどうかを指定します。
-* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「隅」、「許容値」、「塗りつぶし方法」を設定します。 [アップロード](image-editing-options-upload.md#image-editing-options-at-upload)の「画像編集オプション」の「ノックアウトの背景」を参照してください。
-* アップロードするファイルの名前
+* アセットに関連付けられているカラープロファイルとファイル名を保持するかどうか。
+* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「隅」、「許容値」、「塗りつぶし方法」を設定します。
+[アップロード](image-editing-options-upload.md#image-editing-options-at-upload)の「画像編集オプション」の「ノックアウトの背景」を参照してください。
+* アップロードするファイルの名前.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+上記のフォームに関連付けられたHTMLソースコードを表示するには、[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)をクリックします
 
-上のフォームに関連付けられたHTMLソースコードを表示するには、次のリンクをクリックします。
+Firefoxで、ブラウザーウィンドウを右クリックし、「**[!UICONTROL 表示ページのソース]**」をクリックします。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**[!UICONTROL 「送信」]**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-Firefoxで、ブラウザーウィンドウを右クリックし、「**表示ページのソース**」をクリックします。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**「送信」**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
-
-XML 応答を Internet Explorer で表示するには、**表示／ソース**&#x200B;をクリックします。FirefoxでXML応答を表示するには、**ツール/Web開発者/ページソース**&#x200B;をクリックします。 XML 応答の表示には、Firefox を使用することをお勧めします。
+XML 応答を Internet Explorer で表示するには、**[!UICONTROL 表示]**／**[!UICONTROL ソース]**&#x200B;をクリックします。XML応答をFirefoxで表示するには、**[!UICONTROL ツール]**/**[!UICONTROL ブラウザツール]**/**[!UICONTROL Web Developer Tools]**&#x200B;をクリックします。 XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -183,13 +181,13 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 | URL パラメータ | 必須またはオプション | 値 |
 |--- |--- |--- |
-| op | 必須 | アップロード |
-| upload_token | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
-| company_name | 必須 | アップロードを実行する会社の名前。 |
-| file_limit | オプション | アセットのファイルサイズ制限（バイト単位）。 |
-| file_exts | オプション | 画像アセットファイルで許可される拡張子のリスト。 |
-| preserve_colorprofile | オプション | アップロードされたファイルを PTIFF 形式に変換するときに埋め込まれているカラープロファイルを保持します。値は true または false。初期設定は false。. |
-| preserve_filename | オプション | アップロードされたアセットのファイル名を保持します。値は true または false。初期設定は false。. |
+| `op` | 必須 | アップロード |
+| `upload_token` | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
+| `company_name` | 必須 | アップロードを実行する会社の名前。 |
+| `file_limit` | オプション | アセットのファイルサイズ制限（バイト単位）。 |
+| `file_exts` | オプション | 画像アセットファイルで許可される拡張子のリスト。 |
+| `preserve_colorprofile` | オプション | アップロードされたファイルを PTIFF 形式に変換するときに埋め込まれているカラープロファイルを保持します。値は true または false。初期設定は false。. |
+| `preserve_filename` | オプション | アップロードされたアセットのファイル名を保持します。値は true または false。初期設定は false。. |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ POST
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-正常に完了した場合の応答は次のようになります。
+成功した応答の例は、次のように表示されます。
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 
 | URL パラメータ | 必須またはオプション | 値 |
 |--- |--- |--- |
-| op | 必須 | image_info |
-| shared_secret | 必須 | 会社の共有秘密キー. |
-| image_name | 必須 | 画像の名前。 |
+| `op` | 必須 | image_info |
+| `shared_secret` | 必須 | 会社の共有秘密キー. |
+| `image_name` | 必須 | 画像の名前。 |
 
 **サンプル URL：**
 
@@ -286,9 +284,10 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * アップロードトークン.
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
-* アセットに関連付けられているカラープロファイルとファイル名を保持するかどうかを指定します。
-* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「隅」、「許容値」、「塗りつぶし方法」を設定します。 [アップロード](image-editing-options-upload.md#image-editing-options-at-upload)の「画像編集オプション」の「ノックアウトの背景」を参照してください。
-* アップロードするファイルの名前
+* アセットに関連付けられているカラープロファイルとファイル名を保持するかどうか。
+* ノックアウトの背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、「隅」、「許容値」、「塗りつぶし方法」を設定します。
+[アップロード](image-editing-options-upload.md#image-editing-options-at-upload)の「画像編集オプション」の「ノックアウトの背景」を参照してください。
+* アップロードするファイルの名前.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-図に示されたフォームに対して、ブラウザウィンドウを右クリックし、**「ソースの表示」**&#x200B;をクリックすると、次の HTML コードが表示されます。コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**「送信」**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
+ブラウザーウィンドウで右クリックし、次の例に示すフォームの「**[!UICONTROL 表示ソース]**」をクリックすると、次のHTMLコードが表示されます。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**[!UICONTROL 「送信」]**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-XML 応答を Internet Explorer で表示するには、**表示**／**ソース**&#x200B;をクリックします。XML 応答を Firefox で表示するには、**表示**／**ページのソース**&#x200B;をクリックします。XML 応答の表示には、Firefox を使用することをお勧めします。
+XML 応答を Internet Explorer で表示するには、**[!UICONTROL 表示]**／**[!UICONTROL ソース]**&#x200B;をクリックします。FirefoxでXML応答を表示するには、**[!UICONTROL ツール]**/**[!UICONTROL ブラウザツール]**/**[!UICONTROL ページソース]**&#x200B;をクリックします。 XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -366,7 +363,7 @@ XML 応答を Internet Explorer で表示するには、**表示**／**ソース
 >
 >アップロードされたアセット（AI、EPS、PDF など）は FXG 形式に変換され、応答ではその FXG アセットへの直接リンクが送信されます。
 
-他の Web-to-Print リソースの場合と同様に、アセットには処理クエリを適用できます。例えば、次の URL は FXG リソースを 500x500 png 画像に変換します。
+アセットは、他のWeb-to-Printリソースと同様です。処理クエリを適用します。 例えば、次の URL は FXG リソースを 500x500 png 画像に変換します。
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 
 | URL パラメータ | 必須またはオプション | 値 |
 |--- |--- |--- |
-| op | 必須 | アップロード |
-| upload_token | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
-| 会社名 | 必須 | アップロードを実行する会社の名前。 |
-| file_limit | オプション | アセットのファイルサイズ制限（バイト単位）。 |
-| file_exts | オプション | アセットファイルで使用できる拡張子のリスト。 |
+| `op` | 必須 | アップロード |
+| `upload_token` | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
+| `company_name` | 必須 | アップロードを実行する会社の名前。 |
+| `file_limit` | オプション | アセットのファイルサイズ制限（バイト単位）。 |
+| `file_exts` | オプション | アセットファイルで使用できる拡張子のリスト。 |
 
 >[!NOTE]
 >
