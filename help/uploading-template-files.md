@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
-feature: Dynamic Media Classic
+feature: Dynamic Mediaクラシック
 role: Business Practitioner
+exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 69%
+source-wordcount: '236'
+ht-degree: 48%
 
 ---
-
 
 # テンプレートファイルのアップロード{#uploading-template-files}
 
@@ -30,8 +30,11 @@ ht-degree: 69%
 
 ファイルのアップロードについて詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。テンプレートファイルをアップロードするときは、以下の点に注意してください。
 
-* PSD ファイルをアップロードする場合は、PSD ファイルからテンプレートを作成することができます。Dynamic Mediaクラシックは、PSD内の各レイヤーに対して個別の画像を作成します。 アップロードオプションを設定ダイアログボックスで「Photoshop オプション」を選択して、「レイヤーを維持」オプションを選択し、「テンプレートを作成」オプションを選択します。次に、レイヤー名メニューで、PSD内のレイヤーからDynamic Mediaクラシックで作成する画像に名前を付けるためのオプションを選択します。 詳しくは、[PSD アップロードオプション](psd-files.md#psd_upload_options)を参照してください。
-* 画像をアップロードする場合は、その画像のクリッピングパスからマスクを作成できます。このオプションは、画像編集アプリケーションで作成される際に、クリッピングパスが作成された画像に適用されます。アップロードオプションを設定ダイアログボックスで「画像編集オプション」を選択して、「クリッピングパスからマスクを作成」オプションを選択します。詳しくは、[アップロード時の画像編集オプション](image-editing-options-upload.md#image-editing-options-at-upload)を参照してください。
+* PSDファイルをアップロードする場合は、そのファイルからテンプレートを作成できます。 Dynamic Mediaクラシックは、PSD内の各レイヤーに対して個別の画像を作成します。 アップロードオプションを設定ダイアログボックスで、「**[!UICONTROL Photoshopオプション]**」をクリックし、「**[!UICONTROL レイヤーを維持]**」と「**[!UICONTROL テンプレートを作成]**」を選択します。 次に、**[!UICONTROL レイヤー名]**ドロップダウンリストからオプションを選択し、Dynamic MediaクラシックがPSD内のレイヤーから作成する画像に名前を付けます。
+詳しくは、[PSD アップロードオプション](psd-files.md#psd_upload_options)を参照してください。
+
+<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
