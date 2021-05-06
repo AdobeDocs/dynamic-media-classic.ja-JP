@@ -11,10 +11,10 @@ feature: Dynamic Mediaクラシック
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 31%
+source-wordcount: '454'
+ht-degree: 30%
 
 ---
 
@@ -43,6 +43,7 @@ Dynamic Mediaクラシックは、他のシステムとは根本的に異なり�
 Dynamic Mediaクラシックで生成されるURL文字列には、アセットの配信時にアセットをどのように表示するかをサーバに指示する命令が含まれます。 例えば、1 つのマスター画像をもとに、サイズ、形式、重み、色、ズームビューをそれぞれ変えて配信させることができます。Dynamic Mediaクラシックを使用してメディアアセットを作成および公開する際に、視覚的な効果を設定できます。 この設定を行うには、マスターアセットをアプリケーションにどのような形態で配信するのかを正しくサーバに通知する URL 呼び出しを作成します。
 
 ![Dynamic Mediaクラシックでは、同じマスター画像を異なるサイズや形式の異なるメディアに配信できます。](/help/assets/gs_dynamic_publishing.png)
+*Dynamic Mediaクラシックでは、サイズや帯域幅に関係なく、どの画面にも一貫した品質のエクスペリエンスを配信できます。*
 
 ## コンテンツのキャッシング {#content-caching}
 
