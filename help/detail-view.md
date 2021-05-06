@@ -11,10 +11,10 @@ feature: Dynamic Mediaクラシック，アセット管理
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 69%
+source-wordcount: '612'
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![詳細ビュー](/help/assets/image_0.img.png)
+![詳細](/help/assets/image_0.img.png)
+*ビュー詳細表示(左側の表示に表示されないアセットライブラリパネルを含む)*
 
 >[!NOTE]
 >
@@ -44,8 +45,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. 参照パネルで、次のいずれかの操作を行います。
 
+   * アセットを選択します。Dynamic Mediaクラシックの右上隅近くで、**[!UICONTROL 詳細表示]**&#x200B;アイコンをクリックします。
    * アセットをダブルクリックします。
-   * アセットを選択し、**[!UICONTROL 詳細表示]**&#x200B;をクリックします。
    * アセットを選択し、**[!UICONTROL ファイル]**/**[!UICONTROL 詳細]**&#x200B;をクリックします。
 
 >[!NOTE]
