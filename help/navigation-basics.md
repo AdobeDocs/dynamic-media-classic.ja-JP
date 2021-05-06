@@ -11,18 +11,20 @@ feature: Dynamic Mediaクラシック
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 27%
+source-wordcount: '644'
+ht-degree: 25%
 
 ---
 
 # ナビゲーションの基本{#navigation-basics}
 
-Dynamic Mediaクラシック画面には、主に次の3つの領域があります。グローバルナビゲーションバー、アセットライブラリ、参照パネル/ビルドパネル
+Dynamic Mediaクラシック画面には、主に次の3つの領域があります。グローバルナビゲーションバー、アセットライブラリ、アセットフィルタータブ、参照パネル/ビルドパネルおよびカート（Media Portalのみ）。
 
-![ナビゲーションの基本](/help/assets/gs_navigation_basics_popup_popup.png)
+![ナビゲーション](/help/assets/gs_navigation_basics_popup_popup.png)
+*基本基本Dynamic Mediaクラシック*
+*領域A)グローバルナビゲーションバーB)アセットライブラリパネルC)アセットフィルタータブD)参照パネルE)カート（Media Portalのみ）*
 
 ## グローバルナビゲーションバー［ぐろーばるなびげーしょんばー］ {#global-navigation-bar}
 
