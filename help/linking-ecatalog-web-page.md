@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
-feature: Dynamic Mediaクラシック，ビューア，eCatalog
+feature: Dynamic Media Classic，ビューア，eCatalog
 role: Business Practitioner
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '684'
@@ -20,13 +19,13 @@ ht-degree: 85%
 
 # Web ページへの eCatalog のリンク{#linking-an-ecatalog-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogなどのDynamic MediaImage Serverのコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。WebページやアプリケーションにeCatalogのURL文字列や埋め込みコードを設定するには、Dynamic MediaクラシックからURL文字列や埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、eCatalogを含むDynamic Media Image Serverコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。eCatalogのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、Dynamic Media Classicからコピーします。
 
 >[!NOTE]
 >
 >URL は、アセットを公開するまでアクティブになりません。
 
-## eCatalog の URL のコピー  {#copying-an-ecatalog-url}
+## eCatalog の URL のコピー {#copying-an-ecatalog-url}
 
 1. アセットの参照パネルの「表示」ドロップダウンリストで&#x200B;**[!UICONTROL 「カタログ」]**&#x200B;をクリックします。
 1. 左側のアセットライブラリパネルで、コピーする埋め込みコードを持つ eCatalog を含むアセットフォルダに移動します。
@@ -45,11 +44,11 @@ Webサイトやアプリケーションは、URL文字列や埋め込みコー�
 
       ビューアリストページの表の「アクション」列の下で、**「URL をコピー」**&#x200B;をクリックします。
 
-## Web ページへの eCatalog URL の追加  {#adding-ecatalog-urls-to-your-web-page}
+## Web ページへの eCatalog URL の追加 {#adding-ecatalog-urls-to-your-web-page}
 
 eCatalog にアクセスする方法としてよく使われるのは、eCatalog の表紙のサムネールを Web ページにリンクとして貼り付ける方法です。中央にきちんと表示されるポップアップウィンドウで eCatalog が起動するように、IT 部門の担当者と相談してください。また、ブラウザ画面にツールバーやアドレスバーなどを表示しないように依頼してください。
 
-詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5 eCatalogビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
+詳細とコードサンプルについては、『Adobeビューアリファレンスガイド』の[HTML5 eCatalogビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)を参照してください。
 
 ## eCatalog ビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-ecatalog-viewer}
 
