@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
-feature: Dynamic Mediaクラシック，コラボレーション，アセット管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Administrator,Business Practitioner
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '234'
@@ -29,7 +28,7 @@ Media Portal 管理者のみが、FTP アカウントを管理できます。さ
 1. **[!UICONTROL 設定]**／**[!UICONTROL Media Portal]**／**[!UICONTROL FTP アカウント]**&#x200B;をクリックします。
 1. FTP アカウントを追加ページの FTP アカウントのユーザ名ドロップダウンリストで、ユーザを選択します。
 
-   ユーザが一覧に表示されない場合は、管理設定を使用して、Media Portal管理者、Media Portal寄稿者ユーザ、またはMedia Portal寄稿者として追加する必要があります。 適切な役割を持つユーザを追加した後、ドロップダウンリストにそのユーザ名が表示されます。
+   ユーザーが一覧に表示されない場合は、管理設定を使用して、Media Portal管理者、Media Portal投稿者ユーザー、またはMedia Portal投稿者として追加する必要があります。 適切な役割を持つユーザを追加した後、ドロップダウンリストにそのユーザ名が表示されます。
 
    [Media Portal ユーザの追加](adding-media-portal-users.md#adding_a_media_portal_user)を参照してください。
 
@@ -40,7 +39,7 @@ Media Portal 管理者のみが、FTP アカウントを管理できます。さ
 
    詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
-## 既存の FTP アカウントの削除  {#deleting-an-existing-ftp-account}
+## 既存の FTP アカウントの削除 {#deleting-an-existing-ftp-account}
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL Media Portal]**／**[!UICONTROL FTP アカウント]**&#x200B;をクリックします。
 1. FTP アカウントを追加ページの既存のアカウント表で、削除するFTP アカウントを選択します。
