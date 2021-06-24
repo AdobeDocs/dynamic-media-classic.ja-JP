@@ -1,16 +1,15 @@
 ---
-title: 「クイック開始:Media Portal»
-description: Media Portalの操作方法と管理方法をすばやく習得できるように、Media Portalの概要とクイック開始を紹介します。
+title: 「クイックスタート：Media Portal»
+description: Media Portalの各種テクニックや管理をすばやく習得するための概要とクイックスタートガイドです。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
-feature: Dynamic Mediaクラシック，コラボレーション，アセット管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Administrator,Business Practitioner
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -18,13 +17,13 @@ ht-degree: 73%
 
 ---
 
-# クイック開始:Media Portal{#quick-start-media-portal}
+# クイックスタート：Media Portal{#quick-start-media-portal}
 
-Media Portalを使用すると、会社は承認されたアセットを容易に取得、制御および配布できます。これは、承認されたアセットを外部のパートナーやチャネル、会社の内部ユーザに対して行うことができます。 このブラウザベースの「セルフサービス」環境は、会社で承認された形式で簡単にアセットにアクセス、参照、検索、プレビューおよび書き出すことができる、管理者によって制御された「表示」をMedia Portalユーザに提供します。
+Media Portalを使用すると、会社は承認されたアセットを容易に取得、制御し、外部のパートナーやチャネル、および会社の内部ユーザーに配布できます。 このブラウザーベースの「セルフサービス」環境は、Dynamic Media Classicアセットに管理者が制御した「表示」をMedia Portalユーザーに提供し、アセットに簡単にアクセス、参照、検索、プレビューおよび会社が承認した形式で書き出すことができます。
 
-管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。Media Portalインターフェイスでは、フォント、フォントカラー、フォントサイズを指定し、ロゴなどのブランド要素を取り込むことができます。
+管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。フォント、フォントカラー、フォントサイズを指定し、ロゴなどのブランディング要素をMedia Portalインターフェイスに組み込むことができます。
 
-ここでは、Media Portal の管理方法をすばやく習得できるように、手順について簡潔に説明します。各手順の最後で、トピックのリンクをクリックして詳細を確認します。
+ここでは、Media Portal の管理方法をすばやく習得できるように、手順について簡潔に説明します。各手順の最後に、トピックのリンクをクリックして詳細を確認します。
 
 ## 1. Media Portal ユーザの役割について
 
@@ -46,7 +45,7 @@ Media Portal ユーザには、ユーザ、寄稿者、寄稿者ユーザの 3 �
 
 ## 4. FTP アカウントの管理
 
-Media Portalに関連付けられ、Dynamic Mediaクラシックアカウントの特定のフォルダにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
+Media Portalに関連付けられ、Dynamic Media Classicアカウントの特定のフォルダーにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
 
 [FTP アカウントの管理](ftp-accounts.md#managing_ftp_accounts)を参照してください。
 
@@ -76,6 +75,6 @@ Media Portal ユーザは、ファイルを書き出すときに、ファイル�
 
 ## 8. Media Portalページのカスタマイズ
 
-Media Portalスタイル設定を使用すると、Media Portalページに会社のロゴと色を使用してブランド化できます。 スタイル設定を使用して、Media Portalに会社のブランドを設定します。
+Media Portalスタイル設定を使用すると、Media Portalページに会社のロゴと色をブランディングできます。 スタイル設定を使用して、会社のブランディングをMedia Portalに配置します。
 
-詳しくは、[Media Portalページのカスタマイズ](customizing-media-portal-screen.md#customizing_the_media_portal_screen)を参照してください。
+[Media Portalページのカスタマイズ](customizing-media-portal-screen.md#customizing_the_media_portal_screen)を参照してください。
