@@ -1,16 +1,15 @@
 ---
 title: Web ページへのテンプレートのリンク
-description: Webページにテンプレートをリンクする方法を説明します。
+description: テンプレートをWebページにリンクする方法を説明します。
 uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
-feature: Dynamic Mediaクラシック
+feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '331'
@@ -20,25 +19,25 @@ ht-degree: 50%
 
 # Web ページへのテンプレートのリンク{#linking-a-template-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列を使用して、Dynamic MediaImage Serverのコンテンツにアクセスします。 テンプレートを公開すると、Dynamic MediaImage Server上のテンプレートを参照するURL文字列がアクティブになります。 この URL を Web ブラウザにペーストしてテストすることができます。
+Webサイトやアプリケーションは、URL文字列を使用してDynamic Media Image Serverコンテンツにアクセスします。 テンプレートを公開すると、Dynamic Media Classicは、Dynamic Media Image Server上のテンプレートを参照するURL文字列をアクティブ化します。 この URL を Web ブラウザにペーストしてテストすることができます。
 
-WebページやアプリケーションにURL文字列を設定するには、Web ClassicからURL文字列をコピーします。 画像プリセットとともに生成されたテンプレート URL 文字列を取得するには、プレビュー画面または参照パネル（詳細ビュー）に進みます。そして、画像プリセットを選択して、「URL をコピー」ボタンを選択します。
+WebページやアプリケーションにURL文字列を配置するには、Dynamic Media Classicからコピーします。 画像プリセットとともに生成されたテンプレート URL 文字列を取得するには、プレビュー画面または参照パネル（詳細ビュー）に進みます。そして、画像プリセットを選択して、「URL をコピー」ボタンを選択します。
 
 >[!NOTE]
 >
 >URL は、アセットを公開するまでアクティブになりません。
 
-## テンプレート URL の取得  {#obtaining-a-template-url}
+## テンプレート URL の取得 {#obtaining-a-template-url}
 
-画像プリセットとともに生成されたテンプレート URL 文字列は、テンプレートのプレビュー画面から取得できます。URL をコピーすると、URL はクリップボードに格納され、必要に応じてペーストできるようになります。画像プリセットと共に生成されたテンプレートURL文字列をテンプレートプレビューページから取得するには、次の手順を実行します。
+画像プリセットとともに生成されたテンプレート URL 文字列は、テンプレートのプレビュー画面から取得できます。URL をコピーすると、URL はクリップボードに格納され、必要に応じてペーストできるようになります。画像プリセットで生成されたテンプレートURL文字列をテンプレートプレビューページから取得するには、次の手順を実行します。
 
-1. テンプレートのロールオーバー時に表示される「**[!UICONTROL プレビュー]**」ボタンをクリックするか、**[!UICONTROL ファイル]**/**[!UICONTROL プレビュー]**&#x200B;を選択します。
-1. プリセットのメニューを使用して、テンプレート画像を配信する画像プリセットを選択します。プレビューページには、テンプレートがサーバから配信されたときにどのように表示されるかが示されます。
+1. テンプレートのロールオーバーの「**[!UICONTROL プレビュー]**」ボタンをクリックするか、**[!UICONTROL ファイル]**/**[!UICONTROL プレビュー]**&#x200B;を選択します。
+1. プリセットのメニューを使用して、テンプレート画像を配信する画像プリセットを選択します。プレビューページには、テンプレートをサーバーから配信したときにどのように表示されるかが示されます。
 1. 「**[!UICONTROL URLをコピー]**」をクリックして、URLをクリップボードにコピーします。
 
 ## Web ページへのテンプレート URL の追加 {#adding-template-urls-to-your-web-page}
 
-Webページにテンプレートを追加するには、Webページ開発チームに問い合わせて、HTML Webページコードの`<IMG>`タグを変更します。 Dynamic MediaクラシックURL文字列を使用して、Dynamic Media Image Serverにリクエストを行います。 コマースエンジンまたは動的 Web ページコードは、テンプレート用に選択した画像プリセットによって定義されているサイズおよび形式仕様でテンプレート画像を挿入します。
+Webページにテンプレートを追加するには、Webページ開発チームに問い合わせて、HTML Webページコードの`<IMG>`タグを変更してください。 Dynamic Media Classic URL文字列を使用して、Dynamic Media Image Serverにリクエストを送信します。 コマースエンジンまたは動的 Web ページコードは、テンプレート用に選択した画像プリセットによって定義されているサイズおよび形式仕様でテンプレート画像を挿入します。
 
 >[!MORELIKETHIS]
 >
