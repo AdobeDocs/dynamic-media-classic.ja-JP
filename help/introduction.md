@@ -1,13 +1,12 @@
 ---
-title: Dynamic Mediaクラシックヘルプ
-seo-title: AdobeDynamic Mediaクラシック
-description: Dynamic Mediaクラシックの概要
-seo-description: Dynamic Mediaクラシックの概要
+title: Dynamic Media Classicヘルプ
+seo-title: AdobeDynamic Media Classic
+description: Dynamic Media Classicの概要
+seo-description: Dynamic Media Classicの概要
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Mediaクラシック
+feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '249'
@@ -15,29 +14,29 @@ ht-degree: 31%
 
 ---
 
-# Dynamic Mediaクラシックヘルプ{#scene7-overview}
+# Dynamic Media Classicヘルプ {#scene7-overview}
 
-動的なリッチコンテンツをすべてのAdobeや画面にアップロード、管理、加工および公開するための主要なオンデマンドクロスメディアパブリッシングシステム、Dynamic Mediaクラシックをご利用いただき、ありがとうございます。 AdobeDynamic Mediaクラシックソリューションには、次の機能が含まれます。
+このたびは、AdobeDynamic Media Classicをご利用いただき、すべてのデバイスおよび画面に動的なリッチコンテンツをアップロード、管理、拡張および公開する、先進のオンデマンドクロスメディア公開システムです。 AdobeDynamic Media Classicソリューションには、次のものが含まれます。
 
 * ダイナミックイメージング：リアルタイムの編集、フォーマット操作、サイズ変更、インタラクティブなズームとパン。カラースウォッチとテクスチャスウォッチ、360°スピン、画像テンプレート、マルチメディアビューア。
-* eCatalog:オーサリング、ホットスポットリンク、検索対応、公開、動的に提供されるオンラインカタログを設定可能なビューアに配信できます。
-* Media Portal:セルフサービス環境は、管理者が管理する「表示」をDynamic Mediaクラシックアセットに提供し、アセットのアップロード、参照、検索、プレビューおよび書き出しを容易に行うことができます。
-* eVideo:任意の形式での最終版ビデオのアップロード、ホットスポットとビデオテンプレートの管理、編集、作成、設定可能なビデオビューアへの公開およびストリーミング
+* eCatalog:オーサー、ホットスポットリンク、検索対応、公開、動的に提供されるオンラインカタログを設定可能なビューアに配信します。
+* Media Portal:Dynamic Media Classicアセットに管理者が制御した「表示」をポータルユーザーに提供するセルフサービス環境。アセットのアップロード、参照、検索、プレビューおよび書き出しに容易にアクセスできます。
+* eVideo:任意の形式での最終ビデオのアップロード、管理、編集、ホットスポットとビデオテンプレートの作成、設定可能なビデオビューアへの公開とストリーミング
 * ビジュアルコンフィギュレータ：カラーテクスチャ、サーフェス、パターン、モノグラムのリアルタイムレンダリング、製品画像またはシーンへの彫印など、オンライン上で設定可能な視覚的効果によりパーソナライズおよびカスタマイズを可能にするリアルタイムのレンダリング技術です。
 * 対象者が絞り込まれた電子メールおよびプリント：顧客プロファイル、製品およびチャンネルデータベースとリンクし、視覚的に対象者を絞り込みパーソナライズした電子メールキャンペーンを配信します。
 
 ## 主なリソース
 
 * [はじめに/概要](/help/dmc-platform-overview.md)
-* [クイック開始:Ecatalog](/help/quick-start-ecatalog.md)
-* [クイック開始:画像セット](/help/quick-start-image-sets.md)
-* [クイック開始:画像サイズ変更](/help/quick-start-image-sizing.md)
-* [クイック開始:Dynamic Mediaクラシック解析の統合](/help/quick-start-integrating-dmc-analytics.md)
-* [クイック開始:Media Portal](/help/quick-start-media-portal-administration.md)
-* [クイック開始:混在メディアセット](/help/quick-start-mixed-media-sets.md)
-* [クイック開始:スピンセット](/help/quick-start-spin-sets.md)
-* [クイック開始:スウォッチセット](/help/quick-start-swatch-sets.md)
-* [クイック開始:Target Standard/Premiumの統合](/help/quick-start-target-integration.md)
-* [クイック開始:基本テンプレート](/help/quick-start-template-basics.md)
+* [クイックスタート：Ecatalog](/help/quick-start-ecatalog.md)
+* [クイックスタート：画像セット](/help/quick-start-image-sets.md)
+* [クイックスタート：画像のサイズ調整](/help/quick-start-image-sizing.md)
+* [クイックスタート：Dynamic Media Classic Analyticsの統合](/help/quick-start-integrating-dmc-analytics.md)
+* [クイックスタート：Media Portal](/help/quick-start-media-portal-administration.md)
+* [クイックスタート：混在メディアセット](/help/quick-start-mixed-media-sets.md)
+* [クイックスタート：スピンセット](/help/quick-start-spin-sets.md)
+* [クイックスタート：スウォッチセット](/help/quick-start-swatch-sets.md)
+* [クイックスタート：Target Standard/Premiumの統合](/help/quick-start-target-integration.md)
+* [クイックスタート：テンプレートの基本](/help/quick-start-template-basics.md)
 * [クイックスタート：ビデオ](/help/quick-start-video.md)
 * [クイックスタート：ズーム](/help/quick-start-zoom.md)
