@@ -1,16 +1,15 @@
 ---
 title: 混在メディアセットの公開
-description: 混在メディアセットを公開する方法を説明します。
+description: 混在メディアセットの公開方法を説明します。
 uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Mediaクラシック，ビューア，混在メディアセット
+feature: Dynamic Media Classic，ビューア，ミックスメディアセット
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
@@ -20,13 +19,13 @@ ht-degree: 55%
 
 # 混在メディアセットの公開{#publishing-a-mixed-media-set}
 
-Dynamic MediaクラシックビデオサーバおよびImage Serverへの公開用にマークした混在メディアセットを公開するための公開ジョブを作成します。 Dynamic Mediaクラシックオファーは、特定のサーバに公開するための高度な公開オプションと、既に公開されているアセットを再公開するためのオプションを提供します。
+Dynamic Media ClassicビデオサーバーおよびImage Serverへの公開用にマークした混在メディアセットを公開する公開ジョブを作成します。 Dynamic Media Classicは、特定のサーバーに公開するための高度な公開オプションと、既に公開されているアセットを再公開するためのオプションを提供します。
 
 >[!NOTE]
 >
->混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。**ビデオサーバー**&#x200B;を使用して、公開用にマークした実際のビデオを公開します。また、**Image Server**&#x200B;を使用して、ビデオサムネールなどの関連アセットを公開し、アダプティブビデオセットの設定情報を行うこともできます。
+>混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。**ビデオサーバー**&#x200B;を使用して、公開用にマークした実際のビデオを公開します。また、**Image Server**&#x200B;を使用して、ビデオサムネールなどの関連アセットを公開し、アダプティブビデオセットの情報を設定します。
 
-Dynamic Mediaクラシックでは、ジョブ画面で公開ジョブを追跡します。
+Dynamic Media Classicは、ジョブ画面の公開ジョブを追跡します。
 
 詳しくは、[公開](publishing-files.md#publishing_files)を参照してください。
 
