@@ -1,13 +1,12 @@
 ---
-title: AdobeDynamic Mediaクラシックデスクトップアプリ
-description: Dynamic Mediaクラシックのユーザーは、ユーザーインターフェイスを完全に最新の状態に更新できるようになりました。 このアップデートでは、貴重なリソースへのリンクを含む更新されたログインが提供されます。また、このアップデートでは、ブラウザーのAdobeFlashテクノロジに依存しなくなりました。
+title: AdobeDynamic Media Classicデスクトップアプリケーション
+description: Dynamic Media Classicユーザーは、ユーザーインターフェイスを完全に更新できます。 エクスペリエンスは、更新されたサインインと、貴重なリソースへのリンクを提供します。また、この更新は、ブラウザーのAdobeFlashテクノロジーに依存しなくなりました。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Mediaクラシック
+feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '1121'
@@ -15,96 +14,96 @@ ht-degree: 0%
 
 ---
 
-# AdobeDynamic Mediaクラシックデスクトップアプリ — {#new-ui-2020}が利用可能
+# AdobeDynamic Media Classicデスクトップアプリケーション — 利用可能 {#new-ui-2020}
 
-[AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md)を参照して、必要システム構成を確認し、新しいアプリをダウンロードしてインストールしてから、サインインします。
+必要システム構成を確認し、新しいアプリをダウンロードしてインストールしてから、AdobeDynamic Media Classicデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md)を参照してください。[
 
-## _最終更新日：2020年6月30日_
+## _最終更新日：2020年6月31日_
 
-Dynamic Mediaクラシックユーザーは、新しいログインエクスペリエンスにアクセスできるようになりました。これにより、ブラウザーのAdobeFlashテクノロジーに依存しなくなりました。
+Dynamic Media Classicユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった新しいログインエクスペリエンスにアクセスできるようになりました。
 
-### **_2020年12月31日にブラウザーがAdobeFlashのサポートを停止した場合、Dynamic Mediaクラシック(以前のScene7)に影響はありますか。_**
+### **_2020年12月31日にブラウザーがAdobeFlashのサポートを停止した場合、Dynamic Media Classic(旧称Scene7)に何らかの影響がありますか。_**
 
-AdobeFlash Playerは、Adobe Flash Platformで開発されたコンテンツをWebブラウザーで使用できるWebブラウザープラグインです。 Dynamic MediaクラシックのWebユーザーインターフェイス（現在、製品内で[!DNL Scene7 Publishing System]または[!DNL SPS]というラベルが付いています）では、AdobeFlash Playerが必要でした。 2020年12月31日にAdobeのFlashが廃止されると、Dynamic Mediaクラシックのお客様はWebユーザーインターフェイスにログインできなくなります。 この変更により、Adobeは、ブラウザーエクスペリエンスに代わるデスクトップアプリをユーザーに提供してきました。
+AdobeFlash Playerは、Adobe Flash Platformで開発されたコンテンツをWebブラウザーで使用できるWebブラウザープラグインです。 Dynamic Media ClassicのWebユーザーインターフェイス（現在、製品内で[!DNL Scene7 Publishing System]または[!DNL SPS]というラベルが付いている）では、AdobeFlash Playerが必要でした。 AdobeFlashが2020年12月31日に廃止されると、Dynamic Media Classicのお客様はWebユーザーインターフェイスにログインできなくなります。 この変更により、Adobeは、ブラウザーエクスペリエンスに代わるデスクトップアプリケーションをお客様に提供してきました。
 
-### **_新しいデスクトップアプリケーションにアクセスする方法_**
+### **_新しいデスクトップアプリケーションにアクセスする方法を教えてください。_**
 
-新しいデスクトップアプリは、macOSの`.dmg`インストーラーとして、またはWindows®の`.exe`インストーラーとして入手できます。
+新しいデスクトップアプリケーションは、macOS用の`.dmg`インストーラーとして、またはWindows®用の`.exe`インストーラーとして入手できます。
 
-必要システム構成を確認し、新しいアプリをダウンロードしてインストールしてから、[AdobeDynamic Mediaクラシックデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md)にサインインするを参照してください。
+必要システム構成を確認し、新しいアプリをダウンロードしてAdobeし、そのアプリにサインインするには、[Dynamic Media Classicデスクトップアプリ](/help/dynamic-media-classic-desktop-app.md)を参照してください。
 
-ダウンロードリンクは、[Dynamic Mediaクラシックニュースレター購読ページからも入手できます。](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
+ダウンロードリンクは、[Dynamic Media Classicニュースレターの購読ページでも利用できます。](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
 
 ### **_新しいデスクトップアプリケーションの仕組み_**
 
-デスクトップアプリケーションをダウンロード、インストール、起動した後、更新されたログインエクスペリエンスが表示されます。 既存のユーザー名とパスワードを入力し、地域に応じて適切なサーバーを選択することで、Dynamic Mediaクラシックにサインインできます。 全体的なエクスペリエンスは、使い慣れたWebブラウザーのバージョンと同じです。 デスクトップアプリから、Dynamic Mediaクラシック実稼動およびステージング環境にアクセスできます。 また、この機能の資格を持っている場合は、Media Portalにアクセスすることもできます。
+デスクトップアプリケーションをダウンロード、インストール、起動した後、更新されたログインエクスペリエンスが表示されます。 既存のユーザー名とパスワードを入力し、地域に応じて適切なサーバーを選択することで、Dynamic Media Classicにログインできます。 全体的なエクスペリエンスは、使い慣れたWebブラウザーのバージョンと同じです。 デスクトップアプリケーションから、Dynamic Media Classicの実稼動環境とステージング環境にアクセスできます。 また、この機能の資格情報がある場合は、Media Portalにアクセスすることもできます。
 
 >[!IMPORTANT]
 >
->特定のコンピューター上に一度に&#x200B;*および*&#x200B;をアクティブにインストールできるのは、デスクトップアプリケーションの1つのインスタンスのみです。 ただし、複数のコンピューターにまたがってインストールできる数に制限はありません。
+>特定のコンピューターに一度にインストールできるデスクトップアプリケーションのインスタンスは1つだけ&#x200B;*と*&#x200B;です。 ただし、複数のコンピューターにまたがってインストールできるインストールの数に制限はありません。
 
-### **_Webユーザーインターフェイスを使用してサインインせずに、Dynamic MediaクラシックAPIを使用して製品にアクセスする場合はどうなりますか？_**
+### **_Dynamic Media Classic APIを使用して製品にアクセスし、Webユーザーインターフェイスからログインしない場合はどうなりますか？_**
 
-Dynamic Mediaクラシックの基になるAPIに変更はありません。
+Dynamic Media Classicの基盤となるAPIに変更はありません。
 
-### **_この新しいデスクトップアプリケーションエクスペリエンスには、サードパーティ製統合への移行や変更が必要ですか？_**
+### **_この新しいデスクトップアプリケーションエクスペリエンスには、サードパーティ統合の移行や変更は必要ですか？_**
 
-いいえ. Dynamic Mediaクラシックのお客様は、新しいデスクトップアプリケーションを使用するために、サードパーティ製の統合を移行または変更する必要はありません。
+いいえ. Dynamic Media Classicのお客様は、新しいデスクトップアプリケーションを使用するためにサードパーティ統合を移行または変更する必要はありません。
 
-### **_この変更は自動化スクリプトに影響を与えますか。_**
+### **_この変更は、自動化スクリプトに影響を与えますか。_**
 
-いいえ. 自動化スクリプトには影響しません。 新しいデスクトップアプリは、既に慣れ親しんでいるブラウザーベースの操作と同じように動作し、動作します。
+いいえ. 自動化スクリプトには影響しません。 新しいデスクトップアプリケーションは、既に馴染みのあるブラウザーベースのエクスペリエンスと同じように動作および動作します。
 
-### **_新しいDynamic MediaクラシックデスクトップアプリはMacやパソコンで動作しますか？_**
+### **_新しいDynamic Media Classicデスクトップアプリケーションは、Macやパソコンで動作しますか。_**
 
-可。新しいデスクトップアプリケーションは、クロスプラットフォームソリューションで、MacやPCで動作します。 Linux®は&#x200B;*サポートされていません*。
+可。この新しいデスクトップアプリケーションは、クロスプラットフォームソリューションで、MacやPCで動作します。 Linux®は&#x200B;*サポートされていません*。
 
-### **_私の会社には厳しいセキュリティ要件があります。新しいDynamic Mediaクラシックデスクトップアプリでは、これらの要件をどのように処理しますか？_**
+### **_私の会社は厳しいセキュリティ要件を持っています。新しいDynamic Media Classicデスクトップアプリケーションでは、これらの要件をどのように処理しますか？_**
 
-Adobeは、製品がお客様のセキュリティ要件を満たすように取り組んでいます。 新しいDynamic Mediaクラシックデスクトップアプリケーションは、Adobeのセキュリティ標準に準拠した高いセキュリティ機能を引き続きお客様に提供します。
+Adobeは、製品がお客様のセキュリティ要件を満たすよう取り組んでいます。 新しいDynamic Media Classicデスクトップアプリケーションは、すべてのAdobeセキュリティ標準に準拠し、高度に安全なエクスペリエンスを引き続き提供します。
 
-### **_会社ーで、ソフトウェアとアプリをコンピューターにインストールできません。新しいデスクトップアプリケーションにアクセスする方法を教えてください。_**
+### **_私の会社は、私のコンピュータにソフトウェアとアプリをインストールさせません。新しいデスクトップアプリケーションにアクセスする方法を教えてください。_**
 
-会社で、承認なしにソフトウェアとアプリケーションをダウンロードしてシステムにインストールできない場合は、新しいDynamic Mediaクラシックデスクトップアプリケーションにアクセスする権限を取得するために、ITチームと早期に作業します。 2020年12月31日以降、ブラウザーのバージョンは非推奨になることに注意してください。 新しいデスクトップアプリケーションのダウンロードが終了するまで待たないようにすることが重要です。
+会社が承認なしにソフトウェアやアプリをシステムにダウンロードしてインストールできない場合は、ITチームと早期に連携して、新しいDynamic Media Classicデスクトップアプリケーションへのアクセス権を取得します。 2020年12月31日以降、ブラウザーのバージョンは非推奨となることに注意してください。 最後の1分まで待たずに新しいデスクトップアプリケーションをダウンロードすることが重要です。
 
 ### **_新しいデスクトップアプリケーションの複数のインスタンスを同時に開くことはできますか？_**
 
-いいえ。新しいDynamic Mediaクラシックデスクトップアプリケーションを構築するAIRテクノロジは、特定の時点でアプリケーションの複数のインスタンスを開く操作を制限します。
+いいえ。新しいDynamic Media Classicデスクトップアプリケーションを構築するAIRテクノロジーは、特定の時点でアプリケーションの複数のインスタンスを開くのを制限します。
 
-### **_ローカルコンピューターを介してDynamic Mediaクラシックにアップロードできるファイルの数に制限はありますか。_**
+### **_ローカルコンピューターを使用してDynamic Media Classicにアップロードできるファイルの数に制限はありますか？_**
 
-Windows®で新しいDynamic Mediaクラシックデスクトップアプリを使用する場合、**[!UICONTROL アップロード]**&#x200B;ダイアログボックスを使用して、一度に最大150個のファイルをアップロードできます。 この制限は2020年末までに既に取り組まれています。 macOSプラットフォームには&#x200B;**&#x200B;アップロード制限はありません。
+Windows®で新しいDynamic Media Classicデスクトップアプリケーションを使用する場合、**[!UICONTROL アップロード]**&#x200B;ダイアログボックスを使用して、一度に最大150個のファイルをアップロードできます。 この制限は、2020年末までに既に取り組まれています。 macOSプラットフォームには&#x200B;**&#x200B;アップロード制限はありません。
 
-### **_新しいDynamic Mediaクラシックデスクトップアプリに新しいSKUが必要ですか。ライセンスコストが関与していますか？_**
+### **_新しいDynamic Media Classicデスクトップアプリケーションに新しいSKUは必要ですか。ライセンスコストがかかりますか？_**
 
-新しいDynamic Mediaクラシックデスクトップアプリケーションを使用する場合、SKUやライセンスの変更は必要ありません。
+新しいDynamic Media Classicデスクトップアプリケーションを使用する場合、SKUやライセンスの変更は必要ありません。
 
-### **_Dynamic Mediaクラシックデスクトップアプリのアップグレード方法を教えてください。_**
+### **_Dynamic Media Classicデスクトップアプリケーションのアップグレードはどのように有効になりますか。_**
 
-2020年6月30日のAdobeDynamic Mediaクラシックデスクトップアプリのリリースに続き、Adobeが新しいバージョンをリリースした場合、ユーザーは新しいバージョンを通常どおりダウンロードしてインストールする必要があります（既存のアプリを&#x200B;**[!UICONTROL Applications]**&#x200B;に置き換えます）。 新しいリリースは、Dynamic Mediaのニュースレター、CSM(Customer Success Manager)およびアップグレードをユーザーに通知するアプリ内アップグレード通知メカニズムを通じて通知されます。
+2020年6月30日のAdobeDynamic Media Classicデスクトップアプリケーションのリリースに続き、Adobeが新しいバージョンをリリースした場合は、通常どおり新しいバージョンをダウンロードしてインストールする必要があります（**[!UICONTROL Applications]**&#x200B;の既存のアプリを置き換えます）。 新しいリリースについては、Dynamic Mediaニュースレター、CSM(Customer Success Manager)、およびユーザーにアップグレードを通知するアプリ内アップグレード通知メカニズムを通じて通知されます。
 
-### **_Dynamic Mediaクラシックデスクトップアプリで発生した問題に関するヘルプを表示するにはどうすればよいですか？_**
+### **_Dynamic Media Classicデスクトップアプリケーションに関する問題のヘルプを表示するには、どうすればよいですか？_**
 
-アプリの使用中に発生した問題については、Adobeサポートにお問い合わせください。
+アプリの使用中に問題が発生した場合は、Adobeサポートにお問い合わせください。
 
-### **_リッチメディアの戦略を最適化していることを確認したい。Dynamic Media・クラシックのことをもっと知るには？_**
+### **_リッチメディア戦略を最適化していることを確認したいと思います。Dynamic Media Classicの詳細を知るには？_**
 
-Dynamic Mediaクラシックは、リッチメディア戦略を強化するために設計された強力で豊富な機能を備えたソリューションです。 すべての機能を確実に活用するために、次の実用的なリソースを確認してください。
+Dynamic Media Classicは、リッチメディア戦略を強化するために設計された、機能豊富な強力なソリューションです。 すべての機能を活用するには、次の実用的なリソースを確認してください。
 
-* [Dynamic Mediaのベストプラクティスのチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-* [Adobeブログ投稿](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Dynamic Mediaニュースレターアーカイブ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Dynamic Media Best Practices Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobeのブログ投稿](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
+* [Dynamic Media Newsletter Archives](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-さらに、[Dynamic Mediaのニュースレター](https://www.adobe.com/subscription/dynamic-media-newsletter.html)に登録し、最新ニュース、情報、トレーニングの機会、[スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)などの強力な機能、補足的な監査プログラムについて最新情報を提供します。
+さらに、[Dynamic Mediaのニュースレター](https://www.adobe.com/subscription/dynamic-media-newsletter.html)を購読して、[スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)や補完的な監査プログラムなど、最新のニュース、情報、トレーニングの機会、強力な機能について最新情報を入手できます。
 
-### **_私はAEM AssetsとDynamic Mediaへのアップグレードについてもっと知りたい。詳細情報はどこで入手できますか？_**
+### **_AEM Assetsを使用したDynamic Mediaへのアップグレードについて、もっと知りたいと思っています。詳細はどこで見つけられますか？_**
 
 次世代のリッチメディアオーサリング、公開、動的配信にアップグレードする利点について詳しくは、[Dynamic Mediaアップグレードポータル](http://exploreadobe.com/dynamic-media-upgrade/)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Mediaクラシックデスクトップアプリケーションへのサインインとログアウト](/help/signing-out.md)
->* [Dynamic Mediaクラシックデスクトップアプリケーションのダウンロードとインストール](/help/dynamic-media-classic-desktop-app.md)
+>* [Dynamic Media Classicデスクトップアプリケーションへのログインとログアウト](/help/signing-out.md)
+* [Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール](/help/dynamic-media-classic-desktop-app.md)
 
 
 
