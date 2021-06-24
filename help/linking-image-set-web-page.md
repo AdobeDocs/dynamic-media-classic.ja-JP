@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
-feature: Dynamic Mediaクラシック，ビューア，画像セット
+feature: Dynamic Media Classic，ビューア，画像セット
 role: Business Practitioner
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '686'
@@ -45,11 +44,11 @@ ht-degree: 89%
 
       ビューアリストページの表の「アクション」列の下で、**[!UICONTROL 「URL をコピー」]**&#x200B;をクリックします。
 
-## Web ページへの画像セットの URL の追加  {#adding-image-set-urls-to-your-web-page}
+## Web ページへの画像セットの URL の追加 {#adding-image-set-urls-to-your-web-page}
 
 画像セットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、ポップアップズームウィンドウで画像セットを表示する動的ページ(JSP)が起動します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
-詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
+詳細とコードサンプルについては、『Adobeビューアリファレンスガイド』の[HTML5ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)を参照してください。
 
 ## 画像セットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-image-set-viewer}
 
