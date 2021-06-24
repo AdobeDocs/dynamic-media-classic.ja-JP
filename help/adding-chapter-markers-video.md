@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic，ビューア，ビデオ
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 87%
+source-wordcount: '624'
+ht-degree: 85%
 
 ---
-
 
 # ビデオへのチャプターマーカーの追加{#adding-chapter-markers-to-video}
 
@@ -50,15 +49,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-この例では、`Chapter 1` はキュー識別子（オプション）です。`00:00:000 --> 01:04:364` というキュー時間では、そのチャプターの開始時間と終了時間を「00:00:000」という形式で指定しています。末尾の 3 桁はミリ秒であり、必要に応じて 000 のままにすることができます。`The bicycle store behind it all`のチャプタータイトルは、チャプターの内容の実際の説明です。 キュー識別子、開始キュー時間およびチャプタータイトルはすべて、ビデオプレーヤーでユーザーがビデオのタイムライン内の視覚的なキューポイントにマウスポインターを置いたときにポップアップ表示されます。
+この例では、`Chapter 1` はキュー識別子（オプション）です。`00:00:000 --> 01:04:364`のキュー時間は、チャプターの開始時間と終了時間を00:00:000形式で指定します。 末尾の 3 桁はミリ秒であり、必要に応じて 000 のままにすることができます。チャプタータイトル`The bicycle store behind it all`は、チャプターの内容を示す実際の説明です。 キュー識別子、開始キュー時間およびチャプタータイトルはすべて、ビデオプレーヤーでユーザーがビデオのタイムライン内の視覚的なキューポイントにマウスポインターを置いたときにポップアップ表示されます。
 
 HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターのファイル名拡張子は .vtt です。WebVTT のキャプション規格について、さらに詳しく調べることができます。
 
-[WebVTT:Webビデオテキストトラックの形式](https://dev.w3.org/html5/webvtt/)です。
+[WebVTTを参照してください。Webビデオテキストトラックの形式](https://dev.w3.org/html5/webvtt/)。
 
 **ビデオにチャプターマーカーを追加するには**
 
-1. Dynamic Mediaクラシック以外のシンプルなテキストエディターを使用して、ビデオチャプターファイルを作成します。
+1. Dynamic Media Classicの外部で単純なテキストエディターを使用して、ビデオチャプターファイルを作成します。
 
    >[!NOTE]
    >
@@ -68,7 +67,7 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
    通常、チャプター VTT ファイルにはビデオファイルと同じ名前を指定し、`chapters` を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。
 
-1. Dynamic Mediaクラシックで、WebVTTチャプターファイルをアップロードします。
+1. Dynamic Media Classicで、WebVTTチャプターファイルをアップロードします。
 
    詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
@@ -86,7 +85,6 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
       埋め込みコードダイアログボックスで、**[!UICONTROL 「クリップボードにコピー」]**&#x200B;をクリックします。
 
-      HTML5 `Universal_HTML5_Video`ビューアの場合、コピーした埋め込みコードを次の構文と共に追加します。
+      HTML5 `Universal_HTML5_Video`ビューアの場合、コピーした埋め込みコードを次のように追加します。
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
-
