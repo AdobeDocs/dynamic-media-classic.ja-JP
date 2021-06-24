@@ -5,10 +5,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-feature: Dynamic Mediaクラシック，ビューア
+feature: Dynamic Media Classic，ビューア
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -43,11 +42,11 @@ ht-degree: 92%
 
       ビューアリストページの表の「アクション」列の下で、**[!UICONTROL 「URL をコピー」]**&#x200B;をクリックします。
 
-## Web ページへのスウォッチセットの URL の追加  {#adding-swatch-set-urls-to-your-web-page}
+## Web ページへのスウォッチセットの URL の追加 {#adding-swatch-set-urls-to-your-web-page}
 
 スウォッチセットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、ポップアップズームウィンドウでスウォッチセットを表示する動的ページ（ASP または JSP）が起動します。ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
-詳細およびコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
+詳細とコードサンプルについては、『Adobeビューアリファレンスガイド』の[HTML5ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)を参照してください。
 
 ## スウォッチセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-swatch-set-viewer}
 
