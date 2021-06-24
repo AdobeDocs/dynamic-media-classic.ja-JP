@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Mediaクラシック，ビューア，混在メディアセット
+feature: Dynamic Media Classic，ビューア，ミックスメディアセット
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '645'
@@ -41,11 +40,11 @@ ht-degree: 97%
 
       ビューアリストページの表の「アクション」列の下で、**[!UICONTROL 「URL をコピー」]**&#x200B;をクリックします。
 
-## Web ページへの混在メディアセット URL の追加  {#add-mixed-media-set-urls-to-your-web-page}
+## Web ページへの混在メディアセット URL の追加 {#add-mixed-media-set-urls-to-your-web-page}
 
 混在メディアセットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、混在メディアセットビューアウィンドウで混在メディアセットを表示する動的ページ（ASP または JSP）が起動します。
 
-## 混在メディアセットビューアの埋め込みコードのコピー  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## 混在メディアセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 埋め込みコード機能を使用すると、選択した混在メディアセットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードの編集はできません。
 
