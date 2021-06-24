@@ -5,10 +5,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-feature: Dynamic Mediaクラシック，ビューア，ズーム
+feature: Dynamic Media Classic，ビューア，ズーム
 role: Business Practitioner
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '678'
@@ -18,13 +17,13 @@ ht-degree: 81%
 
 # Web ページへのズームビューアのリンク{#linking-zoom-viewers-to-your-web-pages}
 
-Webサイトやアプリケーションは、URL文字列や埋め込みコードを使用して、マスター画像や関連付けられているズームターゲットなどのDynamic MediaImage Serverコンテンツやズームビューアプリセットにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、Dynamic MediaクラシックからURL文字列または埋め込みコードをコピーします。
+Webサイトやアプリケーションは、URL文字列または埋め込みコードを使用して、マスター画像や関連するズームターゲットなどのDynamic Media Image Serverコンテンツやズームビューアプリセットにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。これらのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、Dynamic Media Classicからコピーします。
 
 >[!NOTE]
 >
 >URL は、アセットを公開するまでアクティブになりません。
 
-## ズームビューアの URL のコピー  {#copying-a-zoom-viewer-url}
+## ズームビューアの URL のコピー {#copying-a-zoom-viewer-url}
 
 1. 左側のアセットライブラリパネルで、コピーする URL を持つズームビューアを含むアセットフォルダに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
@@ -42,11 +41,11 @@ Webサイトやアプリケーションは、URL文字列や埋め込みコー�
 
       ビューアリストページの表の「アクション」列にある&#x200B;**[!UICONTROL 「URL をコピー」]**&#x200B;をクリックします。
 
-## Web ページへのズームビューアの URL の追加  {#adding-zoom-viewer-urls-to-your-web-page}
+## Web ページへのズームビューアの URL の追加 {#adding-zoom-viewer-urls-to-your-web-page}
 
-通常、訪問者は、ズームアイコン（通常は虫めがねのアイコン）を選択して、Webサイト上の画像をズームします。 このアイコンを選択すると、ポップアップウィンドウで画像を表示する動的 Web ページ（ASP または JSP）が起動します。このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
+通常、訪問者は、Webサイト上の画像をズームする際に、最初にズームアイコン（多くの場合、アイコンには虫眼鏡の画像が表示されます）を選択します。 このアイコンを選択すると、ポップアップウィンドウで画像を表示する動的 Web ページ（ASP または JSP）が起動します。このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
 
-詳細とコードサンプルについては、『Adobeビューアリファレンスガイド』の「[HTML5基本ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
+詳細とコードサンプルについては、『Adobeビューアリファレンスガイド』の[HTML5基本ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)を参照してください。
 
 ## ズームビューアの埋め込みコードのコピー {#copying-the-embed-copy-of-a-zoom-viewer}
 
