@@ -8,14 +8,13 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: d845bcb2-f914-4727-8df2-049dc172f266
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 83%
+source-wordcount: '97'
+ht-degree: 85%
 
 ---
-
 
 # アップロードしたアセットの削除{#deleting-an-uploaded-asset}
 
