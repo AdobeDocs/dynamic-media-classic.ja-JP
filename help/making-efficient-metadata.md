@@ -9,18 +9,17 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 feature: Dynamic Media Classic,Collaboration,Metadata,Asset Management
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: e6a5af61-37be-4152-9ea3-8868f054783c
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 84%
+source-wordcount: '169'
+ht-degree: 85%
 
 ---
 
-
 # メタデータの使用の効率化{#making-more-efficient-use-of-metadata}
 
-Dynamic Mediaクラシックのすべてのファイルにはメタデータが含まれています。 メタデータは、ファイルを記述し、識別します。アセットの検索と整理に使用されます。アセットのメタデータを表示するには、詳細ビューで開いて、メタデータパネルを確認します。このパネルのメタデータフィールドには、アセットに関する説明情報が表示されます。
+Dynamic Media Classicのすべてのファイルには、メタデータが含まれています。 メタデータは、ファイルを記述し、識別します。アセットの検索と整理に使用されます。アセットのメタデータを表示するには、詳細ビューで開いて、メタデータパネルを確認します。このパネルのメタデータフィールドには、アセットに関する説明情報が表示されます。
 
 メタデータは、メタデータフィールドに正しく入力されていなければ、検索やアセット整理に役立ちません。メタデータを正しく入力し、すべての適切なメタデータフィールドにメタデータを格納するため、メタデータプリセットを作成できます。*メタデータプリセット*&#x200B;は、メタデータエントリの定義済みセットです。メタデータを自分で入力しなくても、ユーザは詳細ビューでメタデータプリセットを選択して、メタデータフィールドに定義済み情報を入力できます。
 
