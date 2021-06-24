@@ -1,14 +1,13 @@
 ---
 title: アセットのアップロードと公開について
-description: Dynamic Mediaクラシックでのアセットのアップロードおよび公開方法を説明します。
+description: Dynamic Media Classicでアセットをアップロードして公開する方法を説明します。
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，アセット管理
 role: Business Practitioner
 exl-id: 98b12031-f88b-47ea-a95b-31d71eaf22c2
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '148'
@@ -18,17 +17,17 @@ ht-degree: 25%
 
 # アセットのアップロードと公開について{#about-uploading-and-publishing-assets}
 
-Dynamic Mediaクラシックの作品は、3つの基本的な領域に分けられます。
+Dynamic Media Classicの作業は、次の3つの基本的な領域に分類されます。
 
-* ファイルアセットをDynamic Mediaクラシックにアップロードする
+* Dynamic Media Classicへのファイルアセットのアップロード。
 * リッチメディアアセットの作成に使用できるようにファイルを管理する
-* Webサイトやアプリケーションに配信できるように、アセットファイルをDynamic Mediaクラシックサーバに公開する。
+* Dynamic Media Classicサーバーにアセットファイルを公開して、Webサイトやアプリケーションに配信できるようにします。
 
-アセットファイルをDynamic Mediaクラシックにアップロードした場合、およびアセットファイルをDynamic Mediaクラシックサーバーに公開した場合、これらのファイル転送が&#x200B;**[!UICONTROL ジョブ]**&#x200B;ページに記録されます。 このページで、アップロードおよび公開操作を追跡および監視することができます。
+Dynamic Media Classicにアセットファイルをアップロードし、Dynamic Media Classicサーバーにアセットファイルを公開すると、システムはこれらのファイル転送を&#x200B;**[!UICONTROL ジョブ]**&#x200B;ページに記録します。 このページで、アップロードおよび公開操作を追跡および監視することができます。
 
 >[!NOTE]
 >
->ファイルをアップロードすると、そのファイルのURLがDynamic Mediaクラシックによって生成されます。 URL は、ファイルを公開するまでアクティブになりません。
+>ファイルをアップロードすると、Dynamic Media ClassicはそのファイルのURLを生成します。 URL は、ファイルを公開するまでアクティブになりません。
 
 <!-- >[!NOTE]
 >
