@@ -1,21 +1,20 @@
 ---
 title: 新機能
-description: 最新のリリースノートを使用して、新しいDynamic Mediaクラシックについて説明します。
+description: 最新のリリースノートを通じて新しいDynamic Media Classicについて説明します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 94cfb748-30f9-4a8b-9576-3b4775964d04
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 3%
 
 ---
 
-
 # 新機能 {#what-s-new}
 
-新機能、拡張機能、修正など、最新AdobeのDynamic Mediaクラシックリリース情報について詳しくは、[Dynamic Mediaクラシックリリースノート](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html)を参照してください。
+新機能、機能強化、修正など、最新のAdobeのDynamic Media Classicリリース情報を確認するには、『[Dynamic Media Classicリリースノート](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html)』を参照してください。
