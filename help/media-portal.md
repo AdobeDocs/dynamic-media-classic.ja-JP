@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
-feature: Dynamic Mediaクラシック，アセット管理
+feature: Dynamic Media Classic，アセット管理
 role: Administrator,Business Practitioner
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '103'
@@ -20,7 +19,7 @@ ht-degree: 15%
 
 # Media Portal{#media-portal}
 
-Adobe Mediumポータルは、承認されたアセットを容易に取得、制御および外部のパートナーやチャネル、さらに社内ユーザーに配布する機能を会社に提供します。 ブラウザベースの「セルフサービス」環境は、会社が承認した形式で容易にアセットをアップロード、参照、検索、プレビューおよび書き出すことができる、管理者が管理する「表示」をDynamic Mediaクラシックアセットに提供します。
+Adobe Mediumポータルでは、企業は承認されたアセットを容易に取得、制御し、外部のパートナーやチャネル、および内部ユーザーに配布できます。 ブラウザーベースの「セルフサービス」環境は、管理者が制御した「表示」をDynamic Media Classicアセットに提供し、アセットを会社が承認した形式で容易にアップロード、参照、検索、プレビューおよび書き出しできます。
 
 必要システム構成など、Media Portalについて詳しくは、[www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)を参照してください。
 
