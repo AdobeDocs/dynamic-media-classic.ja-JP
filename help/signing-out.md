@@ -1,14 +1,13 @@
 ---
-title: AdobeDynamic Mediaクラシックへのサインインとログアウト
-description: AdobeDynamic Mediaクラシックへのログインとクラシックからのサインアウト、および北米(NA)、ヨーロッパ、中東、アフリカ(EMEA)、アジア太平洋(APAC)の本番環境サーバーへの接続について説明します。
+title: Dynamic Media ClassicへのログインとAdobeのログアウト
+description: Dynamic Media ClassicとのログインおよびAdobeのサインアウト、および北米(NA)、またはヨーロッパ、中東、アフリカ(EMEA)、アジア太平洋(APAC)の実稼動環境サーバーへの接続について説明します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-feature: Dynamic Mediaクラシック
+feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '228'
@@ -18,34 +17,34 @@ ht-degree: 7%
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# AdobeDynamic Mediaクラシック{#dmc-sign-in}にサインイン
+# Dynamic Media ClassicへのAdobeログイン {#dmc-sign-in}
 
-Dynamic Mediaクラシックデスクトップアプリケーションを使用する前に、次の事項を確認してください。
+Dynamic Media Classicデスクトップアプリケーションを使用する前に、次の点を確認してください。
 
 * **ユーザー名**  — 電子メールアドレスをログイン名として使用します。
 
-* **パスワード**  — 一時パスワードは、Dynamic Mediaクラシックからのご案内の電子メールまたはDynamic Mediaクラシック管理者から取得します。初回のサインイン時に、この一時パスワードを変更するよう求められます。
+* **パスワード**  — 一時パスワードは、Dynamic Media ClassicまたはDynamic Media Classic管理者から「ようこそ」の電子メールで取得します。初回のサインイン時に、この一時パスワードを変更するよう求められます。
 
-1. AdobeDynamic Mediaクラシックデスクトップアプリケーションを開きます。
+1. AdobeDynamic Media Classicデスクトップアプリケーションを開きます。
 
-   ![Dynamic Mediaクラシックサインイン](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classicログイン](/help/assets/dmclassic-login1.png)
 
 1. 「**[!UICONTROL ユーザー名]**」フィールドに、電子メールアドレスを入力します。
 1. 「**[!UICONTROL パスワード]**」フィールドにパスワードを入力します。
-1. **[!UICONTROL Server]**ドロップダウンリストで、サーバーを選択します。
-次のマッピングを使用して、使用する実稼働環境を選択します。
+1. 「**[!UICONTROL サーバー]**」ドロップダウンリストで、サーバーを選択します。
+次のマッピングを使用して、使用する実稼動環境を選択します。
 
-   | ブラウザーURL | デスクトップアプリサーバー名 |
+   | ブラウザーURL | デスクトップアプリケーションサーバー名 |
    |---|---|
-   | https://s7sps1.scene7.com/ | NA（北米）プロダクション |
-   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）プロダクション |
+   | https://s7sps1.scene7.com/ | NA（北米）生産 |
+   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
-1. 「**[!UICONTROL サインイン]**」をタップします。
+1. 「**[!UICONTROL ログイン]**」をタップします。
 
-## AdobeDynamic Mediaクラシック{#dmc-sign-out}からサインアウト
+## AdobeDynamic Media Classicからのログアウト {#dmc-sign-out}
 
-1. Dynamic Mediaクラシックデスクトップアプリケーションの右上隅にある「**[!UICONTROL サインアウト]**」をタップし、「**[!UICONTROL サインアウト]**」をタップします。
+1. Dynamic Media Classicデスクトップアプリケーションの右上隅にある「**[!UICONTROL ログアウト]**」をタップし、「**[!UICONTROL ログアウト]**」をもう一度タップします。
 
 >[!MORELIKETHIS]
 >
