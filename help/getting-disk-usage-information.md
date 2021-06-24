@@ -1,6 +1,6 @@
 ---
 title: ディスク使用状況に関する情報の取得
-description: ディスクの使用状況に関する情報を取得する方法を説明します。
+description: ディスク使用量情報の取得方法を説明します。
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
@@ -8,14 +8,13 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 85%
+source-wordcount: '88'
+ht-degree: 88%
 
 ---
-
 
 # ディスク使用状況に関する情報の取得 {#getting-disk-usage-information}
 
@@ -55,4 +54,3 @@ URL クエリ文字列で以下のフィールドを使用して、ディスク�
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b9602
 ```
-
