@@ -135,8 +135,7 @@ macOSで最新バージョンのDynamic Media Classicデスクトップアプリ
 
 1. 次のコマンドを使用して、.APPファイルを&#x200B;**[!UICONTROL Applications]**&#x200B;にコピーします。
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-Unmount DMG - hdiutil detach <mount_point_path>`
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. アプリケーションを開くと、新しいAdobeDynamic Media Classicログインページが表示されます。
 
