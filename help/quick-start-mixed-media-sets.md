@@ -1,5 +1,5 @@
 ---
-title: '"クイックスタート：混在メディアセット"'
+title: 「クイックスタート：混在メディアセット»
 description: すばやく使い始めるのに役立つ、混在メディアセットの概要とクイックスタートを紹介します。
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
@@ -7,10 +7,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
-feature: Dynamic Media Classic，ビューア，ミックスメディアセット
-role: Business Practitioner
+feature: Dynamic Media Classic，ビューア，混在メディアセット
+role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 52%
