@@ -6,12 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic，ビューア，ミックスメディアセット
-role: Business Practitioner
+feature: Dynamic Media Classic，ビューア，混在メディアセット
+role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 5f7e0c821dc2a34170e811157c9e689370d36d21
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 88%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >混在メディアセットでは、次の文字のいずれかを含むファイル名を持つアセットはサポートされません。`( ) { }`.
+   >混在メディアセットは、次の文字のいずれかを含むファイル名を持つアセットをサポートしません。`( ) { }`.
 
 1. 次のいずれかの操作を行います。
 
