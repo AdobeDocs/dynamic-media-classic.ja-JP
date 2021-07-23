@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Dynamic Media Classicは、リッチメディア戦略を強化するために�
 
 ### **_AEM Assetsを使用したDynamic Mediaへのアップグレードについて、もっと知りたいと思っています。詳細はどこで見つけられますか？_**
 
-次世代のリッチメディアオーサリング、公開、動的配信にアップグレードする利点について詳しくは、[Dynamic Mediaアップグレードポータル](http://exploreadobe.com/dynamic-media-upgrade/)を参照してください。
+次世代のリッチメディアオーサリング、公開、動的配信にアップグレードする利点について詳しくは、[Dynamic Mediaアップグレードポータル](https://exploreadobe.com/dynamic-media-upgrade/)を参照してください。
 
 >[!MORELIKETHIS]
 >
