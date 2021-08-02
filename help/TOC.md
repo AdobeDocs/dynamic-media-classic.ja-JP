@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
 user-guide-description: Dynamic Media Classic の使用の詳細
 index: y
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: 6da0de3f4d50d75020e0c66119d56e24cc27fae7
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '749'
 ht-degree: 77%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 77%
 + [Adobe Dynamic Media Classic ガイド](home.md)
 + [ベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [新しいDynamic Media Classicログインエクスペリエンスが利用可能](new-ui-2020.md)
-+ [Dynamic Mediaニュースレター(Experience League別)](dynamic-media-newsletter.md)
++ [Dynamic Mediaニュースレターアーカイブ(Experience League別)](dynamic-media-newsletter.md)
 + AdobeDynamic Media Classic {#intro}の紹介
    + [AdobeDynamic Media Classicデスクトップアプリケーション — 利用可能](dynamic-media-classic-desktop-app.md)
    + [Dynamic Media Classicヘルプについて](introduction.md)
