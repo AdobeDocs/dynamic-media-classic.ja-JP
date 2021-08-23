@@ -1,6 +1,6 @@
 ---
 title: 画像セットの自動生成
-description: '画像セットの生成を自動化する方法を説明します。 '
+description: 'Dynamic Media Classicでの画像セットの生成を自動化する方法を説明します。 '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic，ビューア，画像セット
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 85%
+source-wordcount: '107'
+ht-degree: 63%
 
 ---
 
@@ -31,13 +31,13 @@ Last Modified Date:
 
 アップロードに依存しない独立したジョブとしてセット生成を自動化することができます。
 
-**画像セットを自動生成するには**
+**画像セットを自動生成するには:**
 
-1. **[!UICONTROL ファイル]**／**[!UICONTROL セットを生成]**&#x200B;をクリックします。
+1. **[!UICONTROL File]** > **[!UICONTROL Generate Set]**&#x200B;に移動します。
 1. セットを生成ダイアログボックスで、ジョブ名を指定します。
 
    初期設定では、生成されたジョブであること、およびそのジョブがいつ生成されたかを示す名前がジョブに付けられます。
 
 1. 適用するプリセットを選択します。
-1. 「**[!UICONTROL 保存先フォルダー]**」をクリックして、使用するフォルダーを指定します。
-1. 「**[!UICONTROL 送信]**」をクリックします。
+1. 「**[!UICONTROL 宛先フォルダー]**」を選択し、使用するフォルダーを指定します。
+1. 「**[!UICONTROL 送信]**」を選択します。
