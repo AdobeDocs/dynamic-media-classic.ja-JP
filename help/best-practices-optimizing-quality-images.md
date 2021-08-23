@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic，アセット管理
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 55%
@@ -47,7 +47,7 @@ Dynamic Media Classicには、画像を調整および最適化し、結果を�
 
 画像へのシャープ適用は、Web サイト上の画像を管理する上で最も複雑な側面であり、ミスが多く起きるところです。次の役立つリソースを参照して、Dynamic Media Classicでのシャープニングとアンシャープマスクの仕組みについて詳しく学びます。
 
-ベストプラクティスに関するホワイトペーパー[Dynamic Media ClassicおよびImage ServerでのAdobeのシャープニング](/help/assets/s7_sharpening_images.pdf)。
+ベストプラクティスに関するホワイトペーパー『 [AdobeDynamic Media ClassicおよびImage Serverでの画像のシャープ](/help/assets/s7_sharpening_images.pdf)』。
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -69,7 +69,7 @@ Dynamic Media Classicを使用すると、取り込み時、配信時または�
 
          このパラメーターは、シャープにされるピクセルが周囲の領域とどの程度違えば、そのピクセルをエッジのピクセルと見なしてフィルターによりシャープにするかを決定するものです。しきい値は、肌のトーンのような類似した色の領域に過度なシャープが適用されることを防ぐために使用できます。例えば、しきい値を 12 にした場合、肌のトーンの明るさにわずかな差があっても無視して「ノイズ」が加わるのを防ぎながら、まつげと肌が隣り合う場所など、コントラストの高い領域に対してエッジコントラストを追加することができます。
 
-         フィルターで使用するベストプラクティスを含め、これら3つのパラメーターの設定方法について詳しくは、Adobe Scene7 Publishing SystemおよびImage Serverでの[画像のシャープニング](/help/assets/s7_sharpening_images.pdf)を参照してください。
+         フィルターで使用するベストプラクティスを含め、これらの3つのパラメーターの設定方法について詳しくは、「 [AdobeDynamic Media ClassicおよびImage Serverの画像にシャープを適用する](/help/assets/s7_sharpening_images.pdf) 」を参照してください。
 
       * Dynamic Media Classicでは、4番目のパラメーターを制御することもできます。モノクロ(`0,1`) このパラメーターは、アンシャープマスクが各カラーコンポーネントに個別に適用されるか（値 `0` を使用）、画像の明るさ／適用度に適用されるか（値 `1` を使用）を示します。
 
