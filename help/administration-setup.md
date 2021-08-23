@@ -1,6 +1,6 @@
 ---
-title: 管理設定
-description: Dynamic Media Classicの管理領域を設定する方法について説明します。
+title: 管理の設定
+description: Dynamic Media Classicの管理領域の設定方法を説明します。
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 41%
+source-wordcount: '1948'
+ht-degree: 37%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 41%
 
 管理設定画面は、Dynamic Media Classicユーザーを管理するためのものです。 これらの画面を使用して、ユーザーがDynamic Media Classicで作業したり、電子メールでユーザーとコミュニケーションしたりできます。
 
-1. 「管理設定」オプションにアクセスするには、「**設定** 」/「**個人設定** 」/「**管理設定** 」をクリックします。
+1. 管理設定のオプションにアクセスするには、**設定** > **個人設定** > **管理設定**&#x200B;に移動します。
 
 ## ユーザ管理 {#user-administration}
 
@@ -40,11 +40,11 @@ Dynamic Media Classicは、複数のユーザーの役割をサポートしま�
 
 ユーザーを追加すると、Dynamic Media Classicはユーザーに「ようこそ」の電子メールメッセージを送信します。 このメッセージには、パスワードとDynamic Media Classic URLが含まれます。
 
-### ユーザまたは管理者の追加 {#adding-a-user-or-administrator}
+### ユーザーまたは管理者の追加 {#adding-a-user-or-administrator}
 
-1. **[!UICONTROL 設定]**／**[!UICONTROL アプリケーション設定]**／**[!UICONTROL 管理設定]**／**[!UICONTROL ユーザ管理]**&#x200B;をクリックします。
-1. **[!UICONTROL 「追加」]**&#x200B;をクリックします。
-1. 追加するユーザーまたは管理者の名前と電子メールアドレスを入力し、「**[!UICONTROL 次へ]**」をクリックします。
+1. **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
+1. 「**[!UICONTROL 追加]**」を選択します。
+1. 追加するユーザーまたは管理者の名前と電子メールアドレスを入力し、「**[!UICONTROL 次へ]**」を選択します。
 
    >[!NOTE]
    >
@@ -55,45 +55,45 @@ Dynamic Media Classicは、複数のユーザーの役割をサポートしま�
    [Dynamic Media Classicのユーザーの役割と権限](administration-setup.md#user_administration)を参照してください。
 
 1. ユーザーを会社に追加するには、会社名を選択します。
-1. ユーザーをグループに追加する場合（Media Portalユーザーまたはコントリビューターを追加する場合）、「**[!UICONTROL 次へ]**」をクリックしてユーザーを追加します。
-1. 「**[!UICONTROL 保存]**」をクリックして、ユーザー設定を完了します。
+1. ユーザーをグループに追加する場合（Media Portalユーザーまたはコントリビューターを追加する場合）、「**[!UICONTROL 次へ]**」を選択して、ユーザーを追加します。
+1. 「**[!UICONTROL 保存]**」を選択して、ユーザー設定を完了します。
 
-   保存後、ユーザを別の会社に追加するかどうかを確認するメッセージが表示されます。ユーザーを会社に追加する場合は、「**[!UICONTROL 追加]**」をクリックします。
+   保存後、ユーザを別の会社に追加するかどうかを確認するメッセージが表示されます。ユーザーを会社に追加する場合は、「**[!UICONTROL 追加]**」を選択します。
 
    すべての新規ユーザーに、ランダムに生成されたパスワードが与えられます。ユーザーは、Dynamic Media Classicデスクトップアプリケーションへの初回ログイン時にパスワードを変更する必要があります。
 
    新規ユーザを追加した後、新規ユーザにご案内の電子メールが送信されます。この電子メールは、一時的なパスワードと、Dynamic Media Classicへのログイン方法を示します。
 
-   ユーザーに「ようこそ」の電子メールが届かない場合は、Dynamic Media Classicのログインページ(https://s7sps1.scene7.com)に移動し、「パスワードを忘れた場合」をクリックしてもらいます。 パスワードがリセットされ、新しい電子メールが送信されます。ユーザが電子メールを受信せず、迷惑メールフォルダにもない場合は、テクニカルサポートに問い合わせてください。
+   ユーザーに「ようこそ」の電子メールが届かない場合は、Dynamic Media Classicのログインページ(https://s7sps1.scene7.com)に移動し、「**[!UICONTROL パスワードを忘れた場合]**」を選択してもらいます。 パスワードがリセットされ、新しい電子メールが送信されます。ユーザが電子メールを受信せず、迷惑メールフォルダにもない場合は、テクニカルサポートに問い合わせてください。
 
-   新しいMedia Portalユーザーを追加する場合は、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL ユーザー管理]**&#x200B;に移動し、「**[!UICONTROL ユーザーリストをアップロード]** 」をクリックして、500人以下のユーザーを含む.csvファイルを選択します。
+   新しいMedia Portalユーザーを追加する場合は、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL ユーザー管理]**&#x200B;に移動し、「**[!UICONTROL ユーザーリストをアップロード]**」を選択して、500人以下のユーザーを含む.csvファイルを選択します。
 
 ### ユーザの削除 {#deleting-a-user}
 
 ユーザーを無効にすることで、Dynamic Media Classicからユーザーを削除できます。 無効なユーザは、システムとすべてのアカウントから削除されます。
 
-1. **[!UICONTROL 設定]**／**[!UICONTROL アプリケーション設定]**／**[!UICONTROL 管理設定]**／**[!UICONTROL ユーザ管理]**&#x200B;をクリックします。
-1. リストからユーザを選択し、**[!UICONTROL 「編集」]**&#x200B;をクリックします。
+1. **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
+1. リストからユーザーを選択し、「**[!UICONTROL 編集]**」を選択します。
 1. 「有効」の選択を解除します。
-1. **[!UICONTROL 「保存」]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 保存]**」を選択します。
 
-### ユーザのアクティブ化または非アクティブ化 {#activating-or-deactivating-users}
+### ユーザーのアクティベートまたはアクティベート解除 {#activating-or-deactivating-users}
 
 ユーザを非アクティブにすると、アクセスするアカウントを選択メニューの一番上に表示されるアカウントにアクセスする権限がなくなります。
 
-1. **[!UICONTROL 設定]**／**[!UICONTROL アプリケーション設定]**／**[!UICONTROL 管理設定]**／**[!UICONTROL ユーザ管理]**&#x200B;をクリックします。
+1. **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
 1. ユーザーリストで、ユーザー名の横にある「**[!UICONTROL アクティブ]**」オプションを選択または選択解除します。
 
 ### ユーザ情報の編集 {#editing-user-information}
 
 編集できるユーザ情報は、管理者としての役割、および情報編集先であるユーザに対して割り当てられた役割によって異なります。グレー表示（使用できない）オプションは、編集できません。
 
-1. **[!UICONTROL 設定]**／**[!UICONTROL アプリケーション設定]**／**[!UICONTROL 管理設定]**／**[!UICONTROL ユーザ管理]**&#x200B;をクリックします。
-1. ユーザを選択して、**[!UICONTROL 「編集」]**&#x200B;を選択します。
-1. 権限またはアクセスを変更する会社を表示するテーブル内のエントリを選択し、「会社の管理&#x200B;]**」をクリックします。**[!UICONTROL 
+1. **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
+1. リストからユーザーを選択し、「**[!UICONTROL 編集]**」を選択します。
+1. 権限またはアクセスを変更する会社を表示するテーブル内のエントリを選択し、「**[!UICONTROL 会社の管理]**」を選択します。
 1. ユーザの役割を選択します。
-1. ユーザーのグループメンバーシップを変更する場合（Media Portalユーザーまたはコントリビューターを編集または追加する場合）は、「**[!UICONTROL 次へ]**」をクリックし、グループメンバーシップを編集します。
-1. **[!UICONTROL 「保存」]**&#x200B;をクリックします。
+1. ユーザーのグループメンバーシップを変更する場合（Media Portalユーザーまたはコントリビューターを編集または追加する場合）、「**[!UICONTROL 次へ]**」を選択し、グループメンバーシップを編集します。
+1. 「**[!UICONTROL 保存]**」を選択します。
 
 ### ユーザリストのフィルタリングと並べ替え {#filtering-and-sorting-the-user-list}
 
@@ -109,7 +109,7 @@ Dynamic Media Classicは、複数のユーザーの役割をサポートしま�
 
 * **無効なユーザーを除外**  - 「無効なユーザーを含め **[!UICONTROL る」の選択を解除します]**。検索結果には、システム内のユーザだけが表示されます。無効なユーザはシステムおよび管理下のアカウントから削除されています。
 
-* **列見出しで並べ替え**  — 見出しをクリックすると、すべてのユーザーがステータス、名、姓、電子メールのアルファベット順、ユーザーの役割別、有効/無効なステータス別に並べ替えられます。
+* **列見出しで並べ替え**  — すべてのユーザーをステータス、名、姓、電子メールのアルファベット順、ユーザーの役割別、有効/無効なステータスで並べ替える見出しを選択します。
 
 ユーザ数が多い場合は、最大リストサイズメニューを選択し、数値を選択することで、リストのサイズを制限できます。
 
@@ -122,18 +122,18 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
    When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
 1. In Adobe Marketing Cloud, navigate to your account settings.
-1. Click **Manage Organizations**.
-1. Click **Link Account** or **Get Access**.
+1. Select **Manage Organizations**.
+1. Select **Link Account** or **Get Access**.
 1. Select **Experience Manager**, and then type your credentials.
 
    Your credentials include your IPS company region, email address, and password.
 
-1. Click **Link**.
+1. Select **Link**.
 1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, select **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -145,7 +145,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 Dynamic Media Classic管理者は、管理する会社向けに、帯域幅、ストレージ、その他のタイプのレポートを生成できます。 これらのレポートは、帯域幅とストレージページで利用できます。
 
-このページを開くには、**[!UICONTROL 設定]** /**[!UICONTROL 個人設定]**&#x200B;をクリックします。 「**[!UICONTROL 管理設定]**」を展開し、「**[!UICONTROL 帯域幅とストレージ]**」をクリックします。
+このページを開くには、**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**&#x200B;に移動します。 「**[!UICONTROL 管理設定]**」を展開し、「**[!UICONTROL 帯域幅とストレージ]**」を選択します。
 
 ### レポートのタイプ {#types-of-reports}
 
@@ -182,9 +182,9 @@ Dynamic Media Classic管理者は、管理する会社向けに、帯域幅、�
 
 帯域幅、ストレージ、画像コンテンツ、ドメイン、ビデオストリーミングまたはビデオコンテンツのレポートを生成するには：
 
-1. **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**&#x200B;を選択します。
-1. [管理の設定]を展開し、[**[!UICONTROL 帯域幅とストレージ]**]をクリックします。
-1. タブをクリックします。**[!UICONTROL 帯域幅]**、**[!UICONTROL ストレージ]**、**[!UICONTROL 画像コンテンツ]**、**[!UICONTROL ドメイン]**、**[!UICONTROL ビデオストリーミング]**、または&#x200B;**[!UICONTROL ビデオコンテンツ]**。
+1. **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**&#x200B;に移動します。
+1. [管理設定]を展開し、[**[!UICONTROL 帯域幅とストレージ]**]を選択します。
+1. タブを選択：**[!UICONTROL 帯域幅]**、**[!UICONTROL ストレージ]**、**[!UICONTROL 画像コンテンツ]**、**[!UICONTROL ドメイン]**、**[!UICONTROL ビデオストリーミング]**、または&#x200B;**[!UICONTROL ビデオコンテンツ]**。
 
    [レポートのタイプ](administration-setup.md#types_of_reports)を参照してください。
 
@@ -192,41 +192,41 @@ Dynamic Media Classic管理者は、管理する会社向けに、帯域幅、�
 
 帯域幅とストレージページでレポートを生成した後に、情報を表示するためのオプションを選択できます。情報の種類、情報の表示方法（グラフまたはデータグリッド）および情報の収集期間を指定できます。データビューで、情報を並べ替えたり、列の順番を変更することができます。
 
-* **グラフまたはデータ・グリッドでのデータの表示**  - 「グラフ表示」をクリ **[!UICONTROL ックし]** て、グラフでデータを表示します。データグ **[!UICONTROL リッド]** でデータを表示するには、「データ表示」をクリックします。
+* **グラフまたはデータ・グリッドでのデータの表示**  - 「グラフ表示」を選択 **[!UICONTROL し]** て、グラフにデータを表示します。データグ **[!UICONTROL リッ]** ドでデータを表示するには、「データ表示」を選択します。
 
-* **レポートの表示タイプの選択**  — レポートタイプメニューで、「 **[!UICONTROL 概要]**」、「 **[!UICONTROL 毎日]**」、「月」の順にクリックし **** て、データを要約形式、日別、月別に整理します。一部のレポートには、このオプションはありません。
+* **レポートの表示タイプを選択します**  — レポートタイプメニューで、「 **[!UICONTROL 概要]**」、「 **[!UICONTROL 毎日]**」または「月」を選択し **** て、データを要約形式、日別、月別に整理します。一部のレポートには、このオプションはありません。
 
-* **期間の指定**  — オプションを選択してレポートの期間を定義し、期間を定義した後 **** の「更新」をクリックします。
+* **期間の指定**  — オプションを選択してレポートの期間を定義し、「期間を定義した後に更 **** 新」を選択します。
 
 * **事前定義済み期間**  — 事前定義済みレポートメニューで、オプションを選択します。例えば、先月からのデータを収集するには、「先月」を選択します。
 
-* **カスタム期間**  — 事前定義済みのレポートメニューで、「カスタム」をク **[!UICONTROL リックします]**。次に、「**[!UICONTROL 開始月]**」（または&#x200B;**[!UICONTROL 開始日]**）メニューで日付を選択し、「月数」（または「#」または「日数」）メニューで日付を選択します。 ドメインレポートおよびビデオコンテンツレポートでは、レポート情報を収集するための特定の開始日と終了日を選択できます。
+* **カスタム期間**  — 事前定義済みのレポートメニューで、「カスタム」を **[!UICONTROL 選択します]**。次に、「**[!UICONTROL 開始月]**」（または&#x200B;**[!UICONTROL 開始日]**）メニューで日付を選択し、「月数」（または「#」または「日数」）メニューで日付を選択します。 ドメインレポートおよびビデオコンテンツレポートでは、レポート情報を収集するための特定の開始日と終了日を選択できます。
 
-* **データの並べ替え（データビューのみ）**  — 列の情報を並べ替えるには、列の見出しをクリックします。もう一度クリックすると、降順で並べ替えられます。
+* **データを並べ替え（データビューのみ）**  — 列の情報を並べ替えるには、列の見出しを選択します。降順に並べ替えるには、もう一度「 」を選択します。
 
-* **列の並べ替え（データビューのみ）**  — 列をデータグリッド上の別の位置に移動するには、見出しをドラッグします。
+* **列の並べ替え（データビューのみ）**  — 列をデータグリッド上の別の場所に移動するには、見出しをドラッグします。
 
 ### レポートの書き出しと印刷 {#exporting-and-printing-reports}
 
 レポートの生成後に、スプレッドシートやその他のアプリケーションで使用できるようにデータを書き出すことができます。また、レポートを印刷することもできます。
 
-* **レポートデータのエクスポート**  — データビューで、必要に応じてデータの並べ替え、並べ替えをおこないます。次に、**[!UICONTROL エクスポート]**&#x200B;メニューを開き、次の形式を選択します。**[!UICONTROL タブ区切り]**、**[!UICONTROL コンマ区切り]**、または&#x200B;**[!UICONTROL HTML形式]**。 選択した形式でデータがクリップボードにコピーされます。これでデータをスプレッドシートやアプリケーションにペーストできます。
+* **レポートデータのエクスポート**  — データビューで、必要に応じてデータを並べ替え、並べ替えます。次に、**[!UICONTROL エクスポート]**&#x200B;メニューを開き、次の形式を選択します。**[!UICONTROL タブ区切り]**、**[!UICONTROL コンマ区切り]**、または&#x200B;**[!UICONTROL HTML形式]**。 選択した形式でデータがクリップボードにコピーされます。これでデータをスプレッドシートやアプリケーションにペーストできます。
 
-* **レポートの印刷**  - 「印刷」 **[!UICONTROL をクリック]**&#x200B;し、印刷ダイアログボックスで必要なオプションを選択して、「 **[!UICONTROL OK]**」をクリックします。
+* **レポートの印刷**  - 「印刷」を選択 **[!UICONTROL し、印刷ダイアログボックスで必要なオプションを選択して、「]** OK ****」を選択します。
 
 ## 画像エラー {#image-errors}
 
 Dynamic Media Classic管理者は、画像エラーレポートを生成できます。 画像エラーレポートは、現在ログインしている会社について、直近 24 時間以内で最も頻度の高い画像エラー 20 個をリストで表示します。画像エラーレポートを生成するには、次の手順を実行します。
 
-1. **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**&#x200B;をクリックします。
-1. [管理設定]を展開し、[**[!UICONTROL イメージエラー]**]をクリックします。
+1. **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**&#x200B;に移動します。
+1. [管理設定]を展開し、[**[!UICONTROL イメージエラー]**]を選択します。
 1. 必要に応じて次の操作を行います。
 
-   * 見出し情報でエラーを並べ替えるには、見出しをクリックします。 初期設定では、エラーは発生頻度の高い順に並んでいます。
+   * 見出し情報別にエラーを並べ替えるには、見出しを選択します。 初期設定では、エラーは発生頻度の高い順に並んでいます。
    * カーソルをエラーの「応答」フィールド上に移動すると、詳細なエラーメッセージが表示されます。
    * 画像またはリファラーWebページへのリンクを確認するには、URLフィールドまたはリファラーフィールドの上にカーソルを移動します。
-   * リンクを実際の画像にコピーするには、「**[!UICONTROL URLコピーURL]**」をクリックします。 このリンクをブラウザウィンドウにペーストして画像のページに移動し、エラーを調べることができます。
-   * リファラーWebページへのリンクをコピーするには、**[!UICONTROL リファラーコピーURL]**&#x200B;をクリックします。
+   * リンクを実際の画像にコピーするには、「**[!UICONTROL URLコピーURL]**」を選択します。 このリンクをブラウザウィンドウにペーストして画像のページに移動し、エラーを調べることができます。
+   * リファラーWebページへのリンクをコピーするには、「**[!UICONTROL リファラーコピーURL]**」を選択します。
 
 表示されたエラーは、現在ログインしている会社のエラーです。各エラーには次の情報が含まれます。
 
