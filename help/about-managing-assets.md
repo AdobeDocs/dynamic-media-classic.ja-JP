@@ -1,5 +1,5 @@
 ---
-title: アセットの管理について
+title: Dynamic Media Classicでのアセット管理について
 description: Dynamic Media Classicでのアセット管理の概要
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -7,14 +7,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 feature: Dynamic Media Classic，アセット管理
 role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 80%
+source-wordcount: '165'
+ht-degree: 76%
 
 ---
 
-# アセットの管理について{#about-managing-assets}
+# Dynamic Media Classicでのアセット管理について {#about-managing-assets}
 
 Dynamic Media Classicは、アセットを管理するためのアセットライブラリを提供します。 アセットライブラリには、アセットファイルを格納するフォルダが含まれています。アセットライブラリでフォルダを選択すると、参照パネルにフォルダの内容が表示されます。項目は、参照パネルでグリッドビュー、リストビュー、または詳細ビューで表示することができます。1 つのアセットの詳細を表示するには、参照パネルでそのアセットをダブルクリックして詳細ビューで表示します。
 
