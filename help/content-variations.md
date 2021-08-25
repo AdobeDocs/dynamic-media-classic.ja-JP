@@ -1,6 +1,6 @@
 ---
 title: コンテンツのバリエーションの管理
-description: コンテンツのバリエーションを管理する方法を説明します。
+description: Dynamic Media Classicでコンテンツのバリエーションを管理する方法を説明します。
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '250'
+ht-degree: 54%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 59%
 
 リスト内にある任意の画像プリセットを使用できます。画像プリセット URL はユニバーサル URL に似ています。これらは、複数の画像プリセット URL にすることもできます。
 
-1. **[!UICONTROL ビルド]** / **[!UICONTROL テンプレートセット]**&#x200B;をクリックします。 ビルダが表示されます。
-1. テンプレートを選択し、「**[!UICONTROL 追加/プレビュー]**」をクリックします。
-1. テンプレートのプロパティを変更し、「**[!UICONTROL 名前を付けて保存]**」をクリックして、別のバージョンを作成します。
-1. 名前を入力し、「**[!UICONTROL 保存]**」をクリックします。
+1. **[!UICONTROL ビルド]** > **[!UICONTROL テンプレートセット]**&#x200B;に移動します。
+1. ビルダーで、テンプレートを選択し、「**[!UICONTROL 追加/プレビュー]**」を選択します。
+1. テンプレートのプロパティを変更し、「**[!UICONTROL 名前を付けて保存]**」を選択して、別のバージョンを作成します。
+1. 名前を入力し、「**[!UICONTROL 保存]**」を選択します。
 
    アセットとテンプレートの両方を公開する必要があります。
 
