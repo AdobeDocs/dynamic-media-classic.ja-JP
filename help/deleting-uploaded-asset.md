@@ -1,6 +1,6 @@
 ---
 title: アップロードしたアセットの削除
-description: アップロードしたアセットを削除する方法を説明します。
+description: Dynamic Media Classicでアップロードしたアセットを削除する方法を説明します。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 85%
+source-wordcount: '95'
+ht-degree: 84%
 
 ---
 
@@ -45,9 +45,9 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 URL クエリ文字列で以下のフィールドを使用して、アセットを削除できます。
 
 | URL パラメータ | 必須／オプション | 値 |
-|--- |--- |--- |
-| op | 必須 | 削除 |
-| shared_secret | 必須 | 会社の共有秘密キー. |
+| --- | --- | --- |
+| `op` | 必須 | 削除 |
+| `shared_secret` | 必須 | 会社の共有秘密キー. |
 | <ul><li>画像の場合：image_name</li><li>ベクトル：fxg_name</li></ul> | 必須 | 削除するアセットの名前。 |
 
 **サンプル画像の URL：**
