@@ -1,16 +1,17 @@
 ---
+title: Dynamic Mediaニュースレターアーカイブ
 description: 'Experience LeagueがアーカイブしたDynamic Mediaのニュースレターは、月刊ニュースレターでした。 Dynamic MediaとDynamic Media Classicをすばやく習得して、すぐに価値を実現できるようにすることを目的に設計されています。 アーカイブされたニュースレターには、廃止されたワンストップショップニュースレターで利用できる貴重な知識構築リソースが含まれています。 アーカイブされたニュースレターには、ハウツービデオとソリューションの概要が含まれます。 また、画像プリセット、ビューアプリセット、ビデオプロファイルなどの主な機能を紹介します。 '
 keywords: dynamic media；ニュースレター；製品アップデート；ヒントとテクニック；イベント；顧客の成功；ブログ；ブログ；画像；ビデオ；機能；機能
-title: Dynamic Mediaニュースレターアーカイブ
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
+
 
 # ![Dynamic Mediaニュースレターのロゴ](/help/assets/dynamic-media-newsletter-logo.png)
 
