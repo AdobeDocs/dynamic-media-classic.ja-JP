@@ -8,16 +8,16 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
 
 # 利用可能：AdobeDynamic Media Classicデスクトップアプリケーション {#dynamic-media-classic-desktop-app}
 
-Dynamic Media Classicユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった新しいデスクトップアプリケーションエクスペリエンスにアクセスできるようになりました。
+Dynamic Media Classicのユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった新しいデスクトップアプリケーションエクスペリエンスにアクセスできるようになりました。
 
 この新しいアプリは、Windows®とmacOSで利用できるようになりました。
 
@@ -25,7 +25,7 @@ Dynamic Media Classicユーザーは、ブラウザーのAdobeFlashテクノロ�
 >
 >Adobeでは、2020年10月2日までに新しいAdobeのDynamic Media Classicデスクトップアプリケーションをインストールすることをお勧めします。 これにより、AdobeFlash Playerの廃止を2020年12月31日に控える前に、スムーズな移行を確実におこなうことができます。 この日以降、AdobeDynamic Media Classicユーザーインターフェイスのブラウザーバージョン(製品内で「Dynamic Media Classic」というラベル)にログオンすることはできません。
 
-[新しいDynamic Media Classicのログインエクスペリエンスに関するFAQを参照してください。](/help/new-ui-2020.md)
+[新しいDynamic Media ClassicログインエクスペリエンスのFAQを参照してください。](/help/new-ui-2020.md)
 
 ## Dynamic Media ClassicデスクトップAdobeの必要システム構成 {#system-requirements-dmc-app}
 
@@ -87,7 +87,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
 1. ダウンロードしたインストーラーに基づいて、次のいずれかの操作を行います。
 
-   * **macOSの場合**  - Drag &amp; drop to  **[!UICONTROL installダイアログボックスで、]** Dynamic Media Classicを **[!UICONTROL Adobe]** し、 **[!UICONTROL Applications]**&#x200B;にドロップします。
+   * **macOS**  - Drag  **[!UICONTROL &amp; drop to installダイアログボックスで、]** Dynamic Media Classicを **[!UICONTROL Adobe]** し、 **[!UICONTROL Applications]**&#x200B;にドロップします。
 
       ![macOSでのドラッグ&amp;ドロップインストール](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
       ![ダウンロードしたアプリを開く](/help/assets/open-dmclassicapp1.png)
 
-   * **Windowsの場合**  — インストーラーバイナリを実行し、画面に表示される指示に従ってデスクトップアプリケーションをインストールします。
+   * **Windows**  — インストーラーのバイナリを実行し、画面に表示される指示に従ってデスクトップアプリケーションをインストールします。
 
 1. アプリケーションを開くと、新しいAdobeDynamic Media Classicログインページが表示されます。
 
@@ -107,7 +107,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
    | ブラウザーURL | デスクトップアプリケーションサーバー名 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北米）生産 |
    | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
@@ -149,7 +149,7 @@ macOSで最新バージョンのDynamic Media Classicデスクトップアプリ
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
    | ブラウザーURL | デスクトップアプリケーションサーバー名 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北米）生産 |
    | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
@@ -194,7 +194,7 @@ Windows®で最新バージョンのDynamic Media Classicデスクトップア�
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
    | ブラウザーURL | デスクトップアプリケーションサーバー名 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北米）生産 |
    | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
