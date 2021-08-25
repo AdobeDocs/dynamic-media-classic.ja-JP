@@ -1,6 +1,6 @@
 ---
 title: 画像プリセットの作成と有効化
-description: 画像プリセットを作成して有効にする方法を説明します。
+description: Dynamic Media Classicで画像プリセットを作成して有効にする方法を説明します。
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic，コラボレーション，画像プリセット，アセット管理
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 81%
+source-wordcount: '264'
+ht-degree: 76%
 
 ---
 
