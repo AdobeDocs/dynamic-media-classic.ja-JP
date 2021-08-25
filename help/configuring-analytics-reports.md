@@ -10,10 +10,10 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 29%
+source-wordcount: '1201'
+ht-degree: 31%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics設定画面には、ビューアイベントを変数に関連�
 
 Adobe Analytics設定画面を使用して、Adobe Analytics変数とDynamic Media Classic変数にビューアイベントを関連付けます。 ビューアイベントごとに、1つのAdobe Analytics変数と1つのDynamic Media Classic変数を選択します。 Adobe Analytics 設定画面を開く方法については、[Adobe Analytics へのログイン](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 
-**Adobe Analytics変数をDynamic Media Classicビューアのイベントと変数に割り当てるには**
+**Adobe Analytics変数をDynamic Media Classicビューアのイベントと変数に割り当てるには：**
 
 1. Dynamic Media Classic内からAdobe Analyticsにログインしてレポートスイートを選択した後、Adobe Analyticsの設定ページの右側の表の列で、「**[!UICONTROL 有効]**」を選択してビューアイベントをアクティブにします。
 1. 「変数」列で、目的のビューアイベントの矢印ボタンを選択して、変数ペア選択を表示します。
@@ -53,7 +53,7 @@ Adobe Analytics設定画面を使用して、Adobe Analytics変数とDynamic Med
    「**[!UICONTROL 保存]**」を選択すると、ビューアイベント、そのAdobe Analytics変数およびDynamic Media Classic変数がAdobe Analytics設定画面に表示されます。
 
 1. 右下隅で「**[!UICONTROL 閉じる]**」を選択します。
-1. **[!UICONTROL 公開]** / **[!UICONTROL 公開を送信]**&#x200B;を選択して、画像サービング公開を実行します。
+1. **[!UICONTROL 公開]** > **[!UICONTROL 公開を送信]**&#x200B;に移動して、画像サービング公開を実行します。
 
    ビューアに含まれる情報をDynamic Media Classicサーバーで利用するには、公開が必要です。
 
@@ -64,23 +64,22 @@ Adobe Analytics設定画面を使用して、Adobe Analytics変数とDynamic Med
 次の表に、Adobe Analytics 設定画面に追加できるビューアイベントを示します。
 
 | ビューアイベント | HTML5 ビューアプラットフォームのサポートとビューア | 説明 |
-|--- |--- |--- |
+| --- | --- | --- |
 | LOAD | **X**（eCatalog、フライアウト、スピンセット、ビデオ、ズーム） | ユーザーがビューアを起動したとき |
-| PAGE | **X**（eCatalog） | eCatalogで、ユーザーがページをめくるとき。ターゲットズームビューアで、ユーザが別のターゲットまたはカラースウォッチを選択したとき |
-| SWAP | **X**（eCatalog、フライアウト、スピンセット、ビデオ、ズーム） | ユーザーが別のサムネールを選択して別の画像を表示する場合 |
-| ITEM | **X**（eCatalog） | ロールオーバーが定義されている画像マップをサポートするビューアで、ユーザが画像マップにポインタを合わせて、ロールオーバーテキストを読み取るとき |
-| HREF | **X**（eCatalog） | 画像マップをサポートするビューアで、ユーザーが画像マップ内のURLを選択したとき |
+| PAGE | **X**（eCatalog） | eCatalogで、ユーザーがページをめくるとき。ターゲットズームビューアで、ユーザが別のターゲットまたはカラースウォッチを選択したとき。 |
+| SWAP | **X**（eCatalog、フライアウト、スピンセット、ビデオ、ズーム） | ユーザーが別のサムネールを選択して、別の画像を表示する場合。 |
+| ITEM | **X**（eCatalog） | ロールオーバーが定義されている画像マップをサポートするビューアで、ユーザがポインタを画像マップに合わせ、ロールオーバーテキストを読むとき。 |
+| HREF | **X**（eCatalog） | 画像マップをサポートするビューアで、ユーザーが画像マップ内のURLを選択したとき。 |
 | TARGET |  | ターゲットズームビューアで、ユーザがズームターゲットを選択して画像の一部をズームします。 |
 | SEARCH |  | eCatalog で、ユーザが単語検索を実行したとき。 |
 | PLAY | **X**（ビデオ） | ビデオビューアで、ユーザーが「再生」を選択してビデオの再生を開始したとき。<br><br>**注意：** Adobe Analyticsハートビートベースのビデオレポートを使用している場合、Dynamic Media ClassicでAdobe Analyticsを設定する際に、このビューアイベントに変数をマッピングする必要はありません。ビデオハートビートは、標準搭載のDynamic Media Classic HTML5ビデオビューアおよびMixedMediaビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。[Adobe Analyticsビデオレポートの有効化](enabling-analytics-video-reports.md)を参照してください。 |
 | PAUSE | **X**（ビデオ） | ビデオビューアで、ユーザーが&#x200B;**[!UICONTROL 一時停止]**&#x200B;を選択してビデオをフリーズしたとき。<br><br>**注意：** Adobe Analyticsハートビートベースのビデオレポートを使用している場合、Dynamic Media ClassicでAdobe Analyticsを設定する際に、このビューアイベントに変数をマッピングする必要はありません。ビデオハートビートは、標準搭載のDynamic Media Classic HTML5ビデオビューアおよびMixedMediaビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。[Adobe Analyticsビデオレポートの有効化](enabling-analytics-video-reports.md)を参照してください。 |
 | STOP | **X**（ビデオ） | ビデオビューアで、ユーザーが「**[!UICONTROL 停止]**」を選択してビデオの再生を停止したとき。<br><br>**注意：** Adobe Analyticsハートビートベースのビデオレポートを使用している場合、Dynamic Media ClassicでAdobe Analyticsを設定する際に、このビューアイベントに変数をマッピングする必要はありません。ビデオハートビートは、標準搭載のDynamic Media Classic HTML5ビデオビューアおよびMixedMediaビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。[Adobe Analyticsビデオレポートの有効化](enabling-analytics-video-reports.md)を参照してください。 |
-| MILESTONE | **X**  (ビデオ) | ビデオビューアでは、ユーザーがビデオを 0、25、50、75 または 100 パーセント見ると Milestone イベントが生成されます。<br><br>**注意：** Adobe Analyticsハートビートベースのビデオレポートを使用している場合、Dynamic Media ClassicでAdobe Analyticsを設定する際に、このビューアイベントに変数をマッピングする必要はありません。ビデオハートビートは、標準搭載のDynamic Media Classic HTML5ビデオビューアおよびMixedMediaビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。[Adobe Analyticsビデオレポートの有効化](enabling-analytics-video-reports.md)を参照してください。 |
-| SWATCH | X（フライアウト、ズーム） | このビューアイベントは、Dynamic Media ClassicのPAGEビューアイベントにマッピングされます。 |
-| ZOOM | **X**（eCatalog、スピンセット、ズーム） | Adobe Analytics では追跡されません。<br> |
-| PAN | **X**（eCatalog、スピンセット、ズーム） | Adobe Analytics では追跡されません。<br> |
-| SPIN | **X**（スピンセット） | Adobe Analytics では追跡されません。<br> |
-
+| MILESTONE | **X**  (Video) | ビデオビューアでは、ユーザーがビデオを 0、25、50、75 または 100 パーセント見ると Milestone イベントが生成されます。<br><br>**注意：** Adobe Analyticsハートビートベースのビデオレポートを使用している場合、Dynamic Media ClassicでAdobe Analyticsを設定する際に、このビューアイベントに変数をマッピングする必要はありません。ビデオハートビートは、標準搭載のDynamic Media Classic HTML5ビデオビューアおよびMixedMediaビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。[Adobe Analyticsビデオレポートの有効化](enabling-analytics-video-reports.md)を参照してください。 |
+| SWATCH | **X**（フライアウト、ズーム） | このビューアイベントは、Dynamic Media ClassicのPAGEビューアイベントにマッピングされます。 |
+| ZOOM | **X**（eCatalog、スピンセット、ズーム） | Adobe Analytics では追跡されません。 |
+| PAN | **X**（eCatalog、スピンセット、ズーム） | Adobe Analytics では追跡されません。 |
+| SPIN | **X**（スピンセット） | Adobe Analytics では追跡されません。 |
 
 ### Dynamic Media Classic変数 {#scene-variables}
 
@@ -89,7 +88,7 @@ Adobe Analytics設定画面の各ビューアイベントに対して、Adobe An
 次の表に、Dynamic Media Classic変数を示します。
 
 | Dynamic Media Classic変数 | 説明 |
-|--- |:--- |
+| --- | --- |
 | asset | Dynamic Media ClassicアセットIDまたはビデオパスファイル。 |
 | viewerId | 各種ビューアタイプに割り当てられている任意の番号。 |
 | pageLabel | eCatalog でビューアが表示するページ。 |
@@ -106,11 +105,8 @@ Adobe Analytics設定画面の各ビューアイベントに対して、Adobe An
 
 Adobe Analytics 設定画面で、ビューアイベントをアクティブ化、編集および削除できます。
 
-* ****
-ActivateSelect選択したビ **** ューアイベントをアクティベ **** ートまたは無効にします。
+* **アクティブ化**  - 「有効にする」または「無効 **** 」を選択すると、選択 **** したビューアイベントが非アクティブ化されます。
 
-* ****
-編集ビューアイベントを選択し、「表 **[!UICONTROL 示/変数を編]** 集」グレーボタンを選択します。「 Dynamic Mediaクラシック変数」と「 Adobe Analytics変数」ドロップダウンリストで、それぞれのリストから異なる変数を選択します。 詳しくは、 Dynamic Media Classicビューアイベントと変数へのAdobe Analytics変数の割り当てを参照してください。
+* **編集**  — ビューアイベントを選択し、「表 **[!UICONTROL 示/変数を編]** 集」グレーボタンを選択します。「 Dynamic Mediaクラシック変数」と「 Adobe Analytics変数」ドロップダウンリストで、それぞれのリストから異なる変数を選択します。 詳しくは、[Dynamic Media Classicビューアイベントと変数へのAdobe Analytics変数の割り当て](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables)を参照してください。
 
-* ****
-削除ビューアイベントを選択し、「表 **[!UICONTROL 示/変]** 数を編集」グレーボタンを選択します。「**[!UICONTROL 削除]**」を選択します。
+* **削除**  — ビューアイベントを選択し、「表 **[!UICONTROL 示/変数を編]** 集」グレーボタンを選択します。「**[!UICONTROL 削除]**」を選択します。
