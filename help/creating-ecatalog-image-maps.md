@@ -1,6 +1,6 @@
 ---
-title: eCatalog 画像マップの作成
-description: eCatalog画像マップの作成方法を説明します。
+title: eCatalog画像マップの作成
+description: Dynamic Media ClassicでeCatalog画像マップを作成する方法を説明します。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic，ビューア，eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 46%
+source-wordcount: '1491'
+ht-degree: 40%
 
 ---
 
-# eCatalog 画像マップの作成{#creating-ecatalog-image-maps}
+# eCatalog画像マップの作成{#creating-ecatalog-image-maps}
 
 画像マップとは、eCatalogページ上の領域で、マウスでロールオーバーしたり、様々な種類のアクションをトリガーするために選択したりできます。 例えば、画像マップ上にポインタを移動すると、項目のロールオーバーテキスト説明が表示されます。 画像マップを選択すると、別のアクションが開始されます。 例えば、Web ページを開いてアイテムに関する詳細を確認したり、購入することができます。また、ビデオを起動して使用中のアイテムを確認することもできます。
 
-## eCatalog 画像マップの描画 {#drawing-ecatalog-image-maps}
+## eCatalog画像マップを描画 {#drawing-ecatalog-image-maps}
 
 eCatalog では、eCatalog 画面の「ページをマップ」タブで画像マップを描画します。この画面は、eCatalog のページを表示する画像マップ領域と、右側に表示される画像マップリストから構成されます。画像マップを作成すると、その名前が画像マップリストに表示されます。
 
@@ -41,19 +41,19 @@ eCatalog では、eCatalog 画面の「ページをマップ」タブで画像�
 
    URL（Hrefテンプレート）を簡単に入力するには、「**[!UICONTROL 編集]**」を選択し、テンプレートを入力します。
 
-詳しくは、[テンプレートを使用した JavaScript と URL の入力](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)を参照してください。
+[テンプレートを使用したJavaScriptとURLの入力](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)を参照してください。
 
 1. （オプション）「表示」ドロップダウンリストで「**[!UICONTROL テキストのロールオーバー]**」を選択し、ユーザーが画像マップにポインターを合わせたときに画面に表示するテキストを入力します。
 1. （オプション）「表示」ドロップダウンリストで「**[!UICONTROL その他のアクション]**」を選択し、ユーザーが画像マップにポインターを合わせたときにぼかしや焦点のトリガーを行う属性を入力します。
 
-   詳しくは、[画像マップのその他のアクションの定義](creating-image-maps.md#defining_other_actions_for_image_maps)を参照してください。
+   [画像マップのその他のアクションの定義](creating-image-maps.md#defining_other_actions_for_image_maps)を参照してください。
 
 1. 「**[!UICONTROL 保存]**」を選択します。
 1. （オプション）「**[!UICONTROL プレビュー]**」を選択して、eCatalogをデフォルトのeCatalogビューアプリセットで表示します。
 
 画像マップを削除するには、画像マップリストでその名前を選択し、「**[!UICONTROL 削除]**」を選択します。 画像マップを削除せずに一時的に画像マップをページから取り除くには、画像マップリストパネルの画像マップの「オン」オプションを選択解除します。
 
-## eCatalog でのリッチメディアの埋め込み {#embedding-rich-media-in-an-ecatalog}
+## eCatalogへのリッチメディアの埋め込み {#embedding-rich-media-in-an-ecatalog}
 
 eCatalog のリッチメディアオプションを使用して、eCatalog に追加した画像マップに MP4 フォーマットのビデオやスピンセットを追加することができます。ユーザーがeCatalog内の画像マップ領域を選択すると、関連するスピンセットまたはビデオが表示されます。 この機能は、顧客に使用中のアイテムを表示したい場合や、異なる角度や展望からアイテムを表示したい場合に特に役に立ちます。
 
@@ -63,7 +63,7 @@ eCatalog のリッチメディアオプションを使用して、eCatalog に�
 
 1. eCatalog 画像マップを描画します。
 
-   詳しくは、[eCatalog 画像マップの描画](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)を参照してください。
+   [eCatalog画像マップの描画](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)を参照してください。
 
 1. 「表示」ドロップダウンリストで、「**[!UICONTROL リッチメディア]**」を選択します。
 1. 左側のアセットを追加パネルで、埋め込むスピンセットまたはビデオ（MP4 フォーマット）アセットを含むフォルダに移動します。
@@ -77,11 +77,11 @@ eCatalog 画面の「ページをマップ」タブを選択し、以下の手�
 
 * **位置の調整**  — パンツールを選択し、ポインタをマップの境界線の上ではなく近くに移動します。ポインタが 4 方向の矢印アイコンに変わったら画像マップ全体を新しい場所に移動します。
 
-   詳しくは、[画像マップの位置、形状およびサイズの調整](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)を参照してください。
+   [画像マップの位置、形状、サイズを調整する](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)を参照してください。
 
 * **シェイプとサイズの変更**  — 長方形の画像マップのサイズを変更するには、パンツールを選択します。左右の境界線または角の部分にポインタを合わせ、ポインタが 2 方向の矢印アイコンに変わったら、ドラッグします。多角形の画像マップのサイズを変更する場合は、正方形の選択ハンドルをドラッグします。選択ハンドルを作成するには、画像マップの境界線を選択し、ドラッグします。
 
-   詳しくは、[画像マップの位置、形状およびサイズの調整](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)を参照してください。
+   [画像マップの位置、形状、サイズを調整する](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)を参照してください。
 
 * **画像マップの削除**  — パンツールを選択し、画像マップを選択して、「削除」を選 **[!UICONTROL 択します]**。
 
@@ -89,15 +89,15 @@ eCatalog 画面の「ページをマップ」タブを選択し、以下の手�
 
 * **重なっている画像マップの処理**  — ドラッグして、画像マップリスト上の画像マップの順序を変更します。
 
-   詳しくは、[画像マップの重ね合わせ処理](creating-image-maps.md#handling_overlapping_image_maps)を参照してください。
+   [重なり合う画像マップの処理](creating-image-maps.md#handling_overlapping_image_maps)を参照してください。
 
 * **画像マップを他のページにコピーする**  - 「 **[!UICONTROL マップのコピー先]** 」を選択します（「ページをマップ」タブを表示していることを確認してください）。画像を選択画面で、画像マップをコピーする1つ以上のページを選択し、「****&#x200B;を選択します。
 
-   詳しくは、[画像マップをその他の画像にコピーする](creating-image-maps.md#copying_image_maps)を参照してください。
+   [画像マップを他の画像にコピーする](creating-image-maps.md#copying_image_maps)を参照してください。
 
 >[!NOTE]
 >
->画像マップをeCatalog内の異なるページにコピーする以外に、eCatalog内のすべての画像マップを別のeCatalogにコピーできます。 [eCatalog 間での画像マップのコピー](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)を参照してください。
+>画像マップをeCatalog内の異なるページにコピーする以外に、eCatalog内のすべての画像マップを別のeCatalogにコピーできます。 [eCatalog間で画像マップをコピーする](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)を参照してください。
 
 ## 画像マップデータの確認と読み込み {#reviewing-and-importing-image-map-data}
 
@@ -129,7 +129,7 @@ eCatalog 画面の「ページをマップ」タブを選択し、以下の手�
 1. ファイルの拡張子を変更しないように注意しながら、「ジョブ名」フィールドにファイルの名前を入力します。
 1. 「**[!UICONTROL アップロード]**」を選択します。
 
-## eCatalog 間での画像マップのコピー {#copying-image-maps-between-ecatalogs}
+## eCatalog間での画像マップのコピー {#copying-image-maps-between-ecatalogs}
 
 eCatalog 内のすべての画像マップを別の eCatalog にコピーできます。画像マップのコピーというこの方法により、同じ eCatalog の各国語版で容易に画像マップをコピーすることができます。コピーを正常におこなうために、Dynamic Media Classicでは、同じページ数と同じ画像を持つeCatalog間でコピーすることをお勧めします。
 
