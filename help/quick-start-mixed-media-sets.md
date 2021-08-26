@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
-feature: Dynamic Media Classic，ビューア，混在メディアセット
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 52%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 52%
 
 混在メディアセットビューアのプリセットには、エンドユーザがコードの埋め込み、URL のコピー、メイン Web サイトへのリンクを実行するためのコミュニティオプションが含まれます。ユーザはこれらのオプションを使用して、個人の Web サイトやソーシャルネットワーキングサイトで製品に関する情報を共有できます。
 
-この混在メディアセットのクイックスタートは、Dynamic Media Classicの混在メディアセットのテクニックをすばやく習得できるように作られています。
+この混在メディアセットのクイックスタートは、AdobeDynamic Media Classicの混在メディアセットのテクニックをすぐに使い始められるように作られています。
 
 ## 1.画像、スウォッチファイルおよびビデオのアップロード
 
 まず、混在メディアセット用の画像、スウォッチファイルおよびビデオをアップロードします。ユーザーは混在メディアセットビューアで画像をズームできるので、画像を選択する際は、この機能を考慮してください。 最大サイズで2,000ピクセル以上の画像を使用してください。
 
-グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」をクリックして、コンピューターからDynamic Media Classicのフォルダーにファイルをアップロードします。
+グローバルナビゲーションバーの「**[!UICONTROL アップロード]**」をクリックして、AdobeのDynamic Media Classic上のフォルダーにファイルをアップロードします。
 
 詳しくは、[ファイルのアップロード](uploading-files.md#uploading-your-files)を参照してください。
 
@@ -47,7 +47,7 @@ ht-degree: 52%
 
 ## 4.混在メディアビューアプリセットの設定
 
-Dynamic Media Classicには、混在メディアセット用の初期設定のビューアプリセットが付属しています。 管理者は、混在メディアセットビューアのプリセットを作成または変更できます。
+AdobeDynamic Media Classicには、混在メディアセット用のデフォルトのビューアプリセットが付属しています。 管理者は、混在メディアセットビューアのプリセットを作成または変更できます。
 
 混在メディアセットビューアプリセットを設定する場合は、セット内の他のすべてのアセット用のビューアプリセットを追加します。 例えば、混在メディアセットにビデオが含まれる場合は、混在メディアセットビューアのプリセットにビデオビューアのプリセットを追加します。ビューアにサウンドトラックを追加することもできます。サウンドトラックはビューアが開いていると再生されますが、ビデオがアクティブなときには再生されません。
 
@@ -61,7 +61,7 @@ Dynamic Media Classicには、混在メディアセット用の初期設定の�
 
 ## 6.混在メディアセットの公開
 
-混在メディアセットを公開すると、Dynamic Media Classicサーバーに配置され、URL文字列がアクティベートされます。
+混在メディアセットを公開すると、AdobeDynamic Media Classicサーバーに配置され、URL文字列がアクティブになります。
 
 混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。**ビデオサーバー**&#x200B;を使用して、公開用にマークした実際のビデオを公開します。また、**Image Server**&#x200B;を使用して、ビデオサムネールなどの関連アセットを公開し、アダプティブビデオセットの情報を設定します。
 
@@ -69,6 +69,6 @@ Dynamic Media Classicには、混在メディアセット用の初期設定の�
 
 ## 7. Webページへの混在メディアセットのリンク
 
-Dynamic Media Classicは、混在メディアセットのURL呼び出しを公開後にアクティベートします。 これらのURLをプレビューページからコピーできます。
+AdobeDynamic Media Classicは、混在メディアセットのURL呼び出しを公開後にアクティベートします。 これらのURLをプレビューページからコピーできます。
 
 混在メディアセットを選択し、「**[!UICONTROL プレビュー]**」をクリックします。 プレビューページで、混在メディアセットビューアプリセットを選択し、「URLをコピー&#x200B;]**」をクリックします。**[!UICONTROL &#x200B;詳しくは、[Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)を参照してください。

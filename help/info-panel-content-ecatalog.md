@@ -1,6 +1,6 @@
 ---
 title: eCatalogの情報パネルのコンテンツを管理
-description: Dynamic Media ClassicのeCatalogで情報パネルのコンテンツを管理する方法を説明します。
+description: Dynamic Media ClassicのeCatalogで情報パネルのコンテンツを管理する方法について説明します。
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '866'
 ht-degree: 59%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 59%
 
 eCatalog 内のロールオーバーに画像マップテキストを使用するだけでなく、情報パネルを使用して、リンクを含む多数のロールオーバーテキストを追加できます。また、期限付きキャッシュを使用し、コンテンツを更新するスケジュールを設定して、情報パネルを管理することもできます。
 
-Dynamic Media Classicの次の機能を使用して、情報パネルの設定とデータを管理できます。
+AdobeDynamic Media Classicの次の機能を使用して、情報パネルの設定とデータを管理できます。
 
 * 情報パネル設定パネルでは、情報パネルのテキスト表示に使用するテンプレート、エラーのデフォルト応答、情報をキャッシュする時間数を指定できます。eCatalog を自動的に公開するかどうかを指定することもできます。
 * InfoPanelのデータフィードパネルでは、情報パネルのロールオーバーテキストに表示するテキストを含むCSVファイルを指定し、情報を更新する時間をスケジュールできます。
@@ -45,7 +45,7 @@ Dynamic Media Classicの次の機能を使用して、情報パネルの設定�
    * 応答テンプレートメニューからプリセットを選択します。テンプレートデザインの XML が「ユーザテンプレート」ボックスに表示されます。
    * 独自の応答テンプレートを作成するには、「**[!UICONTROL カスタム]**」を選択します。 「ユーザテンプレート」ボックスに、テンプレートの XML 定義を入力します。プリセットのテンプレートを基に、独自のテンプレートを作成できます。
 
-1. （オプション）「デフォルトの応答」ボックスに、画像マップの情報の取得時にDynamic Media Classicでエラーが発生した場合に表示するテキストを入力します。 例えば、システムで会社名と eCatalog 名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
+1. （オプション）「デフォルトの応答」ボックスに、AdobeDynamic Media Classicで画像マップの情報の取得中にエラーが発生した場合に表示するテキストを入力します。 例えば、システムで会社名と eCatalog 名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
 1. 「応答 TTL」ボックスに、データをキャッシュするまでの時間数を入力します。
 
    * データが 1 日中頻繁に更新される場合は、数値を小さくします。
@@ -89,7 +89,7 @@ Last Modified Date:
 1. 「**[!UICONTROL 参照]**」を選択し、使用するタブ区切りのTXTファイル、CSVファイルまたはSSVファイルを選択して、「**[!UICONTROL 開く]**」を選択します。
 1. 「**[!UICONTROL アップロード]**」を選択します。
 
-Dynamic Media Classicは、アップロードが成功したかどうかを知らせる電子メールを送信します。
+AdobeDynamic Media Classicは、アップロードが成功したかどうかを知らせる電子メールメッセージを送信します。
 
 ## 画像マップのロールオーバーキーテキストのプレビュー {#preview-rollover-key-text-for-an-image-map}
 

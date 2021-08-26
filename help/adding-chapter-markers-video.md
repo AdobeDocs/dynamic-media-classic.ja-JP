@@ -1,18 +1,18 @@
 ---
 title: ビデオへのチャプターマーカーの追加
-description: Dynamic Media Classicでビデオにチャプターマーカーを追加する方法を説明します。
+description: AdobeDynamic Media Classicでビデオにチャプターマーカーを追加する方法を説明します。
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic，ビューア，ビデオ
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 42%
 
 ---
@@ -57,7 +57,7 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
 **ビデオにチャプターマーカーを追加するには:**
 
-1. Dynamic Media Classicの外部で単純なテキストエディターを使用して、ビデオチャプターファイルを作成します。
+1. Dynamic Media Classicの外部で単純なテキストAdobeを使用して、ビデオチャプターファイルを作成します。
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
    通常、チャプター VTT ファイルにはビデオファイルと同じ名前を指定し、`chapters` を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。
 
-1. Dynamic Media Classicで、WebVTTチャプターファイルをアップロードします。
+1. AdobeDynamic Media Classicで、WebVTTチャプターファイルをアップロードします。
 
    [ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 

@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic，ビューア，ズーム
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 20%
+source-wordcount: '147'
+ht-degree: 21%
 
 ---
 
 # ズーム画像の公開{#publishing-zoom-images}
 
-公開すると、ズーム画像がDynamic Media Image Serverに配置され、Webサイトやアプリケーションで使用できるようになります。 公開プロセスの一環として、Dynamic Media ClassicはURL文字列をアクティベートします。 これらの URL 文字列を Web サイトの HTML コードに配置することができます。
+公開すると、ズーム画像がDynamic Media Image Serverに配置され、Webサイトやアプリケーションで使用できるようになります。 公開プロセスの一環として、AdobeDynamic Media ClassicはURL文字列をアクティブ化します。 これらの URL 文字列を Web サイトの HTML コードに配置することができます。
 
 ## 画像を公開用にマーク {#marking-images-for-publish}
 

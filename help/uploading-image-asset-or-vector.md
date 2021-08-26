@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1495'
 ht-degree: 78%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 Admin Consoleを使用して&#x200B;*共有秘密鍵*&#x200B;を[に要求し、サポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、共有秘密鍵をリクエストします。
 
-電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Dynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
+電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。AdobeDynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
 
 ## アップロードトークンの取得 {#retrieving-the-upload-token}
 

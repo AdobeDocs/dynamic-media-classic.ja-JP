@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
-feature: Dynamic Media Classic，ビューア，画像セット
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '491'
 ht-degree: 33%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 33%
 
 画像セットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。画像セットには「ズームビューア : カスタム」ビューアプリセットを使用します。
 
-Dynamic Media Classicには、デフォルトのビューアプリセットが付属しています。 管理者は、ビューアプリセットを作成または変更できます。
+AdobeDynamic Media Classicには、デフォルトのビューアプリセットが付属しています。 管理者は、ビューアプリセットを作成または変更できます。
 
 ## 画像セットのズームビューアプリセットの設定 {#setting-up-zoom-viewer-presets-for-image-sets}
 
@@ -51,9 +51,9 @@ Dynamic Media Classicには、デフォルトのビューアプリセットが�
 1. 左側のアセットライブラリパネルでアセットフォルダに移動し、プレビューする画像セットを選択します。
 1. 次のいずれかの操作を行います。
 
-   * Dynamic Media Classicウィンドウの右上隅近くにある「**[!UICONTROL リスト表示]**」アイコンをクリックします。 アセットウィンドウで、アセットの上にマウスポインターを置き、（「プレビュー」ドロップダウンリストではなく）「**[!UICONTROL プレビュー]**」をクリックします。
-   * Dynamic Media Classicウィンドウの右上隅近くにある&#x200B;**[!UICONTROL グリッドビュー]**&#x200B;アイコンをクリックします。 アセットウィンドウのアセットサムネールウィンドウで、（「プレビュー」ドロップダウンリストではなく）「**[!UICONTROL プレビュー]**」をクリックします。
-   * Dynamic Media Classicウィンドウの右上隅近くにある&#x200B;**[!UICONTROL 詳細ビュー]**&#x200B;アイコンをクリックします。 同じツールバーで、「**[!UICONTROL プレビュー]**」（「プレビュー」ドロップダウンリストではなく）をクリックします。
+   * Dynamic Media ClassicAdobeウィンドウの右上隅付近にある&#x200B;**[!UICONTROL リスト表示]**&#x200B;アイコンをクリックします。 アセットウィンドウで、アセットの上にマウスポインターを置き、（「プレビュー」ドロップダウンリストではなく）「**[!UICONTROL プレビュー]**」をクリックします。
+   * Dynamic Media ClassicAdobeウィンドウの右上隅近くにある&#x200B;**[!UICONTROL グリッドビュー]**&#x200B;アイコンをクリックします。 アセットウィンドウのアセットサムネールウィンドウで、（「プレビュー」ドロップダウンリストではなく）「**[!UICONTROL プレビュー]**」をクリックします。
+   * Dynamic Media ClassicAdobeウィンドウの右上隅付近にある&#x200B;**[!UICONTROL 詳細ビュー]**&#x200B;アイコンをクリックします。 同じツールバーで、「**[!UICONTROL プレビュー]**」（「プレビュー」ドロップダウンリストではなく）をクリックします。
 
 1. （オプション）プレビューウィンドウ下部のドロップダウンリストで、アセットの URL がコピーされるときにアセットの URL に適用する URL エンコーディングを選択します。
 1. 選択したビューアでアセットをプレビューするには、ビューアのリンクをクリックします。

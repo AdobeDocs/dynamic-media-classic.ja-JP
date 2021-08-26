@@ -1,6 +1,6 @@
 ---
 title: 画像の切り抜き
-description: Dynamic Media Classicでの画像の切り抜き方法を説明します。
+description: Dynamic Media Classicでの画像の切り抜き方法について説明します。
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 35%
 
 ---
 
 # 画像の切り抜き{#cropping-an-image}
 
-Dynamic Media Classicで画像の切り抜きが可能です。 システムは、切り抜かれた画像に関する情報を保持するので、画像を元の状態に戻すことが可能です。また画像を切り抜き、切り抜かれたバージョンを新しい名前で保存することもできます。
+Dynamic Media ClassicのAdobeで画像を切り抜くことができます。 システムは、切り抜かれた画像に関する情報を保持するので、画像を元の状態に戻すことが可能です。また画像を切り抜き、切り抜かれたバージョンを新しい名前で保存することもできます。
 
 画像を切り抜き、画像の周りの空白を除去したり、画像の領域を切り抜いたりできます。
 
@@ -45,7 +45,7 @@ Dynamic Media Classicで画像の切り抜きが可能です。 システムは�
 
 ## 切り抜き領域の選択 {#select-an-area-to-crop}
 
-1. 画像を切り抜くには、ロールオーバーの&#x200B;**[!UICONTROL 編集]**&#x200B;ボタンを選択して「**[!UICONTROL 切り抜き]**」を選択するか、詳細ビューの参照パネルに表示して「**[!UICONTROL 切り抜き]**」を選択します。
+1. 画像を切り抜くには、ロールオーバーの&#x200B;**[!UICONTROL 編集]**&#x200B;ボタンを選択して「**[!UICONTROL 切り抜き]**」を選択するか、詳細ビューの参照パネルに画像を表示して「**[!UICONTROL 切り抜き]**」を選択します。
 
 1. 切り抜きエディタ(Crop Editor)ウィンドウで、切り抜く画像の一部を切り抜きボックスに配置します。 ボックス内に表示される内容は、「**[!UICONTROL 保存]**」を選択して画像を切り抜いた後に残る内容です。
 1. 切り抜き領域を調整するには、次のいずれかの操作を行います。

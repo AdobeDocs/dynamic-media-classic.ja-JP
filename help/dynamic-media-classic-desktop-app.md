@@ -1,6 +1,6 @@
 ---
 title: AdobeDynamic Media Classicデスクトップアプリケーション — 利用可能
-description: Dynamic Media Classicデスクトップアプリケーションの詳細
+description: Dynamic Media ClassicデスクトップAdobeの詳細
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,24 +8,24 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
 
 # 利用可能：AdobeDynamic Media Classicデスクトップアプリケーション {#dynamic-media-classic-desktop-app}
 
-Dynamic Media Classicのユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった新しいデスクトップアプリケーションエクスペリエンスにアクセスできるようになりました。
+AdobeDynamic Media Classicのユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった新しいデスクトップアプリケーションエクスペリエンスにアクセスできるようになりました。
 
 この新しいアプリは、Windows®とmacOSで利用できるようになりました。
 
 >[!IMPORTANT]
 >
->Adobeでは、2020年10月2日までに新しいAdobeのDynamic Media Classicデスクトップアプリケーションをインストールすることをお勧めします。 これにより、AdobeFlash Playerの廃止を2020年12月31日に控える前に、スムーズな移行を確実におこなうことができます。 この日以降、AdobeDynamic Media Classicユーザーインターフェイスのブラウザーバージョン(製品内で「Dynamic Media Classic」というラベル)にログオンすることはできません。
+>Adobeでは、2020年10月2日までに新しいAdobeのDynamic Media Classicデスクトップアプリケーションをインストールすることをお勧めします。 これにより、AdobeFlash Playerの廃止を2020年12月31日に控える前に、スムーズな移行を確実におこなうことができます。 この日以降、AdobeDynamic Media Classicユーザーインターフェイスのブラウザーバージョンにログオンすることはできません。このユーザーインターフェイスは、製品内で「AdobeDynamic Media Classic 」というラベルが付いています。
 
-[新しいDynamic Media ClassicログインエクスペリエンスのFAQを参照してください。](/help/new-ui-2020.md)
+[新しいAdobeDynamic Media ClassicログインエクスペリエンスのFAQを参照してください。](/help/new-ui-2020.md)
 
 ## Dynamic Media ClassicデスクトップAdobeの必要システム構成 {#system-requirements-dmc-app}
 
@@ -36,7 +36,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
 >[!NOTE]
 >
->Dynamic Media Classicデスクトップアプリケーション内のアップグレード通知は、*マイナー*&#x200B;リリースに対しては生成されません。 マイナーリリースの修正のメリットがあるお客様は、アップグレードできます。
+>Dynamic Media ClassicデスクトップAdobe内のアップグレード通知は、*マイナー*&#x200B;リリースに対しては生成されません。 マイナーリリースの修正のメリットがあるお客様は、アップグレードできます。
 
 ## マイナーリリース(20.21.2)の修正点 {#minor-release}
 
@@ -44,7 +44,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 * **[!UICONTROL アップロードジョブオプション]**&#x200B;で、**[!UICONTROL Photoshopオプション]**&#x200B;の下のレイヤー命名のデフォルト値が&#x200B;**[!UICONTROL Photoshopとレイヤー名]**&#x200B;になりました。 PSD ファイルのレイヤーは、個別の画像としてアップロードされます。
    * 以前の初期設定の&#x200B;**[!UICONTROL レイヤー名]**&#x200B;は、PSDファイル内のレイヤー名またはレイヤー番号に基づいて画像に名前を付けます。 PSDファイル内のレイヤー名がデフォルトのPhotoshopレイヤー名である場合は、レイヤー番号が使用されていました。
    * **[!UICONTROL Photoshopとレイヤー名]**&#x200B;の新しい初期設定では、PSDファイルの後にレイヤー名またはレイヤー番号が続く名前が画像に付けられます。 PSD ファイルのレイヤー名が、初期設定の Photoshop レイヤー名の場合は、レイヤー番号が使用されます。
-   * Dynamic Media Classicのレイヤー画像に一意の名前が付けられるので、既存のPSDやテンプレート（元のPSDファイル内の共有レイヤー名）は更新されません。
+   * AdobeDynamic Media Classicのレイヤー画像に一意の名前が付けられたので、既存のPSDやテンプレート（元のPSDファイル内の共有レイヤー名）は更新されません。
 * アセットの壊れたサムネール。
 
 ## 最新バージョンの修正(20.21.1) {#latest-fixes-desktop-app}
@@ -67,7 +67,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 * [最新AdobeのDynamic Media ClassicデスクトップアプリケーションをMacにダウンロードしてサイレントインストールする](#install-silent-mac-dmc-app)
 * [Windows®での最新AdobeのDynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-windows-dmc-app)
 
-1. 古いバージョンのDynamic Media Classicデスクトップアプリケーションをシステムからアンインストールします。
+1. システム上で古いAdobeのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
 
 1. Dynamic Media ClassicデスクトップアプリケーションのAdobe用の最新インストーラーをダウンロードします。
 
@@ -100,9 +100,9 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
 1. アプリケーションを開くと、新しいAdobeDynamic Media Classicログインページが表示されます。
 
-   ![Dynamic Media Classicログイン](/help/assets/dmclassic-login1.png)
+   ![AdobeDynamic Media Classicのログイン](/help/assets/dmclassic-login1.png)
 
-1. Dynamic Media ClassicデスクトップAdobeにログインするには、ブラウザーでDynamic Media Classicにログオンする際に使用したのと同じ資格情報を使用します。
+1. Dynamic Media ClassicデスクトップAdobeにログインするには、ブラウザーでDynamic Media ClassicにAdobeする際に使用したものと同じ資格情報を使用します。
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
@@ -112,7 +112,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
    | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
-1. ログイン後、使い慣れたブラウザーユーザーインターフェイスが表示されます。 デスクトップアプリケーションでは、通常どおり1日を通じてDynamic Media Classicのアクティビティを続行できます。
+1. ログイン後、使い慣れたブラウザーユーザーインターフェイスが表示されます。 デスクトップアプリケーションでは、通常どおり、1日を通じてAdobeDynamic Media Classicのアクティビティを続行できます。
 
 ## macOSで最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードし、*サイレント*&#x200B;インストールします。 {#install-silent-mac-dmc-app}
 
@@ -123,7 +123,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
 macOSで最新バージョンのDynamic Media Classicデスクトップアプリケーションをダウンロードして&#x200B;*サイレント* Adobeするには、次の手順を実行します。
 
-1. 古いバージョンのDynamic Media Classicデスクトップアプリケーションをシステムからアンインストールします。
+1. システム上で古いAdobeのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
 
 1. macOS用Dynamic Media ClassicデスクトップアプリケーションAdobeの最新のインストーラーをダウンロードします。
 
@@ -142,9 +142,9 @@ macOSで最新バージョンのDynamic Media Classicデスクトップアプリ
 
 1. アプリケーションを開くと、新しいAdobeDynamic Media Classicログインページが表示されます。
 
-   ![Dynamic Media Classicログイン](/help/assets/dmclassic-login1.png)
+   ![AdobeDynamic Media Classicのログイン](/help/assets/dmclassic-login1.png)
 
-1. Dynamic Media ClassicデスクトップAdobeにログインするには、ブラウザーでDynamic Media Classicにログオンする際に使用したのと同じ資格情報を使用します。
+1. Dynamic Media ClassicデスクトップAdobeにログインするには、ブラウザーでDynamic Media ClassicにAdobeする際に使用したものと同じ資格情報を使用します。
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
@@ -156,7 +156,7 @@ macOSで最新バージョンのDynamic Media Classicデスクトップアプリ
 
 ## Windows®で最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードし、*サイレント*&#x200B;インストールします。 {#install-silent-windows-dmc-app}
 
-使用するコマンドは、基本的なMSIサイレントインストール用です。 ただし、Dynamic Media Classicデスクトップアプリケーションのインストーラーは、InstallShieldを使用して作成されたInstallScript MSIインストーラーです。 インストーラーをレコードモードで実行すると、ユーザーの操作が応答ファイルに記録されます。 次に、[サイレントモードでのインストールの実行で説明されているように、この応答ファイルをサイレントインストールに使用します。](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+使用するコマンドは、基本的なMSIサイレントインストール用です。 ただし、Dynamic Media ClassicデスクトップアプリケーションのAdobeは、InstallShieldを使用して作成されたInstallScript MSIインストーラーです。 インストーラーをレコードモードで実行すると、ユーザーの操作が応答ファイルに記録されます。 次に、[サイレントモードでのインストールの実行で説明されているように、この応答ファイルをサイレントインストールに使用します。](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 関連項目:
 
@@ -165,7 +165,7 @@ macOSで最新バージョンのDynamic Media Classicデスクトップアプリ
 
 Windows®で最新バージョンのDynamic Media Classicデスクトップアプリケーションをダウンロードして&#x200B;*サイレント* Adobeするには、次の手順を実行します。
 
-1. 古いバージョンのDynamic Media Classicデスクトップアプリケーションをシステムからアンインストールします。
+1. システム上で古いAdobeのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
 
 1. Dynamic Media ClassicデスクトップアプリケーションのAdobe用の最新インストーラーをダウンロードします。
 
@@ -187,9 +187,9 @@ Windows®で最新バージョンのDynamic Media Classicデスクトップア�
 
 1. アプリケーションを開くと、新しいAdobeDynamic Media Classicログインページが表示されます。
 
-   ![Dynamic Media Classicログイン](/help/assets/dmclassic-login1.png)
+   ![AdobeDynamic Media Classicのログイン](/help/assets/dmclassic-login1.png)
 
-1. Dynamic Media ClassicデスクトップAdobeにログインするには、ブラウザーでDynamic Media Classicにログオンする際に使用したのと同じ資格情報を使用します。
+1. Dynamic Media ClassicデスクトップAdobeにログインするには、ブラウザーでDynamic Media ClassicにAdobeする際に使用したものと同じ資格情報を使用します。
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
@@ -200,13 +200,13 @@ Windows®で最新バージョンのDynamic Media Classicデスクトップア�
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
 
-## Dynamic Media Classic Desktop Appの使用に関するビデオウォークスルー {#dmc-app-video-walk-through}
+## Dynamic Media Classic Desktop Appの使用に関するビデオAdobe {#dmc-app-video-walk-through}
 
-Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media)の使用に関する[ビデオのウォークスルーを視聴します(長さ：2分36秒)。
+AdobeDynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media)の使用に関する[ビデオのウォークスルーを視聴する(長さ：2分36秒)。
 
 ## デスクトップアプリケーションを使用したコンピューター上の画像キャッシュとアセットキャッシュのクリア {#clear-cache}
 
-1. Dynamic Media Classicデスクトップアプリケーションで、右上隅付近にある&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL 個人設定]**&#x200B;をタップします。
+1. AdobeDynamic Media Classicデスクトップアプリケーションで、右上隅付近にある&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL 個人設定]**&#x200B;をタップします。
 1. **[!UICONTROL 個人設定]**&#x200B;ページの「**[!UICONTROL デスクトップ]**」見出しの下で、次のいずれかの操作を行います。
    * Dynamic MediaでキャッシュされたすべてのAdobe画像ファイルをコンピューターから削除するには、「**[!UICONTROL 画像キャッシュをクリア]**」をタップし、「**[!UICONTROL OK]**」をタップします。
    * Dynamic MediaでキャッシュされたすべてのAdobeアセットファイルをコンピューターから削除するには、「**[!UICONTROL アセットキャッシュをクリア]**」をタップし、「**[!UICONTROL OK]**」をタップします。
@@ -221,26 +221,26 @@ Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/exper
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Dynamic Media Classic 20.21.1の既知の制限
+## AdobeDynamic Media Classic 20.21.1の既知の制限
 
-* Dynamic Media Classicデスクトップアプリケーション20.21.1 — シナリオに更新した後、**[!UICONTROL Server]**&#x200B;ドロップダウンリストが空になる：Dynamic Media Classic 20.20.1または20.20.2をインストールしてログインし、アプリケーションを閉じます。 次に、Dynamic Media Classic 20.21.1に更新します。サインインしようとすると、**[!UICONTROL Sign in to your account]**&#x200B;ダイアログボックスの&#x200B;**[!UICONTROL Server]**&#x200B;ドロップダウンリストは空になります。 この問題を回避するには、[手動でキャッシュ](#clear-cache)をクリアする必要があります（上記の手順を参照）。
+* Dynamic Media Classicデスクトップアプリケーション20.21.1 -Adobeに更新した後、**[!UICONTROL Server]**&#x200B;ドロップダウンリストが空になるDynamic Media Classic 20.20.1または20.20.2をインストールしてログインし、Adobeを閉じます。 次に、Dynamic Media Classic 20.21.1をAdobeに更新します。サインインしようとすると、**[!UICONTROL Sign in to your account]**&#x200B;ダイアログボックスの&#x200B;**[!UICONTROL Server]**&#x200B;ドロップダウンリストは空になります。 この問題を回避するには、[手動でキャッシュ](#clear-cache)をクリアする必要があります（上記の手順を参照）。
 
-## Dynamic Media Classic 20.20.1の既知の制限(20.20.2で修正)
+## Dynamic Media Classic 20.20.1のAdobeの既知の制限(20.20.2で修正)
 
 **_Windows®のみに適用 — デスクトップアプリケーションのUIを使用してアップロードできるファイルの数に制限はありますか。_**<br>はい。デスクトップアプリケーションのUIを使用して、一度に最大150個のファイルをアップロードできます。
 
 **_Windows®とmacOSに適用 — 会社を切り替える方法&#x200B;_**<br>会社を切り替えるには、次の操作を行います。
 
-* Dynamic Media Classicアプリで、会社ドロップダウンリストから新しい会社を選択します。
+* AdobeDynamic Media Classicアプリで、会社ドロップダウンリストから新しい会社を選択します。
 * ポップアップウィンドウが表示されたら、「**[!UICONTROL OK]**」をタップしてサインアウトし、アプリを閉じます。
 
    ![新しい会社を使用するには、アプリを再起動します。](/help/assets/dmclassic-new-company1.png)
 
-* Dynamic Media Classicを再起動し、通常どおりにログインして、新しい会社で作業します。
+* AdobeDynamic Media Classicを再起動し、通常どおりにログインして、新しい会社で作業します。
 
 ## ヒントとテクニック
 
-**_Dynamic Media ClassicのランディングページにMedia Cartパネルが表示されません。_**<br>Dynamic Media Classicで、設**[!UICONTROL 定/個人設定&#x200B;]**をタップします。「ブラウザー」セクションで、「**[!UICONTROL MediaPortal機能を表示&#x200B;]**」が選択（オン）されていることを確認します。**[!UICONTROL 保存/閉じる&#x200B;]**をタップします。
+**_AdobeDynamic Media Classicのランディングページにメディアカートパネルが表示されません。_**<br>AdobeDynamic Media Classicで、設**[!UICONTROL 定/個人設定&#x200B;]**をタップします。「ブラウザー」セクションで、「**[!UICONTROL MediaPortal機能を表示&#x200B;]**」が選択（オン）されていることを確認します。**[!UICONTROL 保存/閉じる&#x200B;]**をタップします。
 
 **_アセットの公開状態（緑のインジケーター）が正しく反映されません。_**<br>アセットの正しい公開状態を確認するには、ブラウザーのユーザーインターフェイスでUIに再ログインする必要がありました。デスクトップアプリケーションでは、Adobeのツールバーに**[!UICONTROL 更新&#x200B;]**アイコンが表示され、「**[!UICONTROL なし&#x200B;]**を選択」ボタンの右側に表示されます。**[!UICONTROL 更新&#x200B;]**アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザーUIと同様に、再ログインは不要です。
 

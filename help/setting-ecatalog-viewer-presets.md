@@ -6,21 +6,21 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
-feature: Dynamic Media Classic，ビューア，ビューアプリセット，eCatalog
+feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 41%
+source-wordcount: '482'
+ht-degree: 42%
 
 ---
 
 # eCatalog のビューアプリセットの設定{#setting-up-ecatalog-viewer-presets}
 
-eCatalog ビューアプリセットによって、eCatalog ビューアのスタイル、動作、外観が決まります。Dynamic Media ClassicにはeCatalogビューアプリセットが用意されています。管理者は、独自のeCatalogビューアプリセットを作成することもできます。
+eCatalog ビューアプリセットによって、eCatalog ビューアのスタイル、動作、外観が決まります。AdobeDynamic Media ClassicにはeCatalogビューアプリセットが用意されています。管理者は、独自のeCatalogビューアプリセットを作成することもできます。
 
-プリセットを作成するには、最初から作成するか、Dynamic Media Classicが提供するeCatalogビューアプリセットを使用して開始し、新しい名前で保存します。 製本する際に、会社の特性を表し、トーンを設定できるように独自の eCatalog ビューアプリセットを作成することができます。
+プリセットを作成するには、最初から作成するか、AdobeのDynamic Media Classic提供のeCatalogビューアプリセットを使用して開始し、新しい名前で保存します。 製本する際に、会社の特性を表し、トーンを設定できるように独自の eCatalog ビューアプリセットを作成することができます。
 
 eCatalog ビューアプリセットで設定できる内容は多数あり、ページ間の移動、ズーム、検索、スキンの選択などを設定することができます。eCatalogビューアプリセットの選択に応じて、これらのコントロールの外観とビューアの表示方法が変わります。
 
@@ -48,7 +48,7 @@ eCatalogビューアプリセットを作成できるようにするには、次
    | `$2$` | frame | 画像セット内で現在表示されているフレームのシーケンス番号。 |
    | `$3$` | imageroot | 画像コマンドで指定された最初の項目の最初のパス要素（通常、画像セットを指定するカタログエントリの画像カタログ ID）。 |
 
-1. （オプション）**[!UICONTROL 情報パネルの設定]**&#x200B;の「**[!UICONTROL 応答テンプレート]**」ボックスに、Dynamic Media Classicで画像マップの情報の取得中にエラーが発生した場合に表示するテキストを入力します。 例えば、システムで会社名と eCatalog 名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
+1. （オプション）AdobeDynamic Media Classicで画像マップの情報の取得中にエラーが発生した場合に表示するテキストを、**[!UICONTROL 情報パネルの設定]**&#x200B;の「**[!UICONTROL 応答テンプレート]**」ボックスに入力します。 例えば、システムで会社名と eCatalog 名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
 
 >[!NOTE]
 >

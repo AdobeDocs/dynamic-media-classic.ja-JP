@@ -4,12 +4,12 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
-user-guide-description: Dynamic Media Classic の使用の詳細
+user-guide-description: Dynamic Media ClassicのAdobeの詳細
 index: y
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 32%
+source-wordcount: '778'
+ht-degree: 30%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 32%
 # Adobe Dynamic Media Classic ガイド {#using}
 
 + [Adobe Dynamic Media Classic ガイド](home.md)
-+ [ベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新しいDynamic Media Classicログインエクスペリエンスが利用可能](new-ui-2020.md)
-+ [Dynamic Mediaニュースレターアーカイブ(Experience League別)](dynamic-media-newsletter.md)
++ [AdobeDynamic Media Classicのベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [新しいAdobeDynamic Media Classicログインエクスペリエンスが利用可能に](new-ui-2020.md)
++ [AdobeDynamic Mediaニュースレターアーカイブ(Experience League別)](dynamic-media-newsletter.md)
 + AdobeDynamic Media Classic {#intro}の紹介
    + [AdobeDynamic Media Classicデスクトップアプリケーション — 利用可能](dynamic-media-classic-desktop-app.md)
-   + [Dynamic Media Classicヘルプについて](introduction.md)
+   + [Dynamic Media ClassicAdobeについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
    + [新機能](whats-new.md)
-   + [必要システム構成](system-requirements.md)
+   + [Dynamic Media ClassicデスクトップAdobeの必要システム構成](system-requirements.md)
    + [サポート](support.md)
-   + [Dynamic Media Classic Media Portalのヘルプ](help-dmc-media-portal.md)
+   + [Dynamic Media Classic Media PortalAdobeのヘルプ](help-dmc-media-portal.md)
    + [Adobe トレーニングサービス](training-services.md)
    + [役立つリソース](popular-resources.md)
    + [トレーニングビデオ](training-videos.md)
@@ -45,7 +45,7 @@ ht-degree: 32%
    + [ビデオ SEO（検索エンジン最適化）](video-seo-search-engine-optimization.md)
    + [管理設定](administration-setup.md)
 + Media Portal {#media-portal}
-   + [必要システム構成](system-requirements-1.md)
+   + [Dynamic Media ClassicのMedia Portalの必要Adobe構成](system-requirements-media-portal.md)
    + [クイックスタート：Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal ユーザの役割](media-portal-user-roles.md)
    + [Media Portalグループの作成と管理](creating-media-portal-groups.md)
@@ -71,7 +71,7 @@ ht-degree: 32%
    + [アセットの移動、名前変更、削除](moving-renaming-deleting-assets.md)
    + [詳細ビューで作業する](detail-view.md)
    + [メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md)
-   + [Dynamic Media Classicからのアセットの書き出し](exporting-assets-from-dmc.md)
+   + [AdobeDynamic Media Classicからのアセットの書き出し](exporting-assets-from-dmc.md)
    + [ピアーとのリアルタイムでのアセット変更の共有](sharing-asset-changes-peers-real.md)
    + [アセットの印刷](printing-assets.md)
    + [ごみ箱フォルダーを管理します。](trash-folder.md)
@@ -147,7 +147,7 @@ ht-degree: 32%
    + [混在メディアセットの公開](publishing-mixed-media-set.md)
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics計測キット{#analytics-kit}
-   + [クイックスタート：Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-dmc-analytics.md)
+   + [クイックスタート：AdobeDynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics へのログイン](log-analytics.md)
    + [Adobe Analyticsレポートの設定](configuring-analytics-reports.md)
    + [Adobe Analytics 計測キットを使用したビューアの計測](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -157,7 +157,7 @@ ht-degree: 32%
    + [Adobe Analytics設定情報の公開](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premiumとの統合{#target-classic}
    + [クイックスタート：Adobe Target Standard/Premiumの統合](quick-start-target-integration.md)
-   + [Dynamic Media ClassicとAdobe Target Standard/Premiumの統合](integrating-dmc-with-target.md)
+   + [AdobeDynamic Media ClassicとAdobe Target Standard/Premiumの統合](integrating-dmc-with-target.md)
    + [オファーセットの作成](creating-offer-set.md)
    + [オファーセットをAdobe Target Standard/Premiumにプッシュ](pushing-offer-sets-target.md)
 + ユーザ生成コンテンツ {#user-generated-content}

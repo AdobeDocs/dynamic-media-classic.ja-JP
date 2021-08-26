@@ -1,15 +1,15 @@
 ---
 title: 'ビデオへのキャプションの追加 '
-description: Dynamic Media Classicでビデオにキャプションを追加する方法を説明します。
+description: AdobeDynamic Media Classicでビデオにキャプションを追加する方法を説明します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic，ビューア，ビデオ
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '904'
 ht-degree: 32%
 
 ---
@@ -34,19 +34,19 @@ ht-degree: 32%
 
 [ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
 
-Dynamic Media Classicでは、キャプションファイルをJSON(JavaScript Object Notation)形式に変換できます。 この変換によって、隠されたビデオ内容全文として、JSON テキストを Web ページに埋め込むことができます。その後、検索エンジンでコンテンツをクロールおよびインデックス付けして、ビデオを見つけやすくし、ビデオコンテンツに関する詳細を顧客に提供できます。
+AdobeDynamic Media Classicでは、キャプションファイルをJSON(JavaScript Object Notation)形式に変換できます。 この変換によって、隠されたビデオ内容全文として、JSON テキストを Web ページに埋め込むことができます。その後、検索エンジンでコンテンツをクロールおよびインデックス付けして、ビデオを見つけやすくし、ビデオコンテンツに関する詳細を顧客に提供できます。
 
 URLでのJSON関数の使用について詳しくは、*Adobe画像サービングAPIのヘルプ*&#x200B;の[静的（画像以外）コンテンツ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api)を参照してください。
 
 **ビデオにキャプションを追加するには:**
 
-1. Dynamic Media Classic以外のサードパーティアプリケーションを使用して、使用しているビューアタイプに基づいてビデオキャプションファイルを作成します。
+1. Dynamic Media Classic以外のサードパーティAdobeを使用して、使用しているビューアタイプに基づいてビデオキャプションファイルを作成します。
 
    | ビューアタイプ | キャプションファイル |
    |--- |--- |
-   | HTML5 | HTML5 ビデオビューアを使用している場合、作成するキャプションファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。キャプションのファイル名拡張子は .vtt です。WebVTT のキャプション規格について、さらに詳しく調べることができます。<br><br>[WebVTTを参照してください](https://w3c.github.io/webvtt/)。Webビデオテキストトラックの形式。<br><br>Dynamic Media Classic以外でキャプションファイルを作成する際に使用できるツールやサービスは、無料でも有料でも提供されています。例えば、スタイル設定のないシンプルなビデオキャプションファイルを作成するには、次の無料のオンラインキャプションオーサリングおよび編集ツールを使用できます。<br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>最適な結果を得るには、このツールをInternet Explorer 9以降、Google Chrome、Safariのいずれかで使用してください。 <br><br>ツールの「ビデオファイ <b>ルのURLを入力」</b> フィールドにビデオファイルのURLを貼り付けて、「読み込 <b>み</b>」を選択します。<br><br>例えば、ビデオファイルにDynamic Media Classic URLを使用している場合は、(アダプティブビデオセットやマスタービデオではなく)個々のビデオアセットをダブルクリックして詳細表示で開きます。詳細ビューの右側のパネルで、「URL と埋め込みコード」を展開します。次に、「モバイル」グループの「モバイル（プログレッシブ）」の右側にある「<b>URLをコピー</b>」を選択します。 このプロセスにより、ビデオファイル自体のURLが得られ、「<b>ビデオファイルのURLを入力</b>」フィールドに貼り付けることができます。 その後、Internet Explorer、Chrome、または Safari で、ビデオを再生できます。作成するサイトの画面に示される指示に従って、WebVTT ファイルを保存します。完了したら、キャプションファイルの内容をコピーしてプレーンテキストエディターに貼り付け、ファイル名拡張子VTTを付けて保存します。 <br><br><b>注意：</b> 英語以外の言語でビデオキャプションをグローバルにサポートする場合、WebVTT標準では、サポートする言語ごとに個別の.vttファイルを作成し呼び出す必要があります。<br><br>通常、キャプション VTT ファイルにはビデオファイルと同じ名前を指定し、captions を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。 |
+   | HTML5 | HTML5 ビデオビューアを使用している場合、作成するキャプションファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。キャプションのファイル名拡張子は .vtt です。WebVTT のキャプション規格について、さらに詳しく調べることができます。<br><br>[WebVTTを参照してください](https://w3c.github.io/webvtt/)。Webビデオテキストトラックの形式。<br><br>AdobeDynamic Media Classicの外部でキャプションファイルを作成する際に使用できるツールやサービスは、無料でも有料でも提供されています。例えば、スタイル設定のないシンプルなビデオキャプションファイルを作成するには、次の無料のオンラインキャプションオーサリングおよび編集ツールを使用できます。<br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>最適な結果を得るには、このツールをInternet Explorer 9以降、Google Chrome、Safariのいずれかで使用してください。 <br><br>ツールの「ビデオファイ <b>ルのURLを入力」</b> フィールドにビデオファイルのURLを貼り付けて、「読み込 <b>み</b>」を選択します。<br><br>例えば、ビデオファイルにDynamic Media ClassicAdobeURLを使用している場合は、(アダプティブビデオセットやマスタービデオではなく)個々のビデオアセットをダブルクリックして詳細ビューで開きます。詳細ビューの右側のパネルで、「URL と埋め込みコード」を展開します。次に、「モバイル」グループの「モバイル（プログレッシブ）」の右側にある「<b>URLをコピー</b>」を選択します。 このプロセスにより、ビデオファイル自体のURLが得られ、「<b>ビデオファイルのURLを入力</b>」フィールドに貼り付けることができます。 その後、Internet Explorer、Chrome、または Safari で、ビデオを再生できます。作成するサイトの画面に示される指示に従って、WebVTT ファイルを保存します。完了したら、キャプションファイルの内容をコピーしてプレーンテキストエディターに貼り付け、ファイル名拡張子VTTを付けて保存します。 <br><br><b>注意：</b> 英語以外の言語でビデオキャプションをグローバルにサポートする場合、WebVTT標準では、サポートする言語ごとに個別の.vttファイルを作成し呼び出す必要があります。<br><br>通常、キャプション VTT ファイルにはビデオファイルと同じ名前を指定し、captions を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。 |
 
-1. Dynamic Media Classicで、WebVTT、DFXP、またはSMPTE XMLキャプションファイルをアップロードします。
+1. AdobeDynamic Media Classicで、WebVTT、DFXP、またはSMPTE XMLキャプションファイルをアップロードします。
 
    [ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 

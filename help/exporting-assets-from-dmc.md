@@ -1,6 +1,6 @@
 ---
-title: Dynamic Media Classicからのアセットの書き出し
-description: Dynamic Media Classicからアセットを書き出す方法を説明します。
+title: AdobeDynamic Media Classicからのアセットの書き出し
+description: Dynamic Media Classicからアセットを書き出す方法について説明します。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 52%
 
 ---
 
-# Dynamic Media Classicからのアセットの書き出し{#exporting-assets-from-dmc}
+# AdobeDynamic Media Classicからのアセットの書き出し{#exporting-assets-from-dmc}
 
-Dynamic Media Classicで編集したアセットをローカルネットワークドライブに保存できます。 書き出されたアセットは、ダウンロード用または電子メールでの送信用に ZIP ファイルにまとめられます。
+Dynamic Media Classicで編集したAdobeは、ローカルネットワークドライブに保存できます。 書き出されたアセットは、ダウンロード用または電子メールでの送信用に ZIP ファイルにまとめられます。
 
 書き出しジョブの場合、圧縮 ZIP ファイルの最大ファイルサイズは 1 GB です。また、1つの書き出しジョブに許可されるアセットの合計は最大500個です。
 
-Dynamic Media Classicは、ジョブ画面に書き出しジョブの記録を保持します。
+AdobeDynamic Media Classicは、ジョブ画面に書き出しジョブの記録を保持します。
 
-**Dynamic Media Classicからアセットを書き出すには：**
+**Dynamic Media ClassicからAdobeを書き出すには：**
 
 1. 書き出すアセットを選択し、**[!UICONTROL ファイル]** /**[!UICONTROL 書き出し]**&#x200B;に移動します。
 1. 選択したアセットを書き出しウィンドウで、**[!UICONTROL 「イメージ」オプション]**&#x200B;をクリックしてから、次のオプションを指定します（ユーザが指定できるオプションは管理者が決定します）。

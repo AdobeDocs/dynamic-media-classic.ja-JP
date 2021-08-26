@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic，ビューア，スピンセット，ビューアプリセット
+feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 31%
+source-wordcount: '233'
+ht-degree: 32%
 
 ---
 
 # スピンセットビューアのプリセットの設定{#setting-up-spin-set-viewer-presets}
 
-スピンセットビューアプリセットによって、ビューアのスタイル、動作、外観が決まります。Dynamic Media Classicには、初期設定のスピンセットビューアプリセットが付属しています。 また、管理者は、独自のスピンセットビューアプリセットを作成することもできます。異なる色、境界線、フォントおよび画像設定のスピンセットビューアプリセットを設定することもできます。
+スピンセットビューアプリセットによって、ビューアのスタイル、動作、外観が決まります。AdobeDynamic Media Classicには、初期設定のスピンセットビューアプリセットが付属しています。 また、管理者は、独自のスピンセットビューアプリセットを作成することもできます。異なる色、境界線、フォントおよび画像設定のスピンセットビューアプリセットを設定することもできます。
 
 **スピンセットビューアプリセットを作成するには：**
 

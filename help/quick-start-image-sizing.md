@@ -7,37 +7,37 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 37%
+source-wordcount: '851'
+ht-degree: 35%
 
 ---
 
 # クイックスタート：画像サイズ変更{#quick-start-image-sizing}
 
-画像のサイズ設定とは、Dynamic Media Classicで、単一の高解像度画像に基づいて複数の派生画像を作成する機能を指します。 Webサイトやアプリケーション用に、サムネールや拡大表示画像など、複数の画像を手動で作成する代わりに、1つのマスター画像を提供します。 Dynamic Media Classicは、要求されたとおりに、変更されたすべての画像を生成します。 1 つのマスター画像から動的に画像を配信できることには、次のような利点があります。
+画像のサイズ設定とは、Dynamic Media Classicで、Adobe1つの高解像度画像に基づいて複数の派生画像を作成する機能を指します。 Webサイトやアプリケーション用に、サムネールや拡大表示画像など、複数の画像を手動で作成する代わりに、1つのマスター画像を提供します。 AdobeDynamic Media Classicは、要求されたとおりに、変更されたすべての画像を生成します。 1 つのマスター画像から動的に画像を配信できることには、次のような利点があります。
 
-* 画像を様々なサイズで手動コピーする必要がありません。1つのマスター画像をDynamic Media Classicに提供すると、Dynamic Media Classicはマスター画像から異なるサイズの派生画像を生成します。
+* 画像を様々なサイズで手動コピーする必要がありません。1つのマスター画像をAdobeDynamic Media Classicに提供し、AdobeDynamic Media Classicはマスター画像から異なるサイズの派生画像を生成します。
 * Web サイトやアプリケーション全体に含まれている特定の形式の画像のサイズを簡単に変更することができます。例えば、すべてのサムネール画像を変更するには「サムネール」画像プリセットを変更します。画像プリセットは、マクロのようなサイズおよび形式の属性の集まりです。「サムネール」画像プリセットを変更して、Web サイトやアプリケーション全体に含まれているすべてのサムネール画像のサイズを変更することができます。
 * 内部または外部のコンテンツ管理システムのマスターおよび様々な派生物をすべて管理する必要はありません。
 
 ![同じ高解像度マスターファイルから、異なるサイズの複数の派生画像を作成できます。](/help/assets/is_derivative_sizes_popup.png)
 
-この画像サイズ設定クイックスタートは、Dynamic Media Classicの画像サイズ設定テクニックをすばやく習得できるように設計されています。 手順1 ～ 5に従います。 各手順の最後に、それぞれの内容について詳しく説明している参照先を示しています。
+この画像サイズ設定クイックスタートは、AdobeDynamic Media Classicの画像サイズ設定テクニックをすばやく習得できるように設計されています。 手順1 ～ 5に従います。 各手順の最後に、それぞれの内容について詳しく説明している参照先を示しています。
 
 ## 1.マスター画像のアップロード
 
-まず、マスター画像をDynamic Media Classicにアップロードします。 サイズに関しては、Dynamic Media Classicでは、Webサイトやアプリケーションで使用が予想される最大サイズの画像の使用をお勧めします。 例えば、ビューアで画像をズームする場合は、最大サイズが2,000ピクセル以上の画像をアップロードします。 Dynamic Media Classicは多くの画像ファイル形式をサポートしますが、可逆圧縮TIFFおよびPNG画像の使用をお勧めします。
+まず、マスター画像をDynamic Media ClassicにAdobeします。 サイズに関しては、AdobeDynamic Media Classicでは、Webサイトやアプリケーションで使用が予想される最大サイズの画像の使用をお勧めします。 例えば、ビューアで画像をズームする場合は、最大サイズが2,000ピクセル以上の画像をアップロードします。 AdobeDynamic Media Classicは多くの画像ファイル形式をサポートしますが、可逆圧縮TIFFおよびPNG画像の使用をお勧めします。
 
-グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」をクリックして、コンピューターからDynamic Media Classicのフォルダーにファイルをアップロードします。 詳しくは、[マスター画像のアップロード](uploading-master-images.md#uploading_master_images)を参照してください。
+グローバルナビゲーションバーの「**[!UICONTROL アップロード]**」をクリックして、AdobeのDynamic Media Classic上のフォルダーにファイルをアップロードします。 詳しくは、[マスター画像のアップロード](uploading-master-images.md#uploading_master_images)を参照してください。
 
 ## 2.画像プリセットの設定
 
-画像プリセットは、マクロのような定義済みのサイズおよび形式に関するコマンドの集まりであり、特定の名前が付けられて保存されています。画像プリセットは、Dynamic Media Image Serverから画像を配信する際に使用するサイズと形式を管理します。 会社の管理者ステータスを持っているユーザは、独自の画像プリセットを設定できます。Dynamic Media Classicには、デフォルトの画像プリセットが付属しており、これらを使用して画像を動的に配信することもできます。
+画像プリセットは、マクロのような定義済みのサイズおよび形式に関するコマンドの集まりであり、特定の名前が付けられて保存されています。画像プリセットは、Dynamic Media Image Serverから画像を配信する際に使用するサイズと形式を管理します。 会社の管理者ステータスを持っているユーザは、独自の画像プリセットを設定できます。AdobeDynamic Media Classicには、デフォルトの画像プリセットが付属しており、これらを使用して画像を動的に配信できます。
 
 画像プリセットを作成する（管理者の場合）には、グローバルナビゲーションバーで&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 画像プリセット]**&#x200B;をクリックします。 次に、「**[!UICONTROL 追加]**」をクリックして画像プリセットを作成するか、「**[!UICONTROL 編集]**」をクリックして既存の画像プリセットを変更します。
 
@@ -58,12 +58,12 @@ ht-degree: 37%
 マスター画像ファイルの公開には、主に 2 つの目的があります。
 
 * マスター画像をDynamic Media Image Serverに公開して、画像をWebサイトやアプリケーションに動的に配信できるようにします。
-* 公開すると、Dynamic Media Image ServerからWebサイトやアプリケーションに画像を呼び出すためのURL文字列がアクティブ化されます。 公開後、必要に応じて、Dynamic Media Classicで生成したURLをコピーして、Webサイトやアプリケーションに配置できます。
+* 公開すると、Dynamic Media Image ServerからWebサイトやアプリケーションに画像を呼び出すためのURL文字列がアクティブ化されます。 公開後、必要に応じて、Dynamic Media Classicで生成されたAdobeのURLをコピーして、Webサイトまたはアプリケーションに配置できます。
 
 グローバルナビゲーションバーで、「**[!UICONTROL 公開]**」をクリックして、公開ジョブを開始します。 パブリッシュダイアログボックスで、「**[!UICONTROL パブリッシュを送信]**」をクリックします。 詳しくは、[マスター画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
 
 ## 5. WebアプリケーションへのURLのリンク
 
-Dynamic Media Classicは、画像のURL引き出し線文字列を作成します。 画像をDynamic Media Image Serverに公開すると、URLがアクティブになります。 これらの URL 文字列は、参照パネル（詳細ビュー）またはプレビュー画面からコピーすることができます。URL 文字列をコピーしたら、それらを Web サイトやアプリケーションで使用することができます。画像サイズ変更用の URL によって、Web ページコード内の静的な画像の名前への参照が置き換えられます。URL はマスター画像名を参照します。この画像名は、表示する新しい画像ごとにデータベースによって置き換えられます。
+AdobeDynamic Media Classicは、画像のURL引き出し線文字列を作成します。 画像をDynamic Media Image Serverに公開すると、URLがアクティブになります。 これらのURL文字列は、参照パネル（詳細表示）またはプレビュー画面からコピーできます。 URL 文字列をコピーしたら、それらを Web サイトやアプリケーションで使用することができます。画像サイズ変更用の URL によって、Web ページコード内の静的な画像の名前への参照が置き換えられます。URL はマスター画像名を参照します。この画像名は、表示する新しい画像ごとにデータベースによって置き換えられます。
 
 画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。この名前はドル記号(`$`)で囲まれます。 例えば、`$thumbnail$`を画像プリセットにして、サムネールサイズでマスター画像を表示できます。 詳しくは、[Web アプリケーションへの URL のリンク](linking-urls-web-application.md#linking_urls_to_your_web_application)を参照してください。

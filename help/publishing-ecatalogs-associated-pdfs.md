@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic，ビューア，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '186'
 ht-degree: 26%
 
 ---
 
 # eCatalogと関連PDFの公開{#publishing-ecatalogs-and-associated-pdfs}
 
-公開すると、eCatalogとPDFがDynamic Media Image Serverに配置され、Webサイトやアプリケーションで使用できるようになります。 公開プロセスの一環として、Dynamic Media ClassicはURL文字列をアクティベートします。 この URL 文字列は、HTML Web ページコードに組み込むことができます。
+公開すると、eCatalogとPDFがDynamic Media Image Serverに配置され、Webサイトやアプリケーションで使用できるようになります。 公開プロセスの一環として、AdobeDynamic Media ClassicはURL文字列をアクティベートします。 この URL 文字列は、HTML Web ページコードに組み込むことができます。
 
 >[!NOTE]
 >

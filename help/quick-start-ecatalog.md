@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 50%
+source-wordcount: '1430'
+ht-degree: 48%
 
 ---
 
@@ -47,13 +47,13 @@ eCatalog を作成する際に、ページや見開きページの並び順を�
 >
 >CRXDE Liteページの左上隅にある「**[!UICONTROL すべて保存]**」をクリックします。
 >
->これで、Dynamic Media ClassicでeCatalogを作成できるようになりました。
+>これで、Dynamic Media ClassicでeCatalogをAdobeで作成できるようになりました。
 
 ここでは、eCatalog の操作方法をすばやく習得できるように、手順について簡潔に説明します。手順 1 ～ 7 に従ってください。各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
 
 ## 1. PDFファイルのアップロード
 
-eCatalog のもとになるファイルは、ほとんどの場合 Adobe PDF ファイルです。PDF ファイルは印刷を目的としたファイルなので、通常、CMYK 画像が含まれています。Dynamic Media Classicは、これらの画像を検出し、標準のCMYKカラープロファイルを使用して変換します。 ただし、カスタムカラープロファイルをアップロードして使用する必要があります。
+eCatalog のもとになるファイルは、ほとんどの場合 Adobe PDF ファイルです。PDF ファイルは印刷を目的としたファイルなので、通常、CMYK 画像が含まれています。AdobeDynamic Media Classicは、これらの画像を検出し、標準のCMYKカラープロファイルを使用して変換します。 ただし、カスタムカラープロファイルをアップロードして使用する必要があります。
 
 グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」をクリックして、eCatalog用のPDFファイルまたは画像のアップロードを開始します。 デスクトップからファイルをアップロードすることもできますが、ファイル数が多い、またはファイルのサイズが 100 MB を超える場合には、FTP を使用することをお勧めします。
 
@@ -69,7 +69,7 @@ eCatalogページの「**[!UICONTROL ページの順序]**」タブで、「レ�
 
 ページを追加するには、アセットライブラリのフォルダを選択してから、PDF ファイルまたは画像ファイルをページ順序画面にドラッグします。デフォルトのページ番号の代わりに、カスタムのページ名を指定したり、多くのページ名を読み込んだりできます。
 
-「**[!UICONTROL 保存]**」をクリックし、eCatalogの名前を入力し、保存するDynamic Media Classicフォルダーを選択して、「**[!UICONTROL 保存]**」をクリックします。 ページの順序を変更したり、eCatalogを編集したりするたびに、「**[!UICONTROL 保存]**」をクリックして変更を保存します。
+「**[!UICONTROL 保存]**」をクリックし、eCatalogの名前を入力し、保存するDynamic Media ClassicAdobeーを選択して、「**[!UICONTROL 保存]**」をクリックします。 ページの順序を変更したり、eCatalogを編集したりするたびに、「**[!UICONTROL 保存]**」をクリックして変更を保存します。
 
 詳しくは、[eCatalog の作成](creating-ecatalog.md)を参照してください。
 
@@ -91,7 +91,7 @@ eCatalog 画面内の情報パネル設定を使用して、画像マップの�
 
 ## 4. eCatalogビューアプリセットの設定
 
-エンドユーザは eCatalog ビューアで eCatalog を表示します。管理者には eCatalog ビューアを設定する権限があります。アウトラインカラーを変更したり、eCatalog 用の自社用「スキン」を選択したりできます。Dynamic Media Classicには、「ベストプラクティス」のeCatalogビューアプリセットがいくつか用意されています。 eCatalogを表示するために、これらのプリセットの1つを選択できます。 管理者であれば、独自の eCatalog ビューアプリセットを作成することもできます。
+エンドユーザは eCatalog ビューアで eCatalog を表示します。管理者には eCatalog ビューアを設定する権限があります。アウトラインカラーを変更したり、eCatalog 用の自社用「スキン」を選択したりできます。AdobeDynamic Media Classicには、「ベストプラクティス」のeCatalogビューアプリセットがいくつか用意されています。 eCatalogを表示するために、これらのプリセットの1つを選択できます。 管理者であれば、独自の eCatalog ビューアプリセットを作成することもできます。
 
 eCatalogビューアプリセットを作成するには、グローバルナビゲーションバーで「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL ビューアプリセット]**」を選択します。 次に、「**[!UICONTROL 追加]**」をクリックし、プラットフォームを選択して、**[!UICONTROL eCatalog/ビューア]**&#x200B;をクリックします。
 
@@ -109,7 +109,7 @@ eCatalogビューアプリセットでeCatalogがどのように表示される�
 
 ## 6. eCatalogと関連PDFの公開
 
-eCatalogと関連するPDFを公開すると、Dynamic Media Image Serverに配置され、Webサイトやアプリケーションに配信できるようになります。 公開プロセスの一環として、Dynamic Media ClassicはeCatalogのURL文字列をアクティベートします。 このURLを使用して、Dynamic Media Image ServerからWebサイトまたはアプリケーションにeCatalogを呼び出します。
+eCatalogと関連するPDFを公開すると、Dynamic Media Image Serverに配置され、Webサイトやアプリケーションに配信できるようになります。 公開プロセスの一環として、AdobeDynamic Media ClassicはeCatalogのURL文字列をアクティベートします。 このURLを使用して、Dynamic Media Image ServerからWebサイトまたはアプリケーションにeCatalogを呼び出します。
 
 参照パネルでeCatalogとPDFを公開用にマークした後、グローバルナビゲーションバーの「公開」ボタンを選択して公開を開始します。 公開画面で、「**[!UICONTROL 公開を送信]**」をクリックします。
 
@@ -117,7 +117,7 @@ eCatalogと関連するPDFを公開すると、Dynamic Media Image Serverに配�
 
 ## 7. WebページへのeCatalogのリンク
 
-Dynamic Media Classicは、eCatalogをDynamic Media Image Serverに公開する際に、eCatalogの表示に必要なURL引き出し線文字列をアクティブ化します。 プレビュー画面や参照パネル（詳細ビュー）でパネル内の URL を選択すれば、この URL 文字列をコピーすることができます。URL 文字列をコピーしておけば、Web サイトやアプリケーションでその URL を使用することができます。
+AdobeDynamic Media Classicは、eCatalogをDynamic Media Image Serverに公開する際に、eCatalogの表示に必要なURL引き出し線文字列をアクティブ化します。 このURL文字列は、プレビュー画面および（詳細表示の）参照パネルから、パネルで「 URL 」を選択してコピーできます。 URL 文字列をコピーしておけば、Web サイトやアプリケーションでその URL を使用することができます。
 
 Web ページのどの場所に eCatalog へのリンクを配置するのが適切か、IT 担当者と相談して決めてください。このリンクをユーザがクリックすると、eCatalog ビューアが開き、eCatalog が表示されます。
 

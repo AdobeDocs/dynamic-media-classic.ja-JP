@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic，ビューア，混在メディアセット
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 55%
+source-wordcount: '254'
+ht-degree: 56%
 
 ---
 
 # 混在メディアセットの公開{#publishing-a-mixed-media-set}
 
-Dynamic Media ClassicビデオサーバーおよびImage Serverへの公開用にマークした混在メディアセットを公開する公開ジョブを作成します。 Dynamic Media Classicは、特定のサーバーに公開するための高度な公開オプションと、既に公開されているアセットを再公開するためのオプションを提供します。
+公開ジョブを作成して、AdobeDynamic Media ClassicビデオサーバーおよびImage Serverへの公開用にマークした混在メディアセットを公開します。 AdobeDynamic Media Classicは、特定のサーバーに公開するための高度な公開オプションと、既に公開されているアセットを再公開するためのオプションを提供します。
 
 >[!NOTE]
 >
 >混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。**ビデオサーバー**&#x200B;を使用して、公開用にマークした実際のビデオを公開します。また、**Image Server**&#x200B;を使用して、ビデオサムネールなどの関連アセットを公開し、アダプティブビデオセットの情報を設定します。
 
-Dynamic Media Classicは、ジョブ画面の公開ジョブを追跡します。
+AdobeDynamic Media Classicは、ジョブ画面の公開ジョブを追跡します。
 
 詳しくは、[公開](publishing-files.md#publishing_files)を参照してください。
 

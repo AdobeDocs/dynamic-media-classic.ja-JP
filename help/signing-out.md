@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 7%
+source-wordcount: '230'
+ht-degree: 6%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 7%
 
 # Dynamic Media ClassicへのAdobeログイン {#dmc-sign-in}
 
-Dynamic Media Classicデスクトップアプリケーションを使用する前に、次の点を確認してください。
+Dynamic Media ClassicデスクトップアプリケーションのAdobeを使用する前に、次の点を確認してください。
 
 * **ユーザー名**  — 電子メールアドレスをログイン名として使用します。
 
-* **パスワード**  — 一時パスワードは、Dynamic Media ClassicまたはDynamic Media Classic管理者から「ようこそ」の電子メールで取得します。初回のサインイン時に、この一時パスワードを変更するよう求められます。
+* **パスワード**  — 一時パスワードは、Dynamic Media ClassicAdobeまたはAdobeのDynamic Media Classic管理者から「ようこそ」の電子メールで取得します。初回のサインイン時に、この一時パスワードを変更するよう求められます。
 
 1. AdobeDynamic Media Classicデスクトップアプリケーションを開きます。
 
-   ![Dynamic Media Classicログイン](/help/assets/dmclassic-login1.png)
+   ![AdobeDynamic Media Classicのログイン](/help/assets/dmclassic-login1.png)
 
 1. 「**[!UICONTROL ユーザー名]**」フィールドに、電子メールアドレスを入力します。
 1. 「**[!UICONTROL パスワード]**」フィールドにパスワードを入力します。
@@ -44,7 +44,7 @@ Dynamic Media Classicデスクトップアプリケーションを使用する�
 
 ## AdobeDynamic Media Classicからのログアウト {#dmc-sign-out}
 
-1. Dynamic Media Classicデスクトップアプリケーションの右上隅にある「**[!UICONTROL ログアウト]**」をタップし、「**[!UICONTROL ログアウト]**」をもう一度タップします。
+1. AdobeDynamic Media Classicデスクトップアプリケーションの右上隅にある「**[!UICONTROL ログアウト]**」をタップし、「**[!UICONTROL ログアウト]**」をもう一度タップします。
 
 >[!MORELIKETHIS]
 >

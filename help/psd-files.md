@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 46%
+source-wordcount: '990'
+ht-degree: 42%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 46%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
 
-PSD(Photoshop Documentファイル)は、Dynamic Media Classicでテンプレートを作成する際に最もよく使用されます。 PSDファイルをアップロードする際に、ファイルからDynamic Media Classicテンプレートを自動的に作成できます（アップロード画面の「テンプレートを作成」オプションを選択します）。
+PSD(Photoshop Documentファイル)は、AdobeDynamic Media Classicでテンプレートを作成する際に最もよく使用されます。 PSDファイルをアップロードする際に、ファイルからAdobeDynamic Media Classicテンプレートを自動的に作成できます（アップロード画面の「テンプレートを作成」オプションを選択します）。
 
-Dynamic Media Classicは、レイヤーを含むPSDファイルを使用してテンプレートを作成する場合に、複数の画像を作成します。各レイヤーに対して1つのイメージが作成されます。
+AdobeDynamic Media Classicは、PSDファイルを使用してテンプレートを作成する場合、レイヤーを持つPSDファイルから複数の画像を作成します。各レイヤーに対して1つのイメージが作成されます。
 
 ## PSD アップロードオプション {#psd-upload-options}
 
@@ -47,11 +47,11 @@ PSDファイルのアップロードに関するオプションは、アップ�
 
    * **元のカラースペースを保持**  — 画像の元のカラースペースを保持します。
 
-   * **カスタムコピー元/変換先**  - 「変換元」と「変換先」のカラースペースを選択できるメニューを開きます。標準のPhotoshopカラースペースまたはDynamic Media Classicにアップロードしたカラースペースを選択できます。 詳しくは、[ICC プロファイル](/help/icc-profiles.md)を参照してください。
+   * **カスタムコピー元/変換先**  - 「変換元」と「変換先」のカラースペースを選択できるメニューを開きます。標準のPhotoshopカラースペースまたはDynamic Media ClassicにアップロードしたAdobeのカラースペースを選択できます。 詳しくは、[ICC プロファイル](/help/icc-profiles.md)を参照してください。
 
 * **Photoshop オプション**
 
-   * **レイヤーを維持**  - PSD内のレイヤーがある場合は個々のアセットにリップします。アセットのレイヤーと PSD との関連付けはそのまま保持されます。レイヤーを表示するには、詳細ビューで PSD ファイルを開き、レイヤーパネルを選択します。詳しくは、PSD ファイル内のレイヤーの表示と編集を参照してください。
+   * **レイヤーを維持**  - PSD内のレイヤーがある場合は個々のアセットにリップします。アセットのレイヤーと PSD との関連付けはそのまま保持されます。詳細ビューでPSDファイルを開き、レイヤーパネルを選択すると、これらを表示できます。 詳しくは、PSD ファイル内のレイヤーの表示と編集を参照してください。
 
    * **テンプレートを作成**  - PSDファイル内のレイヤーからテンプレートを作成します。
 
@@ -71,7 +71,7 @@ PSDファイルのアップロードに関するオプションは、アップ�
 
 ## PSD ファイル内のレイヤーの表示と編集 {#viewing-and-editing-layers-in-a-psd-file}
 
-PSDをアップロードしたときに「レイヤーを維持」オプションを選択した場合、Dynamic Media Classicは個々のレイヤーをアセットに切り離します。 PSD ファイルに属するアセットレイヤーを表示および編集するには、参照パネル内のファイルを詳細ビューで開きます。
+PSDをアップロードしたときに「レイヤーを維持」オプションを選択した場合、AdobeDynamic Media Classicは個々のレイヤーをアセットに切り離します。 詳細ビューの参照パネルでファイルを開くと、PSDファイルに属するアセットレイヤーを表示および編集できます。
 
 1. 参照パネルで完全なPSDファイルをダブルクリックします。 詳細ビューでファイルが開きます。
 

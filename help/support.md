@@ -8,21 +8,21 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 25%
 
 ---
 
 # サポート {#support}
 
-テクニカルサポートは、あらゆる規模の企業のニーズに対応しています。次の表に、Dynamic Media Classicカスタマーケアが提供するサービスを示します。
+テクニカルサポートは、あらゆる規模の企業のニーズに対応しています。次の表に、AdobeDynamic Media Classicカスタマーケアの内容を示します。
 
 | サポート | 製品版 |
 |--- |--- |
 | 案件数 | 無制限. |
-| Adobeシステムの状態の確認 | [Dynamic Media Classicシステムステータス](https://status.adobe.com/products/1175)を参照してください。 |
+| Adobeシステムの状態の確認 | [AdobeDynamic Media Classicシステムステータス](https://status.adobe.com/products/1175)を参照してください。 |
 | 答えが見つからない？ | [サポートからヘルプを受けるには、チケットを開きます](https://experienceleague.adobe.com/?support-solution=General#support)。 |
 | コミュニティフォーラム | [Experience Managerコミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
 | SLA(Service Level Agreement) | [サポートサービス/利用条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)を参照してください。 |
@@ -34,9 +34,9 @@ ht-degree: 25%
 
 テクニカルサポートに問題を報告される際には、次の情報をご提供ください。
 
-* Dynamic Media Classicの会社名。
+* AdobeDynamic Media Classicの会社名。
 * 氏名、電話番号、電子メールアドレス.
-* Dynamic Media Classicアプリケーション、プラットフォーム、バージョン。
+* AdobeDynamic Media Classicアプリケーション、プラットフォーム、バージョン。
 * 問題の説明と問題を再現するのに必要な手順.
 * エラーメッセージ（ある場合）。
 * ブラウザーのタイプとバージョン（該当する場合）。

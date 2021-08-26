@@ -10,16 +10,16 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 22%
 
 ---
 
 # テンプレートの公開{#publishing-templates}
 
-テンプレートを公開すると、Dynamic Media Image Serverに配置され、Webサイトやアプリケーションで使用できます。 公開プロセス中、Dynamic Media ClassicはWebサイトやアプリケーションに必要なURLをアクティベートします。
+テンプレートを公開すると、Dynamic Media Image Serverに配置され、Webサイトやアプリケーションで使用できます。 公開プロセス中、AdobeDynamic Media ClassicはWebサイトやアプリケーションに必要なURLをアクティベートします。
 
 >[!NOTE]
 >
@@ -36,5 +36,5 @@ ht-degree: 22%
 >[!MORELIKETHIS]
 >
 >* [アセットを公開用にマーク](publishing-files.md#publish_after_uploading)
-* [公開ジョブの作成](publishing-files.md#creating_a_publish_job)
+>* [公開ジョブの作成](publishing-files.md#creating_a_publish_job)
 

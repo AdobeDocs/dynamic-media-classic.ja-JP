@@ -1,25 +1,25 @@
 ---
 title: ジョブファイルの確認
-description: Dynamic Media Classicでジョブファイルを確認する方法を説明します。
+description: Dynamic Media Classicでジョブファイルを確認する方法について説明します。Adobe
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1592'
 ht-degree: 36%
 
 ---
 
 # ジョブファイルの確認{#checking-job-files}
 
-Dynamic Media ClassicへのファイルアップロードとDynamic Media Classicサーバーに公開するファイルを監視するために、Dynamic Media Classicではジョブページを提供します。 ジョブページで、アップロードおよび公開ジョブを確認したり、ジョブのステータスを確認したり、ジョブの公開をキャンセルすることができます。また、アップロードおよび公開ジョブをスケジュールすることもできます。
+Dynamic Media ClassicAdobeへのファイルアップロードと、Dynamic Media ClassicAdobeに公開するファイルを監視するために、AdobeDynamic Media Classicでは、ジョブページを提供します。 ジョブページで、アップロードおよび公開ジョブを確認したり、ジョブのステータスを確認したり、ジョブの公開をキャンセルすることができます。また、アップロードおよび公開ジョブをスケジュールすることもできます。
 
 アセットをアップロードすると、ジョブメニューの横に、ジョブが処理中であることを示す回転する模様のアイコンと、処理中のファイル数が表示されます。アイコンを選択して、アクティブなジョブの詳細を表示できます。
 
@@ -41,7 +41,7 @@ Dynamic Media ClassicへのファイルアップロードとDynamic Media Classi
 
 * **[!UICONTROL 合計]**  — 転送されたファイルの数。
 
-* **[!UICONTROL W（警告）]**  — ジョブ内の警告の数（存在する場合）。警告は、ジョブ全体が完了するのに影響を与えなかった問題を示します。これらの警告は、隠しファイルに関するものであるため、通常、無視することができます。例えば、`.DS_store`ファイル(Macintosh)とThumbs.dbファイル(Windows®)には、ユーザーに画像ファイルを表示する方法に関する情報が含まれています。 ただし、これらのファイルに関する警告エントリは、Dynamic Media Classicでのこれらのファイルの使用方法に関係しないので、無視できます。 ジョブ名をダブルクリックして、警告に関する詳細情報を入手することができます。
+* **[!UICONTROL W（警告）]**  — ジョブ内の警告の数（存在する場合）。警告は、ジョブ全体が完了するのに影響を与えなかった問題を示します。これらの警告は、隠しファイルに関するものであるため、通常、無視することができます。例えば、`.DS_store`ファイル(Macintosh)とThumbs.dbファイル(Windows®)には、ユーザーに画像ファイルを表示する方法に関する情報が含まれています。 ただし、これらのファイルに関する警告エントリは、AdobeDynamic Media Classicでのこれらのファイルの使用方法に関係しないので、無視できます。 ジョブ名をダブルクリックして、警告に関する詳細情報を入手することができます。
 
 * **[!UICONTROL E（エラー）]**  — ジョブ内のエラー数をリストします（存在する場合）。ジョブ名をダブルクリックして、エラーに関する詳細情報を入手することができます。
 
@@ -71,7 +71,7 @@ Dynamic Media ClassicへのファイルアップロードとDynamic Media Classi
 
 ## ジョブの詳細レポートの表示、コピー、印刷 {#viewing-copying-or-printing-a-job-details-report}
 
-ジョブページでレポートの名前をダブルクリックして、ジョブの詳細ページを開きます。 このページには、ジョブ内のファイルに関する概要レポートが表示されます。**[!UICONTROL 詳細を表示]**&#x200B;を選択すると、エントリのDynamic Media Classic ID、宛先パス、ステータス情報を確認できます。 Dynamic Media Classicで使用できないフォントを必要とするPDFまたはPostScriptファイルをアップロードした場合、レポートには見つからないフォントが表示されます。
+ジョブページでレポートの名前をダブルクリックして、ジョブの詳細ページを開きます。 このページには、ジョブ内のファイルに関する概要レポートが表示されます。**[!UICONTROL 詳細を表示]**&#x200B;を選択すると、エントリのAdobeDynamic Media Classic ID、宛先パス、ステータス情報を確認できます。 AdobeDynamic Media Classicで使用できないフォントを必要とするPDFまたはPostScriptファイルをアップロードした場合、レポートには見つからないフォントが表示されます。
 
 この情報は、クリップボードにコピーすることができます。
 

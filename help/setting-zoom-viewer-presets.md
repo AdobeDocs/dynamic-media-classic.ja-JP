@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
-feature: Dynamic Media Classic，ビューア，ズーム
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '606'
 ht-degree: 52%
 
 ---
 
 # ズームビューアプリセットの設定{#setting-up-zoom-viewer-presets}
 
-ズームビューアプリセットによって、ズームビューアのスタイル、動作、外観が決まります。Dynamic Media Classicには、ビューアのカスタマイズとスキニングに関する多くのオプションが用意されています。 Dynamic Media Classicには、初期設定の基本（高速）、フライアウトおよびカスタムのズームビューアプリセットが付属しています。 管理者は、会社のズームビューアプリセットを作成するか、デフォルトのプリセットを編集して新しい名前で保存することができます。
+ズームビューアプリセットによって、ズームビューアのスタイル、動作、外観が決まります。AdobeDynamic Media Classicには、ビューアのカスタマイズとスキニングに関する多くのオプションが用意されています。 AdobeDynamic Media Classicには、初期設定の基本（高速）、フライアウトおよびカスタムのズームビューアプリセットが付属しています。 管理者は、会社のズームビューアプリセットを作成するか、デフォルトのプリセットを編集して新しい名前で保存することができます。
 
 すべてのズームビューアに、ズームイン、ズームアウト、パンおよびズーム後に画像を元の状態に戻すためのボタンがあります。これらのボタンの外観とウィンドウ自体の表示は、選択したズームビューアプリセットに応じて異なります。 異なる色、境界線、フォントおよび画像設定のズームビューアプリセットを設定することもできます。ガイドズームビューアを設定するときに、ズームターゲットを配置する場所も選択できます。ズームターゲットは、クリックすると指定した領域がズームされるサムネールです。
 
 ## ズームビューアプリセットについて {#about-zoom-viewer-presets}
 
-Dynamic Media Classicには、次のズームビューアプリセットが用意されています。
+AdobeDynamic Media Classicには、次のズームビューアプリセットが用意されています。
 
 * **ズームビューア：基本**  — 元の画像に対する基本ズームを提供します。
 
@@ -35,7 +35,7 @@ Dynamic Media Classicには、次のズームビューアプリセットが用�
 
 例えば、350 x 350 pixel、ズーム率 3 のメイン画像の場合、表示されるフライアウト画像は 1050 x 1050 pixel になります。300 x 300 pixel、ズーム率 4 のメイン画像の場合、表示されるフライアウト画像は 1200 x 1200 pixel になります。JPEG の画質設定（推奨される設定は 80 ～ 90 です）に応じて、ファイルのサイズを大幅に小さくすることができます。メイン画像のサイズによりますが、推奨されるズーム率は 2.5 ～ 4 です。
 
-Dynamic Media Classicでは、フライアウトズームビューアプリセットに対して次のパラメーターを使用することをお勧めします。
+AdobeDynamic Media Classicでは、フライアウトズームビューアプリセットに対して次のパラメーターを使用することをお勧めします。
 
 * **画像サイズの拡大**  — 約1,500 x 1,500ピクセル。2,000 x 2,000ピクセルを超えないようにします。
 

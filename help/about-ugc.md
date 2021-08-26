@@ -9,7 +9,7 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 53%
@@ -18,7 +18,7 @@ ht-degree: 53%
 
 # Dynamic Media Classicのユーザー生成コンテンツについて {#about-user-generated-content}
 
-UGC（ユーザー生成コンテンツ）を使用する場合は、専用のDynamic Media Classicストレージリポジトリにアセットをアップロードし、関連する操作を実行します。
+UGC（ユーザー生成コンテンツ）を使用する場合は、専用のAdobeDynamic Media Classicストレージリポジトリにアセットをアップロードし、関連する操作を実行します。
 
 ユーザ生成コンテンツは次のファイル形式をサポートしています。
 

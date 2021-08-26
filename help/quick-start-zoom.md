@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic，ビューア，ズーム
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '818'
 ht-degree: 41%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 41%
 
 ズームを使用すると、画像の高解像度の詳細をインタラクティブに表示できます。 例えば、画像の色、オプション、角度およびディテールを、動的な詳細設定が可能な統合ビューアで表示できます。このビューアは、Web ページに埋め込んだり、ポップアップウィンドウに表示したりすることができます。近い範囲で画像を監査し、高解像度で画像をパンして詳細に調べることができます。 ズーム機能を使用すれば、お客様に魅力的で価値のあるインタラクティブな画像を見ていただけます。
 
-Dynamic Media Classicには、画像の重要な機能を強調表示するガイド付きズーム機能も用意されています。 例えば、ロゴのズームターゲットを作成して、ロゴに注目させることができます。閲覧者がこのズームターゲットをクリックすると、ロゴがズームされます。
+AdobeDynamic Media Classicには、画像の重要な機能を強調表示する手段として、ガイド付きズームも用意されています。 例えば、ロゴのズームターゲットを作成して、ロゴに注目させることができます。閲覧者がこのズームターゲットをクリックすると、ロゴがズームされます。
 
-すべてのズーム画像は、1 つのマスター画像、グラフィック、データベース連動型の属性から作成され、供給されます。Dynamic Media Classicのズームは、画像の生成と配信の時間とコストを大幅に削減します。 ズームビューアを使用して、画像をズームインまたはズームアウトできます。 ズームビューアには、ズーム用とパン用のボタンがあり、これらをクリックしてズームまたはパンすることができます。また、画面をドラッグしてパンすることもできます。ズームビューアプリセットを使用して、画像をズームするためのズームビューアを設定できます。
+すべてのズーム画像は、1 つのマスター画像、グラフィック、データベース連動型の属性から作成され、供給されます。AdobeDynamic Media Classicズームは、画像の生成と配信の時間とコストを大幅に削減します。 ズームビューアを使用して、画像をズームインまたはズームアウトできます。 ズームビューアには、ズーム用とパン用のボタンがあり、これらをクリックしてズームまたはパンすることができます。また、画面をドラッグしてパンすることもできます。ズームビューアプリセットを使用して、画像をズームするためのズームビューアを設定できます。
 
-このズームクイックスタートは、Dynamic Media Classicのズームテクニックをすぐに使い始めるためのものです。 手順 1 ～ 6 に従ってください。各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
+このズームクイックスタートは、AdobeDynamic Media Classicのズームテクニックをすぐに使い始めるためのものです。 手順 1 ～ 6 に従ってください。各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
 
 ## 1.ズーム画像のアップロード
 
-まず、ズーム画像をDynamic Media Classicにアップロードします。 最適なズームを実現するために、Dynamic Media Classicでは、画像の長さが2,000ピクセル以上であることをお勧めします。
+まず、ズーム画像をDynamic Media Classicにアップロードします。 最適なズームを実現するために、AdobeDynamic Media Classicでは、最も長いサイズで2,000ピクセル以上の画像を使用することをお勧めします。
 
-グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」をクリックして、お使いのコンピューターまたはネットワークからDynamic Media Classicのフォルダーに画像をアップロードします。 詳しくは、[ズーム画像のアップロード](uploading-zoom-images.md#uploading_zoom_images)を参照してください。
+グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」をクリックして、AdobeのコンピューターまたはネットワークからDynamic Media Classic上のフォルダーに画像をアップロードします。 詳しくは、[ズーム画像のアップロード](uploading-zoom-images.md#uploading_zoom_images)を参照してください。
 
 ## 2.ガイド付きズーム用のズームターゲットの作成
 
@@ -41,11 +41,11 @@ Dynamic Media Classicには、画像の重要な機能を強調表示するガ�
 
 ## 3.ズームビューアプリセットの設定
 
-ズームビューアプリセットによって、ズームビューアのスタイルと動作が決まります。ズームビューアプリセットは、管理者が設定できます。Dynamic Media Classicには、初期設定の「ベストプラクティス」ズームビューアプリセットも用意されています。
+ズームビューアプリセットによって、ズームビューアのスタイルと動作が決まります。ズームビューアプリセットは、管理者が設定できます。AdobeDynamic Media Classicには、初期設定の「ベストプラクティス」ズームビューアプリセットも付属しています。
 
 ズームビューアプリセットを作成するには、グローバルナビゲーションバーで&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL ビューアプリセット]**&#x200B;をクリックします。 ビューアプリセットページで、「**[!UICONTROL 追加]**」をクリックし、プラットフォームを選択してズームビューアを選択し、「**[!UICONTROL 追加]**」をクリックします。 次に、ビューアを設定ページでオプションを選択します。
 
-Dynamic Media Classicには、ビューアのボタンスタイルと全体的な外観を選択できる&#x200B;**[!UICONTROL ズームビューアプリセット]**&#x200B;オプションが用意されています。 また、各自の Web サイト用にズーム設定をカスタマイズすることもできます。詳しくは、[ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)を参照してください。
+AdobeDynamic Media Classicには、ビューアのボタンスタイルと全体的な外観を選択できる&#x200B;**[!UICONTROL ズームビューアプリセット]**&#x200B;オプションが用意されています。 また、各自の Web サイト用にズーム設定をカスタマイズすることもできます。詳しくは、[ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)を参照してください。
 
 ## 4.ズームビューアで画像をプレビューする
 
@@ -57,10 +57,10 @@ Dynamic Media Classicには、ビューアのボタンスタイルと全体的�
 
 ## 5.ズーム画像の公開
 
-ズーム画像を公開すると、それらがDynamic Media Image Server上に配置され、Webサイトやアプリケーションに配信できるようになります。 公開プロセスの一環として、Dynamic Media ClassicはURL文字列をアクティブ化します。 これらのURL文字列は、Dynamic Media Image ServerからWebサイトやアプリケーションにズーム画像を呼び出します。
+ズーム画像を公開すると、それらがDynamic Media Image Server上に配置され、Webサイトやアプリケーションに配信できるようになります。 公開プロセスの一環として、AdobeDynamic Media ClassicはURL文字列をアクティブ化します。 これらのURL文字列は、Dynamic Media Image ServerからWebサイトやアプリケーションにズーム画像を呼び出します。
 
 グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックします。パブリッシュダイアログボックスで、「**[!UICONTROL パブリッシュを送信]**」をクリックします。 詳しくは、[ズーム画像の公開](publishing-zoom-images.md#publishing_zoom_images)を参照してください。
 
 ## 6. Webページへのズームビューアのリンク
 
-Dynamic Media Classicは、画像のズームに必要なURL引き出し線文字列を作成し、Dynamic Media Image Serverに画像を公開する際にアクティブにします。 これらのURL文字列は、**[!UICONTROL プレビュー]**&#x200B;ページからコピーできます。 URL 文字列をコピーしたら、それらを Web サイトやアプリケーションで使用することができます。詳しくは、[Web ページへのズームビューアのリンク](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages)を参照してください。
+AdobeDynamic Media Classicは、画像のズームに必要なURL引き出し線文字列を作成し、Dynamic Media Image Serverに画像を公開する際にアクティブにします。 これらのURL文字列は、**[!UICONTROL プレビュー]**&#x200B;ページからコピーできます。 URL 文字列をコピーしたら、それらを Web サイトやアプリケーションで使用することができます。詳しくは、[Web ページへのズームビューアのリンク](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages)を参照してください。

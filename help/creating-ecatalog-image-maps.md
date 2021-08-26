@@ -1,18 +1,18 @@
 ---
 title: eCatalog画像マップの作成
-description: Dynamic Media ClassicでeCatalog画像マップを作成する方法を説明します。
+description: Dynamic Media ClassicでeCatalog画像マップを作成する方法をAdobeします。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic，ビューア，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1493'
 ht-degree: 40%
 
 ---
@@ -32,9 +32,9 @@ eCatalog では、eCatalog 画面の「ページをマップ」タブで画像�
 
    * **長方形マップ**  — 長方形画像マップツールを選択し、ページ上をドラッグして長方形を作成します。
 
-   * **多角形マップ**  — 多角形画像マップツールを選択し、画像の周囲を必要な回数だけ選択します。選択すると、Dynamic Media Classicは画像マップの境界線を描画します。
+   * **多角形マップ**  — 多角形画像マップツールを選択し、画像の周囲を必要な回数だけ選択します。選択すると、AdobeDynamic Media Classicは画像マップの境界線を描画します。
 
-      画像マップを描画した後、Dynamic Media Classicは画像マップリストにその画像マップに名前を割り当てます。 名前を作成するために、Dynamic Media Classicは、作業中のeCatalogページの名前に連番を追加します。
+      画像マップを描画した後、AdobeDynamic Media Classicは画像マップリストにその画像マップの名前を割り当てます。 名前を作成するために、AdobeDynamic Media Classicは、作業中のeCatalogページの名前に連番を追加します。
 
 1. （オプション）画像マップリストの「[!UICONTROL 名前]」列に、画像マップの新しい名前を入力できます。 名前を入力するときは、空白を入力しないでください。
 1. ビューアが画像マップを選択する際に、新しいWebページを開くことができます。 画像マップリストパネルの「URL」列に Web ページの URL を入力します。
@@ -131,7 +131,7 @@ eCatalog 画面の「ページをマップ」タブを選択し、以下の手�
 
 ## eCatalog間での画像マップのコピー {#copying-image-maps-between-ecatalogs}
 
-eCatalog 内のすべての画像マップを別の eCatalog にコピーできます。画像マップのコピーというこの方法により、同じ eCatalog の各国語版で容易に画像マップをコピーすることができます。コピーを正常におこなうために、Dynamic Media Classicでは、同じページ数と同じ画像を持つeCatalog間でコピーすることをお勧めします。
+eCatalog 内のすべての画像マップを別の eCatalog にコピーできます。画像マップのコピーというこの方法により、同じ eCatalog の各国語版で容易に画像マップをコピーすることができます。コピーを正常におこなうために、AdobeAdobeDynamic Media Classicでは、同じページ数と同じ画像を持つeCatalog間でコピーすることをお勧めします。
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ eCatalog 内のすべての画像マップを別の eCatalog にコピーでき�
 1. 「ページの順序」タブで、「**[!UICONTROL マップをコピー]**」を選択します。
 1. アセットを選択ダイアログボックスで、画像マップをコピーするeCatalogを選択し、「**[!UICONTROL 選択]**」を選択します。
 
-Dynamic Media Classicは、ターゲットeCatalog（画像マップのコピー先のeCatalog）のページ数または画像数が異なる場合に警告メッセージを表示します。 警告が表示された場合でも、「**[!UICONTROL 続行]**」を選択して画像マップをコピーします。
+AdobeDynamic Media Classicは、ターゲットeCatalog（画像マップのコピー先のeCatalog）のページ数または画像数が異なる場合に警告メッセージを表示します。 警告が表示された場合でも、「**[!UICONTROL 続行]**」を選択して画像マップをコピーします。

@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics Instrumentation Kitを使用したビューアの実装
-description: Dynamic Media ClassicのAdobe Analytics Instrumentation Kitを使用してビューアを実装する方法を説明します。
+description: Dynamic Media ClassicのAdobe Analytics Instrumentation Kitを使用してビューアをAdobeする方法を説明します。
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 20%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 20%
 
 Adobe Analytics Instrumentation Kitを使用して、HTML5ビューアをAdobe Analyticsと統合できます。
 
-定義済みのDynamic Media Classic HTML5ビューアプリセットのいずれかを使用する場合、Adobe Analyticsにデータを送信するためのすべての実装コードが既に含まれています。これ以上の計測は必要ありません。
+事前定義済みのAdobeDynamic Media Classic HTML5ビューアプリセットを使用する場合、Adobe Analyticsにデータを送信するためのすべての実装コードが既に含まれています。これ以上の計測は必要ありません。
 
-## Dynamic Media ClassicからのAdobe Analyticsトラッキングの設定 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Dynamic Media ClassicからのAdobe AnalyticsAdobeのセットアップ {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 すべてのHTML5ビューアに対して、次のJavaScriptをHTMLコンテナ（通常は&lt;head>要素内）に追加します。
 
 ```as3
-<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
+<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-ここで、`Dynamic Media Classic Company ID`はDynamic Media Classicの会社名に設定します。 会社のプリセット名が`companypreset`でない限り、`&preset`はオプションです。 そのような場合は`companypreset-1, companypreset-2`などになります。 番号が大きいほど、プリセットの最新のインスタンスになります。正しい会社プリセット値の名前を判断するには、「 **[!UICONTROL URL]**&#x200B;をコピー`preset=` 」を選択し、パラメーターを調べて会社プリセット名を特定します。
+ここで、`Adobe Dynamic Media Classic Company ID`はAdobeDynamic Media Classicの会社名に設定します。 会社のプリセット名が`companypreset`でない限り、`&preset`はオプションです。 そのような場合は`companypreset-1, companypreset-2`などになります。 番号が大きいほど、プリセットの最新のインスタンスになります。正しい会社プリセット値の名前を判断するには、「 **[!UICONTROL URL]**&#x200B;をコピー`preset=` 」を選択し、パラメーターを調べて会社プリセット名を特定します。
 
 続けて、ビューアイベントをAdobe Analyticsトラッキングコードに送信する関数を追加します。
 

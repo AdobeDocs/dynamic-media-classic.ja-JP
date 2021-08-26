@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
 
 # アセットの検索{#searching-assets}
 
-Dynamic Media Classicでファイルアセットを検索するには、アセットをタイプ別に表示したり、参照パネルでアセットを並べ替えたり、単純検索を実行したり、詳細検索を実行したり、アセットをフィルタリングしたりします。
+AdobeDynamic Media Classicでファイルアセットを検索するには、アセットをタイプ別に表示したり、参照パネルでアセットを並べ替えたり、単純検索を実行したり、詳細検索を実行したり、アセットをフィルタリングしたりします。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Dynamic Media Classicでファイルアセットを検索するには、アセ�
 
 >[!NOTE]
 >
->左側に「アセットライブラリ」パネルが表示されない場合は、Dynamic Media Classicウィンドウの半分下の左側にある右向きの三角形の矢印をクリックして、アセットライブラリを開きます)。
+>左側に「アセットライブラリ」パネルが表示されない場合は、AdobeDynamic Media Classicウィンドウの半分下の左側にある右向き三角形の矢印をクリックして、アセットライブラリを開きます)。
 
 ## 参照パネルでのファイルの並べ替え {#sorting-files-in-the-browse-panel}
 
@@ -55,7 +55,7 @@ Dynamic Media Classicでファイルアセットを検索するには、アセ�
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## 詳細検索の実行 {#conducting-an-advanced-search}
 
@@ -171,5 +171,5 @@ Dynamic Media Classicでファイルアセットを検索するには、アセ�
 >[!MORELIKETHIS]
 >
 >* [ナビゲーションの基本](navigation-basics.md#navigation_basics)
-* [メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 

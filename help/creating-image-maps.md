@@ -1,6 +1,6 @@
 ---
 title: 画像マップの作成
-description: Dynamic Media Classicで画像マップを作成する方法を説明します。
+description: Dynamic Media Classicで画像マップを作成する方法について説明します。Adobe
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2422'
 ht-degree: 48%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 48%
 
 画像マップは、画像、eCatalog ページまたはスピンセット内の画像の中で、テキストを含んだロールオーバーパネルが表示される領域です。ユーザーが画像マップを選択すると、何らかのアクションがトリガーされます。 例えば、製品の詳細を説明した Web ページが起動します。ユーザーがポインターを画像マップ上に移動すると、画像マップの周囲にアウトラインが表示されます。
 
-Dynamic Media Classicで画像マップを作成する機能に加えて、Adobe AcrobatまたはAdobe InDesignでカタログをデザインする際に画像マップを作成することもできます。
+Dynamic Media ClassicAdobeで画像マップを作成する機能に加えて、Adobe AcrobatまたはAdobe InDesignでカタログをデザインする際に画像マップを作成することもできます。
 
 画像マップを作成する場合、次の操作を行うことができます。
 
@@ -50,9 +50,9 @@ Dynamic Media Classicで画像マップを作成する機能に加えて、Adobe
 
    * **多角形マップ**  — 多角形画像マップツールを選択し、囲む画像の領域の周囲にある点を選択します。多角形の密度スライダを使用して、多角形内のポイント密度を変化させます。ほかのマップを選択した場合、元の密度は記憶されます。多角形内でポイントが追加、削除または移動されると、元の密度は失われ、スライダは最大値にリセットされます。
 
-1. 必要に応じて、画像マップリストに、画像マップの名前を入力します。画像マップを描画した後、Dynamic Media Classicによって画像マップに名前が割り当てられます。
+1. 必要に応じて、画像マップリストに、画像マップの名前を入力します。画像マップを描画した後、AdobeDynamic Media Classicは画像マップに名前を割り当てます。
 
-   名前を作成するために、Dynamic Media Classicは、操作する画像またはeCatalogページの名前に連番を追加します。 これと異なる名前を自由に指定することもできます。
+   名前を作成するために、AdobeDynamic Media Classicは、操作する画像またはeCatalogページの名前に連番を追加します。 これと異なる名前を自由に指定することもできます。
 
 1. ユーザーが画像マップを選択したときに新しいWebページを開きたい場合、画像マップリストにURLを入力します。
 
@@ -126,7 +126,7 @@ Dynamic Media Classicで画像マップを作成する機能に加えて、Adobe
 
 ## テンプレートを使用したJavaScriptとURLの入力 {#using-a-template-to-enter-javascript-and-urls}
 
-URL テンプレート（Href テンプレート）を定義すると、画像マップの URL を簡単に、より効率的に入力できるようになります。使用する画像マップの URL のほとんどが、共通の決まった形式を共有している場合、URL テンプレートを定義することをお勧めします。固定された URL の一部を URL テンプレートとして入力することにより、画像マップを作成するたびにこの URL の部分を入力する必要がなくなります。URL テンプレートにはまた、JavaScript コマンド、パス名、およびパラメータを含めることができます。デフォルトでは、URLテンプレートには、新しいウィンドウで画像を開く`loadProduct`という独自のDynamic Media Classic JavaScriptハンドラーが含まれています。
+URL テンプレート（Href テンプレート）を定義すると、画像マップの URL を簡単に、より効率的に入力できるようになります。使用する画像マップの URL のほとんどが、共通の決まった形式を共有している場合、URL テンプレートを定義することをお勧めします。固定された URL の一部を URL テンプレートとして入力することにより、画像マップを作成するたびにこの URL の部分を入力する必要がなくなります。URL テンプレートにはまた、JavaScript コマンド、パス名、およびパラメータを含めることができます。デフォルトでは、URLテンプレートには、新しいウィンドウで画像を開く`loadProduct`という独自のAdobeDynamic Media Classic JavaScriptハンドラーが含まれています。
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ URLテンプレート内に、画像マップ間で変更されないすべて�
 * URL値 — `product.htm`
 * 実際に生成されたURL - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-デフォルトでは、URLテンプレートには、URLの宛先を含む新しいウィンドウを開く`loadProduct`という独自のDynamic Media Classic JavaScriptハンドラーが含まれています。 ただし、任意のJavaScriptコードを使用してこのJavaScriptハンドラーを置き換えることも、次のDynamic Media Classicハンドラーのいずれかを使用することもできます。
+デフォルトでは、URLテンプレートには、URLの宛先を含む新しいウィンドウを開く`loadProduct`という独自のAdobeDynamic Media Classic JavaScriptハンドラーが含まれています。 ただし、任意のJavaScriptコードを使用してこのJavaScriptハンドラーを置き換えることも、次のAdobeのDynamic Media Classicハンドラーのいずれかを使用することもできます。
 
 * `loadProductCW`  — 現在のウィンドウの「URL」列で指定されたURLターゲットを表示します。このハンドラーは、主に、Web サイト内のページに統合される eCatalog に対して使用します。
 
@@ -192,7 +192,7 @@ URLテンプレート内に、画像マップ間で変更されないすべて�
 
 画像マップは、Adobe Acrobat や Adobe InDesign での eCatalog のデザイン中に作成できます。
 
-Acrobat または InDesign で、画像マップを表示する位置にハイパーリンクによる参照を作成し、画像マップの URL を指定します。PDFファイルをDynamic Media Classicにアップロードする際に「リンクを抽出」オプションを選択すると、リンクが画像マップに自動的に変換されます。
+Acrobat または InDesign で、画像マップを表示する位置にハイパーリンクによる参照を作成し、画像マップの URL を指定します。PDFファイルをDynamic Media Classicにアップロードする際に「リンクを抽出」オプションを選択すると、Adobeマップにリンクが自動的に変換されます。
 
 詳しくは、 Adobe InDesignヘルプまたはAdobe Acrobatヘルプを参照してください。
 
@@ -203,15 +203,15 @@ Acrobat または InDesign で、画像マップを表示する位置にハイ�
 1. パネルメニューから「**[!UICONTROL 新しいハイパーリンク]**」を選択します。
 1. [新しいハイパーリンク]ダイアログボックスの[**[!UICONTROL リンク先]**]メニューから[**[!UICONTROL URL]**]を選択します。
 1. 「 URL 」ボックスに製品IDを入力するか貼り付けます。
-1. 「**[!UICONTROL OK]**」を選択します。 (Dynamic Media Classicは、画像マップURLテンプレートを使用してURLを完成します)。
+1. 「**[!UICONTROL OK]**」を選択します。 (AdobeDynamic Media Classicは、画像マップURLテンプレートを使用してURLを完成します)。
 
    >[!NOTE]
    >
-   >Adobe InDesignで外観オプションを設定する必要はありません。 外観は、Dynamic Media Classicで指定できます。
+   >Adobe InDesignで外観オプションを設定する必要はありません。 外観は、Dynamic Media Classicで指定できます。Adobe
 
 1. 作成するすべての画像マップに対して手順 2 ～ 6 を繰り返します。
 1. ファイルを PDF として書き出します。
-1. PDFをDynamic Media Classicにアップロードします。
+1. PDFをDynamic Media ClassicにAdobeします。
 1. **[!UICONTROL PDFオプション]**&#x200B;で、「**[!UICONTROL リンクを抽出]**」を選択します。
 
 ### Adobe Acrobat で画像マップを作成するには {#to-create-image-maps-in-adobe-acrobat}
@@ -222,11 +222,11 @@ Acrobat または InDesign で、画像マップを表示する位置にハイ�
 
 >[!NOTE]
 >
->Adobe Acrobatで外観オプションを設定する必要はありません。 外観は、Dynamic Media Classicで指定できます。
+>Adobe Acrobatで外観オプションを設定する必要はありません。 外観は、Dynamic Media Classicで指定できます。Adobe
 
 1. 「リンクのプロパティ」ボックスで、「**[!UICONTROL アクション]**」を選択します。
 1. 「アクションを選択」メニューから「**[!UICONTROL Webリンク]**&#x200B;を開く」を選択し、「**[!UICONTROL 追加]**」を選択します。
-1. 画像マップの製品IDを「URLを編集」ボックスに入力し、「**[!UICONTROL OK]**」を選択します。 (Dynamic Media Classicは、画像マップURLテンプレートを使用してURLを完成します)。
+1. 画像マップの製品IDを「URLを編集」ボックスに入力し、「**[!UICONTROL OK]**」を選択します。 (AdobeDynamic Media Classicは、画像マップURLテンプレートを使用してURLを完成します)。
 1. 作成するすべての画像マップに対して手順 1 ～ 7 を繰り返します。
 1. ファイルを保存します。
-1. PDFをDynamic Media Classicにアップロードし、PDFオプションから「リンクを抽出」を選択します。
+1. PDFをDynamic Media ClassicにAdobeし、PDFオプションから「リンクを抽出」を選択します。

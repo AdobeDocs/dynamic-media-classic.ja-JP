@@ -1,6 +1,6 @@
 ---
 title: 管理の設定
-description: Dynamic Media Classicの管理領域の設定方法を説明します。
+description: Dynamic Media Classicの管理領域を設定する方法について説明します。
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 37%
+source-wordcount: '1966'
+ht-degree: 36%
 
 ---
 
@@ -20,25 +20,25 @@ ht-degree: 37%
 
 # 管理設定{#administration-setup}
 
-管理設定画面は、Dynamic Media Classicユーザーを管理するためのものです。 これらの画面を使用して、ユーザーがDynamic Media Classicで作業したり、電子メールでユーザーとコミュニケーションしたりできます。
+管理設定画面は、AdobeDynamic Media Classicユーザーを管理するためのものです。 これらの画面を使用して、ユーザーがDynamic Media Classicで作業したり、Adobeと電子メールでコミュニケーションしたりできます。
 
 1. 管理設定のオプションにアクセスするには、**設定** > **個人設定** > **管理設定**&#x200B;に移動します。
 
 ## ユーザ管理 {#user-administration}
 
-すべてのDynamic Media Classicユーザーに、Dynamic Media Classicの機能に対する権限とアクセス権を決定する役割が割り当てられます。 管理者が、割り当てられている会社に対する各ユーザの役割や責任を決定します。
+すべてのAdobeDynamic Media Classicユーザーに、AdobeDynamic Media Classicの機能に対する権限とアクセス権を決定する役割が割り当てられます。 管理者が、割り当てられている会社に対する各ユーザの役割や責任を決定します。
 
-通常、Dynamic Media Classicは最初の会社セットを設定し、会社の管理者を割り当てます。 その後、会社の管理者がDynamic Media Classicユーザーを設定および管理します。
+通常、AdobeDynamic Media Classicは最初の会社セットを設定し、会社の管理者を割り当てます。 その後、会社の管理者がDynamic Media ClassicユーザーのAdobeを設定および管理します。
 
-Dynamic Media Classicは、複数のユーザーの役割をサポートします。 これらの役割は、Dynamic Media Classic用に設定された会社にアクセスできます。
+AdobeDynamic Media Classicは、複数のユーザーの役割をサポートしています。 これらの役割は、Dynamic Media ClassicのAdobeを設定した会社にアクセスできます。
 
-<!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
+<!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
 **AdobeDynamic Media Classicユ** ーザーは、割り当てられた会社にアクセスできます。管理作業を実行できません。
 
 **AdobeDynamic Media Classicカンパニー** 管理者は、自分の会社のみを表示および管理できます。また、管理者やユーザの追加といったすべての管理機能を実行できます。会社管理者は、DMC会社の管理者アカウントにユーザーを追加できます。 （この役割は、初期設定のユーザの役割です）。
 
-ユーザーを追加すると、Dynamic Media Classicはユーザーに「ようこそ」の電子メールメッセージを送信します。 このメッセージには、パスワードとDynamic Media Classic URLが含まれます。
+ユーザーを追加すると、AdobeDynamic Media Classicはユーザーに「ようこそ」の電子メールメッセージを送信します。 このメッセージには、パスワードとAdobeDynamic Media Classic URLが含まれます。
 
 ### ユーザーまたは管理者の追加 {#adding-a-user-or-administrator}
 
@@ -52,7 +52,7 @@ Dynamic Media Classicは、複数のユーザーの役割をサポートしま�
 
 1. ユーザーにロールを割り当てるには、「ロール」オプションを選択します。
 
-   [Dynamic Media Classicのユーザーの役割と権限](administration-setup.md#user_administration)を参照してください。
+   [Dynamic Media Classicユーザーの役割と権限のAdobe](administration-setup.md#user_administration)を参照してください。
 
 1. ユーザーを会社に追加するには、会社名を選択します。
 1. ユーザーをグループに追加する場合（Media Portalユーザーまたはコントリビューターを追加する場合）、「**[!UICONTROL 次へ]**」を選択して、ユーザーを追加します。
@@ -60,17 +60,17 @@ Dynamic Media Classicは、複数のユーザーの役割をサポートしま�
 
    保存後、ユーザを別の会社に追加するかどうかを確認するメッセージが表示されます。ユーザーを会社に追加する場合は、「**[!UICONTROL 追加]**」を選択します。
 
-   すべての新規ユーザーに、ランダムに生成されたパスワードが与えられます。ユーザーは、Dynamic Media Classicデスクトップアプリケーションへの初回ログイン時にパスワードを変更する必要があります。
+   すべての新規ユーザーに、ランダムに生成されたパスワードが与えられます。ユーザーは、Dynamic Media Classicデスクトップアプリケーションで初めてログインする際に、Adobeを変更する必要があります。
 
-   新規ユーザを追加した後、新規ユーザにご案内の電子メールが送信されます。この電子メールは、一時的なパスワードと、Dynamic Media Classicへのログイン方法を示します。
+   新規ユーザを追加した後、新規ユーザにご案内の電子メールが送信されます。この電子メールは、一時的なパスワードを提供し、Dynamic Media Classicにログインする方法を説明します。
 
-   ユーザーに「ようこそ」の電子メールが届かない場合は、Dynamic Media Classicのログインページ(https://s7sps1.scene7.com)に移動し、「**[!UICONTROL パスワードを忘れた場合]**」を選択してもらいます。 パスワードがリセットされ、新しい電子メールが送信されます。ユーザが電子メールを受信せず、迷惑メールフォルダにもない場合は、テクニカルサポートに問い合わせてください。
+   ユーザーに「ようこそ」の電子メールが届かない場合は、Dynamic Media ClassicのAdobeログインページ(https://s7sps1.scene7.com)に移動し、「**[!UICONTROL パスワードを忘れた場合]**」を選択します。 パスワードがリセットされ、新しい電子メールが送信されます。ユーザが電子メールを受信せず、迷惑メールフォルダにもない場合は、テクニカルサポートに問い合わせてください。
 
    新しいMedia Portalユーザーを追加する場合は、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL ユーザー管理]**&#x200B;に移動し、「**[!UICONTROL ユーザーリストをアップロード]**」を選択して、500人以下のユーザーを含む.csvファイルを選択します。
 
 ### ユーザの削除 {#deleting-a-user}
 
-ユーザーを無効にすることで、Dynamic Media Classicからユーザーを削除できます。 無効なユーザは、システムとすべてのアカウントから削除されます。
+ユーザーを無効にすることで、AdobeAdobeDynamic Media Classicからユーザーを削除できます。 無効なユーザは、システムとすべてのアカウントから削除されます。
 
 1. **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
 1. リストからユーザーを選択し、「**[!UICONTROL 編集]**」を選択します。
@@ -113,13 +113,13 @@ Dynamic Media Classicは、複数のユーザーの役割をサポートしま�
 
 ユーザ数が多い場合は、最大リストサイズメニューを選択し、数値を選択することで、リストのサイズを制限できます。
 
-<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Adobe Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
+You can link an Adobe IMS user identity to a Adobe Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
 1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Adobe Dynamic Media Classic user account by doing the following.
 
 1. In Adobe Marketing Cloud, navigate to your account settings.
 1. Select **Manage Organizations**.
@@ -133,7 +133,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, select **Launch**.
+    * To launch Adobe Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Adobe Dynamic Media Classic card, select **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -143,7 +143,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 ## 帯域幅とストレージ {#bandwidth-storage}
 
-Dynamic Media Classic管理者は、管理する会社向けに、帯域幅、ストレージ、その他のタイプのレポートを生成できます。 これらのレポートは、帯域幅とストレージページで利用できます。
+AdobeDynamic Media Classic管理者は、管理する会社の帯域幅、ストレージ、その他のタイプのレポートを生成できます。 これらのレポートは、帯域幅とストレージページで利用できます。
 
 このページを開くには、**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**&#x200B;に移動します。 「**[!UICONTROL 管理設定]**」を展開し、「**[!UICONTROL 帯域幅とストレージ]**」を選択します。
 
@@ -156,7 +156,7 @@ Dynamic Media Classic管理者は、管理する会社向けに、帯域幅、�
 | 帯域幅 | 帯域幅使用量（会社別） | 特定の日付範囲にわたる帯域幅使用量を会社別に追跡して、トラフィックパターンを判断します。 |
 | ストレージ | ストレージ使用量 | アップロードされたデータの量を会社別に追跡します。 |
 | 画像コンテンツ | 画像要求数（タイプ別） | 様々な画像タイプの要求数と使用量を追跡します。 |
-| ドメイン | URL 要求数（ドメイン別） | 特定の会社の画像要求のドメインに基づいて画像の使用量を追跡します(Dynamic Media Classicは、アカウントごとに複数のドメインを提供できます。 詳しくは、テクニカルサポートにお問い合わせください）。 |
+| ドメイン | URL 要求数（ドメイン別） | 特定の会社の画像要求のドメインに基づいて画像の使用量を追跡します(AdobeDynamic Media Classicは、アカウントごとに複数のドメインを提供できます。 詳しくは、テクニカルサポートにお問い合わせください）。 |
 | ビデオストリーミング | ストリーミングビデオの帯域幅使用量 | 特定の日付範囲にわたるストリーミングビデオ使用量を会社別に追跡して、トラフィックパターンを判断します。 |
 | ビデオコンテンツ | 様々なビデオの再生時間 | 最も視聴回数の多かったビデオと最も視聴回数が少なかったビデオを判断します。 |
 
@@ -216,7 +216,7 @@ Dynamic Media Classic管理者は、管理する会社向けに、帯域幅、�
 
 ## 画像エラー {#image-errors}
 
-Dynamic Media Classic管理者は、画像エラーレポートを生成できます。 画像エラーレポートは、現在ログインしている会社について、直近 24 時間以内で最も頻度の高い画像エラー 20 個をリストで表示します。画像エラーレポートを生成するには、次の手順を実行します。
+AdobeDynamic Media Classic管理者は、画像エラーレポートを生成できます。 画像エラーレポートは、現在ログインしている会社について、直近 24 時間以内で最も頻度の高い画像エラー 20 個をリストで表示します。画像エラーレポートを生成するには、次の手順を実行します。
 
 1. **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**&#x200B;に移動します。
 1. [管理設定]を展開し、[**[!UICONTROL イメージエラー]**]を選択します。
@@ -238,7 +238,7 @@ Dynamic Media Classic管理者は、画像エラーレポートを生成でき�
 
 * **応答**  — 特定のエラーメッセージ。エラーは 4xx または 5xx です。
 
-* **URL**  - Dynamic Media Classic上の画像のURLをリストします。
+* **URL**  -AdobeDynamic Media Classic上の画像のURLをリストします。
 
 * **リファラー**  — 最初のリクエストの送信元のWebサイトのURLを指定します。リファラには、画像へのリンクがある Web サイトが表示されます。
 

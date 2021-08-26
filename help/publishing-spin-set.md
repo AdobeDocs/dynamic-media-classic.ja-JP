@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
-feature: Dynamic Media Classic，ビューア，スピンセット
+feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 22%
+source-wordcount: '172'
+ht-degree: 23%
 
 ---
 
 # スピンセットの公開{#publishing-a-spin-set}
 
-スピンセットを公開すると、画像がDynamic Media Image Server上のセットに配置され、Webサイトやアプリケーションで画像を使用できるようになります。 さらに、公開プロセス中に、Dynamic Media ClassicはWebサイトやアプリケーションに必要なスピンセットURL文字列をアクティベートします。
+スピンセットを公開すると、画像がDynamic Media Image Server上のセットに配置され、Webサイトやアプリケーションで画像を使用できるようになります。 さらに、公開プロセス中に、AdobeDynamic Media ClassicはWebサイトやアプリケーションに必要なスピンセットURL文字列をアクティベートします。
 
 ## スピンセットを公開用にマーク {#marking-a-spin-set-for-publish}
 
-スピンセットをDynamic Media Classic Image Serverにコピーするには、スピンセットを公開用にマークします。 参照パネルでスピンセットを公開用にマークするには、名前の左側にある&#x200B;**[!UICONTROL 公開用にマーク]**&#x200B;アイコンをクリックします。 スピンセット自体を公開用にマークすると、セット内のすべての画像が公開用にマークされます。
+スピンセットを公開用にマークして、AdobeDynamic Media Classic Image Serverにコピーします。 参照パネルでスピンセットを公開用にマークするには、名前の左側にある&#x200B;**[!UICONTROL 公開用にマーク]**&#x200B;アイコンをクリックします。 スピンセット自体を公開用にマークすると、セット内のすべての画像が公開用にマークされます。
 
 ## スピンセットの公開 {#publishing-the-spin-set}
 

@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1036'
 ht-degree: 37%
 
 ---
 
 # アセットを公開する前のテスト {#testing-assets-before-making-them-public}
 
-セキュアテストは、セキュアなテスト環境を定義し、IPアドレスと範囲の設定可能なセットに基づいて、堅牢なB2Bソリューションを構築するのに役立ちます。 この機能を使用すると、Dynamic Media Classicのデプロイメントと、コンテンツ管理およびビジネスシステムのアーキテクチャを一致させることができます。
+セキュアテストは、セキュアなテスト環境を定義し、IPアドレスと範囲の設定可能なセットに基づいて、堅牢なB2Bソリューションを構築するのに役立ちます。 この機能により、AdobeDynamic Media Classicのデプロイメントと、コンテンツ管理およびビジネスシステムのアーキテクチャを一致させることができます。
 
 セキュアテストを実行すると、未公開のコンテンツを含むステージングバージョンの Web サイトをプレビューできます。
 
@@ -31,7 +31,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->セキュアテストは、Dynamic Media Classicへのアクセスに影響しません。 Dynamic Media Classicのセキュリティは引き続き一貫しており、Dynamic Media Classicおよび関連するWebサービスにアクセスするための通常の資格情報が必要です。
+>セキュアテストは、AdobeDynamic Media Classicへのアクセスに影響しません。 AdobeDynamic Media Classicのセキュリティは引き続き一貫しており、AdobeDynamic Media Classicおよび関連するWebサービスにアクセスするための通常の資格情報が必要です。
 
 ## テスト作業をセキュリティで保護する方法 {#how-secure-testing-works}
 
@@ -39,7 +39,7 @@ ht-degree: 37%
 
 企業のネットワークから、 https://whatismyip.comなどのWebサイトを使用して公開IPアドレスを見つけたり、企業のIT組織にこの情報を要求したりできます。
 
-セキュアテストを使用すると、Dynamic Media Classicは、ステージング環境または内部アプリケーション用に専用の画像サーバーを確立します。 このサーバに対するあらゆる要求は、送信元 IP アドレスがチェックされます。着信要求が、承認された IP アドレスリストの中に含まれていない場合、失敗の応答が返されます。Dynamic Media Classicの会社管理者が、自社のセキュアテスト環境用に承認されたIPアドレスのリストを設定します。
+セキュアテストを使用すると、AdobeDynamic Media Classicは、ステージング環境または内部アプリケーション用に専用の画像サーバーを確立します。 このサーバに対するあらゆる要求は、送信元 IP アドレスがチェックされます。着信要求が、承認された IP アドレスリストの中に含まれていない場合、失敗の応答が返されます。AdobeDynamic Media Classicの会社管理者は、自社のセキュアテスト環境用に承認されたIPアドレスリストを設定します。
 
 元のリクエストの場所を確認する必要があるので、セキュアテストサービスのトラフィックは、パブリックDynamic Media Image Serverトラフィックのようなコンテンツ配布ネットワークを通じてルーティングされません。 セキュアテストサービスへのリクエストの待ち時間は、パブリックなDynamic Media Image Serverに比べて若干長くなります。
 
@@ -47,7 +47,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->セキュアテストサービスは、内部公開コンテキストで設定されたカタログサーバーを使用します。 したがって、会社がセキュアテストに公開するように設定されている場合、Dynamic Media Classicにアップロードされたアセットは、セキュアテストサービスですぐに使用できます。 この機能は、アセットがアップロード時に公開用にマークされているかどうかに関係なく、有効です。
+>セキュアテストサービスは、内部公開コンテキストで設定されたカタログサーバーを使用します。 したがって、会社がセキュアテストに公開するように設定されている場合、AdobeDynamic Media Classicでアップロードされたアセットは、セキュアテストサービスですぐに使用できます。 この機能は、アセットがアップロード時に公開用にマークされているかどうかに関係なく、有効です。
 
 セキュアテストサービスは、現在、次のアセットタイプと機能をサポートしています。
 
@@ -65,8 +65,8 @@ Last Modified Date:
 * ビネット（Render Server の要求）。
 * Render Serverリクエスト（サポート対象、ただしお客様が明示的にリクエストする必要あり）。
 * 画像セット、eCatalog、レンダリングセットおよびメディアセットを含む各種セット。
-* 標準のDynamic Media Classicリッチメディアビューア。
-* Dynamic Media Classic OnDemand JSPページ。
+* 標準AdobeのDynamic Media Classicリッチメディアビューア。
+* AdobeDynamic Media Classic OnDemand JSPページ。
 * PDF ファイルやプログレッシブ配信ビデオのような静的コンテンツ。
 * HTTP ビデオストリーミング。
 * プログレッシブビデオストリーミング。
@@ -76,7 +76,7 @@ Last Modified Date:
 * RTMP ビデオストリーミング
 * UGC サービス
 * Web-to-Print
-* Dynamic Media Classic情報またはeCatalog検索
+* AdobeDynamic Media Classic情報またはeCatalog検索
 
 ## セキュアテストサービスのテスト {#testing-the-secure-testing-service}
 
@@ -99,7 +99,7 @@ Last Modified Date:
  -->
 
 1. Adobeカスタマーケアに連絡し、お客様のアカウントでセキュアテストを有効にするよう依頼します。
-1. Dynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL セットアップ]** / **[!UICONTROL 公開設定]** / **[!UICONTROL Image Server]**&#x200B;をクリックします。
+1. AdobeDynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL 設定]** / **[!UICONTROL 公開設定]** / **[!UICONTROL Image Server]**&#x200B;をクリックします。
 1. Image Server公開ページの「**[!UICONTROL 公開コンテキスト]**」ドロップダウンリストで、「**[!UICONTROL 画像サービングをテスト]**」を選択します。
 1. 「クライアントアドレスフィルタ」で、**[!UICONTROL 「追加」]**&#x200B;をクリックします。
 1. チェックボックスをオンにしてアドレスを有効（オン）にし、各テキストフィールドにIPアドレスとネットマスクを入力します。
@@ -112,7 +112,7 @@ Last Modified Date:
    * IPアドレスをさらに追加する必要がある場合は、上記の2つの手順を繰り返します。
    * 次の手順に進みます。
 1. Image Server公開ページの左下にある「**[!UICONTROL 保存]**」をクリックします。
-1. 目的の画像をDynamic Media Classicアカウントにアップロードします。
+1. 目的の画像をAdobeDynamic Media Classicアカウントにアップロードします。
 
    詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
@@ -129,7 +129,7 @@ Adobe名が見つからない場合や、サーバーへのURLが機能しない
 
 公開アセットと非公開アセットのそれぞれにリンクしている単一 Web サイトの 2 つのバリエーションが必要です。
 
-* 公開バージョン — 従来のDynamic Media Classic URL構文を使用してアセットをリンクします。
+* 公開バージョン — 従来のAdobeDynamic Media Classic URL構文を使用してアセットをリンクします。
 * ステージングバージョン — 同じ構文を使用しながら、セキュアテストサイト名を使用してアセットをリンクします。
 
 ### テストの実行
@@ -140,7 +140,7 @@ Adobe名が見つからない場合や、サーバーへのURLが機能しない
 
    以前に定義したIPアドレス範囲で識別された企業ネットワーク内から、Webサイトのステージングバージョンには、公開用にマークされているかどうかに関わらず、すべての画像が表示されます。 そのため、プレビューの承認や製品の発売の前に、誤って画像を使用可能にすることなく、テストをおこなうことができます。
 
-   サイトの公開バージョンに、以前にDynamic Media Classicで経験した公開済みアセットが表示されることを確認します。
+   サイトの公開バージョンに、AdobeDynamic Media Classicで以前に経験した公開済みアセットが表示されることを確認します。
 
 1. 会社のネットワークの外部からテストし、非公開アセット（つまり、公開用のマークが付いていないアセット）が第三者のアクセスから保護されていることを確認します。
 

@@ -1,6 +1,6 @@
 ---
 title: スウォッチセットの作成
-description: Dynamic Media Classicでスウォッチセットを作成する方法を説明します。
+description: AdobeDynamic Media Classicでスウォッチセットを作成する方法を説明します。
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '708'
 ht-degree: 61%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 61%
 
 **スウォッチセットを編集するには:**
 
-1. グリッドビューでスウォッチセットを参照し、画像の下の「**[!UICONTROL 編集]**」を選択します。
+1. グリッドビューでSwatchSetを参照し、画像の下の「**[!UICONTROL 編集]**」を選択します。
 1. 次のいずれかの操作を行います。
 
    * 画像（公開または非公開のもの）を追加するには、「アセットを追加」内のフォルダーからスウォッチセットの&#x200B;**[!UICONTROL ビュー]**&#x200B;ページに画像をドラッグします。

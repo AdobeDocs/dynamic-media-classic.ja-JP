@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
 
 # マスター画像の公開{#publishing-master-images}
 
-イメージファイルを公開すると、Dynamic Media Image Serverに公開され、Webサイトやアプリケーションで使用できます。 さらに、公開プロセス中に、Dynamic Media ClassicはWebサイトやアプリケーションに必要なURL文字列をアクティベートします。
+イメージファイルを公開すると、Dynamic Media Image Serverに公開され、Webサイトやアプリケーションで使用できます。 さらに、公開プロセス中に、AdobeDynamic Media ClassicはWebサイトやアプリケーションに必要なURL文字列をアクティベートします。
 
 ## マスター画像を公開用にマーク {#marking-master-images-for-publish}
 
-マスター画像をDynamic Media Image Serverにコピーするには、公開用にマークする必要があります。 参照パネルで、**[!UICONTROL 公開用にマーク]**&#x200B;アイコンをクリックして、マスター画像を公開用にマークできます。 また、画像をDynamic Media Classicにアップロードする際に、公開用にマークすることもできます。
+マスター画像をDynamic Media Image Serverにコピーするには、公開用にマークする必要があります。 参照パネルで、**[!UICONTROL 公開用にマーク]**&#x200B;アイコンをクリックして、マスター画像を公開用にマークできます。 また、画像をAdobeDynamic Media Classicにアップロードする際に、公開用にマークすることもできます。
 
 ## マスター画像の公開 {#publishing-your-master-images}
 

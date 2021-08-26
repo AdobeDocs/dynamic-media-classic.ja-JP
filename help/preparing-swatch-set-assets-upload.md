@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
-feature: Dynamic Media Classic，ビューア
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 82%
+source-wordcount: '173'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 82%
 * 同じジャケットのブラック、ブラウン、グリーンのショット
 * ブラック、ブラウン、グリーンのカラースウォッチ
 
-ユーザはスウォッチセットで画像をズームできるので、長辺が少なくとも 2000 pixel の画像を使用してください。Dynamic Media Classicは多くの画像ファイル形式をサポートしますが、可逆圧縮TIFF、PNGおよびEPS画像の使用が推奨されます。
+ユーザはスウォッチセットで画像をズームできるので、長辺が少なくとも 2000 pixel の画像を使用してください。AdobeDynamic Media Classicは多くの画像ファイル形式をサポートしますが、可逆圧縮TIFF、PNGおよびEPS画像の使用をお勧めします。
 
 アセットのアップロードについて詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 

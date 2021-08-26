@@ -1,6 +1,6 @@
 ---
 title: オファーセットの作成
-description: Dynamic Media Classicでオファーセットを作成する方法を説明します。
+description: AdobeDynamic Media Classicでオファーセットを作成する方法を説明します。
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1232'
 ht-degree: 38%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 38%
 
 テンプレートの場合は、「**[!UICONTROL 追加してプレビュー]**」を選択し、選択したパラメーターを設定します。 その他のオファーセットタイプにはパラメーターは含まれませんが、「**[!UICONTROL プレビュー]**」を選択して使用可能なプリセットを変更することで、パラメーターをカスタマイズできます。
 
-Dynamic Media Classicは、編集用のツールやオファーセットの作成用のツールを提供します。
+AdobeDynamic Media Classicは、編集用のツールやオファーセットの作成用のツールを提供します。
 
 >[!NOTE]
 >
->オファーセットを作成する前に、セットに使用するすべてのアセットをDynamic Media Classicに公開してください。 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)を参照してください。
+>オファーセットを作成する前に、AdobeDynamic Media Classicに対して使用するすべてのアセットを公開してください。 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)を参照してください。
 
 ## オファーセットのタイプ {#types-of-offer-sets}
 
@@ -39,7 +39,7 @@ Dynamic Media Classicは、編集用のツールやオファーセットの作�
 
 * **画像**  — オファーセット用に画像を組み立てることができます。各画像には、セット内の異なるオファーが含まれます。
 
-* **画像テンプレート**  - Dynamic Media Classicで、ビルド/テンプレートの基本コマンドを使用して、画像テンプレートをパラメーター化できます。テンプレートのパラメータ、コンポーネントを通じて、テキストフレームのテキストや様々な画像をスワップアウトおよびカスタマイズできます。オファーセットの場合は、テンプレートパラメータを使用して、オファーセット内の同じ画像のバリエーションなどを作成できます。画像テンプレートの作成とパラメータ化について詳しくは、テンプレートパラメータの作成を参照してください。
+* **画像テンプレート**  - Template Dynamic Media ClassicのAdobeで、ビルド/テンプレートの基本コマンドを使用して画像テンプレートをパラメーター化できます。テンプレートのパラメータ、コンポーネントを通じて、テキストフレームのテキストや様々な画像をスワップアウトおよびカスタマイズできます。オファーセットの場合は、テンプレートパラメータを使用して、オファーセット内の同じ画像のバリエーションなどを作成できます。画像テンプレートの作成とパラメータ化について詳しくは、テンプレートパラメータの作成を参照してください。
 
 * **ビデオ**  — オファーセット用にビデオを組み立てることができます。各ビデオはセット内の異なるオファーになります。
 
@@ -93,7 +93,7 @@ Test&amp;Targetオファーセットページを閉じる前に、オファー�
 
    * **Test&amp;Targetオファーセット画面**  — ビル **[!UICONTROL ド]** / **[!UICONTROL Test&amp;Targetオファーセット]**&#x200B;に移動します。画像またはビデオを画面にドラッグします。異なるサイズの画像またはビデオを作成するには、画像またはビデオの複数のコピーをドラッグして、個別にサイズを設定します。
 
-   * **グリッド表示またはリスト表示**  — 画像またはビデオを選択し、ビル **[!UICONTROL ド]** / **[!UICONTROL Test&amp;Targetオファーセット]**&#x200B;に移動します。
+   * **グリッド表示またはリスト表示**  — 画像またはビデオを選択し、 **[!UICONTROL ビルド]** / **[!UICONTROL Test&amp;Targetオファーセット]**&#x200B;に移動します。
 
 1. 必要に応じて、画像またはビデオを選択し、「**[!UICONTROL プレビュー]**」を選択します。 オファーをプレビューページで、選択した画像またはビデオのサイズと外観を変更できます。 または、オファーセット内のすべての画像やビデオを変更できます。
 
@@ -122,7 +122,7 @@ Test&amp;Targetオファーセットページを閉じる前に、オファー�
 
 **オファーセットを編集するには：**
 
-1. オファーセットを編集するには、グリッドビューまたはリストビューでオファーセットを表示し、ロールオーバーボタン「****&#x200B;を編集」を選択します。
+1. オファーセットを編集するには、オファーセットをグリッドビューまたはリストビューで表示し、ロールオーバーボタン&#x200B;**[!UICONTROL 「]**&#x200B;を編集」を選択します。
 1. Test&amp;Targetオファーセットページで、次のいずれかの操作をおこないます。
 
    * **オファーの削除**  — オファーを選択し、「削除」を選択し **** て、オファーをセットから削除します。
@@ -132,7 +132,7 @@ Test&amp;Targetオファーセットページを閉じる前に、オファー�
 
    >[!NOTE]
    >
-   >キャンペーンと関連付けられているオファーセットは削除できません。キャンペーンに関連付けられたオファーセットを削除するには、Adobe Target Standard/Premiumにログインし、最初にキャンペーンの関連付けを削除します。 キャンペーンから関連付けを解除した後でも、アセットを削除するにはDynamic Media Classicからのみが必要で、Adobe Target Standard/Premiumへのログインが必要です。Adobe Target Standard/Premium内からは削除できません。
+   >キャンペーンと関連付けられているオファーセットは削除できません。キャンペーンに関連付けられたオファーセットを削除するには、Adobe Target Standard/Premiumにログインし、最初にキャンペーンの関連付けを削除します。 キャンペーンから関連付けを解除した後でも、AdobeDynamic Media Classicからはアセットのみを削除できます。Adobe Target Standard/Premiumへのログインは必要です。Adobe Target Standard/Premium内からは削除できません。
 
 1. 編集が終了したら、ページの右下隅付近にある「**[!UICONTROL 保存後に公開]**」が選択されている（デフォルト）ことを確認します。
 1. 「**[!UICONTROL 保存]**」を選択し、保存フォルダーを選択して、セットの名前を入力し、「**[!UICONTROL 保存]**」を選択します。

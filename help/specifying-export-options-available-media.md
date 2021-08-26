@@ -9,10 +9,10 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 71%
+source-wordcount: '375'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 * 書き出しジョブの場合、書き出し用の圧縮 ZIP ファイルの最大ファイルサイズは 1 GB です。
 * 書き出しジョブあたり合計 500 個のアセットまで許容されています。
 
-[Dynamic Media Classicからのアセットの書き出し](exporting-assets-from-dmc.md#exporting-assets-from_dmc)も参照してください。
+[AdobeDynamic Media Classicからのアセットの書き出し](exporting-assets-from-dmc.md#exporting-assets-from_dmc)も参照してください。
 
 **Media Portal ユーザが使用できる書き出しオプションを指定するには:**
 
@@ -43,5 +43,5 @@ ht-degree: 71%
 >[!MORELIKETHIS]
 >
 >* [画像プリセット](application-setup.md#image_presets)
-* [グループの画像プリセットへのアクセス権限の選択](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [グループの画像プリセットへのアクセス権限の選択](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 

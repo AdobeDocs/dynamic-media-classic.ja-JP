@@ -1,6 +1,6 @@
 ---
 title: Media Portal 画面のカスタマイズ
-description: Dynamic Media ClassicでMedia Portal画面をカスタマイズする方法を説明します。
+description: Dynamic Media ClassicのMedia Portal画面をカスタマイズする方法について説明します。
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '346'
 ht-degree: 32%
 
 ---

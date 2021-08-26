@@ -10,10 +10,10 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 64%
+source-wordcount: '451'
+ht-degree: 54%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 64%
 
 ICC（International Color Consortium）プロファイルは、画像ファイルのカラースペースを正しく変換する方法が記述されたファイルです。ICC プロファイルにより、画像の正しい色を得ることができます。例えば、コンピュータのモニタに出力するように設計された画像を正しく表示するには、ICC プロファイルを選択します。このプロファイルは、画像を異なるカラースペースに変換し、オンラインで正確に色が表示されるようにします。
 
-Dynamic Media Classicでは、ICCプロファイルを選択して、画像をアップロードする際に、画像を別のカラースペースに変換できます。 すべての標準的なPhotoshop ICCプロファイルは、Dynamic Media Classicでデフォルトで使用できます。 アップロード画面でカラープロファイル名を表示するには、カラープロファイルメニューを選択します。そして、「カスタム アップロード元 > アップロード先」を選択して、変換前メニューと変換後メニューで ICC プロファイル名を選択します。
+AdobeDynamic Media Classicでは、画像をアップロードする際に、ICCプロファイルを選択して、画像を別のカラースペースに変換できます。 すべての標準的なPhotoshop ICCプロファイルは、AdobeDynamic Media Classicでデフォルトで使用できます。 アップロード画面でカラープロファイル名を表示するには、カラープロファイルメニューを選択します。そして、「カスタム アップロード元 > アップロード先」を選択して、変換前メニューと変換後メニューで ICC プロファイル名を選択します。
 
 [アップロード時の画像編集オプション](image-editing-options-upload.md#image-editing-options-at-upload)を参照してください。
 
-デフォルトのICCプロファイルを使用する以外に、他のICCプロファイルをDynamic Media Classicにアップロードして、カラースペース変換に使用できるようにすることができます。 参照パネルで詳細ビューに切り替えて、ICC プロファイルのプロファイルクラス、カラースペースの種類、PCS タイプを調べます。
+デフォルトのICCプロファイルを使用する以外に、他のICCプロファイルをAdobeDynamic Media Classicにアップロードして、カラースペース変換に使用できるようにすることができます。 参照パネルの詳細表示に切り替えて、ICCプロファイルのプロファイルクラス、カラースペースの種類、PCSの種類を調べます。
 
 ## ICCプロファイルのアップロード {#uploading-icc-profiles}
 
-ICC プロファイルのアップロードは、ファイルをアップロードするのと同じ方法で行います。ICCプロファイルは、任意のDynamic Media Classicフォルダーに格納できます。
+ICC プロファイルのアップロードは、ファイルをアップロードするのと同じ方法で行います。ICCプロファイルは、任意のAdobeDynamic Media Classicフォルダーに保存できます。
 
 [ファイルのアップロード](uploading-files.md#uploading_your_files)を参照してください。
 
 ## ICCプロファイルの確認 {#examining-an-icc-profile}
 
-ICC プロファイルを確認するには、参照パネルで ICC プロファイルを選択して、詳細ビューで表示します。詳細表示は、ICCプロファイルに関する次の情報を提供します。
+ICCプロファイルを確認するには、参照パネルでICCプロファイルを選択して詳細ビューで表示します。 詳細表示は、ICCプロファイルに関する次の情報を提供します。
 
 * **[!UICONTROL プロファイルクラス]**  - ICC(International Color Consortium)は、アプリケーションのタイプをカバーする各クラスを定義します。例えば、入力プロファイルはデジタルカメラやスキャナなどに対応し、出力プロファイルはプリンタに対応しています。
 

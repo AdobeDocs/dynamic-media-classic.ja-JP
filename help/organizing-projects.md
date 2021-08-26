@@ -1,23 +1,23 @@
 ---
 title: プロジェクトを使用したアセットの編成
-description: プロジェクトを使用して作業を整理する方法を説明します。
+description: AdobeDynamic Media Classicのプロジェクトを使用して作業を整理する方法を説明します。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 38%
+source-wordcount: '483'
+ht-degree: 32%
 
 ---
 
-# プロジェクトを使用したアセットの編成{#organizing-your-work-with-projects}
+# プロジェクトで作業を整理する{#organizing-your-work-with-projects}
 
 プロジェクトを使用すると、アセットが保存されているフォルダとは独立してアセットを編成することができます。アセットは、1 つのフォルダにのみ配置できますが、アセット編成のために複数のプロジェクトフォルダにコピーすることができます。
 
@@ -27,19 +27,19 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->Dynamic Media Classicでは、プロジェクトではなく、メタデータを使用してアセットを整理することをお勧めします。 詳しくは、[メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md)を参照してください。
+>AdobeDynamic Media Classicでは、プロジェクトではなく、メタデータを使用してアセットを整理することをお勧めします。 [メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md)を参照してください。
 
 >[!NOTE]
 >
 >一般ユーザがプロジェクト内のアセットを編成するには、管理者によって、それが可能なように設定されている必要があります。アセットライブラリの下部にプロジェクトフォルダセクションが表示されていない場合、このアセット編成方法は使用できません。詳しくは、[アプリケーションの全般設定](application-setup.md#general-settings)を参照してください。
 
-## プロジェクトフォルダの作成 {#creating-a-project-folder}
+## プロジェクトフォルダーの作成 {#creating-a-project-folder}
 
-アセットライブラリから、またはDynamic Media Classicにファイルをアップロードする際に、プロジェクトフォルダーを作成できます。
+アセットライブラリから、またはDynamic Media Classicにファイルをアップロードする際に、プロジェクトフォルダーをAdobeできます。
 
-* **アセットライブラリ**  — アセットライブラリの下部にスクロールし、「プロジェクト」セクションに移動して、「プロジェクトを追 **[!UICONTROL 加」をクリックします]**。プロジェクトの名前を入力します。
+* **アセットライブラリ**  — アセットライブラリの下部にスクロールし、「プロジェクト」セクションに移動して、「プロジェクトを追 **[!UICONTROL 加」を選択します]**。プロジェクトの名前を入力します。
 
-* **ファイルをアップロードする場合**  — アップロード画面で、プロジェク **[!UICONTROL トに追加]** / **[!UICONTROL プロジェクトを作成]**&#x200B;をクリックします。プロジェクトの名前を入力します。
+* **ファイルをアップロードする場合**  — アップロード画面で、プロジェク **[!UICONTROL トに追加]** / **[!UICONTROL プロジェクトを作成]**&#x200B;に移動します。プロジェクトの名前を入力します。
 
 >[!NOTE]
 >
@@ -51,14 +51,14 @@ ht-degree: 38%
 
 * **コンテンツの参照**  — アセットライブラリ内のフォルダーの名前を選択します。参照パネルにアセットが表示されます。
 
-* **プロジェクトフォルダーの削除**  - Projectフォルダーを選択し、「プロジェクトを削 **[!UICONTROL 除]**」をクリックします。プロジェクトフォルダーからアセットを削除しても、Dynamic Media Classicからは削除されません。アセットは、保存先の元のフォルダーに残ります。
+* **プロジェクトフォルダーの削除**  - Projectフォルダーを選択し、「プロジェクトを削 **[!UICONTROL 除」を選択します]**。プロジェクトフォルダーからアセットを削除しても、AdobeDynamic Media Classicからは削除されません。アセットは、保存先の元のフォルダーに残ります。
 
 * **プロジェクトフォルダーの名前の変更**  - Asset Panelでフォルダーの名前をダブルクリックし、新しい名前を入力します。
 
-## プロジェクトフォルダへのアセットの追加 {#adding-assets-to-a-project-folder}
+## プロジェクトフォルダーへのアセットの追加 {#adding-assets-to-a-project-folder}
 
-参照パネルから開始して、またはDynamic Media Classicにファイルをアップロードする際に、プロジェクトフォルダーに画像を追加できます。
+参照パネルから開始して、またはDynamic Media Classicにファイルをアップロードする際に、プロジェクトフォルダーに画像をAdobeできます。
 
-* **参照パネル**  — アセットを選択し、プロジェクトフォルダーにドラッグします。**[!UICONTROL ファイル]** > **[!UICONTROL プロジェクトに追加]**&#x200B;をクリックすることもできます。 [プロジェクトの選択]ダイアログボックスでプロジェクトフォルダ名を選択し、[**[!UICONTROL 送信]**]をクリックします。
+* **参照パネル**  — アセットを選択し、プロジェクトフォルダーにドラッグします。**[!UICONTROL ファイル]** > **[!UICONTROL プロジェクトに追加]**&#x200B;に移動することもできます。 [プロジェクトの選択]ダイアログボックスでプロジェクトフォルダ名を選択し、[**[!UICONTROL 送信]**]を選択します。
 
-* **ファイルのアップロード時**  — アップロードページで、「ジョブオプション」 **[!UICONTROL をクリックします]**。アップロードオプションを設定ダイアログボックスで、「**[!UICONTROL プロジェクト]**」をクリックし、プロジェクト名を選択します。
+* **ファイルのアップロード時**  — アップロードページで、「ジョブオプション」 **[!UICONTROL を選択します]**。アップロードオプションを設定ダイアログボックスで、「**[!UICONTROL プロジェクト]**」を選択し、プロジェクト名を選択します。

@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 55%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 55%
 
 許容範囲内の結果のレンダリングには多数の要因が関係することから、画質の最適化に時間がかかることもあります。知覚される画質は各個人で異なるので、結果はある程度主観的なものと言えます。構造的に実験を行うことが重要です。
 
-Dynamic Media Classicには、画像を調整および最適化し、結果をレンダリングするための、100を超える画像サービングコマンドが含まれています。 重要なコマンドおよびベストプラクティスを使用して、このプロセスを効率化し、良い結果をすばやく得るために、次のガイドラインが役に立ちます。
+AdobeDynamic Media Classicには、画像を調整および最適化し、結果をレンダリングするための100を超える画像サービングコマンドが含まれています。 重要なコマンドおよびベストプラクティスを使用して、このプロセスを効率化し、良い結果をすばやく得るために、次のガイドラインが役に立ちます。
 
 [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)も参照してください。
 
@@ -45,13 +45,13 @@ Dynamic Media Classicには、画像を調整および最適化し、結果を�
 
 ## 画像へのシャープ適用のベストプラクティス {#best-practices-for-image-sharpening}
 
-画像へのシャープ適用は、Web サイト上の画像を管理する上で最も複雑な側面であり、ミスが多く起きるところです。次の役立つリソースを参照して、Dynamic Media Classicでのシャープニングとアンシャープマスクの仕組みについて詳しく学びます。
+画像へのシャープ適用は、Web サイト上の画像を管理する上で最も複雑な側面であり、ミスが多く起きるところです。次の役立つリソースを参照して、AdobeDynamic Media Classicでのシャープニングとアンシャープマスクの仕組みについて詳しく学びます。
 
 ベストプラクティスに関するホワイトペーパー『 [AdobeDynamic Media ClassicおよびImage Serverでの画像のシャープ](/help/assets/s7_sharpening_images.pdf)』。
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Dynamic Media Classicを使用すると、取り込み時、配信時またはその両方で画像をシャープにできます。 ただし、通常は、一方の方法のみを使用して画像をシャープにしますが、両方を使用することはできません。 通常は、配信時に URL 上の画像にシャープを適用すると最良の結果を得られます。
+AdobeDynamic Media Classicを使用すると、取り込み時、配信時またはその両方で画像をシャープにできます。 ただし、通常は、一方の方法のみを使用して画像をシャープにしますが、両方を使用することはできません。 通常は、配信時に URL 上の画像にシャープを適用すると最良の結果を得られます。
 
 画像へのシャープの適用に使用できる方法は次の 2 つあります。
 
@@ -71,7 +71,7 @@ Dynamic Media Classicを使用すると、取り込み時、配信時または�
 
          フィルターで使用するベストプラクティスを含め、これらの3つのパラメーターの設定方法について詳しくは、「 [AdobeDynamic Media ClassicおよびImage Serverの画像にシャープを適用する](/help/assets/s7_sharpening_images.pdf) 」を参照してください。
 
-      * Dynamic Media Classicでは、4番目のパラメーターを制御することもできます。モノクロ(`0,1`) このパラメーターは、アンシャープマスクが各カラーコンポーネントに個別に適用されるか（値 `0` を使用）、画像の明るさ／適用度に適用されるか（値 `1` を使用）を示します。
+      * AdobeDynamic Media Classicでは、4つ目のパラメーターを制御することもできます。モノクロ(`0,1`) このパラメーターは、アンシャープマスクが各カラーコンポーネントに個別に適用されるか（値 `0` を使用）、画像の明るさ／適用度に適用されるか（値 `1` を使用）を示します。
 
 ベストプラクティスとして、まずはアンシャープマスクの radius パラメーターを使用します。はじめに使用できる radius 設定は次のとおりです。
 
@@ -120,6 +120,6 @@ JPG圧縮のベストプラクティスとして、`&qlt=85,0`を使用します
 
 実験を行う際に、ワークフローを最適化するには、次の一般的な推奨事項が役立ちます。
 
-* Dynamic Media Classic URLで直接、またはDynamic Media Classicの画像調整機能を使用して、様々なパラメーターをリアルタイムでテストしてみます。 後者は、調整操作のリアルタイムプレビューを提供します。
+* 様々なパラメーターをリアルタイムでテストします。その際は、AdobeDynamic Media ClassicのURLで直接使用するか、AdobeDynamic Media Classicの画像調整機能を使用します。 後者は、調整操作のリアルタイムプレビューを提供します。
 * ベストプラクティスとして、Dynamic Media画像サービングコマンドを画像プリセットにグループ化できます。 画像プリセットは基本的に、`$thumb_low$`や`&product_high$`などのカスタムプリセット名を含むURLコマンドマクロです。 URLパス内のカスタムプリセット名は、これらのプリセットを呼び出します。 この機能により、Web サイト上での様々な画像使用パターンに関するコマンドおよび画質設定を管理でき、URL 全体の長さを短縮することもできます。
-* Dynamic Media Classicでは、取り込み時に画像のシャープを適用するなど、画質を調整するより高度な方法も提供されています。 レンダリング結果のさらなる調整と最適化がオプションとなる高度な使用例については、Adobe Professional Servicesがお客様向けにカスタマイズした見識とベストプラクティスを提供します。
+* AdobeDynamic Media Classicでは、取り込み時に画像のシャープを適用するなど、画質を調整するより高度な方法も提供されています。 レンダリング結果のさらなる調整と最適化がオプションとなる高度な使用例については、Adobe Professional Servicesがお客様向けにカスタマイズした見識とベストプラクティスを提供します。

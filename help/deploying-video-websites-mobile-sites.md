@@ -1,6 +1,6 @@
 ---
 title: Web サイトやモバイルサイトへのビデオの配信
-description: Dynamic Media ClassicからWebサイトやモバイルサイトにビデオをデプロイする方法を説明します。
+description: AdobeDynamic Media ClassicからWebサイトやモバイルサイトにビデオをデプロイする方法を説明します。
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 35%
+source-wordcount: '1704'
+ht-degree: 34%
 
 ---
 
 # Web サイトやモバイルサイトへのビデオの配信{#deploying-video-to-your-websites-and-mobile-sites}
 
-Webサイト、モバイルサイト、デスクトップアプリケーションは、URL文字列または埋め込みコードを使用して、ビデオを含むDynamic Media Classicサーバーコンテンツにアクセスします。 Dynamic Media Classicは、公開プロセス中にこれらのURL文字列をアクティブ化します。 Webページ、モバイルページ、デスクトップアプリケーションにビデオのURL文字列または埋め込みコードを配置するには、Dynamic Media Classicからコピーします。
+Webサイト、モバイルサイト、デスクトップアプリケーションは、URL文字列または埋め込みコードを使用して、ビデオを含むAdobeDynamic Media Classicサーバーコンテンツにアクセスします。 AdobeDynamic Media Classicは、公開プロセス中にこれらのURL文字列をアクティブ化します。 Webページ、モバイルページ、デスクトップアプリケーションにビデオのURL文字列または埋め込みコードを配置するには、AdobeDynamic Media Classicからコピーします。
 
 >[!NOTE]
 >
@@ -27,15 +27,15 @@ Webサイト、モバイルサイト、デスクトップアプリケーショ�
 
 ## ビデオの公開 {#publishing-video}
 
-ビデオを公開すると、Dynamic Media Classic ServerはWebサイト、モバイルサイトまたはアプリケーションにビデオを配信できます。
+ビデオを公開すると、AdobeDynamic Media Classic ServerはビデオをWebサイト、モバイルサイトまたはアプリケーションに配信できます。
 
 ビデオの公開に使用できる方法は次の 2 つあります。
 
-* **アップロード時にビデオを自動的に即時公開する**  — ビデオのアップロードプロセスの一環として、Dynamic Media Classicは、ビデオをアップロードしてエンコードする際に、自動的に公開できます。 この即時公開機能があることで、アップロードとエンコード後にビデオを個別に公開する必要がありません。
+* **アップロード時にビデオを自動的に即時公開する**  — ビデオのアップロードプロセスの一環として、AdobeDynamic Media Classicは、ビデオをアップロードしてエンコードする際に、自動的に公開できます。 この即時公開機能があることで、アップロードとエンコード後にビデオを個別に公開する必要がありません。
 
 * **アップロード後にビデオを手動で公開する**  — ビデオをすぐに公開しない場合は、いつでも手動でビデオを公開できます。
 
-ビデオを公開すると、Dynamic Media ClassicはHTMLページまたはアプリケーションコードのURL文字列をアクティベートします。
+ビデオを公開すると、AdobeDynamic Media ClassicはHTMLページまたはアプリケーションコードのURL文字列をアクティベートします。
 
 **ビデオを公開するには:**
 
@@ -107,7 +107,7 @@ Web ページにビデオを埋め込んで再生したい場合は、「埋め�
 
 ### MP4ビデオアセットでHTML5ビデオを使用するための埋め込みコードの実装 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Dynamic Media Classic HTML5ビデオプレーヤーを使用せずに、MP4ビデオアセットでネイティブのHTML5 `<video>`タグを使用する場合は、次の埋め込みコードのサンプルを使用できます。
+Dynamic Media Classic HTML5ビデオAdobeを使用せず、MP4ビデオアセットでネイティブのHTML5 `<video>`タグを使用する場合は、次の埋め込みコードのサンプルを使用できます。
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,11 +131,11 @@ Dynamic Media Classic HTML5ビデオプレーヤーを使用せずに、MP4ビ�
 
 ## サードパーティのビデオプレーヤーを使用したビデオのデプロイ {#deploying-video-using-a-third-party-video-player}
 
-Dynamic Media Classicビデオビューアの代わりにサードパーティのビデオプレーヤーまたはカスタムビルドビデオプレーヤーを使用している場合、HLSマルチビットレートビデオストリーミングまたはプログレッシブダウンロードで機能する直接ビデオURLを取得します。
+AdobeのDynamic Media Classicビデオビューアの代わりにサードパーティのビデオプレーヤーまたはカスタムビルドビデオプレーヤーを使用している場合、HLSマルチビットレートビデオストリーミングまたはプログレッシブダウンロードで機能する直接ビデオURLを取得します。
 
 **サードパーティのビデオプレーヤーを使用してビデオを配信するには:**
 
-1. Dynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 一般設定]**&#x200B;に移動します。
+1. AdobeDynamic Media Classicで、グローバルナビゲーションバーの&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 一般設定]**&#x200B;に移動します。
 1. 使用する URL のタイプに応じて、次のいずれかの操作を行います。
 
 * 直接HLSストリーミングビデオURL（マルチビットレート）を生成するには
@@ -165,13 +165,13 @@ Dynamic Media Classicビデオビューアの代わりにサードパーティ�
 
 ## ビデオサムネールの操作 {#working-with-video-thumbnails}
 
-Dynamic Media Classicは、エンコードされたビデオと事前にエンコードされたビデオのサムネールを生成します。 ビデオサムネールは、画像アセットと同じように使用できます。さらに、Dynamic Media Classicが生成し、Dynamic Media Classicの外部にデプロイするビデオサムネールのURLを取得できます。 例えば、Web サイト上の検索結果、関連するビデオリスト、ビデオ再生リストにサムネールを配信できます。
+AdobeDynamic Media Classicは、エンコードされたビデオおよび事前にエンコードされたビデオのサムネールを生成します。 ビデオサムネールは、画像アセットと同じように使用できます。さらに、Dynamic Media Classicが生成し、AdobeDynamic Media Classic以外でデプロイするビデオサムネールのURLを取得できます。 例えば、Web サイト上の検索結果、関連するビデオリスト、ビデオ再生リストにサムネールを配信できます。
 
 ビデオの最初の不均一のフレーム（真っ黒でないフレーム、真っ白でないフレームなど）に基づきサムネールが生成されます。
 
 ### ビデオサムネールのURLの取得 {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classicは、アップロードプロセス中にビデオサムネールを自動的に生成します。 サムネールは、リストビューとグリッドビューの参照パネルに表示されます。
+AdobeDynamic Media Classicは、アップロードプロセス中にビデオサムネールを自動的に生成します。 サムネールは、リスト表示とグリッド表示の参照パネルに表示されます。
 
 ビデオサムネールの URL を生成するには、公開操作を実行します。
 
@@ -181,7 +181,7 @@ Dynamic Media Classicは、アップロードプロセス中にビデオサム�
 
 ### ビデオビューアでのポスターフレームの変更 {#modifying-poster-frames-in-video-viewers}
 
-*ポスターフレーム*&#x200B;は、ビデオの再生開始前にビデオビューアに表示される最初のフレームです。Dynamic Media Classicは、ビデオサムネールをポスターフレームとして使用します。
+*ポスターフレーム*&#x200B;は、ビデオの再生開始前にビデオビューアに表示される最初のフレームです。AdobeDynamic Media Classicは、ビデオサムネールをポスターフレームとして使用します。
 
 ポスターフレームに画像修飾子を適用できます。例えば、ポスターフレームを切り抜いたり、透明にしたりすることができます。ポスターフレームを変更するには、ビデオビューアの設定画面を開いて、「ポスター画像修飾子」セクションに修飾子を入力します。
 

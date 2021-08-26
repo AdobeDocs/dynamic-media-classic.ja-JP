@@ -1,6 +1,6 @@
 ---
 title: 詳細ビューで作業する
-description: Dynamic Media Classicの詳細ビューの操作方法を説明します。
+description: Dynamic Media Classicの詳細ビューでの作業方法をAdobeします。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 24%
 
 ---
@@ -44,7 +44,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. 参照パネルで、次のいずれかの操作を行います。
 
-   * アセットを選択します。Dynamic Media Classicの右上隅付近にある&#x200B;**[!UICONTROL 詳細ビュー]**&#x200B;アイコンを選択します。
+   * アセットを選択します。AdobeDynamic Media Classicの右上隅付近にある&#x200B;**[!UICONTROL 詳細ビュー]**&#x200B;アイコンを選択します。
    * アセットをダブルクリックします。
    * アセットを選択し、**[!UICONTROL File]** > **[!UICONTROL Details]**&#x200B;に移動します。
 
@@ -54,7 +54,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 詳細ビューでの情報の取得 {#getting-information-in-detail-view}
 
-詳細ビューには、アセットまたはファイルに関する情報が表示されます。 項目に関する次の情報が表示されます。保存先のフォルダー、ファイル名、項目がDynamic Media Classicにアップロードされた日付、および公開履歴。 詳細表示では、メタデータの表示と編集、アセットのキーワードの追加も可能です。
+詳細ビューには、アセットまたはファイルに関する情報が表示されます。 項目に関する次の情報が表示されます。保存先のフォルダー、ファイル名、AdobeDynamic Media Classicにアイテムがアップロードされた日付、公開履歴。 詳細表示では、メタデータの表示と編集、アセットのキーワードの追加も可能です。
 
 詳細ビューでアセットURLを取得できます。ただし、URLはアセットを公開するまでアクティブになりません。 画像の場合、詳細ビューには、ビルドおよび派生アセットとメタデータ（ズームターゲットや画像セットなど）のリストも表示されます。
 

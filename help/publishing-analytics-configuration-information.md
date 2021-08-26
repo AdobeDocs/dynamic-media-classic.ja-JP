@@ -10,20 +10,20 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '147'
 ht-degree: 34%
 
 ---
 
 # Adobe Analytics 設定情報の公開{#publishing-adobe-analytics-configuration-information}
 
-Dynamic Media Classicビューアを公開して、Adobe Analyticsレポートの設定に関する情報がDynamic Media Classicサーバーに送信されるようにします。 この情報はビューアに埋め込まれます。ビューアに含まれる情報をDynamic Media Classicサーバーで利用するには、公開が必要です。 サーバーから、ユーザーがビューアでアクティビティを実行した後に、Adobe Analytics へ情報を転送することができます。
+AdobeDynamic Media Classicビューアを公開して、Adobe Analyticsレポートの設定に関する情報がAdobeDynamic Media Classicサーバーに送信されるようにします。 この情報はビューアに埋め込まれます。ビューアに含まれる情報をDynamic Media ClassicAdobeで利用するには、公開が必要です。 サーバーから、ユーザーがビューアでアクティビティを実行した後に、Adobe Analytics へ情報を転送することができます。
 
 >[!NOTE]
 >
->Adobe Analytics内でAdobe Analyticsレポート設定を変更する場合は、必ずDynamic Media ClassicからAdobe Analyticsに再度ログオンし、Adobe Analytics設定を再保存してから、再公開してください。
+>Adobe Analytics内でAdobe Analyticsレポート設定を変更する場合は、必ずAdobeDynamic Media ClassicからAdobe Analyticsに再度ログオンし、Adobe Analytics設定を再保存してから、再公開してください。
 
 詳しくは、[Adobe Analytics へのログイン](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 

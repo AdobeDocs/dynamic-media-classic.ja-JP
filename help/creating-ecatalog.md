@@ -1,18 +1,18 @@
 ---
 title: eCatalogの作成
-description: Dynamic Media ClassicでeCatalogを作成する方法を説明します。
+description: Dynamic Media ClassicでeCatalogを作成する方法をAdobeします。
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
-feature: Dynamic Media Classic，ビューア，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '967'
 ht-degree: 57%
 
 ---
@@ -96,7 +96,7 @@ eCatalog を作成する際には、「**[!UICONTROL 保存後に公開]**」オ
 
 ## 目次のカスタマイズ(TOC) {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classicは、eCatalog画面の「ページを順序」タブにあるeCatalogで、デフォルトのページ番号を提供します。 ページの名前を独自に定義する場合は、目次を構成するページラベルを変更します。表紙と裏表紙には名前を付けることをお勧めします。例えば、表紙には「0-1ページ」ではなく「表紙」と表示できます。
+AdobeDynamic Media Classicは、eCatalog画面の「ページを順序」タブにあるeCatalogで、デフォルトのページ番号を提供します。 ページの名前を独自に定義する場合は、目次を構成するページラベルを変更します。表紙と裏表紙には名前を付けることをお勧めします。例えば、表紙には「0-1ページ」ではなく「表紙」と表示できます。
 
 カスタマイズした eCatalog の目次は、手動で作成するか、CSV（Mac OS のみ）または XML ファイルからページ名を読み込んで作成できます。
 

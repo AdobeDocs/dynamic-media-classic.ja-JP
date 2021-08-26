@@ -1,19 +1,19 @@
 ---
 title: 画像プリセットの作成と有効化
-description: Dynamic Media Classicで画像プリセットを作成して有効にする方法を説明します。
+description: Dynamic Media Classicで画像プリセットを作成して有効にする方法について説明します。Adobe
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic，コラボレーション，画像プリセット，アセット管理
+feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 76%
+source-wordcount: '258'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 76%
 
 ユーザが Media Portal を使用して画像アセットを書き出すとき、選択したアセットを書き出しダイアログボックスで画像プリセットを選択できます。画像プリセットは、画像を書き出すときにサイズ、画質、形式、解像度およびその他の画像の外観を変更する、一連の定義済みの設定です。
 
-Media Portal 管理者は画像プリセットを作成して、画像が書き出されるときの形式の変更方法を制御できます。画像プリセットは、ユーザーがDynamic Media Classicから画像を書き出す際に、会社の仕様に合わせて画像を再フォーマットします。 画像の形式を自動的に変更するのではなく、画像プリセットで定められた正確な指定に従って書き出します。
+Media Portal 管理者は画像プリセットを作成して、画像が書き出されるときの形式の変更方法を制御できます。画像プリセットは、ユーザーがDynamic Media Classicから画像を書き出す際に、Adobeの仕様に合わせて画像を再フォーマットします。 画像の形式を自動的に変更するのではなく、画像プリセットで定められた正確な指定に従って書き出します。
 
 画像アセットを書き出す際、以下の制限が適用されます。
 

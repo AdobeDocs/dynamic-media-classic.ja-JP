@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 23%
 
 ---
 
 # 設定の基本{#setup-basics}
 
-Dynamic Media Classic設定ページを使用して、個人設定を入力します。 管理者の場合は、会社情報の設定を行うことができます。設定ページを開くには、グローバルナビゲーションバーで、「**[!UICONTROL 設定]**」をクリックします。
+「 Dynamic Media ClassicのAdobe」ページを使用して、個人設定を入力します。 管理者の場合は、会社情報の設定を行うことができます。設定ページを開くには、グローバルナビゲーションバーで、「**[!UICONTROL 設定]**」をクリックします。
 
 このページで使用できる設定は、ユーザーまたは管理者としてのステータスによって異なります。
 
@@ -34,7 +34,7 @@ Dynamic Media Classic設定ページを使用して、個人設定を入力し�
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media Classicユーザーの役割と権限](administration-setup.md#user_administration)
-* [画像プリセット](application-setup.md#image_presets)
-* [ビューアプリセット](application-setup.md#viewer_presets)
+>* [AdobeDynamic Media Classicユーザーの役割と権限](administration-setup.md#user_administration)
+>* [画像プリセット](application-setup.md#image_presets)
+>* [ビューアプリセット](application-setup.md#viewer_presets)
 

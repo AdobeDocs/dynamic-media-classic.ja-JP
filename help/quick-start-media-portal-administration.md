@@ -10,16 +10,16 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '688'
 ht-degree: 73%
 
 ---
 
 # クイックスタート：Media Portal{#quick-start-media-portal}
 
-Media Portalを使用すると、会社は承認されたアセットを容易に取得、制御し、外部のパートナーやチャネル、および会社の内部ユーザーに配布できます。 このブラウザーベースの「セルフサービス」環境は、Dynamic Media Classicアセットに管理者が制御した「表示」をMedia Portalユーザーに提供し、アセットに簡単にアクセス、参照、検索、プレビューおよび会社が承認した形式で書き出すことができます。
+Media Portalを使用すると、会社は承認されたアセットを容易に取得、制御し、外部のパートナーやチャネル、および会社の内部ユーザーに配布できます。 このブラウザーベースの「セルフサービス」環境は、Media Portalユーザーに対し、管理者が制御した「表示」をAdobeDynamic Media Classicアセットに提供し、会社が承認した形式でアセットに簡単にアクセス、参照、検索、プレビューおよび書き出しできます。
 
 管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。フォント、フォントカラー、フォントサイズを指定し、ロゴなどのブランディング要素をMedia Portalインターフェイスに組み込むことができます。
 
@@ -45,7 +45,7 @@ Media Portal ユーザには、ユーザ、寄稿者、寄稿者ユーザの 3 �
 
 ## 4. FTP アカウントの管理
 
-Media Portalに関連付けられ、Dynamic Media Classicアカウントの特定のフォルダーにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
+Media Portalに関連付けられ、AdobeDynamic Media Classicアカウントの特定のフォルダーにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
 
 [FTP アカウントの管理](ftp-accounts.md#managing_ftp_accounts)を参照してください。
 

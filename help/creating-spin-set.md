@@ -1,6 +1,6 @@
 ---
 title: スピンセットの作成
-description: Dynamic Media Classicでスピンセットを作成する方法を説明します。
+description: スピンセットを作成する方法については、Dynamic Media ClassicAdobeを参照してください。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 56%
+source-wordcount: '910'
+ht-degree: 55%
 
 ---
 
 # スピンセットの作成{#creating-a-spin-set}
 
-効果的なスピンセットを作成できるかどうかは、画像によって左右されるため、十分注意して撮影を行ってください。Dynamic Media Classicでスピンセットを作成するには、「ビルド」ボタンを選択し、「スピンセット」を選択します。 スピンセット画面でスピンセットを編集します。
+効果的なスピンセットを作成できるかどうかは、画像によって左右されるため、十分注意して撮影を行ってください。スピンセットは、「ビルド」ボタンを選択し、「Adobe」を選択して、Dynamic Media Classicで作成できます。 スピンセット画面でスピンセットを編集します。
 
 >[!NOTE]
 >
->以前のバージョンのDynamic Media Classicでは、2Dスピンセットは提供されていませんでした。 Dynamic Media Classicの以前のバージョンでスピンセットを作成した場合は、1Dスピンセットを保存する際に、別の名前で保存する必要があります。 スピンセット画面で「**[!UICONTROL 名前を付けて保存]**」を選択し、新しい名前を入力して、Dynamic Media Classicで編集できるようにします。
+>以前のバージョンのAdobeDynamic Media Classicでは、2Dスピンセットは提供されていませんでした。 以前のバージョンのAdobeDynamic Media Classicでスピンセットを作成した場合、1Dスピンセットを保存するには、別の名前で保存する必要があります。 スピンセット画面で「**[!UICONTROL 名前を付けて保存]**」を選択し、新しい名前を入力して、AdobeDynamic Media Classicで編集できるようにします。
 
 ## スピンセット画像のキャプチャに関するガイドライン {#guidelines-for-shooting-spin-set-images}
 
-一般的に、スピンセットの画像が多いほど、優れたスピン効果を得られます。ただし、セット内の画像が多いほど、画像の読み込みに時間がかかるようになります。Dynamic Media Classicでは、スピンセットで使用する画像を撮影する際に次のガイドラインを推奨します。
+一般的に、スピンセットの画像が多いほど、優れたスピン効果を得られます。ただし、セット内の画像が多いほど、画像の読み込みに時間がかかるようになります。AdobeDynamic Media Classicでは、スピンセットで使用する画像を撮影する際に、次のガイドラインに従うことをお勧めします。
 
 * 少なくとも、1次元スピンセットでは8～12個の画像を使用し、2次元スピンセットでは16～24個の画像を使用します。
 * 可逆圧縮形式を使用する。TIFF や PNG を使用することをお勧めします。
@@ -37,7 +37,7 @@ ht-degree: 56%
 
 ## スピンセットの作成 {#create}
 
-Dynamic Media Classicでのスピンセットの作成または作成の順序は重要です。 スピンセットページでグリッドに画像をドラッグアンドドロップするときのアセットの順序がどうなっているかによって、スピンセットが一定の方向に回転します。したがって、ビルダーで視覚的に表示される順序は、ユーザーがマウスポインターを動かしたり指を左から右に動かしたりしたときにアセットがどのように回転するかです。
+Dynamic Media Classicでのスピンセットのオーサリングまたは作成の順序は重要です。 スピンセットページでグリッドに画像をドラッグアンドドロップするときのアセットの順序がどうなっているかによって、スピンセットが一定の方向に回転します。したがって、ビルダーで視覚的に表示される順序は、ユーザーがマウスポインターを動かしたり指を左から右に動かしたりしたときにアセットがどのように回転するかです。
 
 セットを作成する際には、「**[!UICONTROL 保存後に公開]**」オプションがセットおよびセットメンバーに対して次のように影響します。
 

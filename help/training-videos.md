@@ -1,10 +1,10 @@
 ---
-title: Dynamic Media Classicトレーニングビデオ
-description: Dynamic Media Classicの入門、ダイナミックイメージング、ビデオ、メディアポータル、テンプレート、画像のオーサリングとレンダリングに関するトレーニングビデオ。
+title: AdobeDynamic Media Classicトレーニングビデオ
+description: AdobeDynamic Media Classicの入門、ダイナミックイメージング、ビデオ、メディアポータル、テンプレートおよび画像のオーサリングとレンダリングに関するトレーニングビデオ。
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '6546'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # AdobeDynamic Media Classicトレーニングビデオ {#training-videos}
 
-Dynamic Media Classicの入門、ダイナミックイメージング、ビデオ、メディアポータル、テンプレート、画像のオーサリングとレンダリングに関するトレーニングビデオ。
+AdobeDynamic Media Classicの入門、ダイナミックイメージング、ビデオ、メディアポータル、テンプレートおよび画像のオーサリングとレンダリングに関するトレーニングビデオ。
 
 ## 使い始める前に {#get-started-training}
 

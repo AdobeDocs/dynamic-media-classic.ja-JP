@@ -10,9 +10,9 @@ discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1017'
 ht-degree: 58%
 
 ---
@@ -107,7 +107,7 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 
 ## Media Portal ユーザ向けのご案内の電子メールメッセージの設定 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定するか、Dynamic Media Classicに送信しないように伝えることができます。
+新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定したり、Dynamic Media ClassicにAdobeに送信しないよう伝えたりできます。
 
 1. **[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 管理設定]** / **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
 1. ユーザー管理の設定画面で、「**[!UICONTROL 電子メールの設定]**」を選択します。
@@ -131,6 +131,6 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 
 * **[!UICONTROL ユーザー情報の編集]**  — ユーザーに関する最新の情報を入力します。
 
-* **[!UICONTROL ユーザー定義フィールドの作成]**  - Dynamic Media Classicでのアセットの整理に役立つように、ユーザー定義のカスタムのメタデータフィールドを作成します。このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
+* **[!UICONTROL ユーザー定義フィールドの作成]**  -AdobeDynamic Media Classicでのアセットの整理に役立つように、ユーザー定義のカスタムのメタデータフィールドを作成します。このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
 
 [ユーザ定義フィールド](application-setup.md#user_defined_fields)を参照してください。

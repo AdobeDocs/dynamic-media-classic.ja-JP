@@ -6,10 +6,10 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
-feature: Dynamic Media Classic，ビューア，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 44%
@@ -22,13 +22,13 @@ ht-degree: 44%
 
 ## PDF ファイルの準備 {#preparing-your-pdf-files}
 
-PDFファイルをDynamic Media Classicにアップロードする前に、次の手順を実行します。
+PDFファイルをAdobeDynamic Media Classicにアップロードする前に、PDFファイルを準備します。
 
 * ファイルを簡単にアップロードするには、すべてのファイルをコンピューターまたはネットワーク上の同じフォルダーに配置します。
 * ページの順番と同じになるように、英数字の順にファイルの名前を付けます。ページの順番に合わせておけば、ファイルをアップロードした後に正しい順番でページを並べやすくなります。
-* PDFページに内トンボ、レジストレーションターゲット、カラーバーのどれが含まれているかを確認するには、ページを調べます。 このようなマークが入っていると、文書を印刷するときにこのマークに沿ってページが切り抜かれるため、Web に eCatalog を掲載する前に削除しておく必要があります。Dynamic Media Classicには、PDFファイルをアップロードする際にマークを切り抜くためのオプションが用意されています。
+* PDFページに内トンボ、レジストレーションターゲット、カラーバーのどれが含まれているかを確認するには、ページを調べます。 このようなマークが入っていると、文書を印刷するときにこのマークに沿ってページが切り抜かれるため、Web に eCatalog を掲載する前に削除しておく必要があります。AdobeDynamic Media Classicには、PDFファイルをアップロードする際にマークを切り抜くためのオプションが用意されています。
 * eCatalog をキーワードで検索できるようにする場合は、PDF ファイルが画像化されていないかどうかを確認してください。画像化された PDF ファイルでは、検索語を抽出できなくなります。PDF ファイルが画像化されているかどうかを確認するには、PDF のテキストを選択できるかどうか試してみます。テキストを選択できない場合、PDFは統合され、閲覧者はeCatalog内のキーワードで検索できません。
-* PDF ファイルは印刷を目的としたファイルなので、通常、CMYK 画像が含まれています。デフォルトでは、Dynamic Media Classicは、これらのCMYK画像をインテリジェントに検出し、内部のCMYKカラープロファイルを使用して変換できます。 ただし、必要に応じて、カスタムカラープロファイルを使用して CMYK 画像を変換することもできます。
+* PDF ファイルは印刷を目的としたファイルなので、通常、CMYK 画像が含まれています。デフォルトでは、AdobeDynamic Media Classicは、これらのCMYK画像をインテリジェントに検出し、内部のCMYKカラープロファイルを使用して変換できます。 ただし、必要に応じて、カスタムカラープロファイルを使用して CMYK 画像を変換することもできます。
 
    詳しくは、[ICC プロファイル](icc-profiles.md#icc_profiles)を参照してください。
 
@@ -46,7 +46,7 @@ PDFファイルをDynamic Media Classicにアップロードする前に、次�
 
 * **複数ページのPDFからeCatalogを自動生成（オプション）**  — アップロードオプションを設定ダイアログボックスで、「PDFオプション」を **[!UICONTROL クリックします]**。アップロード時にeCatalogを自動的に作成するには、「**[!UICONTROL 複数のページのPDFからeCatalogを自動生成]**」を選択します。 PDF ファイルを選択してから「ビルド」コマンドを選択しなくても、eCatalog 画面が開き、eCatalog で作業できるようになります。eCatalog の名前は、PDF ファイルの名前をもとに付けられます。
 
-* **解決方法**  — アップロードオプションを設定ダイアログボックスで、「PDFオプション」 **[!UICONTROL をクリックします]**。「**[!UICONTROL 解像度]**」テキストフィールドに値を入力します。 Dynamic Media Classicは150ピクセル/インチを推奨します。
+* **解決方法**  — アップロードオプションを設定ダイアログボックスで、「PDFオプション」 **[!UICONTROL をクリックします]**。「**[!UICONTROL 解像度]**」テキストフィールドに値を入力します。 AdobeDynamic Media Classicは、150ピクセル/インチを推奨します。
 
 * **カラースペース**  — アップロードオプションを設定ダイアログボックスで、「PDFオプショ **[!UICONTROL ン」をクリックします]**。「カラースペース」ドロップダウンリストで、「**[!UICONTROL 自動検出]**」を選択します。 一般的に PDF のカラースペースは、印刷出力が目的の場合には CMYK、オンライン表示が目的の場合には RGB になります。PDF に両方のカラースペースが含まれている場合は、「RGB としてレンダリング」または「CMYK としてレンダリング」のいずれかを選択して、一方のカラースペースを選択できます。例えば、ページのグラフィックに CMYK カラースペースが使用され、ピクチャに RGB カラースペースが使用されている場合には、両方のカラースペースが PDF に含まれます。ICC プロファイルをアップロードしておくと、カラースペースメニューにその名前が表示され、選択して使用できます。
 
@@ -56,7 +56,7 @@ PDFファイルをDynamic Media Classicにアップロードする前に、次�
 
    * **元のカラースペースを保持**  — 元のカラースペースを保持します。
 
-   * **カスタムコピー元/コピー先**  — サブメニューを開き、「変換元」および「変換先 **[!UICONTROL 」カ]** ラース **[!UICONTROL ペー]** スを選択します。標準のPhotoshopカラースペースまたはDynamic Media Classicにアップロードしたカラースペースを選択できます。
+   * **カスタムコピー元/コピー先**  — サブメニューを開き、「変換元」および「変換先 **[!UICONTROL 」カ]** ラース **[!UICONTROL ペー]** スを選択します。標準のPhotoshopカラースペースまたはDynamic Media ClassicにアップロードしたAdobeのカラースペースを選択できます。
 
 <!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
 

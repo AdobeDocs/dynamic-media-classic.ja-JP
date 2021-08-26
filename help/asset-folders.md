@@ -1,27 +1,27 @@
 ---
 title: アセットフォルダーの操作
-description: Dynamic Media Classicでアセットフォルダーを使用する方法について説明します。
+description: AdobeDynamic Media Classicでのアセットフォルダーの操作方法を説明します。
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '451'
 ht-degree: 39%
 
 ---
 
 # アセットフォルダーの操作{#working-with-asset-folders}
 
-Dynamic Media Classicのファイルアセットは、フォルダーに保存されます。 これらのフォルダは、アセットライブラリパネルにアルファベット順に表示されます。コンピューターまたはネットワークからDynamic Media Classicにファイルをアップロードする前に、ファイルを保存するフォルダーの名前を指定するよう求められます。 ファイルをアップロードする前に、これらのフォルダを作成してください。
+Dynamic Media ClassicAdobe内のファイルアセットは、フォルダーに保存されます。 これらのフォルダは、アセットライブラリパネルにアルファベット順に表示されます。コンピューターまたはネットワークからDynamic Media Classicにファイルをアップロードする前に、ファイルを保存するためのフォルダーの名前を指定するよう求められます。 ファイルをアップロードする前に、これらのフォルダを作成してください。
 
-ファイルをアップロードする前に、Dynamic Media Classicにファイルを保存するためのフォルダー構造と組織を確立してください。
+ファイルをアップロードする前に、Dynamic Media Classicでファイルを保存するためのAdobeー構造と組織を確立してください。
 
 ## フォルダーの表示、移動、非表示、開く {#displaying-moving-hiding-and-opening-folders}
 
@@ -47,7 +47,7 @@ Dynamic Media Classicのファイルアセットは、フォルダーに保存�
 
    >[!NOTE]
    >
-   >また、FTPを使用してファイルをアップロードする際に、Dynamic Media Classicでフォルダーを作成することもできます。 FTPを使用してアップロードする際に「**[!UICONTROL サブフォルダーを含める]**」オプションを選択すると、システム内のコンピューター上でフォルダー構造がレプリケートされます。 コンピュータまたはネットワーク上のファイルとサブフォルダがアセットライブラリに複製され、アップロードするアセットがこれらのフォルダに配置されます。
+   >FTPを使用してファイルをアップロードする際に、AdobeDynamic Media Classicでフォルダーを作成することもできます。 FTPを使用してアップロードする際に「**[!UICONTROL サブフォルダーを含める]**」オプションを選択すると、システム内のコンピューター上でフォルダー構造がレプリケートされます。 コンピュータまたはネットワーク上のファイルとサブフォルダがアセットライブラリに複製され、アップロードするアセットがこれらのフォルダに配置されます。
 
 ## フォルダーの削除と名前変更 {#deleting-and-renaming-folders}
 
@@ -59,4 +59,4 @@ Dynamic Media Classicのファイルアセットは、フォルダーに保存�
 
 >[!NOTE]
 >
->フォルダーやアセットをコピーすると、Dynamic Media Classic上に重複するフォルダーやアセットが作成され、重複は許可されないので、コピーできません。
+>フォルダーやアセットをコピーすると、AdobeDynamic Media Classic上に重複するフォルダーやアセットが作成され、重複は許可されないので、フォルダーやアセットをコピーできません。
