@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
-feature: Dynamic Media Classic，ビューア，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1424'
 ht-degree: 50%
 
 ---
@@ -87,13 +87,13 @@ eCatalogページの「**[!UICONTROL ページの順序]**」タブで、「レ�
 
 eCatalog 画面内の情報パネル設定を使用して、画像マップのテキストを設定および管理できます。
 
-詳しくは、[情報パネルのコンテンツの管理](info-panel-content.md#managing-info-panel-content)を参照してください。
+[eCatalogの情報パネルのコンテンツを管理する](/help/info-panel-content-ecatalog.md)を参照してください。
 
 ## 4. eCatalogビューアプリセットの設定
 
 エンドユーザは eCatalog ビューアで eCatalog を表示します。管理者には eCatalog ビューアを設定する権限があります。アウトラインカラーを変更したり、eCatalog 用の自社用「スキン」を選択したりできます。Dynamic Media Classicには、「ベストプラクティス」のeCatalogビューアプリセットがいくつか用意されています。 eCatalogを表示するために、これらのプリセットの1つを選択できます。 管理者であれば、独自の eCatalog ビューアプリセットを作成することもできます。
 
-eCatalogビューアプリセットを作成するには、グローバルナビゲーションバーで「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL ビューアプリセット]**」を選択します。 次に、「****&#x200B;を追加」をクリックし、プラットフォームを選択して、**[!UICONTROL eCatalog/ビューア]**&#x200B;をクリックします。
+eCatalogビューアプリセットを作成するには、グローバルナビゲーションバーで「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL ビューアプリセット]**」を選択します。 次に、「**[!UICONTROL 追加]**」をクリックし、プラットフォームを選択して、**[!UICONTROL eCatalog/ビューア]**&#x200B;をクリックします。
 
 詳しくは、[eCatalog ビューアプリセットの設定](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)を参照してください。
 

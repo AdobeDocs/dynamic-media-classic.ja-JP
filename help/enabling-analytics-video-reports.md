@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics ビデオレポートの有効化
-description: Adobe Analyticsビデオレポートを有効にする方法を説明します。
+title: Adobe Analyticsビデオレポートの有効化
+description: Dynamic Media ClassicでAdobe Analyticsビデオレポートを有効にする方法を説明します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 17%
+source-wordcount: '245'
+ht-degree: 13%
 
 ---
 
-# Adobe Analytics ビデオレポートの有効化{#enabling-adobe-analytics-video-reports}
+# Adobe Analyticsビデオレポートの有効化{#enabling-adobe-analytics-video-reports}
 
 Adobe Analyticsハートビートベースのビデオレポートを使用する場合、Dynamic Media ClassicでAdobe Analyticsを設定する際に、4つのビデオビューアイベント（再生、一時停止、停止、マイルストーン）を有効にする必要がなくなりました。 ビデオハートビートは、標準搭載のDynamic Media Classic HTML5ビデオビューアおよび混在メディアビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。
 

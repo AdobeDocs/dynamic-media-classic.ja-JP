@@ -1,16 +1,16 @@
 ---
 title: Dynamic Media Classicヘルプ
-seo-title: AdobeDynamic Media Classic
+seo-title: Adobe Dynamic Media Classic
 description: Dynamic Media Classicの概要
-seo-description: Dynamic Media Classicの概要
+seo-description: Dynamic Media Classic overview
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 31%
+source-wordcount: '238'
+ht-degree: 32%
 
 ---
 

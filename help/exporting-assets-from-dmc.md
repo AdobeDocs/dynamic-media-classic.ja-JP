@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic，アセット管理
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 63%
+source-wordcount: '425'
+ht-degree: 52%
 
 ---
 
@@ -27,28 +27,28 @@ Dynamic Media Classicは、ジョブ画面に書き出しジョブの記録を�
 
 **Dynamic Media Classicからアセットを書き出すには：**
 
-1. 書き出すアセットを選択し、**[!UICONTROL ファイル]**／**[!UICONTROL 書き出し]**&#x200B;を選択します。
-1. 選択したアセットを書き出しウィンドウで、**「イメージ」オプション**&#x200B;をクリックしてから、次のオプションを指定します（ユーザが指定できるオプションは管理者が決定します）。
+1. 書き出すアセットを選択し、**[!UICONTROL ファイル]** /**[!UICONTROL 書き出し]**&#x200B;に移動します。
+1. 選択したアセットを書き出しウィンドウで、**[!UICONTROL 「イメージ」オプション]**&#x200B;をクリックしてから、次のオプションを指定します（ユーザが指定できるオプションは管理者が決定します）。
 
-   * **プリセット**  — オプションで、アセットの書き出し時の形式を設定する「画像プリセット」を選択します。「画像プリセット」を選択した場合、アセットは画像プリセットで定義されている形式を採用するため、その他の形式オプションを選択できなくなります。
+   * **[!UICONTROL プリセット]**  — オプションで、アセットの書き出し時の形式を設定する「画像プリセット」を選択します。「画像プリセット」を選択した場合、アセットは画像プリセットで定義されている形式を採用するため、その他の形式オプションを選択できなくなります。
 
-   * **変換**  — アセットファイルまたは元の画像を変換します。
+   * **[!UICONTROL 変換]**  — アセットファイルまたは元の画像を変換します。
 
-   * **サイズ**  — 標準サイズを選択できます。または、サイズドロップダウンリストから&#x200B;**[!UICONTROL その他]**&#x200B;をクリックして、希望の測定単位を選択してから、幅と高さを指定します。****
+   * **[!UICONTROL サイズ]**  — 標準サイズを選択できます。または、「**[!UICONTROL サイズ]**」ドロップダウンリストから「**[!UICONTROL その他]**」を選択し、目的の測定単位を選択して、幅と高さを指定します。
 
-      詳しくは、[Media Portal ユーザが使用できる書き出しオプションの指定](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)も参照してください。
+      [Media Portalユーザーが使用できる書き出しオプションの指定](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)も参照してください。
 
-   * **形式**  — 画像形式を選択します。
+   * **[!UICONTROL 形式]**  — 画像形式を選択します。
 
-   * **カラー**  - RGB、CMYKまたはグレーを選択します。
+   * **[!UICONTROL カラー]**  - RGB、CMYKまたはグレーを選択します。
 
-   * **解像度**  - 72 ppi、150 ppiまたは300 ppiを選択します。
+   * **[!UICONTROL 解像度]**  - 72 ppi、150 ppiまたは300 ppiを選択します。
 
-   * **ジョブ名**  — エクスポートにジョブ名を割り当てることができます。
+   * **[!UICONTROL ジョブ名]**  — エクスポートにジョブ名を割り当てることができます。
 
-   * **電子メールの送信先**  — オプションで、アセットを電子メールで送信する電子メールアドレスを入力します。電子メールには URL が記載されていて、受信者はこの URL にアクセスしてアセットをダウンロードすることができます。
+   * **[!UICONTROL 電子メールの送信先]**  — アセットを電子メールで送信する場合は、必要に応じて電子メールアドレスを入力します。電子メールには URL が記載されていて、受信者はこの URL にアクセスしてアセットをダウンロードすることができます。
 
-1. **[!UICONTROL 「ファイルのエクスポート」]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 書き出し]**」を選択します。
 
 次の 3 つの基本的な書き出し操作がサポートされています。
 

@@ -10,10 +10,10 @@ discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: c6f217fb-89cb-4c8d-aa7f-309fc42f7d46
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '149'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,6 @@ ht-degree: 1%
 
    例えば、アドレスバーの&#x200B;*fiction* URL（URLパスには常にスラッシュが含まれ、この例のようにバックスラッシュは含まれません）が`https:\\www.myfictionalsite.com/categories/admin/home.do`の場合、*fictional* URLのこの部分のみをコピーします。`https:\\www.myfictionalsite.com`.
 
-1. [!DNL Dynamic Media Classic]で、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]**&#x200B;をクリックします。
+1. [!DNL Dynamic Media Classic]で、**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**&#x200B;に移動します。
 1. アプリケーションの一般設定ページの「**[!UICONTROL Test&amp;Target Server Name]**」フィールドに、手順2でコピーしたURLを貼り付けます。
-1. 「**[!UICONTROL 閉じる]**」をクリックします。
+1. **[!UICONTROL 閉じる]**&#x200B;を選択します。
