@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
 source-wordcount: '10951'
 ht-degree: 44%
@@ -35,7 +35,7 @@ ht-degree: 44%
 
 * **[!UICONTROL 公開先サーバー名]**  — このサーバーは、アカウントに固有のすべてのシステム生成URL呼び出しで使用される、ライブコンテンツ配信ネットワーク(CDN)サーバーです。AdobeのDynamic Media Classicサポート技術者によって指示されない限り、このサーバー名は変更しないでください。
 
-* **[!UICONTROL オリジンサーバー名]**  — このサーバーは、品質保証テストにのみ使用されます。AdobeのDynamicMedia Classicサポート技術者による指示がない限り、このサーバー名を変更しないでください。
+* **[!UICONTROL オリジンサーバー名]**  — このサーバーは、品質保証テストにのみ使用されます。AdobeのDynamic Media Classicサポート技術者から指示されない限り、このサーバー名は変更しないでください。
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
@@ -623,7 +623,7 @@ AdobeDynamic Media Classicは、MP4 H.264ビデオのモバイルビデオ再生
 
 既存のHTML5ビューアプリセットを書き出して、HTML5ビューアプリセットを作成する際の基礎として使用できます。 この書き出しオプションが便利なのは、ビューアプリセットをゼロから作成する必要がなくなる点にあります。代わりに、外観や動作が希望に近いプリセットを書き出すことで、それをデザインを調整するための出発点として使用できます。
 
-AdobeAdobeDynamic Media Classicのすべての初期設定の標準提供ビューアプリセットCSSファイルは、`Scene7SharedAssets`上のアセットを指す相対的な画像サービングパスを使用します。 例えば、次に示すのは、
+AdobeDynamic Media Classicのすべての初期設定の標準提供ビューアプリセットCSSファイルは、`Scene7SharedAssets`上のアセットを指す相対的な画像サービングパスを使用します。 例えば、次に示すのは、
 
 `Scene7SharedAsset`:  `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
