@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 55%
@@ -120,6 +120,6 @@ JPG圧縮のベストプラクティスとして、`&qlt=85,0`を使用します
 
 実験を行う際に、ワークフローを最適化するには、次の一般的な推奨事項が役立ちます。
 
-* 様々なパラメーターをリアルタイムでテストします。その際は、AdobeDynamic Media ClassicのURLで直接使用するか、AdobeDynamic Media Classicの画像調整機能を使用します。 後者は、調整操作のリアルタイムプレビューを提供します。
+* AdobeのDynamic Media Classic URLで直接、またはAdobeのDynamic Media Classicの画像調整機能を使用して、様々なパラメーターをリアルタイムでテストします。 後者は、調整操作のリアルタイムプレビューを提供します。
 * ベストプラクティスとして、Dynamic Media画像サービングコマンドを画像プリセットにグループ化できます。 画像プリセットは基本的に、`$thumb_low$`や`&product_high$`などのカスタムプリセット名を含むURLコマンドマクロです。 URLパス内のカスタムプリセット名は、これらのプリセットを呼び出します。 この機能により、Web サイト上での様々な画像使用パターンに関するコマンドおよび画質設定を管理でき、URL 全体の長さを短縮することもできます。
 * AdobeDynamic Media Classicでは、取り込み時に画像のシャープを適用するなど、画質を調整するより高度な方法も提供されています。 レンダリング結果のさらなる調整と最適化がオプションとなる高度な使用例については、Adobe Professional Servicesがお客様向けにカスタマイズした見識とベストプラクティスを提供します。

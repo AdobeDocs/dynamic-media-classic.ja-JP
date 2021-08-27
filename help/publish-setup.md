@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 46%
+source-wordcount: '2410'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 管理者は、Image Server、Image RendererおよびVignetteページのデフォルト設定を変更して、サーバーからアセットを配信する際のデフォルト設定を指定できます。
 
-公開設定ページを開くには、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 公開設定]**&#x200B;をクリックします。
+公開設定ページを開くには、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 公開設定]**&#x200B;に移動します。
 
 >[!NOTE]
 >
@@ -32,28 +32,28 @@ Image Serverページでは、Image Serverから画像を配信するための�
 
 Dynamic Media Classicのサポート担当者の支援を得た場合にのみ、これらの設定を変更してください。
 
-* **カタログ管理**  — これらの設定は、Dynamic Media ClassicとカタログとのAdobeを決定します。ほとんどのWebサーバーとは異なり、Dynamic Media Image ServerのURL呼び出しは、適切なイメージファイルではなく、マニフェストファイルまたはカタログファイルに送信されます。 カタログファイル（eCatalog と混同しないでください）には、Image Server に公開されたすべてのコンテンツのリストと、各画像へのパスが含まれています。Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
+* **[!UICONTROL カタログ管理]**  — これらの設定は、Dynamic Media ClassicとカタログとのAdobeを決定します。ほとんどのWebサーバーとは異なり、Dynamic Media Image ServerのURL呼び出しは、適切なイメージファイルではなく、マニフェストファイルまたはカタログファイルに送信されます。 カタログファイル（eCatalog と混同しないでください）には、Image Server に公開されたすべてのコンテンツのリストと、各画像へのパスが含まれています。Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
 
-* **要求属性**  — これらの設定は、サーバーから配信できる画像を制限します。例えば、*最大* **[!UICONTROL 返信画像サイズの制限]**&#x200B;は&#x200B;**[!UICONTROL 幅]** 5000および&#x200B;**[!UICONTROL 高さ]** 5000です。
+* **[!UICONTROL 要求属性]**  — これらの設定は、サーバーから配信できる画像を制限します。例えば、*最大* **[!UICONTROL 返信画像サイズの制限]**&#x200B;は&#x200B;**[!UICONTROL 幅]** 5000および&#x200B;**[!UICONTROL 高さ]** 5000です。
 
-* **デフォルトの要求属性**  — これらの設定は、画像のデフォルトの表示に関係します。
+* **[!UICONTROL デフォルトの要求属性]**  — これらの設定は、画像のデフォルトの表示に関係します。
 
-* **共通のサムネール属性**  — これらの設定は、サムネール画像のデフォルトの外観と配置に関係します。
+* **[!UICONTROL 共通のサムネール属性]**  — これらの設定は、サムネール画像のデフォルトの外観と配置に関係します。
 
-* **カタログフィールドの初期設定**  — これらの設定は、画像の解像度とデフォルトのサムネールの種類に関係します。
+* **[!UICONTROL カタログフィールドの初期設定]**  — これらの設定は、画像の解像度とデフォルトのサムネールの種類に関係します。
 
-* **カラーマネジメント属性**  — これらの設定は、使用するICCカラープロファイルを決定します。
+* **[!UICONTROL カラーマネジメント属性]**  — これらの設定は、使用するICCカラープロファイルを決定します。
 
-* **互換性の属性**  — この設定により、後方互換性を確保するためにバージョン3.6の場合と同様に、テキストレイヤーの先頭と末尾の段落が処理されます。
+* **[!UICONTROL 互換性の属性]**  — この設定により、後方互換性を確保するためにバージョン3.6の場合と同様に、テキストレイヤーの先頭と末尾の段落が処理されます。
 
-* **ローカリゼーションサポート**  — これらの設定を使用すると、複数のロケール属性を管理できます。また、ロケールマップ文字列を指定することもできます。これにより、ビューアのツールチップで使用する言語を指定できます。
+* **[!UICONTROL ローカリゼーションサポート]*** — これらの設定を使用すると、複数のロケール属性を管理できます。また、ロケールマップ文字列を指定することもできます。これにより、ビューアのツールチップで使用する言語を指定できます。
 
    例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。この機能を実現するには、ロケールマップ文字列を指定します。次に、必要な言語に翻訳したテキスト文字列を追加して、ビューアのプリセットのツールチップテキストを編集します。
 
    >[!NOTE]
    > 「ローカリゼーションサポート」オプションを設定するには、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、セットアップヘルプをリクエストします。
 
-   **「ローカリゼーションサポート」**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
+   **[!UICONTROL 「ローカリゼーションサポート」]**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
 
 ### アセットのローカリゼーションを設定する場合の考慮事項 {#considerations-when-setting-up-localization-of-assets}
 
@@ -90,12 +90,12 @@ ISは、任意の印刷可能なASCII文字列をサポートします。 `local
 #### アプリケーションのシナリオ
 
 | アプリケーション | シナリオ |
-|--- |--- |
-| ビューアのローカリゼーション | 静的コンテンツのカタログが実装されたら、ローカリゼーションは完全に locale= パラメータで制御されます。このパラメータは IS に対して行われたすべての要求に付加されます。設定レコードやスキン、スプラッシュ画面などに、ロケール固有のバリアントを含めたり含めなかったりすることができます。ローカライズされるコンテンツとその ID をビューアで識別する必要はなく、IS から適切なコンテンツが提供されます。 |
+| --- | --- |
+| ビューアのローカライゼーション | 静的コンテンツのカタログが実装されたら、ローカリゼーションは完全に locale= パラメータで制御されます。このパラメータは IS に対して行われたすべての要求に付加されます。設定レコードやスキン、スプラッシュ画面などに、ロケール固有のバリアントを含めたり含めなかったりすることができます。ローカライズされるコンテンツとその ID をビューアで識別する必要はなく、IS から適切なコンテンツが提供されます。 |
 | 画像とビデオ | 多国籍企業では、多くの場合、汎用コンテンツとロケール固有のコンテンツを組み合わせて使用します。このメカニズムでは、画像やビデオの参照を汎用にし、ロケール固有のコンテンツがある場合は IS から提供することができます。 |
 | 画像セットとメディアセット | 汎用の画像セットからロケール固有の画像セットへの変換をビューアで処理する場合など、一部のロケールでは画像セット全体が異なる場合があります。 より一般的に、汎用セット内の個々のIDは、ローカライズされたコンテンツを参照できます。 例えば、アプライアンスのほとんどの写真は、Campaign コントロールパネルの写真を除き、すべての言語で同じにすることができます。 IS で ID が自動的に変換されるので、ロケール固有の画像セットを生成する必要はありません。 |
 
-#### アセットのローカリゼーションの実装
+#### アセットのローカライゼーションの実装
 
 AdobeDynamic Media Classicと画像サービングには、画像と静的コンテンツのローカライズを可能にするインターフェイスがあります。
 
@@ -107,7 +107,7 @@ AdobeDynamic Media Classicと画像サービングには、画像と静的コン
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Image ServerがHTTP呼び出しを受け取ると、 `locale=`パラメーターは、 **[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 公開設定]** / **[!UICONTROL 画像サーバー]** > **[!UICONTROL ローカリゼーションサポートにあるlocaleMapフィールドを通じて解析されますa10/>グループとして使用します。]**
+Image ServerがHTTP呼び出しを受け取ると、`locale=`パラメーターは、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 公開設定]** / **[!UICONTROL 画像サーバー]** / **[!UICONTROL にある`localeMap`フィールドで解析されますローカリゼーションサポート]**&#x200B;グループ
 
 ロケールマップフィールドには、パイプ記号（|）で区切られたエントリのリストが含まれています。
 
@@ -122,18 +122,18 @@ Image ServerがHTTP呼び出しを受け取ると、 `locale=`パラメーター
 **サフィックスの例:**
 
 | URL | localeMap ID | 結果 |
-|--- |--- |--- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | GlobalLocale の定義はありません。ロケールパラメータ de_DE が、localeMap の最初のエントリに一致します。最初の対応する値 _DE がサフィックスとして追加され、image_DE というアセットの検索が Image Server で行われます。サーバで見つかった場合は、その画像が返されます。見つからなかった場合は、2 番目の値 &quot;&quot; がサフィックスとして使用され、その結果画像そのものが返されます。 |
+| --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | GlobalLocale の定義はありません。ロケールパラメータde_DEは、`localeMap`内の最初のエントリと照合されます。 最初の対応する値 _DE がサフィックスとして追加され、image_DE というアセットの検索が Image Server で行われます。サーバで見つかった場合は、その画像が返されます。見つからなかった場合は、2 番目の値 &quot;&quot; がサフィックスとして使用され、その結果画像そのものが返されます。 |
 
 **置換の例:**
 
-| URL | GlobalLocale ID と localeMap ID | 結果 |
+| URL | `GlobalLocale` と `localeMap` ID | 結果 |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | この置換の例では、GlobalLocale に main が設定されています。ロケールパラメータ de_DE が、localeMap の最初のエントリに一致します。GlobalLocaleのサブ文字列が見つかり、localeMapの最初の対応する値`de`に置き換えられます。`image-de-01`. この画像が Image Server で見つかった場合は、その画像が返されます。見つからなかった場合は、2 番目の値に置き換えられて `image-main-01` で検索されます。 |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | この置換の例では、GlobalLocale に main が設定されています。ロケールパラメータde_DEは、`localeMap`内の最初のエントリと照合されます。 GlobalLocaleのサブ文字列が見つかり、`localeMap`内の対応する最初の値`de`に置き換えられます。`image-de-01`. この画像が Image Server で見つかった場合は、その画像が返されます。見つからなかった場合は、2 番目の値に置き換えられて `image-main-01` で検索されます。 |
 
 URL でロケールが定義されていない場合、Image Server は DefaultLocale（定義されている場合）を取り込み、URL に適用します。
 
-`locale=`に不明なロケールまたは空のロケールパラメータが指定された場合、localeMapは、「で始まる」空の値をスキャンします。 不明なロケールに適用するデフォルトのロケールを持つことが重要です。
+不明なロケールパラメーターまたは空のロケールパラメーターが`locale=`に指定されている場合、`localeMap`は「で始まる」空の値をスキャンします。 不明なロケールに適用するデフォルトのロケールを持つことが重要です。
 
 #### defaultImageについて
 
@@ -154,7 +154,7 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
 | locale= | 検索する出力 ID |
-|--- |--- |
+| --- | --- |
 | en,en_us, en_uk | myImg_E,myImg |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
@@ -167,7 +167,7 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
 | locale= | 検索する出力 ID |
-|--- |--- |
+| --- | --- |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
 | その他 | myImg_E,myImg |
@@ -180,7 +180,7 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,`
 
-##### 多層検索を使用した localMap の検索
+##### 多層参照を使用したlocaleMapの検索
 
 ヨーロッパ、中東、北米などロケールをグループ化し、肌の露出度など地域の基準に対処することが望ましい場合が多くあります。多層検索を使用して、このような効果を実現することができます。
 
@@ -189,14 +189,14 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
 | locale= | 検索する出力 ID |
-|--- |--- |
+| --- | --- |
 | w1, w3 | myImg-W, myImg |
 | w2 | myImg-W2, myImg-W, myImg |
 | m1 | myImg-M1, myImg-M, myImg |
 | m2 | myImg-M2, myImg-M, myImg |
 | その他 | mylmg |
 
-##### 特定の ID の検索による localeMap の検索
+##### 特定のIDを検索してlocaleMapを見つける
 
 一部の画像の命名規則では、汎用の画像IDをサポートしていません。 要求にある汎用 ID を、カタログ内の特定の ID にマップする必要があります。ただし、正確な特定のIDが不明な場合があります。
 
@@ -205,7 +205,7 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
 | locale= | 検索する出力 ID |
-|--- |--- |
+| --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | その他 | myImg_1, myImg_2, myImg_3 |
@@ -220,15 +220,15 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 
 画像レンダラーページでは、画像レンダリングサーバーから画像セットを配信するためのデフォルト設定を指定します。 設定は次の5つのカテゴリで使用できます（設定について詳しくは、 Image Serverページ自体を参照してください）。
 
-* **カタログ管理**  — これらの設定は、Dynamic Media ClassicとカタログファイルのAdobeを決定します。AdobeDynamic Media Classic Render ServerのURL呼び出しは、カタログに対しておこなわれ、その呼び出しは、サーバーから画像を配信するために実行されます。 Dynamic Media Classicのサポート担当者の支援を得た場合にのみ、これらの設定を変更してください。
+* **[!UICONTROL カタログ管理]**  — これらの設定は、Dynamic Media ClassicとカタログファイルのAdobeを決定します。AdobeDynamic Media Classic Render ServerのURL呼び出しは、カタログに対しておこなわれ、その呼び出しは、サーバーから画像を配信するために実行されます。 Dynamic Media Classicのサポート担当者の支援を得た場合にのみ、これらの設定を変更してください。
 
-* **セッション属性**  — これらの設定は、エラーパラメーター、相対画像URLのURL、およびオブジェクトの重複を許可するかどうかを設定します。
+* **[!UICONTROL セッション属性]**  — これらの設定は、エラーパラメーター、相対画像URLのURL、およびオブジェクトの重複を許可するかどうかを設定します。
 
-* **デフォルトのマテリアル属性**  — これらの設定は、画像のデフォルトの解像度とシャープの設定を指定します。
+* **[!UICONTROL デフォルトのマテリアル属性]**  — これらの設定は、画像のデフォルトの解像度とシャープの設定を指定します。
 
-* **応答画像属性**  — これらの設定は、画像のデフォルトの表示に関係します。
+* **[!UICONTROL 応答画像属性]**  — これらの設定は、画像のデフォルトの表示に関係します。
 
-* **カラーマネジメント属性**  — これらの設定は、画像のデフォルトのカラー設定に関係します。
+* **[!UICONTROL カラーマネジメント属性]**  — これらの設定は、画像のデフォルトのカラー設定に関係します。
 
 ## ビネット {#vignette}
 

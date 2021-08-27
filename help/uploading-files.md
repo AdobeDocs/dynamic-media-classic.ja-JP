@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '3863'
 ht-degree: 36%
@@ -18,7 +18,7 @@ ht-degree: 36%
 
 # ファイルのアップロード{#uploading-files}
 
-AdobeDynamic Media Classicにアセットファイルをアップロードする前に、アセットファイルの名前が正しく、フォルダー構造が適切に設定および構成されていることを確認してください。 Dynamic Media Classicが提供するFTPサイトから、またはAdobeやネットワークから直接ファイルをアップロードできます。 AdobeDynamic Media Classicは、ファイルのアップロード時にファイルを最適化するためのオプションを提供します。 Dynamic Media ClassicデスクトップAdobeをインストールしている場合は、ファイルとフォルダーをデスクトップから直接ドラッグしてアップロードできます。 詳しくは、[アプリケーションの全般設定](application-setup.md#general_settings)を参照してください。
+AdobeDynamic Media Classicにアセットファイルをアップロードする前に、アセットファイルの名前が正しく、フォルダー構造が適切に設定および構成されていることを確認してください。 Dynamic Media Classicが提供するFTPサイトAdobeから、またはコンピューターやネットワークから直接ファイルをアップロードできます。 AdobeDynamic Media Classicは、ファイルのアップロード時にファイルを最適化するためのオプションを提供します。 Dynamic Media ClassicデスクトップAdobeをインストールしている場合は、ファイルとフォルダーをデスクトップから直接ドラッグしてアップロードできます。 詳しくは、[アプリケーションの全般設定](application-setup.md#general_settings)を参照してください。
 
 ## アセットおよびフォルダのアップロードの準備 {#preparing-your-assets-and-folders-for-uploading}
 
@@ -89,7 +89,7 @@ Dynamic Media Classicプログラムで最適な結果を得るには、必ず�
 
 >[!NOTE]
 >
->画像ファイルおよびPDFをAdobeDynamic Media Classicにアップロードすると、これらのソースファイルがP-TIFF（ピラミッドTIFF）ファイルに変換されます。 これらのP-TIFFは、後でDynamic Media Image Serverに公開されるファイルです。 AdobeDynamic Media Classicは、AdobeDynamic Mediaクラシックズームビューアで表示した場合に高速なズームが可能な様々なズーム比が含まれているので、ピラミッドTIFFファイル形式を使用します。
+>画像ファイルおよびPDFをAdobeDynamic Media Classicにアップロードすると、これらのソースファイルがP-TIFF（ピラミッドTIFF）ファイルに変換されます。 これらのP-TIFFは、後でDynamic Media Image Serverに公開されるファイルです。 AdobeDynamic Media Classicは、AdobeDynamic Mediaクラシックズームビューアで高速ズームを可能にする様々なズーム比が含まれているので、ピラミッドTIFFファイル形式を使用します。
 
 ### サポートされている静的ファイルの形式 {#supported-static-file-formats}
 

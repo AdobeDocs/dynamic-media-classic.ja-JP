@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '10952'
+source-wordcount: '10951'
 ht-degree: 44%
 
 ---
@@ -35,9 +35,9 @@ ht-degree: 44%
 
 * **[!UICONTROL 公開先サーバー名]**  — このサーバーは、アカウントに固有のすべてのシステム生成URL呼び出しで使用される、ライブコンテンツ配信ネットワーク(CDN)サーバーです。AdobeのDynamic Media Classicサポート技術者によって指示されない限り、このサーバー名は変更しないでください。
 
-* **[!UICONTROL オリジンサーバー名]**  — このサーバーは、品質保証テストにのみ使用されます。AdobeのDynamic Media Classicサポート技術者から指示されない限り、このサーバー名は変更しないでください。
+* **[!UICONTROL オリジンサーバー名]**  — このサーバーは、品質保証テストにのみ使用されます。AdobeのDynamicMedia Classicサポート技術者による指示がない限り、このサーバー名を変更しないでください。
 
-<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Adobe Dynamic Media Classic support technician. -->
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
 * **[!UICONTROL Test&amp;Targetサーバー名]**  - Test&amp;TargetのURL（.comまで）。このURLの取得方法については、 [!DNL Adobe Dynamic Media Classic]と[!DNL Adobe Target Standard/Premium]の統合を参照してください。
 

@@ -1,6 +1,6 @@
 ---
 title: マスター画像の公開
-description: マスター画像の公開方法を説明します。
+description: Dynamic Media Classicからマスター画像をAdobeする方法を説明します。
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 22%
+source-wordcount: '163'
+ht-degree: 6%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 22%
 
 ## マスター画像の公開 {#publishing-your-master-images}
 
-1. グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックします。「発行」ダイアログボックスで、「日時」オプション（**[!UICONTROL 「1回限り]**」または「**[!UICONTROL 繰り返し]**」）を選択し、必要に応じて発行ジョブの名前を入力します
+1. グローバルナビゲーションバーで、「**[!UICONTROL 発行]**」を選択します。 「発行」ダイアログボックスで、「日時」オプション（**[!UICONTROL 「1回限り]**」または「**[!UICONTROL 繰り返し]**」）を選択し、必要に応じて発行ジョブの名前を入力します
 
-1. 「**[!UICONTROL 公開を送信]**」をクリックします。
+1. 「**[!UICONTROL 発行を送信]**」を選択します。
 
 >[!NOTE]
 >
@@ -37,5 +37,5 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->* [公開](publishing-files.md#publishing_files)
+>* [ファイルの公開](publishing-files.md#publishing_files)
 

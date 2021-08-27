@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 39%
 
 ---
@@ -37,7 +37,7 @@ Adobe Analytics レポートを使用して、Web サイト上でのユーザー
 >
 >Adobe Analyticsレポートを設定し、Adobe Analyticsレポート変数をAdobeDynamic Media Classicイベントに一致させる前に、Adobe AnalyticsのWebサービスアクセスグループのメンバーとして追加されていることを確認します。 このグループのメンバーは、インターフェイスで設定された権限に関係なく、Marketing Cloud の Web Services API 経由で指定したレポートスイートの全レポートにアクセスできます。グループにメンバーを追加するには、Adobe Analytics で、**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループの編集]**&#x200B;をクリックします。
 
-自分がWebサービスアクセスグループのメンバーであることを確認したら、Dynamic Media ClassicAdobeで、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL Adobe Analytics]**&#x200B;をクリックします。 Adobe Analytics 設定ページで、「**[!UICONTROL Adobe Analytics ログイン]**」をクリックします。
+自分がWebサービスアクセスグループのメンバーであることを確認したら、Dynamic Media ClassicAdobeで、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL Adobe Analytics]**&#x200B;に移動します。 Adobe Analytics 設定ページで、「**[!UICONTROL Adobe Analytics ログイン]**」をクリックします。
 
 詳しくは、[Adobe Analytics へのログイン](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 

@@ -1,6 +1,6 @@
 ---
 title: 混在メディアセットの公開
-description: 混在メディアセットの公開方法を説明します。
+description: Dynamic Media Classicから混在メディアセットを公開する方法について説明します。
 uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 56%
+source-wordcount: '259'
+ht-degree: 33%
 
 ---
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. 次のいずれかの操作を行います。
 
-   * 参照パネルで、公開する各ファイル名の横にある&#x200B;**[!UICONTROL 公開用にマーク]**  をクリックします。
-   * アップロード画面で、公開する各ファイル名の横にある&#x200B;**[!UICONTROL 公開用にマーク]**  をクリックします。
+   * 参照パネルで、公開する各ファイル名の横にある「**[!UICONTROL 公開用にマーク]**」を選択します。
+   * アップロード画面で、公開する各ファイル名の横にある「**[!UICONTROL 公開用にマーク]**」を選択します。
 
-1. グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックします。
+1. グローバルナビゲーションバーで、「**[!UICONTROL 発行]**」を選択します。
 1. 希望のスケジュールオプションを設定します。
 1. （オプション）「**[!UICONTROL ジョブ名]**」フィールドに、公開ジョブの名前を入力します。
 1. 「**[!UICONTROL 詳細]**」オプションの「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL ビデオサーバー]**」を選択します。
 
    設定できるその他のオプションについては、[詳細公開オプション](publishing-files.md#advanced_publish_options)を参照してください。
 
-1. 「**[!UICONTROL 公開を送信]**」をクリックします。
+1. 「**[!UICONTROL 発行を送信]**」を選択します。
 1. 上記の手順 2～4 を繰り返します。
 1. 「**[!UICONTROL 詳細]**」の「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL Image Server]**」を選択します。
 
    設定できるその他のオプションについては、[詳細公開オプション](publishing-files.md#advanced_publish_options)を参照してください。
 
-1. 「**[!UICONTROL 公開を送信]**」をクリックします。
+1. 「**[!UICONTROL 発行を送信]**」を選択します。

@@ -1,6 +1,6 @@
 ---
 title: eCatalogと関連PDFの公開
-description: eCatalogと関連PDFを公開する方法を説明します。
+description: eCatalogと関連するPDFをDynamic Media Classicから公開する方法をAdobeします。
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 26%
+source-wordcount: '192'
+ht-degree: 21%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 26%
 
 **eCatalogおよび関連するPDFを公開するには：**
 
-1. グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックします。
-1. 公開画面で、「**[!UICONTROL 1回限り]**」または「**[!UICONTROL 繰り返し]**」をクリックします。
+1. グローバルナビゲーションバーで、「**[!UICONTROL 発行]**」を選択します。
+1. 公開画面で、「**[!UICONTROL 1回限り]**」または「**[!UICONTROL 繰り返し]**」を選択します。
 1. （オプション）「ジョブ名」フィールドに、パブリッシュジョブの名前を入力しますが、事前に定義された日時のテキストはそのままにします。
 
-   閲覧者がキーワード検索できるように eCatalog を設定する場合は、キーワードが公開されていることを確認します。パブリッシュダイアログボックスで、「**[!UICONTROL 詳細]**」をクリックします。 **[!UICONTROL 「]**&#x200B;を公開」ドロップダウンメニューで、「**[!UICONTROL 検索データを含める]**」をクリックします。 このオプションは初期設定ではオンになっています。
+   閲覧者がキーワード検索できるように eCatalog を設定する場合は、キーワードが公開されていることを確認します。パブリッシュダイアログボックスで、「**[!UICONTROL 詳細]**」を選択します。 **[!UICONTROL 「]**&#x200B;を公開」ドロップダウンメニューから、「**[!UICONTROL 検索データを含める]**」を選択します。 このオプションは初期設定ではオンになっています。
 
-1. 「****[!UICONTROL 公開を送信]****」をクリックします。
+1. 「**[!UICONTROL 公開を送信]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
->* [公開](publishing-files.md)
+>* [ファイルの公開](publishing-files.md)
 

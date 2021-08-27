@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics 設定情報の公開
-description: Adobe Analyticsの設定情報を公開する方法を説明します。
+title: Adobe Analytics設定情報の公開
+description: Dynamic Media ClassicからAdobe Analyticsの設定情報を公開する方法をAdobeします。
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 34%
+source-wordcount: '152'
+ht-degree: 19%
 
 ---
 
-# Adobe Analytics 設定情報の公開{#publishing-adobe-analytics-configuration-information}
+# Adobe Analytics設定情報の公開{#publishing-adobe-analytics-configuration-information}
 
 AdobeDynamic Media Classicビューアを公開して、Adobe Analyticsレポートの設定に関する情報がAdobeDynamic Media Classicサーバーに送信されるようにします。 この情報はビューアに埋め込まれます。ビューアに含まれる情報をDynamic Media ClassicAdobeで利用するには、公開が必要です。 サーバーから、ユーザーがビューアでアクティビティを実行した後に、Adobe Analytics へ情報を転送することができます。
 
@@ -27,9 +27,9 @@ AdobeDynamic Media Classicビューアを公開して、Adobe Analyticsレポー
 
 詳しくは、[Adobe Analytics へのログイン](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 
-詳しくは、[Adobe Analytics レポートの設定](configuring-analytics-reports.md#configuring_adobe_analytics_reports)を参照してください。
+[Adobe Analyticsレポートの設定](configuring-analytics-reports.md#configuring_adobe_analytics_reports)を参照してください。
 
 **設定情報を公開するには：**
 
-1. グローバルナビゲーションバーで「**[!UICONTROL 公開]**」をクリックします。
-1. パブリッシュダイアログボックスで、「**[!UICONTROL パブリッシュを送信]**」をクリックします。
+1. グローバルナビゲーションバーで、「**[!UICONTROL 発行]**」を選択します。
+1. パブリッシュダイアログボックスで、「**[!UICONTROL パブリッシュを送信]**」を選択します。

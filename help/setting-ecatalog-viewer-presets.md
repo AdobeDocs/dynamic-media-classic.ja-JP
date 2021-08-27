@@ -9,7 +9,7 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 42%
@@ -31,7 +31,7 @@ eCatalogビューアプリセットを作成できるようにするには、次
 
    * **eCatalogビューアプリセットの作成**  - 「追 **[!UICONTROL 加]**」をクリックします。ビューアプリセットを追加ダイアログボックスで、プラットフォームを選択し、「eCatalogビューア」を選択して、「**[!UICONTROL 追加]**」をクリックします。
 
-   * **eCatalogビューアプリセットの編集**  - eCatalogビューアプリセットを選択し、「編集」をクリックします。プリセットの作成が完了したら、「**[!UICONTROL 名前を付けて保存]**」をクリックします。
+   * **eCatalogビューアプリセットの編集**  - eCatalogビューアプリセットを選択し、「編 **[!UICONTROL 集]**」をクリックします。プリセットの作成が完了したら、「**[!UICONTROL 名前を付けて保存]**」をクリックします。
 
 1. ビューアを設定画面で、eCatalog ビューアプリセットの名前を入力します。
 1. ビューア設定画面で、目的のオプションを設定します。

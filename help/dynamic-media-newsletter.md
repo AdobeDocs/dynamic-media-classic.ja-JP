@@ -5,7 +5,7 @@ keywords: dynamic media；ニュースレター；製品アップデート；ヒ
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
    この問題では、次の点に注意してください。
 
-   * 新しいスキルビルダーウェビナーに参加し、AdobeDynamic Media Classicエキスパートに変身します。
+   * 新しいスキルビルダーウェビナーに参加し、AdobeDynamic Media Classicのエキスパートに変身します。
    * Adobe Summit2020でDynamic Mediaの場所を参照してください。
    * Dynamic Mediaの切り抜きマジックの使い方を学びましょう。
    * AdobeDynamic Media Classicからより多くの価値を引き出すために、Adobeの無料監査を活用します。
