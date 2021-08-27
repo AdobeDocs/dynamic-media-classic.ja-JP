@@ -1,6 +1,6 @@
 ---
-title: スウォッチセットのアセットのアップロードの準備
-description: スウォッチセットのアセットをアップロード用に準備する方法について説明します。
+title: アップロード用のスウォッチセットアセットの準備
+description: AdobeDynamic Media Classicにアップロードするスウォッチセットアセットを準備する方法について説明します。
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# スウォッチセットのアセットのアップロードの準備{#preparing-swatch-set-assets-for-upload}
+# アップロード用のスウォッチセットアセットの準備{#preparing-swatch-set-assets-for-upload}
 
 画像をアップロードする前に、画像のサイズと形式が正しいことを確認します。また、必要なスウォッチファイルををアセンブルします。
 
@@ -32,5 +32,5 @@ ht-degree: 84%
 
 >[!MORELIKETHIS]
 >
->* [ビネット、ウィンドウカバリング、キャビネットファイルの操作](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [ビネット、ウィンドウカバー、キャビネットファイルの操作](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

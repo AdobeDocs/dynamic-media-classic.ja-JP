@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 7%
 ## AdobeDynamic Media Classicユーザーリソース
 
 * [Dynamic Media月刊ニュースレター](dynamic-media-newsletter.md)
-* [ガイド：AdobeDynamic Media Classicのベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [AdobeDynamic Media Classicのベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [ガイド：画像のシャープニングのベストプラクティスガイド](/help/assets/s7_sharpening_images.pdf)
 * [ガイド：AdobeDynamic Media ClassicによるSEOのサポート](/help/assets/s7_seo.pdf)  — 現在、検索エンジンを使用してWebサイトや画像を検索できます。AdobeDynamic Media Classicは、より多くのトラフィックがAdobeのDynamic Media ClassicユーザーのWebサイトに導かれるように、画像検索エンジンに適した作業をサポートしています。 PDFのこのガイドでは、これを実現するための背景および実装に関する推奨事項を示します。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

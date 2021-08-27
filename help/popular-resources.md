@@ -1,14 +1,14 @@
 ---
 title: 役立つリソース
-description: ウェビナー、トレーニングビデオ、ベストプラクティス情報および開発者向けリソースへのリンクです。
+description: AdobeDynamic Media Classicのウェビナー、トレーニングビデオ、ベストプラクティス情報および開発者向けリソースへのリンクです。
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +25,9 @@ ht-degree: 16%
 * [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 * [画像サービングおよび画像レンダリング API](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
 
-## AdobeDynamic Media ClassicのウェビナーとTutorials
+## AdobeDynamic Media Classicニュースレター、Tutorials、ウェビナー
 
+* [Dynamic Media ClassicAdobeのアーカイブ](/help/dynamic-media-newsletter.md)
 * [画像のシャープニングのベストプラクティス](/help/assets/s7_sharpening_images.pdf)
 * [アセットのROIの最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — サイトやモバイルアプリをまたいでリッチメディアを配信するための業界のベストプラクティスを学びます。このウェビナーでは、例とデモを使用して、デバイスをまたいでビデオを効率的に配信する方法、マーケティングキャンペーンで動的なクリエイティブを配信する方法、画像、スタイルガイド、ルックブックをショッパブルにしてコンバージョンを増やす方法を示します。
 * [コンテンツ配信のライフサイクルを加速する](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — このウェビナーでは、リッチメディアの管理と配信を行う次世代プログラムであるAdobe Experience Manager Assetsの概要とデモを提供します。クリエイティブチームとマーケティングチームの間でアセットを共同作業および共有し、アセットのレビュープロセスを合理化する方法を説明します。 アセットの検索、使用、再利用、共有を容易にするための、アセットメタデータを効率的に管理するためのベストプラクティスについて説明します。 インタラクティブなクロスチャネルリッチメディアエクスペリエンスを提供する方法を説明します。

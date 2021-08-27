@@ -1,5 +1,5 @@
 ---
-title: プロジェクトを使用したアセットの編成
+title: プロジェクトで作業を整理する
 description: AdobeDynamic Media Classicのプロジェクトを使用して作業を整理する方法を説明します。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
@@ -10,10 +10,10 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
