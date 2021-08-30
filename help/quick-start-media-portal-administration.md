@@ -1,6 +1,6 @@
 ---
 title: 「クイックスタート：Media Portal»
-description: Media Portalの各種テクニックや管理をすばやく習得するための概要とクイックスタートガイドです。
+description: AdobeDynamic Media ClassicのMedia Portalのテクニックと管理をすばやく習得できるようにする、概要とクイックスタートガイドです。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 73%
+source-wordcount: '693'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Media Portalを使用すると、会社は承認されたアセットを容易�
 
 管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。フォント、フォントカラー、フォントサイズを指定し、ロゴなどのブランディング要素をMedia Portalインターフェイスに組み込むことができます。
 
-ここでは、Media Portal の管理方法をすばやく習得できるように、手順について簡潔に説明します。各手順の最後に、トピックのリンクをクリックして詳細を確認します。
+ここでは、Media Portal の管理方法をすばやく習得できるように、手順について簡潔に説明します。各手順の最後に、トピックのリンクを選択して詳細を確認します。
 
 ## 1. Media Portal ユーザの役割について
 
@@ -35,19 +35,19 @@ Media Portal ユーザには、ユーザ、寄稿者、寄稿者ユーザの 3 �
 
 グループは、ユーザがアクセスするフォルダおよびファイル、これらのフォルダおよびファイルでユーザが実行できることおよび使用可能な画像プリセットを指定します。管理者の最初の作業は、グループを作成することです。各グループについて、グループメンバーがアクセスできるフォルダ、ファイルおよび画像プリセットを指定します。また、読み取り、書き込みおよび削除の権限をグループメンバーに付与します。これらの権限によって、メンバーが、アクセスできるフォルダとファイルを参照、編集、名前変更、削除できるかどうかが指定されます。
 
-詳しくは、[Media Portal グループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)を参照してください。
+[Media Portalグループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)を参照してください。
 
 ## 3. ユーザの追加
 
 ユーザを追加する際、ユーザに役割（ユーザ、寄稿者または寄稿者ユーザ）を割り当てます。また、ユーザを 1 つまたは複数のグループに割り当てます。ユーザの追加を速やかに行うため、ユーザリストを CSV ファイル形式でアップロードできます。新しいユーザにはご案内の電子メールメッセージと Media Portal へのログオン手順が送信されます。
 
-詳しくは、[Media Portal ユーザの追加と管理](adding-media-portal-users.md#adding_and_managing_media_portal_users)を参照してください。
+[Media Portalユーザーの追加と管理](adding-media-portal-users.md#adding_and_managing_media_portal_users)を参照してください。
 
 ## 4. FTP アカウントの管理
 
 Media Portalに関連付けられ、AdobeDynamic Media Classicアカウントの特定のフォルダーにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
 
-[FTP アカウントの管理](ftp-accounts.md#managing_ftp_accounts)を参照してください。
+[FTPアカウントの管理](ftp-accounts.md#managing_ftp_accounts)を参照してください。
 
 >[!NOTE]
 >
@@ -59,13 +59,13 @@ Media Portalに関連付けられ、AdobeDynamic Media Classicアカウントの
 
 Media Portal ユーザは、ファイルを書き出すときに、ファイルの形式を変更してオリジナルのマスターファイルを書き出すことができます。ただし、ユーザにその権限があることが条件です。管理者は、ユーザによるファイルの書き出し方法を指定します。
 
-詳しくは、[Media Portal ユーザが使用できる書き出しオプションの指定](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)を参照してください。
+[Media Portalユーザーが使用できる書き出しオプションの指定](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)を参照してください。
 
 ## 6. 画像プリセットの作成
 
 画像プリセットは、画像を書き出すときにサイズ、画質、形式、解像度およびその他の画像の外観を変更する、一連の定義済みの設定です。画像プリセットを作成して、ユーザが書き出すときに画像の形式を変更する方法を制御できます。
 
-詳しくは、[画像プリセットの作成と有効化](creating-enabling-image-presets.md#creating_and_enabling_image_presets)を参照してください。
+[画像プリセットの作成と有効化](creating-enabling-image-presets.md#creating_and_enabling_image_presets)を参照してください。
 
 ## 7. メタデータプリセットとユーザ定義メタデータフィールドの作成
 

@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 33%
+source-wordcount: '243'
+ht-degree: 24%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 33%
 
 このたびは、動的なリッチコンテンツをすべてのデバイスおよび画面にアップロード、管理、拡張および公開する、先進のオンデマンドクロスメディア公開システムである、AdobeAdobeDynamic Media Classicをご利用いただき、誠にありがとうございます。 AdobeDynamic Media Classicソリューションには、次のものが含まれます。
 
-* ダイナミックイメージング：リアルタイムの編集、フォーマット操作、サイズ変更、インタラクティブなズームとパン。カラースウォッチとテクスチャスウォッチ、360°スピン、画像テンプレート、マルチメディアビューア。
+* Dynamic Imaging:リアルタイムの編集、書式設定とサイズ設定、インタラクティブなズームとパンカラースウォッチとテクスチャスウォッチ360°スピン；画像テンプレート；マルチメディアビューア
 * eCatalog:オーサー、ホットスポットリンク、検索対応、公開、動的に提供されるオンラインカタログを設定可能なビューアに配信します。
 * Media Portal:Adobeのアップロード、参照、検索、プレビューおよび書き出しに容易にアクセスできるように、ポータルユーザーに管理者が制御した「表示」をDynamic Media Classicアセットに提供するセルフサービス環境。
 * eVideo:任意の形式での最終ビデオのアップロード、管理、編集、ホットスポットとビデオテンプレートの作成、設定可能なビデオビューアへの公開とストリーミング

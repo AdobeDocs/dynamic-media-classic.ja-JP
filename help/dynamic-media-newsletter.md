@@ -5,9 +5,9 @@ keywords: dynamic media；ニュースレター；製品アップデート；ヒ
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
    * デジタルアセットの保護に関する今後のウェビナーの紹介
    * 情報満載のインサイダーツアーの次のAdobe。
    * Experience Managerアセット(Experience Managerアセット)内にDynamic Mediaがある場合に利用できる優れた機能。
-   * Webサイトへの360度ビデオとカスタムビデオサムネールの追加
+   * 360°ビデオとカスタムビデオサムネールをWebサイトに追加する。
    * Dynamic Mediaの主要ソリューションコンサルタントである`Andrew Hathaway`に、Experience Managerアセットでお会いします。
 
 * **[2019年6月、第06号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

@@ -1,5 +1,5 @@
 ---
-title: '"クイックスタート：ビデオ"'
+title: 「クイックスタート：Dynamic Media ClassicAdobeのビデオ»
 description: Dynamic Media Classicの概要とAdobeのクイックスタートビデオを参照してください。
 contentOwner: admin
 content-type: reference
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 43%
+source-wordcount: '1444'
+ht-degree: 35%
 
 ---
 
-# クイックスタート：ビデオ{#quick-start-video}
+# クイックスタート：Dynamic Media ClassicAdobeのビデオ{#quick-start-video}
 
 AdobeDynamic Media Classic Videoは、デスクトップ、iOS、Android™、BlackBerry®、Windows®の各モバイルデバイスを含む複数の画面にストリーミング用の高品質なアダプティブビデオを簡単に公開できるエンドツーエンドのソリューションです。 アダプティブビデオセットは、同じビデオを異なるビットレート（400 kbps、800 kbps および 1000 kbps）やフォーマットでエンコードしたバージョンをグループ化します。デスクトップコンピュータまたは携帯端末は、使用可能な帯域幅を検出します。
 
@@ -45,9 +45,9 @@ AdobeDynamic Media Classic Videoは、デスクトップ、iOS、Android™、Bl
 
 * Universal_HTML5_Video、Universal_HTML5_MixedMedia_darkおよびUniversal_HTML5_MixedMedia_lightビューアとUniversal_HTML5_MixedMedia_darkおよびUniversal_HTML5_MixedMedia_Mediaのビデオチャプトナビゲーションライトビューア
 
-   詳しくは、[ビデオへのキャプションの追加](adding-captions-video.md)を参照してください。
+   [ビデオにキャプションを追加する](adding-captions-video.md)を参照してください。
 
-   詳しくは、[ビデオへのチャプターマーカーの追加](adding-chapter-markers-video.md)を参照してください。
+   [ビデオへのチャプターマーカーの追加](adding-chapter-markers-video.md)を参照してください。
 
 * 完全なメタデータサポートにより、ビデオを整理、参照および検索して、ビデオアセットの効率的な管理を実現します。
 * アダプティブビデオセットをWebやデスクトップ、およびiPhone、iPad、Android™、BlackBerry®、Windows® Phoneなどのモバイルデバイスに配信します。
@@ -76,20 +76,20 @@ AdobeDynamic Media Classic Videoは、デスクトップ、iOS、Android™、Bl
 
 次のワークフローの手順説明は、AdobeDynamic Media Classicのアダプティブビデオセットをすばやく使い始めるためのものです。 各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
 
-## 1.ビデオのアップロードとエンコーディング
+## 1.ビデオのアップロードとエンコード
 
 次の 2 つのシナリオのうちいずれかを使用して、アダプティブビデオセットをアップロードおよび生成します。
 
-* **事前エンコードされたビデオのアップロード**  — ビデオが既にAdobeDynamic Media Classicの外部でエンコードされている場合、グローバルナビゲーションバーの「アップロード」をクリックし **** て、MP4ビデオファイルを参照し、AdobeDynamic Media Classicに直接アップロードします。次に、**[!UICONTROL ビルド]**／**[!UICONTROL アダプティブビデオセット]**&#x200B;をクリックします。ビデオファイルを参照します。目的のビデオファイルを「アダプティブビデオセット」テーブルにドラッグアンドドロップし、セットを保存します。
-* **マスターソースビデオのアップロード**  — ビデオがエンコードされていない場合、グローバルナビゲーションバーの「アップロード」をクリックし **** て、マスタービデオソースファイル（MP4以外）をアップロードし、Dynamic Media ClassicによってMP4ファイルにエンコードされます。**[!UICONTROL アップロードオプション]**&#x200B;ダイアログボックスの「**[!UICONTROL EVideoオプション]**」で、「**[!UICONTROL アダプティブビデオ]**」を選択します。
+* **事前エンコードされたビデオのアップロード**  — ビデオが既にAdobeDynamic Media Classicの外部でエンコードされている場合、グローバルナビゲーションバーの「アップロード」を選択し **** て、MP4ビデオファイルを参照し、AdobeDynamic Media Classicに直接アップロードします。次に、**[!UICONTROL ビルド]** / **[!UICONTROL アダプティブビデオセット]**&#x200B;に移動します。 ビデオファイルを参照します。目的のビデオファイルを「アダプティブビデオセット」テーブルにドラッグアンドドロップし、セットを保存します。
+* **マスターソースビデオのアップロード**  — ビデオがエンコードされていない場合、グローバルナビゲーションバーの「アップロード」を選択し **** て、マスタービデオソースファイル（MP4以外）をアップロードします。AdobeDynamic Media Classicは、それらをMP4ファイルにエンコードします。 **[!UICONTROL アップロードオプション]**&#x200B;ダイアログボックスの「**[!UICONTROL EVideoオプション]**」で、「**[!UICONTROL アダプティブビデオ]**」を選択します。
 
-   これは推奨されているオプションで、アップロードしたビデオのサイズに合わせて、ビデオに適切なエンコーディングプリセット（16:9 または 4:3）を自動的に適用するアダプティブビデオセットを作成できます。アップロードジョブを送信すると、アダプティブビデオセットが自動的に作成されます。このアダプティブビデオセットには、適切な縦横比の 3 つのビデオエンコードが含まれます。
+   これは推奨されているオプションで、アップロードしたビデオのサイズに合わせて、ビデオに適切なエンコーディングプリセット（16:9 または 4:3）を自動的に適用するアダプティブビデオセットを作成できます。アップロードジョブを送信すると、アダプティブビデオセットが自動的に作成されます。このセットには、正しい縦横比の3つのエンコードビデオ設定が含まれています。
 
    または、同じ&#x200B;**[!UICONTROL ジョブオプション]**&#x200B;ダイアログボックスの「**[!UICONTROL EVideoオプション]**」で、「**[!UICONTROL 単一エンコーディングプリセット]**」を展開します。MP4ファイルを作成するために、 **デスクトップ**、 **モバイル(iPhone、iPad、Android™)**&#x200B;および&#x200B;**タブレット(iPad、Android™)**&#x200B;から、必要な個々のビデオエンコーディングプリセットを選択します。
 
 * または、**[!UICONTROL 再処理]**&#x200B;機能を使用して、マスタービデオを再処理することもできます。 新しくエンコードされたビデオは、既存のアダプティブビデオセットに追加されます。
 
-詳しくは、[ビデオのアップロードとエンコード](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
+[ビデオのアップロードとエンコード](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
 
 **オプション**
 
@@ -97,31 +97,31 @@ AdobeDynamic Media Classicでは、定義済みのビデオエンコーディン
 
 ただし、さらにカスタマイズする必要がある場合は、管理者はビデオプリセットを作成して、エンドユーザー向けのビデオのサイズと再生操作をカスタマイズすることもできます。管理者は、 **[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL ビデオプリセット]** / **[!UICONTROL 単一のエンコーディングプリセット]**&#x200B;で利用できるビデオプリセットページでビデオプリセットを追加および管理できます。 ビデオプリセットページには、ビデオプリセットの追加、編集、削除およびアクティブ化を行うオプションがあります。
 
-詳しくは、[ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)を参照してください。
+[ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)を参照してください。
 
-## 2.ビデオビューアでのビデオのプレビュー
+## 2.ビデオビューアでビデオをプレビューする
 
-デスクトップ、Web サイトまたは携帯端末でエンドユーザーが再生するビデオを確認するには、参照パネルでビデオを選択し、「**[!UICONTROL プレビュー]**」をクリックします。
+デスクトップ、Webサイトまたはモバイルデバイスでエンドユーザーがビデオを再生する方法を確認するには、参照パネルでビデオを選択し、「**[!UICONTROL プレビュー]**」を選択します。
 
-詳しくは、[ビデオビューアでのビデオのプレビュー](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)を参照してください。
+[ビデオビューアでのビデオのプレビュー](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)を参照してください。
 
 ビデオはプレビューページで再生できます。 また、異なるビデオビューアを選択して、異なるプレーヤーでのビデオの表示方法を確認することもできます。 ベストプラクティスとして、デスクトップ、タブレットおよび携帯端末でのマルチ画面再生には HTML5 ビデオプレーヤーを使用します。
 
 **オプション**
 
-ビューアプリセットのカスタマイズ —AdobeDynamic Media Classicには、ビデオを配信するための定義済みのビューアプリセットが用意されています。 これらのプリセットは、ビューアの外観と、その再生コントロールの動作を決定します。管理者はビデオビューアをカスタマイズするために、ビューアプリセットページでビューアプリセットを追加および管理することができます。このページを開くには、AdobeDynamic Media Classicの右上隅にある&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL ビューアプリセット]**&#x200B;をクリックします。 ビューアプリセットページには、ビューアプリセットの追加、編集、削除およびアクティブ化を行うコマンドがあります。
+ビューアプリセットのカスタマイズ —AdobeDynamic Media Classicには、ビデオを配信するための定義済みのビューアプリセットが用意されています。 これらのプリセットは、ビューアの外観と、その再生コントロールの動作を決定します。管理者はビデオビューアをカスタマイズするために、ビューアプリセットページでビューアプリセットを追加および管理することができます。このページを開くには、AdobeDynamic Media Classicの右上隅にある&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL ビューアプリセット]**&#x200B;に移動します。 ビューアプリセットページには、ビューアプリセットの追加、編集、削除およびアクティブ化を行うコマンドがあります。
 
-詳しくは、[ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working_with_video_viewer_presets)を参照してください。
+[ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working_with_video_viewer_presets)を参照してください。
 
-## 3. Webサイトおよびモバイルサイトへのビデオのデプロイ
+## 3. Webサイトやモバイルサイトにビデオをデプロイする
 
 ビデオを Web サイトに統合するには、次のいずれかの操作を行います。
 
 * ビデオを独自のポップアップウィンドウまたはモーダルウィンドウに表示します。その場合は、URL ]**をコピー機能を使用します。**[!UICONTROL 
 
-   ビデオの URL を取得するには、グリッドビューまたはリストビューの参照パネルでビデオを選択します。「**[!UICONTROL プレビュー]**」をクリックし、「`Universal_HTML5_Viewer`」の右にある「**[!UICONTROL URLをコピー]**」をクリックします。
+   ビデオの URL を取得するには、グリッドビューまたはリストビューの参照パネルでビデオを選択します。「**[!UICONTROL プレビュー]**」を選択し、「`Universal_HTML5_Viewer`」の右側にある「**[!UICONTROL URLをコピー]**」を選択します。
 
-   「**[!UICONTROL URLをコピー]**」をクリックすると、URLがクリップボードにコピーされます。 Web サイト、モバイルサイトまたはアプリケーションの HTML にこのコードを設定します。
+   「**[!UICONTROL URLをコピー]**」を選択すると、URLがクリップボードにコピーされます。 Web サイト、モバイルサイトまたはアプリケーションの HTML にこのコードを設定します。
 
    >[!NOTE]
    >
@@ -129,15 +129,15 @@ AdobeDynamic Media Classicでは、定義済みのビデオエンコーディン
 
 * Webページに埋め込まれたビデオを表示します。この場合は、**[!UICONTROL 埋め込みコード]**&#x200B;機能を使用します。
 
-   ビデオの埋め込みコードを取得するには、グリッドビューまたはリストビューの参照パネルでビデオを選択します。**[!UICONTROL プレビュー]** / **[!UICONTROL ビューアリスト]**&#x200B;をクリックします。 表の「アクション」列で、`Universal_HTML5_Video`の右にある「**[!UICONTROL 埋め込みコード]**」をクリックします。 コードの編集はできません。
+   ビデオの埋め込みコードを取得するには、グリッドビューまたはリストビューの参照パネルでビデオを選択します。**[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**&#x200B;に移動します。 表の「アクション」列で、「`Universal_HTML5_Video`」の右側にある「**[!UICONTROL 埋め込みコード]**」を選択します。 コードの編集はできません。
 
-   「**[!UICONTROL 閉じる]**」をクリックし、埋め込みコードをWebページに貼り付けます。
+   「**[!UICONTROL 閉じる]**」を選択し、埋め込みコードをWebページに貼り付けます。
 
    >[!NOTE]
    >
    >埋め込みコードはビデオまたはアダプティブビデオセットを公開するまでアクティブになりません。
 
-詳しくは、[Web サイトやモバイルサイトへのビデオの配信](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)を参照してください。
+[Webサイトおよびモバイルサイトへのビデオのデプロイ](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)を参照してください。
 
 >[!MORELIKETHIS]
 >

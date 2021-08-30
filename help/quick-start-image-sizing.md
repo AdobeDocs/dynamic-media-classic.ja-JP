@@ -1,6 +1,6 @@
 ---
 title: '"クイックスタート：画像サイズ変更"'
-description: 画像サイズ設定のテクニックをすばやく習得できるようにするための、概要と画像のサイズ変更のクイックスタートです。
+description: AdobeDynamic Media Classicの画像サイズ設定テクニックをすばやく習得できるようにするための、概要と画像のサイズ変更のクイックスタートです。
 uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 35%
+source-wordcount: '858'
+ht-degree: 31%
 
 ---
 
@@ -33,37 +33,37 @@ ht-degree: 35%
 
 まず、マスター画像をDynamic Media ClassicにAdobeします。 サイズに関しては、AdobeDynamic Media Classicでは、Webサイトやアプリケーションで使用が予想される最大サイズの画像の使用をお勧めします。 例えば、ビューアで画像をズームする場合は、最大サイズが2,000ピクセル以上の画像をアップロードします。 AdobeDynamic Media Classicは多くの画像ファイル形式をサポートしますが、可逆圧縮TIFFおよびPNG画像の使用をお勧めします。
 
-グローバルナビゲーションバーの「**[!UICONTROL アップロード]**」をクリックして、AdobeのDynamic Media Classic上のフォルダーにファイルをアップロードします。 詳しくは、[マスター画像のアップロード](uploading-master-images.md#uploading_master_images)を参照してください。
+グローバルナビゲーションバーで、「**[!UICONTROL Upload]**」を選択して、AdobeのDynamic Media Classic上のフォルダーにファイルをアップロードします。 [マスター画像のアップロード](uploading-master-images.md#uploading_master_images)を参照してください。
 
 ## 2.画像プリセットの設定
 
 画像プリセットは、マクロのような定義済みのサイズおよび形式に関するコマンドの集まりであり、特定の名前が付けられて保存されています。画像プリセットは、Dynamic Media Image Serverから画像を配信する際に使用するサイズと形式を管理します。 会社の管理者ステータスを持っているユーザは、独自の画像プリセットを設定できます。AdobeDynamic Media Classicには、デフォルトの画像プリセットが付属しており、これらを使用して画像を動的に配信できます。
 
-画像プリセットを作成する（管理者の場合）には、グローバルナビゲーションバーで&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 画像プリセット]**&#x200B;をクリックします。 次に、「**[!UICONTROL 追加]**」をクリックして画像プリセットを作成するか、「**[!UICONTROL 編集]**」をクリックして既存の画像プリセットを変更します。
+画像プリセットを作成するには（管理者の場合）、グローバルナビゲーションバーで、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 画像プリセット]**&#x200B;に移動します。 次に、「**[!UICONTROL 追加]**」を選択して画像プリセットを作成するか、「**[!UICONTROL 編集]**」を選択して既存の画像プリセットを変更します。
 
-作成した画像プリセットが、プレビューページの画像プリセットメニューに追加されます。 新しい画像プリセットを使用して、Web サイトやアプリケーションで動的に画像を表示することができます。詳しくは、[画像プリセットの設定](setting-image-presets.md#setting_up_image_presets)を参照してください。
+作成した画像プリセットが、プレビューページの画像プリセットメニューに追加されます。 新しい画像プリセットを使用して、Web サイトやアプリケーションで動的に画像を表示することができます。[画像プリセットの設定](setting-image-presets.md#setting_up_image_presets)を参照してください。
 
 ## 3.画像プリセットのプレビュー
 
 管理者が設定した様々なプリセットサイズの画像プリセットをプレビューします。
 
-画像プリセットを表示するには、グローバルナビゲーションバーで&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL 画像プリセット]**&#x200B;をクリックし、画像プリセットを参照します。
+画像プリセットを参照するには、グローバルナビゲーションバーで&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL 画像プリセット]**&#x200B;に移動し、画像プリセットを参照します。
 
 様々な画像プリセットを試してみてください。画像が異なるサイズでWebサイトやアプリケーションに動的に配信された場合の画像の表示方法を確認します。
 
-詳しくは、[画像プリセットに基づいた画像アセットのプレビュー](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)を参照してください。
+[画像プリセットに基づく画像アセットのプレビュー](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)を参照してください。
 
-## 4.マスター画像の公開
+## 4.マスター画像を公開します
 
 マスター画像ファイルの公開には、主に 2 つの目的があります。
 
 * マスター画像をDynamic Media Image Serverに公開して、画像をWebサイトやアプリケーションに動的に配信できるようにします。
 * 公開すると、Dynamic Media Image ServerからWebサイトやアプリケーションに画像を呼び出すためのURL文字列がアクティブ化されます。 公開後、必要に応じて、Dynamic Media Classicで生成されたAdobeのURLをコピーして、Webサイトまたはアプリケーションに配置できます。
 
-グローバルナビゲーションバーで、「**[!UICONTROL 公開]**」をクリックして、公開ジョブを開始します。 パブリッシュダイアログボックスで、「**[!UICONTROL パブリッシュを送信]**」をクリックします。 詳しくは、[マスター画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
+グローバルナビゲーションバーで、「**[!UICONTROL 公開]**」を選択して公開ジョブを開始します。 パブリッシュダイアログボックスで、「**[!UICONTROL パブリッシュを送信]**」を選択します。 [マスター画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
 
 ## 5. WebアプリケーションへのURLのリンク
 
 AdobeDynamic Media Classicは、画像のURL引き出し線文字列を作成します。 画像をDynamic Media Image Serverに公開すると、URLがアクティブになります。 これらのURL文字列は、参照パネル（詳細表示）またはプレビュー画面からコピーできます。 URL 文字列をコピーしたら、それらを Web サイトやアプリケーションで使用することができます。画像サイズ変更用の URL によって、Web ページコード内の静的な画像の名前への参照が置き換えられます。URL はマスター画像名を参照します。この画像名は、表示する新しい画像ごとにデータベースによって置き換えられます。
 
-画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。この名前はドル記号(`$`)で囲まれます。 例えば、`$thumbnail$`を画像プリセットにして、サムネールサイズでマスター画像を表示できます。 詳しくは、[Web アプリケーションへの URL のリンク](linking-urls-web-application.md#linking_urls_to_your_web_application)を参照してください。
+画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。この名前はドル記号(`$`)で囲まれます。 例えば、`$thumbnail$`を画像プリセットにして、サムネールサイズでマスター画像を表示できます。 [WebアプリケーションへのURLのリンク](linking-urls-web-application.md#linking_urls_to_your_web_application)を参照してください。

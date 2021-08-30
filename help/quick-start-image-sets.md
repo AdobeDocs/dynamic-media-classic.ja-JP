@@ -1,6 +1,6 @@
 ---
 title: '"クイックスタート：画像セット"'
-description: 画像セットのテクニックをすばやく習得して実行するのに役立つ、画像セットの概要とクイックスタートを示します。
+description: AdobeDynamic Media Classicの画像セットのテクニックをすばやく習得して実行するのに役立つ、画像セットの概要とクイックスタートを説明します。
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 41%
+source-wordcount: '559'
+ht-degree: 25%
 
 ---
 
@@ -25,37 +25,37 @@ AdobeDynamic Media Classic画像セットは、統合された表示エクスペ
 
 この画像セットのクイックスタートは、AdobeDynamic Media Classicの画像セットのテクニックをすぐに使い始めるように設計されています。
 
-## 1.複数のビューおよびスウォッチ用のマスター画像のアップロード
+## 1.複数のビューおよびスウォッチ用のマスター画像をアップロードします
 
 まず、画像セット用の画像をアップロードします。ユーザーは画像セットビューアで画像をズームできるので、画像を選択する際は、この機能を考慮してください。 最大サイズで2,000ピクセル以上の画像を使用してください。 AdobeDynamic Media Classicは多くの画像ファイル形式をサポートしますが、可逆圧縮TIFF、PNGおよびEPS画像の使用をお勧めします。
 
-グローバルナビゲーションバーの「**[!UICONTROL アップロード]**」をクリックして、AdobeのDynamic Media Classic上のフォルダーにファイルをアップロードします。
+グローバルナビゲーションバーで、「**[!UICONTROL Upload]**」を選択して、AdobeのDynamic Media Classic上のフォルダーにファイルをアップロードします。
 
-詳しくは、[画像セットのアセットのアップロード準備](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)および[ファイルのアップロード](uploading-files.md#uploading-your-files)を参照してください。
+[アップロード用の画像セットアセットの準備](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)および[ファイルのアップロード](uploading-files.md#uploading-your-files)を参照してください。
 
 ## 2.画像セットの作成
 
-ユーザが画像セットビューアでサムネール画像をクリックすると、異なる面または角度の画像が画像セットに表示されます。
+画像セットでは、ユーザーは画像セットビューアでサムネール画像を選択して、別の側面や角度から画像を表示します。
 
-画像セットを作成するには、グローバルナビゲーションバーで「**[!UICONTROL ビルド]**」をクリックし、「**[!UICONTROL 画像セット]**」を選択します。 画像セットウィンドウで、画像をページにドラッグして画像セットを作成します。 必要に応じて、画像を整理、追加、および削除します。
+画像セットを作成するには、グローバルナビゲーションバーで「**[!UICONTROL ビルド]**」を選択し、「**[!UICONTROL 画像セット]**」を選択します。 画像セットウィンドウで、画像をページにドラッグして画像セットを作成します。 必要に応じて、画像を整理、追加、および削除します。
 
-詳しくは、[画像セットの作成](creating-image-set.md#creating-an-image-set)を参照してください。
+[画像セットの作成](creating-image-set.md#creating-an-image-set)を参照してください。
 
-[画像セットへのズームターゲットと画像マップの追加](/help/including-zoom-targets-image-maps-image-sets.md)も参照してください。
+画像セットに[ズームターゲットと画像マップを含める](/help/including-zoom-targets-image-maps-image-sets.md)も参照してください。
 
-## 3.必要に応じて画像セットビューアプリセットを設定する
+## 3.必要に応じて画像セットビューアプリセットを準備します
 
-管理者は、画像セットビューアのプリセットを作成または変更できます。AdobeDynamic Media Classicには、各リッチメディアタイプに対応するデフォルトのビューアプリセットが用意されています。 ズームビューア : カスタム／画像、または画像セット / 複数ビューのプリセットを使用して、画像セットを表示します。
+管理者は、画像セットビューアのプリセットを作成または変更できます。AdobeDynamic Media Classicには、各リッチメディアタイプに対応するデフォルトのビューアプリセットが用意されています。 ズームビューアを使用します。**[!UICONTROL カスタム]** > **[!UICONTROL 画像]**&#x200B;または&#x200B;**[!UICONTROL 画像セット]**/**[!UICONTROL 複数のビュー]**&#x200B;プリセットを使用して画像セットを表示します。
 
 ビューアプリセットは、アプリケーション設定画面で追加または編集できます。
 
-詳しくは、[ビューアプリセットの作成と編集](application-setup.md#adding-and-editing-viewer-presets)を参照してください。
+[ビューアプリセットの作成と編集](application-setup.md#adding-and-editing-viewer-presets)を参照してください。
 
 ## 4.画像セットのプレビュー
 
-参照パネルで画像セットを選択し、「**[!UICONTROL プレビュー]**」をクリックします。 プレビューページで、サムネールアイコンをクリックして、選択したビューアでの画像セットの表示を確認します。 プリセットメニューから様々なビューアを選択できます。
+参照パネルで画像セットを選択し、「**[!UICONTROL プレビュー]**」を選択します。 プレビューページで、サムネールアイコンを選択して、選択したビューアでの画像セットの表示を確認します。 プリセットメニューから様々なビューアを選択できます。
 
-詳しくは、[アセットのプレビュー](previewing-asset.md#previewing-an-asset)を参照してください。
+[アセットのプレビュー](previewing-asset.md#previewing-an-asset)を参照してください。
 
 ## 5.画像セットの公開
 
@@ -65,14 +65,14 @@ AdobeDynamic Media Classic画像セットは、統合された表示エクスペ
 >
 >画像セットを作成して保存した際に「**[!UICONTROL 保存後に公開]**」を選択した場合は（初期設定）、この手順は不要です。
 
-参照パネルで、名前の左側にある&#x200B;**[!UICONTROL 公開用にマーク]**&#x200B;アイコンをクリックします。 次に、「**[!UICONTROL 公開]**」をクリックします。 発行ページで、「**[!UICONTROL 発行を送信]**」をクリックします。
+参照パネルで、名前の左側にある&#x200B;**[!UICONTROL 公開用にマーク]**&#x200B;アイコンを選択します。 次に、「**[!UICONTROL 公開]**」を選択します。 発行ページで、「**[!UICONTROL 発行を送信]**」を選択します。
 
-詳しくは、[公開](publishing-files.md#publishing-files)を参照してください。
+[ファイルの公開](publishing-files.md#publishing-files)を参照してください。
 
 ## 6. Webサイトへの画像セットのリンク
 
 AdobeDynamic Media Classicは画像セットのURL呼び出しを作成し、公開後にアクティベートします。 これらの URL は、プレビュー画面からコピーすることができます。
 
-画像セットを選択し、「**[!UICONTROL プレビュー]**」をクリックします。 次に、画像セットビューアプリセットを選択し、「**[!UICONTROL URLをコピー]**」をクリックします。
+画像セットを選択し、「**[!UICONTROL プレビュー]**」を選択します。 次に、画像セットビューアプリセットを選択し、「**[!UICONTROL URLをコピー]**」を選択します。
 
-詳しくは、[画像セットの Web ページへのリンク](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page)を参照してください。
+[画像セットをWebページにリンクする](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page)を参照してください。
