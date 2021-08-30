@@ -10,10 +10,10 @@ discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 48%
+source-wordcount: '461'
+ht-degree: 46%
 
 ---
 
@@ -23,7 +23,7 @@ AdobeDynamic Media Classicには、リッチメディアを作成するための
 
 * **eCatalogs**  — カタログやその他の印刷資料のインタラクティブな検索対応Webバージョンを表示します。画像マップと呼ばれるクリック可能な領域を作成すると、説明をロールオーバー表示したり、ページめくり、ズーム、パンおよびページへのノート注釈の貼り付けを行ったりできます。詳しくは、[クイックスタート：eCatalog](/help/quick-start-ecatalog.md)を参照してください。
 
-* **eVideo**  — デスクトップ、モバイルデバイス、タブレットを含む複数の画面に高品質のビデオエクスペリエンスを配信します。定義済みのAdobeDynamic Media Classicのエンコーディングプリセットを使用するか、エンコーディングをカスタマイズしてビデオの画質とサイズを制御します。 完全なメタデータサポートにより、ビデオを整理、参照および検索して、ビデオアセットの効率的な管理を実現します。詳しくは、[クイックスタート：eVideo](/help/quick-start-video.md) を参照してください。
+* **eVideo**  — デスクトップ、モバイルデバイス、タブレットを含む複数の画面に高品質のビデオエクスペリエンスを配信します。定義済みのAdobeDynamic Media Classicのエンコーディングプリセットを使用するか、エンコーディングをカスタマイズしてビデオの画質とサイズを制御します。 完全なメタデータサポートにより、ビデオを整理、参照および検索して、ビデオアセットの効率的な管理を実現します。[クイックスタートを参照してください。AdobeDynamic Media Classicのビデオ](/help/quick-start-video.md)。
 
 * **画像マップ**  - Webサイト全体で、任意のサイズと形式の画像を動的に提供します。様々なサイズの画像を手動で作成するのではなく、1 つのマスター画像から画像を作成できます。AdobeDynamic Media Classicは、要求された画像を配信するので、サイズ、形式、重み、画質およびシャープニングで最高品質の結果を得るために画像を最適化します。
 詳しくは、[クイックスタート：画像サイズ変更](/help/quick-start-image-sizing.md)を参照してください。

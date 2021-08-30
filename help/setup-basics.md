@@ -1,6 +1,6 @@
 ---
-title: 設定の基本
-description: 設定画面を使用して個人設定を入力する方法を説明します。 管理者の場合は、会社情報の設定を行うことができます。
+title: '設定の基本 '
+description: 設定画面を使用して、Dynamic Media Classicで個人設定を入力する方法をAdobeします。 管理者の場合は、会社情報の設定を行うことができます。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 23%
+source-wordcount: '196'
+ht-degree: 22%
 
 ---
 
 # 設定の基本{#setup-basics}
 
-「 Dynamic Media ClassicのAdobe」ページを使用して、個人設定を入力します。 管理者の場合は、会社情報の設定を行うことができます。設定ページを開くには、グローバルナビゲーションバーで、「**[!UICONTROL 設定]**」をクリックします。
+「 Dynamic Media ClassicのAdobe」ページを使用して、個人設定を入力します。 管理者の場合は、会社情報の設定を行うことができます。設定ページを開くには、グローバルナビゲーションバーで「**[!UICONTROL 設定]**」を選択します。
 
 このページで使用できる設定は、ユーザーまたは管理者としてのステータスによって異なります。
 

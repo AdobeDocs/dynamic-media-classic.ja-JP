@@ -8,16 +8,16 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 6%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Dynamic Media ClassicへのAdobeログイン {#dmc-sign-in}
+# Dynamic Media ClassicへのAdobe {#dmc-sign-in}
 
 Dynamic Media ClassicデスクトップアプリケーションのAdobeを使用する前に、次の点を確認してください。
 
@@ -35,16 +35,16 @@ Dynamic Media ClassicデスクトップアプリケーションのAdobeを使用
 次のマッピングを使用して、使用する実稼動環境を選択します。
 
    | ブラウザーURL | デスクトップアプリケーションサーバー名 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北米）生産 |
    | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
    | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
 
-1. 「**[!UICONTROL ログイン]**」をタップします。
+1. 「**[!UICONTROL サインイン]**」を選択します。
 
-## AdobeDynamic Media Classicからのログアウト {#dmc-sign-out}
+## Dynamic Media ClassicからのAdobe {#dmc-sign-out}
 
-1. AdobeDynamic Media Classicデスクトップアプリケーションの右上隅にある「**[!UICONTROL ログアウト]**」をタップし、「**[!UICONTROL ログアウト]**」をもう一度タップします。
+1. AdobeDynamic Media Classicデスクトップアプリケーションの右上隅にある「**[!UICONTROL ログアウト]**」を選択し、「**[!UICONTROL ログアウト]**」を再度選択します。
 
 >[!MORELIKETHIS]
 >

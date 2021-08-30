@@ -1,6 +1,6 @@
 ---
-title: アセット変更内容のピアとのリアルタイム共有
-description: アセットの変更をピアとリアルタイムで共有する方法を説明します。
+title: ピアーとのリアルタイムでのアセット変更の共有
+description: AdobeDynamic Media Classicで、ピアとリアルタイムでアセットの変更を共有する方法を説明します。
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 50%
+source-wordcount: '279'
+ht-degree: 44%
 
 ---
 
-# アセット変更内容のピアとのリアルタイム共有{#sharing-asset-changes-with-peers-in-real-time}
+# ピアーとのリアルタイムでのアセット変更の共有{#sharing-asset-changes-with-peers-in-real-time}
 
-同じ会社内の1台以上のコンピューターでAdobeDynamic Media Classicを複数コピーして実行すると、任意のAdobeDynamic Media Classicクライアントの次のアクションが、すべてのピアクライアントでリアルタイムに更新されます。
+同じ会社内の複数のAdobeでAdobeDynamic Media Classicを複数コピーする場合、任意のコンピューターDynamic Media Classicクライアントの次のアクションが、すべてのピアクライアントでリアルタイムに更新されます。
 
 * アセットの編集（ビルダー、画像エディターなど）
 * アセット名の変更

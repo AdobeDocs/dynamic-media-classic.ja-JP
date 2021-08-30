@@ -1,6 +1,6 @@
 ---
 title: Media Portal ユーザが使用できる書き出しオプションの指定
-description: Media Portalユーザーが使用できる書き出しオプションを指定する方法について説明します。
+description: Dynamic Media ClassicのMedia Portalユーザーが使用できる書き出しオプションを指定する方法について説明します。
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 72%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 **Media Portal ユーザが使用できる書き出しオプションを指定するには:**
 
-1. グローバルナビゲーションバーで、**[!UICONTROL 設定]** / **[!UICONTROL 画像プリセット]**&#x200B;をクリックします。
+1. グローバルナビゲーションバーで、**[!UICONTROL 設定]** /**[!UICONTROL 画像プリセット]**&#x200B;に移動します。
 1. 画像プリセットウィンドウで、必要に応じて次のオプションを選択します。
 
    * **ユーザー定義の変換を有効にする**  — このオプションを選択すると、選択したアセットを書き出しウィンドウのサイズドロッ **** プダウンリストから他のアセットを選択できます。次に、ユーザはピクセルまたはセンチメートルなどの測定単位を選択して、希望の幅と高さを指定できます。ユーザがこれらのファイルを書き出したり、ダウンロードしたりするとき、画像ファイルの形式が変更されます。

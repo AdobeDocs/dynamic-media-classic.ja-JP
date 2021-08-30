@@ -11,7 +11,7 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
 source-wordcount: '3893'
 ht-degree: 69%
@@ -83,9 +83,9 @@ AdobeDynamic Media Classicでもビデオサムネールが生成されます。
 1. **[!UICONTROL ファイル]**／**[!UICONTROL 再処理]**&#x200B;をクリックします。
 1. アセットを再処理ダイアログボックスで、「**[!UICONTROL EVideo Options]**」を展開し、次のいずれかの操作を行います。
    * ベストプラクティスは、次の方法を使用することです。「**アダプティブビデオ**」を選択します。「[アダプティブビデオ（初期設定）](application-setup.md#adaptive-video-default)」を参照してください。
-   * （オプション）個々のエンコーディング設定を使用する場合は、「****[!UICONTROL 単一のエンコーディングプリセット]****」を展開し、「デスクトップ」、「モバイル」および「タブレット」で使用するエンコーディングオプションを選択します。
+   * （オプション）個々のエンコーディング設定を使用する場合は、「**[!UICONTROL 単一のエンコーディングプリセット]**」を展開し、「デスクトップ」、「モバイル」および「タブレット」で使用するエンコーディングオプションを選択します。
 詳しくは、[デスクトップビデオエンコーディングプリセット](application-setup.md#desktop-video-encoding-presets)、[モバイルビデオエンコーディングプリセット](application-setup.md#mobile-video-encoding-presets)および[タブレットビデオエンコーディングプリセット](application-setup.md#tablet-video-encoding-presets)を参照してください。
-1. アセットの再処理ダイアログボックスで、「**[!UICONTROL 送信]**」をクリックします。
+1. アセットを再処理ダイアログボックスで、「**[!UICONTROL 送信]**」を選択します。
 
 アダプティブビデオエンコーディングプリセットを使用する場合、または複数のシングルエンコーディングプリセットを使用する場合は、結果的に複数のビデオエンコーディングを含むアダプティブビデオセットが自動的に作成されます。また、個々のビデオを選択して、アダプティブビデオセットを手動で作成することもできます。
 
@@ -139,7 +139,7 @@ For advice about video encoding, see the following:
 次の表に、ソースビデオファイルをエンコードする際に推奨されるサイズ、縦横比、最小ビットレートを示します。
 
 | サイズ | 縦横比（アスペクト比） | 最小ビットレート |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 x 768 | 4:3 | 4500 kbps（多くのビデオの場合）。 |
 | 1280 x 720 | 16:9 | 3000～6000 kbps（ビデオ内のモーションの量による）。 |
 | 1920 x 1080 | 16:9 | 6000～8000 kbps（ビデオ内のモーションの量による） |
@@ -148,7 +148,7 @@ For advice about video encoding, see the following:
 
 ファイルのメタデータを取得するには、AdobeDynamic Media Classicでメタデータを表示するか、ビデオ編集ツールを使用するか、メタデータを取得するように設計されたアプリケーションを使用します。 サードパーティ製アプリケーションである MediaInfo を使用して、ビデオファイルのメタデータを取得する手順は、次のとおりです。
 
-1. 次のWebページに移動します。[https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. 次のWebページに移動します。[https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. GUI バージョンのインストーラを選択してダウンロードし、インストール手順に従います。
 1. インストール後、ビデオファイル(Windows®のみ)を右クリックして「MediaInfo」を選択するか、MediaInfoを開いてビデオファイルをアプリケーションにドラッグします。 幅、高さおよび fps など、ビデオファイルに関連付けられているすべてのメタデータが表示されます。
 
