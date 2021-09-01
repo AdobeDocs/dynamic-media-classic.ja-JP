@@ -1,6 +1,6 @@
 ---
 title: ズーム画像のアップロード
-description: ズーム画像のアップロード方法を説明します。
+description: ズーム画像をDynamic Media Classicにアップロードする方法をAdobeします。
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 28%
+source-wordcount: '220'
+ht-degree: 21%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 28%
 
 ズーム画像には、ピクセル数が多い画像を使用する必要があります。高いピクセル数が必要なので、画像をズームする際に画像の詳細が明確に表示されます。 AdobeDynamic Media Classicにアップロードする前に、使用する画像のサイズが適切であることを確認してください。
 
-グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」をクリックして画像のアップロードを開始します。
+グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して画像のアップロードを開始します。
 
-画像のアップロードについて詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
+画像のアップロード手順について詳しくは、[ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
 
-**ズーム用の画像の準備:**
+**ズーム用に画像を準備します。**
 
 Dynamic Media Classicズーム機能を最大限に活用するには、Adobe画像ファイルをアップロードする前に、次のように準備します。
 

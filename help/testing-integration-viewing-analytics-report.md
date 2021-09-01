@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics レポートの表示による統合のテスト
-description: Adobe Analyticsレポートを表示して統合をテストする方法を説明します。
+title: ' レポートを表示して Adobe Analytics 統合をテストする'
+description: Adobe Analyticsレポートを表示して、AdobeDynamic Media Classicで統合をテストする方法を説明します。
 uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '339'
 ht-degree: 15%
 
 ---
 
-# Adobe Analytics レポートの表示による統合のテスト{#testing-the-integration-by-viewing-an-adobe-analytics-report}
+#  レポートを表示して Adobe Analytics 統合をテストする{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
 Adobe Analyticsで必要な変数を作成し、AdobeDynamic Media Classicイベントにリンクし、必要な実装手順を完了したら、設定をテストできます。 データが Adobe Analytics 内で収集されることをテストして確認できます。設定が正常に動作する場合は、それ以上の手順は必要ありません。上記の手順に従って、AdobeのDynamic Media Classicイベントデータを1つ以上のカスタムトラフィック変数にリンクしたと仮定した場合は、このワークフローに従ってAdobe Analytics内のデータをテストします。
 

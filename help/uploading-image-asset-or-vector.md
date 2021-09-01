@@ -1,16 +1,16 @@
 ---
 title: 画像アセットまたはベクトルアセットのアップロード
-description: 画像アセットまたはベクトルアセットをアップロードする方法を説明します。
+description: Dynamic Media Classicでの画像アセットまたはベクトルアセットのアップロード方法について説明します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 78%
+source-wordcount: '1504'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 
 画像アセットをアップロードするには、その前に共有秘密キーを要求する必要があります。この共有秘密キーを、アップロードトークンの取得に使用します。取得したら、このアップロードトークンを使用して、画像アセットまたはベクトルアセットをアップロードします。
 
-## 共有秘密キーの要求 {#requesting-a-shared-secret-key}
+## 共有秘密鍵のリクエスト {#requesting-a-shared-secret-key}
 
 Admin Consoleを使用して&#x200B;*共有秘密鍵*&#x200B;を[に要求し、サポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、共有秘密鍵をリクエストします。
 
@@ -68,7 +68,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 クエリ URL 文字列で以下のフィールドを使用して、アップロードトークンを取得できます。
 
 | URL パラメータ | 必須またはオプション | 値 |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | 必須 | get_uploadtoken |
 | shared_secret | 必須 | アップロードを行う会社の共有秘密キー。 |
 | expires | オプション | アップロードトークンの有効秒数。指定しない場合は、初期設定の 300 秒になります。 |
@@ -86,7 +86,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 これで、画像アセットをアップロードできるようになりました。
 
-詳しくは、[画像アセットのアップロード](uploading-image-asset-or-vector.md#uploading_an_image_asset)を参照してください。
+[画像アセットのアップロード](uploading-image-asset-or-vector.md#uploading_an_image_asset)を参照してください。
 
 ## 画像アセットのアップロード {#uploading-an-image-asset}
 
@@ -98,9 +98,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token`フィールドと`company_name`フィールドは必須です。
 
-詳しくは、[アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token)を参照してください。
+[アップロードトークン](uploading-image-asset-or-vector.md#retrieving_the_upload_token)の取得を参照してください。
 
-詳しくは、[共有秘密キーの取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)を参照してください。
+[共有秘密鍵の取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)を参照してください。
 
 この例のように、他のオプションの値も URL クエリ文字列として送信できます。
 
@@ -113,7 +113,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
 
 | グローバル制限 | 値 |
-|--- |--- |
+| --- | --- |
 | すべてのクライアントのファイルサイズ | 20MB |
 | アップロードでサポートされている画像ファイルの形式 | BMP、GIF、JPG、PNG、PSD |
 
@@ -125,7 +125,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * ファイル名拡張子のリスト.
 * アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
 * ノックアウトの背景を使用するかどうか。 [ノックアウトの背景]を有効にした場合は、[コーナー]、[許容差]、および[塗りつぶし方法]を設定します。
-[アップロード時の画像編集オプションの「ノックアウトの背景」を参照してください。](image-editing-options-upload.md#image-editing-options-at-upload)
+[アップロード時の画像の微調整オプションの「ノックアウトの背景」を参照してください。](image-editing-options-upload.md#image-editing-options-at-upload)
 * アップロードするファイルの名前.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-上記のフォームに関連付けられたHTMLソースコードを表示するには、[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+上記のフォームに関連付けられたHTMLソースコードを表示するには、「[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)」を選択します。
 
-Firefoxで、ブラウザーウィンドウを右クリックし、「**[!UICONTROL ページソースを表示]**」をクリックします。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**[!UICONTROL 「送信」]**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
+Firefoxで、ブラウザーウィンドウを右クリックし、「**[!UICONTROL ページソースを表示]**」を選択します。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**[!UICONTROL 「送信」]**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
 
-XML 応答を Internet Explorer で表示するには、**[!UICONTROL 表示]**／**[!UICONTROL ソース]**&#x200B;をクリックします。FirefoxでXML応答を表示するには、**[!UICONTROL ツール]** / **[!UICONTROL ブラウザーツール]** / **[!UICONTROL Web開発者ツール]**&#x200B;をクリックします。 XML 応答の表示には、Firefox を使用することをお勧めします。
+Internet ExplorerでXML応答を表示するには、**[!UICONTROL View]** > **[!UICONTROL Source]**&#x200B;に移動します。 FirefoxでXML応答を表示するには、**[!UICONTROL ツール]** / **[!UICONTROL ブラウザーツール]** / **[!UICONTROL Web開発者ツール]**&#x200B;に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -178,8 +178,8 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 アップロードするアセットをマルチパート／フォームとしてアップロードし、残りの値を URL クエリ文字列として送信します。URL クエリ文字列で以下のフィールドを使用して、アセットをアップロードできます。
 
-| URL パラメータ | 必須またはオプション | 値 |
-|--- |--- |--- |
+| URL パラメータ | 必須または任意 | 値 |
+| --- | --- | --- |
 | `op` | 必須 | アップロード |
 | `upload_token` | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
 | `company_name` | 必須 | アップロードを実行する会社の名前。 |
@@ -235,7 +235,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 URL クエリ文字列で以下のフィールドを使用して、アセットの情報を要求できます。
 
 | URL パラメータ | 必須またはオプション | 値 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 必須 | image_info |
 | `shared_secret` | 必須 | 会社の共有秘密キー. |
 | `image_name` | 必須 | 画像の名前。 |
@@ -258,9 +258,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token`フィールドと`company_name`フィールドは必須です。
 
-詳しくは、[アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token)を参照してください。
+[アップロードトークン](uploading-image-asset-or-vector.md#retrieving_the_upload_token)の取得を参照してください。
 
-詳しくは、[共有秘密キーの取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)を参照してください。
+[共有秘密鍵の取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)を参照してください。
 
 この例のように、他のオプションの値も URL クエリ文字列として送信できます。
 
@@ -273,7 +273,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
 
 | グローバル制限 | 値 |
-|--- |--- |
+| --- | --- |
 | すべてのクライアントのファイルサイズ | 20MB |
 | アップロードでサポートされているベクトルファイルの形式 | AI、EPS、PDF（以前、PDF ファイルが Adobe Illustrator CS6 で開いて保存されている場合のみ） |
 
@@ -285,7 +285,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * ファイル名拡張子のリスト.
 * アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
 * ノックアウトの背景を使用するかどうか。 [ノックアウトの背景]を有効にした場合は、[コーナー]、[許容差]、および[塗りつぶし方法]を設定します。
-[アップロード時の画像編集オプションの「ノックアウトの背景」を参照してください。](image-editing-options-upload.md#image-editing-options-at-upload)
+[アップロード時の画像の微調整オプションの「ノックアウトの背景」を参照してください。](image-editing-options-upload.md#image-editing-options-at-upload)
 * アップロードするファイルの名前.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-次のHTMLコードは、ブラウザーウィンドウで右クリックし、例に示すフォームの「**[!UICONTROL ソースを表示]**」をクリックすると表示されます。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**[!UICONTROL 「送信」]**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
+次のHTMLコードは、ブラウザーウィンドウで右クリックし、例に示すフォームの「**[!UICONTROL ソースを表示]**」を選択すると表示されます。 このコードには、対応するURLクエリ文字列と、ユーザーが「**[!UICONTROL 送信]**」を選択したときに実行されるPOSTメソッドが表示されます。
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-XML 応答を Internet Explorer で表示するには、**[!UICONTROL 表示]**／**[!UICONTROL ソース]**&#x200B;をクリックします。FirefoxでXML応答を表示するには、**[!UICONTROL ツール]** / **[!UICONTROL ブラウザーツール]** / **[!UICONTROL ページソース]**&#x200B;をクリックします。 XML 応答の表示には、Firefox を使用することをお勧めします。
+Internet ExplorerでXML応答を表示するには、**[!UICONTROL View]** > **[!UICONTROL Source]**&#x200B;に移動します。 FirefoxでXML応答を表示するには、**[!UICONTROL ツール]** / **[!UICONTROL ブラウザーツール]** / **[!UICONTROL ページソース]**&#x200B;に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -370,8 +370,8 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 
 アップロードするアセットをマルチパート／フォームとしてアップロードし、残りの値を URL クエリ文字列として送信します。URL クエリ文字列で以下のフィールドを使用して、アセットをアップロードできます。
 
-| URL パラメータ | 必須またはオプション | 値 |
-|--- |--- |--- |
+| URL パラメータ | 必須または任意 | 値 |
+| --- | --- | --- |
 | `op` | 必須 | アップロード |
 | `upload_token` | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
 | `company_name` | 必須 | アップロードを実行する会社の名前。 |
