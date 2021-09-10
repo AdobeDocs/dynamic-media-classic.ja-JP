@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 53%
+source-wordcount: '164'
+ht-degree: 47%
 
 ---
 
@@ -24,6 +24,10 @@ UGC（ユーザー生成コンテンツ）を使用する場合は、専用のAd
 
 * ラスタ：JPG、PNG、TIFF
 * ベクトル：AI、EPS(Adobe Illustrator 2018のEPSファイルはサポートされていません)、PDF(以前にPDFファイルを開いてAdobe Illustrator CS6で保存した場合のみ)
+
+>[!IMPORTANT]
+>
+>AdobeDynamic Media Classicでの新規または既存のUGCベクトル画像アセットのサポートは、2021年9月30日に終了します。
 
 アセットをアップロードする前に、共有秘密キーを取得します。このキーは、アップロードトークンを取得するために使用します。アセットをアップロードしたり、ほかのユーザ生成コンテンツのタスクを実行したりするときは、このアップロードトークンを送信します。
 

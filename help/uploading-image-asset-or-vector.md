@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 70%
+source-wordcount: '1540'
+ht-degree: 69%
 
 ---
 
 # 画像アセットまたはベクトルアセットのアップロード{#uploading-an-image-asset-or-a-vector-asset}
 
 画像アセットをアップロードするには、その前に共有秘密キーを要求する必要があります。この共有秘密キーを、アップロードトークンの取得に使用します。取得したら、このアップロードトークンを使用して、画像アセットまたはベクトルアセットをアップロードします。
+
+>[!IMPORTANT]
+>
+>AdobeDynamic Media Classicでの新規または既存のUGCベクトル画像アセットのサポートは、2021年9月30日に終了します。
 
 ## 共有秘密鍵のリクエスト {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 GET と POST
 
 ## ベクトルアセットのアップロード {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>AdobeDynamic Media Classicでの新規または既存のUGCベクトル画像アセットのサポートは、2021年9月30日に終了します。
 
 一定時間有効なアップロードトークンを取得したら、ベクトルアセットをアップロードできます。この例では、マルチパート／フォームとしてアセットをアップロードし、残りの値を URL クエリ文字列として送信します。
 
