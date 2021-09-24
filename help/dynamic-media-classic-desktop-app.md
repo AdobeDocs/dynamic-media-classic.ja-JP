@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 474fc6022557a1eee782a22cb40d39f2ad9aa01d
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1834'
 ht-degree: 1%
 
 ---
@@ -106,11 +106,11 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
-   | ブラウザーURL | デスクトップアプリケーションサーバー名 |
+   | デスクトップアプリケーションサーバー名 | ブラウザーURL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北米）生産 |
-   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
-   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
+   | NA（北米）生産 | `https://s7sps1.scene7.com/` |
+   | EMEA（ヨーロッパ、中東、アフリカ）の生産 | `https://s7sps3.scene7.com/` |
+   | APAC（アジア太平洋）生産 | `https://s7sps5.scene7.com/` |
 
 1. ログイン後、使い慣れたブラウザーユーザーインターフェイスが表示されます。 デスクトップアプリケーションでは、通常どおり、1日を通じてAdobeDynamic Media Classicのアクティビティを続行できます。
 
@@ -123,7 +123,7 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
 macOSで最新バージョンのDynamic Media Classicデスクトップアプリケーションをダウンロードして&#x200B;*サイレント* Adobeするには、次の手順を実行します。
 
-1. システム上で古いAdobeのDynamic Media Classicデスクトップアプリケーションをアンインストールします。
+1. Dynamic Media Classic.appAdobeをTrashに移動して、Adobeが古いDynamic Media Classicデスクトップアプリケーションバージョンをシステム上でアンインストールします。
 
 1. macOS用Dynamic Media ClassicデスクトップアプリケーションAdobeの最新のインストーラーをダウンロードします。
 
@@ -148,11 +148,11 @@ macOSで最新バージョンのDynamic Media Classicデスクトップアプリ
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
-   | ブラウザーURL | デスクトップアプリケーションサーバー名 |
+   | デスクトップアプリケーションサーバー名 | ブラウザーURL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北米）生産 |
-   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
-   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
+   | NA（北米）生産 | `https://s7sps1.scene7.com/` |
+   | EMEA（ヨーロッパ、中東、アフリカ）の生産 | `https://s7sps3.scene7.com/` |
+   | APAC（アジア太平洋）生産 | `https://s7sps5.scene7.com/` |
 
 ## Windows®で最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードし、*サイレント*&#x200B;インストールします。 {#install-silent-windows-dmc-app}
 
@@ -193,12 +193,11 @@ Windows®で最新バージョンのDynamic Media Classicデスクトップア�
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
-   | ブラウザーURL | デスクトップアプリケーションサーバー名 |
+   | デスクトップアプリケーションサーバー名 | ブラウザーURL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北米）生産 |
-   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
-   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
-
+   | NA（北米）生産 | `https://s7sps1.scene7.com/` |
+   | EMEA（ヨーロッパ、中東、アフリカ）の生産 | `https://s7sps3.scene7.com/` |
+   | APAC（アジア太平洋）生産 | `https://s7sps5.scene7.com/` |
 
 ## Dynamic Media Classic Desktop Appの使用に関するビデオAdobe {#dmc-app-video-walk-through}
 
