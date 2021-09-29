@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
+source-git-commit: 4e42d90747af895d27c64fa3fb5830f73e3a0a95
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -38,22 +38,34 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 >
 >Dynamic Media ClassicデスクトップAdobe内のアップグレード通知は、*マイナー*&#x200B;リリースに対しては生成されません。 マイナーリリースの修正のメリットがあるお客様は、アップグレードできます。
 
-## マイナーリリース(20.21.2)の修正点 {#minor-release}
+## 最新リリース(20.21.3)の修正点 {#release-sept2021}
 
-* 「サーバー」ドロップダウン20.21.1の既知の制限が空である。
+* デスクトップアプリケーションで無操作状態が一定期間続いた後に表示されるアセットの壊れたサムネール。
+* 通常、設定操作後、デスクトップアプリケーションが応答を停止します。
+* **[!UICONTROL Test Image Serving]**&#x200B;で、要求の難読化とロックモードが自動的に有効化されます。
+
+   [セキュアテストサービスのテスト](/help/testing-assets-making-them-public.md#testing-the-secure-testing-service)を参照してください。
+
+* 認証メカニズムがAdobe Analyticsに更新されました。 新しい統合に関連している場合や、Dynamic Media Classicデスクトップアプリケーション内から一部のAnalytics変数を更新する必要がある場合。
+
+   更新された手順については、「[Adobe Analytics](/help/log-analytics.md)へのログイン」を参照してください。
+
+## リリース20.21.2の修正点 {#minor-release}
+
+* 20.21.1の既知の制限：サインイン画面の&#x200B;**[!UICONTROL サーバー]**&#x200B;ドロップダウンリストが空でした。
 * **[!UICONTROL アップロードジョブオプション]**&#x200B;で、**[!UICONTROL Photoshopオプション]**&#x200B;の下のレイヤー命名のデフォルト値が&#x200B;**[!UICONTROL Photoshopとレイヤー名]**&#x200B;になりました。 PSD ファイルのレイヤーは、個別の画像としてアップロードされます。
    * 以前の初期設定の&#x200B;**[!UICONTROL レイヤー名]**&#x200B;は、PSDファイル内のレイヤー名またはレイヤー番号に基づいて画像に名前を付けます。 PSDファイル内のレイヤー名がデフォルトのPhotoshopレイヤー名である場合は、レイヤー番号が使用されていました。
    * **[!UICONTROL Photoshopとレイヤー名]**&#x200B;の新しい初期設定では、PSDファイルの後にレイヤー名またはレイヤー番号が続く名前が画像に付けられます。 PSD ファイルのレイヤー名が、初期設定の Photoshop レイヤー名の場合は、レイヤー番号が使用されます。
    * AdobeDynamic Media Classicのレイヤー画像に一意の名前が付けられたので、既存のPSDやテンプレート（元のPSDファイル内の共有レイヤー名）は更新されません。
 * アセットの壊れたサムネール。
 
-## 最新バージョンの修正(20.21.1) {#latest-fixes-desktop-app}
+## リリース20.21.1の修正点 {#latest-fixes-desktop-app}
 
 * タイムアウトによりサインインに問題が発生し、次のメッセージが表示されます。*このユーザーは、権限を持たずにグループに割り当てられる場合があります。 管理者に問い合わせてください。*
 * 不正なパスワードが試行されるたびに、ビューアプリセットが複製されます。
 * ルートフォルダー内の多くのアセットが原因で、デスクトップアプリケーションが応答しなくなる。 (Windows®で修正。（macOSで必要に応じて動作）。
 
-## 以前のバージョンの修正点(20.20.2) {#previous-version-fixes-desktop-app}
+## リリース20.20.2の修正点 {#previous-version-fixes-desktop-app}
 
 * macOSとWindows®の両方でデスクトップアプリケーションのユーザーインターフェイスを使用してアップロードできるファイルの数に制限はありません。
 * 会社を切り替えるためにデスクトップアプリケーションからサインアウトする必要はありません。
@@ -71,14 +83,14 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
 1. Dynamic Media ClassicデスクトップアプリケーションのAdobe用の最新インストーラーをダウンロードします。
 
-   * 最新バージョン(20.21.2)は、次の場所で入手できます。
+   * 最新バージョン(20.21.3)は、次の場所で入手できます。
+
+      * [macOS(.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+      * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+   * 以前のバージョン(20.21.2)は、次の場所で入手できます。
 
       * [macOS(.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
       * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * 以前のバージョン(20.21.1)は、次の場所で入手できます。
-
-      * [macOS(.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
@@ -106,11 +118,11 @@ AdobeDynamic Media Classicデスクトップアプリケーションは、次の
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
-   | ブラウザーURL | デスクトップアプリケーションサーバー名 |
+   | サーバ | ブラウザーURL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北米）生産 |
-   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
-   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
+   | NA生産（北米） | https://s7sps1.scene7.com/ |
+   | EMEA生産（ヨーロッパ、中東、アフリカ） | https://s7sps3.scene7.com/ |
+   | APAC生産（アジア太平洋） | https://s7sps5.scene7.com/ |
 
 1. ログイン後、使い慣れたブラウザーユーザーインターフェイスが表示されます。 デスクトップアプリケーションでは、通常どおり、1日を通じてAdobeDynamic Media Classicのアクティビティを続行できます。
 
@@ -127,11 +139,11 @@ macOSで最新バージョンのDynamic Media Classicデスクトップアプリ
 
 1. macOS用Dynamic Media ClassicデスクトップアプリケーションAdobeの最新のインストーラーをダウンロードします。
 
-   * [macOS(.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+   * [macOS(.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
 
 1. 次のコマンドを使用して、ダウンロードしたディスク・イメージ(.DMG)をマウントポイントの場所にマウントします。
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.3.dmg -mountpoint <mount_point_path>`
 
 1. 次のコマンドを使用して、.APPファイルを&#x200B;**[!UICONTROL Applications]**&#x200B;にコピーします。
 
@@ -148,11 +160,11 @@ macOSで最新バージョンのDynamic Media Classicデスクトップアプリ
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
-   | ブラウザーURL | デスクトップアプリケーションサーバー名 |
+   | サーバ | ブラウザーURL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北米）生産 |
-   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
-   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
+   | NA生産（北米） | https://s7sps1.scene7.com/ |
+   | EMEA生産（ヨーロッパ、中東、アフリカ） | https://s7sps3.scene7.com/ |
+   | APAC生産（アジア太平洋） | https://s7sps5.scene7.com/ |
 
 ## Windows®で最新AdobeのDynamic Media Classicデスクトップアプリケーションをダウンロードし、*サイレント*&#x200B;インストールします。 {#install-silent-windows-dmc-app}
 
@@ -169,19 +181,19 @@ Windows®で最新バージョンのDynamic Media Classicデスクトップア�
 
 1. Dynamic Media ClassicデスクトップアプリケーションのAdobe用の最新インストーラーをダウンロードします。
 
-   * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 1. 次のコマンドを使用して、インストーラーをレコードモードで実行します。
 
-   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /r /f1"C:\Setup.iss"`
 
 1. GUIインストーラーウィンドウで、インストール場所などの操作/入力を`Setup.iss`ファイルに記録するように、手順に従ってをインストールします。
 
-1. 作成した`Setup.iss`ファイルと`adobe-dynamic-media-classic-20.21.2.exe`を他のコンピューターにコピーします。
+1. 作成した`Setup.iss`ファイルと`adobe-dynamic-media-classic-20.21.3.exe`を他のコンピューターにコピーします。
 
 1. サイレント・インストールの場合は、次のコマンドを実行します。
 
-   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /s /f1"C:\Setup.iss"`
 
    コマンドラインパラメータの詳細は、[Setup.exeとUpdate.exeのコマンドラインパラメータで確認できます。](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -193,12 +205,11 @@ Windows®で最新バージョンのDynamic Media Classicデスクトップア�
 
    **[!UICONTROL サーバー]**&#x200B;を使用するには、実稼動環境で次のマッピングを参照してください。
 
-   | ブラウザーURL | デスクトップアプリケーションサーバー名 |
+   | サーバ | ブラウザーURL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北米）生産 |
-   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
-   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
-
+   | NA生産（北米） | https://s7sps1.scene7.com/ |
+   | EMEA生産（ヨーロッパ、中東、アフリカ） | https://s7sps3.scene7.com/ |
+   | APAC生産（アジア太平洋） | https://s7sps5.scene7.com/ |
 
 ## Dynamic Media Classic Desktop Appの使用に関するビデオAdobe {#dmc-app-video-walk-through}
 

@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2425'
 ht-degree: 48%
 
 ---
@@ -42,7 +42,7 @@ Dynamic Media ClassicAdobeで画像マップを作成する機能に加えて、
    * グリッドビューまたはリストビューでスピンセットを操作する場合は、「**[!UICONTROL 編集]**」を選択します。 または、詳細ビューで開き、[**[!UICONTROL 編集]**]を選択します。 画像アセットを選択し、「**[!UICONTROL 画像マップ]**」を選択します。
    * eCatalogを使用する場合は、グリッドビュー、リストビュー、詳細ビューで、**[!UICONTROL 編集]**&#x200B;を選択します。 「**[!UICONTROL ページをマッピング]**」タブを選択します。
 
-   ![](assets/ma_image_map.png)
+   ![画像マップ画像](assets/ma_image_map.png)
 
 1. 長方形または多角形の画像マップを描画します。
 

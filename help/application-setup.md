@@ -1,6 +1,6 @@
 ---
 title: アプリケーション設定
-description: Dynamic Media ClassicのAdobe領域を設定する方法を説明します。
+description: AdobeDynamic Media Classicのアプリケーション領域を設定および設定する方法について説明します。 アプリケーション領域では、一般的な設定の入力、画像、ビューアおよびビデオエンコーディングプリセットの作成、初期設定のビューアとメタデータの定義、公開設定およびビデオSEO設定をおこなえます。 また、この領域を使用してバッチセットプリセットを設定し、2Dスピンセットを自動生成することもできます。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '10951'
-ht-degree: 44%
+source-wordcount: '11003'
+ht-degree: 43%
 
 ---
 
@@ -957,7 +957,7 @@ spin-03-12
 
 この情報を使用して、バッチセットの種類のレシピを次のように作成できます。
 
-![](assets/se_batch_set_recipe.png)
+![レシピ画像のバッチセット](assets/se_batch_set_recipe.png)
 
 スピンセット内のアセット名の一部が共有されている場合のグループ化が、「一致」フィールド（ハイライト表示されている場合）に追加されています。 行と列を含むアセット名の可変部分は、それぞれ「行」フィールドと「列」フィールドに追加しています。
 
