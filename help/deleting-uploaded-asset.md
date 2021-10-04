@@ -1,6 +1,6 @@
 ---
 title: アップロードしたアセットの削除
-description: アップロードしたアセットをDynamic Media Classicで削除する方法について説明します。Adobe
+description: アップロードしたアセットを削除する方法については、Dynamic Media Classic のAdobeを参照してください。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 70%
+source-wordcount: '102'
+ht-degree: 71%
 
 ---
 
@@ -48,16 +48,18 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 | --- | --- | --- |
 | `op` | 必須 | 削除 |
 | `shared_secret` | 必須 | 会社の共有秘密キー. |
-| <ul><li>画像の場合：image_name</li><li>ベクトル：fxg_name</li></ul> | 必須 | 削除するアセットの名前。 |
+| `image_name` | 必須 | 削除するアセットの名前。 |
+
+<!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
 >
->AdobeDynamic Media Classicでの新規または既存のUGCベクトル画像アセットのサポートは、2021年9月30日に終了します。
+>AdobeDynamic Media Classic での新規または既存の UGC ベクトル画像アセットのサポートは、2021 年 9 月 30 日に終了しました。
 
 **サンプル画像の URL：**
 
 `https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif`
 
-**ベクトル URL例：**
+<!-- **Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=delete&shared_secret=2160a8fa-cec6-45ba-8d59- ca595f6d2b47& &fxg_name=8875744.fxg`
+`https://s7ugc1.scene7.com/ugc/vector?op=delete&shared_secret=2160a8fa-cec6-45ba-8d59- ca595f6d2b47& &fxg_name=8875744.fxg` -->

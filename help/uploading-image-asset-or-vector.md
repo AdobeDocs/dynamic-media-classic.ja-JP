@@ -1,44 +1,44 @@
 ---
-title: 画像アセットまたはベクトルアセットのアップロード
-description: Dynamic Media Classicでの画像アセットまたはベクトルアセットのアップロード方法について説明します。
+title: ラスター画像アセットのアップロード
+description: ラスター画像アセットをDynamic Media Classic にアップロードする方法をAdobeに説明します。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '994'
 ht-degree: 69%
 
 ---
 
-# 画像アセットまたはベクトルアセットのアップロード{#uploading-an-image-asset-or-a-vector-asset}
+# ラスター画像アセットのアップロード {#uploading-an-image-asset-or-a-vector-asset}
 
-画像アセットをアップロードするには、その前に共有秘密キーを要求する必要があります。この共有秘密キーを、アップロードトークンの取得に使用します。取得したら、このアップロードトークンを使用して、画像アセットまたはベクトルアセットをアップロードします。
+画像アセットをアップロードするには、その前に共有秘密キーを要求する必要があります。この共有秘密キーを、アップロードトークンの取得に使用します。次に、アップロードトークンを使用して、ラスター画像アセットをアップロードします。
 
 >[!IMPORTANT]
 >
->AdobeDynamic Media Classicでの新規または既存のUGCベクトル画像アセットのサポートは、2021年9月30日に終了します。
+>AdobeDynamic Media Classic での新規または既存の UGC ベクトルアセットのサポートは、2021 年 9 月 30 日に終了しました。
 
 ## 共有秘密鍵のリクエスト {#requesting-a-shared-secret-key}
 
-Admin Consoleを使用して&#x200B;*共有秘密鍵*&#x200B;を[に要求し、サポートケースを作成します。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) サポートケースで、共有秘密鍵をリクエストします。
+[Admin Consoleを使用して *共有秘密鍵* をリクエストし、サポートケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) サポートケースで、共有秘密鍵をリクエストします。
 
-電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。AdobeDynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
+電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Dynamic Media Classic からキーを受け取ったら、後で使用するためにローカルに保存します。
 
 ## アップロードトークンの取得 {#retrieving-the-upload-token}
 
 *アップロードトークン*&#x200B;は、ほかのユーザが同じ共有秘密キーを使用してアセットをアップロードすることができないようにします。つまり、アップロードの合法性とソースの信頼性を確保します。
 
-アップロードトークンは英数字で構成された文字列で、一定の期間しか利用できません。共有秘密鍵を代わりに次のURLを使用して、アップロードトークンを取得できます。
+アップロードトークンは英数字で構成された文字列で、一定の期間しか利用できません。アップロードトークンを取得できるよう、共有秘密鍵を代わりに次の URL を使用してください。
 
-* 画像
+* ラスターイメージ
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`この例では、共有秘密鍵は  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
-* ベクトル
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`この例では、共有秘密鍵は  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+<!-- * Vector
+  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
 初期設定で、アップロードトークンは取得後 5 分（300 秒）で有効期限切れになります。期限を延長するには、URL に `expires` パラメータを追加し、必要とする時間を秒単位で入力します。例えば、次のサンプル画像の URL では、1800 秒間有効なアップロードトークンを取得します。
 
@@ -77,22 +77,22 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | shared_secret | 必須 | アップロードを行う会社の共有秘密キー。 |
 | expires | オプション | アップロードトークンの有効秒数。指定しない場合は、初期設定の 300 秒になります。 |
 
-**サンプル画像の URL：**
+**ラスターイメージ URL の例：**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
-**ベクトル URL例：**
+<!-- **Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
+`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
-**許可されているHTTPメソッド：**
+**許可されている HTTP メソッド：**
 `GET` および  `POST`
 
 これで、画像アセットをアップロードできるようになりました。
 
-[画像アセットのアップロード](uploading-image-asset-or-vector.md#uploading_an_image_asset)を参照してください。
+[ 画像アセットのアップロード ](uploading-image-asset-or-vector.md#uploading_an_image_asset) を参照してください。
 
-## 画像アセットのアップロード {#uploading-an-image-asset}
+## ラスター画像アセットのアップロード {#uploading-an-image-asset}
 
 一定時間有効なアップロードトークンを取得したら、画像アセットをアップロードできます。この例では、マルチパート／フォームとしてアセットをアップロードし、残りの値を URL クエリ文字列として送信します。
 
@@ -100,11 +100,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-`upload_token`フィールドと`company_name`フィールドは必須です。
+`upload_token` フィールドと `company_name` フィールドは必須です。
 
-[アップロードトークン](uploading-image-asset-or-vector.md#retrieving_the_upload_token)の取得を参照してください。
+[ アップロードトークンの取得 ](uploading-image-asset-or-vector.md#retrieving_the_upload_token) を参照してください。
 
-[共有秘密鍵の取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)を参照してください。
+[ 共有秘密鍵の取得 ](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key) を参照してください。
 
 この例のように、他のオプションの値も URL クエリ文字列として送信できます。
 
@@ -112,14 +112,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-`file_limit`パラメーターは、ファイルサイズの制限をバイト単位で指定します。 `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
+`file_limit` パラメータは、ファイルサイズの制限をバイト単位で指定します。 `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
 
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
 
 | グローバル制限 | 値 |
 | --- | --- |
 | すべてのクライアントのファイルサイズ | 20MB |
-| アップロードでサポートされている画像ファイルの形式 | BMP、GIF、JPG、PNG、PSD |
+| アップロードでサポートされている画像ファイルの形式 | BMP、GIF、JPG、PNG、PSD, TIFF |
 
 アセットのアップロードには次の HTML フォームを使用できます。フォームからは次の情報の入力が求められます。
 
@@ -128,25 +128,15 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
 * アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
-* ノックアウトの背景を使用するかどうか。 [ノックアウトの背景]を有効にした場合は、[コーナー]、[許容差]、および[塗りつぶし方法]を設定します。
-[アップロード時の画像の微調整オプションの「ノックアウトの背景」を参照してください。](image-editing-options-upload.md#image-editing-options-at-upload)
+* ノックアウトの背景を使用するかどうか。 [ ノックアウトの背景 ] を有効にした場合は、[ コーナー ]、[ 公差 ]、および [ 塗りつぶし方法 ] を設定します。
+[ アップロード時の画像の微調整オプション ](image-editing-options-upload.md#image-editing-options-at-upload) の「ノックアウトの背景」を参照してください。
 * アップロードするファイルの名前.
 
-<!-- 
+上記のフォームに関連付けられている HTML ソースコードを表示するには、「[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)」を選択します
 
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
+Firefox で、ブラウザーウィンドウを右クリックし、「**[!UICONTROL ページソースを表示]**」を選択します。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**[!UICONTROL 「送信」]**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
 
-<p>Art Spec: If not leaving art spec, delete only the first of the 2 &lt;draft-comment> elements under &lt;adobefig>.</p>
-
- -->
-
-上記のフォームに関連付けられたHTMLソースコードを表示するには、「[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)」を選択します。
-
-Firefoxで、ブラウザーウィンドウを右クリックし、「**[!UICONTROL ページソースを表示]**」を選択します。 コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**[!UICONTROL 「送信」]**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
-
-Internet ExplorerでXML応答を表示するには、**[!UICONTROL View]** > **[!UICONTROL Source]**&#x200B;に移動します。 FirefoxでXML応答を表示するには、**[!UICONTROL ツール]** / **[!UICONTROL ブラウザーツール]** / **[!UICONTROL Web開発者ツール]**&#x200B;に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
+Internet Explorer で XML 応答を表示するには、**[!UICONTROL View]** > **[!UICONTROL Source]** に移動します。 Firefox で XML 応答を表示するには、**[!UICONTROL ツール]** / **[!UICONTROL ブラウザーツール]** / **[!UICONTROL Web 開発者ツール]** に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -182,7 +172,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 アップロードするアセットをマルチパート／フォームとしてアップロードし、残りの値を URL クエリ文字列として送信します。URL クエリ文字列で以下のフィールドを使用して、アセットをアップロードできます。
 
-| URL パラメータ | 必須または任意 | 値 |
+| URL パラメータ | 必須またはオプション | 値 |
 | --- | --- | --- |
 | `op` | 必須 | アップロード |
 | `upload_token` | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
@@ -252,61 +242,51 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 
 GET と POST
 
-## ベクトルアセットのアップロード {#uploading-a-vector-asset}
+<!-- ## Upload a vector asset {#uploading-a-vector-asset}
 
 >[!IMPORTANT]
 >
->AdobeDynamic Media Classicでの新規または既存のUGCベクトル画像アセットのサポートは、2021年9月30日に終了します。
+>Support for new or existing UGC vector image assets in Adobe Dynamic Media Classic end on September 30, 2021.
 
-一定時間有効なアップロードトークンを取得したら、ベクトルアセットをアップロードできます。この例では、マルチパート／フォームとしてアセットをアップロードし、残りの値を URL クエリ文字列として送信します。
+After you retrieve an upload token that is valid for a specific amount of time, you can upload a vector asset. You upload the asset as a multipart/form post while sending the rest of the values as a URL query string, as shown in this example:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-`upload_token`フィールドと`company_name`フィールドは必須です。
+The `upload_token` and `company_name` fields are required.
 
-[アップロードトークン](uploading-image-asset-or-vector.md#retrieving_the_upload_token)の取得を参照してください。
+See [Retrieve the upload token](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-[共有秘密鍵の取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)を参照してください。
+See [Retrieve a shared-secret key](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
-この例のように、他のオプションの値も URL クエリ文字列として送信できます。
+You can also send other optional values as URL query strings, as in this example:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-`file_limit`パラメーターは、ファイルサイズの制限をバイト単位で指定します。 `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
+The `file_limit` parameter specifies the file-size limit in bytes. The `file_exts` parameter specifies the filename extensions that are allowed for upload. Both of these values are optional.
 
-ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
+A global limit is set in the application for the file size limit and the filename extensions allowed. If what you send in the request is a subset of the global limits, it is honored. The global limits are the following:
 
-| グローバル制限 | 値 |
+| Global limit | Value |
 | --- | --- |
-| すべてのクライアントのファイルサイズ | 20MB |
-| アップロードでサポートされているベクトルファイルの形式 | AI、EPS、PDF（以前、PDF ファイルが Adobe Illustrator CS6 で開いて保存されている場合のみ） |
+| File size for all clients | 20 MB |
+| Supported vector file formats for upload | AI, EPS, PDF (only when the PDF is previously opened and saved in Adobe Illustrator CS6) |
 
-アセットのアップロードには次の HTML フォームを使用できます。フォームからは次の情報の入力が求められます。
+The following HTML form lets a user upload an asset. The form asks the user to enter the following information:
 
-* 会社名.
-* アップロードトークン.
-* ファイルサイズ制限.
-* ファイル名拡張子のリスト.
-* アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
-* ノックアウトの背景を使用するかどうか。 [ノックアウトの背景]を有効にした場合は、[コーナー]、[許容差]、および[塗りつぶし方法]を設定します。
-[アップロード時の画像の微調整オプションの「ノックアウトの背景」を参照してください。](image-editing-options-upload.md#image-editing-options-at-upload)
-* アップロードするファイルの名前.
+* A company name.
+* An upload token.
+* A file size limit.
+* A list of filename extensions.
+* Whether to preserve the color profile and file name associated with the asset.
+* Whether to use Knockout Background. If you enable Knockout Background, set the Corner, Tolerance, and Fill Method.
+See Knockout Background in [Image fine-tuning options at upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* The name of the file to upload.
 
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>Art Spec: If not leaving art spec, delete only the first of the 2 &lt;draft-comment> elements under &lt;adobefig>.</p>
-
- -->
-
-次のHTMLコードは、ブラウザーウィンドウで右クリックし、例に示すフォームの「**[!UICONTROL ソースを表示]**」を選択すると表示されます。 このコードには、対応するURLクエリ文字列と、ユーザーが「**[!UICONTROL 送信]**」を選択したときに実行されるPOSTメソッドが表示されます。
+The following HTML code is displayed when you right-click in the browser window, and then select **[!UICONTROL View Source]** for the form shown in the example. The code shows the corresponding URL query string and the POST method that are run when the user selects **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -340,9 +320,9 @@ return true;
 </body>
 ```
 
-Internet ExplorerでXML応答を表示するには、**[!UICONTROL View]** > **[!UICONTROL Source]**&#x200B;に移動します。 FirefoxでXML応答を表示するには、**[!UICONTROL ツール]** / **[!UICONTROL ブラウザーツール]** / **[!UICONTROL ページソース]**&#x200B;に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
+To view the XML response in Internet Explorer, go to **[!UICONTROL View]** > **[!UICONTROL Source]**. To view XML response in Firefox, go to **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Firefox is recommended for viewing XML responses.
 
-以下は、アップロードが正常に完了した場合のサンプル応答です。
+The following is a sample response from a successful upload:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -368,32 +348,33 @@ Internet ExplorerでXML応答を表示するには、**[!UICONTROL View]** > **[
 
 >[!NOTE]
 >
->アップロードされたアセット（AI、EPS、PDF など）は FXG 形式に変換され、応答ではその FXG アセットへの直接リンクが送信されます。
+>The uploaded asset (AI, EPS, PDF so on) is converted to the FXG format and the response sends a direct link to that FXG asset.
 
-アセットは、他のWeb-to-Printリソースと同様です。処理クエリを適用します。 例えば、次の URL は FXG リソースを 500x500 png 画像に変換します。
+The asset is like any other Web-to-print resource; you apply processing queries to it. For example, the following URL converts an FXG resource into a 500x500 png image.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 ```
 
-アップロードするアセットをマルチパート／フォームとしてアップロードし、残りの値を URL クエリ文字列として送信します。URL クエリ文字列で以下のフィールドを使用して、アセットをアップロードできます。
+Send the asset to upload as a multipart/form post while sending the rest of the values as a URL query string. You can use the following fields in the URL query string to upload an asset:
 
-| URL パラメータ | 必須または任意 | 値 |
+| URL Parameter | Required or Optional | Value |
 | --- | --- | --- |
-| `op` | 必須 | アップロード |
-| `upload_token` | 必須 | 会社と関連付けられている共有秘密キーに対応するアップロードトークン。 |
-| `company_name` | 必須 | アップロードを実行する会社の名前。 |
-| `file_limit` | オプション | アセットのファイルサイズ制限（バイト単位）。 |
-| `file_exts` | オプション | アセットファイルで使用できる拡張子のリスト。 |
+| `op` | Required | upload |
+| `upload_token` | Required | Upload token for the shared-secret key associated with the company. |
+| `company_name` | Required | Name of the company performing the upload. |
+| `file_limit` | Optional | File size limit, in bytes, for the asset. |
+| `file_exts` | Optional | List of allowable extensions for the asset file. |
 
 >[!NOTE]
 >
->アップロードするアセットは、マルチパート POST 要求の唯一のフィールドとして送信する必要があります。
+>You are required to send the asset to be uploaded as the only field in a multipart POST request.
 
-**サンプル URL：**
+**Sample URL:**
 
 `https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_to ken=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company`
 
-**使用可能な HTTP メソッド：**
+**Allowed HTTP method:**
 
 POST
+ -->
