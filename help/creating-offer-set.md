@@ -10,7 +10,7 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 35%
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classicには、編集用のツールやオファーセッ�
 1. 終了したら、ページの右下隅付近にある「保存後に公開」が選択されている（デフォルト）ことを確認します。****
 1. 「**[!UICONTROL 閉じる]**」を選択し、オファーセットの名前を入力して、「**[!UICONTROL 保存]**」を選択します。
 
-Test&amp;Target オファーセットページを閉じる前に、オファーセットをAdobe Target Standard/Premium にプッシュします。 詳しくは、[Test&amp;Target へのオファーセットのプッシュ](pushing-offer-sets-target.md#pushing_offer_sets_to_target)を参照してください。
+Test&amp;Target オファーセットページを閉じる前に、オファーセットをAdobe Target Standard/Premium にプッシュします。 [Test&amp;Target へのオファーセットのプッシュ ](pushing-offer-sets-target.md#pushing_offer_sets_to_target) を参照してください。
 
 ## 画像またはビデオを含むオファーセットの作成 {#creating-an-offer-set-with-images-or-videos}
 
