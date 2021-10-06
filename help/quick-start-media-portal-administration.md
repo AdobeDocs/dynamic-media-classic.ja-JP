@@ -1,6 +1,6 @@
 ---
-title: 「クイックスタート：Media Portal»
-description: AdobeDynamic Media ClassicのMedia Portalのテクニックと管理をすばやく習得できるようにする、概要とクイックスタートガイドです。
+title: 「クイックスタート：Media Portal »
+description: Adobe Dynamic Media Classicの Media Portal のテクニックと管理をすばやく習得できるようにする、概要とクイックスタートのガイドです。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,20 +10,28 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 68%
+source-wordcount: '872'
+ht-degree: 52%
 
 ---
 
 # クイックスタート：Media Portal{#quick-start-media-portal}
 
-Media Portalを使用すると、会社は承認されたアセットを容易に取得、制御し、外部のパートナーやチャネル、および会社の内部ユーザーに配布できます。 このブラウザーベースの「セルフサービス」環境は、Media Portalユーザーに対し、管理者が制御した「表示」をAdobeDynamic Media Classicアセットに提供し、会社が承認した形式でアセットに簡単にアクセス、参照、検索、プレビューおよび書き出しできます。
+Media Portal を使用すると、会社は承認済みアセットを容易に取得、制御し、外部のパートナーやチャネル、および会社の内部ユーザーに配布できます。 このブラウザーベースの「セルフサービス」環境は、Adobe Dynamic Media Classic Portal ユーザーに管理者が制御した「表示」を提供し、アセットに対するアクセス、参照、検索、プレビューおよび会社が承認した形式での書き出しを容易におこなえます。
 
-管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。フォント、フォントカラー、フォントサイズを指定し、ロゴなどのブランディング要素をMedia Portalインターフェイスに組み込むことができます。
+管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。フォント、フォントカラー、フォントサイズを指定し、ロゴなどのブランディング要素を Media Portal インターフェイスに組み込むことができます。
 
-ここでは、Media Portal の管理方法をすばやく習得できるように、手順について簡潔に説明します。各手順の最後に、トピックのリンクを選択して詳細を確認します。
+次のトレーニングビデオを参照してください。
+
+* [Media Portal の概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+
+* [Media Portal tour 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+
+* [Media Portal tour 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+
+次のクイックスタートは、Media Portal の管理をすばやく習得できるように作られています。 各手順の最後で、トピックのリンクを選択して詳細を確認します。
 
 ## 1. Media Portal ユーザの役割について
 
@@ -35,19 +43,19 @@ Media Portal ユーザには、ユーザ、寄稿者、寄稿者ユーザの 3 �
 
 グループは、ユーザがアクセスするフォルダおよびファイル、これらのフォルダおよびファイルでユーザが実行できることおよび使用可能な画像プリセットを指定します。管理者の最初の作業は、グループを作成することです。各グループについて、グループメンバーがアクセスできるフォルダ、ファイルおよび画像プリセットを指定します。また、読み取り、書き込みおよび削除の権限をグループメンバーに付与します。これらの権限によって、メンバーが、アクセスできるフォルダとファイルを参照、編集、名前変更、削除できるかどうかが指定されます。
 
-[Media Portalグループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)を参照してください。
+[Media Portal グループの作成と管理 ](creating-media-portal-groups.md#creating_and_managing_media_portal_groups) を参照してください。
 
 ## 3. ユーザの追加
 
 ユーザを追加する際、ユーザに役割（ユーザ、寄稿者または寄稿者ユーザ）を割り当てます。また、ユーザを 1 つまたは複数のグループに割り当てます。ユーザの追加を速やかに行うため、ユーザリストを CSV ファイル形式でアップロードできます。新しいユーザにはご案内の電子メールメッセージと Media Portal へのログオン手順が送信されます。
 
-[Media Portalユーザーの追加と管理](adding-media-portal-users.md#adding_and_managing_media_portal_users)を参照してください。
+[Media Portal ユーザーの追加と管理 ](adding-media-portal-users.md#adding_and_managing_media_portal_users) を参照してください。
 
 ## 4. FTP アカウントの管理
 
-Media Portalに関連付けられ、AdobeDynamic Media Classicアカウントの特定のフォルダーにマッピングされた個別のFTPアカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
+Media Portal に関連付けられ、Adobe Dynamic Media Classicアカウントの特定のフォルダーにマッピングされた個別の FTP アカウントを持つことができます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
 
-[FTPアカウントの管理](ftp-accounts.md#managing_ftp_accounts)を参照してください。
+[FTP アカウントの管理 ](ftp-accounts.md#managing_ftp_accounts) を参照してください。
 
 >[!NOTE]
 >
@@ -59,13 +67,13 @@ Media Portalに関連付けられ、AdobeDynamic Media Classicアカウントの
 
 Media Portal ユーザは、ファイルを書き出すときに、ファイルの形式を変更してオリジナルのマスターファイルを書き出すことができます。ただし、ユーザにその権限があることが条件です。管理者は、ユーザによるファイルの書き出し方法を指定します。
 
-[Media Portalユーザーが使用できる書き出しオプションの指定](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)を参照してください。
+[Media Portal ユーザーが使用できる書き出しオプションの指定 ](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users) を参照してください。
 
 ## 6. 画像プリセットの作成
 
 画像プリセットは、画像を書き出すときにサイズ、画質、形式、解像度およびその他の画像の外観を変更する、一連の定義済みの設定です。画像プリセットを作成して、ユーザが書き出すときに画像の形式を変更する方法を制御できます。
 
-[画像プリセットの作成と有効化](creating-enabling-image-presets.md#creating_and_enabling_image_presets)を参照してください。
+[ 画像プリセットの作成と有効化 ](creating-enabling-image-presets.md#creating_and_enabling_image_presets) を参照してください。
 
 ## 7. メタデータプリセットとユーザ定義メタデータフィールドの作成
 
@@ -73,8 +81,8 @@ Media Portal ユーザは、ファイルを書き出すときに、ファイル�
 
 詳しくは、[メタデータの使用の効率化](making-efficient-metadata.md#making_more_efficient_use_of_metadata)を参照してください。
 
-## 8. Media Portalページのカスタマイズ
+## 8. Media Portal ページのカスタマイズ
 
-Media Portalスタイル設定を使用すると、Media Portalページに会社のロゴと色をブランディングできます。 スタイル設定を使用して、会社のブランディングをMedia Portalに配置します。
+Media Portal スタイル設定を使用すると、Media Portal ページに会社のロゴと色をブランディングできます。 スタイル設定を使用して、会社のブランディングを Media Portal に配置します。
 
-[Media Portalページのカスタマイズ](customizing-media-portal-screen.md#customizing_the_media_portal_screen)を参照してください。
+[Media Portal ページのカスタマイズ ](customizing-media-portal-screen.md#customizing_the_media_portal_screen) を参照してください。

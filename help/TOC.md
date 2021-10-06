@@ -4,11 +4,11 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
-user-guide-description: Dynamic Media Classic のAdobeの詳細
+user-guide-description: Adobe Dynamic Media Classicの使用の詳細
 index: y
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 30%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 30%
 
 + [Adobe Dynamic Media Classic ガイド](home.md)
 + [AdobeDynamic Mediaクラスのベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新しいAdobeDynamic Media Classic ログインエクスペリエンスが利用可能](new-ui-2020.md)
++ [新しいAdobe Dynamic Media Classicログインエクスペリエンスが利用可能](new-ui-2020.md)
 + [AdobeDynamic Mediaニュースレターアーカイブ (Experience League別 )](dynamic-media-newsletter.md)
-+ AdobeDynamic Media Classic の紹介 {#intro}
-   + [AdobeDynamic Media Classic デスクトップアプリケーション — 利用可能](dynamic-media-classic-desktop-app.md)
-   + [AdobeについてDynamic Media Classic ヘルプ](introduction.md)
++ Adobe Dynamic Media Classicの紹介 {#intro}
+   + [Adobe Dynamic Media Classic Desktop App — 利用可能](dynamic-media-classic-desktop-app.md)
+   + [Adobe Dynamic Media Classicヘルプについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
    + [新機能](whats-new.md)
-   + [Dynamic Media Classic デスクトップAdobeの必要システム構成](system-requirements.md)
+   + [Adobe Dynamic Media Classicデスクトップアプリケーションの必要システム構成](system-requirements.md)
    + [サポート](support.md)
-   + [Dynamic Media Classic Media PortalAdobeのヘルプ](help-dmc-media-portal.md)
+   + [Adobe Dynamic Media Classic Media Portal のヘルプ](help-dmc-media-portal.md)
    + [Adobe トレーニングサービス](training-services.md)
-   + [役立つリソース](popular-resources.md)
+   + [役立つ学習リソース](popular-resources.md)
    + [トレーニングビデオ](training-videos.md)
 + はじめに {#getting-started}
-   + [AdobeDynamic Media Classic プログラムの概要](dmc-platform-overview.md)
+   + [Adobe Dynamic Media Classicプログラムの概要](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [ログインとログアウト](signing-out.md)
    + [ナビゲーションの基本](navigation-basics.md)
@@ -45,7 +45,7 @@ ht-degree: 30%
    + [ビデオ SEO（検索エンジン最適化）](video-seo-search-engine-optimization.md)
    + [管理設定](administration-setup.md)
 + Media Portal {#media-portal}
-   + [Dynamic Media Classic の Media Portal の必要システムAdobe](system-requirements-media-portal.md)
+   + [Adobe Dynamic Media Classicの Media Portal の必要システム構成](system-requirements-media-portal.md)
    + [クイックスタート：Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal ユーザの役割](media-portal-user-roles.md)
    + [Media Portal グループの作成と管理](creating-media-portal-groups.md)
@@ -71,7 +71,7 @@ ht-degree: 30%
    + [アセットの移動、名前変更、削除](moving-renaming-deleting-assets.md)
    + [詳細ビューで作業する](detail-view.md)
    + [メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md)
-   + [Dynamic Media Classic からのAdobeの書き出し](exporting-assets-from-dmc.md)
+   + [Adobe Dynamic Media Classicからのアセットの書き出し](exporting-assets-from-dmc.md)
    + [アセットの変更をピアとリアルタイムで共有](sharing-asset-changes-peers-real.md)
    + [アセットの印刷](printing-assets.md)
    + [ごみ箱フォルダーの管理](trash-folder.md)
@@ -92,13 +92,13 @@ ht-degree: 30%
    + [Web ページへのズームビューアのリンク](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
    + [クイックスタート：eCatalogs](quick-start-ecatalog.md)
-   + [PDF ファイルのアップロード](uploading-pdf-files.md)
+   + [PDFファイルのアップロード](uploading-pdf-files.md)
    + [eCatalog の作成](creating-ecatalog.md)
    + [eCatalog 画像マップの作成](creating-ecatalog-image-maps.md)
    + [eCatalog で情報パネルのコンテンツを管理](info-panel-content-ecatalog.md)
    + [eCatalog ビューアプリセットの設定](setting-ecatalog-viewer-presets.md)
    + [eCatalog ビューアでの eCatalog のプレビュー](previewing-ecatalogs-ecatalog-viewer.md)
-   + [eCatalog と関連 PDF の公開](publishing-ecatalogs-associated-pdfs.md)
+   + [eCatalog と関連PDFの公開](publishing-ecatalogs-associated-pdfs.md)
    + [Web ページへの eCatalog のリンク](linking-ecatalog-web-page.md)
 + 画像セット {#image-sets}
    + [クイックスタート：画像セット](quick-start-image-sets.md)
@@ -147,7 +147,7 @@ ht-degree: 30%
    + [混在メディアセットの公開](publishing-mixed-media-set.md)
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics計装キット {#analytics-kit}
-   + [クイックスタート：AdobeDynamic Media Classic とAdobe Analyticsの統合](quick-start-integrating-dmc-analytics.md)
+   + [クイックスタート：Adobe Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics へのログイン](log-analytics.md)
    + [Adobe Analyticsレポートの設定](configuring-analytics-reports.md)
    + [Adobe Analytics 計測キットを使用したビューアの計測](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -157,7 +157,7 @@ ht-degree: 30%
    + [Adobe Analytics設定情報の公開](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium との統合 {#target-classic}
    + [クイックスタート：Adobe Target Standard/Premium の統合](quick-start-target-integration.md)
-   + [AdobeDynamic Media Classic とAdobe Target Standard/Premium の統合](integrating-dmc-with-target.md)
+   + [Adobe Dynamic Media ClassicとAdobe Target Standard/Premium の統合](integrating-dmc-with-target.md)
    + [オファーセットの作成](creating-offer-set.md)
    + [オファーセットをAdobe Target Standard/Premium にプッシュ](pushing-offer-sets-target.md)
 + ユーザ生成コンテンツ {#user-generated-content}
@@ -173,8 +173,8 @@ ht-degree: 30%
    + [画像をシャープにする](sharpening-image.md)
    + [画像の調整](adjusting-image.md)
    + [アップロード時の画像の微調整編集オプション](image-editing-options-upload.md)
-   + [PDF の操作](pdfs.md)
-   + [PSD ファイルの操作](psd-files.md)
+   + [PDFの操作](pdfs.md)
+   + [PSDファイルの操作](psd-files.md)
    + [PostScript ファイルとIllustratorファイルの操作](postscript-illustrator-files.md)
    + [ビネット、ウィンドウカバー、キャビネットファイルの操作](vignette-window-covering-cabinet-files.md)
 + サポートファイル {#support-files}

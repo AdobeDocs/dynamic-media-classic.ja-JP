@@ -1,6 +1,6 @@
 ---
-title: HTML5ビデオビューアの使用に関するベストプラクティス
-description: HTML5ビデオビューアを使用する際のベストプラクティスについて説明します。
+title: HTML5 ビデオビューアの使用に関するベストプラクティス
+description: HTML5 ビデオビューアの使用に関するベストプラクティスについて説明します。
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,48 +10,50 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 12%
+source-wordcount: '488'
+ht-degree: 11%
 
 ---
 
-# HTML5ビデオビューアの使用に関するベストプラクティス{#best-practice-using-the-html-video-viewer}
+# HTML5 ビデオビューアの使用に関するベストプラクティス{#best-practice-using-the-html-video-viewer}
 
-AdobeDynamic Media Classic HTML5ビデオビューアプリセットは堅牢なビデオプレーヤーです。 プレーヤーのデザイン側では、標準のWeb開発ツールを使用してビデオプレーヤーの全機能を作成できます。 例えば、ボタン、コントロールおよびカスタムのポスター画像背景を HTML5 と CSS を使用して設計し、顧客にカスタマイズした外観を提供することができます。
+Adobe Dynamic Media ClassicHTML5 ビデオビューアプリセットは堅牢なビデオプレーヤーです。 プレーヤーのデザイン側では、標準の Web 開発ツールを使用して、ビデオプレーヤーの全機能を作成できます。 例えば、ボタン、コントロールおよびカスタムのポスター画像背景を HTML5 と CSS を使用して設計し、顧客にカスタマイズした外観を提供することができます。
 
-ビューアの再生の点では、ブラウザーのビデオ機能が自動的に検出されます。次に、HLS（HTTPライブストリーミング）を使用してビデオを配信します。これはアダプティブビデオストリーミングとも呼ばれます。 または、その配信方法が存在しない場合は、代わりにHTML5プログレッシブが使用されます。
+ビューアの再生の点では、ブラウザーのビデオ機能が自動的に検出されます。次に、HLS（HTTP ライブストリーミング）を使用してビデオを配信します。これはアダプティブビデオストリーミングとも呼ばれます。 または、その配信方法が存在しない場合は、代わりにHTML5 プログレッシブが使用されます。
 
-を1人のプレーヤーに組み合わせることで、次の機能を実現します。
+1 人のプレーヤーに組み合わせることで、次の機能を実現できます。
 
-* HTML5とCSSを使用して設計された再生コンポーネント
+* HTML5 と CSS を使用して設計された再生コンポーネント
 * 埋め込み再生
 * ブラウザーの機能に基づくアダプティブストリーミングとプログレッシブストリーミングの使用
 
-リッチメディアコンテンツのリーチをデスクトップユーザーとモバイルユーザーに拡張できます。 また、ビデオエクスペリエンスの効率化も図れます。
+リッチメディアコンテンツのリーチをデスクトップユーザーとモバイルユーザーに拡大できます。 また、ビデオエクスペリエンスを合理化できます。
 
-『Adobeビューアリファレンスガイド』の[HTML5ビューアについて](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)も参照してください。
+『Adobeビューアリファレンスガイド』の [HTML5 ビューアについて ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) も参照してください。
 
-## AdobeDynamic Media Classicビデオビューアを使用したデスクトップコンピューターおよびモバイルデバイスでのビデオの再生 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
+[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
-デスクトップおよびモバイルのアダプティブビデオストリーミングの場合、ビットレートの切り替えに使用されるビデオは、アダプティブビデオセット内のすべてのMP4ビデオに基づいています。
+## Adobe Dynamic Media Classicビデオビューアを使用したデスクトップコンピューターおよびモバイルデバイスでのビデオの再生 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
-ビデオ再生は、HLSまたはプログレッシブビデオを使用しておこなわれます。 HLS（HTTPライブストリーミング）は、アダプティブビデオストリーミングのApple標準で、ネットワーク帯域幅の容量に基づいて再生を自動調整します。 また、お客様は、ビデオの残りのダウンロードを待たずに、ビデオ内の任意のポイントを「シーク」できます。 [HTTPライブストリーミング](https://developer.apple.com/streaming/)も参照してください。 プログレッシブビデオは、ユーザーのデスクトップ画面またはモバイルデバイスにビデオをローカルにダウンロードして保存することで配信されます。
+デスクトップおよびモバイルのアダプティブビデオストリーミングの場合、ビットレートの切り替えに使用されるビデオは、アダプティブビデオセット内のすべての MP4 ビデオに基づいています。
 
-次の表に、AdobeDynamic Media Classicビデオビューアを使用しているデスクトップコンピューターおよびモバイルデバイスでのビデオのデバイス、ブラウザー、再生方法を示します。
+ビデオ再生は、HLS またはプログレッシブビデオを使用しておこなわれます。 HLS（HTTP ライブストリーミング）は、Apple標準のアダプティブビデオストリーミング用ストリーミングで、ネットワーク帯域幅の容量に基づいて再生を自動的に調整します。 また、ビデオの残りのダウンロードを待たずに、ビデオ内の任意のポイントを「シーク」できます。 [HTTP ライブストリーミング ](https://developer.apple.com/streaming/) も参照してください。 プログレッシブビデオは、ユーザーのデスクトップ画面またはモバイルデバイスにビデオをローカルにダウンロードして保存することで配信されます。
+
+次の表に、Adobe Dynamic Media Classicビデオビューアを使用するデスクトップコンピューターおよびモバイルデバイスでのビデオのデバイス、ブラウザー、再生方法を示します。
 
 | デバイス | ブラウザ | ビデオ再生モード |
 |--- |--- |--- |
-| デスクトップ | Internet Explorer 9および10 | プログレッシブダウンロード。 |
-| デスクトップ | Internet Explorer 11以降 | HLSビデオストリーミング。 |
+| デスクトップ | Internet Explorer 9 および 10 | プログレッシブダウンロード。 |
+| デスクトップ | Internet Explorer 11 以降 | HLS ビデオストリーミング。 |
 | デスクトップ | Firefox 23-44 | プログレッシブダウンロード。 |
-| デスクトップ | Firefox 45以降 | HLSビデオストリーミング。 |
-| デスクトップ | クロム | HLSビデオストリーミング。 |
-| デスクトップ | Safari(Mac OS) | HLSビデオストリーミング。 |
-| モバイル | Chrome(Android™ 6以前) | プログレッシブダウンロード。 |
-| モバイル | Chrome(Android™ 7以降) | HLSビデオストリーミング。 |
+| デスクトップ | Firefox 45 以降 | HLS ビデオストリーミング。 |
+| デスクトップ | クロム | HLS ビデオストリーミング。 |
+| デスクトップ | Safari(Mac) | HLS ビデオストリーミング。 |
+| モバイル | Chrome(Android™ 6 以前 ) | プログレッシブダウンロード。 |
+| モバイル | Chrome(Android™ 7 以降 ) | HLS ビデオストリーミング。 |
 | モバイル | Android™（デフォルトのブラウザー） | プログレッシブダウンロード。 |
-| モバイル | Safari(iOS) | HLSビデオストリーミング。 |
-| モバイル | Chrome(iOS) | HLSビデオストリーミング。 |
-| モバイル | BlackBerry® | HLSビデオストリーミング。 |
+| モバイル | Safari(iOS) | HLS ビデオストリーミング。 |
+| モバイル | Chrome(iOS) | HLS ビデオストリーミング。 |
+| モバイル | BlackBerry® | HLS ビデオストリーミング。 |

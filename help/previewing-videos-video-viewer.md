@@ -10,10 +10,10 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '883'
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ビデオビューアでビデオがどのように再生されるかをプレビューできます。
 
-[ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
+[ ビューアプリセットの追加と編集 ](application-setup.md#adding_and_editing_viewer_presets) を参照してください。
 
 **ビデオビューアでビデオをプレビューするには:**
 
@@ -29,10 +29,10 @@ ht-degree: 0%
 1. 左側のアセットライブラリパネルでアセットフォルダに移動し、プレビューするビデオを選択します。
 1. 次のいずれかの操作を行います。
 
-   * アセットウィンドウの上のツールバーの右側で、「**[!UICONTROL リスト表示]**」を選択します。 Assetウィンドウで、アセットの上にマウスポインターを置き、**[!UICONTROL Preview]**&#x200B;を選択します。
-   * アセットウィンドウの上のツールバーの右側で、「**[!UICONTROL グリッドビュー]**」を選択します。 アセットウィンドウのアセットサムネールウィンドウで、「**[!UICONTROL プレビュー]**」を選択します。
-   * アセットウィンドウの上のツールバーの右側で、**[!UICONTROL 詳細ビュー]**&#x200B;を選択します。 同じツールバーで、「**[!UICONTROL プレビュー]**」を選択します。
-   * アセットウィンドウで、アセットを選択します。ツールバーで、**[!UICONTROL ファイル]** /**[!UICONTROL プレビュー]**&#x200B;に移動します。
+   * アセットウィンドウの上のツールバーの右側で、「**[!UICONTROL リスト表示]**」を選択します。 Asset ウィンドウで、アセットの上にマウスポインターを置いて、**[!UICONTROL Preview]** を選択します。
+   * アセットウィンドウの上のツールバーの右側で、「**[!UICONTROL グリッドビュー]**」を選択します。 Asset ウィンドウのアセットのサムネールウィンドウで、「**[!UICONTROL プレビュー]**」を選択します。
+   * Assets ウィンドウの上のツールバーの右側で、**[!UICONTROL 詳細ビュー]** を選択します。 同じツールバーで、「**[!UICONTROL プレビュー]**」を選択します。
+   * アセットウィンドウで、アセットを選択します。ツールバーで、**[!UICONTROL ファイル]** / **[!UICONTROL プレビュー]** に移動します。
 
 1. （オプション）プレビューウィンドウ下部のドロップダウンリストで、アセットの URL がコピーされるときにアセットの URL に適用する URL エンコーディングを選択します。
 1. 「**[!UICONTROL プレビュー]**」リンクを選択して、選択したビューアでアセットをレビューできるようにします。
@@ -41,37 +41,41 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AdobeDynamic Media Classicは、MP4ビデオをデスクトップでプレビューする便利な方法を提供します。 この方法を使用すると、モバイルコンテンツを携帯端末で物理的にテストしないでコンテンツをデスクトップ上でプレビューできます。ただし、デスクトッププレビューで表示される内容は、モバイルデバイスでの再生を現実的に示すものではありません。 モバイルデバイスでのビデオの外観と再生をプレビューするには、プレビュー画面に移動し、「URLをコピー&#x200B;**[!UICONTROL 」を選択して、モバイルデバイスのWebブラウザーにそのURLを入力します。]**&#x200B;詳しくは、[Webサイトおよびモバイルサイトへのビデオのデプロイ](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)を参照してください。
+>Adobe Dynamic Media Classicは、デスクトップで MP4 ビデオをプレビューする便利な方法を提供します。 この方法を使用すると、モバイルコンテンツを携帯端末で物理的にテストしないでコンテンツをデスクトップ上でプレビューできます。ただし、デスクトッププレビューで表示される内容は、モバイルデバイスでの再生を現実的に示すものではありません。 モバイルデバイスでのビデオの外観と再生をプレビューするには、プレビュー画面に移動し、「**[!UICONTROL URL をコピー]**」を選択して、モバイルデバイスの Web ブラウザーにその URL を入力します。 詳しくは、[Web サイトおよびモバイルサイトへのビデオのデプロイ ](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites) を参照してください。
 
 ## ビデオビューアプリセットの操作 {#working-with-video-viewer-presets}
 
 ユーザは、ビデオビューアでビデオを再生できます。ビデオビューアの動作、外観、再生コントロールの動作は、ビデオの再生用に選択したビューアプリセットに従います。ビデオプリセットはプレビュー画面で選択できます。プリセットを選択した後、選択したビューアプリセットを使用してビデオを再生するための URL または埋め込みコードを取得できます。
 
-AdobeDynamic Media Classicには、ビデオを再生するための定義済みのビューアプリセットが多数用意されています。管理者は、カスタムビューアプリセットを作成できます。 ビデオビューア設定のための 10 種類以上の設定が用意されています。サイズ、カラー、ビデオコントロールとオーディオコントロール、プログレスバー、ユーザーインターフェイススキンおよびソーシャル機能を設定できます。
+Adobe Dynamic Media Classicには、ビデオを再生するための定義済みのビューアプリセットが多数用意されています。管理者は、カスタムビューアプリセットを作成できます。 ビデオビューア設定のための 10 種類以上の設定が用意されています。サイズ、カラー、ビデオコントロールとオーディオコントロール、プログレスバー、ユーザーインターフェイススキンおよびソーシャル機能を設定できます。
 
-[ビデオビューアでのビデオのプレビュー](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)も参照してください。
+[ ビデオビューアでのビデオのプレビュー ](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer) を参照してください。
+
+[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
 ### ビデオビューアプリセットの追加または編集 {#adding-or-editing-a-video-viewer-preset}
 
-ビューアプリセットを使用すると、各種ビューアタイプとその定義済み設定を表示できます。また、独自にカスタマイズしたビューアプリセットを追加および編集したり、AdobeDynamic Media Classicに付属する既存のビューアプリセットを編集したりできます。
+ビューアプリセットを使用すると、各種ビューアタイプとその定義済み設定を表示できます。また、カスタマイズした独自のビューアプリセットを追加および編集したり、Adobe Dynamic Media Classicに付属する既存のビューアプリセットを編集したりすることもできます。
 
 ビューアプリセットでは、ビューアプリセットのアクティブ化、フィルタリング、並べ替え、プレビューができます。
 
 詳しくは[ビューアプリセット](application-setup.md#viewer_presets)を参照してください。
 
+[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
+
 **ビデオビューアプリセットを追加または編集するには:**
 
-1. AdobeDynamic Media Classicの右上隅付近で、**[!UICONTROL 設定]** /**[!UICONTROL ビューアプリセット]**&#x200B;に移動します。
+1. Adobe Dynamic Media Classicの右上隅付近で、**[!UICONTROL 設定]** / **[!UICONTROL ビューアプリセット]** に移動します。
 
-   ビデオビューアのプリセットのみを表示するには、表のすぐ上にあるツールバーにある「ビューア」ドロップダウンリストから「ビデオビューア」を選択します。
+   ビデオビューアのプリセットのみを表示するには、表のすぐ上にあるツールバーの開いている「ビューア」ドロップダウンリストから「ビデオビューア」を選択します。
 
 1. ビデオを表示するビューアプリセットを追加または編集します。
 
-   * **追加**  — ツールバーの「 **** 追加」を選択します。ビューアプリセットを追加ダイアログボックスで、それぞれのドロップダウンリストからプラットフォームとビューアを選択し、「****&#x200B;を追加」を選択します。
-   [ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
+   * **追加**  — ツールバーで「追 **** 加」を選択します。ビューアプリセットを追加ダイアログボックスで、それぞれのドロップダウンリストからプラットフォームとビューアを選択し、「**** を追加」を選択します。
+   [ ビューアプリセットの追加と編集 ](application-setup.md#adding_and_editing_viewer_presets) も参照してください。
 
-   * **既存のビューアプリセットから開始して追加**  — 表でビデオビューアプリセットを選択し、ツールバーの「編 **** 集」を選択します。
-   ビデオビューアを再設定したら、「**[!UICONTROL 名前を付けて保存]**」を選択して、「プリセット名」テキストフィールドに別の名前を指定してプリセットを保存します。
+   * **既存のビューアプリセットから開始して追加**  — 表で、ビデオビューアプリセットを選択し、ツールバーの「編 **** 集」を選択します。
+   ビデオビューアを再設定した後、「**[!UICONTROL 名前を付けて保存]**」を選択して、「プリセット名」テキストフィールドに別の名前を入力してプリセットを保存します。
 
    * **編集**  — ビデオビューアプリセットを選択し、「編 **[!UICONTROL 集]**」を選択します。
 
