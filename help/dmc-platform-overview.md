@@ -10,9 +10,9 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 25%
 
 ---
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classicは、統合されたリッチメディア管理、�
 
 * **リッチメディアの作成**  - eCatalog、画像セット、スピンセット、スウォッチセット、混在メディアセット、基本テンプレート、FXG テンプレートなど、様々なアセット設定を作成します。
 
-* **公開と管理**  - Adobe Dynamic Media Classic SaaS ネットワークにアセットを公開し、公開時のアセットのステータスを監視し、ユーザー権限を管理し、セキュリティを維持します。
+* **公開と管理**  - Adobe Dynamic Media Classic SaaS ネットワークへのアセットの公開。アセットが公開された際のステータスを監視します。 ユーザー権限の管理とセキュリティの維持
 
 * **提供**  - Adobe Dynamic Media Classic SaaS ネットワークから Web ページ、アプリケーション、モバイルデバイスにメディアを配信する。メディアはパフォーマンスに最適化され、CDN キャッシュと共に配信されます。Adobe Dynamic Media Classicには、各アセットの URL が表示されます。 アセットを公開すると、URL がアクティブになります。
 

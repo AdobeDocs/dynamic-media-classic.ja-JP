@@ -1,20 +1,20 @@
 ---
 title: Adobe Dynamic Media Classicヘルプ
-description: このたびは、動的なリッチコンテンツをすべてのデバイスおよび画面にアップロード、管理、強化、公開する、主要なオンデマンドクロスメディア公開システムであるAdobeAdobe Dynamic Media Classicをご利用いただき、誠にありがとうございます。
+description: このたびは、動的なリッチコンテンツをすべてのデバイスおよび画面にアップロード、管理、強化および公開する、主要なオンデマンドクロスメディア公開システムであるAdobe Dynamic Media Classicをご利用いただき、誠にありがとうございます。
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
 
 # Adobe Dynamic Media Classicヘルプ {#scene7-overview}
 
-このたびは、動的なリッチコンテンツをすべてのデバイスおよび画面にアップロード、管理、強化、公開する、主要なオンデマンドクロスメディア公開システムであるAdobeAdobe Dynamic Media Classicをご利用いただき、誠にありがとうございます。 Adobe Dynamic Media Classicソリューションには、次のものが含まれます。
+このたびは、動的なリッチコンテンツをすべてのデバイスおよび画面にアップロード、管理、強化および公開する、主要なオンデマンドクロスメディア公開システムであるAdobe Dynamic Media Classicをご利用いただき、誠にありがとうございます。 Adobe Dynamic Media Classicソリューションには、次のものが含まれます。
 
 * Dynamic Imaging:リアルタイム編集、書式設定とサイズ設定、インタラクティブズームとパンカラースウォッチとテクスチャスウォッチ360°スピン；画像テンプレート；マルチメディアビューア
 * eCatalog:オーサー、ホットスポットリンク、検索対応、公開、動的に提供されるオンラインカタログを設定可能なビューアに配信します。
