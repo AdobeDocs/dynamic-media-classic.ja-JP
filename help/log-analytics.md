@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
+source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,9 @@ Adobe アナリティクス OAuth を使用して、動的メディアを従来�
 1. 左側のパネルの「アプリケーションの設定」で、「 **** Adobe アナリティクス」を選択し **** ます。
 1. **[!UICONTROL Adobe アナリティクス設定ページで]** 、「Adobe アナリティクスログイン」を選択し **** ます。
 1. **[!UICONTROL Adobe アナリティクスログイン]** ダイアログボックスで、「 **[!UICONTROL クライアント ID」フィールド]** と **[!UICONTROL 「クライアントシークレット]** 」フィールドに、先ほどコピーした値をそれぞれ貼り付けます。
-1. ダイアログボックスの右下隅にある「ログイン」を選択し、「Adobe IMS (アイデンティティー管理サービス) ログインを実行」を選択します。
+1. ダイアログボックスの右下隅にある「ログイン」を選択し、「 **** Adobe IMS (アイデンティティー管理サービス) ログインを実行」を選択します。
 
-   ログインが正常に完了すると、Adobe アナリティクスログインダイアログが、会社で開始された会社 **[!UICONTROL のドロップダウンリストと共に再び表示され]** ます。
+   ログインが正常に完了すると、Adobe アナリティクスログインダイアログボックスが再び表示され、 **[!UICONTROL 会社]** で開始された会社のドロップダウンリストが表示されます。
 
 1. 「会社 **** 」ドロップダウンリストから会社を選択します。
 
