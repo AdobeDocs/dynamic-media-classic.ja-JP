@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
+source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
 workflow-type: tm+mt
 source-wordcount: '2002'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーションは次の�
 * 入力できませんでした `d` および `e` in **[!UICONTROL ユーザー名]** および **[!UICONTROL パスワード]** フィールド (macOS Monterey の実行時 )
 * 残りの Analytics API をバージョン 2.0 に移動しました。
 
-## リリースの修正点 (20.21.3) {#release-sept2021}
+## リリース20.21.3の修正点 {#release-sept2021}
 
 * デスクトップアプリケーションで操作が実行されなかった時間が経過した後に表示されるアセットの壊れたサムネール。
 * 通常、設定操作の後、デスクトップアプリケーションが応答を停止します。
