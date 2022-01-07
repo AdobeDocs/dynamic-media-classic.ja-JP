@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: df41d69e2fa6e9db806d8ffbb06edc42b70d1011
+source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2002'
 ht-degree: 1%
 
 ---
@@ -40,21 +40,13 @@ Adobe Dynamic Media Classicデスクトップアプリケーションは次の�
 
 ## 最新リリースの修正点 (20.22.1) {#release-jan2022}
 
-* 
+画像編集 **[!UICONTROL 保存]** ボタンが機能しなかった。
 
-   <!-- CQ-4333853 :  -->Image editing **[!UICONTROL Save]** buttons were non-functional.
-* 
-
-   <!-- CQ-4334638 :  -->In the Set editors, the **[!UICONTROL Close]**, **[!UICONTROL Save]**, and **[!UICONTROL Save As]** buttons become disabled after scrolling assets in the **[!UICONTROL Add Assets]** panel.
-* 
-
-   <!-- CQ-4335992 :  -->**[!UICONTROL Play]** button in Video Detail view did not work.
-* 
-
-   <!-- CQ-4336687 :  -->Could not enter `d` and `e` in **[!UICONTROL Username]** and **[!UICONTROL Password]** fields when running macOS Monterey.
-* 
-
-   <!-- CQ-4334197 :  -->Moved the remaining analytics APIs to version 2.0.
+* 画像編集 **[!UICONTROL 保存]** ボタンが機能しなかった。
+* セットエディターで、 **[!UICONTROL 閉じる]**, **[!UICONTROL 保存]**、および **[!UICONTROL 名前を付けて保存]** 内でアセットをスクロールした後、ボタンが無効になる **[!UICONTROL アセットを追加]** パネル。
+* **[!UICONTROL 再生]** ビデオの詳細表示のボタンが機能しませんでした。
+* 入力できませんでした `d` および `e` in **[!UICONTROL ユーザー名]** および **[!UICONTROL パスワード]** フィールド (macOS Monterey の実行時 )
+* 残りの Analytics API をバージョン 2.0 に移動しました。
 
 ## リリースの修正点 (20.21.3) {#release-sept2021}
 
@@ -160,7 +152,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーションは次の�
 
 1. macOS用Adobe Dynamic Media Classicデスクトップアプリケーションの最新のインストーラーをダウンロードします。
 
-   * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+   * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
 
 1. 次のコマンドを使用して、ダウンロードしたディスクイメージ (.DMG) をマウントポイントの場所にマウントします。
 
