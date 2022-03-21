@@ -1,16 +1,16 @@
 ---
 title: Adobe Dynamic Media Classicデスクトップアプリケーション — 利用可能
 description: Adobe Dynamic Media Classicデスクトップアプリケーションの詳細
-contentOwner: admin
+contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
+source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2025'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,14 @@ Adobe Dynamic Media Classicのユーザーは、ブラウザーのAdobeFlashテ�
 Adobe Dynamic Media Classicデスクトップアプリケーションは次のオペレーティングシステムと互換性があります。
 
 * macOS 10.10 以降。
+
+   >[!NOTE]
+   >
+   >macOS Monterey で使用すると、Dynamic Media Classicデスクトップアプリケーションで機能が低下しています。 そのため、Adobeは今後数週間で新しいデスクトップアプリケーションバージョンのリリースに取り組んでいます。
+
 * Windows® 7 以降。
 
->[!NOTE]
->
->Adobe Dynamic Media Classicデスクトップアプリケーション内のアップグレード通知は、 *軽微* リリース。 マイナーリリースの修正のメリットがあるお客様は、アップグレードできます。
+Adobe Dynamic Media Classicデスクトップアプリケーション内のアップグレード通知は、 *軽微* リリース。 マイナーリリースの修正のメリットがあるお客様は、アップグレードできます。
 
 ## 最新リリースの修正点 (20.22.1) {#release-jan2022}
 
@@ -135,7 +138,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーションは次の�
    | EMEA 実稼動（ヨーロッパ、中東、アフリカ） | https://s7sps3.scene7.com/ |
    | APAC Production （アジア太平洋） | https://s7sps5.scene7.com/ |
 
-1. ログイン後に、使い慣れたブラウザーユーザーインターフェイスが表示されます。 デスクトップアプリケーションでは、通常どおり、1 日を通じてAdobe Dynamic Media Classicのアクティビティを続行できます。
+1. ログイン後に、使い慣れたブラウザーユーザーインターフェイスが表示されます。 デスクトップアプリケーションでは、通常どおり、毎日のAdobe Dynamic Media Classicアクティビティを続行できます。
 
 ## ダウンロードと *沈黙* macOSでの最新のAdobe Dynamic Media Classicデスクトップアプリケーションのインストール {#install-silent-mac-dmc-app}
 
