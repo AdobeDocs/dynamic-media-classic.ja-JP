@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
+source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2011'
 ht-degree: 1%
 
 ---
@@ -32,14 +32,13 @@ Adobe Dynamic Media Classicのユーザーは、ブラウザーのAdobeFlashテ�
 Adobe Dynamic Media Classicデスクトップアプリケーションは次のオペレーティングシステムと互換性があります。
 
 * macOS 10.10 以降。
-
-   >[!NOTE]
-   >
-   >macOS Monterey で使用すると、Dynamic Media Classicデスクトップアプリケーションで機能が低下しています。 そのため、Adobeは今後数週間で新しいデスクトップアプリケーションバージョンのリリースに取り組んでいます。
-
 * Windows® 7 以降。
 
 Adobe Dynamic Media Classicデスクトップアプリケーション内のアップグレード通知は、 *軽微* リリース。 マイナーリリースの修正のメリットがあるお客様は、アップグレードできます。
+
+## 最新リリース (20.22.2) で修正されました — macOSのみ {#release-feb2022}
+
+* macOS Monterey — 以降のアップロードで、ファイルのアップロードページがフリーズする。 <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## 最新リリースの修正点 (20.22.1) {#release-jan2022}
 
@@ -94,15 +93,17 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 1. Adobe Dynamic Media Classicデスクトップアプリケーション用の最新のインストーラーをダウンロードします。
 
-   * 最新バージョン (20.22.1) は、次の場所で入手できます。
+   * 最新バージョンは、以下で入手できます。
+
+      * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * 以前のバージョンは、次の場所で利用できます。
 
       * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
-   * 以前のバージョン (20.21.3) は、次の場所で入手できます。
-
-      * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
       * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
+
+<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
         * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
@@ -153,11 +154,11 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 1. macOS用Adobe Dynamic Media Classicデスクトップアプリケーションの最新のインストーラーをダウンロードします。
 
-   * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+   * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. 次のコマンドを使用して、ダウンロードしたディスクイメージ (.DMG) をマウントポイントの場所にマウントします。
 
-   `hdiutil attach adobe-dynamic-media-classic-20.22.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
 1. .APP ファイルのコピー先 **[!UICONTROL アプリ]** 次のコマンドを使用します。
 
