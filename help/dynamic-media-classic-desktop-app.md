@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,11 @@ Adobe Dynamic Media Classicデスクトップアプリケーションは次の�
 * macOS 10.10 以降。
 * Windows® 7 以降。
 
+必要システム構成の詳細については、 [Adobe Dynamic Media Classicデスクトップアプリケーションの必要システム構成](/help/system-requirements.md).
+
 Adobe Dynamic Media Classicデスクトップアプリケーション内のアップグレード通知は、 *軽微* リリース。 マイナーリリースの修正のメリットがあるお客様は、アップグレードできます。
 
-## 最新リリース (20.22.2) で修正されました — macOSのみ {#release-feb2022}
+## 最新リリース (20.22.2) のmacOSのみで修正済み {#release-feb2022}
 
 * macOS Monterey — 以降のアップロードで、ファイルのアップロードページがフリーズする。 <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
