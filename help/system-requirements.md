@@ -10,10 +10,10 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 26%
+source-wordcount: '119'
+ht-degree: 24%
 
 ---
 
@@ -28,3 +28,9 @@ Adobe Dynamic Media Classicデスクトップアプリケーションを最大�
 * JAVA 対応のブラウザー。
 * Windows でサポートされているブラウザー：Internet Explorer 9.0 以上、Firefox 23 以上。
 * Macintosh でサポートされているブラウザー：Safari 6.0 以上、Firefox™ 23 以上。
+
+>[!MORELIKETHIS]
+>
+>* [アセットタイプに関するDynamic Mediaのベストプラクティスと適用される制限](/help/best-practices-enforced-limits.md)
+
+
