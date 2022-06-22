@@ -9,10 +9,10 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 39%
+source-wordcount: '826'
+ht-degree: 38%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 39%
 | PDF制限タイプ | 実装された制限 | 制限の変更 2022 年 12 月 31 日 |
 | --- | --- | --- |
 | 抽出対象となるPDFの最大ページ数 | 5000（新しいアップロード用） | 100 |
+
+関連トピック [Dynamic Mediaの制限](/help/limitations.md).
 
 <!-- 
 >[!NOTE]

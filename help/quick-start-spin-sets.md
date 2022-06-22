@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 23%
+source-wordcount: '838'
+ht-degree: 22%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 23%
 | スピンセットの制限の種類 | ベストプラクティス | 実装された制限 |
 | --- | --- | --- |
 | 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
+
+関連トピック [Dynamic Mediaの制限](/help/limitations.md).
 
 このスピンセットのクイックスタートは、Adobe Dynamic Media Classicのスピンセットのテクニックをすばやく習得して実行できるように作られています。 手順 1 ～ 7 に従ってください。各手順の最後に、トピックリンクを選択して詳細を確認できます。
 

@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '171'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,8 @@ ht-degree: 3%
 このトピックには、次の節が含まれます。
 
 * アセットタイプに関するDynamic Mediaのベストプラクティスと適用される制限
-* Dynamic Media Viewers でサポートされていない Web ブラウザーとオペレーティングシステムの組み合わせ
+
+<!-- * Unsupported web browser and operating system combinations for Dynamic Media Viewers -->
 
 ## アセットタイプに関するDynamic Mediaのベストプラクティスと適用される制限
 
@@ -36,6 +37,8 @@ Adobeでは、ページ抽出用にスピンセットや画像セットを作成
 | **画像セット** - 1 セットあたりの最大画像数 | 1 セットあたり 5～10 個の画像 | 1000 |
 | **スピンセット** - 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
 | **PDF**  — 抽出対象となるPDFの最大ページ数 |  | 5000（新しいアップロード用） | 100 |
+
+<!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 
 <!-- ## Unsupported web browser and operating system combinations for Dynamic Media Viewers
 

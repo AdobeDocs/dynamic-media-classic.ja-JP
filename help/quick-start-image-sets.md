@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '680'
 ht-degree: 21%
 
 ---
@@ -31,6 +31,8 @@ Adobe Dynamic Media Classicの画像セットは、統合された表示エク�
 | --- | --- | --- | --- |
 | セットあたりの重複アセット数 | 重複なし | 100 | 20 |
 | 1 セットあたりの最大画像数 | 1 セットあたり 5～10 個の画像 | 1000 |
+
+関連トピック [Dynamic Mediaの制限](/help/limitations.md).
 
 次に示す画像セットのクイックスタートは、Adobe Dynamic Media Classicの画像セットのテクニックをすぐに使い始めることを目的としています。
 
