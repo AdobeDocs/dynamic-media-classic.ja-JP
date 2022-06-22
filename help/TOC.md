@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
 user-guide-description: Adobe Dynamic Media Classic の使用についての詳細
 index: y
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '779'
 ht-degree: 30%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 30%
    + [アセットのアップロードと公開について](about-asset-upload-publish.md)
    + [ファイルのアップロード](uploading-files.md)
    + [ファイルを公開](publishing-files.md)
-   + [アセットタイプに関するDynamic Mediaのベストプラクティスと適用される制限](best-practices-enforced-limits.md)
+   + [Dynamic Mediaの制限](limitations.md)
    + [アセットを公開する前にテストする](testing-assets-making-them-public.md)
    + [ジョブファイルを確認](checking-job-files.md)
 + アセットの管理 {#managing-assets}

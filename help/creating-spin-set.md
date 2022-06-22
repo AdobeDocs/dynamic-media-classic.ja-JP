@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 54%
+source-wordcount: '947'
+ht-degree: 53%
 
 ---
 
@@ -48,15 +48,11 @@ Adobe Dynamic Media Classicでスピンセットを作成または作成する�
 
 [手動でのアセットの公開](publishing-files.md#manually-publishing-assets)と[手動でのアセットの非公開](publishing-files.md#manually-unpublishing-assets)も参照してください。
 
->[!NOTE]
->
->スピンセットを作成する際に、Adobeでは、次のベストプラクティスのガイドラインと適用される制限を推奨します。
->
->* 2D スピンセットあたりの最大行数/列数
-   > 
-   >   * ベストプラクティス：1000
-   >   * 強制制限：1000
+スピンセットを作成する場合、Adobeでは次のベストプラクティスを推奨し、次の制限を適用します。
 
+| スピンセットの制限の種類 | ベストプラクティス | 実装された制限 |
+| --- | --- | --- |
+| 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
 
 スピンセットを保存すると、ビルド：スピンセットページでプレビューを使用して、初期設定のビューアでスピンセットの見栄えを確認することができます。
 

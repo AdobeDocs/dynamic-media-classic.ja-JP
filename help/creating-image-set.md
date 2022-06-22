@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: fe765d1acfa37e9d13f5ef1b655f8cf04195a8a6
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '637'
 ht-degree: 59%
 
 ---
@@ -32,17 +32,12 @@ ht-degree: 59%
 
 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)も参照してください。
 
->[!NOTE]
->
->画像セットを作成する場合、Adobeでは、次のベストプラクティスガイドラインおよび適用される制限を推奨します。
->
->* 画像セットごとの重複アセット数
-   >   * ベストプラクティス：20
-   >   * 強制制限：20
-> * 画像セットあたりの最大ページ数
-   >   * ベストプラクティス：1000
-   >   * 強制終了制限：1000
+画像セットを作成する際、Adobeでは次のベストプラクティスを推奨し、次の制限を適用します。
 
+| 画像セットの制限タイプ | ベストプラクティス | 実装済み制限 | 制限の変更 2022 年 12 月 31 日 |
+| --- | --- | --- | --- |
+| セットあたりの重複アセット数 | 重複なし | 100 | 20 |
+| 1 セットあたりの最大画像数 | 1 セットあたり 5～10 個の画像 | 1000 |
 
 **画像セットを作成するには:**
 

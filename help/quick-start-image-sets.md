@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 21%
 
 ---
@@ -25,17 +25,12 @@ Adobe Dynamic Media Classicの画像セットは、統合された表示エク�
 
 詳しくは、 [画像およびスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) トレーニングビデオ。
 
->[!NOTE]
->
->画像セットを作成する場合、Adobeでは、次のベストプラクティスガイドラインおよび適用される制限を推奨します。
->
->* 画像セットごとの重複アセット数
-   >   * ベストプラクティス：20
-   >   * 強制制限：20
->* 画像セットあたりの最大ページ数
-   >   * ベストプラクティス：1000
-   >   * 強制終了制限：1000
+画像セットを作成する際、Adobeでは次のベストプラクティスを推奨し、次の制限を適用します。
 
+| 画像セットの制限タイプ | ベストプラクティス | 実装済み制限 | 制限の変更 2022 年 12 月 31 日 |
+| --- | --- | --- | --- |
+| セットあたりの重複アセット数 | 重複なし | 100 | 20 |
+| 1 セットあたりの最大画像数 | 1 セットあたり 5～10 個の画像 | 1000 |
 
 次に示す画像セットのクイックスタートは、Adobe Dynamic Media Classicの画像セットのテクニックをすぐに使い始めることを目的としています。
 

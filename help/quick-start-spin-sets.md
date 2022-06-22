@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 22%
+source-wordcount: '833'
+ht-degree: 23%
 
 ---
 
@@ -29,15 +29,11 @@ ht-degree: 22%
 
 詳しくは、 [画像およびスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) トレーニングビデオ。
 
->[!NOTE]
->
->スピンセットを作成する際に、Adobeでは次のベストプラクティスのガイドラインと適用される制限を推奨します。
->
->* 2D スピンセットあたりの最大行数/列数
-   > 
-   >   * ベストプラクティス：1000
-   >   * 強制制限：1000
+スピンセットを作成する場合、Adobeでは次のベストプラクティスを推奨し、次の制限を適用します。
 
+| スピンセットの制限の種類 | ベストプラクティス | 実装された制限 |
+| --- | --- | --- |
+| 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
 
 このスピンセットのクイックスタートは、Adobe Dynamic Media Classicのスピンセットのテクニックをすばやく習得して実行できるように作られています。 手順 1 ～ 7 に従ってください。各手順の最後に、トピックリンクを選択して詳細を確認できます。
 

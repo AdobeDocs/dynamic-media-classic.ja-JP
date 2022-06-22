@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 37%
 
 ---
@@ -21,14 +21,11 @@ ht-degree: 37%
 
 PDF(Portable Document Format) ファイルは、eCatalog を作成する際にAdobe Dynamic Media Classicで最もよく使用されます。 PDFファイル、Adobe Dynamic Media Classicラスタライズまたはリップをアップロードすると、デフォルトでは、ページを使用してリッチメディアを作成できるように、ページがラスタライズまたはリップされます。
 
->[!NOTE]
->
->ページ抽出用のPDFをアップロードする際に、Adobeには次のベストプラクティスのガイドラインと適用される制限が課されます。
->
->* 抽出対象となるPDFあたりの最大ページ数
-   >   * ベストプラクティス：100
-   >   * 強制制限：1000（更新のアップロード用）
+ページ抽出用のPDFをアップロードする際、Adobeでは次の制限が適用されます。
 
+| PDF制限タイプ | 実装された制限 | 制限の変更 2022 年 12 月 31 日 |
+| --- | --- | --- |
+| 抽出対象となるPDFの最大ページ数 | 5000（新しいアップロード用） | 100 |
 
 ## PDF アップロードオプション {#pdf-upload-options}
 

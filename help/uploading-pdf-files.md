@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 39%
 
 ---
@@ -20,14 +20,20 @@ ht-degree: 39%
 
 通常、Adobe PDFファイルは eCatalog のソースです。 これらのファイルには、すべての画像情報、フォント、およびベクトルグラフィックが含まれます。 画像付きの eCatalog を作成することもできます。アップロード用のPDFファイルを準備したら、グローバルナビゲーションバーで、 **[!UICONTROL アップロード]** をクリックして、PDFのアップロードを開始します。
 
+ページ抽出用のPDFをアップロードする際、Adobeでは次の制限が適用されます。
+
+| PDF制限タイプ | 実装された制限 | 制限の変更 2022 年 12 月 31 日 |
+| --- | --- | --- |
+| 抽出対象となるPDFの最大ページ数 | 5000（新しいアップロード用） | 100 |
+
+<!-- 
 >[!NOTE]
 >
->ページ抽出用のPDFをアップロードする際に、Adobeには次のベストプラクティスのガイドラインと適用される制限が課されます。
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* 抽出対象となるPDFあたりの最大ページ数
-   >   * ベストプラクティス：100
-   >   * 強制制限：1000（更新のアップロード用）
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## PDFファイルの準備 {#preparing-your-pdf-files}
 
