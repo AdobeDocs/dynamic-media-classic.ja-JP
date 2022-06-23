@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 59%
 
 画像セットを作成する際、Adobeでは次のベストプラクティスを推奨し、次の制限を適用します。
 
-| 画像セットの制限タイプ | ベストプラクティス | 実装済み制限 | 制限の変更 2022 年 12 月 31 日 |
-| --- | --- | --- | --- |
-| セットあたりの重複アセット数 | 重複なし | 100 | 20 |
+| 制限タイプ | ベストプラクティス | 制限が適用されました |
+| --- | --- | --- |
+| セットあたりの重複アセット数 | 重複なし | 20 |
 | 1 セットあたりの最大画像数 | 1 セットあたり 5～10 個の画像 | 1000 |
 
 関連トピック [Dynamic Mediaの制限](/help/limitations.md).

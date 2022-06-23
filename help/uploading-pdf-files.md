@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 38%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 38%
 
 ページ抽出用のPDFをアップロードする際、Adobeでは次の制限が適用されます。
 
-| PDF制限タイプ | 実装された制限 | 制限の変更 2022 年 12 月 31 日 |
+| PDF制限タイプ | 制限が適用されました | 2022 年 12 月 31 日の制限に変更 |
 | --- | --- | --- |
 | 抽出対象となるPDFの最大ページ数 | 5000（新しいアップロード用） | 100 |
 

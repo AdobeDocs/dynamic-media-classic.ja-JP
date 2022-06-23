@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '706'
 ht-degree: 36%
 
 ---
@@ -23,9 +23,9 @@ PDF(Portable Document Format) ファイルは、eCatalog を作成する際にAd
 
 ページ抽出用のPDFをアップロードする際、Adobeでは次の制限が適用されます。
 
-| PDF制限タイプ | 実装された制限 | 制限の変更 2022 年 12 月 31 日 |
+| 制限タイプ | 制限が適用されました | 2022 年 12 月 31 日の制限に変更 |
 | --- | --- | --- |
-| 抽出対象となるPDFの最大ページ数 | 5000（新しいアップロード用） | 100 |
+| 抽出対象となるPDFの最大ページ数 | 5000（新しいアップロード用） | 100( すべてのPDF) |
 
 関連トピック [Dynamic Mediaの制限](/help/limitations.md).
 
