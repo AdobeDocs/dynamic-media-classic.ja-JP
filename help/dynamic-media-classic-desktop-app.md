@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2036'
 ht-degree: 1%
 
 ---
@@ -185,11 +185,12 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 ## ダウンロードと *沈黙* Windows®での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのインストール {#install-silent-windows-dmc-app}
 
-使用するコマンドは、基本的な MSI サイレントインストール用です。 ただし、Adobe Dynamic Media Classicデスクトップアプリケーションインストーラーは、InstallShield を使用して作成された InstallScript MSI インストーラーです。 インストーラーをレコードモードで実行すると、ユーザーの操作が応答ファイルに記録されます。 この応答ファイルは、次に [サイレントモードでのインストールの実行](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+使用するコマンドは、基本的な MSI サイレントインストール用です。 ただし、Adobe Dynamic Media Classicデスクトップアプリケーションインストーラーは、InstallShield を使用して作成された InstallScript MSI インストーラーです。 インストーラーをレコードモードで実行すると、ユーザーの操作が応答ファイルに記録されます。 この応答ファイルは、次に [サイレントモードでのインストールの実行](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
 関連項目:
 
 * [Macまたは Windows®での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール](#installation-dmc-app)
+
 * [macOSでの最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-mac-dmc-app)
 
 をダウンロードして *沈黙* Windows®での最新バージョンのAdobe Dynamic Media Classicデスクトップアプリケーションのインストール：
@@ -212,7 +213,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
    `adobe-dynamic-media-classic-20.22.1.exe /s /f1"C:\Setup.iss"`
 
-   コマンドラインパラメータの詳細は、次の場所で確認できます。 [Setup.exe および Update.exe のコマンドラインパラメータ](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   コマンドラインパラメータの詳細は、次の場所で確認できます。 [Setup.exe および Update.exe コマンドラインパラメータ](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/IHelpSetup_EXECmdLine.htm?Highlight=Setup.exe%20and%20Update.exe%20Command-Line%20Parameters).
 
 1. アプリケーションを開くと、新しいAdobe Dynamic Media Classicログインページが表示されます。
 
