@@ -9,20 +9,18 @@ discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: fe98d962624284b70a1297d7276478de1453c83e
+source-git-commit: 61c433567870cedfa36b89c6e7be97abd3b0fdca
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 36%
+source-wordcount: '184'
+ht-degree: 23%
 
 ---
 
 # 開発者向けリソース {#developer-resources}
 
-Adobe Dynamic Media Classicには、各Adobe Dynamic Media Classicソフトウェアモジュールの最新のメジャーバージョンに関するドキュメントが用意されています。 モジュールドキュメントは、画像オーサリング、Adobe Dynamic Media Classic、Image Server および画像レンダリング、ビューアで使用できます。
+ビューア、画像サービングおよび画像レンダリングに関するリファレンスガイド、および Image Production System では、これらのサーバモジュールの HTTP プロトコルについて説明しています。 Web サイトまたはカスタムアプリケーション用にAdobe Dynamic Media Classicリッチメディアをさらにカスタマイズして使用する Web サイト開発者は、これらのガイドを使用できます。 Dynamic Media Classicデスクトップアプリケーション、一般的な HTTP プロトコル標準および規則、基本的なイメージングの用語に精通していることを前提としています。
 
-また、一部のモジュールのリリースノートもあります。リリースノートには、拡張機能、新機能、ヒント、トラブルシューティングに関するアドバイス、未解決の既知の問題など、リリースに関する詳細情報が記載されています。また、リッチメディア機能のインタラクティブな例とそれらをアクティブにする方法も記載されています。また、リリースノートでは、ライセンス許諾されたソフトウェアを使用するユーザ向けのインストールおよび設定に関する情報も提供しています。
-
-画像サービングおよび画像レンダリングに関するリファレンスガイドおよびビューアでは、これらのサーバモジュールの HTTP プロトコルについて説明しています。 Web サイトまたはカスタムアプリケーション用にAdobe Dynamic Media Classicリッチメディアをさらにカスタマイズして使用する Web サイト開発者は、これらのガイドを使用できます。 Adobe Dynamic Media Classicは、ユーザーがデスクトップアプリケーション、一般的な http プロトコル標準および規則、基本的なイメージングの用語に精通していることを前提としています。
+関連トピック [Dynamic Media Developer Resources](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
 ## ビューア {#viewers-guide}
 
@@ -43,19 +41,19 @@ Adobe Dynamic Media Classicには、各Adobe Dynamic Media Classicソフトウ�
 | --- | --- |
 | API リファレンスガイド | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html) |
 
-## Image Authoring {#ia}
+<!-- ## Image Authoring {#ia}
 
-| ドキュメント | Web アドレス |
+| Document| Web address |
 | --- | --- |
-| ユーザーガイド | このドキュメントについては、Adobe Dynamic Media Classicテクニカルサポートにお問い合わせください。 |
-| リリースノート | このドキュメントについては、Adobe Dynamic Media Classicテクニカルサポートにお問い合わせください。 |
+| User Guide | Contact Adobe Dynamic Media Classic technical support for this documentation. |
+| Release Notes | Contact Adobe Dynamic Media Classic technical support for this documentation. |
 
 ## Dynamic Media Classic API {#dmc-api}
 
-| ドキュメント | Web アドレス |
+| Document | Web address |
 | --- | --- |
-| API リファレンスガイド | ドキュメントについては、Adobe Dynamic Media Classicテクニカルサポートにお問い合わせください。 |
-
+| API Reference Guide | Contact Adobe Dynamic Media Classic technical support for documentation. |
+ -->
 
 
 
