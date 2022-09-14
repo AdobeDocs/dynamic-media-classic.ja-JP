@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
 user-guide-description: Adobe Dynamic Media Classic の使用についての詳細
 index: y
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 30%
@@ -79,8 +79,8 @@ ht-degree: 30%
    + [プロジェクトで作業を整理する](organizing-projects.md)
 + 画像サイズ変更 {#image-sizing}
    + [クイックスタート：画像サイズ変更](quick-start-image-sizing.md)
-   + [マスター画像のアップロード](uploading-master-images.md)
-   + [マスター画像の公開](publishing-master-images.md)
+   + [プライマリ画像のアップロード](uploading-master-images.md)
+   + [プライマリ画像を公開](publishing-master-images.md)
    + [画像プリセットの設定](setting-image-presets.md)
    + [Web アプリケーションへの URL のリンク](linking-urls-web-application.md)
 + ズーム {#zoom}
@@ -166,7 +166,7 @@ ht-degree: 30%
    + [アップロードしたアセットの削除](deleting-uploaded-asset.md)
    + [ディスク使用量情報の取得](getting-disk-usage-information.md)
    + [ラスターイメージアセットをアップロードする](uploading-image-asset-or-vector.md)
-+ マスターファイル {#master-files}
++ プライマリファイル {#master-files}
    + [画質を最適化するためのベストプラクティス](best-practices-optimizing-quality-images.md)
    + [画像の編集](editing-images.md)
    + [画像マップの作成](creating-image-maps.md)

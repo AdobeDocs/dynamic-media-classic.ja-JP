@@ -1,8 +1,8 @@
 ---
 title: ビデオへのチャプターマーカーの追加
-description: AdobeDynamic Media Classicでビデオにチャプターマーカーを追加する方法を説明します。
+description: Adobe Dynamic Media Classicでビデオにチャプターマーカーを追加する方法を説明します。
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
@@ -10,7 +10,7 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 42%
@@ -25,9 +25,9 @@ ht-degree: 42%
 >
 >使用されるビデオプレーヤーがチャプターマーカーの使用に対応している必要があります。
 
-`Universal_HTML5_Video`ビューア(HTML5)用にチャプターナビゲーションキューポイントとチャプタータイトルポップアップテキストを設定する場合は、[ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
+詳しくは、 [ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) チャプターナビゲーションキューポイントとチャプタータイトルポップアップテキストを `Universal_HTML5_Video` viewer(HTML5)
 
-[ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
+関連トピック [ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets).
 
 ビデオのチャプターリストの作成方法は、キャプションの作成方法とよく似ていて、WebVTT ファイルを作成します。ただし、このファイルは、使用している他の WebVTT キャプションファイルと分ける必要があります。キャプションとチャプターを 1 つの WebVTT ファイルにまとめることはできません。
 
@@ -49,42 +49,42 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-この例では、`Chapter 1` はキュー識別子（オプション）です。`00:00:000 --> 01:04:364`のキュー時間は、チャプターの開始時間と終了時間を00:00:000形式で指定します。 末尾の 3 桁はミリ秒であり、必要に応じて 000 のままにすることができます。チャプタータイトル`The bicycle store behind it all`は、チャプターの内容を示す実際の説明です。 ビデオのタイムライン内のビジュアルキューポイントにポインターを置くと、キュー識別子、開始キュー時間およびチャプタータイトルが、ビデオプレーヤー内にポップアップ表示されます。
+この例では、`Chapter 1` はキュー識別子（オプション）です。のキュー時間 `00:00:000 --> 01:04:364` チャプターの開始時間と終了時間を 00 で指定します。:00:000 形式。 末尾の 3 桁はミリ秒であり、必要に応じて 000 のままにすることができます。チャプタータイトル： `The bicycle store behind it all` は、チャプターの内容を示す実際の説明です。 ビデオのタイムライン内のビジュアルキューポイントにポインターを置くと、キュー識別子、開始キュー時間およびチャプタータイトルが、ビデオプレーヤー内にポップアップ表示されます。
 
-HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターファイル名の拡張子は.VTTです。 WebVTT のキャプション規格について、さらに詳しく調べることができます。
+HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターファイル名の拡張子は.VTT です。 WebVTT のキャプション規格について、さらに詳しく調べることができます。
 
-[WebVTTを参照してください。Webビデオテキストトラックの形式](https://w3c.github.io/webvtt/)。
+詳しくは、 [WebVTT:Web ビデオテキストトラックの形式](https://w3c.github.io/webvtt/).
 
 **ビデオにチャプターマーカーを追加するには:**
 
-1. Dynamic Media Classicの外部で単純なテキストAdobeを使用して、ビデオチャプターファイルを作成します。
+1. Adobe Dynamic Media Classicの外部で単純なテキストエディターを使用して、ビデオチャプターファイルを作成します。
 
    >[!NOTE]
    >
-   >英語以外の言語でビデオチャプターをグローバルにサポートする場合、WebVTT標準では、サポートする言語ごとに個別の.vttファイルを作成し呼び出す必要があります。
+   >英語以外の言語でビデオチャプターをグローバルにサポートする場合、WebVTT 標準では、サポートする言語ごとに個別の.vtt ファイルを作成して呼び出す必要があります。
 
-1. VTTファイルをUTF8エンコーディングで保存して、チャプタータイトルテキストの文字レンディションに関する問題を回避できます。
+1. VTT ファイルを UTF8 エンコーディングで保存して、チャプタータイトルテキストの文字レンディションに関する問題を回避できます。
 
    通常、チャプター VTT ファイルにはビデオファイルと同じ名前を指定し、`chapters` を付加します。これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。
 
-1. AdobeDynamic Media Classicで、WebVTTチャプターファイルをアップロードします。
+1. Adobe Dynamic Media Classicで、WebVTT チャプターファイルをアップロードします。
 
-   [ファイルのアップロード](uploading-files.md#uploading_files)を参照してください。
+   詳しくは、 [ファイルをアップロード](uploading-files.md#uploading_files).
 
 1. 左側のアセットライブラリパネルで、アップロードしたチャプターファイルに関連付けるビデオファイルを含んでいるアセットフォルダーに移動します。
-1. アセットの参照パネルで1つのビデオアセットを選択し、アセットのサムネール画像の下で&#x200B;**[!UICONTROL プレビュー]** / **[!UICONTROL ビューアリスト]**&#x200B;を選択します。
+1. アセットの参照パネルで 1 つのビデオアセットを選択し、アセットのサムネール画像の下でを選択します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 1. ビューアリストの表で、**Univeral_HTML5_Video** という名前の HTML5 ビューアを探し、次のいずれかの操作を行います。
 
-   * ポップアップビデオビューアエクスペリエンスの場合、名前の右端にある「URL ]**をコピー」を選択します。**[!UICONTROL 
+   * ポップアップビデオビューアエクスペリエンスの場合は、 **[!UICONTROL URL をコピー]** 名前の右端に
 
-      コピーしたビデオのURLを次の構文で追加し、コピーしたURLにキャプションファイルを関連付けることができます。
+      コピーしたビデオの URL を次の構文で追加して、コピーした URL とキャプションファイルを関連付けることができます。
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 埋め込みビデオビューアエクスペリエンスの場合、名前の右端にある「**[!UICONTROL 埋め込みコード]**」を選択します。
+   * 埋め込みビデオビューアエクスペリエンスの場合、 **[!UICONTROL 埋め込みコード]** 名前の右端に
 
-      埋め込みコードダイアログボックスで、「**[!UICONTROL クリップボードにコピー]**」を選択します。
+      埋め込みコードダイアログボックスで、「 **[!UICONTROL クリップボードにコピー]**.
 
-      HTML5 `Universal_HTML5_Video`ビューアの場合、コピーした埋め込みコードを次のように追加します。
+      HTML5 `Universal_HTML5_Video` ビューアで、コピーした埋め込みコードを次のように追加します。
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`

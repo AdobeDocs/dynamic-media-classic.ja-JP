@@ -1,17 +1,17 @@
 ---
 title: ファイルを公開
 description: 「アセットをDynamic Media Image Server に公開する方法を学びます。 1 回限りのアセット公開や、Adobe Dynamic Media Classicが定期的にアセットを公開するよう設定することもできます。 アセットの公開が完了すれば、それらを配信することができます。Adobe Dynamic Media Classicから URL 呼び出しをコピーして、Web サイトやアプリケーションに追加できます。
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 48%
+source-wordcount: '1729'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classicは、ジョブページの公開ジョブを追跡�
 
 >[!NOTE]
 >
->再公開した（以前に公開したことのある）アセットは、コンテンツ配信ネットワーク（CDN）の Web キャッシングメカニズムにより、Web サイトに直ちに表示されません。詳しくは、[アセットの再公開と CDN の遅延](publishing-files.md#republished_assets_and_cdn_delays)を参照してください。
+>再公開する（以前に公開した）アセットは、コンテンツ配信ネットワーク (CDN) 上の Web キャッシュメカニズムにより、Web サイトに即座に表示されません。 詳しくは、[アセットの再公開と CDN の遅延](publishing-files.md#republished_assets_and_cdn_delays)を参照してください。
 
 ### 1 回限りの公開ジョブの作成 {#creating-a-one-time-publish-job}
 
@@ -102,7 +102,7 @@ Adobe Dynamic Media Classicは、ジョブページの公開ジョブを追跡�
 
 ## 公開ジョブのキャンセル {#canceling-a-publish-job}
 
-処理中の公開ジョブをキャンセルすることができます。管理者は、会社のジョブページから処理中の公開ジョブをキャンセルすることもできます。
+進行中の公開ジョブをキャンセルできます。 管理者は、会社のジョブページから処理中の公開ジョブをキャンセルすることもできます。
 
 公開ジョブをキャンセルするには、ジョブページに移動して、「 」を選択します **[!UICONTROL キャンセル]**. ジョブページの「スケジュール済み」タブで、ジョブの「アクティブ」列のチェックボックスを選択解除または選択して、ジョブを一時停止または再開することができます。
 

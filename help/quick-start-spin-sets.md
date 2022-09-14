@@ -1,8 +1,8 @@
 ---
-title: '"クイックスタート：スピンセット"'
+title: "クイックスタート：スピンセット"
 description: Adobe Dynamic Media Classicをすばやく使い始めるのに役立つ、概要とスピンセットのクイックスタートです。
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,16 +10,16 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
 
 ---
 
 # クイックスタート：スピンセット{#quick-start-spin-sets}
 
-スピンセットを使用することで、現実と同じようにオブジェクトを回転させて確認することができます。つまり、アイテムをあらゆる角度から表示して、特徴的な部分を詳細に確認できるようになります。スピンセットは、360°の表示エクスペリエンスをシミュレートします。 Adobe Dynamic Media Classicには、ビューアが項目を回転できる 1 次元スピンセットと、ビューアが項目を回転および反転できる 2 次元スピンセットが用意されています。 さらに、ユーザは、マウスで数回クリックするだけで、任意のビューを「自由形式」でズームおよびパンできます。 これらの機能により、特定の方向からアイテムを詳細に確認することができます。
+スピンセットを使用することで、現実と同じようにオブジェクトを回転させて確認することができます。つまり、アイテムをあらゆる角度から表示して、特徴的な部分を詳細に確認できるようになります。スピンセットは、360°の表示エクスペリエンスをシミュレートします。 Adobe Dynamic Media Classicには、ビューアが項目を回転できる 1 次元スピンセットと、ビューアが項目を回転および反転できる 2 次元スピンセットが用意されています。 また、ユーザは、マウスで数回クリックするだけで、任意のビューを「自由形式」でズームおよびパンできます。 これらの機能により、特定の方向からアイテムを詳細に確認することができます。
 
 ![スピンセット用の画像.](/help/assets/spin_set.png)
 

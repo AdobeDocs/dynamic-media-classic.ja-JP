@@ -2,7 +2,7 @@
 title: スピンセットの作成
 description: Adobe Dynamic Media Classicでスピンセットを作成する方法を説明します。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 53%
+ht-degree: 50%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 53%
 
 ## スピンセット画像のキャプチャに関するガイドライン {#guidelines-for-shooting-spin-set-images}
 
-一般的に、スピンセットの画像が多いほど、優れたスピン効果を得られます。ただし、セット内の画像が多いほど、画像の読み込みに時間がかかるようになります。Adobe Dynamic Media Classicでは、スピンセットで使用する画像の撮影に関して、次のガイドラインを推奨しています。
+一般的に、スピンセット内の画像が多いほど、画像の回転効果が高くなります。 ただし、セット内の画像が多いほど、画像の読み込みに時間がかかるようになります。Adobe Dynamic Media Classicでは、スピンセットで使用する画像の撮影に関して、次のガイドラインを推奨しています。
 
 * 少なくとも、1 次元スピンセットでは 8 ～ 12 個の画像を使用し、2 次元スピンセットでは 16 ～ 24 個の画像を使用します。
 * 可逆圧縮形式を使用する。TIFF や PNG を使用することをお勧めします。
 * すべての画像をマスクして、アイテムが 100 ％白またはその他のコントラストの高い背景の上に表示されるようにし、必要に応じて、シャドウを追加します。
 * 製品の細部に適切に照明が当たっていて、焦点が合っていることを確認します。
-* 衣類のスピン画像を撮影する場合は、マネキンまたはモデルを使用します。多くの場合、マネキンはマスクされる（ガラスのマネキンを使用する）か、様式化したマネキンやドレスフォームが画像内に表示されます。 角度数を決めて、モデルによるスピンセットを作成することもできます。各角度を床にテープでマークし、モデルが各ショットの方向に進むようにガイドします。
+* 衣類のスピン画像を撮影する場合は、マネキンまたはモデルを使用します。多くの場合、マネキンはマスクされる（ガラスのマネキンを使用する）か、様式化したマネキンやドレスフォームが画像内に表示されます。 角度の数を定義して、モデルスピンセット上にを作成できます。 各角度を床にテープでマークし、モデルが各ショットの方向に進むようにガイドします。
 
 ## スピンセットの作成 {#create}
 

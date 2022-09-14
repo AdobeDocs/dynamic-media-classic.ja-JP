@@ -1,8 +1,8 @@
 ---
-title: '"クイックスタート：画像セット"'
+title: "クイックスタート：画像セット"
 description: Adobe Dynamic Media Classicの画像セットのテクニックをすばやく習得して実行するのに役立つ、画像セットの概要とクイックスタートです。
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
@@ -10,7 +10,7 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 21%

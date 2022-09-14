@@ -1,8 +1,8 @@
 ---
 title: 様々なズームビューアでの画像アセットのプレビュー
-description: 様々なズームビューアで画像アセットをプレビューする方法については、AdobeDynamic Media Classicを参照してください。
+description: Adobe Dynamic Media Classicで様々なズームビューアを使用して画像アセットをプレビューする方法について説明します。
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
@@ -10,10 +10,10 @@ discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: bc83a94d-540a-46ad-aae0-e4a32ee9a302
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 27%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 ビューアリスト画面で、様々なズームビューアプリセットを使用して画像をプレビューできます。
 
-[初期設定のビューアの設定](application-setup.md#configuring_default_viewers)を参照してください。
+詳しくは、 [初期設定のビューアの設定](application-setup.md#configuring_default_viewers).
 
-[アセットのプレビュー](previewing-asset.md#previewing_an_asset)を参照してください。
+詳しくは、 [アセットのプレビュー](previewing-asset.md#previewing_an_asset).
 
 **様々なズームビューアで画像アセットをプレビューするには：**
 
@@ -31,16 +31,16 @@ ht-degree: 0%
 1. 左側のアセットライブラリパネルで、ズームビューアでプレビューする画像を含むアセットフォルダに移動します。
 1. 次のいずれかの操作を行います。
 
-   * アセットウィンドウの上のツールバーの右側で、「**[!UICONTROL グリッドビュー]**」を選択します。 アセットウィンドウのサムネール画像の下で、**[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**&#x200B;に移動します。
-   * アセットウィンドウの上のツールバーの右側で、「**[!UICONTROL リスト表示]**」を選択します。 アセットウィンドウでアセットを選択し、サムネール画像の右側にある&#x200B;**[!UICONTROL プレビュー]** / **[!UICONTROL ビューアリスト]**&#x200B;に移動します。
-   * アセットウィンドウの上のツールバーの右側で、**[!UICONTROL 詳細ビュー]**&#x200B;を選択します。 同じツールバーで、**[!UICONTROL プレビュー]** /**[!UICONTROL ビューアリスト]**&#x200B;に移動します。
+   * アセットウィンドウの上のツールバーの右側で、を選択します。 **[!UICONTROL グリッド表示]**. アセットウィンドウで、サムネール画像の下のに移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * アセットウィンドウの上のツールバーの右側で、を選択します。 **[!UICONTROL リスト表示]**. アセットウィンドウでアセットを選択し、サムネール画像の右側にある次の手順に従います。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * アセットウィンドウの上のツールバーの右側で、を選択します。 **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
 1. ビューアリストウィンドウの表で、ビューアリンクを選択して、選択したビューアでアセットをプレビューします。
 1. 表示されたビューアを閉じます。
-1. ビューアリストウィンドウの右下隅にある「**[!UICONTROL 閉じる]**」を選択して、アセット画面に戻ります。
+1. Viewer List ウィンドウの右下隅で、 **[!UICONTROL 閉じる]** をクリックして、アセット画面に戻ります。
 
 >[!MORELIKETHIS]
 >
 >* [ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [デフォルトビューアの設定](application-setup.md#configuring_default_viewers)
+>* [初期設定のビューアの設定](application-setup.md#configuring_default_viewers)
 

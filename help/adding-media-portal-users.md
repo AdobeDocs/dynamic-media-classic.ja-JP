@@ -1,8 +1,8 @@
 ---
-title: Media Portalユーザーの追加と管理
-description: Dynamic Media ClassicでMedia Portalユーザーを追加および管理する方法について説明します。
+title: Media Portal ユーザーの追加と管理
+description: Adobe Dynamic Media Classicで Media Portal ユーザーを追加および管理する方法について説明します。
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,52 +10,52 @@ discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 58%
 
 ---
 
-# Media Portalユーザーの追加と管理{#adding-and-managing-media-portal-users}
+# Media Portal ユーザーの追加と管理{#adding-and-managing-media-portal-users}
 
-管理者は、ユーザの追加と管理、ユーザによるパスワードの変更を許可するかどうかの指定、ユーザ情報の編集、ユーザリストのアップロードを実行できます。これらのタスクは、ユーザ管理画面で実行されます。この画面にアクセスするには、**[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 管理設定]** / **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
+管理者は、ユーザの追加と管理、ユーザによるパスワードの変更を許可するかどうかの指定、ユーザ情報の編集、ユーザリストのアップロードを実行できます。これらのタスクは、ユーザ管理画面で実行されます。この画面にアクセスするには、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**.
 
 >[!NOTE]
 >
->ユーザを追加する前に、ユーザを管理するためのグループを設定します。Media Portal では、ユーザを 1 つまたは複数のグループに割り当てないと、ユーザを追加できません。詳しくは、[Media Portalグループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)を参照してください。
+>ユーザを追加する前に、ユーザを管理するためのグループを設定します。Media Portal では、ユーザを 1 つまたは複数のグループに割り当てないと、ユーザを追加できません。詳しくは、 [Media Portal グループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## Media Portalパスワードの管理 {#handling-media-portal-passwords}
+## Media Portal パスワードの管理 {#handling-media-portal-passwords}
 
 Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップしたときに、それらのユーザにパスワードが記載されたご案内の電子メールが送信されます。管理者は、Media Portal ユーザがこのパスワードを変更できるようにするかどうかを指定できます。
 
-1. **[!UICONTROL 設定]** / **[!UICONTROL Media Portal設定]** / **[!UICONTROL 一般設定]**&#x200B;に移動します。
+1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal の設定]** > **[!UICONTROL 一般設定]**.
 1. 全般設定ページで、**[!UICONTROL 「Media Portal ユーザによるパスワードの変更を許可」]**&#x200B;オプションを選択または選択解除します。
-1. 「**[!UICONTROL 保存]**」を選択します。
+1. 選択 **[!UICONTROL 保存]**.
 
 >[!NOTE]
 >
->パスワードの変更が許可されているMedia Portalユーザーは、**[!UICONTROL 設定]** / **[!UICONTROL 個人設定]**&#x200B;を選択し、個人設定画面でパスワードを変更することで、パスワードを変更できます。
+>パスワードの変更が許可されている Media Portal ユーザーは、「 **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]** 個人設定画面でパスワードを変更する。
 
-## Media Portalユーザーの追加 {#adding-a-media-portal-user}
+## Media Portal ユーザーの追加 {#adding-a-media-portal-user}
 
-1. **[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 管理設定]** / **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
-1. ユーザー管理ページで、「**追加**」を選択します。
-1. Add UserダイアログボックスのUser Infoパネルで、ユーザーの名、姓、電子メールアドレスを入力し、「**[!UICONTROL 次へ]**」を選択します。
+1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**.
+1. ユーザー管理ページで、「 **追加**.
+1. [ ユーザの追加 ] ダイアログボックスの [ ユーザ情報 ] パネルで、ユーザの名、姓、電子メールアドレスを入力し、 **[!UICONTROL 次へ]**.
 1. 会社 / 役割パネルの会社ドロップダウンリストで、ユーザの会社を選択します。
-1. 「役割」リストで、Media Portalの役割を選択し、「**[!UICONTROL 次へ]**」を選択します。
+1. 「役割」リストで、Media Portal の役割を選択し、「 **[!UICONTROL 次へ]**.
 
    詳しくは、[Media Portal ユーザの役割](media-portal-user-roles.md#media_portal_user_roles)を参照してください。
 
 1. アクセスグループパネルで、1 つまたは複数のグループを選択します。
 
-   [Media Portalグループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)を参照してください。
+   詳しくは、 [Media Portal グループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-1. （オプション）「 **[!UICONTROL 電子メールの設定]** 」を選択して、デフォルト設定とは異なる電子メール設定を選択します。
+1. （オプション）「 」を選択します。 **[!UICONTROL メール設定]** をクリックして、既定の設定とは異なる電子メール設定を選択します。
 
    [Media Portal ユーザ向けのご案内の電子メールメッセージの設定](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users)を参照してください。
 
-1. 「**[!UICONTROL ユーザーを追加]**」を選択します。
+1. 選択 **[!UICONTROL ユーザーを追加]**.
 
 ユーザを追加すると、追加を通知する電子メールメッセージが Media Portal からユーザに送信されます。メッセージには、一時パスワードと Media Portal の URL が含まれています。
 
@@ -82,14 +82,14 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 
 | 名 | 姓 | 電子メール | パスワード | ユーザの役割 | グループ |
 |--- |--- |--- |--- |--- |--- |
-| プレイリー | カト | `prairiek@company.com` | welcome | MediaPortal 管理者 | PortalCo/IT,PortalCo/Admin |
+| プレーリー | カット | `prairiek@company.com` | welcome | MediaPortal 管理者 | PortalCo/IT,PortalCo/Admin |
 | Rick | ブルー | `rickb@myco.com` | ようこそ | Media Portal ユーザ | PortalCo/MktgGroup, PortalCo/test |
 
 ### CSV ファイルのアップロード {#uploading-the-csv-file}
 
 1. ユーザ管理設定画面を開きます。
-1. 「**[!UICONTROL ユーザーリストをアップロード]**」を選択します。
-1. アップロードするファイルを選択ダイアログボックスで、CSVファイルを選択し、「**[!UICONTROL 開く]**」を選択します。
+1. 選択 **[!UICONTROL ユーザーリストをアップロード]**.
+1. アップロードするファイルを選択ダイアログボックスで、CSV ファイルを選択し、「 」を選択します。 **[!UICONTROL 開く]**.
 
 リスト内の各ユーザが、指定されているグループに自動的に追加されます。追加を通知する電子メールメッセージが各ユーザに送信されます。
 
@@ -101,29 +101,29 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 
 Media Portal ユーザの名前と電子メールアドレスをポップアップウィンドウに表示できます。このリストは、ユーザ名とアドレスを Media Portal 以外で使用するためにカットおよびペーストする場合に便利です。
 
-1. **[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 管理設定]** / **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
-1. 「**[!UICONTROL ユーザーの役割別]**」ドロップダウンリストで、Media Portalユーザーの役割の名前を選択し、「**[!UICONTROL 更新]**」を選択して、Media Portalユーザーの1つのクラスの名前を表示します。
-1. **[!UICONTROL ポップアップリスト]**&#x200B;を選択します。 このリストをコピーして貼り付けます。
+1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**.
+1. 内 **[!UICONTROL ユーザーの役割別]** ドロップダウンリストから、Media Portal ユーザーの役割の名前を選択し、 **[!UICONTROL 更新]** をクリックして、Media Portal ユーザーの 1 つのクラスの名前を表示します。
+1. 選択 **[!UICONTROL ポップアップリスト]**. このリストをコピーして貼り付けます。
 
 ## Media Portal ユーザ向けのご案内の電子メールメッセージの設定 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定したり、Dynamic Media ClassicにAdobeに送信しないよう伝えたりできます。
+新規 Media Portal ユーザ、寄稿者、寄稿者ユーザを追加する際に、ご案内の電子メールを送信できます。この電子メールメッセージを設定するか、Adobe Dynamic Media Classicに送信しないように伝えることができます。
 
-1. **[!UICONTROL 設定]** / **[!UICONTROL アプリケーション設定]** / **[!UICONTROL 管理設定]** / **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
-1. ユーザー管理の設定画面で、「**[!UICONTROL 電子メールの設定]**」を選択します。
+1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL ユーザー管理]**.
+1. ユーザー管理設定画面で、「 **[!UICONTROL メール設定]**.
 1. 電子メール設定ダイアログボックスで、次のいずれかの設定を指定します。
 
-   * **[!UICONTROL 電子メールを送信]**  — 新しいユーザーにサインアップしたことを電子メールで通知しない場合は、このオプションの選択を解除します。
+   * **[!UICONTROL メールの送信]**  — 新規ユーザーにサインアップしたことを電子メールで通知しない場合は、このオプションの選択を解除します。
 
-   * **[!UICONTROL デフォルトのパスワード]**  — 新規ユーザーの一時パスワードを入力します。Dynamic Media Classicでランダムなパスワードを生成する場合は、このフィールドを空のままにします。ユーザーは、初めてログインしたときにパスワードを変更するように求められます。
+   * **[!UICONTROL デフォルトのパスワード]**  — 新規ユーザーの一時パスワードを入力するか、フィールドを空のままにしてAdobe Dynamic Media Classicにランダムパスワードを生成させます。 ユーザーは、初めてログインしたときにパスワードを変更するように求められます。
 
-   * **[!UICONTROL 置換URL]**  — ユーザーが別のURLを使用してDynamic Media Classicにアクセスする場合は、デフォルトとは異なるURLを入力します。
+   * **[!UICONTROL 置換 URL]**  — ユーザーが別の URL を通じてAdobe Dynamic Media Classicにアクセスする場合は、デフォルトとは異なる URL を入力します。
 
 ## その他のユーザ管理タスク {#other-user-management-tasks}
 
 ユーザ管理設定画面から、次のタスクも実行できます。
 
-* **[!UICONTROL ユーザーリストのフィルターと並べ替え]**  - Media Portalユーザーのリストをフィルターして、ユーザーを見つけます。
+* **[!UICONTROL ユーザーリストのフィルターと並べ替え]** - Media Portal ユーザーのリストをフィルタリングして、ユーザーを見つけます。
 
 * **[!UICONTROL ユーザーの削除]**  — リストからユーザーを削除します。
 
@@ -131,6 +131,6 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 
 * **[!UICONTROL ユーザー情報の編集]**  — ユーザーに関する最新の情報を入力します。
 
-* **[!UICONTROL ユーザー定義フィールドの作成]**  -AdobeDynamic Media Classicでのアセットの整理に役立つように、ユーザー定義のカスタムのメタデータフィールドを作成します。このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
+* **[!UICONTROL ユーザ定義フィールドの作成]**  — ユーザー定義のカスタムのメタデータフィールドを作成し、Adobe Dynamic Media Classicでのアセットの整理に役立てます。 このフィールドは必要に応じて、アクティブ化または非アクティブ化することができます。
 
 [ユーザ定義フィールド](application-setup.md#user_defined_fields)を参照してください。

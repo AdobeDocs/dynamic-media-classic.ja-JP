@@ -1,15 +1,15 @@
 ---
 title: アップロードしたアセットの削除
-description: アップロードしたアセットを削除する方法については、Dynamic Media Classic のAdobeを参照してください。
+description: Adobe Dynamic Media Classicでアップロードしたアセットを削除する方法を説明します。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 71%
@@ -54,7 +54,7 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 
 >[!IMPORTANT]
 >
->AdobeDynamic Media Classic での新規または既存の UGC ベクトル画像アセットのサポートは、2021 年 9 月 30 日に終了しました。
+>Adobe Dynamic Media Classicでの新規または既存の UGC ベクトル画像アセットのサポートは、2021 年 9 月 30 日に終了しました。
 
 **サンプル画像の URL：**
 

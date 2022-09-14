@@ -2,17 +2,17 @@
 title: ファイルのアップロード
 description: Adobe Dynamic Media Classicでファイルをアップロードする方法を説明します。
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3926'
-ht-degree: 32%
+source-wordcount: '3929'
+ht-degree: 31%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Dynamic Media Classicプログラムで最適な結果を得るには、�
 | フォント | TrueType、Type1(Windows®のみ )、OpenType®フォント、PhotoFonts をアップロードしました。 |
 | 画像 | 画像ファイルとレイヤー画像ファイル。 |
 | 画像セットとスウォッチセット | ビューアで表示可能な関連性のある一連の画像。 |
-| ICC プロファイル | アップロードした画像を、ソースカラースペースから異なるカラースペースに変換するためのカラープロファイル。 |
+| ICC プロファイル | アップロードした画像をソースカラースペースから別のカラースペースに変換する際に使用できるカラープロファイル。 |
 | ビネット | 画像オーサリングプログラムで作成した画像、および関連ファイル。 |
 | コンテンツファイル | Adobe InDesign、Illustrator または Photoshop コンテンツファイル。 |
 | FXG ファイル | プリント、Web、電子メール、デスクトップおよびデバイス向けにカスタマイズ可能な出力用テンプレートを作成するのに使用する、解像度に依存しないグラフィック形式ファイル。 |
@@ -101,7 +101,7 @@ Adobe Dynamic Media Classicは、いくつかの静的ファイル形式をサ�
 * オーディオファイル
 * CSS
 * JavaScript（会社が独自のドメインで構成されている場合）
-* マスタービデオ
+* プライマリビデオ
 * PDF( アップロード後にPDFが公開用にマークされている場合は、既存の eCatalog/PDFワークフローのすべてのPDFが配信されないように )
 * PrX ビデオ
 * SVG
@@ -114,14 +114,14 @@ Adobe Dynamic Media Classicには、静的コンテンツのプレビュー URL 
 
 ファイル名の拡張子はアップロード処理中にファイル名から取り除かれるため、システム上で同じルート名を持つファイルを共存させることはできません。Adobe Dynamic Media Classicシステムでは、アセットファイル名からファイル名拡張子を引いた部分が、そのアセットのアセット ID になります。 したがって、同じ名前のアセットは存在しません。
 
-会社内のユーザー全員が、以下のファイル命名規則を理解していることを確認してください。
+社内のすべてのユーザが、ファイルの命名に関する次の規則を理解していることを確認します。
 
 * 同一の名前を持つ複数のアセット ID はシステムで許可されません。
 * アセット ID 名は、大文字と小文字が区別されます。
 * アセット ID にはスペースを含む名前（black jacket.tif や blue jacket.jpg など）を使用しないことをお勧めします。Adobe Dynamic Media Classicは、アセット名を使用して URL 文字列を構築する際に、アセット名の空白スペースを ASCII エンコードします。 このような ASCII コードは見づらいので、URL が読みづらくなります。
 * 言語固有の文字はファイル名で使用できます。一方、次の文字はファイル名で使用できません。
 
-   \ ;/ ? :@ &amp; = + $ , * &quot; &lt; > | &#39; { } %
+   \ ;/ ?:@ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    ファイル名に上記の文字が 1 つ以上含まれている場合、その文字はアップロード時にファイル名から削除されます。
 
@@ -274,7 +274,7 @@ Adobe Dynamic Media Classic Desktop Application では、ファイルやフォ�
 
 FTP を使用して項目をアップロードする場合、アップロードが完了した時点で後続のジョブを開始するようにスケジュールできます。 他のジョブが開始するようにスケジュールされている場合、ここでスケジュールしたジョブは、その後にキューに入れられます。
 
-新しいジョブは、指定したアドレスに通知を送信して、その場所にあるコードをトリガします。この継続される公開ジョブの名前は、アップロードジョブと同じ名前になりますが、先頭に Pub_ が付きます。**
+新しいジョブは、指定したアドレスに通知を送信し、その場所にあるコードをトリガーできるようにします。 この継続される公開ジョブの名前は、アップロードジョブと同じ名前になりますが、先頭に Pub_ が付きます。**
 
 **アップロード後に別のジョブを実行するには:**
 

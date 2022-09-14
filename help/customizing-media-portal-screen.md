@@ -1,8 +1,8 @@
 ---
 title: Media Portal 画面のカスタマイズ
-description: Dynamic Media ClassicのMedia Portal画面をカスタマイズする方法について説明します。
+description: Adobe Dynamic Media Classicの Media Portal 画面をカスタマイズする方法を説明します。
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 32%
@@ -19,15 +19,15 @@ ht-degree: 32%
 
 # Media Portal 画面のカスタマイズ{#customizing-the-media-portal-screen}
 
-Media Portal スタイル設定によって、Media Portal 画面に自社ロゴとカラーを使用してブランド化できます。スタイル設定を使用して、会社のブランディングをMedia Portalに配置します。
+Media Portal スタイル設定によって、Media Portal 画面に自社ロゴとカラーを使用してブランド化できます。スタイル設定を使用して、会社のブランディングを Media Portal に配置します。
 
-スタイル設定にアクセスするには、**[!UICONTROL 設定]** / **[!UICONTROL メディアポータル設定]** / **[!UICONTROL スタイル設定]**&#x200B;に移動します。 設定を作成した後、必ず「**[!UICONTROL 保存]**」を選択して設定を保存してください。 「**[!UICONTROL 復元]**」を選択して、デフォルト設定を元に戻すことができます。 選択を行うと、プレビューパネルにその外観が表示されます。
+スタイル設定にアクセスするには、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal の設定]** > **[!UICONTROL スタイル設定]**. 必ず **[!UICONTROL 保存]** 設定を保存します。 次を選択できます。 **[!UICONTROL 復元]** をクリックしてデフォルト設定を元に戻します。 選択を行うと、プレビューパネルにその外観が表示されます。
 
-* **[!UICONTROL ロゴ]**  - 「参照」 **[!UICONTROL を選択し]**、ロゴ画像を選択ウィンドウでグラフィックを選択します。
+* **[!UICONTROL ロゴ]**  — 選択 **[!UICONTROL 参照]**&#x200B;をクリックし、ロゴイメージを選択ウィンドウでグラフィックを選択します。
 
-* **[!UICONTROL 適用]**  — 背景のグラデーションの色メニューで選択を行い、グラデーションカラーのブレンドを作成します。
+* **[!UICONTROL アプリ]**  — 背景のグラデーションの色メニューで選択を行い、グラデーションの色のブレンドを作成します。
 
-* **[!UICONTROL ツリー]**  — ロールオーバーカラー（ポインターを項目の上に移動すると表示されるカラー）と選択カラー（項目を選択すると表示されるカラー）を選択します。
+* **[!UICONTROL ツリー]**  — ロールオーバーカラー（ポインターを項目の上に移動したときに表示されるカラー）と選択カラー（項目を選択したときに表示されるカラー）を選択します。
 
 * **[!UICONTROL アコーディオン]**  — 詳細ビューの画面の右側に表示されるアコーディオンの背景色、境界線のスタイル、ロールオーバーおよび選択した色を選択します。
 
@@ -35,15 +35,15 @@ Media Portal スタイル設定によって、Media Portal 画面に自社ロゴ
 
 * **[!UICONTROL Datagrid]**  — データグリッドのヘッダー行の色を選択します。
 
-* **[!UICONTROL アラート]**  — アラートメッセージボックスの背景色を選択します。
+* **[!UICONTROL アラート]**  — 警告メッセージボックスの背景色を選択します。
 
 * **[!UICONTROL プログレスバー]**  — アップロードおよびダウンロードの進行状況を示すバーの色を選択します。
 
-Media Portalユーザーが選択したスタイル設定を表示するには、Media PortalにアクセスするURLに`?company=(company name)`を追加する必要があります。 例えば、次の URL にある PortalCo という会社にアクセスする Media Portal ユーザーがスタイル設定を表示するとします。
+Media Portal ユーザーが選択したスタイル設定を表示するには、追加する必要があります `?company=(company name)` を Media Portal にアクセスする際の URL に追加します。 例えば、次の URL にある PortalCo という会社にアクセスする Media Portal ユーザーがスタイル設定を表示するとします。
 
 `https://s7sps1.scene7.com/MediaPortal`
 
-代わりに、次のURLを使用します。
+代わりに、次の URL を使用します。
 
 `https://s7sps1.scene7.com/MediaPortal?company=PortalCo`
 

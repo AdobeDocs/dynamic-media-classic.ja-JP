@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics へのログイン
-description: Adobe Dynamic Media for Classic から Adobe アナリティクスにログインする方法について説明します。
+description: Adobe Dynamic Media ClassicからAdobe Analyticsにログインする方法を説明します。
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,100 +10,99 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
 
 # Adobe Analytics へのログイン{#log-in-to-adobe-analytics}
 
-Adobe アナリティクスレポートを設定して adobe analytics レポート変数を Adobe Dynamic Media のクラシックイベントに合わせる前に、Adobe アナリティクスで Web サービスのアクセスグループのメンバーになっていることを確認してください。 このグループのメンバーは、インターフェイスに設定されているアクセス許可に関係なく、操作上のクラウドの Web サービス API を使用して、指定したレポートスイート内のすべてのレポートにアクセスできます。 グループにメンバーを追加するには、Adobe アナリティクスで **[!UICONTROL 管理ツールを使用]** して > **[!UICONTROL ユーザーの管理]** > グループの編集を参照 **[!UICONTROL して]** ください。
+ログインしてAdobe Analyticsレポートを設定し、Adobe Analyticsレポート変数をAdobe Dynamic Media Classicイベントに一致させる前に、Adobe Analyticsの Web サービスアクセスグループのメンバーであることを確認します。 このグループのメンバーは、インターフェイスで設定されている権限に関係なく、Experience Cloudの Web Services API を通じて、指定したレポートスイート内のすべてのレポートにアクセスできます。 メンバーをグループに追加するには、Adobe Analyticsで、 **[!UICONTROL 管理ツール]** > **[!UICONTROL ユーザー管理]** > **[!UICONTROL グループの編集]**.
 
-ログイン時には、最新のビデオ解析実装を使用するために、ご利用の操作を行うためのクラウド組織 ID を入力することができます。 ID を入力しないことを選択した場合、ビデオレポートは機能しません。 ただし、従来の Adobe Dynamic Media 以外のクライアントに対しても、データが正しく統合されていない場合があります。
+ログインする際に、最新のビデオ分析実装を使用するために、Experience Cloudの組織 ID を入力することもできます。 ID を入力しない場合、ビデオレポートは引き続き機能します。 ただし、Adobe Dynamic Media Classic外部のクライアントの他のデータとデータが正しく統合されない場合があります。
 
 >[!NOTE]
 >
->Adobe アナリティクスアカウントが、ログイン用に Adobe IMS ベースの認証 (Id 管理システム) に移行されている場合は、直接認証情報を入力しても機能しません。
+>Adobe Analyticsアカウントがログイン用にAdobe IMSベースの認証 (Identity Management System) に移行されている場合、直接の資格情報の入力は機能しません。
 
-## Adobe ダイナミックメディアから Adobe アナリティクスにログイン {#log-in-to-analytics-from-dmc}
+## Adobe Dynamic Media ClassicからAdobe Analyticsにログインします。 {#log-in-to-analytics-from-dmc}
 
-Adobe アナリティクス OAuth を使用して、動的メディアを従来のように統合して開始します。 Adobe アナリティクス OAuth によるダイナミックメディアクラシック統合は、通常、ユーザー1人につき1回のみ実行されます。
+まず、Dynamic Media ClassicをAdobe Analytics OAuth と統合します。 Adobe Analytics OAuth とDynamic Media Classicの統合は、通常、ユーザーごとに 1 回だけおこなわれます。
 
-1. [Adobe Developer Console にアクセス ](https://developer.adobe.com/console) します。この統合が必要な組織に対して、アカウントに管理者権限があることを確認してください。
-1. ホームページの右上隅にあるドロップダウンリストから、適切な会社を選択します。 次のスクリーンショットは情報目的にのみ使用されています。選択した実際の会社名は異なる場合があります。
+1. アクセス [Adobe Developer Console](https://developer.adobe.com/console). アカウントに、統合が必要な組織の管理者権限があることを確認します。
+1. ホームページの右上隅付近にあるドロップダウンリストから、適切な会社を選択します。 ( 以下のスクリーンショットは、情報を提供する目的でのみ使用されます。選択する実際の会社名は異なる場合があります )。
 
-   ![新規プロジェクトの作成](assets/analytics-oauth1.png)
+   ![新しいプロジェクトを作成](assets/analytics-oauth1.png)
 
 1. 次のいずれかの操作を行います。
 
-   * ページの上部にある「 **[!UICONTROL ホーム]** 」タブで、「新規プロジェクトを作成」を選択し **** ます。
-   * ページの上部にある「 **[!UICONTROL プロジェクト]** 」タブで行います。 ページの右下隅にある「新規プロジェクトを作成」を選択し **** ます。
+   * ページ上部の **[!UICONTROL ホーム]** タブ、選択 **[!UICONTROL 新規プロジェクトを作成]**.
+   * ページ上部の **[!UICONTROL プロジェクト]** タブをクリックします。 ページの右隅にある「 」を選択します。 **[!UICONTROL 新規プロジェクトを作成]**.
 
-1. プロジェクトのページで、「API を追加」を選択し **** ます。
-1. **[!UICONTROL 「API の追加」]** ページで、「Adobe アナリティクス」を選択し **** ます。
-1. ページの右下隅にある「次へ」を選択し **** ます。
+1. プロジェクトのページで、「 」を選択します。 **[!UICONTROL API を追加]**.
+1. の **[!UICONTROL API を追加]** ページ、選択 **[!UICONTROL Adobe Analytics]**.
+1. ページの右下隅にある「 」を選択します。 **[!UICONTROL 次へ]**.
 
-   ![API の追加](assets/analytics-oauth2.png)
+   ![API を追加](assets/analytics-oauth2.png)
 
-1. **[!UICONTROL 「API の設定」]** ページで、「ユーザー認証 OAuth」を選択し **** ます。
-1. ページの右下隅にある「次へ」を選択し **** ます。
-1. **[!UICONTROL 「API を設定」]** ページで、「OAUTH 2.0 Web」を選択し **** ます。
-1. 「 **[!UICONTROL リダイレクト URI」]** テキストボックスに、次のようにパスを入力します。
+1. の **[!UICONTROL API の設定]** ページ、選択 **[!UICONTROL ユーザー認証 OAuth]**.
+1. ページの右下隅にある「 」を選択します。 **[!UICONTROL 次へ]**.
+1. の **[!UICONTROL API の設定]** ページ、選択 **[!UICONTROL OAUTH 2.0 Web]**.
+1. 内 **[!UICONTROL デフォルトのリダイレクト URI]** テキストフィールドに、次のパスを次のように正確に入力します。
 
    `https://exploreadobe.com/dynamic-media-upgrade/`
 
-1. 「 **[!UICONTROL リダイレクト URI パターン」]** テキストフィールドに、次のパスを入力します。
+1. 内 **[!UICONTROL リダイレクト URI パターン]** テキストフィールドに、次のパスを次のように正確に入力します。
 
    `https://exploreadobe\.com/dynamic-media-upgrade/`
 
-1. ページの右下隅にある「 **[!UICONTROL 設定された API を保存」を選択し]** ます。
-1. Adobe アナリティクスページの左側にあるナビゲーションパネルで、「クリデンシャル」の下の「 **** OAuth Web」を選択し **** ます。
-1. 「 **[!UICONTROL 認証の詳細]** 」で、次の操作を行います。
-   * 「 **[!UICONTROL クライアント ID」に「]** コピー」を選択し **** て、値をコピーします。 この値は、その後に続く動的メディアの従来のデスクトップアプリケーションで、以降の分析設定に必要です。
-   * 「 **[!UICONTROL クライアントシークレット」で]** 、「クライアントシークレットを取得」を選択し **[!UICONTROL て、]** 関連付けられた値を表示します。 「コピー」を選択し **** て、値をコピーします。 この値は、その後に続くダイナミックメディアの従来のデスクトップアプリケーションの、以降の Adobe アナリティクス設定に必要です。
+1. ページの右下隅で、「 **[!UICONTROL 設定済み API を保存]**.
+1. ナビゲーションパネルで、Adobe Analyticsページの左側の、 **[!UICONTROL 資格情報]**&#x200B;を選択します。 **[!UICONTROL OAuth Web]**.
+1. の下 **[!UICONTROL 資格情報の詳細]**、次の操作を実行します。
+   * の下 **[!UICONTROL クライアント ID]**&#x200B;を選択します。 **[!UICONTROL コピー]** 値をコピーします。 後続のDynamic Media Classicデスクトップアプリケーションでの Analytics 設定にこの値が必要です。
+   * の下 **[!UICONTROL クライアント秘密鍵]**&#x200B;を選択します。 **[!UICONTROL クライアント秘密鍵を取得]** をクリックすると、関連する値が表示されます。 選択 **[!UICONTROL コピー]** 値をコピーします。 後続のDynamic Media ClassicデスクトップアプリケーションでのAdobe Analytics設定にこの値が必要です。
 
-## Adobe Dynamic Media Classic での Adobe アナリティクスの設定 {#configure-analytics-in-dmc}
+## Adobe Dynamic Media ClassicでのAdobe Analyticsの設定 {#configure-analytics-in-dmc}
 
 >[!NOTE]
 >
->動的メディアでの Adobe アナリティクスの初期設定後は、次のような場合にのみ設定をやり直す必要があります。
+>Dynamic Media ClassicでのAdobe Analyticsの初期設定後、設定をやり直す必要があるのは次の場合のみです。
 >
->* 分析に新しいレポートが追加され、ユーザーはその新しいレポートへのデータ送信を開始するよう求められます。
->* トラッキングサーバーは、Adobe アナリティクスで更新されます。
->* レポートに新しいトラッキング変数が導入されており、動的メディアクラシックユーザーインターフェイスの特定のビューア変数を、新しい解析変数にリンクする必要があります。
-
+>* Analytics に新しいレポートが追加され、その新しいレポートへのデータの送信を開始しようとしています。
+>* トラッキングサーバーがAdobe Analyticsで更新されました。
+>* レポートに新しいトラッキング変数が導入され、Dynamic Media Classicユーザーインターフェイスの特定のビューア変数をその新しい Analytics 変数にリンクする場合。
 >
 
 
-1. Adobe 動的メディアの従来のデスクトップアプリケーションの右上にある「 **[!UICONTROL setup]** > application setup」に移動 **** します。
-1. 左側のパネルの「アプリケーションの設定」で、「 **** Adobe アナリティクス」を選択し **** ます。
-1. **[!UICONTROL Adobe アナリティクス設定ページで]** 、「Adobe アナリティクスログイン」を選択し **** ます。
-1. **[!UICONTROL Adobe アナリティクスログイン]** ダイアログボックスで、「 **[!UICONTROL クライアント ID」フィールド]** と **[!UICONTROL 「クライアントシークレット]** 」フィールドに、先ほどコピーした値をそれぞれ貼り付けます。
-1. ダイアログボックスの右下隅にある「ログイン」を選択し、「 **** Adobe IMS (アイデンティティー管理サービス) ログインを実行」を選択します。
+1. Adobe Dynamic Media Classicデスクトップアプリケーションの右上隅近くにある、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]**.
+1. 左側のパネルで、 **[!UICONTROL アプリケーション設定]**&#x200B;を選択します。 **[!UICONTROL Adobe Analytics]**.
+1. の **[!UICONTROL Adobe Analytics Configuration]** ページ、選択 **[!UICONTROL Adobe Analytics Login]**.
+1. 内 **[!UICONTROL Adobe Analytics Login]** ダイアログボックス、 **[!UICONTROL クライアント ID]** フィールドと **[!UICONTROL クライアント秘密鍵]** 「 」フィールドに、前にコピーしたそれぞれの値を貼り付けます。
+1. ダイアログボックスの右下隅で、 **[!UICONTROL ログイン]** Adobe IMS(Identity Management Services) ログインを実行します。
 
-   ログインが正常に完了すると、Adobe アナリティクスログインダイアログボックスが再び表示され、 **[!UICONTROL 会社]** で開始された会社のドロップダウンリストが表示されます。
+   正常にログインすると、Adobe Analyticsログインダイアログボックスが再び表示され、 **[!UICONTROL 会社]** ドロップダウンリスト（自分が使用できる会社によって開始）。
 
-1. 「会社 **** 」ドロップダウンリストから会社を選択します。
+1. 次の **[!UICONTROL 会社]** 」ドロップダウンリストから、会社を選択します。
 
-   会社を選択すると、選択した **** 会社に対して使用可能なレポートスイートによって開始されるスイートドロップダウンリストが表示されます。
+   会社を選択すると、 **[!UICONTROL スイーツ]** 選択した会社で使用可能なレポートスイートによって開始されたドロップダウンリストが表示されます。
 
-1. **** 「スイート」ドロップダウンリストから、レポートスイートを選択します。
+1. 次の **[!UICONTROL スイーツ]** 」ドロップダウンリストから、レポートスイートを選択します。
 
    >[!NOTE]
    >
-   >デフォルトでは、ユーザーは、「 **[!UICONTROL 会社]** **** 」ドロップダウンリストおよび「スイート」ドロップダウンリストが空であるということを認識しておく必要があります。 このため、ユーザーは各リストから値を選択する必要があります。
+   >デフォルトでは、ユーザーは、 **[!UICONTROL 会社]** および **[!UICONTROL スイーツ]** ドロップダウンリストが空です。 したがって、ユーザーは各リストから値を選択する必要があります。
 
-1. 「OK」を選択 **** すると、設定が保存されます。
+1. 選択 **[!UICONTROL OK]** 設定を保存できます。
 
    >[!NOTE]
    >
-   >**** 「OK」を選択すると、解析名前空間と一致する推奨されたサードパーティの追跡サーバーが表示され **** ます。別の追跡サーバーを使用している場合は、データの損失を防ぐために、このフィールドを更新してください。
+   >この **[!UICONTROL Adobe Analytics Server]** フィールドには、 **[!UICONTROL OK]**. 別のトラッキングサーバーを使用する場合は、データの損失を避けるために、このフィールドで更新します。
 
-1. Adobe アナリティクス設定ページの左下隅にある「保存」を選択して、 **** adobe アナリティクスアカウント設定が確実に更新されるようにします。
+1. Adobe Analytics設定ページの左下隅で、「 **[!UICONTROL 保存]** Adobe Analyticsアカウントの設定を確実に更新する場合。
 
 >[!MORELIKETHIS]
 >
->* [Adobe アナリティクスレポートの設定](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
+>* [Adobe Analyticsレポートの設定](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
 

@@ -1,8 +1,8 @@
 ---
-title: Webページへのスピンセットのリンク
-description: スピンセットをWebページにリンクする方法については、AdobeDynamic Media Classicを参照してください。
+title: Web ページへのスピンセットのリンク
+description: スピンセットをAdobe Dynamic Media Classicの Web ページにリンクする方法を説明します。
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,49 +10,49 @@ discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 40%
 
 ---
 
-# Webページへのスピンセットのリンク{#linking-a-spin-set-to-a-web-page}
+# Web ページへのスピンセットのリンク{#linking-a-spin-set-to-a-web-page}
 
-Webサイトやアプリケーションは、URL文字列または埋め込みコードを使用して、スピンセットを含むDynamic Media Image Serverコンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。スピンセットのURL文字列または埋め込みコードをWebページやアプリケーションに配置するには、AdobeDynamic Media Classicからコピーします。
+Web サイトやアプリケーションは、URL 文字列または埋め込みコードを介して、スピンセットなどのDynamic Media Image Server コンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションにスピンセットの URL 文字列や埋め込みコードを配置するには、Adobe Dynamic Media Classicからコピーします。
 
 >[!NOTE]
 >
 >URL は、アセットを公開するまでアクティブになりません。
 
-## スピンセットのURLのコピー {#copying-a-spin-set-url}
+## スピンセット URL のコピー {#copying-a-spin-set-url}
 
-1. アセットの参照パネルの「表示」ドロップダウンリストで、「**[!UICONTROL スピンセット]**」を選択します。
+1. アセット参照パネルの「表示」ドロップダウンリストで、 **[!UICONTROL スピンセット]**.
 1. 左側のアセットライブラリパネルで、コピーする埋め込みコードを持つスピンセットを含むアセットフォルダに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
-   * **[!UICONTROL グリッドビュー]**&#x200B;を選択します。 アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側のURLと埋め込みコードパネルで、目的のビューアの右側にある「**[!UICONTROL URL]**&#x200B;をコピー」を選択します。
-   * **[!UICONTROL グリッドビュー]**&#x200B;を選択します。 アセットの参照パネルで1つのアセットを選択し、サムネール画像の下にある「**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]**」に移動します。
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL URL をコピー]** を選択します。
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、「URLをコピー&#x200B;]**」を選択します。**[!UICONTROL 
+      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
-   * **[!UICONTROL リストビュー]**&#x200B;を選択します。 アセットの参照パネルで1つのアセットを選択し、サムネール画像の右側にある&#x200B;**[!UICONTROL プレビュー]** / **[!UICONTROL ビューアリスト]**&#x200B;に移動します。
+   * 選択 **[!UICONTROL リスト表示]**. アセットの参照パネルで 1 つのアセットを選択し、サムネール画像の右側にあるに移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、「URLをコピー&#x200B;]**」を選択します。**[!UICONTROL 
+      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
-   * **[!UICONTROL グリッドビュー]**、**[!UICONTROL リストビュー]**、または&#x200B;**[!UICONTROL 詳細ビュー]**&#x200B;を選択します。 同じツールバーで、**[!UICONTROL プレビュー]** /**[!UICONTROL ビューアリスト]**&#x200B;に移動します。
+   * 選択 **[!UICONTROL グリッド表示]**, **[!UICONTROL リスト表示]**&#x200B;または **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、「URLをコピー&#x200B;]**」を選択します。**[!UICONTROL 
+      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
-## スピンセットURLのWebページへの追加 {#adding-spin-set-urls-to-your-web-page}
+## スピンセット URL を Web ページに追加する {#adding-spin-set-urls-to-your-web-page}
 
-スピンセットは、すべてのズームビューアと同様、スピンセットをズームウィンドウ内に表示するダイナミックページ（ASP や JSP）経由で配信されます。AdobeDynamic Media ClassicプラットフォームへのURL呼び出しは、ズームビューアと同じプロトコルに従います。 ただし、ビューアプリセット名は、管理者が初期設定のスピンセットビューアプリセットとして定義したプリセットによって決まります。例えば、次の URL 構文の例（リンクは無効）には、`viewer.jsp` という名前のプリセット名が含まれていて、SKU パラメーターはスピンセット名になっています。
+スピンセットは、すべてのズームビューアと同様、スピンセットをズームウィンドウ内に表示するダイナミックページ（ASP や JSP）経由で配信されます。Adobe Dynamic Media Classicプラットフォームへの URL 呼び出しは、ズームビューアと同じプロトコルに従います。 ただし、ビューアプリセット名は、管理者が初期設定のスピンセットビューアプリセットとして定義したプリセットによって決まります。例えば、次の URL 構文の例（リンクは無効）には、`viewer.jsp` という名前のプリセット名が含まれていて、SKU パラメーターはスピンセット名になっています。
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-この URL 構文の例（リンクは無効）には、SKU 番号（`sku=backpack_spin`）が含まれています。`sku=`の後の文字列は、スピンセット名(`backpack spin`)です。
+この URL 構文の例（リンクは無効）には、SKU 番号（`sku=backpack_spin`）が含まれています。の後の文字列 `sku=` はスピンセット名 ( `backpack spin`) をクリックします。
 
 ## スピンセットビューアの埋め込みコードをコピーする {#copying-the-embed-code-of-a-spin-set-viewer}
 
@@ -60,25 +60,25 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 **スピンセットビューアの埋め込みコードをコピーするには:**
 
-1. アセットの参照パネルの「表示」ドロップダウンリストで、「**[!UICONTROL スピンセット]**」を選択します。
+1. アセット参照パネルの「表示」ドロップダウンリストで、 **[!UICONTROL スピンセット]**.
 1. 左側のアセットライブラリパネルで、コピーする埋め込みコードを持つスピンセットを含むアセットフォルダに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
-   * **[!UICONTROL グリッドビュー]**&#x200B;を選択します。 アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側のURLと埋め込みコードパネルで、目的のビューアの右側にある「**[!UICONTROL 埋め込みコード]**」を選択します。
-   * **[!UICONTROL グリッドビュー]**&#x200B;を選択します。 アセットの参照パネルで1つのアセットを選択し、サムネール画像の下にある「**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]**」に移動します。
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL 埋め込みコード]** を選択します。
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。
+      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 
-   * **[!UICONTROL リストビュー]**&#x200B;を選択します。 アセットの参照パネルで1つのアセットを選択し、サムネール画像の右側にある&#x200B;**[!UICONTROL プレビュー]** / **[!UICONTROL ビューアリスト]**&#x200B;に移動します。
+   * 選択 **[!UICONTROL リスト表示]**. アセットの参照パネルで 1 つのアセットを選択し、サムネール画像の右側にあるに移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。
+      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 
-   * **[!UICONTROL グリッドビュー]**、**[!UICONTROL リストビュー]**、または&#x200B;**[!UICONTROL 詳細ビュー]**&#x200B;を選択します。 同じツールバーで、**[!UICONTROL プレビュー]** /**[!UICONTROL ビューアリスト]**&#x200B;に移動します。
+   * 選択 **[!UICONTROL グリッド表示]**, **[!UICONTROL リスト表示]**&#x200B;または **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。
+      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 
-1. 埋め込みコードダイアログボックスで、「**[!UICONTROL クリップボードにコピー]**」を選択します。
+1. 埋め込みコードダイアログボックスで、「 **[!UICONTROL クリップボードにコピー]**.
 
    埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-1. **[!UICONTROL 閉じる]**&#x200B;を選択します。
+1. 選択 **[!UICONTROL 閉じる]**.

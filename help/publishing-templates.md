@@ -1,8 +1,8 @@
 ---
-title: ' テンプレートの公開'
-description: Dynamic Media ClassicからAdobeを公開する方法を説明します。
+title: テンプレートの公開
+description: Adobe Dynamic Media Classicからテンプレートを公開する方法を説明します。
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 13%
@@ -19,19 +19,19 @@ ht-degree: 13%
 
 #  テンプレートの公開{#publishing-templates}
 
-テンプレートを公開すると、Dynamic Media Image Serverに配置され、Webサイトやアプリケーションで使用できます。 公開プロセス中、AdobeDynamic Media ClassicはWebサイトやアプリケーションに必要なURLをアクティベートします。
+テンプレートを公開すると、そのテンプレートがDynamic Media Image Server に配置され、Web サイトやアプリケーションで利用できるようになります。 公開プロセス中に、Adobe Dynamic Media Classicは Web サイトやアプリケーションに必要な URL をアクティベートします。
 
 >[!NOTE]
 >
->テンプレートを使用するには、フォントや画像など、テンプレートを作成するのに使用したすべてのコンテンツを公開します。必要なファイルをすべて含めないと、公開時にエラーメッセージが表示されます。
+>テンプレートを使用するには、フォントや画像など、テンプレートを作成するのに使用したすべてのコンテンツを公開します。必要なファイルをすべて含めない場合は、公開時にエラーメッセージが表示されます。
 
 ##  テンプレートを公開用にマーク {#marking-templates-for-publish}
 
-テンプレートとそのすべてのサポートファイルをDynamic Media Image Serverに配置するには、公開用にマークする必要があります。 参照パネルで&#x200B;**[!UICONTROL 公開用にマーク]**&#x200B;アイコンを選択して、これらの項目を公開用にマークできます。
+テンプレートとそのすべてのサポートファイルをDynamic Media Image Server に配置するには、公開用にマークする必要があります。 参照パネルで、 **[!UICONTROL 公開用にマーク]** アイコン
 
-## テンプレートのパブリッシュ {#publishing-your-template}
+## テンプレートを公開 {#publishing-your-template}
 
-テンプレートをDynamic Media Image Serverに公開するには、グローバルナビゲーションバーで「**[!UICONTROL 公開]**」を選択し、「**[!UICONTROL 日]**」オプションを選択します。 オプションで、公開ジョブの名前を入力できます。 「**[!UICONTROL 発行を送信]**」を選択します。
+テンプレートをDynamic Media Image Server に公開するには、グローバルナビゲーションバーで、 **[!UICONTROL 公開]**&#x200B;を選択し、 **[!UICONTROL 条件]** オプション。 必要に応じて、公開ジョブの名前を入力できます。 選択 **[!UICONTROL 公開を送信]**.
 
 >[!MORELIKETHIS]
 >

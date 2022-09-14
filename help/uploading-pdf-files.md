@@ -2,17 +2,17 @@
 title: PDFファイルのアップロード
 description: Adobe Dynamic Media Classicで eCatalog に関連付けられたPDFファイルをアップロードする方法を説明します。
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 38%
+source-wordcount: '831'
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ PDFファイルをAdobe Dynamic Media Classicにアップロードする前に�
 
 各アップロード方法について詳しくは、[ファイルのアップロード](uploading-files.md#uploading_your_files)を参照してください。
 
-アップロードするファイルを選択し、次の&#x200B;*ベストプラクティス* PDF オプションを選択します。
+アップロードするファイルを選択し、次に選択します *ベストプラクティス* PDFオプション：
 
 * **切り抜きオプション**  — アップロードオプションを設定ダイアログボックスで、 **[!UICONTROL 切り抜きオプション]**. PDFページに内トンボ、トンボまたは他のマークが含まれている場合、 **[!UICONTROL 切り抜き]** ドロップダウンリストで、「 **[!UICONTROL 手動]**. ページの上下左右の端からそれぞれ切り抜くピクセル数を入力します。内トンボは、多くの場合、半インチのマージンに設定されます。 次を選択したとします。 **[!UICONTROL 150]** （推奨）ピクセル/インチの解像度として、「上」、「右」、「下」、「左」の各テキストボックスに 75、75、75、75 と入力します。 この場合、余白から半インチ（150 ppi、1 の半分は 75 ピクセルに等しい）を切り抜きます。
 

@@ -2,7 +2,7 @@
 title: 「クイックスタート：eCatalogs»
 description: Adobe Dynamic Media Classicの eCatalog テクニックをすぐに使い始めるのに役立つ、概要とクイックスタート：eCatalog
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 36%
+source-wordcount: '1559'
+ht-degree: 35%
 
 ---
 
@@ -56,7 +56,7 @@ eCatalog を作成する際に、ページや見開きページの並び順を�
 >
 >これで、Adobe Dynamic Media Classicで eCatalog を作成できるようになりました。
 
-ここでは、eCatalog の操作方法をすばやく習得できるように、手順について簡潔に説明します。手順 1 ～ 7 に従ってください。各手順の最後に、それぞれの内容について詳しく説明している見出しの参照先を示しています。
+ここでは、eCatalog の操作方法をすばやく習得できるように、手順について簡潔に説明します。手順 1 ～ 7 に従ってください。各手順の後に、トピックの見出しへの相互参照があり、詳細を確認できます。
 
 ## 1.PDFファイルをアップロード
 

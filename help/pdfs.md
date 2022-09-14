@@ -2,7 +2,7 @@
 title: PDFの操作
 description: Adobe Dynamic Media ClassicでPDFを使用する方法を説明します。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '710'
 ht-degree: 36%
 
 ---
@@ -95,4 +95,4 @@ PDFファイルをアップロードするためのオプションは、アッ�
 1. 切り抜きメニューで、「 」を選択します。 **[!UICONTROL 手動]**.
 1. 「上」、「右」、「下」、「左」の各テキストボックスに、ページの上下左右の端からそれぞれ切り抜くピクセル数を入力します。
 
-ページから切り抜かれる長さは、PDF ファイルの ppi（ピクセル/インチ）設定によって異なります。例えば、「解像度（PX/インチ） 」設定に 150（デフォルト）と入力し、ページの端から 75 ピクセルの切り抜きを行うと、半分のインチが切り抜かれます。150 ピクセル/インチの場合、75 ピクセルは半インチに等しくなります。
+ページから切り抜かれる長さは、PDF ファイルの ppi（ピクセル/インチ）設定によって異なります。例えば、「解像度 (PX/Inch) 」設定に 150（デフォルト）と入力したとします。 次に、ページの端から 75 ピクセル切り抜きます。 この場合、0.5 インチ が切り抜かれます。 150 ピクセル/インチでは、75 ピクセルは 1/2 インチに等しくなります。

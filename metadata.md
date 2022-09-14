@@ -4,9 +4,9 @@ solution: Dynamic Media Classic
 type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/dynamic-media-classic.ja-JP
-source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.
 | メタデータ | 説明 |
 |--- |--- |
 | solution-title | 記事のヘッダーでリンクとして使用されます |
-| solution-hub-url | helpx ハブページを開きます |
+| solution-hub-url | ハブページを開く |
 | solution-icon | ソリューションタイトルの横にソリューションアイコンが表示されます。 未実装 |
-| getting-started-url | helpx の概要ページへのリンク |
-| tutorials-url | ビデオチュートリアル（helpx チュートリアルまたは KT チュートリアル）へのリンク |
+| getting-started-url | はじめにのページへのリンク |
+| tutorials-url | ビデオチュートリアル（チュートリアルまたは KT チュートリアル）へのリンク |
 | mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。 デフォルトは 2 です。 |
-| git-repo | 内部使用のマスターリポジトリの場所を指定します |
+| git-repo | 内部使用のプライマリリポジトリの場所を指定します |

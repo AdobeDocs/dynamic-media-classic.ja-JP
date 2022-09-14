@@ -1,17 +1,17 @@
 ---
 title: Dynamic Mediaの制限
-description: '画像セットやスピンセットを作成したり、画像をアップロードしたりする際の、ベストプラクティスと適用される制限について説明します。PDF また、Dynamic Media Viewers でサポートされていない Web ブラウザーとオペレーティングシステムの組み合わせについても説明します。 '
-contentOwner: admin
+description: 画像セットやスピンセットを作成したり、画像をアップロードしたりする際の、ベストプラクティスと適用される制限について説明します。PDF また、Dynamic Media Viewers でサポートされていない Web ブラウザーとオペレーティングシステムの組み合わせについても説明します。
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: ec840640b1131a56c1261f22b7638e53dac1bce8
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 2%
 
 ---
 
@@ -54,7 +54,7 @@ AdobeDynamic Mediaビューアでは、次の Web ブラウザーとオペレー
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 ヨセミテ
 
-## TLS 1.0 および 1.1 のサポート終了 {#tls}
+## Transport Layer Security 1.0 および 1.1 のサポートの終了 {#tls}
 
 <!-- CQDOC-19433 -->
 

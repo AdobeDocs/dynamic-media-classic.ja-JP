@@ -1,8 +1,8 @@
 ---
 title: Adobe Dynamic Media Classicデスクトップアプリケーションの必要システム構成
-description: 'Adobe Dynamic Media Classicを使用して最高のエクスペリエンスを実現するための必要システム構成について説明します。 '
+description: Adobe Dynamic Media Classicを使用して最高のエクスペリエンスを実現するための必要システム構成について説明します。
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
@@ -10,7 +10,7 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 26%

@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 7550df5eea7f4f6e84e083fe0e6cc57e2c34f096
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 7%
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classicヘルプへようこそ。 ここでは、利用可�
 * [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [ガイド：画像のシャープニングのベストプラクティスガイド](/help/assets/s7_sharpening_images.pdf)
 * [ガイド：Adobe Dynamic Media Classicが SEO をサポートする方法](/help/assets/s7_seo.pdf)  — 今日の検索エンジンでは、Web サイトや画像の検索が可能になります。 Adobe Dynamic Media Classicは、より多くのトラフィックをAdobe Dynamic Media Classicユーザーの Web サイトに導くように、画像検索エンジンを使いやすくする取り組みをサポートしています。 このPDFガイドでは、これを実現するための背景および実装に関する推奨事項を示します。
-<!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
+<!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
 * [ウェビナー：Adobe Dynamic Media Classicでのインタラクティブなエクスペリエンスの配信のベストプラクティス](https://seminars.adobeconnect.com/p7wb8ej3u6d/) - Adobe Dynamic Media Classicでのコンテンツの出し入れ方法と、最適なパフォーマンスとエクスペリエンスを得るための画像プリセットの設定方法について説明します。 また、ビューアプリセットおよびキャッシュ設定についても説明します。
 * [ウェビナー：アセット ROI の最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — サイトやモバイルアプリをまたいでリッチメディアを配信するための業界のベストプラクティスを学びます。 このウェビナーでは、Adobeがデバイス間で効率的にビデオを配信する方法、マーケティングキャンペーンで動的なクリエイティブを配信する方法、画像、スタイルガイド、ルックブックをショッパブルにしてコンバージョンを増やす方法を示す例とデモを示します。
 * [ウェビナー：コンテンツ配信ライフサイクルの促進](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — リッチメディアの管理と配信を実現する次世代プラットフォーム、Adobe Experience Manager Assets - On Demand の紹介とデモ。 クリエイティブチームとマーケティングチームの間でアセットを共同作業し共有し、アセットレビュープロセスを合理化する方法を説明します。 アセットの検索、使用、再利用、共有を容易にし、インタラクティブなクロスチャネルリッチメディアエクスペリエンスを配信する方法を示す、アセットメタデータを効率的に管理するためのベストプラクティスについて説明します。
