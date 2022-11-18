@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 09f105e47eddee81fc9612282a4ef305e9ccb105
+source-git-commit: 10e603f566cd7f968c3a6aea1ba277697a1734ca
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Adobeでは、ページ抽出用にスピンセットや画像セットを作成
 
 | アセット — 制限タイプ | ベストプラクティス | 制限が適用されました | 2022 年 12 月 31 日の制限に変更 |
 | --- | --- | --- | --- |
-| **画像**  — 画像あたりのスマート切り抜き数 | 5 | 100 | 20 |
+| **画像**  — 画像あたりのスマート切り抜き数 | 5 | 100 | 該当なし |
 | **すべてのセット**  — セットあたりの重複アセット数 | 重複なし | 20 | 該当なし |
 | **すべてのセット**  — セットあたりの最大アセット数 | 1 セットあたり 5～10 個の画像 | 1000 | 該当なし |
 | **スピンセット** - 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 | 該当なし |
