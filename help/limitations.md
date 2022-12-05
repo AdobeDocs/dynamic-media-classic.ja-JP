@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 10e603f566cd7f968c3a6aea1ba277697a1734ca
+source-git-commit: 04dde89c9dddac51c03367a8b2bec5ccb324a10c
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
@@ -54,26 +54,27 @@ AdobeDynamic Mediaでは、次の Web ブラウザーとオペレーティング
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 ヨセミテ
 
-## Transport Layer Security 1.0 および 1.1 のサポートの終了 {#tls}
+<!-- ## End of support for Transport Layer Security 1.0 and 1.1 {#tls}
 
-<!-- CQDOC-19433 -->
+CQDOC-19433 (original ticket)
+and CQDOC-19792 (removed as per this ticket December 5, 2022)
 
-AdobeDynamic Mediaは、2022 年 9 月 30 日に以下のサポートを終了します。
+Effective September 30, 2022, Adobe Dynamic Media will end support for the following:
 
-* TLS(Transport Layer Security)1.0 および 1.1
-* TLS 1.2 での以下の脆弱な暗号：
-   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
-   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
-   * `TLS_RSA_WITH_AES_256_GCM_SHA384`
-   * `TLS_RSA_WITH_AES_256_CBC_SHA256`
-   * `TLS_RSA_WITH_AES_256_CBC_SHA`
-   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
-   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
-   * `TLS_RSA_WITH_AES_128_GCM_SHA256`
-   * `TLS_RSA_WITH_AES_128_CBC_SHA256`
-   * `TLS_RSA_WITH_AES_128_CBC_SHA`
-   * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
-   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
-   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
-   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
+* TLS (Transport Layer Security) 1.0 and 1.1
+* The following weak ciphers in TLS 1.2:
+  * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
+  * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
+  * `TLS_RSA_WITH_AES_256_GCM_SHA384`
+  * `TLS_RSA_WITH_AES_256_CBC_SHA256`
+  * `TLS_RSA_WITH_AES_256_CBC_SHA`
+  * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+  * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
+  * `TLS_RSA_WITH_AES_128_GCM_SHA256`
+  * `TLS_RSA_WITH_AES_128_CBC_SHA256`
+  * `TLS_RSA_WITH_AES_128_CBC_SHA`
+  * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
+  * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
+  * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
+  * `TLS_RSA_WITH_SDES_EDE_CBC_SHA` -->
 
