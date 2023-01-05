@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 04dde89c9dddac51c03367a8b2bec5ccb324a10c
+source-git-commit: 35ae9a73c6dc662d8902de423a51c04db54fe4e5
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 Adobeでは、ページ抽出用にスピンセットや画像セットを作成したり、PDFをアップロードしたりする際に、次のベストプラクティスを推奨し、次の制限を適用します。
 
-| アセット — 制限タイプ | ベストプラクティス | 制限が適用されました | 2022 年 12 月 31 日の制限に変更 |
-| --- | --- | --- | --- |
-| **画像**  — 画像あたりのスマート切り抜き数 | 5 | 100 | 該当なし |
-| **すべてのセット**  — セットあたりの重複アセット数 | 重複なし | 20 | 該当なし |
-| **すべてのセット**  — セットあたりの最大アセット数 | 1 セットあたり 5～10 個の画像 | 1000 | 該当なし |
-| **スピンセット** - 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 | 該当なし |
-| **PDF**  — 抽出対象となるPDFの最大ページ数 |  | 5000（新しいアップロード用） | 100( すべてのPDF) |
+| アセット — 制限タイプ | ベストプラクティス | 制限が適用されました |
+| --- | --- | --- |
+| **画像**  — 画像あたりのスマート切り抜き数 | 5 | 100 |
+| **すべてのセット**  — セットあたりの重複アセット数 | 重複なし | 20 |
+| **すべてのセット**  — セットあたりの最大アセット数 | 1 セットあたり 5～10 個の画像 | 1000 |
+| **スピンセット** - 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
+| **PDF**  — 抽出対象となるPDFの最大ページ数 |  | 100( すべてのPDF) |
 
 <!-- See also [Dynamic Media limitations](/help/assets/limitations.md). -->
 
