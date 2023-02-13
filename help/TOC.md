@@ -2,22 +2,22 @@
 cloud: Experience Cloud
 product: adobe dynamic media classic
 audience: end-user
-user-guide-title: Adobe Dynamic Media Classic ガイド
-breadcrumb-title: Dynamic Media Classic ガイド
-user-guide-description: Adobe Dynamic Media Classic の使用についての詳細
+user-guide-title: Adobe Dynamic Media Classicガイド
+breadcrumb-title: Dynamic Media Classicガイド
+user-guide-description: Adobe Dynamic Media Classicの使用の詳細
 index: y
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 779f152007ee7ec797c3206765c1d103e384962e
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
 
-# Adobe Dynamic Media Classic ガイド {#using}
+# Adobe Dynamic Media Classicガイド {#using}
 
-+ [Adobe Dynamic Media Classic ガイド](home.md)
-+ [AdobeDynamic Mediaクラスのベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [Adobe Dynamic Media Classicガイド](home.md)
++ [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [新しいAdobe Dynamic Media Classicログインエクスペリエンスが利用できるようになりました](new-ui-2020.md)
 + [AdobeDynamic Mediaニュースレターアーカイブ (Experience League別 )](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classicの概要 {#intro}
