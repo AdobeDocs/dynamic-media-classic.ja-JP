@@ -3,9 +3,9 @@ title: アップグレードに関する FAQ
 description: からアップグレードする際のよくある質問 (FAQ) [!DNL Adobe Dynamic Media Classic] デスクトップアプリケーション [!DNL Dynamic Media] オン [!DNL Adobe Experience Manager] アセット。
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ AdobeがAdobe Scene7の名前をに変更しました [!DNL Dynamic Media Classi
 +++
 
 +++**アップグレードプロセスを開始する方法を教えてください。**
-AdobeCSM（カスタマーサービス管理）担当者に問い合わせるか、 [電子メールs7support@adobe.com](mailto:s7support@adobe.com) 件名行 `[!DNL Dynamic Media] Upgrade Program`.
+担当のAdobeアカウントチーム担当者または [電子メールs7support@adobe.com](mailto:s7support@adobe.com) 件名行 `[!DNL Dynamic Media] Upgrade Program`.
 
 +++
 
@@ -90,7 +90,7 @@ AdobeCSM（カスタマーサービス管理）担当者に問い合わせるか
 +++
 
 +++**ライセンス費に違いはありますか？**
-価格の詳細については、Adobeの CSM 担当者にお問い合わせください。
+価格の詳細については、Adobeのアカウントチーム担当者にお問い合わせください。
 
 +++
 
@@ -195,7 +195,7 @@ Adobeは、に移動されたすべてのアセットに対して自動検証を
 +++
 
 +++**次に対する SLA があるか [!DNL Dynamic Media]?**
-はい. 詳しくは、AdobeCSM 担当者にお問い合わせください。
+はい. 詳しくは、Adobeアカウントチーム担当者にお問い合わせください。
 
 +++
 
@@ -251,7 +251,7 @@ Adobeは、ユーザーと協力してプロジェクトを計画します。 Ad
 +++**有料トレーニングオプションの詳細はどこで確認できますか？**
 詳しくは、 [Adobeデジタルラーニングサービス](https://learning.adobe.com).
 
-カスタムトレーニングまたは個々のトレーニングについては、AdobeCSM 担当者にお問い合わせください。
+カスタムトレーニングや個々のトレーニングについては、Adobeアカウントチーム担当者にお問い合わせください。
 
 +++
 

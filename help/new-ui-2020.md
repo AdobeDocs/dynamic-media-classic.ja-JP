@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Windows®で新しいAdobe Dynamic Media Classicデスクトップアプリケ�
 +++
 
 +++**_Adobe Dynamic Media Classicデスクトップアプリケーションのアップグレードを有効にする方法_**
-2020 年 6 月 30 日のAdobe Dynamic Media Classicデスクトップアプリケーションリリースに続き、Adobeが新しいバージョンをリリースする場合、通常どおりに新しいバージョンをダウンロードしてインストールする必要があります ( **[!UICONTROL アプリ]**) をクリックします。 新しいリリースについては、CSM(Customer Success Manager) と、アップグレードをユーザーに通知するアプリ内アップグレード通知メカニズムを通じて通知されます。
+2020 年 6 月 30 日のAdobe Dynamic Media Classicデスクトップアプリケーションリリースに続き、Adobeが新しいバージョンをリリースする場合、通常どおりに新しいバージョンをダウンロードしてインストールする必要があります ( **[!UICONTROL アプリ]**) をクリックします。 新しいリリースについては、Adobeアカウントチームと、アップグレードをユーザーに通知するアプリ内アップグレード通知メカニズムを通じて通知されます。
 +++
 
 +++**_Adobe Dynamic Media Classicデスクトップアプリケーションに関する問題について、どのようにして問題が解決しましたか？_**
