@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 69%
 画像アセットをアップロードするには、その前に共有秘密キーを要求する必要があります。この共有秘密キーを、アップロードトークンの取得に使用します。次に、アップロードトークンを使用して、ラスター画像アセットをアップロードします。
 
 >[!IMPORTANT]
+>
+>2023 年 5 月 1 日以降、Dynamic Media Classicの UGC ラスターアセットは、アップロード日から最大 60 日間使用できます。 60 日後にアセットが削除されます。
+
+>[!NOTE]
 >
 >Adobe Dynamic Media Classicでの新規または既存の UGC ベクトルアセットのサポートは、2021 年 9 月 30 日に終了しました。
 
@@ -119,7 +123,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 | グローバル制限 | 値 |
 | --- | --- |
 | すべてのクライアントのファイルサイズ | 20MB |
-| アップロードでサポートされている画像ファイルの形式 | BMP、GIF、JPG、PNG、PSD, TIFF |
+| アップロードでサポートされている画像ファイルの形式 | BMP、GIF、JPG、PNG、PSD,TIFF |
 
 アセットのアップロードには次の HTML フォームを使用できます。フォームからは次の情報の入力が求められます。
 

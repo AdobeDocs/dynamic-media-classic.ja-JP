@@ -1,5 +1,5 @@
 ---
-title: アップロードしたアセットの削除
+title: アップロードしたラスターイメージアセットを削除する
 description: Adobe Dynamic Media Classicでアップロードしたアセットを削除する方法を説明します。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,6 +53,10 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>2023 年 5 月 1 日以降、Dynamic Media Classicの UGC ラスターアセットは、アップロード日から最大 60 日間使用できます。 60 日後にアセットが削除されます。
+
+>[!NOTE]
 >
 >Adobe Dynamic Media Classicでの新規または既存の UGC ベクトル画像アセットのサポートは、2021 年 9 月 30 日に終了しました。
 
