@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
+source-git-commit: c7a7997ffd69cb39468119d8a48884f0f60efd05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '131'
+ht-degree: 52%
 
 ---
 
@@ -54,7 +54,7 @@ URL クエリ文字列で以下のフィールドを使用して、アセット�
 
 >[!IMPORTANT]
 >
->2023 年 5 月 1 日以降、Dynamic Media Classicの UGC ラスターアセットは、アップロード日から最大 60 日間使用できます。 60 日後にアセットが削除されます。
+>2023 年 5 月 1 日以降、Dynamic Mediaの UGC アセットは、アップロード日から最大 60 日間使用できます。 60 日後にアセットが削除されます。
 
 >[!NOTE]
 >
