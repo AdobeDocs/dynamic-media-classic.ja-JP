@@ -3,13 +3,13 @@ title: 機能の比較
 description: A と B の機能比較表 [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] アセットと [!DNL Adobe Dynamic Media Classic] デスクトップアプリケーション。
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 1b18fbc086fb6296aef8674d8471dd5b15a845c7
+exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
+source-git-commit: fa69e9df791597462db1bad9204c40896ea74020
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
-
 
 # 機能の比較
 
@@ -38,8 +38,8 @@ A と B の機能比較テーブル [!DNL Dynamic Media] in [!DNL Adobe Experien
 | ビデオエンコーディング | ✓ | ✓ |
 | ビューアのアクセシビリティ | ✓ | ✓ |
 | Analytics とのビューア統合 | ✓ | ✓ |
-| 1:1 テンプレート | - | ✓ |
-| ビジュアルコンフィギュレータ<br>（製品のパーソナライゼーション） | - | ✓ |
+| 1:1 テンプレート | ✓<br>*パーソナライズされたメディアバンドル* | ✓ |
+| ビジュアルコンフィギュレータ<br>（製品のパーソナライゼーション） | ✓<br>*パーソナライズされたメディアバンドル* | ✓ |
 | 3D -Experience Manager Sites<br>WCM コンポーネント | ✓ | - |
 | 3D — インタラクティブエクスペリエンスビューア | ✓ | - |
 | 3D - AR/VR およびコア 3D ファイルの公開 | ✓ | - |
