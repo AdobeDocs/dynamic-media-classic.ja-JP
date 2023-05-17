@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: f3082fc6b66cf0903bf6cb1907a8615a12399fdc
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 54%
+source-wordcount: '1569'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,18 @@ ht-degree: 54%
 Adobe Dynamic Media Classicには、画像を調整および最適化し、結果をレンダリングするための 100 を超える画像サービングコマンドが含まれています。 重要なコマンドおよびベストプラクティスを使用して、このプロセスを効率化し、良い結果をすばやく得るために、次のガイドラインが役に立ちます。
 
 関連トピック [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+
+>[!TIP]
+>
+>Dynamic Mediaを使用して、Dynamic Mediaの画像修飾子とスマートイメージングのメリットを体験してみましょう [_スナップショット_](https://snapshot.scene7.com/).
+>
+> スナップショットは、最適化された動的な画像配信にDynamic Mediaが持つ力を説明する視覚的なデモツールです。 テスト画像またはDynamic Media URL を試して、様々なDynamic Media画像修飾子の出力を視覚的に観察し、スマートイメージングの最適化で次のことを確認します。
+>* ファイルサイズ（WebP および AVIF 配信を使用）
+>* ネットワーク帯域幅
+>* DPR（デバイスのピクセル比）
+>
+>スナップショットの使い方を学ぶには、 [スナップショットトレーニングビデオ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3 分 17 秒）。
+
 
 ## 画像形式（&amp;fmt=）のベストプラクティス {#best-practices-for-image-format-fmt}
 
@@ -67,7 +79,7 @@ Adobe Dynamic Media Classicを使用すると、取り込み時、配信時ま�
 
       * `threshold` （0～255、効果の感度）
 
-         このパラメーターは、シャープにされるピクセルが周囲の領域とどの程度違えば、そのピクセルをエッジのピクセルと見なしてフィルターによりシャープにするかを決定するものです。しきい値は、肌のトーンのような類似した色の領域に過度なシャープが適用されることを防ぐために使用できます。例えば、しきい値を 12 にした場合、肌のトーンの明るさにわずかな差があっても無視して「ノイズ」が加わるのを防ぎながら、まつげと肌が隣り合う場所など、コントラストの高い領域に対してエッジコントラストを追加することができます。
+         このパラメーターは、シャープを適用するピクセルが周囲の領域とどの程度異なれば、端のピクセルとみなされフィルターによりシャープが適用されるかを指定します。しきい値は、肌のトーンのような類似した色の領域に過度なシャープが適用されることを防ぐために使用できます。例えば、しきい値に 12 を指定すると、肌のトーンの明るさがわずかに変化しても無視され「ノイズ」が追加されません。一方、まつげと皮膚が接触する場所のようにコントラストの強い場所にはエッジのコントラストが追加されます。
 
          これら 3 つのパラメーターの設定方法の詳細（フィルターで使用するベストプラクティスを含む）については、 [Adobe Dynamic Media Classicおよび Image Server での画像のシャープニング](/help/assets/s7_sharpening_images.pdf).
 
