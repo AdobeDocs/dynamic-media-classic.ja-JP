@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 ## 最新リリースの修正点 (20.22.1) {#release-jan2022}
 
-* 画像編集 **[!UICONTROL 保存]** ボタンが機能しなかった。
+* 画像を編集 **[!UICONTROL 保存]** ボタンが機能しなかった。
 * セットエディターで、 **[!UICONTROL 閉じる]**, **[!UICONTROL 保存]**、および **[!UICONTROL 名前を付けて保存]** 内でアセットをスクロールした後、ボタンが無効になる **[!UICONTROL アセットを追加]** パネル。
 * **[!UICONTROL 再生]** ビデオの詳細表示のボタンが機能しませんでした。
 * 入力できませんでした `d` および `e` in **[!UICONTROL ユーザー名]** および **[!UICONTROL パスワード]** フィールド (macOS Monterey の実行時 )
@@ -89,7 +89,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 関連項目:
 
 * [Macでの最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-mac-dmc-app)
-* [Windows®での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-windows-dmc-app)
+* [Windows での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-windows-dmc-app)
 
 1. システムで古いAdobe Dynamic Media Classicデスクトップアプリケーションバージョンをアンインストールします。
 
@@ -108,7 +108,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -147,8 +147,8 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 関連項目:
 
-* [Macまたは Windows®での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール](#installation-dmc-app)
-* [Windows®での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-windows-dmc-app)
+* [Macまたは Windows での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール](#installation-dmc-app)
+* [Windows での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-windows-dmc-app)
 
 をダウンロードして *沈黙* macOSに最新バージョンのAdobe Dynamic Media Classicデスクトップアプリケーションをインストールします。
 
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 関連項目:
 
-* [Macまたは Windows®での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール](#installation-dmc-app)
+* [Macまたは Windows での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール](#installation-dmc-app)
 
 * [macOSでの最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-mac-dmc-app)
 

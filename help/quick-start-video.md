@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 25%
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classicビデオは、デスクトップ、iOS、Android™�
 
    このビデオ形式をサポートする Windows®デバイスは、次の場所にあります。
 
-   詳しくは、 [Windows® Phone でサポートされるビデオ形式](https://docs.microsoft.com/en-us/).
+   詳しくは、 [Windows® Phone でサポートされるビデオ形式](https://learn.microsoft.com/en-us/).
 
 * 以下を含むAdobe Dynamic Media Classicビューアプリセットを使用してビデオを再生します。
 

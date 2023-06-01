@@ -10,10 +10,10 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 15%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classicには、リッチメディア効果を作成するための多くのツールが用意されています。 これらのツールは、ロールオーバーアイコン **[!UICONTROL 編集]** ボタンをクリックし、詳細ビューの [ 参照 ] パネルでクリックします。 Adobe Dynamic Media Classicでは、次の画像編集タスクを実行できます。
 
-* **画像マップを作成**  — 画像マップを作成するには、「画像」コマンドを選択するか、 **[!UICONTROL 画像マップ]** 」ボタンをクリックします。 画像マップは、画像、eCatalog ページまたはスピンセット内の画像の中で、ロールオーバーテキストを含んだパネルが表示されるホットスポットです。ユーザーは、例えば、新しい Web ページを起動するために、画像マップを選択できます。 詳しくは、 [画像マップを作成](/help/creating-image-maps.md).
+* **画像マップを作成**  — 画像マップを作成するには、「画像」コマンドを選択するか、 **[!UICONTROL 画像マップ]** 」ボタンをクリックします。 画像マップは、画像、eCatalog ページ、またはロールオーバーテキストを含むパネルを表示するスピンセット内の画像上のホットスポットです。 ユーザーは、例えば、新しい Web ページを起動するために、画像マップを選択できます。 詳しくは、 [画像マップを作成](/help/creating-image-maps.md).
 
 * **ズームターゲットの作成**  — サムネールターゲットを作成するには、「ズームターゲット」コマンドを選択するか、 **[!UICONTROL ズームターゲット]** 」ボタンをクリックします。 ユーザーは、ズームビューアでサムネールターゲットを選択して、画像の特定の部分に直接ズームできます。 詳しくは、 [ガイドズーム用のズームターゲットの作成](/help/creating-zoom-targets-guided-zoom.md).
 
