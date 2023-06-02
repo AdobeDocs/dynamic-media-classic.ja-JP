@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classicの次の機能を使用して、情報パネルの�
 ### 外部でホストされている場所から画像セットに CSV コンテンツを読み込む {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. イメージセットをダブルクリックして、詳細ビューで開きます。
-1. 選択 **[!UICONTROL InfoPanel データフィード]**.
+1. 選択 **[!UICONTROL InfoPanel Datafeed]**.
 1. 「外部にホストされている CSV ファイルの場所（HTTP）」テキストフィールドに、CSV ファイルへの URL を入力します。
 1. （オプション）「更新をスケジュール」フィールドで、コンテンツの更新時間を指定し、 **[!UICONTROL 追加]**.
 

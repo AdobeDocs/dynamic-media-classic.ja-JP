@@ -10,7 +10,7 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -43,7 +43,7 @@ Adobe Dynamic Media Classicには、画像の外観を調整するための様�
 
       ドロップダウンリストで、「 」を選択します。 **[!UICONTROL オリジナルを置換]**&#x200B;を選択し、 **[!UICONTROL 保存]**.
 
-   * 画像を新しいプライマリ画像として保存するには、 **[!UICONTROL 名前を付けて保存]**.
+   * 画像を新しいマスター画像として保存するには、 **[!UICONTROL 名前を付けて保存]**.
 
       ドロップダウンリストで、「**[!UICONTROL 新しいマスターとして保存]**」を選択します。内 **[!UICONTROL フォルダー名]** リストボックスで、新しいプライマリ画像を保存するフォルダを選択します。
 選択 **[!UICONTROL 保存]**.
