@@ -1,11 +1,13 @@
 ---
 title: Dynamic Media newsletter archive
-description: Experience LeagueがアーカイブしたDynamic Mediaのニュースレターは、月刊ニュースレターでした。 Dynamic MediaとAdobe Dynamic Media Classicを素早く習得し、すぐに価値を実現できるように工夫されています。 アーカイブされたニュースレターには、廃止されたワンストップショップニュースレターで利用できる貴重な知識構築リソースが含まれています。 アーカイブされたニュースレターには、ハウツービデオとソリューションの概要が含まれます。 また、画像プリセット、ビューアプリセット、ビデオプロファイルなどの主な機能を紹介します。
+description: 「Experience LeagueがアーカイブしたDynamic Mediaのニュースレターは、月刊ニュースレターでした。 Dynamic MediaとAdobe Dynamic Media Classicを素早く習得し、すぐに価値を実現できるように工夫されています。 アーカイブされたニュースレターには、廃止されたワンストップショップニュースレターで利用できる貴重な知識構築リソースが含まれています。 アーカイブされたニュースレターには、ハウツービデオとソリューションの概要が含まれます。 また、画像プリセット、ビューアプリセット、ビデオプロファイルなどの主な機能を紹介します。
 keywords: dynamic media；ニュースレター；製品アップデート；ヒントとテクニック；イベント；顧客の成功；ブログ；ブログ；画像；ビデオ；機能；機能
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -48,7 +50,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2020 年 4 月、第 3 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_04_2020_April.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * 困難な時期にリッチメディアへの投資が役立つ 3 つの方法を見てみましょう。
    * スマートイメージングでページの読み込みを軽量化する方法については、ウェビナーに新規登録してください。
@@ -59,7 +61,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2020 年 2 月、第 2 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * 新しいスキルビルダーウェビナーに参加し、Adobe Dynamic Media Classicのエキスパートに変身する。
    * Dynamic Mediaの場所はAdobe Summit2020 で確認できます。
@@ -70,7 +72,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2020 年 1 月、第 1 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_01_2020_Jan.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * 5 つの新しいスキルビルダー Web セミナーを使用して、Adobe Dynamic Media Classicのスキルを習得します。
    * Adobe Dynamic Media Classicからより多くの価値を得るのに役立つ無料の監査。
@@ -80,7 +82,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2019 年 11 月、第 11 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_11_2019_Nov.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * Adobe Dynamic Media Classicユーザーインターフェイスの更新。
    * 強力な新しいセキュリティ機能。
@@ -90,7 +92,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2019 年 10 月、第 10 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_10_2019_Oct.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * Dynamic Mediaビューアでの訪問者のアクションに関する高度な分析を取得する方法。
    * 高画質の画像やビデオの配信による顎の落ち込み結果の解説図とヒント。
@@ -101,7 +103,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2019 年 9 月、第 09 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_09_2019_Sept.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * 9 つの「潜在的な問題」を取り除いて、顧客体験を強化します。
    * Dynamic Mediaチームが、通常よりも訪問者トラフィックが多い日に備える方法を説明します。
@@ -112,7 +114,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2019 年 8 月、第 08 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_08_2019_Aug.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * Dynamic Mediaにアップグレードした場合にのみ利用可能な有用な機能を紹介します。
    * Experience Manager AssetsとDynamic Mediaをすばやく習得できるように設計されたウェビナーシリーズの紹介
@@ -122,7 +124,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2019 年 7 月、第 07 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * 価値の高いアセットを適切に管理し、訪問者の再訪を維持するエクスペリエンスを自信を持って提供するためのリソースと情報です。
    * デジタルアセットの保護に関する今後の Web セミナーの紹介
@@ -133,7 +135,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2019 年 6 月、第 06 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * Experience Manager Assets内でのDynamic Mediaへのアップグレードの大きなメリットを紹介するビデオをご覧ください。
    * Experience Leagueの主なハウツービデオを見る
@@ -144,7 +146,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2019 年 5 月、第 05 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * ブログ投稿でAdobe Dynamic Media Classicの隠された機能トップ 10 を調べます。
    * Experience Leagueの主なハウツービデオを見る
@@ -154,9 +156,9 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
 * **[2019 年 4 月、第 04 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_04_2019_April.html)**
 
-   Dynamic Mediaニュースレターの創刊号へようこそ。 Adobeの新しい月刊ニュースレターは、ニュース、イベント、リソースでいっぱいです。 コンテンツは、Experience Manager AssetsとAdobe Dynamic Media Classic内のDynamic Mediaのユーザー向けです。
+  Dynamic Mediaニュースレターの創刊号へようこそ。 Adobeの新しい月刊ニュースレターは、ニュース、イベント、リソースでいっぱいです。 コンテンツは、Experience Manager AssetsとAdobe Dynamic Media Classic内のDynamic Mediaのユーザー向けです。
 
-   この問題では、次の点に注意してください。
+  この問題では、次の点に注意してください。
 
    * AdobeのDynamic Media Classic隠し機能ウェビナーへの登録
    * リッチメディア戦略の策定に役立つように、Adobeのオンデマンド Web セミナーシリーズについて学びます。

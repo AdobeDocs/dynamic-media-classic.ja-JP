@@ -10,7 +10,9 @@ discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 40%
@@ -34,15 +36,15 @@ Web サイトやアプリケーションは、URL 文字列または埋め込み
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL URL をコピー]** を選択します。
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
    * 選択 **[!UICONTROL リスト表示]**. アセットの参照パネルで 1 つのアセットを選択し、サムネール画像の右側にあるに移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
    * 選択 **[!UICONTROL グリッド表示]**, **[!UICONTROL リスト表示]**&#x200B;または **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
 ## スピンセット URL を Web ページに追加する {#adding-spin-set-urls-to-your-web-page}
 
@@ -67,15 +69,15 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL 埋め込みコード]** を選択します。
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 
    * 選択 **[!UICONTROL リスト表示]**. アセットの参照パネルで 1 つのアセットを選択し、サムネール画像の右側にあるに移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 
    * 選択 **[!UICONTROL グリッド表示]**, **[!UICONTROL リスト表示]**&#x200B;または **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 
 1. 埋め込みコードダイアログボックスで、「 **[!UICONTROL クリップボードにコピー]**.
 

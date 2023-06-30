@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 25%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL ファイルサイズを表示]**  — 参照時にアセットのファイルサイズを表示します。
 * **[!UICONTROL 検索に UDF を含める]**  — 実行するほとんどのメタデータ検索のシステムパフォーマンスを向上させるには、選択を解除します（デフォルト）。
 
-   メタデータ検索の多くの場合に、ユーザ定義フィールドを含めることで利点がある場合は、このオプションを選択して有効にすることができます。別の方法として、詳細検索を使用すると、ユーザ定義フィールドを含める場合よりも的を絞った高速な検索ができます。
+  メタデータ検索の多くの場合に、ユーザ定義フィールドを含めることで利点がある場合は、このオプションを選択して有効にすることができます。別の方法として、詳細検索を使用すると、ユーザ定義フィールドを含める場合よりも的を絞った高速な検索ができます。
 
-   詳しくは、[詳細検索の実行](searching-assets.md#conducting_an_advanced_search)を参照してください。
+  詳しくは、[詳細検索の実行](searching-assets.md#conducting_an_advanced_search)を参照してください。
 
-   [ユーザ定義フィールド](application-setup.md#user_defined_fields)も参照してください。
+  [ユーザ定義フィールド](application-setup.md#user_defined_fields)も参照してください。
 
 * **[!UICONTROL 基本検索タイプ]**  — 次の 2 つのオプションから選択できます。 **[!UICONTROL 次を含む]** 指定した値の文字列全体を検索します。 **[!UICONTROL StartsWith]** 文字列の先頭から検索し、より早く結果を返す **[!UICONTROL 次を含む]**. どちらのオプションでも、 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL アプリケーションの一般設定]** 管理者から。
 * **[!UICONTROL コマンドフィードバックを表示]**  — サーバーに対するコマンド要求の表示を有効にする場合に選択します。オフにするには、選択を解除します。

@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -41,16 +43,16 @@ Adobe Dynamic Media Classicには、画像の外観を調整するための様�
 
    * 画像の元の画像を置き換えるには、「 **[!UICONTROL 名前を付けて保存]**.
 
-      ドロップダウンリストで、「 」を選択します。 **[!UICONTROL オリジナルを置換]**&#x200B;を選択し、 **[!UICONTROL 保存]**.
+     ドロップダウンリストで、「 」を選択します。 **[!UICONTROL オリジナルを置換]**&#x200B;を選択し、 **[!UICONTROL 保存]**.
 
    * 画像を新しいマスター画像として保存するには、 **[!UICONTROL 名前を付けて保存]**.
 
-      ドロップダウンリストで、「**[!UICONTROL 新しいマスターとして保存]**」を選択します。内 **[!UICONTROL フォルダー名]** リストボックスで、新しいプライマリ画像を保存するフォルダを選択します。
+     ドロップダウンリストで、「**[!UICONTROL 新しいマスターとして保存]**」を選択します。内 **[!UICONTROL フォルダー名]** リストボックスで、新しいプライマリ画像を保存するフォルダを選択します。
 選択 **[!UICONTROL 保存]**.
 
    * 画像をプライマリ画像の別のビューとして保存する。 画像のエイリアスを作成できます。選択 **[!UICONTROL 名前を付けて保存]**.
 
-      内 **[!UICONTROL 名前を付けて保存]** ダイアログボックスのドロップダウンリストで、 **[!UICONTROL マスターの別のビューとして保存]**.
+     内 **[!UICONTROL 名前を付けて保存]** ダイアログボックスのドロップダウンリストで、 **[!UICONTROL マスターの別のビューとして保存]**.
 内 **[!UICONTROL フォルダー名]** リストボックスで、新しいプライマリ画像を保存するフォルダを選択します。
 選択 **[!UICONTROL 保存]**.
 

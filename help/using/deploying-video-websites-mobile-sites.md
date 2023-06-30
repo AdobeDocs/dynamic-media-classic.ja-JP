@@ -10,7 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 33%
@@ -61,15 +63,15 @@ Web サイト、モバイルサイト、デスクトップアプリケーショ�
    * 選択 **[!UICONTROL グリッド表示]** または **[!UICONTROL リスト表示]**. アセットの参照パネルで、単一アセットのビデオサムネールをダブルクリックして、詳細ビューで開きます。右側の URL と埋め込みコードパネルの「HTTP ストリーミング」で、「 **[!UICONTROL URL をコピー]** を選択します。 ベストプラクティスとして、 `Universal_HTML5_Video` 閲覧者
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**. ベストプラクティスとして、 `Universal_HTML5_Video` 閲覧者
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**. ベストプラクティスとして、 `Universal_HTML5_Video` 閲覧者
 
    * 選択 **[!UICONTROL リスト表示]**. アセットの参照パネルで 1 つのアセットを選択し、サムネール画像の右側にあるに移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**. ベストプラクティスとして、 `Universal_HTML5_Video` 閲覧者
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**. ベストプラクティスとして、 `Universal_HTML5_Video` 閲覧者
 
    * 選択 **[!UICONTROL グリッド表示]**, **[!UICONTROL リスト表示]**&#x200B;または **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**. ベストプラクティスとして、 `Universal_HTML5_Video` 閲覧者
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**. ベストプラクティスとして、 `Universal_HTML5_Video` 閲覧者
 
 1. HTML5 ビデオ URL のリンクを Web サイトおよびモバイルサイトに貼り付けます。
 
@@ -88,15 +90,15 @@ Web ページにビデオを埋め込んで再生したい場合は、「埋め�
    * 選択 **[!UICONTROL グリッド表示]** または **[!UICONTROL リスト表示]**. アセットの参照パネルで、単一アセットのビデオサムネールをダブルクリックして、詳細ビューで開きます。右側の URL と埋め込みコードパネルの「HTTP ストリーミング」で、「 **[!UICONTROL 埋め込みコード]** を選択します。 ベストプラクティスとして、「 」を選択します。 **[!UICONTROL 埋め込みコード]** が `Universal_HTML5_Video` 閲覧者
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで 1 つのアセットを選択し、ビデオサムネール画像の下でを選択します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、「 」を選択します。 **[!UICONTROL 埋め込みコード]** が `Universal_HTML5_Video` 閲覧者
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、「 」を選択します。 **[!UICONTROL 埋め込みコード]** が `Universal_HTML5_Video` 閲覧者
 
    * 選択 **[!UICONTROL リスト表示]**. アセットの参照パネルで 1 つのアセットを選択し、サムネール画像の右側にあるに移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、「 」を選択します。 **[!UICONTROL 埋め込みコード]** が `Universal_HTML5_Video` 閲覧者
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、「 」を選択します。 **[!UICONTROL 埋め込みコード]** が `Universal_HTML5_Video` 閲覧者
 
    * 選択 **[!UICONTROL グリッド表示]**, **[!UICONTROL リスト表示]**&#x200B;または **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
-      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、「 」を選択します。 **[!UICONTROL 埋め込みコード]** が `Universal_HTML5_Video` 閲覧者
+     ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、「 」を選択します。 **[!UICONTROL 埋め込みコード]** が `Universal_HTML5_Video` 閲覧者
 
 1. 埋め込みコードダイアログボックスで、「 **[!UICONTROL クリップボードにコピー]**.
 
@@ -119,15 +121,15 @@ Adobe Dynamic Media Classic Player を使用せずに、ネイティブのHTML5 
 
 * 置換 `"S7 video thumbnail URL"` ビデオのサムネール URL（ユーザーがビデオを再生する前に確認するビデオのサムネール画像）が表示されます。
 
-   詳しくは、 [ビデオサムネールの URL の取得](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  詳しくは、 [ビデオサムネールの URL の取得](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
 * 置換 `"S7 OGG video asset URL (no player)"` に含まれます。
 
-   詳しくは、 [ビデオ URL をモバイルサイトまたは Web サイトにリンクする](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  詳しくは、 [ビデオ URL をモバイルサイトまたは Web サイトにリンクする](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 * 置換 `"S7 MP4 mobile progressive video asset URL (no player)"` に含まれるビデオのモバイルプログレッシブ URL を入力します。
 
-   詳しくは、 [ビデオ URL をモバイルサイトまたは Web サイトにリンクする](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  詳しくは、 [ビデオ URL をモバイルサイトまたは Web サイトにリンクする](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## サードパーティのビデオプレーヤーを使用してビデオをデプロイする {#deploying-video-using-a-third-party-video-player}
 
@@ -140,28 +142,28 @@ Dynamic Media Classicビデオビューアの代わりにサードパーティ�
 
 * 直接 HLS ストリーミングビデオ URL（マルチビットレート）を生成するには
 
-   の **[!UICONTROL アプリケーションの一般設定]** ページの **[!UICONTROL サーバー]** グループ、 **[!UICONTROL 公開先サーバー名]** テキストフィールドで、ダイレクト URL を作成します。 次の構文を使用します。 `server/is/content/company/folder/filename.m3u8`
+  の **[!UICONTROL アプリケーションの一般設定]** ページの **[!UICONTROL サーバー]** グループ、 **[!UICONTROL 公開先サーバー名]** テキストフィールドで、ダイレクト URL を作成します。 次の構文を使用します。 `server/is/content/company/folder/filename.m3u8`
 
-   例えば、公開先サーバー名が `https://s7d9.scene7.com/.` 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
-   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
+  例えば、公開先サーバー名が `https://s7d9.scene7.com/.` 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
+  `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 直接 HLS ストリーミングビデオの URL（シングルビットレート）を生成するには
 
-   の **[!UICONTROL アプリケーションの一般設定]** ページの **[!UICONTROL サーバー]** グループ、 **[!UICONTROL HLS ストリーミングサーバ名]** テキストフィールドで、次の構文を使用してダイレクト URL を作成します。
+  の **[!UICONTROL アプリケーションの一般設定]** ページの **[!UICONTROL サーバー]** グループ、 **[!UICONTROL HLS ストリーミングサーバ名]** テキストフィールドで、次の構文を使用してダイレクト URL を作成します。
 
-   `server/company/folder/filename.ext.m3u8`
+  `server/company/folder/filename.ext.m3u8`
 
-   例えば、HLS ストリーミングサーバー名が `https://s7mbrstream.scene7.com/hls-vod/`. 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
-   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
+  例えば、HLS ストリーミングサーバー名が `https://s7mbrstream.scene7.com/hls-vod/`. 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
+  `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * プログレッシブビデオのダイレクト URL を生成するには
 
-   **[!UICONTROL アプリケーションの全般設定]**&#x200B;ページの「**[!UICONTROL サーバー]**」グループの「**[!UICONTROL プログレッシブビデオサーバー名]**」テキストフィールドで、次の構文を使用して eVideo のダイレクト URL を作成します。
+  **[!UICONTROL アプリケーションの全般設定]**&#x200B;ページの「**[!UICONTROL サーバー]**」グループの「**[!UICONTROL プログレッシブビデオサーバー名]**」テキストフィールドで、次の構文を使用して eVideo のダイレクト URL を作成します。
 
-   `server/company/folder/filename`
+  `server/company/folder/filename`
 
-   例えば、プログレッシブビデオサーバ名が `https://s7d9.scene7.com/is/content/`. 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
-   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
+  例えば、プログレッシブビデオサーバ名が `https://s7d9.scene7.com/is/content/`. 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
+  `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## ビデオサムネールの操作 {#working-with-video-thumbnails}
 

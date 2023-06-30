@@ -10,7 +10,9 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 27%
@@ -70,8 +72,8 @@ Adobe Analytics設定画面を使用して、ビューアイベントをAdobe An
 | SWAP | **X**（eCatalog、フライアウト、スピンセット、ビデオ、ズーム） | ユーザが別のサムネールを選択して別の画像を表示する場合。 |
 | ITEM | **X**（eCatalog） | ロールオーバーが定義されている画像マップをサポートするビューアで、ユーザがポインタを画像マップに合わせ、ロールオーバーテキストを読むとき。 |
 | HREF | **X**（eCatalog） | 画像マップをサポートするビューアで、ユーザーが画像マップ内の URL を選択したとき。 |
-| TARGET |  | ターゲットズームビューアで、ユーザがズームターゲットを選択して画像の一部をズームしたとき。 |
-| SEARCH |  | eCatalog で、ユーザが単語検索を実行したとき。 |
+| TARGET | | ターゲットズームビューアで、ユーザがズームターゲットを選択して画像の一部をズームしたとき。 |
+| SEARCH | | eCatalog で、ユーザが単語検索を実行したとき。 |
 | PLAY | **X**（ビデオ） | ビデオビューアで、ユーザーが「再生」を選択してビデオの再生を開始したとき。<br><br>**注意：** Adobe Analyticsハートビートベースのビデオレポートを使用している場合、Adobe Dynamic Media ClassicでAdobe Analyticsを設定する際に、変数をこのビューアイベントにマッピングする必要はありません。 ビデオハートビートは、標準搭載のAdobe Dynamic Media ClassicHTML5 ビデオビューアおよび MixedMedia ビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。詳しくは、 [Adobe Analyticsビデオレポートを有効にする](enabling-analytics-video-reports.md). |
 | PAUSE | **X**（ビデオ） | ビデオビューアで、ユーザーが **[!UICONTROL 一時停止]** ビデオを固定する場合。<br><br>**注意：** Adobe Analyticsハートビートベースのビデオレポートを使用している場合、Adobe Dynamic Media ClassicでAdobe Analyticsを設定する際に、変数をこのビューアイベントにマッピングする必要はありません。 ビデオハートビートは、標準搭載のAdobe Dynamic Media ClassicHTML5 ビデオビューアおよび MixedMedia ビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。詳しくは、 [Adobe Analyticsビデオレポートを有効にする](enabling-analytics-video-reports.md). |
 | STOP | **X**（ビデオ） | ビデオビューアで、ユーザーが **[!UICONTROL 停止]** ：ビデオの再生を停止します。<br><br>**注意：** Adobe Analyticsハートビートベースのビデオレポートを使用している場合、Adobe Dynamic Media ClassicでAdobe Analyticsを設定する際に、変数をこのビューアイベントにマッピングする必要はありません。 ビデオハートビートは、標準搭載のAdobe Dynamic Media ClassicHTML5 ビデオビューアおよび MixedMedia ビューアと連携します。 ビデオプレーヤーは Adobe Analytics ビデオレポート内で表示される追跡データを生成します。詳しくは、 [Adobe Analyticsビデオレポートを有効にする](enabling-analytics-video-reports.md). |

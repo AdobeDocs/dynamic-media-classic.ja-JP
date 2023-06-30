@@ -10,7 +10,9 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 35%
@@ -65,4 +67,3 @@ Adobe Dynamic Media Classicで画像を切り抜くことができます。 シ�
 >* [アップロード時の画像編集のオプション](image-editing-options-upload.md#image-editing-options-at-upload)
 >* [PDFファイルから空白を切り抜く](pdfs.md#cropping_white_space_from_a_pdf_file)
 >* [PDFページの端からの切り抜き](pdfs.md#cropping_from_the_sides_of_pdf_pages)
-

@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 36%
@@ -81,12 +83,12 @@ PDFファイルをアップロードするためのオプションは、アッ�
       * **[!UICONTROL カラー]** - 「カラー」オプションを選択します。 次に、 **[!UICONTROL 角]** メニューを開き、切り抜くPDFの隅に、切り抜く空白の色を最もよく表す色を選択します。
 
       * **[!UICONTROL 透明]** - 「透明度」オプションを選択します。
+
    * **[!UICONTROL 許容値]**  — スライダをドラッグして、0 ～ 1 の公差を指定します。
 
    * **[!UICONTROL 色に基づくトリミング]**  — ピクセルがPDFの隅で選択した色と完全に一致する場合にのみピクセルを切り抜く場合は、0 を指定します。 設定値が 1 に近づくにつれ、許容される色の違いが大きくなります。
 
    * **[!UICONTROL 透明度に基づくトリミング]**  — ピクセルが透明の場合にのみ切り抜くには 0 を指定します。1 に近い値を指定すると、透明度が高くなります。
-
 
 ## PDFページの端からの切り抜き {#cropping-from-the-sides-of-pdf-pages}
 

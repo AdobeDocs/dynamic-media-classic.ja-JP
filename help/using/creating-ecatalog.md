@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 56%
@@ -42,9 +44,9 @@ eCatalog を作成する際には、「**[!UICONTROL 保存後に公開]**」オ
 
    * **eCatalog 画面から開始**  — に移動します。 **[!UICONTROL ビルド]** > **[!UICONTROL eCatalogs]**. アセットライブラリのフォルダーを選択し、そのフォルダーから eCatalog ページの「ページ順序」タブにファイルをドラッグします。
 
-      >[!NOTE]
-      >
-      >アセットライブラリ内の項目をサムネールではなく名前で表示するには、個人設定の「初期設定のアセットライブラリビュー」で「名前」オプションを選択します。
+     >[!NOTE]
+     >
+     >アセットライブラリ内の項目をサムネールではなく名前で表示するには、個人設定の「初期設定のアセットライブラリビュー」で「名前」オプションを選択します。
 
 1. eCatalog の全体的なレイアウトを選択します。選択 **[!UICONTROL 1 アップ]** （単一ページの場合） **[!UICONTROL 2 アップ]** 見開き 2 ページ、または **[!UICONTROL カスタム]** 2 ページを超えるページスプレッド用。 内 **[!UICONTROL eCatalog レイアウトの変更]** ダイアログボックスで、 **[!UICONTROL すべてのスプレッド]** オプションと選択 **[!UICONTROL OK]**.
 1. 必要に応じて、個々のページまたはページスプレッドを選択し、次に **[!UICONTROL 1 アップ]**, **[!UICONTROL 2 アップ]**&#x200B;または **[!UICONTROL カスタム]** 」ボタンをクリックします。 内 **[!UICONTROL eCatalog レイアウトの変更]** ダイアログボックスで、 **[!UICONTROL 選択したスプレッド]** オプションと選択 **[!UICONTROL OK]**.

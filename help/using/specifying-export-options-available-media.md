@@ -9,7 +9,9 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Collaboration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 61%
@@ -34,9 +36,9 @@ ht-degree: 61%
 
    * **ユーザ定義コンバージョンの有効化**  — このオプションを選択すると、ユーザーは、 **[!UICONTROL サイズ]** 選択したアセットを書き出しウィンドウのドロップダウンリスト。 次に、ユーザはピクセルまたはセンチメートルなどの測定単位を選択して、希望の幅と高さを指定できます。ユーザがこれらのファイルを書き出したり、ダウンロードしたりするとき、画像ファイルの形式が変更されます。
 
-      **[!UICONTROL サイズ]**&#x200B;ドロップダウンリストから **[!UICONTROL pixel]** が選択されている場合、画像の幅 × 高さ は 1 億 pixel を超えることはできません。このサイズは 10,000 × 10,000 pixel の画像（正方形）または 8,000 × 12,000 pixel の画像（縦横比 2x3）と同一です。このサイズ制限は、元のプライマリ画像を書き出す場合は適用されません。
+     **[!UICONTROL サイズ]**&#x200B;ドロップダウンリストから **[!UICONTROL pixel]** が選択されている場合、画像の幅 × 高さ は 1 億 pixel を超えることはできません。このサイズは 10,000 × 10,000 pixel の画像（正方形）または 8,000 × 12,000 pixel の画像（縦横比 2x3）と同一です。このサイズ制限は、元のプライマリ画像を書き出す場合は適用されません。
 
-      ダウンロードするときにファイルの形式を変更せずに、ファイルをダウンロードできるようにするには、このオプションの選択を解除します。
+     ダウンロードするときにファイルの形式を変更せずに、ファイルをダウンロードできるようにするには、このオプションの選択を解除します。
 
    * **オリジナルの書き出しを有効にする** ：オリジナルのプライマリ画像を書き出すことができます。 内 **[!UICONTROL 選択したアセットを書き出し]** パネルを開くと、 **[!UICONTROL コンバージョン]** ドロップダウンメニューで「 **[!UICONTROL オリジナルを書き出し]** 元のファイルを書き出すには 画像の書き出し時にユーザーが画像プリセットを選択するか、変換オプションを選択するように強制する場合は、このオプションの選択を解除します。
 
@@ -44,4 +46,3 @@ ht-degree: 61%
 >
 >* [画像プリセット](application-setup.md#image_presets)
 >* [グループの画像プリセットへのアクセス権限の選択](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
-

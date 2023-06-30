@@ -10,7 +10,9 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -62,12 +64,12 @@ ht-degree: 56%
 
    | タスク | 読み取り | 書き込み | 削除 |
    | --- | --- | --- | --- |
-   | フォルダとファイルの参照 | X |  |  |
-   | ファイルの編集（切り抜き、シャープ、調整） |  | X |  |
-   | ファイル名の選択変更 |  | X |  |
-   | 別のフォルダへのファイルの移動 |  | X |  |
-   | ファイル名の変更 |  | X |  |
-   | ファイルの削除 |  |  | X |
+   | フォルダとファイルの参照 | X | | |
+   | ファイルの編集（切り抜き、シャープ、調整） | | X | |
+   | ファイル名の選択変更 | | X | |
+   | 別のフォルダへのファイルの移動 | | X | |
+   | ファイル名の変更 | | X | |
+   | ファイルの削除 | | | X |
 
 1. 選択 **[!UICONTROL 閉じる]**.
 

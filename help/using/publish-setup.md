@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '2405'
 ht-degree: 42%
@@ -48,12 +50,12 @@ Adobe Dynamic Media Classicのサポート担当者の支援を得た場合に�
 
 * **[!UICONTROL ローカリゼーションサポート]*** — これらの設定を使用すると、複数のロケール属性を管理できます。 また、ロケールマップ文字列を指定することもできます。これにより、ビューアのツールチップで使用する言語を指定できます。
 
-   例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。この機能を実現するには、ロケールマップ文字列を指定します。次に、目的の言語の翻訳済みテキスト文字列を追加して、ビューアのプリセットのツールチップテキストを編集します。
+  例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。この機能を実現するには、ロケールマップ文字列を指定します。次に、目的の言語の翻訳済みテキスト文字列を追加して、ビューアのプリセットのツールチップテキストを編集します。
 
-   >[!NOTE]
-   > ローカリゼーションサポートオプションを設定するには、 [「 」Admin Consoleを使用して、サポートケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) サポートケースで、セットアップヘルプをリクエストしてください。
+  >[!NOTE]
+  > ローカリゼーションサポートオプションを設定するには、 [「 」Admin Consoleを使用して、サポートケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) サポートケースで、セットアップヘルプをリクエストしてください。
 
-   **[!UICONTROL 「ローカリゼーションサポート」]**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
+  **[!UICONTROL 「ローカリゼーションサポート」]**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
 
 ### アセットのローカリゼーションを設定する場合の考慮事項 {#considerations-when-setting-up-localization-of-assets}
 

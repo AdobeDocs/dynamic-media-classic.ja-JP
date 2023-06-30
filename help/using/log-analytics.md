@@ -10,7 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -75,7 +77,6 @@ ht-degree: 1%
 >* レポートに新しいトラッキング変数が導入され、Dynamic Media Classicユーザーインターフェイスの特定のビューア変数をその新しい Analytics 変数にリンクする場合。
 >
 
-
 1. Adobe Dynamic Media Classicデスクトップアプリケーションの右上隅近くにある、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]**.
 1. 左側のパネルで、 **[!UICONTROL アプリケーション設定]**&#x200B;を選択します。 **[!UICONTROL Adobe Analytics]**.
 1. の **[!UICONTROL Adobe Analytics Configuration]** ページ、選択 **[!UICONTROL Adobe Analytics Login]**.
@@ -105,4 +106,3 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >* [Adobe Analyticsレポートの設定](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
-

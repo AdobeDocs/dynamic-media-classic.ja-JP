@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 36%
@@ -38,7 +40,7 @@ PDFファイルをAdobe Dynamic Media Classicにアップロードする前に�
 * eCatalog をキーワードで検索できるようにする場合は、PDF ファイルが画像化されていないかどうかを確認してください。画像化された PDF ファイルでは、検索語を抽出できなくなります。PDF ファイルが画像化されているかどうかを確認するには、PDF のテキストを選択できるかどうか試してみます。テキストを選択できない場合、PDFは統合され、ビューアは eCatalog 内のキーワードで検索できません。
 * PDF ファイルは印刷を目的としたファイルなので、通常、CMYK 画像が含まれています。デフォルトでは、Adobe Dynamic Media Classicは、これらの CMYK 画像をインテリジェントに検出し、内部 CMYK カラープロファイルを使用して変換できます。 ただし、必要に応じて、カスタムカラープロファイルを使用して CMYK 画像を変換することもできます。
 
-   詳しくは、 [ICC(International Color Consortium) プロファイル](icc-profiles.md#icc_profiles).
+  詳しくは、 [ICC(International Color Consortium) プロファイル](icc-profiles.md#icc_profiles).
 
 ## ベストプラクティスの PDF アップロードオプション {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ PDFファイルをAdobe Dynamic Media Classicにアップロードする前に�
 
 * **カラースペース**  — アップロードオプションを設定ダイアログボックスで、 **[!UICONTROL PDFオプション]**. 「カラースペース」ドロップダウンリストで、「 **[!UICONTROL 自動検出]**. 一般的に PDF のカラースペースは、印刷出力が目的の場合には CMYK、オンライン表示が目的の場合には RGB になります。PDF に両方のカラースペースが含まれている場合は、「RGB としてレンダリング」または「CMYK としてレンダリング」のいずれかを選択して、一方のカラースペースを選択できます。例えば、ページのグラフィックに CMYK カラースペースが使用され、ピクチャに RGB カラースペースが使用されている場合には、両方のカラースペースが PDF に含まれます。ICC プロファイルをアップロードしておくと、カラースペースメニューにその名前が表示され、選択して使用できます。
 
-   詳しくは、 [ICC(International Color Consortium) プロファイル](/help/using/icc-profiles.md).
+  詳しくは、 [ICC(International Color Consortium) プロファイル](/help/using/icc-profiles.md).
 
 * **カラープロファイルオプション**  — アップロードオプションを設定ダイアログボックスで、 **[!UICONTROL カラープロファイルオプション]**&#x200B;をクリックし、「カラープロファイル」オプションを選択します。
 

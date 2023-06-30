@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -37,12 +39,12 @@ Media Portal には次の役割があります。それぞれアクセス権と�
 | メタデータの参照 | X | X | X |
 | ファイルのプレビュー | X | X | X |
 | ファイルの検索 | X | X | X |
-| ファイルをAdobe Dynamic Media Classicにアップロード |  | X | X |
-| アセットメタデータの編集と取り込み |  | X | X |
-| フォルダの作成、名前の変更および削除 |  | X | X |
-| アセットメタデータの書き出し | X |  | X |
-| ファイル名の変更 |  | X | X |
-| 別のフォルダへのファイルの移動 |  | X | X |
-| ファイル名の変更 |  | X | X |
-| ファイルの削除 |  | X | X |
-| Adobe Dynamic Media Classicからのファイルの書き出し（ダウンロード） | X |  | X |
+| ファイルをAdobe Dynamic Media Classicにアップロード | | X | X |
+| アセットメタデータの編集と取り込み | | X | X |
+| フォルダの作成、名前の変更および削除 | | X | X |
+| アセットメタデータの書き出し | X | | X |
+| ファイル名の変更 | | X | X |
+| 別のフォルダへのファイルの移動 | | X | X |
+| ファイル名の変更 | | X | X |
+| ファイルの削除 | | X | X |
+| Adobe Dynamic Media Classicからのファイルの書き出し（ダウンロード） | X | | X |

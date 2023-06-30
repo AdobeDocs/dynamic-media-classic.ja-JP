@@ -10,7 +10,9 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 51%
@@ -36,7 +38,7 @@ Adobe Dynamic Media Classicは、ジョブ画面に書き出しジョブの記�
 
    * **[!UICONTROL サイズ]**  — 標準サイズを選択できます。 または、 **[!UICONTROL その他]** から **[!UICONTROL サイズ]** 」ドロップダウンリストから、目的の単位を選択し、幅と高さを指定します。
 
-      関連トピック [Media Portal ユーザーが使用できる書き出しオプションを指定します](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     関連トピック [Media Portal ユーザーが使用できる書き出しオプションを指定します](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
    * **[!UICONTROL 形式]**  — 画像形式を選択します。
 

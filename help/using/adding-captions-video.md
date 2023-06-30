@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 32%
@@ -56,18 +58,18 @@ Adobe Dynamic Media Classicでは、キャプションファイルを JSON(JavaS
 
    * ポップアップビデオビューアエクスペリエンスの場合は、 **[!UICONTROL URL をコピー]** 名前の右端に
 
-      コピーしたビデオの URL を次の構文で追加して、コピーした URL とキャプションファイルを関連付けることができます。
+     コピーしたビデオの URL を次の構文で追加して、コピーした URL とキャプションファイルを関連付けることができます。
 
-      `&caption=<full Copy URL path to the caption file .vtt>,1`
+     `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      次の点に注意してください。 `,1` キャプション URL パスの末尾に配置する。 パス内の VTT ファイル名拡張子の直後で、オプションで、をに設定して、ビデオプレーヤーバーのクローズドキャプションボタンの有効/無効を切り替えることができます。 `1` または `0`、それぞれ。
+     次の点に注意してください。 `,1` キャプション URL パスの末尾に配置する。 パス内の VTT ファイル名拡張子の直後で、オプションで、をに設定して、ビデオプレーヤーバーのクローズドキャプションボタンの有効/無効を切り替えることができます。 `1` または `0`、それぞれ。
 
    * 埋め込みビデオビューアエクスペリエンスの場合、 **[!UICONTROL 埋め込みコード]** 名前の右端に
 
-      埋め込みコードダイアログボックスで、「 **[!UICONTROL クリップボードにコピー]**.
+     埋め込みコードダイアログボックスで、「 **[!UICONTROL クリップボードにコピー]**.
 
-      HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`または `Universal_HTML5_MixedMedia_light` ビューアでは、コピーした埋め込みコードを次のように追加します。
+     HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`または `Universal_HTML5_MixedMedia_light` ビューアでは、コピーした埋め込みコードを次のように追加します。
 
-      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
+     `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      次の点に注意してください。 `,1` をクリックします。 URL パス内の VTT ファイル名拡張子の直後で、オプションで、ビデオプレーヤーバーのキャプションボタンの有効/無効を切り替えることができます。そのためには、をに設定します。 `1` または `0`、それぞれ。
+     次の点に注意してください。 `,1` をクリックします。 URL パス内の VTT ファイル名拡張子の直後で、オプションで、ビデオプレーヤーバーのキャプションボタンの有効/無効を切り替えることができます。そのためには、をに設定します。 `1` または `0`、それぞれ。

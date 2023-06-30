@@ -10,7 +10,9 @@ discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 50%
@@ -78,4 +80,3 @@ Adobe Dynamic Media Classicには、使用するための「ベストプラク�
 >* [画像プリセットの作成と編集](application-setup.md#creating_and_editing_image_presets)
 >* [画像プリセットのオプション](application-setup.md#image_preset_options)
 >* [画像プリセットに基づいた画像アセットのプレビュー](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
-

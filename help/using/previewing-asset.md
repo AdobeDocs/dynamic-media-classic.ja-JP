@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 36%
@@ -68,13 +70,13 @@ ht-degree: 36%
 
    * ビューアリストウィンドウの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]** 選択したビューアおよびプラットフォームタイプの
 
-      次を選択した場合： **[!UICONTROL URL をコピー]**&#x200B;に設定すると、関連する URL が自動的にクリップボードにコピーされます。
+     次を選択した場合： **[!UICONTROL URL をコピー]**&#x200B;に設定すると、関連する URL が自動的にクリップボードにコピーされます。
 
    * ビューアリストウィンドウの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 
-      次を選択した場合： **[!UICONTROL 埋め込みコード]**&#x200B;埋め込みコードウィンドウが開き、ビューアのコードを確認できます。 このウィンドウではコードの編集はできません。コードをクリップボードにコピーして、Web ページにペーストすることもできます。
+     次を選択した場合： **[!UICONTROL 埋め込みコード]**&#x200B;埋め込みコードウィンドウが開き、ビューアのコードを確認できます。 このウィンドウではコードの編集はできません。コードをクリップボードにコピーして、Web ページにペーストすることもできます。
 
-      表示されたプレビューを閉じます。
+     表示されたプレビューを閉じます。
 
 1. Viewer List ウィンドウの右下隅で、 **[!UICONTROL 閉じる]** をクリックして、アセット画面に戻ります。
 

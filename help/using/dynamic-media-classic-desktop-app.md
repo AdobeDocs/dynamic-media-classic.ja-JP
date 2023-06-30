@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -56,11 +58,11 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 * 通常、設定操作の後、デスクトップアプリケーションが応答を停止します。
 * の下での要求の難読化とロックモードの自動有効化 **[!UICONTROL 画像サービングをテスト]**.
 
-   詳しくは、 [セキュアテストサービスのテスト](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  詳しくは、 [セキュアテストサービスのテスト](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * 認証メカニズムがAdobe Analyticsに更新されました。 新しい統合に関連している場合、または一部の Analytics 変数をDynamic Media Classicデスクトップアプリケーション内で更新する必要がある場合。
 
-   詳しくは、 [Adobe Analyticsにログイン](/help/using/log-analytics.md) を参照してください。
+  詳しくは、 [Adobe Analyticsにログイン](/help/using/log-analytics.md) を参照してください。
 
 ## リリース20.21.2の修正点 {#minor-release}
 
@@ -99,11 +101,11 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
       * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
       * [Windows (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+
    * 以前のバージョンは、次の場所で利用できます。
 
       * [macOS (.DMG) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE) — ダウンロード](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
-
 
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
@@ -118,12 +120,12 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
    * **macOS** - **[!UICONTROL ドラッグ&amp;ドロップしてインストール]** ダイアログボックス、ドラッグ **[!UICONTROL Adobe Dynamic Media Classic]** をクリックし、 **[!UICONTROL アプリ]**.
 
-      ![macOSでのドラッグ&amp;ドロップによるインストール](/help/using/assets/dragondrop-install1.png)
+     ![macOSでのドラッグ&amp;ドロップによるインストール](/help/using/assets/dragondrop-install1.png)
 
    * 内 **[!UICONTROL アプリ]** フォルダーで、「Adobe Dynamic Media Classic」アイコンをタップします。
    * ダイアログボックスで、 **[!UICONTROL 開く]** をクリックして、Adobe Dynamic Media Classicデスクトップアプリケーションを開きます。
 
-      ![ダウンロードしたアプリを開く](/help/using/assets/open-dmclassicapp1.png)
+     ![ダウンロードしたアプリを開く](/help/using/assets/open-dmclassicapp1.png)
 
    * **Windows**  — インストーラーバイナリを実行し、画面に表示される指示に従ってデスクトップアプリケーションをインストールします。
 
@@ -263,7 +265,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 * Adobe Dynamic Media Classicアプリで、会社ドロップダウンリストから新しい会社を選択します。
 * ポップアップウィンドウが表示されたら、 **[!UICONTROL OK]** をクリックして、アプリを閉じます。
 
-   ![新しい会社を使用するには、アプリを再起動します](/help/using/assets/dmclassic-new-company1.png)
+  ![新しい会社を使用するには、アプリを再起動します](/help/using/assets/dmclassic-new-company1.png)
 
 * Adobe Dynamic Media Classicを再起動し、通常どおりにサインインして、新しい会社で作業します。
 
