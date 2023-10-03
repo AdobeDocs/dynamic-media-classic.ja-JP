@@ -12,10 +12,10 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 28%
+source-wordcount: '880'
+ht-degree: 21%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 28%
 
 **ビデオビューアでビデオをプレビューするには:**
 
-1. 左側のアセットライブラリパネルの「表示」ドロップダウンリストで、 **[!UICONTROL ビデオ]** （1 つのエンコードされたビデオ）または **[!UICONTROL アダプティブビデオセット]**.アダプティブビデオエンコーディングプリセットを使用すると、マルチビットレートでエンコードされたビデオのセットが生成されます。
+1. 左側のアセットライブラリパネルの「表示」ドロップダウンリストで、 **[!UICONTROL ビデオ]** （一重エンコードされたビデオ）または **[!UICONTROL アダプティブビデオセット]**. アダプティブビデオエンコーディングプリセットを使用すると、マルチビットレートでエンコードされたビデオのセットが生成されます。
 1. 左側のアセットライブラリパネルでアセットフォルダに移動し、プレビューするビデオを選択します。
 1. 次のいずれかの操作を行います。
 
@@ -36,7 +36,7 @@ ht-degree: 28%
    * アセットウィンドウの上のツールバーの右側で、を選択します。 **[!UICONTROL 詳細ビュー]**. 同じツールバーで、 **[!UICONTROL プレビュー]**.
    * アセットウィンドウで、アセットを選択します。ツールバーで、に移動します。 **[!UICONTROL ファイル]** > **[!UICONTROL プレビュー]**.
 
-1. （オプション）プレビューウィンドウ下部のドロップダウンリストで、アセットの URL がコピーされるときにアセットの URL に適用する URL エンコーディングを選択します。
+1. （オプション）プレビューウィンドウの下部にあるドロップダウンリストで、アセットの URL がコピーされる際に適用する URL エンコーディングを選択します。
 1. を選択します。 **[!UICONTROL プレビュー]** リンクをクリックして、選択したビューアでアセットを確認できます。
 1. 表示されたビューアを閉じます。
 1. 選択 **[!UICONTROL 閉じる]** をクリックして、アセット画面に戻ります。
@@ -59,9 +59,9 @@ Adobe Dynamic Media Classicには、ビデオ再生用の定義済みのビュ�
 
 ビューアプリセットを使用すると、各種ビューアタイプとその定義済み設定を表示できます。また、カスタマイズした独自のビューアプリセットを追加および編集したり、Adobe Dynamic Media Classicに付属する既存のビューアプリセットを編集したりすることもできます。
 
-ビューアプリセットでは、ビューアプリセットのアクティブ化、フィルタリング、並べ替え、プレビューができます。
+ビューアプリセットでは、ビューアプリセットのアクティブ化、フィルタリング、並べ替え、プレビューを行うことができます。
 
-詳しくは[ビューアプリセット](application-setup.md#viewer_presets)を参照してください。
+詳しくは、[ビューアプリセット](application-setup.md#viewer_presets)を参照してください。
 
 関連トピック [ビデオプリセット](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) トレーニングビデオ。
 
@@ -69,7 +69,7 @@ Adobe Dynamic Media Classicには、ビデオ再生用の定義済みのビュ�
 
 1. Adobe Dynamic Media Classicの右上隅近くにある、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**.
 
-   ビデオビューアのプリセットのみを表示するには、表のすぐ上にあるツールバーにある「ビューア」ドロップダウンリストで「ビデオビューア」を選択します。
+   ビデオビューアのプリセットのみを表示するには、表のすぐ上にあるツールバーの「ビューア」ドロップダウンリストで「ビデオビューア」を選択します。
 
 1. ビデオを表示するビューアプリセットを追加または編集します。
 
@@ -81,7 +81,7 @@ Adobe Dynamic Media Classicには、ビデオ再生用の定義済みのビュ�
 
    ビデオビューアを再設定したら、 **[!UICONTROL 名前を付けて保存]** 「プリセット名」テキストフィールドで別の名前を使用してプリセットを保存する場合。
 
-   * **編集**  — ビデオビューアプリセットを選択し、「 」を選択します **[!UICONTROL 編集]**.
+   * **編集**  — ビデオビューアプリセットを選択し、「 」を選択します。 **[!UICONTROL 編集]**.
 
 1. ビューアを設定ページの「プリセット名」フィールドに、プリセット名を入力または編集します。
 1. 必要に応じてその他のオプションを設定します。

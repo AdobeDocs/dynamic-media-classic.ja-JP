@@ -12,7 +12,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 17%
@@ -33,9 +33,9 @@ Adobe Dynamic Media Classicは、統合されたリッチメディア管理、�
 
 * **リッチメディアの作成** - eCatalog、画像セット、スピンセット、スウォッチセット、混在メディアセット、基本テンプレート、FXG テンプレートなど、アセットの様々な設定を作成します。
 
-* **公開と管理**  — アセットをAdobe Dynamic Media Classic SaaS ネットワークに公開します。 アセットが公開された際のステータスを監視します。 ユーザー権限の管理とセキュリティの維持。
+* **公開と管理**  — アセットをAdobe Dynamic Media Classic SaaS ネットワークに公開します。 アセットが公開された際のステータスを監視します。 ユーザー権限を管理し、セキュリティを維持する。
 
-* **提供** - Adobe Dynamic Media Classic SaaS ネットワークから Web ページ、アプリケーション、モバイルデバイスにメディアを配信するメディアはパフォーマンスに最適化されており、CDN キャッシュと共に配信されます。 Adobe Dynamic Media Classicには、各アセットの URL が表示されます。 アセットを公開すると、URL がアクティブになります。
+* **提供**  — メディアをAdobe Dynamic Media Classic SaaS ネットワークから Web ページ、アプリケーションおよびモバイルデバイスに配信します。メディアはパフォーマンスに最適化され、CDN キャッシュと共に配信されます。 Adobe Dynamic Media Classicには、各アセットの URL が表示されます。 アセットを公開すると、URL がアクティブになります。
 
 ![Adobe Dynamic Media Classicワークフロープロセス](/help/using/assets/gs_workflow.png)
 
@@ -43,11 +43,11 @@ Adobe Dynamic Media Classicは、統合されたリッチメディア管理、�
 
 Adobe Dynamic Media Classicは他のシステムとは根本的に異なります。単一のプライマリアセットと URL 呼び出しから動的にメディアを配信するためにAdobe Dynamic Media Classicを使用できるからです。
 
-Adobe Dynamic Media Classicで生成する URL 文字列には、アセットが配信されたときの表示方法をサーバーに伝える手順が含まれています。 例えば、同じプライマリ画像を異なるサイズ、形式、重み、色、ズームビューで配信できます。 Adobe Dynamic Media Classicを使用したメディアアセットの構築と公開の一環として、効果を視覚的に設定します。 その際に、プライマリアセットをアプリケーションに提示する方法をサーバーに正しく伝える URL 呼び出しを作成します。
+Adobe Dynamic Media Classicで生成する URL 文字列には、アセットが配信されたときの表示方法をサーバーに伝える手順が含まれています。 例えば、同じプライマリ画像を異なるサイズ、形式、重み、色、ズームビューで配信できます。 Adobe Dynamic Media Classicを使用したメディアアセットの構築と公開の一環として、効果を視覚的に設定します。 その際に、アプリケーションにプライマリアセットを提示する方法をサーバーに正しく伝える URL 呼び出しを作成します。
 
 ![Adobe Dynamic Media Classicは、異なるサイズと形式で、異なるメディアに同じプライマリ画像を配信できます。](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classicでは、サイズや帯域幅に関係なく、一貫性のある高品質なエクスペリエンスをあらゆる画面に配信できます。*
 
 ## コンテンツのキャッシング {#content-caching}
 
-Adobe Dynamic Media Classicが動的に生成する画像は、キャッシュに適しています。通常は、JPEGを識別する一意の URL 呼び出しを持つ画像です。 画像はコンテンツ配信ネットワーク（CDN）方式で配信されます。この方式は、コンテンツ配信を高速化するために、サーバをインターネット上で相互接続する方式です。画像はグローバルに配置されたサーバ間で配信されてから、コンピュータに配信されます。任意の CDN ベンダーを使用してキャッシュメカニズムを実装する場合は、CDN が有効なDynamic Media Image Server を指すようにサーバー名を変更するだけです。 すべてのAdobe Dynamic Media Classicエディションには、バンドルされた CDN キャッシュが含まれています。
+Adobe Dynamic Media Classicが動的に生成する画像は、キャッシュに適したものです。通常、画像は、それらを識別する一意の URL 呼び出しを持つJPEG画像です。 画像はコンテンツ配信ネットワーク（CDN）方式で配信されます。この方式は、コンテンツ配信を高速化するために、サーバをインターネット上で相互接続する方式です。画像はグローバルに配置されたサーバ間で配信されてから、コンピュータに配信されます。任意の CDN ベンダーを使用してキャッシュメカニズムを実装する場合は、CDN が有効なDynamic Media Image Server を指すようにサーバー名を変更するだけです。 すべてのAdobe Dynamic Media Classicエディションには、バンドルされた CDN キャッシュが含まれています。

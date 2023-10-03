@@ -1,15 +1,15 @@
 ---
 title: Dynamic Media newsletter archive
-description: 「Experience LeagueがアーカイブしたDynamic Mediaのニュースレターは、月刊ニュースレターでした。 Dynamic MediaとAdobe Dynamic Media Classicを素早く習得し、すぐに価値を実現できるように工夫されています。 アーカイブされたニュースレターには、廃止されたワンストップショップニュースレターで利用できる貴重な知識構築リソースが含まれています。 アーカイブされたニュースレターには、ハウツービデオとソリューションの概要が含まれます。 また、画像プリセット、ビューアプリセット、ビデオプロファイルなどの主な機能を紹介します。
+description: 「Experience LeagueがアーカイブしたDynamic Mediaのニュースレターは、月刊ニュースレターでした。 Dynamic MediaとAdobe Dynamic Media Classicを素早く習得し、すぐに価値を実現できるように工夫されています。 アーカイブされたニュースレターには、廃止されたこのワンストップショップニュースレターで利用できる貴重な知識構築リソースが含まれています。 アーカイブされたニュースレターには、ハウツービデオとソリューションの概要が含まれます。 また、画像プリセット、ビューアプリセット、ビデオプロファイルなどの主な機能を紹介します。
 keywords: dynamic media；ニュースレター；製品アップデート；ヒントとテクニック；イベント；顧客の成功；ブログ；ブログ；画像；ビデオ；機能；機能
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
   この問題では、次の点に注意してください。
 
    * Dynamic Mediaビューアでの訪問者のアクションに関する高度な分析を取得する方法。
-   * 高画質の画像やビデオの配信による顎の落ち込み結果の解説図とヒント。
+   * 高画質の画像やビデオの配信で驚くほどの結果を得るための解説図とヒント。
    * 今日のお客様の期待に応えるためにリッチメディア戦略を更新する方法を理解するのに役立つ CMSwire 記事。
    * スキルビルダーシリーズからDynamic Mediaのオンデマンド Web セミナーへのアクセス
    * Meet `Nick Peters`、Adobe Experience Manager、サイトリライアビリティエンジニアリング担当マネージャ。
@@ -105,9 +105,9 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
   この問題では、次の点に注意してください。
 
-   * 9 つの「潜在的な問題」を取り除いて、顧客体験を強化します。
+   * 9 つの「潜在的な問題」を排除して、顧客体験を強化します。
    * Dynamic Mediaチームが、通常よりも訪問者トラフィックが多い日に備える方法を説明します。
-   * 最近の 2 つのスキルビルダー Web セミナーを受講できるセカンドチャンス
+   * 最近の 2 つのスキルビルダー Web セミナーを受講できるセカンドチャンス。
    * デジタルアセットの不正コピーからの保護に関するオンデマンド Web セミナーの視聴
    * Meet `Bridget Roman`:Experience Manager Assetsの上級製品マーケティングマネージャー。
    * Experience LeagueのDynamic MediaとAdobe Dynamic Media Classicの速度を上げます。
@@ -120,7 +120,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
    * Experience Manager AssetsとDynamic Mediaをすばやく習得できるように設計されたウェビナーシリーズの紹介
    * Experience League時にDynamic Mediaから価値を引き出すジャーニーを開始します。
    * 訪問者がリッチメディアとどのようにやり取りするかを分析できる強力な統合機能（今年 9 月にリリース予定）のプレビューをご覧ください。
-   * Meet `PieterJan Pieper`、Dynamic Mediaテクニカルサポート wiz。
+   * Meet `PieterJan Pieper`, Dynamic Mediaテクニカルサポート guru
 
 * **[2019 年 7 月、第 07 号](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html)**
 
@@ -128,7 +128,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
    * 価値の高いアセットを適切に管理し、訪問者の再訪を維持するエクスペリエンスを自信を持って提供するためのリソースと情報です。
    * デジタルアセットの保護に関する今後の Web セミナーの紹介
-   * 情報満載のAdobe・インサイダー・ツアーの次のストップ。
+   * 次に、情報満載のAdobeInsider Tour を停止します。
    * Experience Manager Assets(Experience Manager Assets) 内にDynamic Mediaが配置されている場合に利用できる優れた機能です。
    * Web サイトへの 360°ビデオとカスタムビデオサムネールの追加
    * Meet `Andrew Hathaway`, Experience Manager Assets内のDynamic Mediaの主要ソリューションコンサルタント。
@@ -160,7 +160,7 @@ Experience LeagueによるDynamic Mediaニュースレターは、Dynamic Media�
 
   この問題では、次の点に注意してください。
 
-   * AdobeのDynamic Media Classic隠し機能ウェビナーへの登録
+   * AdobeのDynamic Media Classic隠し機能ウェビナーに登録します。
    * リッチメディア戦略の策定に役立つように、Adobeのオンデマンド Web セミナーシリーズについて学びます。
    * 主要なリッチメディアの使用例と、そのためのAdobeのソリューションについてお読みください。
    * その他

@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ## Adobe Dynamic Media Classic Documentation Philoshopy
 
-Adobe Dynamic Media Classicのユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。 したがって、Adobeが高度な新しいツールを提供する際には、これらのツールを正確で明確なドキュメントで補うことが不可欠です。 これにより、お客様はAdobe Dynamic Media Classicへの投資をすぐに利用し、ROI を最大化できます。
+Adobeは、Adobe Dynamic Media Classicユーザーが競争の厳しい環境でビジネスを展開し、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力していることを知っています。 したがって、Adobeが高度な新しいツールを提供する際には、これらのツールを正確で明確なドキュメントで補うことが不可欠です。 これにより、お客様はAdobe Dynamic Media Classicへの投資をすぐに利用し、ROI を最大化できます。
 
-ドキュメントの目標は、最新のドキュメントをできるだけ早くユーザーに届けることです。 したがって、正確で使いやすいドキュメントを優先し、ドキュメントを継続的に更新し改善するよう努めます。
+ドキュメントの目標は、最新のドキュメントをできるだけ早くユーザーに届けることです。 したがって、Adobeは、正確で使いやすいドキュメントを優先し、ドキュメントを継続的に更新および改善するよう努めています。
 
 ## ドキュメントへの投稿
 
@@ -19,15 +19,15 @@ Adobe Dynamic Media Classicのユーザーは、競争の厳しい環境でビ�
 
 ## ドキュメント標準
 
-アドビのドキュメントへの投稿を歓迎しますが、ドキュメントへの投稿は、プル要求またはイシューの形式でおこない、投稿とドキュメントに関するアドビの標準に準拠する必要があります。
+Adobeはドキュメントへの投稿を歓迎しますが、ドキュメントへの投稿は、プル要求またはイシューの形式でおこない、Adobeの投稿とドキュメントに関する標準に準拠する必要があります。
 
 標準を満たさない投稿は拒否される場合があります。
 
-### 標準的な使用例を記載します。
+### Adobeに関するドキュメントの標準的な使用例。
 
 ドキュメントでは標準的な使用例を扱っています。 製品の標準的なインストールや使用の範囲を超える使用例は、ドキュメントに含まれていません。
 
-### バグやそれらの回避策については一般に記載しません。
+### Adobeでは、バグやその回避策については一般に記載されません。
 
 ドキュメントでは標準的な使用例を扱っています。 この理由から、バグ、バグによる影響、バグの回避策はドキュメントには記載されていません。
 
@@ -37,7 +37,7 @@ Adobe Dynamic Media Classicのユーザーは、競争の厳しい環境でビ�
 
 ドキュメントの改善に役立つアイデアの投稿を歓迎します。 ただし、コメント、問題報告（イシュー）および変更修正依頼（プル要求）は、 *投稿* のみ。 Adobe Dynamic Media Classicの使用方法、プロジェクトの実装方法、技術的な問題の解決方法についての質問に回答することを目的としたものではありません。
 
-Adobe Dynamic Media Classicの使用方法や技術的な問題に関して質問がある場合は、 [Experience Cloudエンタープライズサポートポータル](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) または [Experience Cloud](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+Adobe Dynamic Media Classicの使用方法や技術的な問題に関して質問がある場合は、 [Experience Cloudエンタープライズサポートポータル](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) または [Experience Cloudコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
 ***ドキュメントへの投稿は、Adobeカスタマーケアの代わりとなるものではありません。*** また、サポート関連の質問に対する回答を求める寄稿は拒否されます。
 
@@ -49,9 +49,9 @@ Adobe Dynamic Media Classicの使用方法や技術的な問題に関して質�
 
 ## ドキュメントのガイドライン
 
-アドビのドキュメントに投稿いただく場合は、特定のスタイルガイドラインに従ってください。
+Adobeは、ドキュメントに投稿した場合、特定のスタイルガイドラインに従うように求めます。
 
-これらのガイドラインに従うと、投稿のレビューが容易になり、投稿がアドビのドキュメントにすばやく統合されます。
+これらのガイドラインに従うと、投稿のレビューが容易になり、投稿ドキュメントにAdobeが迅速に統合されます。
 
 ### 言語とスタイル
 
@@ -61,11 +61,11 @@ Adobe Dynamic Media Classicの使用方法や技術的な問題に関して質�
 * 文章をできるだけ簡単にします。
 * 言語を明確かつ簡潔にします。
 
-ドキュメントの読者は世界中に存在することを忘れないでください。 英語を母国語としたり流暢に使えるとは限りません 口語的な表現を避け、言葉遣いをできるだけ明快で簡潔にしてください。
+ドキュメントの読者は世界中に存在することを忘れないでください。 英語を母国語としたり流暢に使えるとは限りません。 口語的な表現を避け、言葉遣いをできるだけ明快で簡潔にしてください。
 
 #### Microsoft®スタイルガイドに従う
 
-[ザMicrosoft®スタイルマニュアル](https://docs.microsoft.com/en-us/style-guide/welcome/) は、ソフトウェアドキュメントに重点を置いた、自由に利用可能なドキュメントスタイルガイドで、Adobe Dynamic Media Classicのドキュメントは、可能な限りこのガイドに従います。
+[ザMicrosoft®スタイルマニュアル](https://learn.microsoft.com/en-us/style-guide/welcome/) は、ソフトウェアドキュメントに重点を置いた、自由に利用可能なドキュメントスタイルガイドで、Adobe Dynamic Media Classicのドキュメントは、可能な限りこのガイドに従います。
 
 ### 書式設定
 

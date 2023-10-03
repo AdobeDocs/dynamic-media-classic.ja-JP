@@ -1,17 +1,16 @@
 ---
-source-git-commit: 2e36fc555c7e16406e68d289a97be72b87be8036
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-# AdobeDynamic Mediaクラシックドキュメント
+# Adobe Dynamic Media Classic Documentation
 
-これは、AdobeのDynamic Mediaクラシックドキュメントのリポジトリです。
+これはAdobe Dynamic Media Classicドキュメントのリポジトリです。
 
-ドキュメントに対する貢献を歓迎します。 次のリソースを参照してください。
+ドキュメントに関するご意見やご感想をお寄せください。 次のリソースを参照してください。
 
-* [contributing.md](contributing.md) ：ドキュメントへの貢献方法の概要を参照してください。
-* [guidelines.md](guidelines.md) ：貢献度の期待値とドキュメント貢献度の構成方法の概要を示します。
-* [code-of-condact.md](code-of-conduct.md) ：本ドキュメントプロジェクトに貢献する際に予想される行動基準の概要を示します。
+* [contributing.md](contributing.md) ドキュメントへの投稿方法の概要。
+* [guidelines.md](guidelines.md) 投稿で期待される内容とドキュメント投稿の作成方法の概要。
+* [code-of-conduct.md](code-of-conduct.md) このドキュメントプロジェクトへの投稿時にAdobeが期待する行動の標準の概要。
