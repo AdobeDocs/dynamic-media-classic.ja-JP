@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11288'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic管理者のみが、アプリケーション設定でページの設定を変更できます。
+>Adobe Dynamic Media Classic管理者のみが、アプリケーション設定で設定を変更できます。
 
 ## 全般設定 {#general-settings}
 
@@ -131,13 +131,13 @@ ht-degree: 38%
 
 * **[!UICONTROL デフォルトのアップロードオプション]**  — アップロードオプションをアップロードダイアログボックスが開きます。このダイアログボックスでは、デフォルトのアップロードオプションを指定できます。 これらのオプションについて詳しくは、[アップロードオプション](/help/using/uploading-files.md#upload_options)を参照してください。
 
-### アプリケーションの画像マップエディタ
+### 画像マップエディタ（アプリケーション）
 
 * **[!UICONTROL 初期設定の画像マッピング HREF]**  — 画像マッピングの HREF 列に使用されるデフォルトの URL を定義します。 この URL は、画像マップの作成時に表示されるデフォルトの URL です。
 
 * **[!UICONTROL 初期設定の画像マッピングテンプレート]**  — 画像マッピングの HREF テンプレートのデフォルト JavaScript を定義します。 ここでカスタムコードを設定し、画像マップを選択したときに実行されるようにすることができます。
 
-### アプリケーションのその他の設定
+### その他の設定（アプリケーションへ）
 
 * **[!UICONTROL ごみ箱のクリーンアップの警告]**  — ごみ箱に入っているアセットは、7 日以内に自動的に削除されます。 ごみ箱に入っているアセットが完全に削除されてから 4 日後になった場合に、会社の管理者に通知を送信する場合は、「ごみ箱の項目を自動的に削除する前に電子メールを送信する」を選択します。 詳しくは、 [ごみ箱フォルダーを管理](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ Adobe Dynamic Media Classicでは、2 つのファイルに同じ名前を付け
 
 * **[!UICONTROL バイキュービック法]** - Image Server の CPU 使用率は増加しますが、目に見えるエイリアスアーティファクトが減少した、よりシャープな画像が得られます。
 
-* **[!UICONTROL シャープ 2]**  — バイキュービック法オプションよりも少しシャープな結果が得られますが、Image Server の CPU コストはさらに大きくなります。
+* **[!UICONTROL `Sharp 2`]**  — バイキュービック法オプションよりも少しシャープな結果が得られますが、Image Server の CPU コストはさらに大きくなります。
 
 * **[!UICONTROL トリリニア法]**  — 高い解像度と低い解像度の両方を使用します（使用可能な場合）。エイリアスが問題の場合にのみ推奨されます。 この方法では、周波数の高いデータが削減されるため JPEG のサイズが小さくなります。
 
@@ -308,7 +308,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
      >
      >ビデオを iPad に配信するには、モバイルエンコーディングプリセットまたはタブレットエンコーディングプリセットを選択します。 タブレットプリセットは特に iPad 用に設計され、一般に大きな画面サイズや接続の帯域幅の利点を活かせる高い解像度と品質を備えています。タブレットプリセットでエンコードされたビデオファイルを配信するには、モバイルサイトやアプリケーションでデバイス検出コードが必要です。このコードは、再生デバイスに応じて iPhone または iPad ビデオ表示を切り替えます。iPad へのビデオファイルの配信用のモバイルプリセットを選択する方がワークフローは簡単です。その理由は、iPhone と iPad の両方で同じビデオファイルを使用できるためです。ただし、画質は低い解像度の iPhone での表示用に標準化されます。
 
-      * 「エンコーディングプリセット」グループの「エンコーディングプリセットを並べ替え」ドロップダウンリストで、「名前」または「サイズ」を選択して、名前または解像度サイズでプリセットを並べ替えます。
+      * 「エンコーディングプリセット」グループの「エンコーディングプリセットを並べ替え」ドロップダウンリストで、「名前」または「サイズ」を選択して、名前または解像度のサイズでプリセットを並べ替えます。
       * ビデオの再生に使用する解像度サイズと帯域幅に基づいて、エンコーディングプリセットを選択します。
       * 「アダプティブビデオエンコーディング」を選択し、ビデオごとに 1 つ以上のエンコーディングプリセットを選択できます。 例えば、1 つのアップロードジョブでデスクトップとモバイルの両方のファイルをエンコードできます。
 
@@ -340,9 +340,9 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
 |  | エンコーディングプリセット名／ツールヒントテキスト | エンコードファイルのサフィックス | ビデオのデータレート（Kbps） | 幅/高さ（ピクセル） | fps | オーディオビットレート（kbps） | 推奨 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 自動 x360、800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | ソースと同じ | 64 | モバイル (iPhone、iPad、Android™) の場合 |
-| 2 | 自動 x 480、1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | ソースと同じ | 96 | タブレットの場合 (iPad、Android™) |
-| 3 | 自動 x 720、2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | ソースと同じ | 128 | デスクトップの場合 |
+| 1 | 自動× 360、800 Kbps | _Mobile_Auto×360p_800K | 800 | 自動×360 | ソースと同じ | 64 | モバイル (iPhone、iPad、Android™) の場合 |
+| 2 | 自動× 480、1400 Kbps | _Tablet_Auto×480p_1400K | 1400 | 自動×480 | ソースと同じ | 96 | タブレットの場合 (iPad、Android™) |
+| 3 | 自動× 720、2600 Kbps | _Desktop_Auto×720p_2600K | 2600 | 自動×720 | ソースと同じ | 128 | デスクトップの場合 |
 
 ### アダプティブビデオエンコーディング（16:9 または 4:3）ビデオプリセット {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Adobe Dynamic Media Classic内のすべてのデフォルトの標準提供ビ�
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-ただし、自社のサイトでビューア CSS ファイルをホストする場合は、自社の環境で Image Server への明示的なパスを使用して、これらの相対画像パスを解決する必要があります。 例えば、上の相対パスを明示的なパスに更新する場合、次のようになります。 `https://s7d1.scene7.com` は、image server への直接パスです。 `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+ただし、自社のサイトでビューア CSS ファイルをホストする場合は、自社の環境で Image Server への明示的なパスを使用して、これらの相対画像パスを解決する必要があります。 例えば、上の相対パスを明示的なパスに更新した場合、次のようになります。ここで、 `https://s7d1.scene7.com` は、image server への直接パスです。 `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **HTML5 ビューアプリセットを書き出すには：**
 

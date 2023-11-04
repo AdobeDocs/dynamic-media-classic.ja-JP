@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## _最終リビジョン 2020 年 6 月 30 日_
 
-Adobe Dynamic Media Classicのユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった新しいログインエクスペリエンスにアクセスできるようになりました。
+Adobe Dynamic Media Classicのユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった新しいサインインにアクセスできるようになりました。
 
 ## よくある質問 (FAQ)
 
@@ -39,7 +39,7 @@ AdobeFlash Playerは、Web ブラウザーがAdobe Flash Platformで開発され
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_新しいデスクトップアプリケーションの仕組み_**
-デスクトップアプリケーションをダウンロード、インストール、起動した後、新しいログインエクスペリエンスが表示されます。 既存のユーザー名とパスワードを入力し、地域に応じて適切なサーバーを選択することで、Adobe Dynamic Media Classicにログインできます。 全体的なエクスペリエンスは、以前と同じ使い慣れた Web ブラウザーバージョンと同じです。 デスクトップアプリケーションから、Adobe Dynamic Media Classicの実稼動環境とステージング環境にアクセスできます。 また、この機能の使用権限がある場合は、Media Portal にアクセスすることもできます。
+デスクトップアプリケーションをダウンロード、インストール、起動した後、新しいログインが表示されます。 既存のユーザー名とパスワードを入力し、地域に応じて適切なサーバーを選択することで、Adobe Dynamic Media Classicにログインできます。 全体的なエクスペリエンスは、以前と同じ使い慣れた Web ブラウザーバージョンと同じです。 デスクトップアプリケーションから、Adobe Dynamic Media Classicの実稼動環境とステージング環境にアクセスできます。 また、この機能の使用権限がある場合は、Media Portal にアクセスすることもできます。
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ AdobeFlash Playerは、Web ブラウザーがAdobe Flash Platformで開発され
 
 +++
 
-+++**_Adobe Dynamic Media Classic API を使用して製品にアクセスしていて、Web ユーザーインターフェイスからログインしていない場合はどうなりますか。_**
++++**_Adobe Dynamic Media Classic API を使用して製品にアクセスしていて、Web ユーザーインターフェイスからログインしていない場合はどうなりますか？_**
 Adobe Dynamic Media Classicの基になる API に変更はありません。
 +++
 
@@ -64,11 +64,11 @@ Adobe Dynamic Media Classicの基になる API に変更はありません。
 +++
 
 +++**_私の会社は厳しいセキュリティ要件を持っています。 新しいAdobe Dynamic Media Classicデスクトップアプリケーションは、これらの要件をどのように処理しますか。_**
-Adobeは、製品がお客様のセキュリティ要件を満たすよう取り組んでいます。 新しいAdobe Dynamic Media Classicデスクトップアプリケーションは、引き続き、すべてのAdobeセキュリティ標準に準拠し、高いセキュリティで保護されたエクスペリエンスをお客様に提供します。
+Adobeは、製品がお客様のセキュリティ要件を満たすよう取り組んでいます。 新しいAdobe Dynamic Media Classicデスクトップアプリケーションは、引き続き、すべてのAdobeセキュリティ標準に準拠した、高いセキュリティで保護されたエクスペリエンスをお客様に提供します。
 +++
 
 +++**_私の会社は私のコンピュータにソフトウェアとアプリをインストールすることを許可していません。 新しいデスクトップアプリケーションにアクセスする方法を教えてください。_**
-一部の企業では、ソフトウェアとアプリを承認なしにシステムにダウンロードしてインストールできません。 このような場合は、IT チームと早期に連携し、新しいAdobe Dynamic Media Classicデスクトップアプリケーションへのアクセス権を取得します。 2020 年 12 月 31 日以降、ブラウザーのバージョンは非推奨となります。 新しいデスクトップアプリケーションのダウンロードが完了するまで待たないようにすることが重要です。
+一部の企業では、ソフトウェアとアプリを承認なしにシステムにダウンロードしてインストールできません。 このような場合は、IT チームと早期に連携して、新しいAdobe Dynamic Media Classicデスクトップアプリケーションへのアクセス権を取得してください。 2020 年 12 月 31 日以降、ブラウザーのバージョンは非推奨となります。 新しいデスクトップアプリケーションのダウンロードが完了するまで待たないようにすることが重要です。
 +++
 
 +++**_新しいデスクトップアプリケーションの複数のインスタンスを同時に開くことはできますか。_**
@@ -76,7 +76,7 @@ Adobeは、製品がお客様のセキュリティ要件を満たすよう取り
 +++
 
 +++**_ローカルコンピューターを使用してAdobe Dynamic Media Classicにアップロードできるファイルの数に制限はありますか？_**
-Windows®で新しいAdobe Dynamic Media Classicデスクトップアプリケーションを使用する場合、 **[!UICONTROL アップロード]** ダイアログボックス この制限は、2020 年末までに既に対処されています。 次のものがあります。 *いいえ* macOS Platform での制限のアップロード
+Windows®で新しいAdobe Dynamic Media Classicデスクトップアプリケーションを使用する場合、 **[!UICONTROL アップロード]** ダイアログボックス。 この制限は、2020 年末までに既に対処されています。 次のものがあります。 *いいえ* macOS Platform での制限のアップロード。
 +++
 
 +++**_新しいAdobe Dynamic Media Classicデスクトップアプリケーションで新しい SKU が必要な場合 ライセンスコストがかかりますか？_**
@@ -87,11 +87,11 @@ Windows®で新しいAdobe Dynamic Media Classicデスクトップアプリケ�
 2020 年 6 月 30 日のAdobe Dynamic Media Classicデスクトップアプリケーションリリースに続き、Adobeが新しいバージョンをリリースする場合、通常どおりに新しいバージョンをダウンロードしてインストールする必要があります ( **[!UICONTROL アプリ]**) をクリックします。 新しいリリースについては、Adobeアカウントチームと、アップグレードをユーザーに通知するアプリ内アップグレード通知メカニズムを通じて通知されます。
 +++
 
-+++**_Adobe Dynamic Media Classicデスクトップアプリケーションに関する問題について、どのようにして問題が解決しましたか？_**
++++**_Adobe Dynamic Media Classicデスクトップアプリケーションに関する問題について、どのようにして問題が発生した場合に役立ちますか？_**
 アプリの使用中に問題が発生した場合は、Adobeサポートにお問い合わせください。
 +++
 
-+++**_リッチメディア戦略を最適化していることを確認したいと考えています。 Adobe Dynamic Media Classicの詳細は？_**
++++**_リッチメディア戦略を最適化していることを確認したいと考えています。 Adobe Dynamic Media Classicの詳細を知るにはどうすればよいですか？_**
 Adobe Dynamic Media Classicは、リッチメディア戦略を強化するために設計された、強力で機能豊富なソリューションです。 すべての機能を活用するには、次の実用的なリソースを必ず参照してください。
 
 * [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
@@ -102,7 +102,7 @@ Adobe Dynamic Media Classicは、リッチメディア戦略を強化するた�
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 +++**_Adobe Experience Manager Assets を使用したAdobeDynamic Mediaへのアップグレードについて詳しく学びたいと思います。 詳細はどこで入手できますか？_**
-次世代のリッチメディアオーサリング、公開、動的配信にアップグレードするメリットについて詳しくは、 [アップグレード用のAdobeDynamic Mediaポータル](https://exploreadobe.com/dynamic-media-upgrade/).
+次世代のリッチメディアオーサリング、公開、動的配信にアップグレードするメリットについて詳しくは、 [アップグレード用のDynamic MediaポータルのAdobe](/help/using/upgrade.md).
 +++
 
 >[!MORELIKETHIS]

@@ -1,27 +1,25 @@
 ---
 title: Web ページへの混在メディアセットのリンク
 description: Adobe Dynamic Media Classicで混在メディアセットを Web ページにリンクする方法を説明します。
-uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 50%
+source-wordcount: '653'
+ht-degree: 47%
 
 ---
 
 # Web ページへの混在メディアセットのリンク{#linking-a-mixed-media-set-to-a-web-page}
 
-混在メディアセットの公開後、その混在メディアセットの URL を取得して、Web サイトやアプリケーションで使用できます。この URL を必要に応じて適用すれば、ユーザが Web サイトやアプリケーション上で混在メディアセットを表示できるようになります。
+混在メディアセットを公開した後、Web サイトやアプリケーションで使用するために、関連する URL を取得できます。 この URL を必要に応じて適用すれば、ユーザが Web サイトやアプリケーション上で混在メディアセットを表示できるようになります。
 
 ## 混在メディアセットの URL の取得 {#obtain-a-mixed-media-set-url}
 
@@ -30,7 +28,7 @@ ht-degree: 50%
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * **[!UICONTROL 「グリッドビュー」]**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL URL をコピー]** を選択します。
-   * **[!UICONTROL 「グリッドビュー」]**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * **[!UICONTROL 「グリッドビュー」]**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下で、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
@@ -57,7 +55,7 @@ ht-degree: 50%
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * **[!UICONTROL 「グリッドビュー」]**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL 埋め込みコード]** を選択します。
-   * **[!UICONTROL 「グリッドビュー」]**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * **[!UICONTROL 「グリッドビュー」]**&#x200B;をクリックします。アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下で、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 

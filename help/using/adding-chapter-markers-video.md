@@ -1,27 +1,25 @@
 ---
 title: ビデオへのチャプターマーカーの追加
 description: Adobe Dynamic Media Classicでビデオにチャプターマーカーを追加する方法を説明します。
-uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 42%
+source-wordcount: '628'
+ht-degree: 38%
 
 ---
 
 # ビデオへのチャプターマーカーの追加 {#adding-chapter-markers-to-video}
 
-チャプターマーカーを単一のビデオまたはアダプティブビデオセットに追加することにより、再生時間の長いビデオの閲覧やナビゲートがしやすくなります。ユーザーがビデオを再生する際に、ビデオタイムライン上のチャプターマーカー（ビデオスクラバーとも呼ばれます）を選択できます。 これにより、ユーザーは目標地点に簡単に移動したり、新しいコンテンツ、デモ、チュートリアルなどにすぐに移動したりできます。
+1 つのビデオまたはアダプティブビデオセットにチャプターマーカーを追加することで、長形式のビデオを見やすくし、移動しやすくすることができます。 ユーザーがビデオを再生する際に、ビデオタイムライン上のチャプターマーカー（ビデオスクラバーとも呼ばれます）を選択できます。 これにより、ユーザーは目標地点に簡単に移動したり、新しいコンテンツ、デモ、チュートリアルなどにすぐに移動したりできます。
 
 >[!NOTE]
 >
@@ -55,7 +53,7 @@ Cost-efficient access to rapidly evolving technology.
 
 HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターファイル名の拡張子は.VTT です。 WebVTT のキャプション規格について、さらに詳しく調べることができます。
 
-詳しくは、 [WebVTT:Web ビデオテキストトラックの形式](https://w3c.github.io/webvtt/).
+詳しくは、 [WebVTT:Web Video Text Tracks Format](https://w3c.github.io/webvtt/).
 
 **ビデオにチャプターマーカーを追加するには:**
 
@@ -77,16 +75,16 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 1. アセットの参照パネルで 1 つのビデオアセットを選択し、アセットのサムネール画像の下でを選択します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 1. ビューアリストの表で、**Univeral_HTML5_Video** という名前の HTML5 ビューアを探し、次のいずれかの操作を行います。
 
-   * ポップアップビデオビューアエクスペリエンスの場合は、 **[!UICONTROL URL をコピー]** 名前の右端に
+   * ポップアップビデオビューアエクスペリエンスの場合は、 **[!UICONTROL URL をコピー]** を名前の右端にドラッグします。
 
      コピーしたビデオの URL を次の構文で追加して、コピーした URL とキャプションファイルを関連付けることができます。
 
      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 埋め込みビデオビューアエクスペリエンスの場合、 **[!UICONTROL 埋め込みコード]** 名前の右端に
+   * 埋め込みビデオビューアエクスペリエンスの場合、 **[!UICONTROL 埋め込みコード]** を名前の右端にドラッグします。
 
      埋め込みコードダイアログボックスで、「 **[!UICONTROL クリップボードにコピー]**.
 
      HTML5 `Universal_HTML5_Video` ビューアで、コピーした埋め込みコードを次のように追加します。
 
-     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

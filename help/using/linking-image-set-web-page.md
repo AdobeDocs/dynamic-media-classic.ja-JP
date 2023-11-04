@@ -1,27 +1,25 @@
 ---
 title: Web ページへの画像セットのリンク
 description: 画像セットをAdobe Dynamic Media Classicの Web ページにリンクする方法を説明します。
-uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 42%
+source-wordcount: '692'
+ht-degree: 38%
 
 ---
 
 # Web ページへの画像セットのリンク{#linking-an-image-set-to-a-web-page}
 
-画像セットの公開後、その画像セットの URL または埋め込みコードを Web サイトやアプリケーションで使用できるようになります。次に、必要に応じてこの URL を配信するか、埋め込みコードをペーストすると、ユーザは Web サイトやアプリケーション上で画像セットを表示できます。
+画像セットを公開した後、関連する URL または埋め込みコードをコピーして、Web サイトやアプリケーションで使用できます。 次に、必要に応じてこの URL を配信するか、埋め込みコードをペーストすると、ユーザは Web サイトやアプリケーション上で画像セットを表示できます。
 
 >[!NOTE]
 >
@@ -34,7 +32,7 @@ ht-degree: 42%
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL URL をコピー]** を選択します。
-   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下で、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
@@ -63,7 +61,7 @@ ht-degree: 42%
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL パネルで、「 」を選択します。 **[!UICONTROL 埋め込みコード]**.
-   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下で、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 

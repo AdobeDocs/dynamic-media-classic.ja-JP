@@ -12,9 +12,9 @@ role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '259'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 プライマリ画像ファイルをAdobe Dynamic Media Classicにアップロードする前に、次の手順で準備します。
 
-* **画像サイズ**  — 使用すると予想される最大サイズの画像を作成します。 一般的な画像サイズの範囲は、最長 1500 ～ 2500 ピクセルです。 ズーム機能を使用する場合、最適なズーム詳細を得るために、最長サイズで 2,000 ピクセル以上の画像を使用することをお勧めします。 Adobe Dynamic Media Classicでは、それぞれ最大 25 メガピクセルの画像をレンダリングできます。 例えば、5000 x 5000 MP の画像や、その他のサイズの組み合わせを最大 25 MP まで使用できます。
+* **画像サイズ**  — 使用すると予想される最大サイズの画像を作成します。 一般的な画像サイズの範囲は、最も長いサイズの 1500 ～ 2500 ピクセルです。 ズーム機能を使用する場合、最適なズーム詳細を得るために、最長サイズで 2,000 ピクセル以上の画像を使用することをお勧めします。 Adobe Dynamic Media Classicでは、それぞれ最大 25 メガピクセルの画像をレンダリングできます。 例えば、5000 × 5000 MP の画像や、その他のサイズの組み合わせを最大 25 MP まで使用できます。
 
 * **ファイル形式** - Adobe Dynamic Media Classicは、TIFF、BMP、JPEG、PSD、GIF、EPSを含むすべての標準的な画像ファイル形式をサポートしています。 可逆圧縮画像形式の TIFF および PNG を使用することをお勧めします。JPEG画像を使用する場合は、最高品質の設定を使用します。
 

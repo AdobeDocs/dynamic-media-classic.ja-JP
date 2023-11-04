@@ -12,10 +12,10 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 28%
+source-wordcount: '426'
+ht-degree: 23%
 
 ---
 
@@ -35,13 +35,13 @@ Adobe Dynamic Media Classicでは、次のフォントタイプをサポート�
 
 >[!NOTE]
 >
->テンプレートレイヤーでフォントを使用する場合は、すべてのフォントスタイル（太字、斜体、太字/斜体、標準）をアップロードすることをお勧めします。 Adobe Dynamic Media Classicで要求を処理するには、これらのフォントスタイルが必要です。 フォントに関連付けられているすべての PostScript/Adobe Type 1 ファイルもアップロードすることもお勧めします。これらの一部のフォントには、詳細なカーニング情報が含まれています。
+>テンプレートレイヤーでフォントを使用する場合は、すべてのフォントスタイル（太字、斜体、太字/斜体、標準）をアップロードすることをお勧めします。 Adobe Dynamic Media Classicで要求を処理するには、これらのフォントスタイルが必要です。 すべてアップロード中 `PostScript/Adobe Type1` フォントに関連付けられたファイルも推奨されます。これらのフォントの中には、詳細なカーニング情報が含まれるものもあります。
 
 ## フォントファイルのアップロード {#uploading-font-files}
 
 フォントファイルのアップロードは、その他のファイルをアップロードするのと同じ方法で行います。フォントファイルは、任意のAdobe Dynamic Media Classicフォルダーに格納できます。 詳しくは、[ファイルのアップロード](uploading-files.md#uploading_your_files)を参照してください。
 
-## フォントファイル情報を編集 {#editing-font-file-information}
+## フォントファイルの情報を編集 {#editing-font-file-information}
 
 フォントの ID 名と種類情報を変更できます。 フォントファイルを編集することで、フォントを容易に検索および識別できるようになります。
 
@@ -53,13 +53,13 @@ Adobe Dynamic Media Classicでは、次のフォントタイプをサポート�
 
 * **[!UICONTROL RTF 名]**  — この名前は、テンプレートテキストレイヤーが作成される RTF エディタのポップアップメニューに表示されます。
 
-* **[!UICONTROL フォントファミリ名]**  — この名前は、スタイル、太さ、フォントの種類を示すインジケータを含まないフォント名をリストします。
+* **[!UICONTROL フォントファミリー名]**  — この名前は、スタイル、太さ、フォントの種類を示すインジケータを含まないフォント名をリストします。
 
 * **[!UICONTROL フォントスタイル]**  — オプションは、「プレーン」、「太字」、「斜体」および「太字斜体」です。
 
 * **[!UICONTROL フォントの種類]**  — オプションは TrueType とAdobe Type1 です。 これらのフォントを別の名前で呼び出す場合は、その名前を入力します。
 
-* **[!UICONTROL フォントタイプ（省略）]**  — オプションは次のとおりです。
+* **[!UICONTROL フォントの種類（省略）]**  — オプションは次のとおりです。
 
    * **[!UICONTROL TTF]** - TrueType フォントファイル (PDF/PostScript のレンダリングや画像サービングに使用 )。
 

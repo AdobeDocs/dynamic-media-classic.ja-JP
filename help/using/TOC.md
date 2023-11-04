@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classicガイド
 breadcrumb-title: Dynamic Media Classicガイド
 user-guide-description: Adobe Dynamic Media Classicの使用の詳細
 index: y
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '800'
 ht-degree: 26%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 26%
    + [アップグレード準備チェックリスト](upgrade-readiness.md)
 + [Adobe Dynamic Media Classicガイド](home.md)
 + [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新しいAdobe Dynamic Media Classicログインエクスペリエンスが利用できるようになりました](new-ui-2020.md)
++ [新しいAdobe Dynamic Media Classicサインインが利用可能になりました](new-ui-2020.md)
 + [AdobeDynamic Mediaニュースレターアーカイブ (Experience League別 )](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classicの概要 {#intro}
    + [Adobe Dynamic Media Classic Desktop App — 利用可能](dynamic-media-classic-desktop-app.md)
@@ -97,7 +97,7 @@ ht-degree: 26%
    + [ズーム画像の公開](publishing-zoom-images.md)
    + [Web ページへのズームビューアのリンク](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [クイックスタート：eCatalogs](quick-start-ecatalog.md)
+   + [クイックスタート： eCatalog](quick-start-ecatalog.md)
    + [PDFファイルのアップロード](uploading-pdf-files.md)
    + [eCatalog の作成](creating-ecatalog.md)
    + [eCatalog 画像マップを作成](creating-ecatalog-image-maps.md)
@@ -105,7 +105,7 @@ ht-degree: 26%
    + [eCatalog ビューアプリセットの設定](setting-ecatalog-viewer-presets.md)
    + [eCatalog ビューアで eCatalog をプレビューする](previewing-ecatalogs-ecatalog-viewer.md)
    + [eCatalog と関連PDFを公開](publishing-ecatalogs-associated-pdfs.md)
-   + [Web ページへの eCatalog のリンク](linking-ecatalog-web-page.md)
+   + [eCatalog を Web ページにリンクする](linking-ecatalog-web-page.md)
 + 画像セット {#image-sets}
    + [クイックスタート：画像セット](quick-start-image-sets.md)
    + [アップロード用の画像セットアセットの準備](preparing-image-set-assets-upload.md)
@@ -162,7 +162,7 @@ ht-degree: 26%
    + [Adobe Analyticsビデオレポートを有効にする](enabling-analytics-video-reports.md)
    + [Adobe Analytics設定情報の公開](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium の統合 {#target-classic}
-   + [クイックスタート：Adobe Target Standard/Premium の統合](quick-start-target-integration.md)
+   + [クイックスタート： Adobe Target Standard/Premium の統合](quick-start-target-integration.md)
    + [Adobe Dynamic Media ClassicとAdobe Target Standard/Premium の統合](integrating-dmc-with-target.md)
    + [オファーセットの作成](creating-offer-set.md)
    + [オファーセットをAdobe Target Standard/Premium にプッシュ](pushing-offer-sets-target.md)
@@ -170,7 +170,7 @@ ht-degree: 26%
    + [ユーザー生成コンテンツについて](about-ugc.md)
    + [アップロードしたアセットの削除](deleting-uploaded-asset.md)
    + [ディスク使用量情報の取得](getting-disk-usage-information.md)
-   + [ラスターイメージアセットをアップロードする](uploading-image-asset-or-vector.md)
+   + [ラスター画像アセットをアップロードする](uploading-image-asset-or-vector.md)
 + プライマリファイル {#master-files}
    + [画質を最適化するためのベストプラクティス](best-practices-optimizing-quality-images.md)
    + [画像の編集](editing-images.md)

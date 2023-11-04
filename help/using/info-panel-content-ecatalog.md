@@ -1,21 +1,19 @@
 ---
 title: eCatalog 内の情報パネルのコンテンツを管理
 description: Adobe Dynamic Media Classicの eCatalog で情報パネルのコンテンツを管理する方法を説明します。
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -36,7 +34,7 @@ Adobe Dynamic Media Classicの次の機能を使用して、情報パネルの�
 
 >[!NOTE]
 >
->ビューアプリセットで応答テンプレートを設定することもできます。代わりに応答テンプレートをビューアプリセットで使用するには、 `fmt=1` を追加します。
+>ビューアプリセットで応答テンプレートを設定することもできます。代わりに応答テンプレートをビューアプリセットで使用するには、を追加します。 `fmt=1` をビューアプリセットの情報サーバ URL の最後に追加します。
 >
 >詳しくは、 [eCatalog ビューアプリセットの設定](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
@@ -51,7 +49,7 @@ Adobe Dynamic Media Classicの次の機能を使用して、情報パネルの�
 1. 「応答 TTL」ボックスに、データをキャッシュするまでの時間数を入力します。
 
    * データが 1 日中頻繁に更新される場合は、数値を小さくします。
-   * データの変更が比較的少なく、頻繁に更新する必要がない場合は、数値を大きくします。初期設定は 10 時間です。
+   * データが比較的安定しており、1 日を通じて頻繁に更新する必要がない場合は、数値を大きくします。 初期設定は 10 時間です。
 
 1. 選択 **[!UICONTROL 公開]**.
 
@@ -71,7 +69,7 @@ eCatalog の情報パネルのソーステキストには、カンマ区切り�
 1. を選択します。 **[!UICONTROL InfoPanel Datafeed]** パネル。
 1. 「外部にホストされている CSV ファイルの場所」ボックスに CSV ファイルの URL を入力します。URL はこのフィールドにペーストすることも、直接入力することもできます。
 1. （オプション）更新をスケジュールメニューを使用して、コンテンツを更新する時間を指定し、 **[!UICONTROL 追加]**. 複数の更新時刻を選択できます。各更新時刻は「時間を更新」ボックスに表示されます( 時間を削除するには、時間を選択し、 **[!UICONTROL 削除]**.)
-1. （オプション）「 」を選択します。 **[!UICONTROL 今すぐ更新を実行]** 」をクリックします。
+1. （オプション）「 」を選択します。 **[!UICONTROL 今すぐ更新を実行]** 」をクリックして、コンテンツを直ちに更新します。
 
 ### タブ区切りファイルまたは CSV ファイルの読み込み {#import-a-tab-delimited-or-csv-file}
 

@@ -12,10 +12,10 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Dynamic Media Classic Video SEO を使用すると、ビデオメタデー
 >
 >Google は、情報を検索エンジンに送信するためのビデオサイトマップおよび mRSS フィードプロトコルの両方をサポートしています。
 
-Adobe Dynamic Media Classicは、各ビデオと共に保存されるメタデータからビデオサイトマップおよび mRSS フィードを生成できます。 ビデオサイトマップおよび mRSS フィードを作成する場合は、ビデオファイルから抽出するメタデータフィールドを指定します。このように、ビデオの説明を検索エンジンに提供することで、検索エンジンはトラフィックをより正確に Web サイト上のビデオに導くことができます。
+Adobe Dynamic Media Classicは、各ビデオと共に保存されるメタデータからビデオサイトマップおよび mRSS フィードを生成できます。 ビデオサイトマップおよび mRSS フィードを作成する場合は、ビデオファイルから抽出するメタデータフィールドを指定します。このように、ビデオの説明を検索エンジンに提供することで、検索エンジンはトラフィックをより正確に Web サイト上のビデオに導くことができます。.
 
 >[!NOTE]
 >
@@ -47,15 +47,15 @@ Adobe Dynamic Media Classicは、各ビデオと共に保存されるメタデ�
 
 ## ビデオ SEO 設定を選択 {#choosing-video-seo-settings}
 
-でビデオサイトマップおよび mRSS フィードのビデオ SEO 設定を選択します。 **[!UICONTROL ビデオ検索エンジン最適化設定]** ページ。 このページを開くには、グローバルナビゲーションバーで、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL ビデオ SEO]** > **[!UICONTROL 設定]**.
+でビデオサイトマップおよび mRSS フィードのビデオ SEO 設定を選択します。 **[!UICONTROL ビデオ検索エンジン最適化設定]** ページに貼り付けます。 このページを開くには、グローバルナビゲーションバーで、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL ビデオ SEO]** > **[!UICONTROL 設定]**.
 
-内 **[!UICONTROL 一般設定]** 領域で、ビデオサイトマップ、mRSS フィード、またはその両方を生成するかどうかを選択します。 内 **[!UICONTROL 生成設定]** 「 」領域で、メタデータフィールドを入力フィールドにマッピングします。
+Adobe Analytics の **[!UICONTROL 一般設定]** 領域で、ビデオサイトマップ、mRSS フィード、またはその両方を生成するかどうかを選択します。 Adobe Analytics の **[!UICONTROL 生成設定]** 「 」領域で、メタデータフィールドを入力フィールドにマッピングします。
 
 設定を選択した後、 **[!UICONTROL 保存]** ( または **[!UICONTROL 保存して生成]**) をクリックして、ビデオサイトマップ、mRSS フィードまたはその両方を作成します。
 
 ### 一般設定の設定 {#choosing-general-settings}
 
-の **[!UICONTROL 生成モード]** ドロップダウンリストから、レポートモードを選択します。
+次の日： **[!UICONTROL 生成モード]** ドロップダウンリストから、レポートモードを選択します。
 
 * **ビデオサイトマップ**  — ビデオサイトマップを作成します。
 
@@ -65,7 +65,7 @@ Adobe Dynamic Media Classicは、各ビデオと共に保存されるメタデ�
 
 * **オフ**  — ビデオサイトマップおよびメディア RSS(mRSS) フィードの生成を停止するには、このオプションを選択します。
 
-の **[!UICONTROL 自動/手動モード]** ドロップダウンリストで、自動生成するか手動で生成するかを選択します。
+次の日： **[!UICONTROL 自動/手動モード]** ドロップダウンリストで、自動生成するか手動で生成するかを選択します。
 
 * **自動モード** - Adobe Dynamic Media Classicは毎日、1 つのビデオサイトマップ、メディア RSS(mRSS) フィード、またはその両方を自動的に生成します。 を選択します。 **[!UICONTROL 公開用にマーク]** Adobe Dynamic Media Classicが生成する XML ファイルを自動的に公開用にマークするオプション。
 
@@ -108,7 +108,7 @@ Adobe Dynamic Media Classicは、各ビデオと共に保存されるメタデ�
 * `https://{publish-server}/is/content/{companyname}/mrss-feed.xml`
 * `https://{publish-server}/is/content/{companyname}/video-sitemap.xml`
 
-これらの URL のいずれかを検索エンジンの Web マスターツールにコピーして、ビデオサイトマップまたはメディア RSS（mRSS）フィードファイルを検索エンジンに送信します。
+これらの URL の 1 つを検索エンジンの Web マスターツールにコピーして、ビデオサイトマップまたはメディア RSS(mRSS) フィードファイルを検索エンジンに送信します。
 
 ## ビデオ SEO レポートを表示 {#viewing-video-seo-reports}
 

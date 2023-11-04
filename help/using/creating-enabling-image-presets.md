@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 72%
+source-wordcount: '255'
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ Media Portal 管理者は画像プリセットを作成して、画像が書き�
 
 画像アセットを書き出す際、以下の制限が適用されます。
 
-* 幅 x 高さは、画像あたり 100 MB 以下である必要があります。例えば、画像が 10K x 10K を超えたり、8K x 12K のような縦横比を超えてはいけません。
+* 幅×の高さは、1 画像あたり 100 MB 以下である必要があります。 例えば、画像のサイズは 10 K × 10 K を超えたり、8 K × 12 K のように下位の縦横比を超えたりすることはできません。
 * 書き出しジョブあたりの合計ファイルサイズは最大で 1 GB です。
 * 書き出しジョブあたり合計 500 個のアセットまで許容されています。
 

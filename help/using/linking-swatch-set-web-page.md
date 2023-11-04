@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 42%
+source-wordcount: '700'
+ht-degree: 40%
 
 ---
 
 # Web ページへのスウォッチセットのリンク{#linking-a-swatch-set-to-a-web-page}
 
-スウォッチセットの公開後、そのスウォッチセットの URL または埋め込みコードを Web サイトやアプリケーションで使用できます。次に、必要に応じてこの URL または埋め込みコードを配信すると、ユーザは Web サイトやアプリケーション上でスウォッチセットを表示できます。
+スウォッチセットを公開した後は、関連する URL を使用したり、Web サイトやアプリケーションで埋め込みコードを使用したりできます。 次に、必要に応じてこの URL または埋め込みコードを配信すると、ユーザは Web サイトやアプリケーション上でスウォッチセットを表示できます。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 42%
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL URL をコピー]** を選択します。
-   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下で、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
@@ -48,7 +48,7 @@ ht-degree: 42%
 
 スウォッチセットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、ポップアップズームウィンドウでスウォッチセットを表示する動的ページ（ASP または JSP）が起動します。ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
-詳細およびコードサンプルについては、 [HTMLビューアリファレンスガイドのAdobe5 ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+詳細およびコードサンプルについては、 [『HTMLビューアリファレンスガイド』のAdobe5 ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## スウォッチセットビューアの埋め込みコードをコピーする {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -61,7 +61,7 @@ ht-degree: 42%
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL 埋め込みコード]** を選択します。
-   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下で、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 

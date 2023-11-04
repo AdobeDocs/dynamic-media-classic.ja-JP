@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 9 年連続でインターネット小売 1000 に対するトップのリッチメディアベンダー。
 * 24/7/265サポート、99.95%の SLA
-* 800 を超えるクライアントを世界中に提供する実証済みのインフラストラクチャ。1 ヶ月あたり 3.5 ペタバイトのトラフィックと 5 億件を超える管理資産を提供し、前年比 60%のトラフィック増加を実現します。
+* 800 を超えるクライアントを世界中に提供する実証済みのインフラストラクチャ。1 ヶ月あたり 3.5 PB のトラフィック、管理資産が 5 億を超え、前年比 60%のトラフィック増加を実現しています。
 
 +++
 

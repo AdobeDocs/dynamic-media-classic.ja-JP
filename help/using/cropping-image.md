@@ -1,20 +1,18 @@
 ---
 title: 画像の切り抜き
 description: Adobe Dynamic Media Classicで画像を切り抜く方法を説明します。
-uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '549'
 ht-degree: 35%
 
 ---
@@ -36,8 +34,8 @@ Adobe Dynamic Media Classicで画像を切り抜くことができます。 シ�
 1. 画像を切り抜くには、そのロールオーバーを選択します **[!UICONTROL 編集]** ボタンをクリックし、 **[!UICONTROL 切り抜き]**&#x200B;をクリックするか、詳細ビューの参照パネルに表示し、 **[!UICONTROL 切り抜き]** 」ボタンをクリックします。
 1. 切り抜きエディターページで、次のいずれかの操作を行います。
 
-   * ピクセルのカラーをトリミングするには、次に移動します。 **[!UICONTROL トリミング]** > **[!UICONTROL カラー]**. 内 **[!UICONTROL 色で自動切り抜き]** ダイアログボックスで、 **[!UICONTROL 角]** メニューを開き、切り抜く背景色のコーナーを選択します。 次に、 **[!UICONTROL 許容値]** 0 ～ 1 の値を設定します。 0 に設定すると、画像の隅で選択した色と正確に一致するピクセルのみが切り抜かれます。設定値が 1 に近づくにつれ、許容される色の違いが大きくなります。選択 **[!UICONTROL 切り抜き]**.
-   * 透明なピクセルをトリミングするには、次に移動します。 **[!UICONTROL トリミング]** > **[!UICONTROL 透明]**. 内 **[!UICONTROL 透明度による自動切り抜き]** ダイアログボックスで、0 ～ 1 の公差設定を入力します。 0 に設定すると、ピクセルが透明な場合にのみ切り抜かれます。 設定値が 1 に近づくにつれ、透明度の低いピクセルも切り抜かれるようになります。選択 **[!UICONTROL 切り抜き]**.
+   * ピクセルのカラーをトリミングするには、次の場所に移動します。 **[!UICONTROL トリミング]** > **[!UICONTROL カラー]**. Adobe Analytics の **[!UICONTROL 色で自動切り抜き]** ダイアログボックスで、 **[!UICONTROL 角]** メニューを開き、切り抜く背景色のコーナーを選択します。 次に、 **[!UICONTROL 許容値]** 0 ～ 1 の値を設定します。 0 に設定すると、画像の隅で選択した色と正確に一致するピクセルのみが切り抜かれます。設定値が 1 に近づくにつれ、許容される色の違いが大きくなります。選択 **[!UICONTROL 切り抜き]**.
+   * 透明なピクセルをトリミングするには、次の場所に移動します。 **[!UICONTROL トリミング]** > **[!UICONTROL 透明]**. Adobe Analytics の **[!UICONTROL 透明度による自動切り抜き]** ダイアログボックスで、0 ～ 1 の公差設定を入力します。 0 に設定すると、ピクセルが透明な場合にのみ切り抜かれます。 設定値が 1 に近づくにつれ、透明度の低いピクセルも切り抜かれるようになります。選択 **[!UICONTROL 切り抜き]**.
 
 1. 選択 **[!UICONTROL 保存]**.
 
@@ -49,7 +47,7 @@ Adobe Dynamic Media Classicで画像を切り抜くことができます。 シ�
 
 1. 画像を切り抜くには、そのロールオーバーを選択します **[!UICONTROL 編集]** ボタンをクリックし、を選択します。 **[!UICONTROL 切り抜き]**&#x200B;をクリックするか、詳細ビューの参照パネルに表示して、 **[!UICONTROL 切り抜き]**.
 
-1. 切り抜きエディタ (Crop Editor) ウィンドウで、切り抜きを行わない画像の一部を切り抜きボックスに配置します。 ボックス内に表示される内容は、選択後に残る内容です **[!UICONTROL 保存]** 画像を切り抜きます。
+1. 切り抜きエディタ (Crop Editor) ウィンドウで、切り抜きを行わない画像の一部を切り抜きボックスに配置します。 ボックス内に表示される内容は、選択後に残る内容です。 **[!UICONTROL 保存]** 画像を切り抜きます。
 1. 切り抜き領域を調整するには、次のいずれかの操作を行います。
 
    * ボックスの辺または角をドラッグします。切り抜きボックスの縦横比（形状）を維持しながらサイズを変更するには、Shift キーを押しながらドラッグします。
