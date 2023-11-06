@@ -12,16 +12,16 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
 # クイックスタート：スウォッチセット{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classicスウォッチセットを使用すると、統合された表示操作を実行できます。 動的なスウォッチセットビューアで、ユーザはサムネールをクリックするだけで、様々な色、素材、テクスチャ、仕上げまたは布地のアイテムを表示できます。
+Adobe Dynamic Media Classicスウォッチセットを使用すると、統合された表示操作を実行できます。 ダイナミックスウォッチセットビューアでは、サムネールを選択するだけで、異なる色、素材、テクスチャ、仕上げ、布地でレンダリングされた項目を表示できます。
 
 このスウォッチセットのクイックスタートは、Adobe Dynamic Media Classicのスウォッチセットのテクニックをすぐに使い始めることを目的としています。
 
@@ -33,7 +33,7 @@ Adobe Dynamic Media Classicスウォッチセットを使用すると、統合�
 
 ## 2.スウォッチセットの作成
 
-スウォッチセットを作成するには、グローバルナビゲーションバーで **[!UICONTROL ビルド]** > **[!UICONTROL スウォッチセット]**. スウォッチセットページで、画像とカラースウォッチをページにドラッグします。 詳しくは、 [スウォッチセットの作成](creating-swatch-set.md#creating-a-swatch-set).
+スウォッチセットを作成するには、グローバルナビゲーションバーで、に移動します。 **[!UICONTROL ビルド]** > **[!UICONTROL スウォッチセット]**. スウォッチセットページで、画像とカラースウォッチをページにドラッグします。 詳しくは、 [スウォッチセットの作成](creating-swatch-set.md#creating-a-swatch-set).
 
 ## 3.スウォッチセットビューアプリセットを設定する
 

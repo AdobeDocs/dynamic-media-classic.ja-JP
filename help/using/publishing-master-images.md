@@ -12,7 +12,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -25,11 +25,11 @@ ht-degree: 6%
 
 ## プライマリ画像を公開用にマーク {#marking-master-images-for-publish}
 
-プライマリ画像をDynamic Media Image Server にコピーするには、公開用にマークする必要があります。 参照パネルで、 **[!UICONTROL 公開用にマーク]** アイコン また、画像をAdobe Dynamic Media Classicにアップロードする際に、公開用にマークすることもできます。
+プライマリ画像をDynamic Media Image Server にコピーするには、公開用にマークする必要があります。 参照パネルで、「 **[!UICONTROL 公開用にマーク]** アイコン。 また、画像をAdobe Dynamic Media Classicにアップロードする際に、公開用にマークすることもできます。
 
 ## プライマリ画像を公開 {#publishing-your-master-images}
 
-1. グローバルナビゲーションバーで、 **[!UICONTROL 公開]**. 公開ダイアログボックスで、「When」オプション (**[!UICONTROL 1 回限り]** または **[!UICONTROL 繰り返し]**) をクリックし、必要に応じて公開ジョブの名前を入力します。
+1. グローバルナビゲーションバーで、 **[!UICONTROL 公開]**. 公開ダイアログボックスで、「When」オプション (**[!UICONTROL 1 回限り]** または **[!UICONTROL 定期]**) をクリックし、必要に応じて公開ジョブの名前を入力します。
 
 1. 選択 **[!UICONTROL 公開を送信]**.
 

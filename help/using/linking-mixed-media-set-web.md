@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 47%
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 47%
 
 ## Web ページへの混在メディアセット URL の追加 {#add-mixed-media-set-urls-to-your-web-page}
 
-混在メディアセットをデプロイする最も一般的な方法は、Web ページに（ナビゲーションアイコンを使用して）リンクを配置することです。 リンクをクリックすると、混在メディアセットビューアウィンドウで混在メディアセットを表示する動的ページ（ASP または JSP）が起動します。
+混在メディアセットをデプロイする最も一般的な方法は、Web ページに（ナビゲーションアイコンを使用して）リンクを配置することです。 選択すると、リンクは混在メディアセットビューアに混在メディアセットを表示する動的ページ（ASP または JSP）を起動します。
 
 ## 混在メディアセットビューアの埋め込みコードをコピーする {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 

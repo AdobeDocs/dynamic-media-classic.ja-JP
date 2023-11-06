@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 40%
+source-wordcount: '702'
+ht-degree: 33%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 40%
 
 ## Web ページへのスウォッチセット URL の追加 {#adding-swatch-set-urls-to-your-web-page}
 
-スウォッチセットは、ナビゲーションアイコンにより Web ページにリンク表示するのが、最も一般な使用方法です。リンクをクリックすると、ポップアップズームウィンドウでスウォッチセットを表示する動的ページ（ASP または JSP）が起動します。ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
+スウォッチセットをデプロイする最も一般的な方法は、Web ページに（ナビゲーションアイコンを使用して）リンクを配置することです。 選択すると、リンクは、スウォッチセットをポップアップズームウィンドウで表示する動的ページ（ASP または JSP）を起動します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
 詳細およびコードサンプルについては、 [『HTMLビューアリファレンスガイド』のAdobe5 ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

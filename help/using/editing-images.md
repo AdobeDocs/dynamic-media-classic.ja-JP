@@ -12,7 +12,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Adobe Dynamic Media Classicには、リッチメディア効果を作成する�
 
 * **画像の切り抜き**  — 画像を切り抜くには、「切り抜き」コマンドを選択するか、 **[!UICONTROL 切り抜き]** 」ボタンをクリックします。 詳しくは、 [画像の切り抜き](/help/using/cropping-image.md).
 
-* **画像にシャープを適用**  — 画像にシャープを適用し、そのアウトラインのぼやけを減らし、より明確にするには、「シャープ」コマンドまたは **[!UICONTROL シャープ]** 」ボタンをクリックします。 詳しくは、 [画像にシャープを適用](/help/using/sharpening-image.md).
+* **画像にシャープを適用**  — 画像にシャープを適用し、そのアウトラインのぼやけを減らし、より明確にするには、「シャープ」コマンドを選択するか、 **[!UICONTROL シャープ]** 」ボタンをクリックします。 詳しくは、 [画像にシャープを適用](/help/using/sharpening-image.md).
 
 * **画像の調整** - 「調整」コマンドを選択するか、 **[!UICONTROL 調整]** ボタンを使用して、画像の反転、回転、ぼかし、色彩の統一、カラーバランスの変更を行うことができます。 詳しくは、 [画像の調整](/help/using/adjusting-image.md).
 

@@ -12,16 +12,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '845'
 ht-degree: 37%
 
 ---
 
 # Web アプリケーションへの URL のリンク{#linking-urls-to-your-web-application}
 
-Web サイトやアプリケーションは、URL 文字列を介してDynamic Media Image Server コンテンツにアクセスします。 画像を公開すると、Adobe Dynamic Media Classicは、Dynamic Media Image Server 上の画像プリセットを参照する URL 文字列をアクティベートします。 これらの URL を Web ブラウザにペーストしてテストすることができます。
+Web サイトやアプリケーションは、URL 文字列を使用してDynamic Media Image Server コンテンツにアクセスします。 画像を公開すると、Adobe Dynamic Media Classicは、Dynamic Media Image Server 上の画像プリセットを参照する URL 文字列をアクティベートします。 これらの URL を Web ブラウザにペーストしてテストすることができます。
 
 これらの URL 文字列を Web ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。 画像プリセットで生成された URL 文字列を取得するには、プレビュー画面または（詳細ビューの）参照パネルに移動します。
 

@@ -12,7 +12,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 ## スピンセットを公開用にマークする {#marking-a-spin-set-for-publish}
 
-スピンセットをAdobe Dynamic Media Classic Image Server にコピーするには、スピンセットを公開用にマークします。 スピンセットを公開用にマークするには、参照パネルで **[!UICONTROL 公開用にマーク]** アイコンをクリックします。 スピンセット自体を公開用にマークすると、セット内のすべての画像が公開用にマークされます。
+スピンセットをAdobe Dynamic Media Classic Image Server にコピーするために、公開用にマークします。 スピンセットを公開用にマークするには、参照パネルで **[!UICONTROL 公開用にマーク]** アイコンをクリックします。 スピンセット自体を公開用にマークすると、セット内のすべての画像が公開用にマークされます。
 
 ## スピンセットの公開 {#publishing-the-spin-set}
 

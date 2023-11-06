@@ -1,5 +1,5 @@
 ---
-title: ラスターイメージアセットをアップロードする
+title: ラスター画像アセットをアップロードする
 description: ラスター画像アセットをAdobe Dynamic Media Classicにアップロードする方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -9,14 +9,14 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
-# ラスターイメージアセットをアップロードする {#uploading-an-image-asset-or-a-vector-asset}
+# ラスター画像アセットをアップロードする {#uploading-an-image-asset-or-a-vector-asset}
 
 画像アセットをアップロードするには、その前に共有秘密キーを要求する必要があります。この共有秘密キーを、アップロードトークンの取得に使用します。次に、アップロードトークンを使用して、ラスター画像アセットをアップロードします。
 
@@ -98,7 +98,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 詳しくは、 [画像アセットのアップロード](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## ラスターイメージアセットをアップロードする {#uploading-an-image-asset}
+## ラスター画像アセットをアップロードする {#uploading-an-image-asset}
 
 一定時間有効なアップロードトークンを取得したら、画像アセットをアップロードできます。この例では、マルチパート／フォームとしてアセットをアップロードし、残りの値を URL クエリ文字列として送信します。
 
@@ -106,7 +106,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-この `upload_token` および `company_name` フィールドは必須です。
+The `upload_token` および `company_name` フィールドは必須です。
 
 詳しくは、 [アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -118,7 +118,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-この `file_limit` パラメータは、ファイルサイズの制限をバイト単位で指定します。 `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
+The `file_limit` パラメータは、ファイルサイズの制限をバイト単位で指定します。 `file_exts` パラメータでは、アップロード可能なファイル名拡張子を指定します。この 2 つのパラメータはオプションです。
 
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
 
@@ -134,13 +134,13 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * ファイルサイズ制限.
 * ファイル名拡張子のリスト.
 * アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
-* ノックアウトの背景を使用するかどうか。 [ ノックアウトの背景 ] を有効にした場合は、[ コーナー ]、[ 公差 ]、[ 塗り潰し方法 ] を設定します。
+* ノックアウトの背景を使用するかどうかを指定します。 [ ノックアウトの背景 ] を有効にした場合は、[ コーナー ]、[ 公差 ]、[ 塗り潰し方法 ] を設定します。
 詳しくは、 [アップロード時の画像の微調整オプション](image-editing-options-upload.md#image-editing-options-at-upload).
 * アップロードするファイルの名前.
 
-上のフォームに関連付けられたHTMLのソースコードを表示するには、「 」を選択します [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+上のフォームに関連付けられたHTMLのソースコードを表示するには、「 」を選択します。 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Firefox で、ブラウザーウィンドウを右クリックし、「 **[!UICONTROL ページソースを表示]**. コードには、該当する URL クエリ文字列と、ユーザが&#x200B;**[!UICONTROL 「送信」]**&#x200B;をクリックしたときに実行される POST メソッドが表示されます。
+Firefox で、ブラウザーウィンドウを右クリックし、「 」を選択します。 **[!UICONTROL ページのソースを表示]**. このコードは、対応する URL クエリ文字列と、ユーザーが「 」を選択したときに実行されるPOSTメソッドを示します **[!UICONTROL 送信]**.
 
 Internet Explorer で XML 応答を表示するには、に移動します。 **[!UICONTROL 表示]** > **[!UICONTROL ソース]**. Firefox で XML 応答を表示するには、に移動します。 **[!UICONTROL ツール]** > **[!UICONTROL ブラウザーツール]** > **[!UICONTROL Web 開発者ツール]**. XML 応答の表示には、Firefox を使用することをお勧めします。
 
