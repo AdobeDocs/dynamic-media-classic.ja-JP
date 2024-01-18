@@ -1,5 +1,5 @@
 ---
-title: 「クイックスタート：Media Portal»
+title: 「クイックスタート：Media Portal」
 description: Adobe Dynamic Media Classicの Media Portal のテクニックと管理をすばやく習得して実行できるようにする、概要とクイックスタート。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: Rick Brough
@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '721'
+ht-degree: 56%
 
 ---
 
@@ -61,7 +61,7 @@ Media Portal に関連付けられ、Adobe Dynamic Media Classicアカウント�
 
 >[!NOTE]
 >
->Media Portal 管理者のみが、これらの FTP アカウントを管理できます。さらに、Media Portal 寄稿者ユーザの役割を持つユーザまたは Media Portal 寄稿者のみがファイルをアップロードできます。
+>これらの FTP アカウントを管理できるのは、Media Portal 管理者のみです。 さらに、Media Portal 寄稿者ユーザの役割を持つユーザまたは Media Portal 寄稿者のみがファイルをアップロードできます。
 
 詳しくは、[Media Portal ユーザの役割](media-portal-user-roles.md#media_portal_user_roles)を参照してください。
 
@@ -73,7 +73,7 @@ Media Portal ユーザーは、ファイルのエクスポート時に、ファ�
 
 ## 6. 画像プリセットの作成
 
-画像プリセットは、画像を書き出すときにサイズ、画質、形式、解像度およびその他の画像の外観を変更する、一連の定義済みの設定です。画像プリセットを作成して、ユーザが書き出すときに画像の形式を変更する方法を制御できます。
+画像プリセットは、画像を書き出す際のサイズ、画質、形式、解像度およびその他の画像の外観の要素を変更する、事前に定義された設定の集まりです。 画像プリセットを作成して、ユーザが書き出すときに画像の形式を変更する方法を制御できます。
 
 詳しくは、 [画像プリセットの作成と有効化](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 

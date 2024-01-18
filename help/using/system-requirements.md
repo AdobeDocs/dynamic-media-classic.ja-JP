@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 26%
+source-wordcount: '120'
+ht-degree: 10%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 26%
 
 Adobe Dynamic Media Classicデスクトップアプリケーションを最大限に活用するには、お使いのシステムが以下の必要システム構成と推奨事項を満たしていることを確認してください。
 
-* Microsoft® Windows® 7 以降またはmacOS X 10.10 以降の Macintosh Intel®プロセッサーが必要です。
+* Microsoft® Windows® 7 以降またはmacOS X 10.10 以降Mac Intel®プロセッサーが必要です。
 * 3 GB 以上の RAM が必要です（4 GB 以上を推奨）。
 * カラーモニタ。
-* 解像度 1280x1024 以上で True Color をサポートするビデオカード。
-* JAVA 対応のブラウザー。
+* 解像度 1280 x 1024 以上で True Color をサポートするビデオカード。
+* Java 対応のブラウザー。
 * Windows でサポートされているブラウザー：Internet Explorer 9.0 以上、Firefox 23 以上。
-* Macintosh でサポートされているブラウザー：Safari 6.0 以上、Firefox™ 23 以上。
+* Macがサポートしているブラウザー：Safari 6.0 以降、Firefox™ 23 以降。
 
 >[!MORELIKETHIS]
 >

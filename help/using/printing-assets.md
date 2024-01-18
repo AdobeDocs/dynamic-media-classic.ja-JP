@@ -12,7 +12,7 @@ role: User
 exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 25%
@@ -22,5 +22,5 @@ ht-degree: 25%
 # アセットの印刷{#printing-assets}
 
 1. 参照パネルで、プリントするアセットを 1 つまたは複数選択します。
-1. に移動します。 **[!UICONTROL ファイル]** > **[!UICONTROL 印刷]** または、 `Ctrl+P` (Windows®) または `Command+P` (Macintosh)。
-1. [ 印刷 ] ダイアログボックスで、印刷する部数を選択し、[ 印刷部数 ] をクリックします **[!UICONTROL 印刷]**.
+1. に移動します。 **[!UICONTROL ファイル]** > **[!UICONTROL 印刷]** または、 `Ctrl+P` (Windows®) または `Command+P` (Mac)。
+1. [ 印刷 ] ダイアログボックスで、印刷する部数を選択し、[ 印刷部数 ] をクリックします。 **[!UICONTROL 印刷]**.

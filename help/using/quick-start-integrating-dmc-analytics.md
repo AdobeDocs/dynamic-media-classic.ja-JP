@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics レポートを使用して、Web サイト上でのユーザー
 
 ここでは、Adobe Analytics 計測キットをすばやく習得できるように、手順について簡潔に説明します。
 
-## 1. Adobe Dynamic Media Classicを使用してAdobe Analyticsにログインし、Adobe Analyticsレポート変数をダウンロードする
+## 1. Adobe Dynamic Media Classicを使用してAdobe Analyticsにログオンし、Adobe Analyticsレポート変数をダウンロードする
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Adobe Analytics レポートを使用して、Web サイト上でのユーザー
 
 自分が Web サービスアクセスグループのメンバーであることを確認したら、Adobe Dynamic Media Classicで、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL Adobe Analytics]**. Adobe Analytics設定ページで、「 」を選択します。 **[!UICONTROL Adobe Analytics Login]**.
 
-詳しくは、[Adobe Analytics へのログイン](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
+詳しくは、 [Adobe Analyticsにログオンします。](log-analytics.md#log_in_to_adobe_analytics).
 
 Adobe Analyticsログインダイアログボックスで、Experience Cloud組織 ID（オプション）と完全な資格情報を入力し、「 」を選択します。 **[!UICONTROL ログイン]**. 「レポートスイート」ドロップダウンメニューで、使用するレポートスイートの名前を選択します。
 

@@ -11,10 +11,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 51%
+source-wordcount: '385'
+ht-degree: 41%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 51%
 
 関連トピック [Adobe Dynamic Media Classicからのアセットの書き出し](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**Media Portal ユーザが使用できる書き出しオプションを指定するには:**
+**Media Portal ユーザーが使用できる書き出しオプションを指定するには、次の手順を実行します。**
 
 1. グローバルナビゲーションバーで、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL 画像プリセット]**.
 1. 画像プリセットウィンドウで、必要に応じて次のオプションを選択します。
 
-   * **ユーザ定義コンバージョンの有効化**  — このオプションを選択すると、ユーザーは、 **[!UICONTROL サイズ]** 選択したアセットを書き出しウィンドウのドロップダウンリスト。 次に、ユーザはピクセルまたはセンチメートルなどの測定単位を選択して、希望の幅と高さを指定できます。ユーザがこれらのファイルを書き出したり、ダウンロードしたりするとき、画像ファイルの形式が変更されます。
+   * **ユーザ定義コンバージョンの有効化**  — このオプションを選択すると、ユーザーは、 **[!UICONTROL サイズ]** 選択したアセットを書き出しウィンドウのドロップダウンリスト。 その後、ピクセルやセンチメートルなどの単位を選択し、必要な幅と高さを指定できます。 ユーザがこれらのファイルを書き出したり、ダウンロードしたりするとき、画像ファイルの形式が変更されます。
 
      条件 **[!UICONTROL ピクセル]** が次の中から選択されます： **[!UICONTROL サイズ]** ドロップダウンリストに含める場合、結果の画像の幅×高さが 1 億ピクセルを超えることはできません。 このサイズは、正方形の画像の場合は 10,000 × 10,000 ピクセル、2x3 の縦横比の画像の場合は約 8,000 × 12,000 ピクセルに等しくなります。 このサイズ制限は、元のプライマリ画像を書き出す場合は適用されません。
 
@@ -45,4 +45,4 @@ ht-degree: 51%
 >[!MORELIKETHIS]
 >
 >* [画像プリセット](application-setup.md#image_presets)
->* [グループの画像プリセットへのアクセス権限の選択](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [グループの画像プリセットのアクセス権限の選択](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

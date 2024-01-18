@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classicガイド
 breadcrumb-title: Dynamic Media Classicガイド
 user-guide-description: Adobe Dynamic Media Classicの使用の詳細
 index: y
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 26%
+source-wordcount: '795'
+ht-degree: 20%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 26%
    + [アセットの印刷](printing-assets.md)
    + [ごみ箱フォルダーを管理](trash-folder.md)
    + [プロジェクトで作業を整理する](organizing-projects.md)
-+ 画像サイズ変更 {#image-sizing}
++ 画像のサイズ調整 {#image-sizing}
    + [クイックスタート：画像サイズ変更](quick-start-image-sizing.md)
    + [プライマリ画像のアップロード](uploading-master-images.md)
    + [プライマリ画像を公開](publishing-master-images.md)
@@ -96,7 +96,7 @@ ht-degree: 26%
    + [様々なズームビューアでの画像アセットのプレビュー](previewing-image-assets-different-zoom.md)
    + [ズーム画像の公開](publishing-zoom-images.md)
    + [Web ページへのズームビューアのリンク](linking-zoom-viewers-web-pages.md)
-+ eCatalog {#ecatalogs}
++ eCatalogs {#ecatalogs}
    + [クイックスタート： eCatalog](quick-start-ecatalog.md)
    + [PDFファイルのアップロード](uploading-pdf-files.md)
    + [eCatalog の作成](creating-ecatalog.md)
@@ -154,11 +154,11 @@ ht-degree: 26%
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics計装キット {#analytics-kit}
    + [クイックスタート：Adobe Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-dmc-analytics.md)
-   + [Adobe Analytics へのログイン](log-analytics.md)
+   + [Adobe Analyticsにログオンします。](log-analytics.md)
    + [Adobe Analyticsレポートの設定](configuring-analytics-reports.md)
    + [Adobe Analytics 計測キットを使用したビューアの計測](instrumenting-viewer-using-analytics-instrumentation.md)
    + [Adobe Analytics追跡を無効にする](disabling-analytics-tracking.md)
-   + [ レポートを表示して Adobe Analytics 統合をテストする](testing-integration-viewing-analytics-report.md)
+   + [Adobe Analyticsレポートを表示して統合をテストする](testing-integration-viewing-analytics-report.md)
    + [Adobe Analyticsビデオレポートを有効にする](enabling-analytics-video-reports.md)
    + [Adobe Analytics設定情報の公開](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium の統合 {#target-classic}
@@ -166,7 +166,7 @@ ht-degree: 26%
    + [Adobe Dynamic Media ClassicとAdobe Target Standard/Premium の統合](integrating-dmc-with-target.md)
    + [オファーセットの作成](creating-offer-set.md)
    + [オファーセットをAdobe Target Standard/Premium にプッシュ](pushing-offer-sets-target.md)
-+ ユーザ生成コンテンツ {#user-generated-content}
++ ユーザー生成コンテンツ {#user-generated-content}
    + [ユーザー生成コンテンツについて](about-ugc.md)
    + [アップロードしたアセットの削除](deleting-uploaded-asset.md)
    + [ディスク使用量情報の取得](getting-disk-usage-information.md)

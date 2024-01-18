@@ -1,5 +1,5 @@
 ---
-title: "クイックスタート：基本テンプレート"
+title: 「クイックスタート：基本テンプレート」
 description: Adobe Dynamic Media Classicをすばやく使い始めるのに役立つ概要とクイックスタートの基本事項です。
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: Rick Brough
@@ -12,10 +12,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 20%
+source-wordcount: '804'
+ht-degree: 21%
 
 ---
 
@@ -43,7 +43,7 @@ Template Basics は、Adobe Photoshopなどの画像編集アプリケーショ�
 
 ## 2.テンプレートを作成する
 
-テンプレートファイルからPSDを作成するには、 **[!UICONTROL テンプレートを作成]** ファイルをアップロードする際に使用します。 画像からテンプレートを作成するには、グローバルナビゲーションバーで、に移動します。 **[!UICONTROL ビルド]** > **[!UICONTROL 基本テンプレート]**&#x200B;に値を入力し、キャンバスの幅と高さの単位を入力します。 ページの右上隅にある、次のいずれかを選択します。 **[!UICONTROL Designer]** または **[!UICONTROL 開発者]**&#x200B;をクリックし、画像をテンプレートページにドラッグします。 また、画像を選択することもできます *前* 次に進みます。 **[!UICONTROL ビルド]** > **[!UICONTROL 基本テンプレート]**. テンプレートページには、次のためのツールが用意されています。
+テンプレートファイルからPSDを作成するには、 **[!UICONTROL テンプレートを作成]** ファイルをアップロードする際に使用します。 画像からテンプレートを作成するには、グローバルナビゲーションバーで、に移動します。 **[!UICONTROL ビルド]** > **[!UICONTROL 基本テンプレート]**、キャンバスの幅と高さの単位を入力します。 ページの右上隅にある、次のいずれかを選択します。 **[!UICONTROL Designer]** または **[!UICONTROL 開発者]**&#x200B;をクリックし、画像をテンプレートページにドラッグします。 また、画像を選択することもできます *前* 次に進みます。 **[!UICONTROL ビルド]** > **[!UICONTROL 基本テンプレート]**. テンプレートページには、次のためのツールが用意されています。
 
 * 画像レイヤーの追加。レイヤーを追加するには、画像をテンプレートページにドラッグします。
 * テキストレイヤーの追加。を選択します。 **[!UICONTROL テキストツール]** アイコン。 ポインターをドラッグしてテキストレイヤー用のボックスを作成し、テキストページ上のツールでテキストを書式設定します。

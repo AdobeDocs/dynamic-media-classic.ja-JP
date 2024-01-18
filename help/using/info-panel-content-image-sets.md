@@ -1,20 +1,18 @@
 ---
 title: 画像セット内の情報パネルのコンテンツを管理
 description: Adobe Dynamic Media Classicの画像セットで情報パネルのコンテンツを管理する方法について説明します。
-uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 51%
 
 ---
@@ -39,7 +37,7 @@ Adobe Dynamic Media Classicの次の機能を使用して、情報パネルの�
 1. 選択 **[!UICONTROL 情報パネルの設定]**.
 1. 「応答テンプレート」ドロップダウンリストで、次のいずれかの操作を行います。
 
-   * デフォルトの応答を使用するには、 **[!UICONTROL デフォルト]**. テンプレートデザインの XML がグレー表示の状態で「ユーザテンプレート」テキストボックスに表示されます。
+   * デフォルトの応答を使用するには、「 **[!UICONTROL デフォルト]**. テンプレートデザインの XML がグレー表示の状態で「ユーザテンプレート」テキストボックスに表示されます。
    * 独自の応答テンプレートを作成するには、「 **[!UICONTROL カスタム]**. 「ユーザテンプレート」テキストボックスでテンプレート XML の定義を入力します。テキストボックスに既に定義されている初期設定のテンプレートを基に、独自の応答を作成できます。
 
 1. （オプション）「デフォルトの応答」ボックスに、画像マップの情報の取得でAdobe Dynamic Media Classicにエラーが発生した場合に表示するテキストを入力します。 例えば、システムで会社名と画像セット名は取得されるが、ロールオーバー識別子は取得されない場合に、このメッセージがユーザに表示されます。
@@ -63,15 +61,15 @@ Adobe Dynamic Media Classicの次の機能を使用して、情報パネルの�
 
 * タブ区切りデータとコンマ区切りデータには、ロールオーバーテンプレートに必要な数の列を含めることができます。
 * データの最初の項目または列は、ロールオーバーの識別子です（画像マップ URL の rollover_key 値に関連付けられています）。
-* 識別子の後の各タブ区切りまたはコンマ区切りの項目が、応答テンプレート内で置き換える項目であることを確認します。したがって、最初の列は$1$に、2 番目の列は$2$に置き換えられます。
+* 識別子の後の各タブ区切りまたはコンマ区切りの項目が、応答テンプレート内で置き換える項目であることを確認します。 したがって、最初の列は$1$に、2 番目の列は$2$に置き換えられます。
 
 ### 外部でホストされている場所から画像セットに CSV コンテンツを読み込む {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. イメージセットをダブルクリックして、詳細ビューで開きます。
-1. 選択 **[!UICONTROL InfoPanel Datafeed]**.
+1. 選択 **[!UICONTROL InfoPanel データフィード]**.
 1. 「外部にホストされている CSV ファイルの場所（HTTP）」テキストフィールドに、CSV ファイルへの URL を入力します。
-1. （オプション）「更新をスケジュール」フィールドで、コンテンツの更新時間を指定し、 **[!UICONTROL 追加]**.
+1. （オプション）「更新のスケジュール」フィールドで、コンテンツの更新時間を指定し、 **[!UICONTROL 追加]**.
 
    複数の更新時刻を選択できます。各更新時刻は「時間を更新」テキストボックスに表示されます。スケジュールされた時刻を削除するには、日時を選択し、 **[!UICONTROL 削除]**.
 
-1. （オプション）「 」を選択します。 **[!UICONTROL 更新を実行]** 」をクリックします。
+1. （オプション）「 」を選択します。 **[!UICONTROL 更新を実行]** 」をクリックして、コンテンツを直ちに更新します。

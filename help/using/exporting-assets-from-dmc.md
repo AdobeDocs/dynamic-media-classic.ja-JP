@@ -12,10 +12,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 48%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classicで編集したアセットをローカルネット�
 
 書き出しジョブの場合、圧縮 ZIP ファイルの最大ファイルサイズは 1 GB です。また、書き出しジョブあたり最大 500 個のアセットを指定できます。
 
-Adobe Dynamic Media Classicは、ジョブ画面に書き出しジョブの記録を保持します。
+Adobe Dynamic Media Classicは、書き出しジョブの記録をジョブ画面に保持します。
 
 **Adobe Dynamic Media Classicからアセットを書き出すには：**
 

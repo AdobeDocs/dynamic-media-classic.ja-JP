@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 1%
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -62,14 +62,14 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 * 認証メカニズムがAdobe Analyticsに更新されました。 新しい統合に関連している場合、または一部の Analytics 変数をDynamic Media Classicデスクトップアプリケーション内で更新する必要がある場合。
 
-  詳しくは、 [Adobe Analyticsにログイン](/help/using/log-analytics.md) を参照してください。
+  詳しくは、 [Adobe Analyticsにログオンします。](/help/using/log-analytics.md) を参照してください。
 
 ## リリース20.21.2の修正点 {#minor-release}
 
 * 20.21.1の既知の制限： **[!UICONTROL サーバー]** ログイン画面のドロップダウンリストが空でした。
-* In **[!UICONTROL アップロードジョブオプション]**，レイヤー名のデフォルト値は以下にあります。 **[!UICONTROL Photoshop Options]**、現在は **[!UICONTROL Photoshopと画層名]**. PSD ファイルのレイヤーは、個別の画像としてアップロードされます。
+* In **[!UICONTROL アップロードジョブオプション]**，レイヤー名のデフォルト値は以下にあります。 **[!UICONTROL Photoshop Options]**、現在は **[!UICONTROL Photoshopと画層名]**. PSDファイル内のレイヤーは、別々の画像としてアップロードされます。
    * 以前のデフォルトは、 **[!UICONTROL レイヤー名]**&#x200B;は、画像ファイル内のレイヤー名またはレイヤー番号にちなんでPSDに名前を付けます。 レイヤ番号は、PSDファイル内のレイヤ名が既定のPhotoshopレイヤ名である場合に使用されました。
-   * の新しいデフォルト **[!UICONTROL Photoshopと画層名]**&#x200B;では、画像ファイルの後にPSDの名前を付け、その後にレイヤー名またはレイヤー番号を付けます。 PSD ファイルのレイヤー名が、初期設定の Photoshop レイヤー名の場合は、レイヤー番号が使用されます。
+   * の新しいデフォルト **[!UICONTROL Photoshopと画層名]**&#x200B;では、画像ファイルの後にPSDの名前を付け、その後にレイヤー名またはレイヤー番号を付けます。 レイヤ番号は、PSDファイル内のレイヤ名が既定のPhotoshopレイヤ名である場合に使用されます。
    * Adobe Dynamic Media Classicのレイヤー画像に一意の名前が付けられるので、既存のPSDやテンプレート ( 元のPSDファイル内の共有レイヤー名 ) の更新はおこなわれません。
 * アセットの壊れたサムネール。
 
@@ -88,7 +88,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 ## macOSまたは Windows®での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール {#installation-dmc-app}
 
-関連項目:
+関連トピック：
 
 * [Macでの最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-mac-dmc-app)
 * [Windows での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-windows-dmc-app)
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 ## ダウンロードと *無音* macOSでの最新のAdobe Dynamic Media Classicデスクトップアプリケーションのインストール {#install-silent-mac-dmc-app}
 
-関連項目:
+関連トピック：
 
 * [Macまたは Windows での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール](#installation-dmc-app)
 * [Windows での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとサイレントインストール](#install-silent-windows-dmc-app)
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 使用するコマンドは、基本的な MSI サイレントインストール用です。 ただし、Adobe Dynamic Media Classicデスクトップアプリケーションインストーラーは、InstallShield を使用して作成された InstallScript MSI インストーラーです。 インストーラーをレコードモードで実行すると、ユーザーの操作が応答ファイルに記録されます。 この応答ファイルは、次に [サイレントモードでのインストールの実行](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
-関連項目:
+関連トピック：
 
 * [Macまたは Windows での最新のAdobe Dynamic Media Classicデスクトップアプリケーションのダウンロードとインストール](#installation-dmc-app)
 
@@ -273,7 +273,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 **_Adobe Dynamic Media Classicのランディングページに Media Cart パネルが表示されません。_**<br>Adobe Dynamic Media Classicで、**[!UICONTROL 設定/個人設定&#x200B;]**. 「ブラウザー」セクションで、**[!UICONTROL MediaPortal 機能を表示&#x200B;]**が選択されている（オンになっている）。 タップ**[!UICONTROL 保存/閉じる&#x200B;]**.
 
-**_アセットの公開状態（緑色のインジケーター）が正しく反映されていません。_**<br>アセットの正しい公開状態を確認するには、ブラウザーのユーザーインターフェイスで UI に再ログインする必要がありました。 デスクトップアプリケーションで、Adobeでは**[!UICONTROL 更新&#x200B;]**アイコン（右側）**[!UICONTROL なしを選択&#x200B;]**」ボタンをクリックします。 次をタップします。**[!UICONTROL 更新&#x200B;]**アイコンをクリックして、特定のページ上にあるすべてのアセットの最新ステータスを確認します。 ブラウザー UI と同様に、再ログインは不要です。
+**_アセットの公開状態（緑色のインジケーター）が正しく反映されていません。_**<br>アセットの正しい公開状態を確認するには、ブラウザーのユーザーインターフェイスで UI に再ログインする必要がありました。 デスクトップアプリケーションで、Adobeでは**[!UICONTROL 更新&#x200B;]**アイコン（右側）**[!UICONTROL なしを選択&#x200B;]**」ボタンをクリックします。 次をタップします。**[!UICONTROL 更新&#x200B;]**アイコンをクリックして、特定のページ上にあるすべてのアセットの最新ステータスを確認します。 ブラウザー UI と同様に、再ログオンは不要です。
 
 ![更新アイコン](/help/using/assets/refresh-icon1.png)
 *更新アイコン*

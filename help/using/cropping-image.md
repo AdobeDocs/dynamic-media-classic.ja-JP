@@ -10,9 +10,9 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 35%
 
 ---
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classicで画像を切り抜くことができます。 シ�
 
 >[!NOTE]
 >
->切り抜き後に、 **[!UICONTROL 名前を付けて保存]** 切り抜いた画像を別の名前で保存します。 名前を付けて保存ウィンドウで、「 **[!UICONTROL 「新規保存」マスター]** をクリックして、画像の 2 番目のコピーを保存します。 選択 **[!UICONTROL 「追加ビューとして保存」マスター]** したがって、元のバージョンと切り抜いたバージョンを別の名前で保存できます。 選択 **[!UICONTROL オリジナルを置換]** ：画像の切り抜き元のファイルを削除します。 次に、画像の名前を入力し、「 」を選択します。 **[!UICONTROL 送信]**.
+>切り抜き後に、 **[!UICONTROL 名前を付けて保存]** 切り抜いた画像を別の名前で保存します。 名前を付けて保存ウィンドウで、「 **[!UICONTROL 「新規保存」プライマリ]** をクリックして、画像の 2 番目のコピーを保存します。 選択 **[!UICONTROL 「追加ビューとして保存」プライマリ]** したがって、元のバージョンと切り抜いたバージョンを別の名前で保存できます。 選択 **[!UICONTROL オリジナルを置換]** ：画像の切り抜き元のファイルを削除します。 次に、画像の名前を入力し、「 」を選択します。 **[!UICONTROL 送信]**.
 
 ## 画像の周りの空白の除去 {#crop-to-remove-white-space-around-an-image}
 

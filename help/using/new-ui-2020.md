@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -52,15 +52,15 @@ Adobe Dynamic Media Classicの基になる API に変更はありません。
 +++
 
 +++**_この新しいデスクトップアプリケーションのエクスペリエンスには、サードパーティとの統合に対する移行や変更は必要ですか？_**
-いいえ. Adobe Dynamic Media Classicをご利用のお客様は、新しいデスクトップアプリケーションを使用するためにサードパーティ統合を移行または変更する必要はありません。
+いいえ。 Adobe Dynamic Media Classicをご利用のお客様は、新しいデスクトップアプリケーションを使用するためにサードパーティ統合を移行または変更する必要はありません。
 +++
 
 +++**_この変更は自動化スクリプトに影響を与えますか？_**
-いいえ. 自動化スクリプトには影響しません。 新しいデスクトップアプリケーションは、既になじみのあるブラウザーベースのエクスペリエンスと同じような動作および動作をします。
+いいえ。 自動化スクリプトには影響しません。 新しいデスクトップアプリケーションは、既になじみのあるブラウザーベースのエクスペリエンスと同じような動作および動作をします。
 +++
 
 +++**_新しいAdobe Dynamic Media Classicデスクトップアプリケーションは Mac やパソコンで動作しますか。_**
-はい. この新しいデスクトップアプリケーションは、Mac および PC 上で動作する、クロスプラットフォームソリューションです。 Linux®は *not* サポート対象。
+はい。 この新しいデスクトップアプリケーションは、Mac および PC 上で動作する、クロスプラットフォームソリューションです。 Linux®は *not* サポート対象。
 +++
 
 +++**_私の会社は厳しいセキュリティ要件を持っています。 新しいAdobe Dynamic Media Classicデスクトップアプリケーションは、これらの要件をどのように処理しますか。_**
@@ -99,9 +99,9 @@ Adobe Dynamic Media Classicは、リッチメディア戦略を強化するた�
 * [AdobeDynamic Media Newsletter Archives](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
-+++**_Adobe Experience Manager Assets を使用したAdobeDynamic Mediaへのアップグレードについて詳しく学びたいと思います。 詳細はどこで入手できますか？_**
++++**_Adobe Experience Manager Assetsを使用したAdobeDynamic Mediaへのアップグレードについて詳しく学びたいと思います。 詳細はどこで入手できますか？_**
 次世代のリッチメディアオーサリング、公開、動的配信にアップグレードするメリットについて詳しくは、 [アップグレード用のDynamic MediaポータルのAdobe](/help/using/upgrade.md).
 +++
 

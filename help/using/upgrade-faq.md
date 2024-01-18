@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 9 年連続でインターネット小売 1000 に対するトップのリッチメディアベンダー。
 * 24/7/265サポート、99.95%の SLA
-* 800 を超えるクライアントを世界中に提供する実証済みのインフラストラクチャ。1 ヶ月あたり 3.5 PB のトラフィック、管理資産が 5 億を超え、前年比 60%のトラフィック増加を実現しています。
+* 800 を超えるクライアントを世界中に提供する実証済みのインフラストラクチャ。1 ヶ月あたり 3.5 ペタバイトのトラフィックと 5 億件を超える管理資産を提供し、前年比 60%のトラフィック増加を実現します。
 
 +++
 
@@ -97,17 +97,17 @@ AdobeがAdobe Scene7の名前をに変更しました。 [!DNL Dynamic Media Cla
 +++
 
 +++**アップグレードプロセスに関連するダウンタイムはありますか？**
-いいえ. [!DNL Dynamic Media Classic] は、アップグレードプロセス中も中断せずに動作します。 アップグレードが完了し、コンテンツの検証が完了すると、すべてのユーザーは、 [!DNL Dynamic Media] ～の構成要素 [!DNL Experience Manager] アセット。
+いいえ。 [!DNL Dynamic Media Classic] は、アップグレードプロセス中も中断せずに動作します。 アップグレードが完了し、コンテンツの検証が完了すると、すべてのユーザーは、 [!DNL Dynamic Media] ～の構成要素 [!DNL Experience Manager] アセット。
 
 +++
 
 +++**アップグレード準備チェックリスト内のすべての手順が必要ですか？**
-いいえ. The [準備チェックリスト](/help/using/upgrade-readiness.md) には、必須およびオプションのベストプラクティス手順が含まれています。
+いいえ。 The [準備チェックリスト](/help/using/upgrade-readiness.md) には、必須およびオプションのベストプラクティス手順が含まれています。
 
 +++
 
 +++**アップグレードが必要ですか？**
-いいえ. Adobeは、引き続き完全にサポートおよび保守を行っています [!DNL Dynamic Media Classic] （お客様からリクエストされたバグ修正、セキュリティ修正、プラットフォームの拡張性、信頼性）を今後も追加していきます。
+いいえ。 Adobeは、引き続き完全にサポートおよび保守を行っています [!DNL Dynamic Media Classic] （お客様からリクエストされたバグ修正、セキュリティ修正、プラットフォームの拡張性、信頼性）を今後も追加していきます。
 
 次の新機能を利用する準備が整ったら、アップグレードできます： [!DNL Dynamic Media].
 
@@ -118,7 +118,7 @@ AdobeがAdobe Scene7の名前をに変更しました。 [!DNL Dynamic Media Cla
 
 * ビジュアルコンフィギュレーター（画像作成者、画像レンダリング）。
 * 画像テンプレート。
-* eCatalog.
+* eCatalogs。
 
 +++
 
@@ -128,22 +128,22 @@ AdobeがAdobe Scene7の名前をに変更しました。 [!DNL Dynamic Media Cla
 +++
 
 +++**既存の操作 [!DNL Dynamic Media Classic] アップグレード中およびアップグレード後も、URL、API 統合およびビューアは引き続き機能しますか？**
-はい. 次の項目を引き続き使用すると、 [!DNL Dynamic Media Classic] ( 旧称Adobe Scene7) パブリッシングおよび配信インフラストラクチャをそのまま [!DNL Dynamic Media] 解決策。
+はい。 次の項目を引き続き使用すると、 [!DNL Dynamic Media Classic] ( 旧称Adobe Scene7) パブリッシングおよび配信インフラストラクチャをそのまま [!DNL Dynamic Media] 解決策。
 
 +++
 
 +++**実稼動 URL を更新する必要がありますか？**
-いいえ. Adobeは引き続き [!DNL Dynamic Media Classic] パブリッシュと配信インフラストラクチャをそのまま使用 [!DNL Dynamic Media] 解決策。 このアプローチの利点は、Web ページ上の実稼動用 URL を変更する必要がなく、への移行のリスクと労力を最小限に抑えることです。 [!DNL Dynamic Media].
+いいえ。 Adobeは引き続き [!DNL Dynamic Media Classic] パブリッシュと配信インフラストラクチャをそのまま使用 [!DNL Dynamic Media] 解決策。 このアプローチの利点は、Web ページ上の実稼動用 URL を変更する必要がなく、への移行のリスクと労力を最小限に抑えることです。 [!DNL Dynamic Media].
 
 +++
 
 +++**API 統合と他の自動化スクリプトを書き換える必要はありますか？**
-いいえ. Adobeは引き続き [!DNL Dynamic Media Classic] パブリッシュと配信インフラストラクチャをそのまま使用 [!DNL Dynamic Media] 解決策。 さらに、すべてのアセットがにレプリケートされます。 [!DNL Dynamic Media Classic]. このアプローチの利点は、API ベースの統合や自動化スクリプトを書き換える必要がないため、への移行のリスクと労力を最小限に抑えることです。 [!DNL Dynamic Media].
+いいえ。 Adobeは引き続き [!DNL Dynamic Media Classic] パブリッシュと配信インフラストラクチャをそのまま使用 [!DNL Dynamic Media] 解決策。 さらに、すべてのアセットがにレプリケートされます。 [!DNL Dynamic Media Classic]. このアプローチの利点は、API ベースの統合や自動化スクリプトを書き換える必要がないため、への移行のリスクと労力を最小限に抑えることです。 [!DNL Dynamic Media].
 
 +++
 
 +++**カスタムビューアを変更したり、再開発したりする必要はありますか？**
-いいえ. Adobeは引き続き [!DNL Dynamic Media Classic] パブリッシュと配信インフラストラクチャをそのまま使用 [!DNL Dynamic Media] 解決策。 このアプローチの利点は、カスタムビルドビューアを引き続き使用できるので、への移行のリスクと労力を最小限に抑えることです。 [!DNL Dynamic Media].
+いいえ。 Adobeは引き続き [!DNL Dynamic Media Classic] パブリッシュと配信インフラストラクチャをそのまま使用 [!DNL Dynamic Media] 解決策。 このアプローチの利点は、カスタムビルドビューアを引き続き使用できるので、への移行のリスクと労力を最小限に抑えることです。 [!DNL Dynamic Media].
 +++
 
 +++**設定（画像プリセット、ビデオエンコーディングなど）をに移行する方法を教えてください。 [!DNL Dynamic Media]?**
@@ -157,7 +157,7 @@ AdobeがAdobe Scene7の名前をに変更しました。 [!DNL Dynamic Media Cla
 +++
 
 +++**アセットをバッチ/バルクアップロードするために FTP を引き続き使用できますか？**
-はい. 取り込み用に既存のワークフローを変更する必要はなく、FTP ベースのアップロードのスケジュールを引き続き設定できます。
+はい。 取り込み用に既存のワークフローを変更する必要はなく、FTP ベースのアップロードのスケジュールを引き続き設定できます。
 
 +++
 
@@ -167,7 +167,7 @@ AdobeがAdobe Scene7の名前をに変更しました。 [!DNL Dynamic Media Cla
 +++
 
 +++**次に該当 [!DNL Dynamic Media] すべての地域で利用できますか？**
-はい. Adobeには、北米、ヨーロッパ、アジア太平洋のデータセンターがあります。
+はい。 Adobeには、北米、ヨーロッパ、アジア太平洋のデータセンターがあります。
 
 +++
 
@@ -197,12 +197,12 @@ Adobeは、に移動されたすべてのアセットに対して自動検証を
 +++
 
 +++**次に対する SLA があるか [!DNL Dynamic Media]?**
-はい. 詳しくは、Adobeアカウントチーム担当者にお問い合わせください。
+はい。 詳しくは、Adobeアカウントチーム担当者にお問い合わせください。
 
 +++
 
 +++**独自の CDN（コンテンツ配信ネットワーク）を [!DNL Dynamic Media]?**
-はい. 独自の CDN を [!DNL Dynamic Media].
+はい。 独自の CDN を [!DNL Dynamic Media].
 
 +++
 
@@ -216,7 +216,7 @@ Adobeは、に移動されたすべてのアセットに対して自動検証を
 
 * ビジュアルコンフィギュレーター（画像作成者、画像レンダリング）。
 * 画像テンプレート。
-* eCatalog.
+* eCatalogs。
 
 関連トピック [機能の比較](/help/using/upgrade-feature-comparison.md) 詳細を参照できるページです。
 
@@ -230,7 +230,7 @@ Adobeは、に移動されたすべてのアセットに対して自動検証を
 ## コンサルティングサービス
 
 +++**アップグレードプロセスを自分で完了することはできますか？**
-いいえ. アップグレードをAdobeするには、担当のスコーピング担当者と AGS に相談します。
+いいえ。 アップグレードをAdobeするには、担当のスコーピング担当者と AGS に相談します。
 
 +++
 
@@ -246,7 +246,7 @@ Adobeは、ユーザーと協力してプロジェクトを計画します。 Ad
 +++**サポートを受けるにはどうすればよいですか？**
 24/7/365 ClientCare のサポートが利用可能です。 [テクニカルサポートに連絡](https://experienceleague.adobe.com/?support-solution=General#support).
 
-電話： 1-800-898-9743 （米国） | +44 (0)20 35641782 （英国） | +81-3-6743-9632 （日本）
+電話： 1-800-898-9743 （米国） | +44 (0)20 35641782 (UK) | +81-3-6743-9632 （日本）
 
 +++
 

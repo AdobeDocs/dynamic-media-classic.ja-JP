@@ -12,7 +12,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 18%
@@ -23,9 +23,9 @@ ht-degree: 18%
 
 参照パネルでアセットを選択し、操作できるようにします。 アセットを選択するには、次のいずれかの手順に従います。
 
-* **単一のアセット**  — アセットを選択します（ダブルクリックすると、詳細ビューでアセットが開きます）。
+* **単一のアセット**  — アセットを選択します（ダブルクリックすると、アセットが詳細ビューで開きます）。
 
-* **複数のアセット** - Ctrl キー (Windows®) または Command キー (Macintosh) を押しながらアセットをクリックすると、参照パネルの別の場所でアセットを選択できます。 隣接するアセットを選択するには、Shift キーを押しながら 2 つのアセットを順に選択します。
+* **複数のアセット** - Ctrl キー (Windows®) または Command キー (Mac) を押しながらアセットをクリックして、参照パネルの別の場所でアセットを選択します。 隣接するアセットを選択するには、Shift キーを押しながら 2 つのアセットを順に選択します。
 
 * **参照パネル内のすべてのアセット**  — に移動します。 **[!UICONTROL 選択]** > **[!UICONTROL すべて]**.
 

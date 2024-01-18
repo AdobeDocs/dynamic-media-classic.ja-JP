@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '11288'
-ht-degree: 38%
+source-wordcount: '10991'
+ht-degree: 37%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classicでは、2 つのファイルに同じ名前を付け
 
 以前に画像をアップロードしてから元のファイルを変更（または置き換え）した場合、「上書き」オプションを選択すると、Adobe Dynamic Media Classicによる画像の置き換え方法が指定されます。 画像に関する情報は変わりませんが、古い画像は新しい画像に置き換わります。フォルダーに、まだAdobe Dynamic Media Classicにない画像も含まれている場合、これらの画像は追加されます。
 
-アップロードした画像が何らかの方法で変更された（画像が変更された）ものの、画像への参照が同じ場合は、このオプションを使用します。 Adobe® PDF をアップロードしてリッピングする場合にも、上書きは便利です。Adobe Dynamic Media Classicを微調整するには *rips* 画像をアップロードし、アップロードダイアログボックスで ICC カラープロファイルオプションを調整して、上書き機能を使用して再アップロードします。
+アップロードした画像が何らかの方法で変更された（画像が変更された）ものの、画像への参照が同じ場合は、このオプションを使用します。 上書きは、Adobe®PDFをアップロードしてリッピングする場合にも便利です。 Adobe Dynamic Media Classicを微調整するには *rips* 画像をアップロードし、アップロードダイアログボックスで ICC カラープロファイルオプションを調整して、上書き機能を使用して再アップロードします。
 
 実稼動サーバーからの画像にアクセスするために使用されるAdobe Dynamic Media Classic ID は、画像ファイル名から派生します。 ファイル名に使用する大文字と小文字は、既存のファイルの置き換え時と、画像へのアクセスに使用されるAdobe Dynamic Media Classic ID の両方で重要です。 Adobe Dynamic Media Classicにアップロードする前に、ファイル名での大文字と小文字の使用が正しいことを確認してください。同じ画像で大文字と小文字が異なるAdobe Dynamic Media Classic ID が使用されないようにします。
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classicでは、2 つのファイルに同じ名前を付け
 
 画像プリセット画面を開くには、グローバルナビゲーションバーでに移動します。 **[!UICONTROL 設定]** > **[!UICONTROL 画像プリセット]**.
 
-詳しくは、 [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+詳しくは、 [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 ### 画像プリセットの作成と編集 {#creating-and-editing-image-presets}
 
@@ -193,7 +193,7 @@ Adobe Dynamic Media Classicでは、2 つのファイルに同じ名前を付け
 
    * GIF カラー量子化オプション
 
-      * **[!UICONTROL タイプ]** - 「アダプティブ」（デフォルト）、「Web」または「Macintosh」を選択します。 次を選択した場合、 **[!UICONTROL GIFとAlpha]**&#x200B;の場合、「Macintosh」オプションは使用できません。
+      * **[!UICONTROL タイプ]** - 「アダプティブ」（デフォルト）、「Web」または「Mac」を選択します。 次を選択した場合、 **[!UICONTROL GIFとAlpha]**&#x200B;に設定されていない場合、Macオプションは使用できません。
 
       * **[!UICONTROL ディザ]** - 「拡散」または「オフ」を選択します。
 
@@ -203,7 +203,7 @@ Adobe Dynamic Media Classicでは、2 つのファイルに同じ名前を付け
 
    * JPEG オプション
 
-      * **[!UICONTROL 品質]**  — 圧縮レベルのJPEGを制御します。 この設定は、ファイルサイズと画質の両方に影響を与えます。JPEG品質の尺度は 1～100 である。
+      * **[!UICONTROL 品質]**  — 圧縮レベルのJPEGを制御します。 この設定は、ファイルサイズと画質の両方に影響を与えます。JPEG 画質レベルは、1 ～ 100 の範囲で指定します。
 
       * **[!UICONTROL JPGの色度ダウンサンプリングを有効にする]**  — 目は高周波の色情報に対して高周波の輝度より感度が低いので、JPEG画像は画像情報を輝度と色成分に分割する。 JPEG 画像を圧縮すると、輝度成分は最大解像度が維持され、色成分はピクセルのグループの平均化によりダウンサンプリングされます。ダウンサンプリングにより、データ量が半分または 3 分の 1 に減り、認識された品質にほとんど影響を与えません。 ダウンサンプリングは、グレースケール画像では使用できません。この方法は、コントラストが高い画像（テキストがオーバーレイされた画像など）で圧縮の量を低減させるのに役立ちます。
 
@@ -272,7 +272,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
 関連トピック [ビデオプリセット](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) トレーニングビデオ。
 
-**アダプティブビデオプリセットをアクティブ化または非アクティブ化するには:**
+**アダプティブビデオプリセットをアクティベートまたはアクティベート解除するには：**
 
 1. Adobe Dynamic Media Classicの右上隅近くにある、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL ビデオプリセット]** > **[!UICONTROL アダプティブビデオプリセット]**.
 1. アダプティブビデオプリセットページで、プリセット名の横にあるチェックボックスを選択解除して、アップロードオプションを設定ダイアログボックスの「eVideo オプション」リストからプリセットを削除します。
@@ -302,7 +302,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
      詳しくは、[アダプティブビデオエンコーディング（16:9 または 4:3）ビデオプリセット](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)を参照してください。
 
-   * **[!UICONTROL シングルエンコーディングプリセット]**
+   * **[!UICONTROL 単一のエンコーディングプリセット]**
 
      >[!NOTE]
      >
@@ -336,7 +336,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
 モバイル、タブレットおよびデスクトップに配信するビデオを作成するための、すべての縦横比で機能するエンコーディングプリセットです。このプリセット（デフォルトとベストプラクティス）を使用してエンコードされたアップロード済みのソースビデオは、固定の高さに設定されますが、幅はビデオの縦横比を維持するために自動的に拡大/縮小されます。
 
-**アダプティブビデオ（初期設定）**
+**アダプティブビデオ（デフォルト）**
 
 |  | エンコーディングプリセット名／ツールヒントテキスト | エンコードファイルのサフィックス | ビデオのデータレート（Kbps） | 幅/高さ（ピクセル） | fps | オーディオビットレート（kbps） | 推奨 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -371,7 +371,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
 エンコードオプションパラメータについては、[エンコーディングプリセットオプションについて](application-setup.md#about_encoding_preset_options)を参照してください。
 
-**H264 Main 3.2 - オーディオ AAC、MP4 ファイル拡張子**
+**H264 Main 3.2 - Audio AAC、MP4 ファイル拡張子**
 
 |  | エンコードプリセット名/ツールヒントテキスト | ターゲット接続速度（Kbps） | エンコードファイルのサフィックス | ビデオのデータレート（Kbps） | 幅/高さ（ピクセル） | fps | オーディオビットレート（Kbps） | 推奨 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -389,13 +389,13 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 |  | エンコードプリセット名/ツールヒントテキスト | ターゲット接続速度（Kbps） | エンコードファイルのサフィックス | ビデオのデータレート（Kbps） | 幅/高さ（ピクセル） | fps | オーディオビットレート（Kbps） | 推奨 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9、480x270（400 Kbps）、OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | ソースと同じ | 64 | 低解像度のワイドスクリーン |
-| 2 | 16:9、640x360（800 Kbps）、OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | ソースと同じ | 80 | 中解像度のワイドスクリーン |
-| 3 | 16:9、800x450（1200 Kbps）、OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | ソースと同じ | 96 | 中～高解像度 |
-| 4 | 16:9、1280x720（2000 Kbps）、OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000 | 1280 x 720 | ソースと同じ | 128 | 高精細、ワイドスクリーン |
-| 5 | 4:3、320x240（400 Kbps）、OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | ソースと同じ | 64 | 低解像度 |
-| 6 | 4:3、480x360（800 Kbps）、OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | ソースと同じ | 80 | 中解像度 |
-| 7 | 4:3、640x480（1200 Kbps）、OGG | 1.5 Mbps | _OGG_640x480_1200K | 1200 | 640 x 480 | ソースと同じ | 96 | 中～高解像度 |
-| 8 | 4:3、1280x960（2000 Kbps）、OGG | 3.0 Mbps | _OGG_1280x960_2000K | 2000 | 1280 x 960 | ソースと同じ | 128 | 高精細 |
+| 2 | 16:9、640x360(800 Kbps)、OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | ソースと同じ | 80 | 中解像度のワイドスクリーン |
+| 3 | 16:9、800x450(1200 Kbps)、OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | ソースと同じ | 96 | 中～高解像度 |
+| 4 | 16:9、1280x720(2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000 | 1280 x 720 | ソースと同じ | 128 | 高精細、ワイドスクリーン |
+| 5 | 4:3、320x240(400 Kbps)、OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | ソースと同じ | 64 | 低解像度 |
+| 6 | 4:3、480x360(800 Kbps)、OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | ソースと同じ | 80 | 中解像度 |
+| 7 | 4:3、640x480(1200 Kbps)、OGG | 1.5 Mbps | _OGG_640x480_1200K | 1200 | 640 x 480 | ソースと同じ | 96 | 中～高解像度 |
+| 8 | 4:3、1280x960(2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x960_2000K | 2000 | 1280 x 960 | ソースと同じ | 128 | 高精細 |
 
 ### モバイルビデオエンコーディングプリセット {#mobile-video-encoding-presets}
 
@@ -403,7 +403,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
 エンコードオプションパラメータについては、[エンコーディングプリセットオプションについて](application-setup.md#about_encoding_preset_options)を参照してください。
 
-**H264 ベースライン 2.1 - オーディオ AAC、MP4 ファイル拡張子**
+**H264 ベースライン 2.1 — オーディオ AAC、MP4 ファイル拡張子**
 
 |  | エンコードプリセット名/ツールヒントテキスト | ターゲット接続速度（Kbps） | エンコードファイルのサフィックス | ビデオのビットレート（Kbps） | 幅/高さ（ピクセル） | fps | オーディオビットレート（Kbps） | 推奨 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -426,7 +426,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
 *ビューアプリセット*&#x200B;は、ユーザのコンピュータ画面および携帯端末上でリッチメディアアセットがどのように表示されるかを決定する設定です。管理者は、ビューアプリセットを作成できます。一連のビューア構成オプション用の設定があります。例えば、ビューアの表示サイズ、ズーム動作、カラースキーム、境界線およびフォントを変更できます。
 
-ベストプラクティスとしては、Adobe Dynamic Media ClassicHTML5 ビデオビューアを使用します。 HTML5 ビデオビューアで使用されるプリセットは堅牢なビデオプレーヤーです。
+ベストプラクティスとしては、Adobe Dynamic Media ClassicHTML5 ビデオビューアを使用します。 HTML5 ビデオビューアで使用されるプリセットは、堅牢なビデオプレーヤーです。
 
 を組み合わせて 1 つのプレーヤーにすると、次の操作が可能になります。
 
@@ -499,7 +499,7 @@ Web ページごとに異なるニーズがあります。別のブラウザウ�
 
 |  | ビューアテクノロジ | デスクトップ | Apple iPhone | Apple iPad | Android™スマートフォン | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| イメージセットビューア |  |  |  |  |  |  |
+| 画像セットビューア |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -547,7 +547,7 @@ Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再�
 
 |  | ビューアテクノロジ | デスクトップ | Apple iPhone | Apple iPad | Android™スマートフォン | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| イメージセットビューア |  |  |  |  |  |  |
+| 画像セットビューア |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -595,7 +595,7 @@ Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再�
 
 関連トピック [ビューアプリセット](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) トレーニングビデオ。
 
-**ビューアプリセットを追加および編集するには:**
+**ビューアプリセットを追加および編集するには：**
 
 1. Adobe Dynamic Media Classicの右上隅近くにある、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**.
 
@@ -676,7 +676,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 ビューアプリセット画面でビューアプリセットを非アクティブ化しないと、プレビューダイアログボックスの「プリセット」ドロップダウンリストの件数が増加します。
 
-**ビューアプリセットをアクティブ化または非アクティブ化するには:**
+**ビューアプリセットをアクティベートまたはアクティベート解除するには：**
 
 1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**.
 1. ビューアプリセットページで、を選択または選択解除します **[!UICONTROL アクティブ]** ビューアプリセットをアクティブ化または非アクティブ化するオプション
@@ -687,7 +687,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 URL がクリップボードにコピーされます。Web ページ、携帯端末またはアプリケーションの HTML コードで必要に応じてこの URL を使用することができます。
 
-**ビューアプリセットの URL をコピーするには:**
+**ビューアプリセットの URL をコピーするには：**
 
 1. 参照パネルからアセットを選択します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
@@ -711,7 +711,7 @@ URL がクリップボードにコピーされます。Web ページ、携帯端
 
 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-**ビューアプリセットの埋め込みコードをコピーするには:**
+**ビューアプリセットの埋め込みコードをコピーするには：**
 
 1. アセットの参照パネルでアセットを選択します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
@@ -744,7 +744,7 @@ URL がクリップボードにコピーされます。Web ページ、携帯端
 * スウォッチセット
 * メディアセット
 
-**初期設定ビューアを設定するには:**
+**初期設定のビューアを設定するには：**
 
 1. 「設定」ドロップダウンリストで、「 **[!UICONTROL アプリケーション設定]**.
 1. [ 設定 ] ウィンドウの左側のペインで、に移動します。 **[!UICONTROL アプリケーション設定]** > **[!UICONTROL ビューア]**
@@ -928,7 +928,7 @@ Adobe Dynamic Media Classicはバッチセットプリセットを使用して�
 
 関連トピック [2D スピンセット](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) トレーニングビデオ。
 
-**バッチセットプリセットを作成するには:**
+**バッチセットプリセットを作成するには：**
 
 1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL バッチセットプリセット]** > **[!UICONTROL バッチセットプリセット]**. 詳細ページの右上隅に設定されている&#x200B;**[!UICONTROL 「フォームを表示」]**&#x200B;は初期設定の表示です。
 1. プリセットリストパネルで、「 **[!UICONTROL 追加]** をクリックして、ページの右側にある詳細パネルで定義フィールドをアクティブにします。
@@ -973,11 +973,11 @@ spin-03-12
 
 ![レシピ画像をバッチ設定](assets/se_batch_set_recipe.png)
 
-スピンセット内のアセット名で共有されている部分のグループ化は、（ハイライト表示されているように）「一致」フィールドに追加されます。 行と列を含むアセット名の可変部分は、それぞれ「行」フィールドと「列」フィールドに追加しています。
+スピンセット内のアセット名で共有されている部分のグループ化は、（ハイライト表示されているように）「一致」フィールドに追加されます。 行と列を含むアセット名の可変部分は、それぞれ「行」フィールドと「列」フィールドに追加されます。
 
-このスピンセットをアップロードして公開するときに、アップロードオプションを設定ダイアログボックスの&#x200B;**[!UICONTROL バッチセットプリセット]**&#x200B;の下に表示される 2D スピンセット手法の名前をアクティブ化します。
+このスピンセットをアップロードして公開する際に、の下に表示される 2D スピンセット手法の名前をアクティブ化します。 **[!UICONTROL バッチセットプリセット]** をクリックします。
 
-**2D スピンセットを自動生成するためのバッチセットプリセットを作成するには:**
+**2D スピンセットを自動生成するためのバッチセットプリセットを作成するには：**
 
 1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL バッチセットプリセット]** > **[!UICONTROL バッチセットプリセット]**. 詳細ページの右上隅に設定されている&#x200B;**[!UICONTROL 「フォームを表示」]**&#x200B;は初期設定の表示です。
 1. プリセットリストパネルで、「 **[!UICONTROL 追加]** をクリックして、ページの右側にある詳細パネルで定義フィールドをアクティブにします。

@@ -12,10 +12,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 25%
+source-wordcount: '1015'
+ht-degree: 24%
 
 ---
 
@@ -45,15 +45,15 @@ PSDファイルをアップロードするためのオプションは、アッ�
 
 * **カラープロファイルオプション**  — 次の場所にあります。 **[!UICONTROL カラープロファイルオプション]**.
 
-   * **[!UICONTROL デフォルトの色保存]**
+   * **[!UICONTROL 初期設定の色の保持]**
 
    * **[!UICONTROL 元のカラースペースを保持]**  — 画像の元のカラースペースを保持します。
 
    * **[!UICONTROL カスタム送信元]** > **[!UICONTROL 宛先]** - 「変換元」と「変換先」のカラースペースを選択できるメニューを開きます。 Adobe Dynamic Media Classicにアップロードした標準のPhotoshopカラースペースまたはカラースペースを選択できます。 詳しくは、[ICC プロファイル](/help/using/icc-profiles.md)を参照してください。
 
-* **Photoshop オプション**
+* **Photoshop Options**
 
-   * **[!UICONTROL レイヤーを維持]**  — レイヤーがある場合はPSD内のレイヤーを個々のアセットにリッピングします。 アセットのレイヤーと PSD との関連付けはそのまま保持されます。詳細ビューでPSDファイルを開き、画層パネルを選択すると、画層を表示できます。 詳しくは、PSD ファイル内のレイヤーの表示と編集を参照してください。
+   * **[!UICONTROL レイヤーを維持]**  — レイヤーがある場合はPSD内のレイヤーを個々のアセットにリッピングします。 アセットのレイヤーと PSD との関連付けはそのまま保持されます。詳細ビューでPSDファイルを開き、画層パネルを選択すると、画層を表示できます。 詳しくは、レイヤーファイルの表示とPSDを参照してください。
 
    * **[!UICONTROL テンプレートを作成]**  — テンプレートファイル内のレイヤーからPSDを作成します。
 

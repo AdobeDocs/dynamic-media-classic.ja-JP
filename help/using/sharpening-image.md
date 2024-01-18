@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2198'
 ht-degree: 38%
 
 ---
@@ -45,7 +45,7 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像の�
 
 関連トピック [シャープ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) トレーニングビデオ。
 
-**画像にシャープを適用する方法:**
+**画像にシャープを適用するには：**
 
 画像にシャープを適用するには、そのロールオーバーを選択します **[!UICONTROL 編集]** ボタンと選択 **[!UICONTROL シャープ]**&#x200B;を開くか、詳細ビューの [ 参照 ] パネルでパネルを開き、 **[!UICONTROL シャープ]**. シャープエディターページが開き、シャープコマンドが表示されます。 コマンドを選択し、「 」を選択します。 **[!UICONTROL 保存]**.
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像の�
 | 名前 | URL プロトコル | 値 | 例 |
 | --- | --- | --- | --- |
 | 単純なシャープの適用 | `op_sharpen` | `0` または `1` | `op_sharpen=1` |
-| 再サンプルモード | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`：標準のバイリニア補間を選択します。 最速の再サンプリング方法。エイリアシングアーティファクトが生じることがあります。<br>`bicub`：バイキュービック補間を選択します。 `bilin` よりも CPU 使用率が増えますが、エイリアシングアーチファクトが少ないシャープな画像になります。<br><br>`sharp2`：補間アルゴリズムとして変更された Lanczos Windows®関数を選択します。 バイキュービック法よりも少しシャープな結果が得られ、CPU コストがかかります。<br><br>`trilin`：修正トリリニア補間を選択し、可能な場合は、高い解像度と低い解像度の両方を使用します。エイリアシングが問題となっている場合にのみ使用することをお勧めします。周波数の高いデータが削減されることから、JPEG のサイズが小さくなります。 | `resMode=sharp2` |
+| 再サンプルモード | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`：標準のバイリニア補間を選択します。 最速の再サンプリング方法。エイリアシングアーティファクトが生じることがあります。<br>`bicub`：バイキュービック補間を選択します。 CPU 使用率が～よりも高い `bilin`を使用しますが、目に見えるエイリアスアーティファクトが減少した、よりシャープな画像が生成されます。<br><br>`sharp2`：補間アルゴリズムとして変更された Lanczos Windows®関数を選択します。 バイキュービック法よりも少しシャープな結果が得られ、CPU コストがかかります。<br><br>`trilin`：修正された 3 線形補間を選択します。高い解像度と低い解像度の両方を使用します（使用可能な場合）。 エイリアシングが問題となっている場合にのみ使用することをお勧めします。周波数の高いデータが削減されることから、JPEG のサイズが小さくなります。 | `resMode=sharp2` |
 | アンシャープマスク | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`：フィルターの強さ係数（実数 0 ～ 5）<br><br>`radius`：フィルターカーネル半径（ピクセル単位、実数 0 ～ 250） <br><br>`threshold`：フィルターしきい値レベル（整数 0 ～ 255）<br><br>`monochrome`：に設定 `0` 各カラーコンポーネントのシャープマスクを個別に解除するには、 `1` 画像の明るさ（強さ）をアンシャープマスクするには | `op_usm=1,1,10,0` |
 
 を選択します。 **[!UICONTROL シャープ]** メニューを開き、次のオプションを選択します。
@@ -114,13 +114,13 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像の�
 
 あるサイズカテゴリにおいて、各画像に対して 1 つのプリセットを使用する場合、会社管理者は Web コードを変更せずに、その画像プリセットの定義を更新し、再公開し、その形式を使用して各画像に影響を与えることができます。ベストプラクティスとして、サイト上でユニークなサイズあたりに 1 つの画像プリセットを使用します。画像プリセットを追加するには、グローバルナビゲーションバーで、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 画像プリセット]**. 次に、 **[!UICONTROL 追加]** または、 **[!UICONTROL 編集]** 既存のプリセットを変更する場合。 プリセットの名前自体が、唯一の必須フィールドです。ただし、すべてのプリセットにある程度のシャープを含めることをお勧めします。
 
-**JPG 画質**
+**JPG品質**
 
 「JPG 画質」オプションは、JPG の圧縮レベルを制御します。
 
 * **JPG品質**  — 圧縮レベルとクロミナンスのダウンサンプリングを制御する場合は、このオプションを選択します。
 
-* **スライダー**  — 圧縮レベルのJPGを決定します。 この設定は、ファイルサイズと画質の両方に影響を与えます。JPG品質の尺度は 1～100 である。
+* **スライダー**  — 圧縮レベルのJPGを決定します。 この設定は、ファイルサイズと画質の両方に影響を与えます。JPG 画質の値の範囲は、1 ～ 100 です。
 
 * **JPGの色度ダウンサンプリングを有効にする**  — 目は高周波の色情報に対して高周波の輝度より感度が低いので、JPEG画像は画像情報を輝度と色成分に分割する。 JPEG 画像を圧縮すると、輝度成分は最大解像度が維持され、色成分はピクセルのグループの平均化によりダウンサンプリングされます。ダウンサンプリングにより、データ量が半分または 3 分の 1 に減り、認識された品質にほとんど影響を与えません。 ダウンサンプリングは、グレースケール画像では使用できません。この方法は、コントラストが高い画像（テキストがオーバーレイされた画像など）で圧縮の量を低減させるのに役立ちます。
 
@@ -128,7 +128,7 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像の�
 
 画像プリセットを使用しない場合、または URL 文字列と一緒に具体的な Image Server のシャープの適用プロトコルを渡さない場合、ダウンサンプル時に画像にシャープは適用されません。ただし、シャープが適用されない場合は、デフォルトのシャープ値を設定でき、その後は常にいくつかのシャープが適用されます。
 
-会社のデフォルトのシャープオプションを設定するには、次に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 公開設定]** > **[!UICONTROL Image Server]**. 「デフォルトの再サンプリングモード」を「 **[!UICONTROL `Sharp2`]**&#x200B;を指定すると、ダウンサンプリング時に常に画像がシャープになります。
+会社のデフォルトのシャープオプションを設定するには、次に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 公開設定]** > **[!UICONTROL Image Server]**. 「デフォルトの再サンプリングモード」を「 **`Sharp2`**&#x200B;を指定すると、ダウンサンプリング時に常に画像がシャープになります。
 
 **ビューアプリセットへのシャープの追加**
 
