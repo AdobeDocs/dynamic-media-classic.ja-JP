@@ -4,9 +4,10 @@ solution: Dynamic Media Classic
 type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/dynamic-media-classic.ja-JP
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+recommendations: noDisplay
+source-git-commit: 4e5487742ac1dcbf7db5ba3568fdf7784664e25b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.
 
 | メタデータ | 説明 |
 |--- |--- |
-| solution-title | 記事のヘッダーでリンクとして使用されます |
+| solution-title | 記事のヘッダーでリンクとして使用されます。 |
 | solution-hub-url | ハブページを開く |
 | solution-icon | ソリューションタイトルの横にソリューションアイコンが表示されます。 未実装 |
 | getting-started-url | はじめにのページへのリンク |
