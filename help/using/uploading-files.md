@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3877'
 ht-degree: 27%
 
 ---
@@ -123,7 +123,7 @@ Adobe Dynamic Media Classicには、静的コンテンツのプレビュー URL 
 * アセット ID にはスペースを含む名前（black jacket.tif や blue jacket.jpg など）を使用しないことをお勧めします。Adobe Dynamic Media Classicは、アセット名を使用して URL 文字列を構築する際に、アセット名の空白スペースを ASCII エンコードします。 このような ASCII コードは見づらいので、URL が読みづらくなります。
 * 言語固有の文字はファイル名で使用できます。一方、次の文字はファイル名で使用できません。
 
-  \ ; / ?: @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
 
   ファイル名に上記の文字が 1 つ以上含まれている場合、その文字はアップロード時にファイル名から削除されます。
 

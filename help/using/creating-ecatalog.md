@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 51%
+source-wordcount: '975'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ eCatalog を作成する際には、「**[!UICONTROL 保存後に公開]**」オ
 
 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)も参照してください。
 
-**eCatalog を作成するには:**
+**eCatalog を作成するには：**
 
 1. 以下のいずれかの手順に従って、eCatalog を作成してください。
 
@@ -72,13 +72,13 @@ eCatalog を作成する際には、「**[!UICONTROL 保存後に公開]**」オ
 | セットが既に公開されているか？ | 編集を保存する前に「保存後に公開」オプションが選択されているか | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 | --- | --- | --- | --- |
 | はい | はい | 公開 | 公開 |
-| はい | いいえ | 公開 | 既存のセットメンバーの公開状態が維持される。編集中に追加した新しいセットメンバーの公開または非公開の状態が維持される。 |
+| はい | いいえ | 公開 | 既存のセットメンバは、公開済みの状態を保持します。 編集中に追加した新しいセットメンバーの公開または非公開の状態が維持される。 |
 | いいえ | はい | 公開 | 公開 |
 | いいえ | いいえ | 非公開 | 既存のセットメンバーおよび編集中に追加した新しいセットメンバーの公開または非公開の状態が維持される。 |
 
 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)も参照してください。
 
-**eCatalog を編集するには:**
+**eCatalog を編集するには：**
 
 1. eCatalog のロールオーバーを選択 **[!UICONTROL 編集]** 」ボタンをクリックします。
 1. 必要に応じて変更を加えます。
@@ -91,7 +91,7 @@ eCatalog を作成する際には、「**[!UICONTROL 保存後に公開]**」オ
 
 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)も参照してください。
 
-**eCatalog を削除するには:**
+**eCatalog を削除するには：**
 
 1. グリッドビュー、リストビューまたは詳細ビューで、1 つ以上の eCatalog を選択します。
 1. グローバルナビゲーションバーで、に移動します。 **[!UICONTROL ファイル]** > **[!UICONTROL 削除]** > **[!UICONTROL 削除]**.
@@ -100,7 +100,7 @@ eCatalog を作成する際には、「**[!UICONTROL 保存後に公開]**」オ
 
 Adobe Dynamic Media Classicは、eCatalog 画面の「ページを並べ替え」タブにある eCatalog にデフォルトのページ番号を提供します。 ページの名前を独自に定義する場合は、目次を構成するページラベルを変更します。表紙と裏表紙には名前を付けることをお勧めします。例えば、表紙には、「0-1 ページ」ではなく「表紙」を読み取ることができます。
 
-カスタマイズした eCatalog の目次は、手動で作成するか、CSV（Mac OS のみ）または XML ファイルからページ名を読み込んで作成できます。
+eCatalog 用にカスタマイズした目次 (TOC) を手動で作成することも、CSV(Macのみ ) または XML ファイルからページ名を読み込んで作成することもできます。
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ TOC フィールドに別々のラベルを設定するには `tocEN` および 
 | --- | --- |
 | `<image_IPS_ID>` | `tocEN=<EN_page_label>??tocFR=<FR_page_label>` |
 
-ユーザデータフィールドを XML ファイルに読み込むには、次のように、属性`vc_userdata` を含めます。
+「ユーザーデータ」フィールドを XML ファイルにインポートするには、属性を含めます。 `vc_userdata`:
 
 ```as3
 <ips> 

@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobeは、製品がお客様のセキュリティ要件を満たすよう取り
 +++
 
 +++**_新しいデスクトップアプリケーションの複数のインスタンスを同時に開くことはできますか。_**
-いいえ。新しいAdobe Dynamic Media Classicデスクトップアプリケーションを構築するAIRテクノロジーでは、特定の時点でアプリケーションの複数のインスタンスを開くことを制限しています。
+いいえ。 新しいAdobe Dynamic Media Classicデスクトップアプリケーションを構築するAIRテクノロジーにより、ユーザーが特定の時点でアプリケーションの複数のインスタンスを開くことが制限されています。
 +++
 
 +++**_ローカルコンピューターを使用してAdobe Dynamic Media Classicにアップロードできるファイルの数に制限はありますか？_**
@@ -80,7 +80,7 @@ Windows®で新しいAdobe Dynamic Media Classicデスクトップアプリケ�
 +++
 
 +++**_新しいAdobe Dynamic Media Classicデスクトップアプリケーションで新しい SKU が必要な場合 ライセンスコストがかかりますか？_**
-新しいAdobe Dynamic Media Classicデスクトップアプリケーションを使用する際に、SKU やライセンスの変更は必要ありません。
+両方の質問にいいえ。 新しいAdobe Dynamic Media Classicデスクトップアプリケーションを使用する際に、SKU やライセンスの変更は必要ありません。
 +++
 
 +++**_Adobe Dynamic Media Classicデスクトップアプリケーションのアップグレードを有効にする方法_**

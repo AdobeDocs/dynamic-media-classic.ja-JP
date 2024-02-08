@@ -12,9 +12,9 @@ role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '303'
 ht-degree: 20%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 20%
 
 Adobe Analytics Instrumentation Kit を使用して、HTML5 ビューアをAdobe Analyticsと統合できます。
 
-事前定義済みのAdobe Dynamic Media ClassicHTML5 ビューアプリセットのいずれかを使用する場合、Adobe Analyticsにデータを送信するすべての実装コードが既に含まれています。これ以上の計測は必要ありません。
+事前に定義されたAdobe Dynamic Media ClassicHTML5 ビューアプリセットを使用する場合、Adobe Analyticsにデータを送信するためのすべての実装コードが既に含まれているので、追加の実装は必要ありません。
 
 ## Adobe Dynamic Media ClassicからのAdobe Analyticsトラッキングの設定 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
@@ -33,11 +33,11 @@ Adobe Analytics Instrumentation Kit を使用して、HTML5 ビューアをAdobe
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-ここで、 `Adobe Dynamic Media Classic Company ID` がAdobe Dynamic Media Classicの会社名に設定されている。 および `&preset` は、会社プリセット名が `companypreset`. このような場合、 `companypreset-1, companypreset-2`など。 番号が大きいほど、プリセットの最新のインスタンスになります。正しい会社プリセット値の名前を判断するには、 **[!UICONTROL URL をコピー]** をクリックし、 `preset=`パラメーターを使用して会社プリセット名を検索します。
+ここで、 `Adobe Dynamic Media Classic Company ID` がAdobe Dynamic Media Classicの会社名に設定されている。 および `&preset` は、会社プリセット名が以下の場合を除きオプションです。 `companypreset`. このような場合は、 `companypreset-1, companypreset-2`など。 番号が大きいほど、プリセットの最新のインスタンスになります。正しい会社プリセット値の名前を判断するには、「 **[!UICONTROL URL をコピー]**&#x200B;をクリックし、 `preset=`パラメーターを使用して会社プリセット名を検索します。
 
 続けて、ビューアイベントをAdobe Analyticsトラッキングコードに送信する関数を追加します。
 
-を `s7ComponentEvent()` 関数をコンテナHTML（または JSP、または ASPX など）に追加します。
+次を追加： `s7ComponentEvent()` 関数をコンテナHTML（または JSP、または ASPX など）に追加します。
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
