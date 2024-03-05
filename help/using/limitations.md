@@ -10,10 +10,10 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -33,10 +33,12 @@ Adobeでは、ページ抽出用にスピンセットや画像セットを作成
 | アセット — 制限タイプ | ベストプラクティス | 制限が適用されました |
 | --- | --- | --- |
 | **画像**  — 画像あたりのスマート切り抜きの数 | 5 | 100 |
-| **すべてのセット**  — セットあたりの重複アセット数 | 重複なし | 20 |
+| **すべてのセット**  — セットあたりの重複アセット数 | 重複なし | 20‡ |
 | **すべてのセット**  — セットあたりの最大アセット数 | 1 セットあたり 5～10 個の画像 | 1000 |
 | **スピンセット** - 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
 | **PDF**  — 抽出対象となるPDFの最大ページ数 |  | 100( すべてのPDF) |
+
+‡ベストプラクティスは、重複するアセットをセットに含めないことです。 1 つのアセットに対する重複は 20 個までに制限されます。 そのアセットに別の重複を追加した場合は、そのセット内で、リクエストがエラーを表示するか、重複を無視します。
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 

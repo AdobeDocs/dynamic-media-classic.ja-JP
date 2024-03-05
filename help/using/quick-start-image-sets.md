@@ -1,21 +1,19 @@
 ---
 title: "クイックスタート：画像セット"
 description: Adobe Dynamic Media Classicの画像セットのテクニックをすばやく習得して実行するのに役立つ、画像セットの概要とクイックスタートです。
-uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 18%
+source-wordcount: '666'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +29,10 @@ Adobe Dynamic Media Classicの画像セットは、統合された表示エク�
 
 | 制限タイプ | ベストプラクティス | 制限が適用されました |
 | --- | --- | --- |
-| セットあたりの重複アセット数 | 重複なし | 20 |
+| セットあたりの重複アセット数 | 重複なし | 20‡ |
 | 1 セットあたりの最大画像数 | 1 セットあたり 5～10 個の画像 | 1000 |
+
+‡ベストプラクティスは、重複するアセットをセットに含めないことです。 1 つのアセットに対する重複は 20 個までに制限されます。 そのアセットに別の重複を追加した場合は、そのセット内で、リクエストがエラーを表示するか、重複を無視します。
 
 関連トピック [Dynamic Mediaの制限](/help/using/limitations.md).
 
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classicの画像セットは、統合された表示エク�
 
 >[!NOTE]
 >
->画像セットを作成して保存した際に「**[!UICONTROL 保存後に公開]**」を選択した場合は（初期設定）、この手順は不要です。
+>この手順は、 **[!UICONTROL 保存後に公開]** （デフォルト）画像セットを作成して保存した時点。
 
 選択 **[!UICONTROL 公開用にマーク]** アイコンをクリックします。 次に、 **[!UICONTROL 公開]**. 公開ページで、「 」を選択します。 **[!UICONTROL 公開を送信]**.
 
