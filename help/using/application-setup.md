@@ -1,6 +1,6 @@
 ---
 title: アプリケーション設定
-description: Adobe Dynamic Media Classicのアプリケーション領域を設定する方法について説明します。 アプリケーション領域では、一般的な設定の入力、画像、ビューアおよびビデオエンコーディングプリセットの作成、初期設定のビューアとメタデータの定義、公開設定およびビデオ SEO 設定を行うことができます。 また、この領域を使用してバッチセットプリセットを設定し、2D スピンセットを自動生成することもできます。
+description: Adobe Dynamic Media Classicのアプリケーション領域を設定する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10991'
-ht-degree: 37%
+source-wordcount: '10947'
+ht-degree: 36%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 37%
 
   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-  テンプレートにが含まれている場合 `<ID>`その後、Adobe Dynamic Media Classicが `https://<server>/is/image`です。 `<server>` は、一般設定で定義される公開サーバー名です。
+  テンプレートにが含まれている場合 `<ID>`その後、Adobe Dynamic Media Classicが `https://<server>/is/image`です。 `<server>` は、一般設定で定義される Publishing Server 名です。
 
   CDN 無効化テンプレートを設定し、 Backpack_B という名前の画像を選択して、 **[!UICONTROL ファイル]** > **[!UICONTROL CDN を無効にする]** CDN 無効化インターフェイスでは、次のように生成された URL が生成されます。
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classicでは、2 つのファイルに同じ名前を付け
 
 画像プリセット画面を開くには、グローバルナビゲーションバーでに移動します。 **[!UICONTROL 設定]** > **[!UICONTROL 画像プリセット]**.
 
-詳しくは、 [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+詳しくは、 [スマートイメージング](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### 画像プリセットの作成と編集 {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
 リッチメディアコンテンツのリーチをデスクトップ、タブレット、モバイルのユーザーに拡張し、ビデオエクスペリエンスを合理化します。
 
-詳しくは、 [HTML5 ビューアについて](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) (『Adobeビューアリファレンスガイド』)。
+詳しくは、 [HTML5 ビューアについて](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) (『Adobeビューアリファレンスガイド』)。
 
 詳しくは、 [Adobe Dynamic Media Classicビューアプリセットの互換性マトリックス](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Adobe Dynamic Media Classicはアダプティブビデオエンコーディン�
 
 Web ページごとに異なるニーズがあります。別のブラウザウィンドウでHTML5 ビューアを開くリンクを提供する Web ページが必要な場合もあります。 ホスティングページに直接HTML5 ビューアを埋め込む必要がある場合もあります。 後者の場合、Web ページは静的レイアウトである可能性が高くなります。 また、「レスポンシブ」で、デバイスごと、またはブラウザーウィンドウのサイズごとに表示方法が変わります。 これらのニーズに対応するため、Adobe Dynamic Media Classicに付属のHTML5 ビューアでは、静的 Web ページとレスポンシブデザイン Web ページの両方をサポートしています。
 
-レスポンシブビューアを Web ページに埋め込む方法について詳しくは、 [レスポンシブ画像ライブラリについて](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [レスポンシブ画像ライブラリの使用](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api)、および [コマンドリファレンス — コマンド属性](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+レスポンシブビューアを Web ページに埋め込む方法について詳しくは、 [レスポンシブ画像ライブラリについて](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [レスポンシブ画像ライブラリの使用](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、および [コマンドリファレンス — コマンド属性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### ビューアプリセットのタイプ {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Web ページごとに異なるニーズがあります。別のブラウザウ�
 
 ビューアでサポートされる Web ブラウザーとオペレーティングシステムのバージョンについて詳しくは、ビューアのリリースノートに記載されています。
 
-詳しくは、 [Adobeビューアリファレンスリリースノート](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+詳しくは、 [Adobeビューアリファレンスリリースノート](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | ビューアテクノロジ | デスクトップ | Apple iPhone | Apple iPad | Android™スマートフォン | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -613,7 +613,7 @@ Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再�
      
    * **編集**  — 既存のビューアプリセットを選択し、「 」を選択します。 **[!UICONTROL 編集]**.
 
-1. ビューアを設定ページの「プリセット名」フィールドに、プリセット名を入力または編集します。
+1. ビューアの設定ページの「プリセット名」フィールドに、プリセット名を入力または編集します。
 1. 必要に応じてその他のオプションを設定します。
 
    >[!NOTE]
@@ -732,7 +732,7 @@ URL がクリップボードにコピーされます。Web ページ、携帯端
 1. 埋め込みコードダイアログボックスで、「 **[!UICONTROL クリップボードにコピー]**.
 1. 選択 **[!UICONTROL 閉じる]**.
 
-## 初期設定のビューアの設定 {#configuring-default-viewers}
+## 初期設定のビューアの設定 {#configure-default-viewers}
 
 デフォルトビューアを使用して、Adobe Dynamic Media Classicでプレビューを使用する際にアセットに関連付けられるデフォルトのビューアを設定できます。 次のアセットタイプの初期設定のプレビュー環境を設定できます。
 
@@ -812,7 +812,7 @@ Adobe Dynamic Media Classicには事前定義済みのメタデータビュー�
 
 Media Portal 管理者または会社管理者が、ユーザ定義のカスタムメタデータフィールドを作成できます。カスタムフィールドは、Adobe Dynamic Media Classicでのアセットの整理に役立ちます。 必要に応じて、フィールドを「アクティブ」としてマークできます。 アクティブにすると、これらのカスタムメタデータフィールドの名前が詳細ビューのメタデータパネルに表示されます。 ユーザは、ユーザ定義メタデータフィールドに情報を入力して、アセットの説明を追加することができます。また、ユーザ定義メタデータフィールドを検索条件にすることもできます。
 
-ユーザ定義メタデータフィールドの効果的な使用方法の 1 つとして、特定の発売（販売）でアセットのアクティブ化の時間を遅らせることができます。タイプに基づいて、「アクティベーション」フィールドを定義します *日付*. 次に、 **[!UICONTROL メタデータ]** 詳細ビューのパネルまたは **[!UICONTROL ファイル]** > **[!UICONTROL 情報を編集]**&#x200B;に設定すると、アセットをアクティベートするタイミングを指定できます。 Adobe Dynamic Media Classicは、アセットの公開ステータスと公開履歴を確認します。 アクティベーション時間内でない場合、公開ステータスは「未公開」と表示されます。
+ユーザ定義メタデータフィールドの効果的な使用方法の 1 つとして、特定の発売（販売）でアセットのアクティブ化の時間を遅らせることができます。タイプに基づいて、「アクティベーション」フィールドを定義します *日付*. 次に、 **[!UICONTROL メタデータ]** 詳細ビューのパネルまたは **[!UICONTROL ファイル]** > **[!UICONTROL 情報を編集]**&#x200B;に設定すると、アセットをアクティベートするタイミングを指定できます。 Adobe Dynamic Media Classicは、アセットの公開済みステータスと公開履歴を確認します。 アクティベーション時間内でない場合、公開ステータスは「未公開」と表示されます。
 
 >[!NOTE]
 >
@@ -914,7 +914,7 @@ Adobe Dynamic Media Classicは、ファイルを検索し、以前に完全に�
 
 または、形式フィールドを利用しないで、「コードを表示」を使用することもできます。このビューでは、正規表現を完全に使用して命名規則の定義を作成します。
 
-定義には、一致とベース名という 2 つの要素を使用できます。これらのフィールドでは、命名規則のすべての要素を定義して、要素が含まれるセットを命名するために使用される規則の一部を指定できます。会社の個々の命名規則では、これらの要素ごとに 1 行以上の定義を使用できます。 固有の定義を必要なだけ使用して、メイン画像、カラー要素、代替表示要素およびスウォッチ要素などの個別の要素にグループ化することができます。
+定義には、一致とベース名という 2 つの要素を使用できます。これらのフィールドは、命名規則に対して定義したすべての要素で、それらが含まれるセットに名前を付けるために使用される規則の一部を示します。 会社の個々の命名規則では、これらの要素ごとに 1 行以上の定義を使用できます。 固有の定義を必要なだけ使用して、メイン画像、カラー要素、代替表示要素およびスウォッチ要素などの個別の要素にグループ化することができます。
 
 ### バッチセットプリセットの作成 {#creating-a-batch-set-preset}
 

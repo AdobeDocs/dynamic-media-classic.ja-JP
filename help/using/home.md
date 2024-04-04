@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '517'
 ht-degree: 3%
 
 ---
@@ -26,13 +26,13 @@ Adobe Dynamic Media Classicヘルプへようこそ。 ここでは、利用可�
 
 ## Dynamic Media Developer Resources
 
-* [Dynamic Media Developer Resources ランディングページ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)  — ビューアリファレンスガイド、画像サービング/画像レンダリング API、画像実稼働システム API、Adobe Dynamic Media Classicリリースノートが含まれます。
+* [Dynamic Media Developer Resources ランディングページ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)  — ビューアリファレンスガイド、画像サービング/画像レンダリング API、画像実稼働システム API、Adobe Dynamic Media Classicリリースノートが含まれます。
 * [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  — ビデオ、ショッパブルメディア、混在メディア、スピンセット、インラインズーム、画像およびスウォッチセットおよびフライアウトのビューア例が含まれます。
 
 ## Adobe Dynamic Media Classic User Resources
 
 * [Dynamic Media月刊ニュースレター](dynamic-media-newsletter.md)
-* [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [ガイド：画像のシャープニングのベストプラクティスガイド](/help/using/assets/s7_sharpening_images.pdf)
 * [ガイド： Adobe Dynamic Media Classic Supports SEO](/help/using/assets/s7_seo.pdf)  — 今日の検索エンジンでは、Web サイトや画像の検索が可能になります。 Adobe Dynamic Media Classicは、より多くのトラフィックをAdobe Dynamic Media Classicユーザーの Web サイトに導くように、画像検索エンジンを使いやすくする取り組みをサポートしています。 このPDFガイドでは、これを実現するための背景および実装に関する推奨事項を示します。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

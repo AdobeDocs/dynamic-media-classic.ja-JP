@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classicガイド
 breadcrumb-title: Dynamic Media Classicガイド
 user-guide-description: Adobe Dynamic Media Classicの使用の詳細
 index: y
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '796'
 ht-degree: 20%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 20%
    + [機能リストの比較](upgrade-feature-comparison.md)
    + [アップグレード準備チェックリスト](upgrade-readiness.md)
 + [Adobe Dynamic Media Classicガイド](home.md)
-+ [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新しいAdobe Dynamic Media Classicサインインが利用可能になりました](new-ui-2020.md)
++ [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [新しいAdobe Dynamic Media Classicログオンが利用可能になりました](new-ui-2020.md)
 + [AdobeDynamic Mediaニュースレターアーカイブ (Experience League別 )](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classicの概要 {#intro}
    + [Adobe Dynamic Media Classic Desktop App — 利用可能](dynamic-media-classic-desktop-app.md)
@@ -182,7 +182,7 @@ ht-degree: 20%
    + [PDFの操作](pdfs.md)
    + [PSDファイルの操作](psd-files.md)
    + [PostScript ファイルとIllustratorファイルの操作](postscript-illustrator-files.md)
-   + [ビネット、ウィンドウカバリング、キャビネットファイルの操作](vignette-window-covering-cabinet-files.md)
+   + [ビネット、ウィンドウカバー、キャビネットファイルの操作](vignette-window-covering-cabinet-files.md)
 + サポートファイル {#support-files}
    + [フォント](fonts.md)
    + [XML ファイル](xml-files.md)

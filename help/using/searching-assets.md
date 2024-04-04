@@ -1,21 +1,19 @@
 ---
 title: Dynamic Media Classic Assets の検索
 description: Adobe Dynamic Media Classicでアセットを検索する方法を説明します。
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 17%
+source-wordcount: '1511'
+ht-degree: 18%
 
 ---
 
@@ -79,9 +77,9 @@ Adobe Dynamic Media Classicでファイルアセットを検索するには、�
    1. を選択します。 **[!UICONTROL フィールドを追加]** ドロップダウンメニューからフィールド名を選択します。
    1. を選択します。 **[!UICONTROL 次を含む]** オプション： **[!UICONTROL 次を含む]**, **[!UICONTROL 次を含まない]**, **[!UICONTROL 次で始まる]**, **[!UICONTROL 次で終わる]**&#x200B;または **[!UICONTROL 次と等しい]**.
    1. 数字フィールドでは、値を選択するか、カスタム日付範囲を入力します。
-   1. （オプション）さらに検索フィールドを作成するには、手順 1～4 を繰り返します。
+   1. （オプション）手順 1 ～ 4 を繰り返してさらに検索フィールドを作成します。
 
-を選択します。 **[!UICONTROL 検索フィールドを削除]** アイコン（内側に「X」が付いた円）を使用して、検索フィールドを削除できます。
+を選択します。 **[!UICONTROL 検索フィールドを削除する]** アイコン（内側に「X」が付いた円）を使用して、検索フィールドを削除できます。
 
 詳細検索パネルの右下隅で、 **[!UICONTROL 検索]** をクリックして検索を開始します。 検索の結果は、右側の参照パネルに表示されます。 任意の検索条件を変更し、「 **[!UICONTROL 検索]** をクリックして、検索を再度実行します。
 
@@ -89,7 +87,7 @@ Adobe Dynamic Media Classicでファイルアセットを検索するには、�
 
 ## メタデータを使用したアセットのフィルタリング {#filter-assets-using-metadata}
 
-アセットライブラリの「フィルタ」タブでアセットをフィルタリングします。アセットをフィルタリングするには、メタデータ値を条件として使用します。フィルターするメタデータフィールドを選択すると、「フィルター」タブに、選択したフィールドに入力されたすべてのメタデータ値が表示されます。 また、各値に割り当てられたアセットの数も表示されます。 例えば、 **[!UICONTROL 作成者]** メタデータフィールド **[!UICONTROL フィルター]** 「 」タブには、 **[!UICONTROL 作成者]** 様々なアセットのメタデータフィールド。 また、名前ごとに、その名前に割り当てられたアセットの数が表示されます。 次に、メタデータ値を選択して、その値に割り当てられたすべてのアセットを表示します。 この例では、 `Prairie Cat` メタデータ値を使用して、名前が指定されているすべてのアセットを表示 `Prairie Cat` が **[!UICONTROL 作成者]** メタデータフィールド。 複数のメタデータフィールドをフィルタリング条件として使用して、フィルタリングを実行することができます。
+アセットライブラリの「フィルタ」タブでアセットをフィルタリングします。アセットをフィルタリングするには、メタデータ値を条件として使用します。フィルタリングするメタデータフィールドを選択すると、「フィルター」タブに、選択したフィールドに入力されたすべてのメタデータ値が表示されます。 また、各値に割り当てられたアセットの数も表示されます。 例えば、 **[!UICONTROL 作成者]** メタデータフィールド **[!UICONTROL フィルター]** 「 」タブには、 **[!UICONTROL 作成者]** 様々なアセットのメタデータフィールド。 また、名前ごとに、その名前に割り当てられたアセットの数が表示されます。 次に、メタデータ値を選択して、その値に割り当てられたすべてのアセットを表示します。 この例では、 `Prairie Cat` メタデータ値を使用して、名前が指定されているすべてのアセットを表示 `Prairie Cat` が **[!UICONTROL 作成者]** メタデータフィールド。 複数のメタデータフィールドをフィルタリング条件として使用して、フィルタリングを実行することができます。
 
 フィルター操作を保存して、何度も実行できます。
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 33%
+source-wordcount: '683'
+ht-degree: 31%
 
 ---
 
@@ -46,15 +46,15 @@ ht-degree: 33%
 
 ## Web ページへのスウォッチセット URL の追加 {#adding-swatch-set-urls-to-your-web-page}
 
-スウォッチセットをデプロイする最も一般的な方法は、Web ページに（ナビゲーションアイコンを使用して）リンクを配置することです。 選択すると、リンクは、スウォッチセットをポップアップズームウィンドウで表示する動的ページ（ASP または JSP）を起動します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
+スウォッチセットをデプロイする最も一般的な方法は、Web ページに（ナビゲーションアイコンを使用して）リンクを配置することです。 選択すると、リンクは、スウォッチセットをポップアップズームウィンドウで表示する動的ページ（ASP または JSP）を起動します。 ズームリンクをクリックすると、実際のズーム機能を含むポップアップウィンドウが開きます。
 
-詳細およびコードサンプルについては、 [『HTMLビューアリファレンスガイド』のAdobe5 ズームビューアの埋め込み](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+詳細およびコードサンプルについては、 [『HTMLビューアリファレンスガイド』のAdobe5 ズームビューアの埋め込み](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## スウォッチセットビューアの埋め込みコードをコピーする {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 埋め込みコード機能を使用すると、選択したスウォッチセットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-**スウォッチセットビューアの埋め込みコードをコピーするには:**
+**スウォッチセットビューアの埋め込みコードをコピーするには：**
 
 1. アセット参照パネルの「表示」ドロップダウンリストで、 **[!UICONTROL スウォッチセット]**.
 1. 左側のアセットライブラリパネルで、コピーする埋め込みコードを持つスウォッチセットを含むアセットフォルダに移動します。

@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '497'
 ht-degree: 8%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 8%
 
 ## Adobe Dynamic Media Classic技術ドキュメント
 
-* [リリースノート](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html)
+* [リリースノート](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [ユーザーガイド](introduction.md)
 
 ## Adobe Dynamic Media Classic Developer Resources
 
-* [Adobeビューアリファレンスガイド](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
+* [Adobeビューアリファレンスガイド](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
 * [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [画像サービングおよび画像レンダリング API](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
+* [画像サービングおよび画像レンダリング API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
 
 ## Adobe Dynamic Media Classicのニュースレター、Tutorials、ウェビナー
 
 * [Adobe Dynamic Media Classic Newsletters のアーカイブ](/help/using/dynamic-media-newsletter.md)
-* [画像のシャープニングのベストプラクティス](/help/using/assets/s7_sharpening_images.pdf)
+* [画像のシャープニングに関するベストプラクティス](/help/using/assets/s7_sharpening_images.pdf)
 * [アセット ROI を最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — サイトやモバイルアプリをまたいでリッチメディアを配信する際の業界のベストプラクティスを学びます。 このウェビナーでは、例とデモを使用して、デバイスをまたいでビデオを効率的に配信する方法、マーケティングキャンペーンで動的なクリエイティブを配信する方法、画像、スタイルガイド、ルックブックをショッパブルにしてコンバージョンを増やす方法を示します。
-* [コンテンツ配信ライフサイクルの促進](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — このウェビナーでは、リッチメディアの管理と配信を行う次世代プログラムであるAdobe Experience Manager Assets の概要とデモを提供します。 クリエイティブチームとマーケティングチームの間でアセットを共同作業し共有し、アセットレビュープロセスを合理化する方法を説明します。 アセットの検索、使用、再利用、共有を容易にするために、アセットメタデータを効率的に管理するためのベストプラクティスについて説明します。 インタラクティブなクロスチャネルリッチメディアエクスペリエンスを提供する方法を説明します。
+* [コンテンツ配信ライフサイクルの促進](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — このウェビナーでは、リッチメディアの管理と配信を行う次世代プログラムであるAdobe Experience Manager Assets（オンデマンド）の紹介とデモをおこないます。 クリエイティブチームとマーケティングチームの間でアセットを共同作業し共有し、アセットレビュープロセスを合理化する方法を説明します。 アセットの検索、使用、再利用、共有を容易にするために、アセットメタデータを効率的に管理するためのベストプラクティスについて説明します。 インタラクティブなクロスチャネルリッチメディアエクスペリエンスを提供する方法を説明します。
 * [モバイル最適化のデザイン](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) - Adobe Dynamic Media Classicを使用して、ターゲットを絞り込んだリッチメディアをすべてのデバイスに効率的に配信します。 このウェビナーでは、モバイルアプリやレスポンシブサイトに対して効果的な画像やビデオの視聴エクスペリエンスをデザインして配信する方法を学びます。
 * [Adobe Dynamic Media Classicが SEO をサポートする方法](/help/using/assets/s7_seo.pdf)  — 今日の検索エンジンでは、Web サイトや画像の検索が可能になります。 Adobe Dynamic Media Classicは、より多くのトラフィックをAdobe Dynamic Media Classicユーザーの Web サイトに導くように、画像をより検索エンジンに適したものにする取り組みをサポートしています。 このPDFでは、これを実現するための背景と実装のガイダンスを提供します。
 * [Adobe Dynamic Media Classicを使用して休日のコンバージョンを最大化](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true)  — このウェビナーでは、自動ワークフローを設定して、監視フォルダーからコンテンツを取得し、スピンセットとビデオを自動的に作成する方法について説明します。 また、変更をすばやく管理したり画像を更新したりする方法も説明します。
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 ## Adobe Dynamic Media Classic Training
 
-移動 [ここ](https://training.adobe.com/training/courses.html#product=adobe-scene7) 現在利用可能なトレーニングコースを確認する。
-[Adobe Dynamic Media Classicトレーニングビデオ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/training-videos.html#intro).
+移動 [ここ](https://training.adobe.com/training/courses.html#product=adobe-scene7) 現在利用可能なトレーニングコースを確認するには、次の手順に従います。
+[Adobe Dynamic Media Classicトレーニングビデオ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
 使用可能な役立つリソースをすべて表示 [Adobe Dynamic Media Classic](home.md).

@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 35%
+source-wordcount: '675'
+ht-degree: 33%
 
 ---
 
@@ -46,15 +46,15 @@ ht-degree: 35%
 
 ## Web ページへの画像セットの URL の追加 {#adding-image-set-urls-to-your-web-page}
 
-画像セットをデプロイする最も一般的な方法は、Web ページに（ナビゲーションアイコンを使用して）リンクを配置することです。 選択すると、リンクは、画像セットをポップアップズームウィンドウで表示する動的ページ (JSP) を起動します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
+画像セットをデプロイする最も一般的な方法は、Web ページに（ナビゲーションアイコンを使用して）リンクを配置することです。 選択すると、リンクは、画像セットをポップアップズームウィンドウで表示する動的ページ (JSP) を起動します。 ズームリンクをクリックすると、実際のズーム機能を含むポップアップウィンドウが開きます。
 
-詳細およびコードサンプルについては、 [HTMLビューアリファレンスガイドにAdobe5 ズームビューアを埋め込む](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+詳細およびコードサンプルについては、 [HTMLビューアリファレンスガイドにAdobe5 ズームビューアを埋め込む](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## 画像セットビューアの埋め込みコードをコピーする {#copying-the-embed-code-of-an-image-set-viewer}
 
 埋め込みコード機能を使用すると、選択した画像セットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-**画像セットビューアの埋め込みコードをコピーするには:**
+**画像セットビューアの埋め込みコードをコピーするには：**
 
 1. アセット参照パネルの「表示」ドロップダウンリストで、 **[!UICONTROL 画像セット]**.
 1. 左側のアセットライブラリパネルで、コピーする埋め込みコードを持つ画像セットを含むアセットフォルダに移動します。

@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classicのユーザーは、ブラウザーのAdobeFlashテ�
 >
 >Adobeでは、2020 年 10 月 2 日までに新しいAdobe Dynamic Media Classicデスクトップアプリケーションをインストールすることをお勧めします。 これにより、AdobeFlash Playerが 2020 年 12 月 31 日に廃止される前に、スムーズな移行が実現します。 この日以降、製品で「 Adobe Dynamic Media Classic 」というラベルが付いたAdobe Dynamic Media Classicユーザーインターフェイスのブラウザーバージョンにログオンすることはできません。
 
-詳しくは、 FAQ( [新しいAdobe Dynamic Media Classicログインが利用できるようになりました。](/help/using/new-ui-2020.md)
+詳しくは、 FAQ( [新しいAdobe Dynamic Media Classicへのログインが可能になりました。](/help/using/new-ui-2020.md)
 
 ## Adobe Dynamic Media Classicデスクトップアプリケーションの必要システム構成 {#system-requirements-dmc-app}
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 ## 最新リリースの修正点 (20.22.1) {#release-jan2022}
 
-* 画像編集 **[!UICONTROL 保存]** ボタンが機能しなかった問題を修正しました。
+* 画像を編集する際に、 **[!UICONTROL 保存]** ボタンが機能しなかった問題を修正しました。
 * セットエディターで、 **[!UICONTROL 閉じる]**, **[!UICONTROL 保存]**、および **[!UICONTROL 名前を付けて保存]** 内でアセットをスクロールした後、ボタンが無効になる **[!UICONTROL アセットを追加]** パネル。
 * **[!UICONTROL 再生]** ビデオの詳細表示のボタンが機能しませんでした。
 * 入力できませんでした `d` および `e` in **[!UICONTROL ユーザー名]** および **[!UICONTROL パスワード]** フィールド (macOS Monterey の実行時 )
@@ -233,7 +233,7 @@ Adobe Dynamic Media Classicデスクトップアプリケーション内のア�
 
 ## Adobe Dynamic Media Classic Desktop App の使用に関するビデオウォークスルー {#dmc-app-video-walk-through}
 
-所要時間： [Adobe Dynamic Media Classic Desktop App の使用に関するビデオウォークスルー](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) （長さ：2 分 36 秒）。
+所要時間： [Adobe Dynamic Media Classic Desktop App の使用に関するビデオウォークスルー](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長さ：2 分 36 秒）。
 
 ## デスクトップアプリケーションを使用した、コンピューター上の画像キャッシュとアセットキャッシュのクリア {#clear-cache}
 

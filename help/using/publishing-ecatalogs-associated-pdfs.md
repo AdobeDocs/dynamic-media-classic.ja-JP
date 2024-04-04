@@ -1,20 +1,18 @@
 ---
 title: eCatalog と関連PDFを公開
 description: eCatalog と関連PDFをAdobe Dynamic Media Classicから公開する方法を説明します。
-uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 21%
 
 ---
@@ -25,15 +23,15 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->eCatalog とPDFが同じフォルダーに存在し、公開する前に参照パネルまたはアセットの詳細ページで公開用にマークされていることを確認します。
+>eCatalog とPDFが同じフォルダーに存在し、公開用に参照パネルまたはアセットの詳細ページで公開用にマークされていることを確認してから、公開します。
 
 **eCatalog と関連PDFを公開するには：**
 
 1. グローバルナビゲーションバーで、 **[!UICONTROL 公開]**.
-1. 公開画面で、「 」を選択します。 **[!UICONTROL 1 回限り]** または **[!UICONTROL 繰り返し]**.
-1. （オプション）「ジョブ名」フィールドに、パブリッシュジョブの名前を入力します。ただし、事前定義済みの日時テキストはそのままにします。
+1. 公開画面で、「 」を選択します。 **[!UICONTROL 1 回限り]**&#x200B;を選択するか、 **[!UICONTROL 定期]**.
+1. （オプション）「ジョブ名」フィールドに、公開ジョブの名前を入力します。ただし、事前定義済みの日時テキストはそのままにします。
 
-   閲覧者がキーワード検索できるように eCatalog を設定する場合は、キーワードが公開されていることを確認します。[ パブリッシュ ] ダイアログボックスで、 **[!UICONTROL 詳細]**. 次の **[!UICONTROL 公開]** ドロップダウンメニューで、「 **[!UICONTROL フル（検索データを含む）]**. このオプションは初期設定ではオンになっています。
+   閲覧者がキーワード検索できるように eCatalog を設定する場合は、キーワードが公開されていることを確認します。[ パブリッシュ ] ダイアログボックスで、 **[!UICONTROL 詳細]**. 次から： **[!UICONTROL 公開]** ドロップダウンメニューで、「 **[!UICONTROL 検索データを含む完全]**. このオプションは初期設定ではオンになっています。
 
 1. 「**[!UICONTROL 公開を送信]**」をクリックします。
 

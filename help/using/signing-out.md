@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 7%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Adobe Dynamic Media Classicにログイン {#dmc-sign-in}
+# Adobe Dynamic Media Classicにログイン {#dmc-signin}
 
 Adobe Dynamic Media Classicデスクトップアプリケーションを使用する前に、以下の点を確認してください。
 
@@ -31,9 +31,9 @@ Adobe Dynamic Media Classicデスクトップアプリケーションを使用�
 
    ![Adobe Dynamic Media Classicサインイン](/help/using/assets/dmclassic-login1.png)
 
-1. 内 **[!UICONTROL ユーザー名]** 「 」フィールドに、電子メールアドレスを入力します。
-1. 内 **[!UICONTROL パスワード]** 「 」フィールドに、パスワードを入力します。
-1. 内 **[!UICONTROL サーバー]** 」ドロップダウンリストから、サーバーを選択します。
+1. Adobe Analytics の **[!UICONTROL ユーザー名]** 「 」フィールドに、電子メールアドレスを入力します。
+1. Adobe Analytics の **[!UICONTROL パスワード]** 「 」フィールドに、パスワードを入力します。
+1. Adobe Analytics の **[!UICONTROL サーバー]** 」ドロップダウンリストから、サーバーを選択します。
 次のマッピングを使用して、使用する実稼動環境を選択します。
 
    | ブラウザー URL | デスクトップアプリケーションサーバー名 |

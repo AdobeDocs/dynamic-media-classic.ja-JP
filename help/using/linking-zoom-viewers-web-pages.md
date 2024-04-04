@@ -10,9 +10,9 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 34%
 
 ---
@@ -31,7 +31,7 @@ Web サイトやアプリケーションは、URL 文字列または埋め込み
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * 選択 **[!UICONTROL グリッド表示]** または **[!UICONTROL リスト表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL URL をコピー]** を選択します。
-   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下で、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL URL をコピー]**.
 
@@ -47,19 +47,19 @@ Web サイトやアプリケーションは、URL 文字列または埋め込み
 
 通常、訪問者は Web サイト上の画像をズームする際に、最初にズームアイコン（多くの場合、アイコンには虫眼鏡の画像が表示されます）を選択します。 このアイコンを選択すると、ポップアップウィンドウで画像を表示する動的 Web ページ（ASP または JSP）が起動します。このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
 
-詳細およびコードサンプルについては、 [HTMLビューアリファレンスガイドのAdobe5 基本ズームビューアを埋め込む](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+詳細およびコードサンプルについては、 [HTMLビューアリファレンスガイドのAdobe5 基本ズームビューアを埋め込む](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## ズームビューアの埋め込みコピーをコピーする {#copying-the-embed-copy-of-a-zoom-viewer}
 
 埋め込みコード機能を使用すると、選択したズームビューアのビューアコードをレビューすることができます。コードをクリップボードにコピーして、ビューアを配信する Web ページにペーストすることもできます。埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-**ズームビューアの埋め込みコードをコピーするには:**
+**ズームビューアの埋め込みコードをコピーするには：**
 
 1. 左側のアセットライブラリパネルで、コピーする埋め込みコードを持つズームビューアを含むアセットフォルダに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコードパネルで、 **[!UICONTROL 埋め込みコード]** を選択します。
-   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下の **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * 選択 **[!UICONTROL グリッド表示]**. アセットの参照パネルで、1 つのアセットを選択し、サムネール画像の下で、に移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 
      ビューアリストページの表の「アクション」列で、を選択します。 **[!UICONTROL 埋め込みコード]**.
 

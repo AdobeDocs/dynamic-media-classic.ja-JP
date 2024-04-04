@@ -1,19 +1,17 @@
 ---
 title: 管理設定
 description: Adobe Dynamic Media Classicの管理領域を設定する方法を説明します。
-uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1971'
 ht-degree: 33%
 
 ---
@@ -70,7 +68,7 @@ Adobe Dynamic Media Classicは、複数のユーザーの役割をサポート�
 
    新しい Media Portal ユーザーを追加する場合は、 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL ユーザー管理]**&#x200B;を選択し、「 **[!UICONTROL ユーザーリストをアップロード]** をクリックし、500 人以下のユーザーを含む.csv ファイルを選択します。
 
-### ユーザの削除 {#deleting-a-user}
+### ユーザの削除 {#delet-a-user}
 
 ユーザーを無効にすることで、Adobe Dynamic Media Classicからユーザーを削除できます。 無効なユーザは、システムとすべてのアカウントから削除されます。
 

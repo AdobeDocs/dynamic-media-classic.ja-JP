@@ -1,20 +1,18 @@
 ---
 title: ジョブファイルを確認
 description: Adobe Dynamic Media Classicでジョブファイルを確認する方法を説明します。
-uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1619'
 ht-degree: 24%
 
 ---
@@ -89,7 +87,7 @@ Adobe Dynamic Media Classicへのファイルアップロードと、Adobe Dynam
 
 >[!NOTE]
 >
->ジョブリストは、 **[!UICONTROL Scheduled]** タブに **[!UICONTROL ジョブタイプ]** および **[!UICONTROL 表示]** メニュー。 特定の種類の公開ジョブにリストを絞り込むためのジョブタイプを選択します。 を選択します。 **[!UICONTROL 表示]** 」オプションを使用します。
+>ジョブリストは、 **[!UICONTROL Scheduled]** タブに **[!UICONTROL ジョブタイプ]** および **[!UICONTROL 表示]** メニュー。 特定の種類の公開ジョブにリストを絞り込むためのジョブタイプを選択します。 を選択します。 **[!UICONTROL 表示]** オプションを使用して、自分が作成したジョブや、会社の全員が作成したジョブを表示できます。
 
 ### 定期ジョブの編集、削除、一時停止、再開 {#editing-deleting-pausing-and-resuming-recurring-jobs}
 

@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 55%
+source-wordcount: '1010'
+ht-degree: 53%
 
 ---
 
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 The `file_limit` パラメータは、ファイルサイズの制限をバイト単位で指定します。 The `file_exts` パラメーターは、アップロード可能なファイル名拡張子を指定します。 この 2 つのパラメータはオプションです。
 
-ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。要求での送信内容がグローバル制限のサブセットの場合は、この制限が適用されます。グローバル制限は次のとおりです。
+ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。リクエストで送信した内容がグローバル制限のサブセットの場合は、その影響を受けます。 グローバル制限は次のとおりです。
 
 | グローバル制限 | 値 |
 | --- | --- |
@@ -138,7 +138,7 @@ The `file_limit` パラメータは、ファイルサイズの制限をバイト
 詳しくは、 [アップロード時の画像の微調整オプション](image-editing-options-upload.md#image-editing-options-at-upload).
 * アップロードするファイルの名前。
 
-上のフォームに関連付けられたHTMLのソースコードを表示するには、「 」を選択します。 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+フォームに関連付けられたHTMLのソースコードを表示するには、「 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
 Firefox で、ブラウザーウィンドウを右クリックし、「 」を選択します。 **[!UICONTROL ページのソースを表示]**. このコードは、対応する URL クエリ文字列と、ユーザーが「 」を選択したときに実行されるPOSTメソッドを示します **[!UICONTROL 送信]**.
 

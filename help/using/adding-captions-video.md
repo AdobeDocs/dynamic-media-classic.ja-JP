@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 31%
+source-wordcount: '716'
+ht-degree: 27%
 
 ---
 
-# ビデオにキャプションを追加 {#adding-captions-to-video}
+# ビデオにキャプションを追加 {#add-captions-to-video}
 
 キャプションを単一のビデオまたはアダプティブビデオセットに追加することにより、ビデオの提供先をグローバルマーケットに拡張することができます。キャプションを追加することで、オーディオをダビングする必要がなくなります。また、異なる言語ごとにオーディオを再度録音する必要もなくなります。ビデオは録画されたときの言語で再生されます。外国語のサブタイトルが表示されるため、異なる言語のユーザもオーディオ部分を理解できます。
 
@@ -38,7 +38,7 @@ ht-degree: 31%
 
 Adobe Dynamic Media Classicでは、キャプションファイルを JSON(JavaScript Object Notation) 形式に変換できます。 この変換によって、隠されたビデオ内容全文として、JSON テキストを Web ページに埋め込むことができます。その後、検索エンジンでは、コンテンツをクロールおよびインデックス付けして、ビデオを見つけやすくし、顧客にビデオコンテンツの詳細を提供できます。
 
-詳しくは、 [静的（画像以外の）コンテンツを提供する](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) （内） *Adobe画像サービング API のヘルプ* を参照してください。
+詳しくは、 [静的（画像以外の）コンテンツを提供する](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) （内） *Adobe画像サービング API のヘルプ* を参照してください。
 
 **ビデオにキャプションを追加するには：**
 
@@ -52,7 +52,7 @@ Adobe Dynamic Media Classicでは、キャプションファイルを JSON(JavaS
 
    詳しくは、 [ファイルをアップロード](uploading-files.md#uploading_files).
 
-1. 左側のアセットライブラリパネルで、アップロードしたキャプションファイルに関連付けるビデオファイルを含んでいるアセットフォルダに移動します。
+1. 左側のアセットライブラリパネルで、アップロードしたキャプションファイルに関連付けるビデオファイルを含むアセットフォルダーに移動します。
 1. アセットの参照パネルで 1 つのビデオアセットを選択し、アセットのサムネール画像の下でを選択します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
 1. 「ビューアリスト」テーブルで、「HTML5 ビューア」という名前を探します。 **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**&#x200B;または **Universal_HTML5_MixedMedia_light**&#x200B;次のいずれかの操作を行います。
 

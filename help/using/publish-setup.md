@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 34%
+source-wordcount: '2387'
+ht-degree: 33%
 
 ---
 
@@ -123,15 +123,15 @@ Image Server が HTTP 呼び出しを受け取ると、 `locale=` パラメー�
 
 **サフィックスの例：**
 
-| URL | localeMap ID | 結果 |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | GlobalLocale の定義はありません。ロケールパラメータ de_DE は、 `localeMap`. 最初の対応する値_DE がアセット image_DE のサフィックスとして追加され、Image Server での検索が試行されます。 サーバで見つかった場合は、その画像が返されます。それ以外の場合は、2 番目の値&quot;&quot;がサフィックスとして使用され、画像自体が返されます。 |
+| URL | localeMap ID | 結果 | 説明 |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | GlobalLocale の定義はありません。ロケールパラメータ de_DE は、 `localeMap`. 最初の対応する値_DE がアセット image_DE のサフィックスとして追加され、Image Server での検索が試行されます。 サーバー上に見つかった場合は、それが返されます。 それ以外の場合は、2 番目の値&quot;&quot;がサフィックスとして使用され、画像自体が返されます。 |
 
 **置換の例：**
 
-| URL | `GlobalLocale` および `localeMap` ID | 結果 |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 上記の置き換え例では、GlobalLocale が main に設定されています。 ロケールパラメータ de_DE は、 `localeMap`. GlobalLocale のサブ文字列が見つかり、対応する最初の値に置き換えられます。 `de` （内） `localeMap`: `image-de-01`. この画像が Image Server で見つかった場合は、その画像が返されます。そうでない場合は、2 番目の値が置き換えられ、結果として `image-main-01`. |
+| URL | `GlobalLocale` および `localeMap` ID | 結果 | 説明 |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 上記の置き換え例では、GlobalLocale が main に設定されています。 ロケールパラメータ de_DE は、 `localeMap`. GlobalLocale のサブ文字列が見つかり、対応する最初の値に置き換えられます。 `de` （内） `localeMap`: `image-de-01`. Image Server で見つかった場合は、返されます。 そうでない場合は、2 番目の値が置き換えられ、結果として `image-main-01`. |
 
 URL でロケールが定義されていない場合、Image Server は DefaultLocale（定義されている場合）を取り込み、URL に適用します。
 

@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic Desktop App
-description: Adobe Dynamic Media Classicユーザーは、ユーザーインターフェイスを完全に更新できるようになりました。 エクスペリエンスは、重要なリソースへのリンクを含む更新されたログインを提供します。また、この更新は、ブラウザーのAdobeFlashテクノロジーに依存しなくなりました。
+description: Adobe Dynamic Media Classicユーザーは、ユーザーインターフェイスを完全に更新できるようになりました。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,9 @@ Windows®で新しいAdobe Dynamic Media Classicデスクトップアプリケ�
 +++**_リッチメディア戦略を最適化していることを確認したいと考えています。 Adobe Dynamic Media Classicの詳細を知るにはどうすればよいですか？_**
 Adobe Dynamic Media Classicは、リッチメディア戦略を強化するために設計された、強力で機能豊富なソリューションです。 すべての機能を活用するには、次の実用的なリソースを必ず参照してください。
 
-* [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobe Dynamic Media Classicベストプラクティスチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobeのブログ投稿](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [AdobeDynamic Media Newsletter Archives](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [AdobeDynamic Media Newsletter Archives](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->

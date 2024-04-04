@@ -1,6 +1,6 @@
 ---
 title: クイックスタート：Adobe Dynamic Media ClassicとAdobe Analyticsの統合
-description: Adobe Dynamic Media ClassicとAdobe Analyticsを統合してすばやく使い始めるのに役立つ方法の概要とクイックスタートです。
+description: Adobe Dynamic Media ClassicとAdobe Analyticsの統合方法の概要とクイックスタートです。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 26%
+source-wordcount: '682'
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe AnalyticsをAdobe Dynamic Media Classicと統合した後、Web サイト�
 
 Adobe Analytics レポートを使用して、Web サイト上でのユーザーアクティビティの全体像を明確に把握できます。どの製品プレゼンテーションがコンバージョンにつながり、どのプレゼンテーションが顧客の関心を引き付けないかを判断できます。
 
-関連トピック [Adobe Analyticsでビデオを測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+関連トピック [Adobe Analyticsでビデオを測定](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Adobe Analytics 設定には、ビューアイベントのアクティブ化、�
 
 ## 3. Adobe Dynamic Media Classicビューアを公開する
 
-Adobe Dynamic Media Classicビューアを公開して、ビューア (Adobe Analyticsレポートのユーザーアクティビティを追跡するコード ) がAdobe Dynamic Media Classicサーバーに読み込まれるようにします。 公開した後、この情報はビューアに取り込まれ、Adobe Analytics 分析に使用できます。
+Adobe Dynamic Media Classicビューアを公開して、ビューア (Adobe Analyticsレポートのユーザーアクティビティを追跡するコード ) がAdobe Dynamic Media Classicサーバーに読み込まれるようにします。 公開後、この情報はビューアに含まれ、Adobe Analyticsでの分析に使用できます。
 
 詳しくは、 [設定情報を公開](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
