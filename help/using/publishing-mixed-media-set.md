@@ -1,31 +1,29 @@
 ---
 title: 混在メディアセットの公開
 description: Adobe Dynamic Media Classicから混在メディアセットを公開する方法を説明します。
-uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 31%
+source-wordcount: '261'
+ht-degree: 17%
 
 ---
 
 # 混在メディアセットの公開{#publishing-a-mixed-media-set}
 
-Adobe Dynamic Media Classic Video Server および Image Server への公開用としてマークした混在メディアセットを公開する公開ジョブを作成します。 Adobe Dynamic Media Classicは、特定のサーバーに公開するための高度な公開オプションと、既に公開済みのアセットを再公開するためのオプションを提供します。
+公開ジョブを作成して、公開用にマークした混在メディアセットをAdobe Dynamic Media Classic Video Server および Image Server に公開します。 Adobe Dynamic Media Classicには、特定のサーバーに公開するための高度な公開オプションと、既に公開されたアセットを再公開するためのオプションが用意されています。
 
 >[!NOTE]
 >
->混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。**ビデオサーバー**&#x200B;を使用して、公開用にマークした実際のビデオを公開します。また、 **Image Server** ：ビデオサムネールなどの関連アセットを公開し、任意のアダプティブビデオセットの情報を設定します。
+>混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。使用方法 **ビデオ サーバー** 公開用にマークした実際のビデオを公開します。 また、を使用します **Image Server** 関連アセット（ビデオサムネールなど）を公開し、アダプティブビデオセットの情報を設定します。
 
 Adobe Dynamic Media Classicは、ジョブ画面で公開ジョブを追跡します。
 
@@ -41,24 +39,24 @@ Last Modified Date:
 
  -->
 
-**混在メディアセットを公開するには:**
+**混在メディアセットを公開するには：:**
 
 1. 次のいずれかの操作を行います。
 
-   * 参照パネルで、「 **[!UICONTROL 公開用にマーク]** をクリックします。
-   * アップロード画面で、「 」を選択します。 **[!UICONTROL 公開用にマーク]** をクリックします。
+   * 参照パネルで、次を選択します。 **[!UICONTROL 公開用にマーク]** 公開する各ファイル名の横
+   * アップロード画面で、以下を選択します。 **[!UICONTROL 公開用にマーク]** 公開する各ファイル名の横
 
-1. グローバルナビゲーションバーで、 **[!UICONTROL 公開]**.
-1. 必要なスケジュールオプションを設定します。
-1. （オプション）「**[!UICONTROL ジョブ名]**」フィールドに、公開ジョブの名前を入力します。
+1. グローバルナビゲーションバーで、を選択します。 **[!UICONTROL 公開]**.
+1. 必要なスケジュール オプションを設定します。
+1. （オプション） **[!UICONTROL ジョブ名]** フィールドに、公開ジョブの名前を入力します。
 1. 「**[!UICONTROL 詳細]**」オプションの「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL ビデオサーバー]**」を選択します。
 
-   詳しくは、 [詳細公開オプション](publishing-files.md#advanced_publish_options) 他のオプションについては、を設定できます。
+   参照： [詳細公開オプション](publishing-files.md#advanced_publish_options) その他のオプションについては、を設定できます。
 
-1. 選択 **[!UICONTROL 公開を送信]**.
+1. を選択 **[!UICONTROL 公開を送信]**.
 1. 上記の手順 2～4 を繰り返します。
 1. 「**[!UICONTROL 詳細]**」の「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL Image Server]**」を選択します。
 
-   詳しくは、 [詳細公開オプション](publishing-files.md#advanced_publish_options) 他のオプションについては、を設定できます。
+   参照： [詳細公開オプション](publishing-files.md#advanced_publish_options) その他のオプションについては、を設定できます。
 
-1. 選択 **[!UICONTROL 公開を送信]**.
+1. を選択 **[!UICONTROL 公開を送信]**.

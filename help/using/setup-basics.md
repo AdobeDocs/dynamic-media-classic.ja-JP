@@ -1,42 +1,40 @@
 ---
 title: 設定の基本
-description: 設定画面を使用して、Adobe Dynamic Media Classicで個人設定を入力する方法を説明します。 管理者の場合は、会社情報の設定を行うことができます。
-uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
+description: 設定画面を使用して、Adobe Dynamic Media Classicで個人設定を入力する方法を説明します。 管理者の場合は、会社の設定を指定します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 16%
+source-wordcount: '201'
+ht-degree: 15%
 
 ---
 
 # 設定の基本{#setup-basics}
 
-Adobe Dynamic Media Classicの設定ページを使用して、個人設定を入力します。 管理者の場合は、会社情報の設定を行うことができます。設定ページを開くには、グローバルナビゲーションバーで、 **[!UICONTROL 設定]**.
+Adobe Dynamic Media Classicの設定ページを使用して、個人設定を入力します。 管理者の場合は、会社情報の設定を行うことができます。設定ページを開くには、グローバルナビゲーションバーで、以下を選択します。 **[!UICONTROL 設定]**.
 
-このページで使用できる設定は、ユーザーまたは管理者としてのステータスによって異なります。
+このページで利用できる設定は、ユーザーまたは管理者としてのステータスによって異なります。
 
-* ユーザーは **[!UICONTROL 個人設定]** そして彼らが属する会社の会計管理タスクを実行することはできません。
-* 管理者が **[!UICONTROL 個人設定]**&#x200B;を参照し、独自の会社アカウントを表示および管理します。 また、すべてのアプリケーション設定機能と、管理者およびユーザの追加などのすべての管理機能を実行することができます。
+* ユーザーは以下にのみアクセスできます： **[!UICONTROL 個人設定]** さらに、自分が属する会社のアカウント。管理タスクを実行することはできません。
+* にアクセスできる管理者 **[!UICONTROL 個人設定]**&#x200B;を参照して、独自の会社アカウントを表示および管理します。 また、すべてのアプリケーション設定機能と、管理者およびユーザの追加などのすべての管理機能を実行することができます。
 
-管理者は、 **[!UICONTROL 設定]** ページ：
+管理者は、で画像プリセットとビューアプリセットを設定することもできます **[!UICONTROL 設定]** ページ：
 
-* **画像プリセット** ：画像プリセットは、様々なサイズや形式でプライマリ画像を表示するための保存形式です。
+* **画像プリセット**  – 画像プリセットは、異なるサイズと形式でプライマリ画像を表示するための保存済みの形式です。
 
-* **ビューアプリセット**  — ビューアプリセットは、リッチメディアをビューアで表示する際の表示方法を決定します。
+* **ビューアプリセット** - ビューアプリセットは、ビューアでリッチメディアを表示する際の表示方法を決定します。
 
 >[!MORELIKETHIS]
 >
->* [設定の基本トレーニングビデオ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
->* [Adobe Dynamic Media Classicユーザーの役割と権限](administration-setup.md#user_administration)
+>* [基本的な設定のトレーニングビデオ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Adobe Dynamic Media Classic ユーザーのロールと権限](administration-setup.md#user_administration)
 >* [画像プリセット](application-setup.md#image_presets)
 >* [ビューアプリセット](application-setup.md#viewer_presets)
