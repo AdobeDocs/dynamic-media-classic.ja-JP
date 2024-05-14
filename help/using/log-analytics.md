@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
 # Adobe Analyticsへのログオン{#log-in-to-adobe-analytics}
 
-ログインしてAdobe Analytics レポートを設定し、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントと照合する前に、Adobe Analyticsの web サービスアクセスグループのメンバーであることを確認してください。 このグループのメンバーは、インターフェイスで設定された権限に関係なく、Experience Cloudの Web サービス API を介して、指定されたレポートスイート内のすべてのレポートにアクセスできます。 グループにメンバーを追加するには、Adobe Analyticsで、次に移動します **[!UICONTROL 管理ツール]** > **[!UICONTROL ユーザー管理]** > **[!UICONTROL グループの編集]**.
+Adobe Analyticsの Web サービスアクセスグループのメンバーであることを確認します。 Adobe Analytics レポートを設定し、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントと照合するには、ログインする前に行います。 このグループのメンバーは、指定されたレポートスイートのすべてのレポートにアクセスできます。 インターフェイスで設定されている権限に関係なく、Experience Cloudの web サービス API を使用して設定します。 グループにメンバーを追加するには、Adobe Analyticsで、次に移動します **[!UICONTROL 管理ツール]** > **[!UICONTROL ユーザー管理]** > **[!UICONTROL グループの編集]**.
 
 ログイン時に、Experience Cloud組織 ID を入力して最新のビデオ分析実装を使用することもできます。 ID を入力しない場合でも、ビデオレポートは機能します。 ただし、Adobe Dynamic Media Classicの外部からのそのクライアントの他のデータと正しく統合されない可能性があります。
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 
 1. 次のいずれかの操作をおこないます。
 
-   * ページの上部にある、 **[!UICONTROL ホーム]** タブ、選択 **[!UICONTROL 新規プロジェクトを作成]**.
-   * ページの上部にある、 **[!UICONTROL プロジェクト]** タブ。 ページの右隅付近にある、を選択します。 **[!UICONTROL 新規プロジェクトを作成]**.
+   * ページの上部にある、 **[!UICONTROL ホーム]** タブ、選択 **[!UICONTROL 新規プロジェクトの作成]**.
+   * ページの上部にある、 **[!UICONTROL プロジェクト]** タブ。 ページの右隅付近にある、を選択します。 **[!UICONTROL 新規プロジェクトの作成]**.
 
 1. プロジェクトのページで、 **[!UICONTROL API を追加]**.
 1. 日 **[!UICONTROL API を追加]** ページ、選択 **[!UICONTROL Adobe Analytics]**.
@@ -62,7 +62,7 @@ ht-degree: 0%
 1. ナビゲーションパネルのAdobe Analyticsページの左側にある以下の場所 **[!UICONTROL 資格情報]**&#x200B;を選択 **[!UICONTROL OAuth Web]**.
 1. 次の下 **[!UICONTROL 資格情報の詳細]**、次の手順を実行します。
    * 次の下 **[!UICONTROL クライアント ID]**&#x200B;を選択 **[!UICONTROL コピー]** 値をコピーします。 この値は、後続のDynamic Media Classic デスクトップアプリケーションで Analytics を設定する際に必要になります。
-   * 次の下 **[!UICONTROL クライアント秘密鍵]**&#x200B;を選択 **[!UICONTROL クライアント秘密鍵の取得]** 関連付けられている値を表示します。 を選択 **[!UICONTROL コピー]** 値をコピーします。 この値は、後続のDynamic Media Classic デスクトップアプリケーションでAdobe Analyticsを設定する場合に必要になります。
+   * 次の下 **[!UICONTROL クライアント秘密鍵]**&#x200B;を選択 **[!UICONTROL クライアント秘密鍵の取得]** 関連付けられている値を表示します。 を選択 **[!UICONTROL コピー]** 値をコピーします。 この値は、後続のDynamic Media Classic デスクトップアプリケーションでAdobe Analyticsを設定する際に必要になります。
 
 ## Adobe Dynamic Media ClassicでのAdobe Analyticsの設定 {#configure-analytics-in-dmc}
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 >Dynamic Media ClassicでのAdobe Analyticsの初期設定後、設定をやり直す必要があるのは次の場合のみです。
 >
->* Analytics に新しいレポートが追加され、ユーザーがその新しいレポートへのデータ送信を開始しようとしています。
+>* Analytics に新しいレポートが追加され、ユーザーはその新しいレポートへのデータ送信を開始したいと考えています。
 >* トラッキングサーバーがAdobe Analyticsで更新されます。
 >* レポートに新しいトラッキング変数が導入され、Dynamic Media Classic ユーザーインターフェイスの特定のビューア変数を、その新しい Analytics 変数にリンクするとします。
 >

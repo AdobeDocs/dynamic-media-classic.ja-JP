@@ -10,18 +10,18 @@ role: Admin,User
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 13%
+source-wordcount: '112'
+ht-degree: 14%
 
 ---
 
 # Media Portal{#media-portal}
 
-Adobe Mediumポータルを利用すると、企業は承認されたアセットを容易に取得、制御し、外部パートナーやチャネル、内部ユーザーに配布することができます。 このブラウザーをベースとする「セルフサービス」環境により、ポータルユーザーは、管理者が制御する「ビュー」をAdobe Dynamic Media Classic Assets に使用して、企業が承認した形式でアセットを簡単にアップロード、参照、検索、プレビューおよび書き出すことができます。
+Adobe Mediumポータルを使用して、企業は外部パートナー、チャネル、内部ユーザーに対して、承認済みアセットを取得、制御、配布できます。 このブラウザーをベースとする「セルフサービス」環境により、ポータルユーザーは、管理者が制御する「ビュー」をAdobe Dynamic Media Classic Assets に使用して、企業が承認した形式でアセットを簡単にアップロード、参照、検索、プレビューおよび書き出すことができます。
 
-システム要件を含む Media Portal の詳細については、を参照してください。 [Adobe Dynamic Media Classic Media Portal の使用](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
+システム要件を含む Media Portal の詳細については、を参照してください。 [Adobe Dynamic Media Classic Media Portal の使用](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
 
 Media Portal の管理については、[クイックスタート：Media Portal の管理](quick-start-media-portal-administration.md#quick_start_media_portal_administration)を参照してください。
 

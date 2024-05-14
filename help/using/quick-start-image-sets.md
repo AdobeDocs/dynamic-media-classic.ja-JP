@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 14%
+source-wordcount: '670'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに�
 | 1 セットあたりの重複アセット数 | 重複なし | 20‡ |
 | 1 セットあたりの最大画像数 | 1 セットあたり 5～10 個の画像 | 1000 |
 
-ベ‡トプラクティスは、セットに重複アセットを含めないことです。 1 つのアセットに対する重複の上限は 20 個です。 そのアセットに対して別の重複を（そのセット内で）追加した場合、リクエストでエラーが発生するか、重複が無視されます。
+‡セットに重複したアセットを含めないでください。 1 つのアセットに対する重複の上限は 20 個です。 そのアセットに対して別の重複を（そのセット内で）追加した場合、リクエストでエラーが発生するか、重複が無視されます。
 
 関連トピック [Dynamic Mediaの制限](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに�
 
 管理者は、画像セットビューアのプリセットを作成または変更できます。Adobe Dynamic Media Classicには、リッチメディアタイプごとにデフォルトのビューアプリセットが用意されています。 ズームビューアの使用： **[!UICONTROL カスタム]** > **[!UICONTROL 画像]** または **[!UICONTROL 画像セット]**/**[!UICONTROL 複数ビュー]** 画像セットを表示するプリセット。
 
-ビューアプリセットは、アプリケーション設定画面で追加または編集できます。
+アプリケーション設定画面で、ビューアプリセットを追加または編集できます。
 
 参照： [ビューアプリセットの作成と編集](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに�
 
 Adobe Dynamic Media Classicによって画像セットの URL 呼び出しが作成され、公開後にアクティベートされます。 これらの URL は、プレビュー画面からコピーすることができます。
 
-画像セットを選択してから、を選択します **[!UICONTROL プレビュー]**. ここで、画像セットビューアプリセットを選択し、次に選択します **[!UICONTROL URL をコピー]**.
+画像セットを選択してから、を選択します **[!UICONTROL プレビュー]**. ここで、画像セットビューアプリセットを選択し、 **[!UICONTROL URL をコピー]** ボタン。
 
-参照： [Web ページへの画像セットのリンク](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+参照： [画像セットの Web ページへのリンク](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
