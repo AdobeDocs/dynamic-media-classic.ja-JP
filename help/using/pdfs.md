@@ -10,10 +10,10 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 29%
+source-wordcount: '726'
+ht-degree: 26%
 
 ---
 
@@ -39,7 +39,7 @@ PDFファイルのアップロードのオプションは、「アップロー�
 
 **[!UICONTROL ラスタライズ]** - （デフォルト）PDFファイルのページをリッピングし、ベクターグラフィックをビットマップイメージに変換します。 eCatalog を作成するには、このオプションを選択します。
 
-**[!UICONTROL 検索語を抽出]** - PDFファイルから単語を抽出し、eCatalog ビューア内でこのファイルをキーワード検索できるようにします。
+**[!UICONTROL 検索語を抽出]** - PDFファイルから単語を抽出し、eCatalog ビューア内でファイル内のキーワードを検索できるようにします。
 
 **[!UICONTROL リンクを抽出]** -PDFファイルからリンクを抽出し、eCatalog ビューアで使用できる画像マップに変換します。
 
@@ -73,7 +73,9 @@ PDFファイルのアップロードのオプションは、「アップロー�
 
 ## PDFファイルから空白を切り抜く {#cropping-white-space-from-a-pdf-file}
 
-1. アップロード時に PDF ファイルの余白ピクセルを自動的に切り抜くには、切り抜きメニューを選択し、「トリミング」を選択します。
+アップロード時に、PDFファイルからホワイトスペースピクセルを自動的に切り抜くことができます。
+
+1. 切り抜きメニューを選択し、「トリミング」を選択します。
 1. 次のオプションを指定します。
 
    * **[!UICONTROL トリミング対象カラー]**  – 色または透明度に基づいて切り抜くかどうかを選択します。

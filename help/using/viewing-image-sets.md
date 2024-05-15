@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 22%
+source-wordcount: '491'
+ht-degree: 19%
 
 ---
 
 # 画像セットの表示{#viewing-image-sets}
 
-画像セットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。画像セットには「ズームビューア : カスタム」ビューアプリセットを使用します。
+画像セットは、使用可能なプリセットを使用してプレビューウィンドウに表示できます。画像セット用のズームビューア：カスタムビューアプリセットを使用できます。
 
 Adobe Dynamic Media Classicには、デフォルトのビューアプリセットが付属しています。 管理者は、ビューアプリセットを作成または変更できます。
 
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classicには、デフォルトのビューアプリセッ�
 
 ## ビューアでの画像セットアセットのプレビュー {#previewing-image-set-assets-in-a-viewer}
 
-プレビューを使用して、HTML 5 などの特定の種類のビューアでアセットがどのように表示されるかを確認できます。 アセットタイプとプレビューのために選択した関連ビューアによっては、プレビューで使用できないプラットフォームがあります。
+プレビューを使用して、HTML 5 などの特定のビューアタイプでのアセットの表示を確認できます。 アセットタイプとプレビューのために選択した関連ビューアによっては、プレビューで使用できないプラットフォームがあります。
 
 1. 左側のアセットライブラリパネルの **[!UICONTROL 表示]** ドロップダウンリストから次を選択します **[!UICONTROL 画像セット]**.
 1. 左側のアセットライブラリパネルでアセットフォルダに移動し、プレビューする画像セットを選択します。

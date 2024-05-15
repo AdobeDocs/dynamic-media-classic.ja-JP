@@ -1,6 +1,6 @@
 ---
-title: プライマリ画像を公開
-description: Adobe Dynamic Media Classicからプライマリ画像を公開する方法を説明します。
+title: プライマリ画像の公開
+description: Adobe Dynamic Media Classicからプライマリ画像を公開する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,26 +10,26 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
 
-# プライマリ画像を公開{#publishing-master-images}
+# プライマリ画像の公開{#publishing-master-images}
 
-イメージファイルを公開すると、Dynamic Media Image Server に公開され、Web サイトやアプリケーションで使用できるようになります。 さらに、公開プロセス中に、Adobe Dynamic Media Classicは Web サイトやアプリケーションに必要な URL 文字列をアクティベートします。
+画像ファイルを公開すると、Dynamic Media Image Server に公開され、web サイトやアプリケーションで使用できるようになります。 さらに、公開プロセス中に、Adobe Dynamic Media Classicは web サイトおよびアプリケーションに必要な URL 文字列をアクティベートします。
 
-## プライマリ画像を公開用にマーク {#marking-master-images-for-publish}
+## 公開用にプライマリ画像をマーク {#marking-master-images-for-publish}
 
-プライマリ画像をDynamic Media Image Server にコピーするには、公開用にマークする必要があります。 参照パネルで、「 **[!UICONTROL 公開用にマーク]** アイコン。 また、画像をAdobe Dynamic Media Classicにアップロードする際に、公開用にマークすることもできます。
+Dynamic Media Image Server にコピーするには、プライマリ画像が公開用にマークされている必要があります。 参照パネルでプライマリ画像を公開用にマークするには、次のオプションを選択します **[!UICONTROL 公開用にマーク]** アイコン。 画像をAdobe Dynamic Media Classicにアップロードする際に、公開用にマークすることもできます。
 
-## プライマリ画像を公開 {#publishing-your-master-images}
+## プライマリ画像を公開する {#publishing-your-master-images}
 
-1. グローバルナビゲーションバーで、 **[!UICONTROL 公開]**. 公開ダイアログボックスで、「When」オプション (**[!UICONTROL 1 回限り]** または **[!UICONTROL 定期]**) をクリックし、必要に応じて公開ジョブの名前を入力します。
+1. グローバルナビゲーションバーで、を選択します。 **[!UICONTROL 公開]**. パブリッシングダイアログボックスで、「条件」オプション（**[!UICONTROL 1 回限り]** または **[!UICONTROL 繰り返し]**）を選択し、オプションで公開ジョブの名前を入力します
 
-1. 選択 **[!UICONTROL 公開を送信]**.
+1. を選択 **[!UICONTROL 公開を送信]**.
 
 >[!NOTE]
 >

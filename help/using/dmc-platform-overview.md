@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 17%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
 # Adobe Dynamic Media Classic プログラムの概要{#adobe-scene-platform-overview}
 
-Adobe Dynamic Media Classicは、統合されたリッチメディア管理、公開および提供環境です。 リッチメディアは、あらゆる流通および販売経路を介して配信することができます。例えば、Web、印刷物、電子メールによる宣伝、Web ポータル、デスクトップ、デバイスを介して配信することができます。
+Adobe Dynamic Media Classicは、統合されたリッチメディア管理、公開および提供環境です。 リッチメディアは、すべてのマーケティングチャネルと販売チャネルに配信できます。 これらのチャネルには、Web、印刷資料、メールキャンペーン、Web ポータル、デスクトップ、デバイスなどがあります。
 
 関連トピック [Platform の概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) トレーニングビデオ。
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classicの主なワークフロー手順は次のとおり�
 
 Adobe Dynamic Media Classicは他のシステムとは基本的に異なり、Adobe Dynamic Media Classicを使用して、1 つのプライマリアセットおよび URL 呼び出しから動的にメディアを配信できます。
 
-Adobe Dynamic Media Classicで生成した URL 文字列には、配信時にアセットを表示する方法をサーバーに指示する命令が含まれています。 例えば、同じプライマリ画像を異なるサイズ、形式、重み、カラーおよびズームビューで配信することができます。 Adobe Dynamic Media Classicを使用したメディアアセットの作成と公開の一環として、効果を視覚的に設定します。 その際に、プライマリアセットをアプリケーションに表示する方法をサーバーに正しく指示する URL 呼び出しを作成します。
+Adobe Dynamic Media Classicで生成した URL 文字列には、配信時にアセットを表示する方法をサーバーに指示する命令が含まれています。 例えば、同じプライマリ画像を異なるサイズ、形式、重み、カラーおよびズームビューで配信することができます。 Adobe Dynamic Media Classicを使用したメディアアセットの作成と公開の一環として、効果を視覚的に設定できます。 その際に、プライマリアセットをアプリケーションに表示する方法をサーバーに正しく指示する URL 呼び出しを作成します。
 
 ![Adobe Dynamic Media Classicは、同じプライマリ画像を異なるメディアに異なるサイズや形式で配信できます。](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classicでは、サイズや帯域幅に関係なく、一貫性のある高品質なエクスペリエンスをあらゆる画面に確実に配信します。*
