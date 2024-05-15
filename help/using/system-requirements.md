@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '121'
 ht-degree: 10%
 
 ---
 
 # Adobe Dynamic Media Classic デスクトップアプリケーションの動作環境 {#system-requirements}
 
-Adobe Dynamic Media Classic デスクトップアプリケーションを最適に使用するには、お使いのシステムが次のシステム要件を満たしていることを確認し、ご提案ください。
+Adobe Dynamic Media Classic デスクトップアプリケーションを最適に使用するには、お使いのシステムが次のシステム要件を満たしていることを確認し、ご提案します。
 
 * Microsoft® Windows® 7 以降またはmacOS X 10.10 以降Mac インテル® プロセッサーが必要です。
 * 3 GB 以上の RAM が必要です（4 GB 以上を推奨）。

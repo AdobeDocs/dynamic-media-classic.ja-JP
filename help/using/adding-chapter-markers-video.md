@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 28%
 
 ---
@@ -51,7 +51,7 @@ Cost-efficient access to rapidly evolving technology.
 
 上記の例では、 `Chapter 1` はキュー識別子で、オプションです。 キュー時間 `00:00:000 --> 01:04:364` チャプターの開始時間と終了時間を 00 で指定します:00:000 形式。 末尾の 3 桁はミリ秒であり、必要に応じて 000 のままにすることができます。チャプタータイトル `The bicycle store behind it all` は、チャプターの内容を示す実際の説明です。 ビデオのタイムラインのビジュアルキューポイントにポインターを置くと、キュー識別子、開始キュー時間およびチャプタータイトルが、ビデオプレーヤー内にポップアップ表示されます。
 
-HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターファイルの拡張子は.VTT です。 WebVTT のキャプション規格について、さらに詳しく調べることができます。
+HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターファイルの拡張子は `.VTT`. WebVTT のキャプション規格について、さらに詳しく調べることができます。
 
 参照： [WebVTT:Web ビデオテキストで形式をトラッキングします](https://w3c.github.io/webvtt/).
 
@@ -61,7 +61,7 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
    >[!NOTE]
    >
-   >英語以外の言語のビデオチャプターをグローバルサポートする場合、WebVTT 標準では、サポートする言語ごとに個別の.vtt ファイルを作成して呼び出す必要があります。
+   >英語以外の言語のビデオチャプターをグローバルサポートする場合、WebVTT 標準では個別に作成する必要があります `.VTT` サポート対象の各言語のファイルと呼び出し。
 
 1. この VTT ファイルを UTF8 エンコーディングで保存して、チャプタータイトルテキストの文字レンディションに関する問題を回避します。
 
