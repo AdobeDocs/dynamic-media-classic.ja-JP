@@ -10,9 +10,9 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '671'
 ht-degree: 13%
 
 ---
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに�
 
 >[!NOTE]
 >
->を選択した場合、この手順は不要です **[!UICONTROL 保存後に公開]** （デフォルト）画像セットを作成して保存した時点。
+>を選択した場合、この手順は不要です **[!UICONTROL 保存後の公開]** （デフォルト）画像セットを作成して保存した時点。
 
 を選択 **[!UICONTROL 公開用にマーク]** 参照パネル内の名前の左側にあるアイコン。 次に、を選択します **[!UICONTROL 公開]**. 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
 

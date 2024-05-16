@@ -1,6 +1,6 @@
 ---
 title: Dynamic Mediaの制限
-description: 「画像セットやスピンセットを作成したり、画像をアップロードしたりする際の、ベストプラクティスと適用される制限について説明します。PDF また、Dynamic Mediaでサポートされていない Web ブラウザーとオペレーティングシステムの組み合わせについても説明します。」
+description: 画像セットやスピンセットを作成したり、PDFをアップロードしたりする際の、ベストプラクティスと適用される制限について説明します。 また、Dynamic Mediaでサポートしていない web ブラウザーとオペレーティングシステムの組み合わせについても説明します。」
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -21,53 +21,53 @@ ht-degree: 1%
 
 次の節では、Dynamic Mediaの制限について説明します。
 
-このトピックには、次の節が含まれます。
+このトピックには、次のセクションが含まれます。
 
 * [アセットタイプに関するDynamic Mediaのベストプラクティスと適用される制限](#best-practice-enforced-limits)
-* [Dynamic Mediaでサポートされていない Web ブラウザーとオペレーティングシステムの組み合わせ](#unsupported-browser-os)
+* [Dynamic Mediaでサポートしていない web ブラウザーとオペレーティングシステムの組み合わせ](#unsupported-browser-os)
 
 ## アセットタイプに関するDynamic Mediaのベストプラクティスと適用される制限 {#best-practice-enforced-limits}
 
-Adobeでは、ページ抽出用にスピンセットや画像セットを作成したり、PDFをアップロードしたりする際に、次のベストプラクティスを推奨し、次の制限を適用します。
+スピンセットや画像セットを作成したり、ページ抽出用にPDFをアップロードしたりする場合、Adobeでは次のベストプラクティスを推奨します。 Adobeでは、次の制限も適用されます。
 
-| アセット — 制限タイプ | ベストプラクティス | 制限が適用されました |
+| アセット：制限タイプ | ベストプラクティス | 適用される制限 |
 | --- | --- | --- |
-| **画像**  — 画像あたりのスマート切り抜きの数 | 5 | 100 |
-| **すべてのセット**  — セットあたりの重複アセット数 | 重複なし | 20‡ |
-| **すべてのセット**  — セットあたりの最大アセット数 | 1 セットあたり 5～10 個の画像 | 1000 |
-| **スピンセット** - 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
-| **PDF**  — 抽出対象となるPDFの最大ページ数 |  | 100( すべてのPDF) |
+| **画像**：画像あたりのスマート切り抜き数 | 5 | 100 |
+| **すべてのセット**:1 セットあたりの重複アセット数 | 重複なし | 20‡ |
+| **すべてのセット**:1 セットあたりの最大アセット数 | 1 セットあたり 5～10 個の画像 | 1000 |
+| **スピンセット**:2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
+| **PDF**：抽出対象となるPDFの最大ページ数 |  | 100 （すべてのPDF用） |
 
-‡ベストプラクティスは、重複するアセットをセットに含めないことです。 1 つのアセットに対する重複は 20 個までに制限されます。 そのアセットに別の重複を追加した場合は、そのセット内で、リクエストがエラーを表示するか、重複を無視します。
+‡セットに重複したアセットを含めないでください。 1 つのアセットに対する重複の上限は 20 個です。 そのアセットに対して別の重複を（そのセット内で）追加した場合、リクエストでエラーが発生するか、重複が無視されます。
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 
-## Dynamic Mediaでサポートされていない Web ブラウザーとオペレーティングシステムの組み合わせ {#unsupported-browser-os}
+## Dynamic Mediaでサポートしていない web ブラウザーとオペレーティングシステムの組み合わせ {#unsupported-browser-os}
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Mediaでは、次の Web ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
+AdobeDynamic Mediaでは、次の web ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
 
-* Internet Explorer 11 + Windows 7
-* Internet Explorer 11 + Windows 8.1
-* Internet Explorer 11 + Windows Phone 8.1
-* Internet Explorer 11 + Windows Phone 8.1 の更新
-* Safari 6 + iOS 6.0.1
-* Safari 7 + iOS 7.1
-* Safari 7 + OS X 10.9 Mavericks
-* Safari 8 + iOS 8.4
-* Safari 8 + OS X 10.10 ヨセミテ
+* Internet Explorer 11 と Windows 7
+* Internet Explorer 11 と Windows 8.1
+* Internet Explorer 11 と Windows Phone 8.1
+* Internet Explorer 11 と Windows Phone 8.1 Update
+* Safari 6 とiOS 6.0.1
+* Safari 7 とiOS 7.1
+* Safari 7 と OS X 10.9 Mavericks
+* Safari 8 とiOS 8.4
+* Safari 8 と OS X 10.10 Yosemite
 
-## Secure Socket Layer 2.0 および 3.0 と Transport Layer Security 1.0 および 1.1 のサポートの終了 {#tls}
+## Secure Socket Layer 2.0 および 3.0 と Transport Layer Security 1.0 および 1.1 のサポート終了 {#tls}
 
 <!-- CQDOC-19433 (original ticket)
 and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-2024 年 4 月 30 日をもって、AdobeDynamic Mediaは次のサポートを終了します。
+2024 年 4 月 30 日（PT）より、AdobeDynamic Mediaは、以下のサポートを終了します。
 
-* SSL (Secure Socket Layer) 2.0
+* SSL （Secure Socket Layer） 2.0
 * SSL 3.0
-* TLS(Transport Layer Security)1.0 および 1.1
+* TLS （Transport Layer Security） 1.0 および 1.1
 * TLS 1.2 での以下の脆弱な暗号：
    * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
    * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`

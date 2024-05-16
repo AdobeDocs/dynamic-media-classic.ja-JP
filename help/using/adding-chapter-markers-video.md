@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 28%
 >
 >使用されるビデオプレーヤーがチャプターマーカーの使用に対応している必要があります。
 
-参照： [ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) にチャプターナビゲーションキューポイントとチャプタータイトルのポップアップテキストを設定する場合 `Universal_HTML5_Video` ビューア（HTML 5）。
+参照： [ビデオビューアプリセットを追加または編集する](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) にチャプターナビゲーションキューポイントとチャプタータイトルのポップアップテキストを設定する場合 `Universal_HTML5_Video` ビューア（HTML 5）。
 
 関連トピック [ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -65,7 +65,7 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
 1. この VTT ファイルを UTF8 エンコーディングで保存して、チャプタータイトルテキストの文字レンディションに関する問題を回避します。
 
-   一般に、チャプター VTT ファイルの名前には、ビデオファイルと同じ名前を付けて、名前の末尾に `chapters`. これにより、既存の Web コンテンツ管理システムを使用して、ビデオ URL の生成を自動化できます。
+   一般に、チャプター VTT ファイルの名前には、ビデオファイルと同じ名前を付けて、名前の末尾に `chapters`. そうしておくと、既存の web コンテンツ管理システムを使用してビデオの URL を自動的に生成する際に役立ちます。
 
 1. Adobe Dynamic Media Classicで、WebVTT チャプターファイルをアップロードします。
 

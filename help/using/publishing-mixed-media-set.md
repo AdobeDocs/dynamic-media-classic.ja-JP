@@ -10,10 +10,10 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 17%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Last Modified Date:
 1. グローバルナビゲーションバーで、を選択します。 **[!UICONTROL 公開]**.
 1. 必要なスケジュール オプションを設定します。
 1. （オプション） **[!UICONTROL ジョブ名]** フィールドに、公開ジョブの名前を入力します。
-1. 「**[!UICONTROL 詳細]**」オプションの「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL ビデオサーバー]**」を選択します。
+1. が含まれる **[!UICONTROL 詳細]** オプション（内） **[!UICONTROL 公開先]** ドロップダウンリストから「」を選択します **[!UICONTROL ビデオ サーバー]**.
 
    参照： [詳細公開オプション](publishing-files.md#advanced_publish_options) その他のオプションについては、を設定できます。
 

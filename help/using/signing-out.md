@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classicへのログインとからのログアウト
-description: Adobe Dynamic Media Classicへのログインとからのサインアウト、および北米 (NA)、またはヨーロッパ、中東、アフリカ (EMEA)、アジア太平洋 (APAC) の実稼動環境サーバーへの接続について説明します。
+title: Adobe Dynamic Media Classicへのログインとログアウト
+description: Adobe Dynamic Media Classicへのログインとログアウトについて説明します。 また、北米（NA）、ヨーロッパ、中東、アフリカ（EMEA）、アジア太平洋（APAC）の実稼動サーバーに接続する方法についても説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,43 +10,43 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '221'
 ht-degree: 7%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Adobe Dynamic Media Classicにログイン {#dmc-signin}
+# Adobe Dynamic Media Classicへのログイン {#dmc-signin}
 
-Adobe Dynamic Media Classicデスクトップアプリケーションを使用する前に、以下の点を確認してください。
+Adobe Dynamic Media Classic デスクトップアプリケーションを使用する前に、以下が揃っていることを確認してください。
 
-* **ユーザー名**  — 電子メールアドレスをログイン名として使用します。
+* **ユーザー名**：メールアドレスをログイン名として使用します。
 
-* **パスワード**  — 一時パスワードは、Adobe Dynamic Media Classicから電子メールで受け取るか、Adobe Dynamic Media Classic管理者から受け取ります。 初回のサインイン時に、この一時パスワードを変更するよう求められます。
+* **パスワード**:Adobe Dynamic Media ClassicまたはAdobe Dynamic Media Classic管理者から、「ようこそ」メールで一時パスワードを取得します。 初回のサインイン時に、この一時パスワードを変更するよう求められます。
 
-1. Adobe Dynamic Media Classicデスクトップアプリケーションを開きます。
+1. Adobe Dynamic Media Classic デスクトップアプリケーションを開きます。
 
-   ![Adobe Dynamic Media Classicサインイン](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classicへのログイン](/help/using/assets/dmclassic-login1.png)
 
-1. Adobe Analytics の **[!UICONTROL ユーザー名]** 「 」フィールドに、電子メールアドレスを入力します。
-1. Adobe Analytics の **[!UICONTROL パスワード]** 「 」フィールドに、パスワードを入力します。
-1. Adobe Analytics の **[!UICONTROL サーバー]** 」ドロップダウンリストから、サーバーを選択します。
+1. が含まれる **[!UICONTROL ユーザー名]** フィールドに、あなたの電子メールアドレスを入力してください。
+1. が含まれる **[!UICONTROL パスワード]** フィールドに、パスワードを入力します。
+1. が含まれる **[!UICONTROL サーバー]** ドロップダウンリストから、サーバーを選択します。
 次のマッピングを使用して、使用する実稼動環境を選択します。
 
    | ブラウザー URL | デスクトップアプリケーションサーバー名 |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | 北米（北米）の生産 |
-   | https://s7sps3.scene7.com/ | EMEA（ヨーロッパ、中東、アフリカ）の生産 |
-   | https://s7sps5.scene7.com/ | APAC（アジア太平洋）生産 |
+   | https://s7sps1.scene7.com/ | NA （北米）生産 |
+   | https://s7sps3.scene7.com/ | EMEA （ヨーロッパ、中東、アフリカ）本番 |
+   | https://s7sps5.scene7.com/ | APAC （アジア太平洋）実稼動 |
 
-1. 選択 **[!UICONTROL ログイン]**.
+1. を選択 **[!UICONTROL ログイン]**.
 
 ## Adobe Dynamic Media Classicからログアウト {#dmc-sign-out}
 
-1. Adobe Dynamic Media Classicデスクトップアプリケーションの右上隅で、「 **[!UICONTROL ログアウト]**&#x200B;を選択し、 **[!UICONTROL ログアウト]** 再び
+1. Adobe Dynamic Media Classic デスクトップアプリケーションの右上隅にあるを選択します。 **[!UICONTROL サインアウト]**&#x200B;を選択してから、 **[!UICONTROL サインアウト]** また。
 
 >[!MORELIKETHIS]
 >
