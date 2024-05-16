@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 28%
@@ -124,7 +124,7 @@ Adobe Dynamic Media Classicには、事前定義済みのビデオエンコー�
 
 **オプション**
 
-ビューアプリセットのカスタマイズ - Adobe Dynamic Media Classicには、ビデオを配信するための事前定義済みのビューアプリセットが用意されています。 これらのプリセットは、ビューアの外観と、その再生コントロールの動作を決定します。管理者はビデオビューアをカスタマイズするために、ビューアプリセットページでビューアプリセットを追加および管理することができます。このページを開くには、Adobe Dynamic Media Classicの右上隅にあるに移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**. ビューアプリセットページには、ビューアプリセットの追加、編集、削除およびアクティブ化を行うコマンドがあります。
+ビューアプリセットのカスタマイズ：Adobe Dynamic Media Classicには、ビデオを配信するための事前定義済みのビューアプリセットが用意されています。 これらのプリセットは、ビューアの外観と、その再生コントロールの動作を決定します。管理者はビデオビューアをカスタマイズするために、ビューアプリセットページでビューアプリセットを追加および管理することができます。このページを開くには、Adobe Dynamic Media Classicの右上隅にあるに移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**. ビューアプリセットページには、ビューアプリセットの追加、編集、削除およびアクティブ化を行うコマンドがあります。
 
 参照： [ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -144,7 +144,7 @@ Adobe Dynamic Media Classicには、事前定義済みのビデオエンコー�
   >
   >URL はビデオまたはアダプティブビデオセットを公開するまでアクティブになりません。
 
-* Web ページに埋め込んだビデオを表示します。この場合は、 **[!UICONTROL 埋め込みコード]** 機能
+* Web ページに埋め込まれたビデオを表示します。この場合、を使用します **[!UICONTROL 埋め込みコード]** 機能
 
   ビデオの埋め込みコードを取得するには、グリッドビューまたはリストビューの参照パネルでビデオを選択します。に移動 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**. テーブルの「アクション」列で、次の項目を選択します **[!UICONTROL 埋め込みコード]** ～の右側に `Universal_HTML5_Video`. コードの編集はできません。
 

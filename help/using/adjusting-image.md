@@ -10,16 +10,16 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 43%
+source-wordcount: '571'
+ht-degree: 41%
 
 ---
 
 # 画像の調整{#adjusting-an-image}
 
-Adobe Dynamic Media Classicには、画像の外観を調整するための様々なコマンドが用意されています。 これらのコマンドによって、画像の反転、回転、ぼかし、カラーバランスの変更、色彩の統一が可能です。これらのコマンドを試すと、操作対象の画像に対するそれぞれの効果が確認できます。
+Adobe Dynamic Media Classicには、画像の外観を調整するための様々なコマンドが用意されています。 画像の反転、回転、ブラー、カラーバランスの変更、カラー化を行うことができます。 これらのコマンドを試すと、操作対象の画像に対するそれぞれの効果が確認できます。
 
 関連トピック [画像のエイリアスの作成](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classicには、画像の外観を調整するための様�
 
    * 画像を新しいプライマリ画像として保存するには、以下を選択します。 **[!UICONTROL 名前を付けて保存]**.
 
-     ドロップダウンリストで「」を選択します。 **[!UICONTROL 新規プライマリとして保存]**.
+     ドロップダウンリストで「」を選択します。 **[!UICONTROL 新しいプライマリとして保存]**.
 が含まれる **[!UICONTROL フォルダー名]** リストボックスで、新しいプライマリ画像を保存するフォルダーを選択します。
 を選択 **[!UICONTROL 保存]**.
 

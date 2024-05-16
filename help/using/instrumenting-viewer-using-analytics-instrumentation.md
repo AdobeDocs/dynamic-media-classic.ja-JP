@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 15%
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 Adobe Analytics Instrumentation Kit を使用して、HTML5 ビューアをAdobe Analyticsと統合できます。
 
-事前定義済みのAdobe Dynamic Media Classic HTML5 ビューアプリセットを使用すると、Adobe Analyticsにデータを送信するためのすべての実装コードが既に含まれます。 それ以上のインストルメンテーションを追加する必要はありません。
+事前定義済みのAdobe Dynamic Media Classic HTML5 ビューアプリセットのいずれかを使用すると、Adobe Analyticsにデータを送信するためのすべての実装コードが既に含まれます。 それ以上のインストルメンテーションを追加する必要はありません。
 
 ## Adobe Dynamic Media ClassicからのAdobe Analytics トラッキングの設定 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 

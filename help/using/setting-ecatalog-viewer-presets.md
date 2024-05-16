@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -29,9 +29,9 @@ eCatalog ビューアプリセットには、ページ間の移動、ズーム�
 1. グローバルナビゲーションバーで、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**.
 1. ビューアプリセット画面で、最初から新規に作成するか、既存の eCatalog ビューアプリセットを編集して作成する方法で、eCatalog ビューアプリセットを作成します。
 
-   * **eCatalog ビューアプリセットの作成**  – を選択 **[!UICONTROL 追加]**. ビューアプリセットを追加ダイアログボックスで、プラットフォームを選択し、「eCatalog ビューア」を選択します。 **[!UICONTROL 追加]**.
+   * **eCatalog ビューアプリセットの作成**：を選択 **[!UICONTROL 追加]**. ビューアプリセットを追加ダイアログボックスで、プラットフォームを選択し、「eCatalog ビューア」を選択します。 **[!UICONTROL 追加]**.
 
-   * **eCatalog ビューアプリセットの編集** - eCatalog ビューアプリセットを選択したあと、選択します **[!UICONTROL 編集]**. を選択 **[!UICONTROL 名前を付けて保存]** プリセットの作成が完了したら、
+   * **eCatalog ビューアプリセットの編集**:eCatalog ビューアプリセットを選択したあと、選択します **[!UICONTROL 編集]**. を選択 **[!UICONTROL 名前を付けて保存]** プリセットの作成が完了したら、
 
 1. 日 `Configure Viewer` ページで、eCatalog ビューアプリセットの名前を入力します。
 1. 日 `Configure Viewer` ページで、必要なオプションを設定します。

@@ -10,35 +10,35 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 23%
+source-wordcount: '185'
+ht-degree: 14%
 
 ---
 
 # サポート {#support}
 
-テクニカルサポートは、あらゆる規模の企業のニーズに対応しています。次の表に、Adobe Dynamic Media Classicカスタマーケアが提供するサービスを示します。
+テクニカルサポートは、あらゆる規模の企業のニーズに対応しています。次の表に、Adobe Dynamic Media Classicが提供するサービスを示します。
 
 | サポート | 製品版 |
 | --- | --- |
-| 案件数 | 無制限. |
-| Adobe・システムのステータスの確認 | [Adobe Dynamic Media Classic System Status](https://status.adobe.com/products/1175). |
-| 答えが見つからない場合 | [サポートからヘルプを得るには、チケットを開きます](https://experienceleague.adobe.com/?support-solution=General#support). |
+| 案件数 | 無制限。 |
+| Adobeシステムステータスの確認 | [Adobe Dynamic Media Classic システムステータス](https://status.adobe.com/products/1175). |
+| 答えが見つからない場合は、 | [サポートからサポートを受けるには、チケットを開いてください](https://experienceleague.adobe.com/?support-solution=General#support). |
 | コミュニティフォーラム | [Experience Managerコミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| SLA (Service Level Agreements) | [サポートサービス/利用条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
-| サポート対象ユーザー | サポート対象ユーザーは、組織ごとに最大 10 人までのユーザーを指定して、カスタマーケアに問い合わせることができます。 |
-| 無料ライブ Web トレーニングおよび説明ビデオ | 含まれる. |
+| SLA （Service Level Agreement） | [サポートサービス /利用条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| サポートされるユーザー | サポート対象ユーザーは、組織あたり最大 10 人のユーザーを指定でき、カスタマーケアでケースをオープンできます。 |
+| 無料のライブ Web トレーニングおよびインストラクション ビデオ | 組み込み |
 | 電話サポート | <ul><li>米国およびカナダ：1-800-497-0335 </li><li>[その他の地域の電話番号](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 テクニカルサポートに問題を報告される際には、次の情報をご提供ください。
 
-* Adobe Dynamic Media Classic会社名。
-* 氏名、電話番号、電子メールアドレス.
-* Adobe Dynamic Media Classicアプリケーション、プラットフォーム、バージョン。
-* 問題の説明と問題を再現するのに必要な手順.
-* エラーメッセージ（存在する場合）。
-* ブラウザーのタイプとバージョン（該当する場合）。
+* Adobe Dynamic Media Classicの会社名。
+* 名前、電話番号、および電子メールアドレス。
+* Adobe Dynamic Media Classicのアプリケーション、プラットフォームおよびバージョン。
+* 問題の説明と、問題の再現に必要な手順。
+* エラーメッセージ（ある場合）。
+* ブラウザータイプおよびバージョン（該当する場合）。
