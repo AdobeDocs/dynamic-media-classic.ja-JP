@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -136,7 +136,7 @@ Adobe Dynamic Media Classicには、事前定義済みのビデオエンコー�
 
 * ビデオを独自のポップアップウィンドウまたはモーダルウィンドウで表示します。この場合は、 **[!UICONTROL URL をコピー]** 機能
 
-  ビデオの URL を取得するには、グリッドビューまたはリストビューの参照パネルでビデオを選択します。を選択 **[!UICONTROL プレビュー]**&#x200B;を選択してから、 **[!UICONTROL URL をコピー]** ～の右側に `Universal_HTML5_Viewer`.
+  ビデオの URL を取得するには、グリッド表示またはリスト表示で、参照パネルでビデオを選択します。 を選択 **[!UICONTROL プレビュー]**&#x200B;を選択してから、 **[!UICONTROL URL をコピー]** ～の右側に `Universal_HTML5_Viewer`.
 
   選択した場合 **[!UICONTROL URL をコピー]** URL がクリップボードにコピーされます。 Web サイト、モバイルサイトまたはアプリケーションの HTML にこのコードを設定します。
 

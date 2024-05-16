@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 25%
@@ -118,7 +118,7 @@ eCatalog ビューアプリセットで eCatalog がどのように表示され�
 
 eCatalog および関連PDFを公開すると、Web サイトやアプリケーションに配信できるように、その eCatalog がDynamic Media Image Server に配置されます。 公開プロセスの一環として、Adobe Dynamic Media Classicは eCatalog の URL 文字列をアクティベートします。 この URL を使用して、Dynamic Media Image Server から web サイトまたはアプリケーションに eCatalog を呼び出します。
 
-参照パネルで eCatalog と公開用PDFをマークしたら、グローバルナビゲーションバーの「公開」ボタンを選択して公開を開始します。 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
+参照パネルで eCatalog と公開PDFをマークしたら、グローバルナビゲーションバーの「公開」ボタンを選択して公開を開始します。 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
 
 参照： [eCatalog と関連PDFの公開](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

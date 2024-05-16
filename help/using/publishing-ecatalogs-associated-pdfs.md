@@ -10,20 +10,20 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 20%
+source-wordcount: '195'
+ht-degree: 13%
 
 ---
 
 # eCatalog と関連PDFの公開{#publishing-ecatalogs-and-associated-pdfs}
 
-公開すると、eCatalog とPDFがDynamic Media Image Server に配置され、web サイトやアプリケーションで利用できるようになります。 公開プロセスの一環として、Adobe Dynamic Media Classicは URL 文字列をアクティベートします。 この URL 文字列は、HTML Web ページコードに組み込むことができます。
+公開すると、eCatalog とPDFがDynamic Media Image Server に配置され、web サイトやアプリケーションで利用できるようになります。 公開プロセスの一環として、Adobe Dynamic Media Classicは URL 文字列をアクティベートします。 この URL 文字列は、HTMLの web ページのコードに配置できます。
 
 >[!NOTE]
 >
->eCatalog とPDFが同じフォルダーにあり、公開する前に、参照パネルまたはアセットの詳細ページで公開用にマークされていることを確認します。
+>eCatalog とPDFが同じフォルダーに存在することを確認します。 また、公開する前に、参照パネルまたはアセットの詳細ページで公開用にマークされていることを確認します。
 
 **eCatalog および関連PDFを公開するには：**
 

@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '338'
 ht-degree: 5%
 
 ---
 
 # Adobe Analytics レポートを表示して統合をテスト{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Adobe Analyticsで必要な変数を作成し、Adobe Dynamic Media Classic イベントにリンクして、必要な実装手順を完了したら、設定をテストできます。 データがAdobe Analytics自体の中に取り込まれていることをテストし、検証できます。 設定が正常に動作する場合は、それ以上の手順は必要ありません。上記の手順に従い、Adobe Dynamic Media Classic イベントデータを 1 つ以上のカスタムトラフィック変数にリンクした場合、このワークフローに従ってAdobe Analytics内のデータをテストします。
+Adobe Analyticsで必要な変数を作成し、Adobe Dynamic Media Classic イベントにリンクして、必要な実装手順を完了したら、設定をテストできます。 データがAdobe Analytics自体の中に取り込まれていることをテストし、検証できます。 設定が正常に動作する場合は、それ以上の手順は必要ありません。上記の手順に従い、Adobe Dynamic Media Classic イベントデータを 1 つ以上のカスタムトラフィック変数にリンクしたとすると、このワークフローに従って、Adobe Analytics内のデータをテストします。
 
 **Adobe Analytics レポートを表示して統合をテストするには：**
 

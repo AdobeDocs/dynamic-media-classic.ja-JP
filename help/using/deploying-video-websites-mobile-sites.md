@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 24%
+source-wordcount: '1703'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ Web サイト、モバイルサイトおよびデスクトップアプリケー�
 
 ビデオの公開に使用できる方法は 2 つあります。
 
-* **アップロード時にビデオを自動的かつ即座に公開**：ビデオのアップロードプロセスの一環として、Adobe Dynamic Media Classicでは、ビデオがアップロードおよびエンコードされる際にビデオを自動的に公開できます。 この即時公開機能があることで、アップロードとエンコード後にビデオを個別に公開する必要がありません。
+* **アップロード時にビデオを自動的かつ即座に公開**：ビデオのアップロードプロセスの一環として、Adobe Dynamic Media Classicでは、ビデオがアップロードおよびエンコードされる際にビデオを自動的に公開できます。 このインスタントパブリッシング機能により、事後にビデオを個別に公開する必要がなくなります。
 
 * **アップロード後にビデオを手動で公開**：ビデオをすぐに公開しない場合は、いつでも手動で公開できます。
 
@@ -42,7 +42,7 @@ Web サイト、モバイルサイトおよびデスクトップアプリケー�
 1. 次のいずれかの操作を行います。
 
    * アップロード時にビデオを自動的かつ即座に公開するには、アップロードページで「」を選択します **[!UICONTROL アップロード後に公開]**. 完了後は、それ以上の手順は必要ありません。
-   * アップロード後にビデオを手動で公開するには、参照パネルでビデオを選択し、グローバルナビゲーションバーで「」を選択します。 **公開**.
+   * アップロード後にビデオを手動で公開するには、参照パネルでビデオを選択して、グローバルナビゲーションバーでを選択します **公開**.
 
 ## ビデオ URL のモバイルサイトまたは web サイトへのリンク {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -107,7 +107,7 @@ Web ページに埋め込んだビデオを再生する場合は、埋め込み�
 
 ### MP4 ビデオアセットでHTML 5 ビデオを使用するための埋め込みコードの実装 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Adobe Dynamic Media Classic HTML5 ビデオプレーヤーを使用せずに、ネイティブのHTML5 を使用する場合 `<video>` mp4 ビデオアセットのタグ付けでは、以下の埋め込みコードサンプルを使用できます。
+Adobe Dynamic Media Classic HTML5 ビデオプレーヤーを使用したくない場合があります。 代わりに、ネイティブHTMLを使用する場合は、次のようにします。5 `<video>` mp4 ビデオアセットのタグ付けでは、以下の埋め込みコードサンプルを使用できます。
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -117,7 +117,7 @@ Adobe Dynamic Media Classic HTML5 ビデオプレーヤーを使用せずに、�
 </video>
 ```
 
-* 置換 `"S7 video thumbnail URL"` ビデオのサムネール URL を使用して、ユーザーがビデオを再生する前に表示するビデオのサムネール画像を指定します。
+* 置換 `"S7 video thumbnail URL"` ビデオのサムネール URL は、ビデオを再生する前にユーザーに表示されるビデオのサムネール画像です。
 
   参照： [ビデオサムネール URL の取得](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
@@ -185,7 +185,7 @@ Adobe Dynamic Media Classicは、アップロード処理中にビデオサム�
 
 ポスターフレームに画像修飾子を適用できます。例えば、ポスターフレームを切り抜いたり、透明にしたりすることができます。ポスターフレームを変更するには、ビデオビューアの設定画面を開いて、「ポスター画像修飾子」セクションに修飾子を入力します。
 
-参照： [ビデオビューアプリセットを追加または編集する](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+参照： [ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 参照： [画像サービングガイド](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 

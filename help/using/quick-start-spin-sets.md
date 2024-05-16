@@ -10,7 +10,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 21%
@@ -77,7 +77,7 @@ ht-degree: 21%
 
 スピンセットを公開すると、Adobe Dynamic Media Classic サーバーに配置されるので、web サイトやアプリケーションに動的に配信できます。 また、Dynamic Media Image Server から Web サイトまたはアプリケーションにスピンセットを呼び出す URL 文字列もアクティベートされます。
 
-スピンセットを公開するには、スピンセットに公開用のマークを付けます **[!UICONTROL 公開用にマーク]** 参照パネルで名前の横にあるアイコン。 グローバルナビゲーションバーで、を選択します。 **[!UICONTROL 公開]** をクリックして公開を開始します。 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
+スピンセットを公開するには、スピンセットに公開用のマークを付けます **[!UICONTROL 公開用にマーク]** 参照パネルの名前の横にあるアイコン。 グローバルナビゲーションバーで、を選択します。 **[!UICONTROL 公開]** をクリックして公開を開始します。 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
 
 参照： [スピンセットの公開](publishing-spin-set.md#publishing-a-spin-set).
 

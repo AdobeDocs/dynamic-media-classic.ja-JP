@@ -10,24 +10,24 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
 # ズーム画像の公開{#publishing-zoom-images}
 
-公開すると、ズーム画像がDynamic Media Image Server に配置され、Web サイトやアプリケーションで使用できるようになります。 公開プロセスの一環として、Adobe Dynamic Media Classicは URL 文字列をアクティベートします。 これらの URL 文字列を Web サイトの HTML コードに配置することができます。
+公開すると、ズーム画像がDynamic Media Image Server に配置され、web サイトやアプリケーションで利用できるようになります。 公開プロセスの一環として、Adobe Dynamic Media Classicは URL 文字列をアクティベートします。 これらの URL 文字列は、Web サイトのHTMLコードに配置できます。
 
-## 画像を公開用にマーク {#marking-images-for-publish}
+## 公開用に画像をマーク {#marking-images-for-publish}
 
-画像をDynamic Media Image Server にコピーするには、画像を公開用にマークする必要があります。 参照パネルで、 **[!UICONTROL 公開用にマーク]** アイコン。 また、画像をアップロードする際に、公開用にマークすることもできます。
+Dynamic Media Image Server にコピーするには、画像を公開用にマークする必要があります。 参照パネルで画像を公開用にマークするには、次のオプションを選択します **[!UICONTROL 公開用にマーク]** アイコン。 アップロード時に、公開用に画像をマークすることもできます。
 
-## 画像を公開 {#publishing-the-images}
+## 画像を公開する {#publishing-the-images}
 
-ズーム画像を公開するには、グローバルナビゲーションバーで **[!UICONTROL 公開]**&#x200B;を選択し、 **[!UICONTROL 条件]** オプション (**[!UICONTROL 1 回限り]** または **[!UICONTROL 定期]**) をクリックします。 必要に応じて、公開ジョブの名前を入力できます。 選択 **公開を送信**.
+ズーム画像を公開するには、グローバルナビゲーションバーで「」を選択します。 **[!UICONTROL 公開]**&#x200B;を選択してから、 **[!UICONTROL 条件]** オプション （**[!UICONTROL 1 回限り]** または **[!UICONTROL 繰り返し]**）に設定します。 必要に応じて、公開ジョブの名前を入力できます。 を選択 **公開を送信**.
 
 >[!MORELIKETHIS]
 >

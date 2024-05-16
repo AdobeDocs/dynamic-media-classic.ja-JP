@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 22%
    * 混在メディアセットビューアプリセットを編集するには、ビューアプリセットを選択してから選択します **[!UICONTROL 編集]**.
 
 1. 設定ビューア ページで、混在メディアセットビューアプリセットの「プリセット名」ボックスに名前を入力します。
-1. を指定 **[!UICONTROL タブ]** または **[!UICONTROL タブなし]**. タブを指定すると、ビデオ、スウォッチ、スピンセットなどのタイプごとに項目が分けられます。タブを指定しない場合、すべての項目がプレビューウィンドウの下の行に表示されます。
+1. を指定 **[!UICONTROL タブ]** または **[!UICONTROL タブなし]**. タブは、ビデオ、スウォッチ、スピンセットなど、タイプ別に項目を区切ります。 タブを指定しない場合、すべての項目がプレビューウィンドウの下の行に表示されます。
 1. が含まれる **[!UICONTROL 名前]** ボックスに、追加するビューアの名前を入力します。
 
    例えば、混在メディアセットにスウォッチセットを追加する場合は、と入力します `Swatch Set A`.

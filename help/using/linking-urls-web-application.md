@@ -10,16 +10,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 27%
+source-wordcount: '842'
+ht-degree: 26%
 
 ---
 
 # Web アプリケーションへの URL のリンク{#linking-urls-to-your-web-application}
 
-Web サイトおよびアプリケーションは、URL 文字列を介してDynamic Media Image Server コンテンツにアクセスします。 画像を公開すると、Adobe Dynamic Media ClassicはDynamic Media Image Server 上の画像プリセットを参照する URL 文字列をアクティベートします。 これらの URL を Web ブラウザにペーストしてテストすることができます。
+Web サイトおよびアプリケーションは、URL 文字列を介してDynamic Media Image Server コンテンツにアクセスします。 画像を公開すると、Adobe Dynamic Media ClassicはDynamic Media Image Server 上の画像プリセットを参照する URL 文字列をアクティベートします。 これらの URL を Web ブラウザーに貼り付けてテストできます。
 
 これらの URL 文字列を web ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。 画像プリセットで生成された URL 文字列を取得するには、プレビュー画面または参照パネル（詳細表示）に移動します。
 
@@ -40,7 +40,7 @@ Web サイトおよびアプリケーションは、URL 文字列を介してDyn
    * Assets ウィンドウの上のツールバーの右側で、次の項目を選択します **[!UICONTROL リスト表示]**. アセットウィンドウで、1 つの画像アセットを選択し、サムネール画像の右側で、 **[!UICONTROL プレビュー]** > **[!UICONTROL 画像プリセットリスト]**.
    * Assets ウィンドウの上のツールバーの右側で、次の項目を選択します **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します **[!UICONTROL プレビュー]** > **[!UICONTROL 画像プリセットリスト]**.
 
-1. （オプション）画像プリセットリストの「URL 生成をコピーするための URL エンコーディング」ドロップダウンリストで、画像アセットの URL に適用する URL エンコーディングを選択します。
+1. （オプション）画像プリセットリストの「URL 生成をコピーするための URL エンコーディング」ドロップダウンリストで、画像アセットの URL をコピーするときに適用する URL エンコーディングを選択します。
 1. 画像プリセットリスト ウィンドウのプレビューペインの右上にある領域で、 **[!UICONTROL URL をコピー]** （選択したプリセットタイプ用）
 1. 画像プリセットリスト ウィンドウの右下隅にある「」を選択します。 **[!UICONTROL 閉じる]** をクリックして、アセット画面に戻ります。
 
@@ -80,7 +80,7 @@ URL 内で、画像プリセット名はドル記号（$）で囲まれていま
 
 ## Web ページへの動的画像の追加 {#adding-dynamic-images-to-your-web-page}
 
-Web ページに動的な画像を追加するには、 `<IMG>` HTMLの web ページのタグのコードは、通常、Adobe Dynamic Media Classic URL 文字列を使用して変更され、Dynamic Media Image Server にリクエストを送信します。 この文字列は、画像プリセットによって定義されているサイズおよび形式仕様で画像を生成します。
+Web ページに動的画像を追加する場合、 `<IMG>` HTMLページのコードのタグは、通常、Adobe Dynamic Media Classic URL 文字列を使用して変更され、Dynamic Media Image Server にリクエストを送信します。 この文字列は、画像プリセットによって定義されているサイズおよび形式仕様で画像を生成します。
 
 例えば、静的な画像を開くための次のような一般的な呼び出しの代わりに、
 

@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe Dynamic Media Classic ヘルプへようこそ。 ここでは、使用可
 * [ガイド：画像のシャープニングに関するベストプラクティスガイド](/help/using/assets/s7_sharpening_images.pdf)
 * [ガイド：Adobe Dynamic Media Classicによる SEO のサポート](/help/using/assets/s7_seo.pdf)：現在の検索エンジンでは、web サイトや画像の検索が可能です。 Adobe Dynamic Media Classicでは、画像を検索エンジンに適したものにする取り組みをサポートしており、より多くのトラフィックがAdobe Dynamic Media Classic ユーザーの web サイトに誘導されるようになります。 PDFのこのガイドでは、これを実現するための背景と実装に関する推奨事項を説明します。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [ウェビナー：ベストプラクティス Adobe Dynamic Media Classicでインタラクティブなエクスペリエンスを提供](https://seminars.adobeconnect.com/p7wb8ej3u6d/):Adobe Dynamic Media Classicでコンテンツを送受信する方法や、最適なパフォーマンスとエクスペリエンスを実現するために画像プリセットを設定する方法について説明します。 また、ビューアプリセットとキャッシュ設定についても説明します。
+* [ウェビナー：Adobe Dynamic Media Classicでインタラクティブなエクスペリエンスを提供するためのベストプラクティス](https://seminars.adobeconnect.com/p7wb8ej3u6d/):Adobe Dynamic Media Classicでコンテンツを送受信する方法や、最適なパフォーマンスとエクスペリエンスを実現するために画像プリセットを設定する方法について説明します。 また、ビューアプリセットとキャッシュ設定についても説明します。
 * [ウェビナー：アセット ROI の最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)：サイトやモバイルアプリ全体にリッチメディアを配信するための、業界のベストプラクティスについて説明します。 このウェビナーでは、Adobeが、様々なデバイスにわたってビデオを効率的に配信する方法を示す例とデモを示します。 マーケティングキャンペーンで動的なクリエイティブを配信する方法を説明します。 または、画像、スタイルガイド、ルックブックをショッパブルにして、コンバージョンを増やします。
 * [ウェビナー：コンテンツ配信のライフサイクルの促進](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)：リッチメディアの管理と配信のための次世代プラットフォーム、Adobe Experience Manager Assets:On Demand の紹介とデモです。 クリエイティブチームとマーケティングチーム間でアセットを共同作業および共有して、アセット確認プロセスを効率化する方法について説明します。 アセットメタデータを効率的に管理するためのベストプラクティスについて説明します。 これにより、アセットを簡単に検索、使用、再利用、共有できるようになります。 また、インタラクティブなクロスチャネルリッチメディアエクスペリエンスを配信する方法についても説明します。
 * [ウェビナー：モバイル最適化の設計](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true):Adobe Dynamic Media Classicを使用すると、ターゲット設定されたリッチメディアをすべてのデバイスに効率的に配信できます。 モバイルアプリやレスポンシブサイトをまたいで効果的な画像およびビデオ表示エクスペリエンスを設計して配信する方法について説明します。

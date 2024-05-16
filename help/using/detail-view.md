@@ -10,7 +10,7 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 20%
@@ -56,7 +56,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 詳細表示には、アセットまたはファイルに関する情報が表示されます。 項目に関する情報が表示されます。項目の保存先のフォルダー、ファイル名、項目がAdobe Dynamic Media Classicにアップロードされた日付、および公開履歴です。 また、詳細表示でアセットのメタデータを表示して編集したり、キーワードを追加したりすることもできます。
 
-詳細表示でアセット URL を取得できますが、URL はアセットを公開するまでアクティブになりません。 画像の場合、詳細表示には、ズームターゲットや画像セットなどの作成および派生アセットとメタデータのリストも表示されます。
+詳細表示でアセット URL を取得できますが、URL はアセットを公開するまでアクティブになりません。 画像の場合、詳細表示には、ズームターゲットや画像セットなどの構築および派生アセットとメタデータのリストも表示されます。
 
 ## 詳細表示でのアセットの操作 {#working-with-assets-in-detail-view}
 

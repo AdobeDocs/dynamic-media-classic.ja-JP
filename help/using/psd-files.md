@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1023'
 ht-degree: 22%
 
 ---
@@ -63,7 +63,7 @@ PSDファイルをアップロードするためのオプションは、「ア�
 
       * **[!UICONTROL レイヤー名]**:PSDファイル内のレイヤー名に従って画像に名前を付けます。 例えば、元の PSD ファイルで Price Tag という名前のレイヤーは、Price Tag という名前の画像になります。ただし、PSDファイル内のレイヤー名がデフォルトのPhotoshop レイヤー名（背景、レイヤー 1、レイヤー 2 など）である場合、画像の名前はPSDファイル内のレイヤー番号に従って付けられます。 <!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshopとレイヤー番号]**:PSDファイル内のレイヤー番号に従って画像の名前を付け、元のレイヤー名は無視します。 画像には、Photoshop ファイル名の後にレイヤー番号を付加した名前が付けられます。例えば、というファイルの 2 番目のレイヤーです。 `Spring Ad.psd` という名前です `Spring Ad_2` Photoshopにデフォルト以外の名前がある場合でも同様です。
+      * **[!UICONTROL Photoshopとレイヤー番号]**：元のレイヤー名を無視して、PSDファイル内のレイヤー番号に従って画像に名前を付けます。 画像には、Photoshop ファイル名の後にレイヤー番号を付加した名前が付けられます。例えば、というファイルの 2 番目のレイヤーです。 `Spring Ad.psd` という名前です `Spring Ad_2` Photoshopにデフォルト以外の名前がある場合でも同様です。
 
       * **[!UICONTROL Photoshopとレイヤー名]**：画像は、PSDファイルの後に、レイヤー名またはレイヤー番号を付けた名前になります。 PSD ファイルのレイヤー名が、初期設定の Photoshop レイヤー名の場合は、レイヤー番号が使用されます。例えば、という名前のレイヤー `Price Tag` という名前のPSDファイル内 `SpringAd` という名前です `Spring Ad_Price Tag`. レイヤ 2 というデフォルト名のレイヤは、 `Spring Ad_2`.
 
@@ -77,7 +77,7 @@ PSDファイルをアップロードするためのオプションは、「ア�
 >
 >Adobe Dynamic Media Classicは、ネストされたレイヤーグループで最大 5 レベルをサポートします。
 
-1. 参照パネルでフル・PSD・ファイルをダブルクリックします。 ファイルが詳細表示で開きます。
+1. 参照パネルでフルPSDファイルをダブルクリックします。 ファイルが詳細表示で開きます。
 
    >[!NOTE]
    >

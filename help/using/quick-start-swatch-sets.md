@@ -10,7 +10,7 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 17%
@@ -49,11 +49,11 @@ Adobe Dynamic Media Classic スウォッチセットは、統合された閲覧�
 
 スウォッチセットを公開すると、Adobe Dynamic Media Classic サーバーに配置され、URL 文字列がアクティベートされます。
 
-「」を選択します **[!UICONTROL 公開用にマーク]** 参照パネル内の名前の左側にあるアイコン。 次に、を選択します **[!UICONTROL 公開]**. 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
+「」を選択します **[!UICONTROL 公開用にマーク]** 参照パネルでの名前の左側にあるアイコン。 次に、を選択します **[!UICONTROL 公開]**. 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
 
 参照： [ファイルを公開](publishing-files.md#publishing-files).
 
-## 6. スウォッチセットの web ページへのリンク
+## 6. スウォッチセットを web ページにリンクする
 
 Adobe Dynamic Media Classicによって、スウォッチセットの URL 呼び出しが作成され、公開後にアクティベートされます。 これらの URL は、プレビューページからコピーできます。
 

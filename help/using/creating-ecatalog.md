@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 38%
+source-wordcount: '984'
+ht-degree: 30%
 
 ---
 
 # eCatalog の作成 {#creating-an-ecatalog}
 
-eCatalog の作成には、ページの順序を決めたり、ページレイアウトを選択したり、画像マップを描画してページをリンクしたり、ロールオーバーとハイパーテキストリンクのデータを入力するといった作業があります。このほかに、ページ番号ではなくページ名を eCatalog ビューアで表示するように目次をカスタマイズすることもできます。
+eCatalog の作成には、ページの順序付け、ページ レイアウトの選択、およびイメージ マップの描画によるページのリンクが必要です。 また、ロールオーバーとハイパーテキストのリンクデータを入力する必要があります。 このほかに、ページ番号ではなくページ名を eCatalog ビューアで表示するように目次をカスタマイズすることもできます。
 
 ## eCatalog の作成 {#create}
 
@@ -40,7 +40,7 @@ eCatalog を作成すると、 **[!UICONTROL 保存後の公開]** オプショ�
 
    * **最初にファイルを選択します**：参照パネルで、「ファイル」を選択してから「」に移動します。 **[!UICONTROL ビルド]** > **[!UICONTROL eCatalog]**.
 
-   * **eCatalog 画面から開始**：に移動します **[!UICONTROL ビルド]** > **[!UICONTROL eCatalog]**. アセットライブラリのフォルダーを選択し、そのフォルダーから eCatalog ページの「ページ順序」タブにファイルをドラッグします。
+   * **eCatalog 画面から開始**：に移動します **[!UICONTROL ビルド]** > **[!UICONTROL eCatalog]**. アセットライブラリでフォルダーを選択します。 フォルダーから eCatalog ページの「ページを並べ替え」タブにファイルをドラッグします。
 
      >[!NOTE]
      >
@@ -98,7 +98,7 @@ eCatalog を作成すると、 **[!UICONTROL 保存後の公開]** オプショ�
 
 Adobe Dynamic Media Classicは、eCatalog 画面の「ページを注文」タブで、eCatalog にデフォルトのページ番号を表示します。 ページの名前を独自に定義する場合は、目次を構成するページラベルを変更します。表紙と裏表紙には名前を付けることをお勧めします。例えば、表紙は「0-1 ページ」ではなく「表紙」と読むことができます。
 
-eCatalog 用にカスタマイズした目次（TOC）を手動で作成することも、ページ名を CSV （Macのみ）または XML ファイルから読み込むこともできます。
+eCatalog 用にカスタマイズされた目次（TOC）を手動で作成できます。 または、CSV （Macのみ）または XML ファイルからページ名を読み込むこともできます。
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ eCatalog 用にカスタマイズした目次（TOC）を手動で作成する�
 
 ### ページ名の手動入力 {#manually-entering-page-names}
 
-ページ名を一度に 1 つずつ手動で入力するには、eCatalog 画面の「ページ順序」タブに移動し、次に、「ページ番号」フィールドに、名前を付けるページごとに名前を入力します。
+eCatalog 画面の「ページを注文」タブに移動して、ページ名を 1 つずつ手動で入力します。 次に、「ページ番号」フィールドに、名前を付けるページごとに名前を入力します。
 
 ### ページ名の読み込み {#importing-page-names}
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -45,24 +45,24 @@ Adobe Dynamic Media Classicでは、次のフォントタイプをサポート�
 
 参照パネルで、詳細ビューで編集するフォントファイルを選択し、「ファイル」 > 「情報を編集」を選択します。 情報を編集画面が開きます。次のオプションを選択してから、 **[!UICONTROL Submit]**.
 
-* **[!UICONTROL フォント名]**  – この名前は、公開時にフォントを識別します。
+* **[!UICONTROL フォント名]**：この名前が、公開時のフォントを識別します。
 
-* **[!UICONTROL PostScript 名]**  – この名前は、フォントの完全な PostScript 名です。 通常は、太さまたはスタイルを示します。
+* **[!UICONTROL PostScript 名]**：この名前は、フォントの完全な PostScript 名です。 通常は、太さまたはスタイルを示します。
 
-* **[!UICONTROL RTF 名]**  – この名前は、テンプレートテキストレイヤーが作成される RTF エディターのポップアップメニューに表示されます。
+* **[!UICONTROL RTF 名]**：この名前は、テンプレートテキストレイヤーが作成される RTF エディターのポップアップメニューに表示されます。
 
-* **[!UICONTROL フォントファミリー名]**  – この名前には、スタイル、太さ、フォントタイプインジケーターを含まないフォント名が一覧表示されます。
+* **[!UICONTROL フォントファミリー名]**：この名前には、スタイル、太さ、フォントタイプインジケーターを含まないフォント名が一覧表示されます。
 
-* **[!UICONTROL フォントスタイル]** - 「標準」、「太字」、「斜体」、「太字斜体」の各オプションがあります。
+* **[!UICONTROL フォントスタイル]**：オプションは、「標準」、「太字」、「斜体」、「太字斜体」です。
 
-* **[!UICONTROL フォントタイプ]** - オプションは TrueType とAdobe Type 1 です。 これらのフォントを別の名前で呼び出す場合は、その名前を入力します。
+* **[!UICONTROL フォントタイプ]**：オプションには TrueType とAdobe Type 1 があります。 これらのフォントを別の名前で呼び出す場合は、その名前を入力します。
 
-* **[!UICONTROL フォントタイプの略語]** - オプションは次のとおりです。
+* **[!UICONTROL フォントタイプの略語]**：オプションは次のとおりです。
 
-   * **[!UICONTROL TTF]** - PDF/PostScript レンダリングおよび画像サービングに使用される TrueType フォントファイル。
+   * **[!UICONTROL TTF]**:PDF/PostScript レンダリングおよび画像サービングに使用される TrueType フォントファイル。
 
-   * **[!UICONTROL AFM]** - Adobeフォント指標の情報を含み、画像サービングに使用されるAdobe PostScript フォントファイル。
+   * **[!UICONTROL AFM]**:Adobeフォント指標の情報を含み、画像サービングに使用されるAdobe PostScript フォントファイル。
 
-   * **[!UICONTROL PFM]** - バイナリフォント指標情報を含むAdobe PostScript フォントファイル。
+   * **[!UICONTROL PFM]**：バイナリフォント指標情報を含むAdobe PostScript フォントファイル。
 
-   * **[!UICONTROL PFB]** - バイナリのフォントアウトライン情報を含み、PDF/PostScript レンダリングおよび画像サービングに使用されるAdobe PostScript フォントファイル。
+   * **[!UICONTROL PFB]**：バイナリのフォントアウトライン情報を含み、PDF/PostScript レンダリングおよび画像サービングに使用されるAdobe PostScript フォントファイル。

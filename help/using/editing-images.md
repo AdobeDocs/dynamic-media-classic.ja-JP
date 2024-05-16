@@ -10,7 +10,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 7%
@@ -19,18 +19,18 @@ ht-degree: 7%
 
 # 画像の編集{#editing-images}
 
-Adobe Dynamic Media Classicには、リッチメディア効果を作成するためのツールが多数用意されています。 これらのツールは、ロールオーバーを選択することで使用できます **[!UICONTROL 編集]** 詳細ビューの参照パネルの「」ボタンと「」ボタン Adobe Dynamic Media Classicでは、次の画像編集タスクを実行できます。
+Adobe Dynamic Media Classicには、リッチメディア効果を作成するためのツールが多数用意されています。 これらのツールは、ロールオーバーを選択することで使用できます **[!UICONTROL 編集]** 詳細ビューの参照パネルの「」ボタンと「」ボタン。 Adobe Dynamic Media Classicでは、次の画像編集タスクを実行できます。
 
-* **画像マップの作成**  – 画像マップを作成するには、「画像」コマンドを選択します。または **[!UICONTROL 画像マップ]** ボタン。 画像マップは、画像、eCatalog ページ、またはスピンセット内の画像のホットスポットで、ロールオーバーテキストを含むパネルが表示されます。 ユーザーは、例えば画像マップを選択して、新しい web ページを起動することができます。 参照： [画像マップの作成](/help/using/creating-image-maps.md).
+* **画像マップの作成**：画像マップを作成するには、「画像」コマンドまたは **[!UICONTROL 画像マップ]** ボタン。 画像マップは、画像、eCatalog ページ、またはスピンセット内の画像のホットスポットで、ロールオーバーテキストを含むパネルが表示されます。 ユーザーは、例えば画像マップを選択して、新しい web ページを起動することができます。 参照： [画像マップの作成](/help/using/creating-image-maps.md).
 
-* **ズームターゲットの作成** - サムネールのターゲットを作成するには、「ズームターゲット」コマンドまたは **[!UICONTROL ズームターゲット]** ボタン。 ユーザーはズームビューアでサムネールターゲットを選択して、画像の特定の部分に直接ズームできます。 参照： [ガイド付きズームのズームターゲットの作成](/help/using/creating-zoom-targets-guided-zoom.md).
+* **ズームターゲットの作成**：サムネールのターゲットを作成するには、「ズームターゲット」コマンドまたは **[!UICONTROL ズームターゲット]** ボタン。 ユーザーはズームビューアでサムネールターゲットを選択して、画像の特定の部分に直接ズームできます。 参照： [ガイド付きズームのズームターゲットの作成](/help/using/creating-zoom-targets-guided-zoom.md).
 
-* **画像の切り抜き**  – 画像を切り抜くには、「切り抜き」コマンドまたは **[!UICONTROL 切り抜き]** ボタン。 参照： [画像の切り抜き](/help/using/cropping-image.md).
+* **画像の切り抜き**：画像を切り抜くには、切り抜きコマンドまたは **[!UICONTROL 切り抜き]** ボタン。 参照： [画像の切り抜き](/help/using/cropping-image.md).
 
-* **画像のシャープニング** - 「シャープ」コマンドを選択するか、 **[!UICONTROL シャープ]** ボタン。 参照： [画像のシャープニング](/help/using/sharpening-image.md).
+* **画像のシャープニング**:「シャープ」コマンドまたは「」を選択して、画像のアウトラインのぼかしを軽減します。 **[!UICONTROL シャープ]** ボタン。 参照： [画像のシャープニング](/help/using/sharpening-image.md).
 
-* **画像の調整**  – を選択します `Adjust` command または **[!UICONTROL 調整]** 画像のカラーバランスを反転、回転、ブラー、カラー化または変更するボタン。 参照： [画像の調整](/help/using/adjusting-image.md).
+* **画像の調整**：を選択します `Adjust` command または **[!UICONTROL 調整]** 画像のカラーバランスを反転、回転、ブラー、カラー化または変更するボタン。 参照： [画像の調整](/help/using/adjusting-image.md).
 
-* **レイヤーの編集**  – 編集可能な個々の画層をPSD ファイルに表示するには、 **[!UICONTROL レイヤー]** タブ。 PSDファイルをアップロードすると、すべてのレイヤーが個別のファイルとしてアップロードされるので、Adobe Dynamic Media Classic内で編集できます。
+* **レイヤーの編集**:PSDファイル内の編集可能な個々のレイヤーを表示するには、 **[!UICONTROL レイヤー]** タブ。 PSDファイルをアップロードすると、すべてのレイヤーが個別のファイルとしてアップロードされるので、Adobe Dynamic Media Classic内で編集できます。
 
 これらのツールを使用して画像を編集する以外に、Adobe Dynamic Media Classicに画像をアップロードする際に画像を編集することもできます。 例えば、画像のアップロード時に、画像を切り抜いたり、クリッピングパスからマスクを作成したり、画像のカラープロファイルを選択したりできます。

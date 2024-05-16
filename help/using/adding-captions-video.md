@@ -9,7 +9,7 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 17%
@@ -32,7 +32,7 @@ ht-degree: 17%
 * `Universal_HTML5_MixedMedia_dark` ビューア
 * `Universal_HTML5_MixedMedia_light` ビューア
 
-参照： [ビデオビューアプリセットを追加または編集する](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+参照： [ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 関連トピック [ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets).
 

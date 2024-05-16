@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに統一された視聴エクスペリエンスを提供できます。 動的画像セットビューアでは、サムネール画像を選択して項目の様々なビューを表示できます。 画像セットを使用すると、項目の代替の高解像度ビューを表示できます。
 
-画像セットビューアでは、ズームツールを使用して、詳細に画像を確認できます。また必要に応じて、画像セットのガイドズーム用のズームターゲットや画像マップを作成できます。画像セットによって、統合的で詳細な表示操作が可能になります。
+画像セットビューアでは、ズームツールを使用して、詳細に画像を確認できます。必要に応じて、ガイド付きズームターゲットと画像マップを画像セットの一部にすることができます。 画像セットによって、統合的で詳細な表示操作が可能になります。
 
 参照： [画像およびスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) トレーニングビデオ。
 
@@ -78,7 +78,7 @@ Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに�
 >
 >を選択した場合、この手順は不要です **[!UICONTROL 保存後の公開]** （デフォルト）画像セットを作成して保存した時点。
 
-を選択 **[!UICONTROL 公開用にマーク]** 参照パネル内の名前の左側にあるアイコン。 次に、を選択します **[!UICONTROL 公開]**. 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
+を選択 **[!UICONTROL 公開用にマーク]** 参照パネルでの名前の左側にあるアイコン。 次に、を選択します **[!UICONTROL 公開]**. 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
 
 参照： [ファイルを公開](publishing-files.md#publishing-files).
 
