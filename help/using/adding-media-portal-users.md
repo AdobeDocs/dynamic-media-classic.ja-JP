@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 54%
+source-wordcount: '1008'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->ユーザを追加する前に、ユーザを管理するためのグループを設定します。Media Portal では、ユーザを 1 つまたは複数のグループに割り当てないと、ユーザを追加できません。詳しくは、を参照してください [メディアポータルグループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>ユーザを追加する前に、ユーザを管理するためのグループを設定します。Media Portal では、ユーザーを 1 つ以上のグループに割り当てることでユーザーを追加できます。 詳しくは、を参照してください [メディアポータルグループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## メディアポータルパスワードの管理 {#handling-media-portal-passwords}
 
@@ -95,7 +95,7 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 
 >[!NOTE]
 >
->CSV ファイルが正しい形式でない場合は、次のエラーメッセージが表示されます。「アップロードされた CSV ファイルの処理中にエラーが発生しました。 ファイルの内容が有効なデータかどうかを確認します。」 また、CSV に既存の IP または IPS ユーザが含まれていた場合、そのユーザはユーザリストに追加されません。
+>CSV ファイルが正しい形式でない場合は、次のエラーメッセージが表示されます。「アップロードされた CSV ファイルの処理中にエラーが発生しました。 ファイルの内容が有効なデータかどうかを確認します。」 また、CSV に既存の IP ユーザーまたは IPS ユーザーが含まれている場合、そのユーザーはユーザーリストに追加されません。
 
 ## 選択可能な Media Portal ユーザリストの生成 {#generating-a-selectable-list-of-media-portal-users}
 

@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 16%
+source-wordcount: '327'
+ht-degree: 17%
 
 ---
 
@@ -27,7 +27,7 @@ Media Portal スタイル設定によって、Media Portal 画面に自社ロゴ
 
 * **[!UICONTROL 用途]**：背景のグラデーションカラーのメニューで選択して、グラデーションカラーブレンドを作成します。
 
-* **[!UICONTROL ツリー]**：ロールオーバーカラー（ポインターを項目の上に移動したときに表示されるカラー）と選択カラー（項目を選択したときに表示されるカラー）を選択します。
+* **[!UICONTROL ツリー]**：ロールオーバーカラーと選択カラーを選択します。
 
 * **[!UICONTROL アコーディオン]**：詳細表示で画面の右側に表示されるアコーディオンについて、背景色、境界線のスタイル、ロールオーバーおよび選択した色を選択します。
 

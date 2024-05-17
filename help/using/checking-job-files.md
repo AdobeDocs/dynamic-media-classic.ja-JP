@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 24%
+source-wordcount: '1622'
+ht-degree: 23%
 
 ---
 
 # ジョブ ファイルの確認{#checking-job-files}
 
-Adobe Dynamic Media Classicへのファイルのアップロードや、Adobe Dynamic Media Classic サーバーに公開するファイルを監視するために、Adobe Dynamic Media Classicにはジョブページが用意されています。 ジョブページで、アップロードおよび公開ジョブを確認したり、ジョブのステータスを確認したり、ジョブの公開をキャンセルすることができます。また、アップロードおよび公開ジョブをスケジュールすることもできます。
+Adobe Dynamic Media Classicへのファイルのアップロードや、Adobe Dynamic Media Classic サーバーに公開するファイルを監視するために、Adobe Dynamic Media Classicにはジョブページが用意されています。 ジョブページでジョブのレビュー、アップロード、公開を行ったり、ジョブのステータスを確認したり、このページからジョブの公開をキャンセルしたりできます。 また、アップロードおよび公開ジョブをスケジュールすることもできます。
 
 アセットをアップロードすると、ジョブメニューの横に、ジョブが処理中であることを示す回転する模様のアイコンと、処理中のファイル数が表示されます。このアイコンを選択して、アクティブなジョブの詳細を表示することができます。
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classicへのファイルのアップロードや、Adobe Dy
 
 * **[!UICONTROL ステータス]**：ジョブのステータスを表示します。
 
-* **[!UICONTROL 宛先]**：アップロードジョブの場合、会社名、ファイルのアップロード先のフォルダー。 このカテゴリは、公開用ジョブには適用されません。
+* **[!UICONTROL 宛先]**：アップロードジョブの場合、宛先はファイルがアップロードされた会社名とフォルダーです。 このカテゴリは、公開用ジョブには適用されません。
 
 * **[!UICONTROL 送信者]**：アセットをアップロードしたユーザーをリストします。
 
