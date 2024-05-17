@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 18%
@@ -59,7 +59,7 @@ Adobe Analytics設定画面を使用して、ビューアイベントをAdobe An
 
 ### ビューアイベント {#viewer-events}
 
-ビューアイベントは、Dynamic Media Classic ビューアでユーザーが実行するアクションを表します。 ユーザーがアクション（サムネールの選択、ビデオの開始や停止など）を開始すると、ビューアは web ページにイベントを「ブロードキャスト」します。 そのイベントに関連付けられたデータもプッシュされます。
+ビューアイベントは、Dynamic Media Classic ビューアでユーザーが実行するアクションを表します。 ユーザーがアクション（サムネールの選択、ビデオの開始や停止など）を開始すると、ビューアはイベントを web ページに「ブロードキャスト」します。 そのイベントに関連付けられたデータもプッシュされます。
 
 次の表に、Adobe Analytics設定画面に追加できるビューアイベントを示します。
 
@@ -105,8 +105,8 @@ Adobe Analytics設定画面の各ビューアイベントについて、Adobe An
 
 Adobe Analytics 設定画面で、ビューアイベントをアクティブ化、編集および削除できます。
 
-* **Activate**  – を選択 **[!UICONTROL Enable （有効）]** アクティブ化またはアクティブ化 **[!UICONTROL 無効]** 選択したビューアイベントをディアクティベートします。
+* **Activate**：を選択 **[!UICONTROL Enable （有効）]** アクティブ化またはアクティブ化 **[!UICONTROL 無効]** 選択したビューアイベントをディアクティベートします。
 
-* **編集** - ビューアイベントを選択して、 **[!UICONTROL 表示/編集]** 変数のグレーボタン。 Adobe Dynamic Media Classic変数とAdobe Analytics変数のドロップダウンリストで、それぞれのリストから異なる変数を選択します。 詳しくは、を参照してください [Adobe Dynamic Media Classic ビューアイベントおよび変数へのAdobe Analytics変数の割り当て](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **編集**：ビューアイベントを選択して、 **[!UICONTROL 表示/編集]** 変数のグレーボタン。 Adobe Dynamic Media Classic変数とAdobe Analytics変数のドロップダウンリストで、それぞれのリストから異なる変数を選択します。 詳しくは、を参照してください [Adobe Dynamic Media Classic ビューアイベントおよび変数へのAdobe Analytics変数の割り当て](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **削除** - ビューアイベントを選択して、 **[!UICONTROL 表示/編集]** 変数のグレーボタン。 を選択 **[!UICONTROL 削除]**.
+* **削除**：ビューアイベントを選択して、 **[!UICONTROL 表示/編集]** 変数のグレーボタン。 を選択 **[!UICONTROL 削除]**.

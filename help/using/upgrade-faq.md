@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 * キャンペーンアセットと製品情報を組み合わせて、クリックして買い物かごを効率化できます。
 * WYSIWYG ビューアデザイナーを使用すると、インタラクティブビューアを簡単に作成、調整、ブランディング、デプロイできます。
 * 最適化されたリッチメディアの配信先 [!DNL Experience Cloud] 解決策。
-* との統合 [!DNL Experience Cloud] マーケティングタッチポイント間での高度なアセット分析、ターゲティング、アセットの再利用のため。 タッチポイントには次が含まれます [!DNL Adobe Campaign] メールの場合、 [!DNL Adobe Social] ソーシャルチャネルの場合、 [!DNL Experience Manager] レスポンシブ web およびモバイルアプリ用のサイト。
+* との統合 [!DNL Experience Cloud] マーケティングタッチポイント間での高度なアセット分析、ターゲティング、アセットの再利用のため。 タッチポイントには次が含まれます [!DNL Adobe Campaign] メールの場合、 [!DNL Adobe Social] ソーシャルチャネルの場合、 [!DNL Experience Manager] レスポンシブ Web およびモバイルアプリ用のサイト。
 
 +++
 

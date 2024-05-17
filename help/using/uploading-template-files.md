@@ -10,7 +10,7 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 32%

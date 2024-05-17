@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Adobeが作成されました [!DNL Dynamic Media] 君を念頭に置いて。
 | --- | --- |
 | コンテンツの作成と配信の高速化 | ・共同作業と共有ファイルの同期 [!DNL Adobe Creative Cloud] アプリケーション。<br>・動的なアセット管理に関する要件をすべて満たします。1 つのアプリケーション、1 つのインターフェイス、1 つのネットワークで、すべてを作成、共同作業、管理、配信します。<br>・堅牢なメタデータのサポート、スマート検索、Lightbox とコレクション、バージョン管理、ベンダー、パートナー、フランチャイズ加盟店向けの安全なアセット共有による、エンタープライズレベルのデジタルアセット管理<br>・仕掛品アセットのレビューおよび承認ワークフロー |
 | 簡単でインタラクティブなエクスペリエンスの UI 要素 | ・技術系ではないリアルタイムビルダーを使用して、エクスペリエンスを簡単に作成できます。<br>・ ショッパブル/インタラクティブメディア。キャンペーンアセットと製品情報を組み合わせます。<br>・顧客満足度の向上とコンバージョンの促進 |
-| 包括的なエンドツーエンドのワークフロー | ・最適化されたリッチメディアを、コンプリートを含むすべてのタッチポイントに配信 [!DNL Adobe Experience Cloud] 解決策。<br>・との統合 [!DNL Adobe Experience Cloud] マーケティングタッチポイントをまたいだ高度なアセット分析、ターゲティング、アセットの再利用のため。 これらのタッチポイントの一部を次に示します [!DNL Adobe Campaign] メールの場合、 [!DNL Adobe Social] ソーシャルチャネルの場合、 [!DNL Adobe Experience Manager] レスポンシブ web およびモバイルアプリ用のサイト。 |
+| 包括的なエンドツーエンドのワークフロー | ・最適化されたリッチメディアを、コンプリートを含むすべてのタッチポイントに配信 [!DNL Adobe Experience Cloud] 解決策。<br>・との統合 [!DNL Adobe Experience Cloud] マーケティングタッチポイントをまたいだ高度なアセット分析、ターゲティング、アセットの再利用のため。 これらのタッチポイントの一部を次に示します [!DNL Adobe Campaign] メールの場合、 [!DNL Adobe Social] ソーシャルチャネルの場合、 [!DNL Adobe Experience Manager] レスポンシブ Web およびモバイルアプリ用のサイト。 |
 
 ## Adobeを使用する理由
 

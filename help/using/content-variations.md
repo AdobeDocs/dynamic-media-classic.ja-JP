@@ -10,10 +10,10 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 55%
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 55%
 
 ユニバーサル URL は、セットにリストされている順序に基づいて、ページに表示されるテンプレートバリエーションを表示するために使用されます。 テンプレートセットリストの上端にあるテンプレートは、常に公開されます。
 
-リスト内にある任意の画像プリセットを使用できます。画像プリセット URL はユニバーサル URL に似ています。これらは、複数の画像プリセット URL にすることもできます。
+リストの任意の画像プリセット URL を使用できます。 画像プリセット URL はユニバーサル URL に似ています。 複数の画像プリセット URL を指定できます。
 
 1. に移動 **[!UICONTROL ビルド]** > **[!UICONTROL テンプレートセット]**.
 1. ビルダーでテンプレートを選択し、次を選択します **[!UICONTROL 追加/プレビュー]**.

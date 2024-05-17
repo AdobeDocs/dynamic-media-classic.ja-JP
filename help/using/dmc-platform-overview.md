@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 12%
@@ -27,13 +27,13 @@ Adobe Dynamic Media Classicは、統合されたリッチメディア管理、�
 
 Adobe Dynamic Media Classicの主なワークフロー手順は次のとおりです。
 
-* **アセットのアップロードと管理** - メディアアセットをAdobe Dynamic Media Classicにアップロードします。 システム上のアセットに対して、整理、参照および検索を行うことができます。アセットにメタデータを適用することもできます。
+* **アセットのアップロードと管理**：メディアアセットをAdobe Dynamic Media Classicにアップロードします。 システム上のアセットに対して、整理、参照および検索を行うことができます。アセットにメタデータを適用することもできます。
 
-* **リッチメディアの作成** - eCatalog、画像セット、スピンセット、スウォッチセット、混在メディアセット、基本テンプレート、FXG テンプレートなど、アセットの様々な設定を作成します。
+* **リッチメディアの作成**：アセットの様々な設定（eCatalog、画像セット、スピンセット、スウォッチセット、混在メディアセット、基本テンプレート、FXG テンプレートなど）を作成します。
 
-* **公開と管理** - アセットをAdobe Dynamic Media Classic SaaS ネットワークに公開します。 アセットの公開時のステータスの監視 ユーザー権限の管理とセキュリティの維持。
+* **公開と管理**:Adobe Dynamic Media Classic SaaS ネットワークにアセットを公開します。 アセットの公開時のステータスの監視 ユーザー権限の管理とセキュリティの維持。
 
-* **提供する** - Adobe Dynamic Media Classic SaaS ネットワークから web ページ、アプリケーション、モバイルデバイスにメディアを配信します。メディアはパフォーマンスが最適化され、CDN キャッシングで配信されます。 Adobe Dynamic Media Classicは各アセットの URL を提供します。 アセットを公開すると、URL がアクティブになります。
+* **提供する**:Adobe Dynamic Media Classic SaaS Network から web ページ、アプリケーション、モバイルデバイスにメディアを配信します。メディアはパフォーマンスが最適化され、CDN キャッシングで配信されます。 Adobe Dynamic Media Classicは各アセットの URL を提供します。 アセットを公開すると、URL がアクティブになります。
 
 ![Adobe Dynamic Media Classic ワークフロープロセス](/help/using/assets/gs_workflow.png)
 

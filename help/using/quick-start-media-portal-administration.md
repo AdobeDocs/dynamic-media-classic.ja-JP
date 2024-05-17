@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 企業はメディアポータルを使用して、承認されたアセットを容易に取得、制御し、外部パートナーやチャネル、企業の内部ユーザーに配布できます。 このブラウザーベースの「セルフサービス」環境により、Media Portal ユーザーは、管理者が制御するAdobe Dynamic Media Classic Assets の「ビュー」を使用して、企業が承認した形式でアセットに簡単にアクセスし、参照、検索、プレビューおよび書き出すことができます。
 
-管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。また、Media Portal インターフェイスを Web サイトとブランドに一致するようにカスタマイズできます。フォント、フォントカラー、フォントサイズを指定したり、メディアポータルインターフェイスにロゴなどのブランディング要素を組み込んだりできます。
+管理者は、Media Portal でのアセットの表示、アクセス、使用方法を制御します。さらに、自社の Web サイトやブランドに合わせてメディアポータルインターフェイスをカスタマイズできます。 フォント、フォントカラー、フォントサイズを指定したり、メディアポータルインターフェイスにロゴなどのブランディング要素を組み込んだりできます。
 
 以下のトレーニングビデオを参照してください。
 

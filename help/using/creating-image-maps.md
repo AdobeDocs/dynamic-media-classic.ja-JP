@@ -10,23 +10,23 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2444'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
 # 画像マップの作成 {#creating-image-maps}
 
-画像マップは、画像、eCatalog ページ、またはスピンセット内の画像の領域で、テキストを含んだロールオーバーパネルを表示します。 ユーザーが画像マップを選択すると、何らかのアクションがトリガーされます。 例えば、製品の詳細を説明した Web ページが起動します。ユーザーが画像マップの上にポインターを移動すると、画像マップの周囲にアウトラインが表示されます。
+画像マップは、画像、eCatalog ページ、またはスピンセット内の画像の領域で、テキストを含んだロールオーバーパネルを表示します。 ユーザーが画像マップを選択すると、何らかのアクションがトリガーされます。 例えば、ユーザーが製品についてさらに知ることができるように web ページが起動されます。 ユーザーが画像マップの上にポインターを移動すると、画像マップの周囲にアウトラインが表示されます。
 
 Adobe Dynamic Media Classicで画像マップを作成する機能に加えて、Adobe AcrobatまたはAdobe InDesignでカタログをデザインする際に画像マップを作成することもできます。
 
 画像マップを作成する際は、次のいずれかの操作を行うことができます。
 
 * ロールオーバーテキストの入力
-* Web ページを起動するための JavaScript と URL の入力
+* Web ページを起動するための JavaScript と URL を入力します。
 * 画像マップの URL テンプレートの作成
 * 画像マップの別の画像、eCatalog ページまたはスピンセットへのコピー
 * CSV または XML への画像マップの書き出し
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 画像マップ間で変更されないすべての値は、URL テンプレートに配置します。 画像マップリストの「URL」列には、共通部分以外の値のみを追加します。以下に例を挙げます。
 
-* URL テンプレート - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* URL 値 –  `product.htm`
-* 実際に生成された URL - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* URL テンプレート： `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* URL 値： `product.htm`
+* 生成された実際の URL : `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 デフォルトでは、URL テンプレートにはという独自のAdobe Dynamic Media Classic JavaScript ハンドラーが含まれています `loadProduct` URL の宛先を含む新しいウィンドウが開きます。 ただし、任意の JavaScript コードを使用してこの JavaScript ハンドラーを置き換えたり、次のAdobe Dynamic Media Classic ハンドラーのいずれかを使用したりできます。
 
@@ -181,7 +181,7 @@ Javascript:loadProduct('$$');void(0);
 
 * **`accesskey`**：ユーザーがキーボードの指定キーを押したときにアクションをトリガーします。
 
-* **`onfocus`**：カーソル操作、タブ操作、またはアクセスキーの押下によって Image Map がフォーカスを受け取ったときに、イベントをトリガーします。 例えば、対象の画像マップにフォーカスが移動したときに Web ページが起動し、画像マップがフォーカスを失ったときに閉じることができます。
+* **`onfocus`**：カーソル操作、タブ操作、またはアクセスキーの押下によって Image Map がフォーカスを受け取ったときに、イベントをトリガーします。 例えば、画像マップがフォーカスを受け取ったら web ページを起動し、画像マップがフォーカスを失ったら閉じることができます。
 
 * **`onblur`**：カーソルまたはタブによって画像マップがフォーカスを失ったときにイベントをトリガーします。
 

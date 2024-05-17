@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 19%
@@ -30,9 +30,9 @@ Adobe Dynamic Media Classicには、デフォルトのビューアプリセッ�
 1. グローバルナビゲーションバーで、に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**.
 1. ビューアプリセットページでビューアプリセットを作成または編集するには、次のいずれかの操作を行います。
 
-   * **作成**  – を選択 **[!UICONTROL 追加]**. ビューアプリセットを追加ダイアログボックスの「ビューア」ドロップダウンリストで、を選択します **[!UICONTROL ズームビューア]**&#x200B;を選択してから、 **[!UICONTROL 追加]**. また、既存のズームビューアプリセットから開始して、ズームビューアプリセットを作成することもできます。 プリセットの名前を表示し、選択してから選択します **[!UICONTROL 編集]**. 日 `Configure Viewer` ページで、プリセットの新しい名前を入力します。
+   * **作成**：を選択 **[!UICONTROL 追加]**. ビューアプリセットを追加ダイアログボックスの「ビューア」ドロップダウンリストで、を選択します **[!UICONTROL ズームビューア]**&#x200B;を選択してから、 **[!UICONTROL 追加]**. また、既存のズームビューアプリセットから開始して、ズームビューアプリセットを作成することもできます。 プリセットの名前を表示し、選択してから選択します **[!UICONTROL 編集]**. 日 `Configure Viewer` ページで、プリセットの新しい名前を入力します。
 
-   * **編集** - プリセットの名前を表示して選択し、選択する **[!UICONTROL 編集]**.
+   * **編集**：プリセットの名前を表示し、選択して選択します **[!UICONTROL 編集]**.
 
 1. 日 `Configure Viewer` ページの「プリセット名」テキストフィールドに、スウォッチセットビューアプリセットの名前を入力します。
 1. でオプションを選択します `Configure Viewer` ページ。

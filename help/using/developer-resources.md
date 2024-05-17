@@ -9,7 +9,7 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 20%
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 # 開発者向けリソース {#developer-resources}
 
-これらのサーバーモジュールの http プロトコルについては、ビューア、画像サービングと画像レンダリング、画像実稼働システムのリファレンスガイドで説明しています。 さらにカスタマイズして、Adobe Dynamic Media Classic リッチメディアを web サイトやカスタムアプリケーションに使用する場合は、これらのガイドを使用できます。 Dynamic Media Classic デスクトップアプリケーション、一般的な http プロトコルの標準と規則、基本的な画像用語について、ユーザーが熟知していることを前提としています。
+これらのサーバーモジュールの http プロトコルについては、ビューア、画像サービングと画像レンダリング、画像実稼働システムのリファレンスガイドで説明しています。 さらにカスタマイズして、Adobe Dynamic Media Classic リッチメディアを Web サイトやカスタムアプリケーションに使用する場合は、これらのガイドを使用できます。 Dynamic Media Classic デスクトップアプリケーション、一般的な http プロトコルの標準と規則、基本的な画像用語について、ユーザーが熟知していることを前提としています。
 
 関連トピック [Dynamic Media開発者向けリソース](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 

@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic デスクトップアプリ – 利用可能になりました {#new-ui-2020}
+# Adobe Dynamic Media Classic デスクトップアプリ：提供開始 {#new-ui-2020}
 
 を参照してください。 [Adobe Dynamic Media Classic デスクトップアプリ](/help/using/dynamic-media-classic-desktop-app.md) システム要件を確認するには、新しいアプリをダウンロードしてインストールし、そのアプリにサインインします。
 
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic ユーザーは、ブラウザーのAdobeFlashテク
 ## よくある質問 (FAQ)
 
 +++**_2020 年 12 月 31 日（PT）にブラウザーがAdobeFlashのサポートを停止すると、Adobe Dynamic Media Classic（旧称Scene7）に何らかの影響がありますか？_**
-AdobeFlash Playerは、web ブラウザーがAdobe Flash Platformで開発されたコンテンツを使用できるようにする web ブラウザープラグインでした。 Adobe Dynamic Media Classicの web ユーザーインターフェイス（現在のラベルは [!DNL Scene7 Publishing System] または [!DNL SPS] （商品で）はAdobeFlash Playerが必要でした。 2020 年 12 月 31 日（PT）にAdobeFlashが非推奨（廃止予定）になると、Adobe Dynamic Media Classicのお客様は web ユーザーインターフェイスにログインできなくなります。 この変更により、Adobeでは、ブラウザーエクスペリエンスに代わるデスクトップアプリをお客様に提供しています。
+AdobeFlash Playerは、web ブラウザーがAdobe Flash Platformで開発されたコンテンツを使用できるようにする web ブラウザープラグインでした。 Adobe Dynamic Media Classicの Web ユーザーインターフェイス（現在のラベルは [!DNL Scene7 Publishing System] または [!DNL SPS] （商品で）はAdobeFlash Playerが必要でした。 2020 年 12 月 31 日（PT）にAdobeFlashが非推奨（廃止予定）になると、Adobe Dynamic Media Classicのお客様は web ユーザーインターフェイスにログインできなくなります。 この変更により、Adobeでは、ブラウザーエクスペリエンスに代わるデスクトップアプリをお客様に提供しています。
 +++
 
 +++**_新しいデスクトップアプリケーションにアクセスするにはどうすればよいですか？_**
@@ -47,7 +47,7 @@ AdobeFlash Playerは、web ブラウザーがAdobe Flash Platformで開発され
 
 +++
 
-+++**_Adobe Dynamic Media Classic API を使用して製品にアクセスしていて、web ユーザーインターフェイスからログインしていない場合はどうすればよいですか？_**
++++**_Adobe Dynamic Media Classic API を使用して製品にアクセスしていて、web ユーザーインターフェイスからログインしていない場合は、_**
 Adobe Dynamic Media Classicの基になる API に変更はありません。
 +++
 
@@ -110,4 +110,4 @@ Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強�
 >* [Adobe Dynamic Media Classic デスクトップアプリケーションへのログインとログアウト](/help/using/signing-out.md)
 >* [Adobe Dynamic Media Classic デスクトップアプリケーションをダウンロードしてインストールする](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

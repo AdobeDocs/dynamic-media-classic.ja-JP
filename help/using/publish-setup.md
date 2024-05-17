@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 30%
@@ -18,7 +18,7 @@ ht-degree: 30%
 
 # 公開設定 {#publish-setup}
 
-公開設定ページの設定によって、Adobe Dynamic Media Classic サーバーから web サイトやアプリケーションにアセットがデフォルトで配信される方法が決まります。 設定が指定されていない場合、Adobe Dynamic Media Classic サーバーは公開設定ページのデフォルト設定に従ってアセットを配信します。 例えば、解像度属性を含まない画像を配信リクエストすると、Image Server ページに「デフォルトのオブジェクト解像度」設定の画像が生成されます。
+公開設定ページの設定によって、Adobe Dynamic Media Classic サーバーから web サイトまたはアプリケーションにアセットがデフォルトでどのように配信されるかが決まります。 設定が指定されていない場合、Adobe Dynamic Media Classic サーバーは公開設定ページのデフォルト設定に従ってアセットを配信します。 例えば、解像度属性を含まない画像を配信リクエストすると、Image Server ページに「デフォルトのオブジェクト解像度」設定の画像が生成されます。
 
 管理者は、Image Server、画像レンダラーおよびビネットページのデフォルト設定を変更して、サーバーからアセットを配信するためのデフォルト設定を確立することができます。
 
@@ -34,7 +34,7 @@ Image Server ページでは、Image Server から画像を配信するための
 
 これらの設定の変更は、Adobe Dynamic Media Classic サポート担当者の協力が必要です。
 
-* **[!UICONTROL カタログ管理]**：これらの設定は、Adobe Dynamic Media Classicとカタログのやり取りを決定します。 ほとんどの web サーバーとは異なり、Dynamic Media Image Server の URL 呼び出しは、画像ファイルの適切なファイルではなく、マニフェストまたはカタログファイルに送られます。 カタログファイル（eCatalog と混同しないこと）には、Image Server に公開されるすべてのコンテンツのリストが含まれます。 また、各画像へのパスも含まれます。 Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
+* **[!UICONTROL カタログ管理]**：これらの設定は、Adobe Dynamic Media Classicとカタログのやり取りを決定します。 ほとんどの web サーバーとは異なり、Dynamic Media Image Server の URL 呼び出しは、画像ファイルの適切な場所ではなく、マニフェストまたはカタログファイルに送られます。 カタログファイル（eCatalog と混同しないこと）には、Image Server に公開されるすべてのコンテンツのリストが含まれます。 また、各画像へのパスも含まれます。 Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
 
 * **[!UICONTROL リクエスト属性]**：これらの設定により、サーバーから配信できる画像に制限が適用されます。 例： *最大* **[!UICONTROL 返信画像のサイズ制限]** 等しい **[!UICONTROL 幅]** 5000 および **[!UICONTROL 高さ]** 5000。
 
@@ -160,7 +160,7 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 | en, en_us, en_uk | myImg_E, myImg |
 | de, de_de, de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
-| その他 | - |
+| その他 | 。 |
 
 ##### ロケールが不明な場合の localeMap の検索
 
@@ -222,15 +222,15 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 
 画像レンダラーページでは、画像レンダリングサーバーから画像セットを配信するためのデフォルト設定を指定します。 設定は次の 5 つのカテゴリで使用できます（設定について詳しくは、Image Server のページ自体を参照してください）。
 
-* **[!UICONTROL カタログ管理]**  – これらの設定は、Adobe Dynamic Media Classicとカタログファイルのやり取りを決定します。 Adobe Dynamic Media Classic Render Server の URL 呼び出しは、カタログに対して行われ、カタログは、サーバーから画像を配信するための呼び出しを行います。 これらの設定の変更は、Adobe Dynamic Media Classic サポート担当者の協力が必要です。
+* **[!UICONTROL カタログ管理]**：これらの設定は、Adobe Dynamic Media Classicとカタログファイルのやり取りを決定します。 Adobe Dynamic Media Classic Render Server の URL 呼び出しは、カタログに対して行われ、カタログは、サーバーから画像を配信するための呼び出しを行います。 これらの設定の変更は、Adobe Dynamic Media Classic サポート担当者の協力が必要です。
 
-* **[!UICONTROL セッション属性]**  – これらの設定は、エラーパラメーター、相対画像 URL の URL、オブジェクトの重複を許可するかどうかを設定します。
+* **[!UICONTROL セッション属性]**：これらの設定は、エラーパラメーター、相対画像 URL の URL、オブジェクトの重複を許可するかどうかを設定します。
 
-* **[!UICONTROL 既定のマテリアル属性]**  – これらの設定により、画像のデフォルトの解像度とシャープニング設定が確立されます。
+* **[!UICONTROL 既定のマテリアル属性]**：これらの設定により、画像のデフォルトの解像度とシャープニング設定が確立されます。
 
-* **[!UICONTROL 応答画像属性]**  – これらの設定は、画像のデフォルトの表示に関係します。
+* **[!UICONTROL 応答画像属性]**：これらの設定は、画像のデフォルトの表示に関係します。
 
-* **[!UICONTROL カラーマネジメント属性]**  – これらの設定は、画像のデフォルトのカラー設定に関連しています。
+* **[!UICONTROL カラーマネジメント属性]**：これらの設定は、画像のデフォルトのカラー設定に関係します。
 
 ## ビネット {#vignette}
 

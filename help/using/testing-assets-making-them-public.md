@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 23%
+source-wordcount: '1061'
+ht-degree: 19%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 23%
 必要に応じて、次の理由でアセットを公開する代わりに、ステージング環境を作成します。
 
 * 正式にリリースする前に、Web サイトをプレビュー（ステージング Web サイト）
-* B2B Web アプリケーションで価格を表示する eCatalog のように、制限付きアクセスを必要とするアセットを提供。
-* 製品情報管理システム、顧客サービスアプリケーション、トレーニングサイトなどの一部として、ファイアウォールの背後でアセットを使用。
+* B2B web アプリケーションで価格を表示する eCatalog など、制限付きアクセスを必要とするアセットを提供する。
+* 製品情報管理システム、顧客サービスアプリケーション、トレーニングサイトなどの一部として、ファイアウォールの内側にあるアセットを使用する。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->セキュアテストサービスは、内部公開コンテキストで設定されたカタログサーバーを使用します。 そのため、セキュアテストに公開するように会社が設定されている場合、Adobe Dynamic Media Classicにアップロードされたアセットは、セキュアテストサービスですぐに使用できるようになります。 この機能は、アセットがアップロード時に公開用にマークされているかどうかに関係なく当てはまります。
+>セキュアテストサービスは、内部公開コンテキストで設定されたカタログサーバーを使用します。 そのため、セキュアテストに公開するように会社が設定されている場合、Adobe Dynamic Media Classicにアップロードされたアセットは、セキュアテストサービスですぐに使用できます。 この機能は、アセットがアップロード時に公開用にマークされているかどうかに関係なく当てはまります。
 
 セキュアテストサービスは、現在、次のアセットのタイプと機能をサポートしています。
 
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * 画像。
 * ビネット（Render Server の要求）。
-* Render Server リクエスト（サポート対象、ただし、顧客が明示的にリクエストする必要あり）。
+* Render Server リクエスト（サポート対象、ただし顧客が明示的にリクエストする必要あり）。
 * 画像セット、eCatalog、レンダリングセットおよびメディアセットを含む各種セット。
 * 標準のAdobe Dynamic Media Classic リッチメディアビューア。
 * Adobe Dynamic Media Classic オンデマンド JSP ページ。
@@ -84,11 +84,11 @@ Last Modified Date:
 
 ## セキュアテストサービスのテスト {#testing-the-secure-testing-service}
 
-セキュアテストサービスをテストして、期待どおりに動作することを確認します。
+セキュアテストサービスをテストして、期待どおりに動作することを確認できます。
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### アカウントの準備
 
@@ -133,8 +133,8 @@ Last Modified Date:
 
 公開アセットと非公開アセットのそれぞれにリンクしている単一 Web サイトの 2 つのバリエーションが必要です。
 
-* 公開バージョン – 従来のAdobe Dynamic Media Classic URL 構文を使用してアセットをリンクします。
-* ステージングバージョン – 同じ構文でアセットをリンクしますが、セキュアテストサイト名を使用します。
+* 公開バージョン：従来のAdobe Dynamic Media Classic URL 構文を使用してアセットをリンクします。
+* ステージングバージョン：同じ構文でアセットをリンクしますが、セキュアテストサイト名を使用します。
 
 ### テストの実行
 
