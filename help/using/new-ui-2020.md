@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 1%
@@ -125,7 +125,6 @@ Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強�
 1. 複数のキャプションおよびオーディオトラックを追加する、アップロード済みビデオアセットに移動します。
 1. リスト表示またはカード表示のアセット選択モードで、ビデオアセットを選択します。
 1. ツールバーで、「プロパティ」アイコン（中に「i」がある円）を選択します。
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. ビデオのプロパティページで、 **[!UICONTROL キャプションとオーディオトラック]** タブ。
 
    >[!TIP]
@@ -135,8 +134,6 @@ Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強�
    >* または、Dynamic Mediaでビデオを再処理する必要があります。 その場合は、を参照してください。 [フォルダー内のDynamic Media アセットの再処理].
    >
    >上記のタスクのいずれかが完了したら、これらの手順に戻ります。
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. 1 つまたは複数のオーディオトラックをビデオに追加するには、次の手順を実行します。
    1. を選択 **[!UICONTROL オーディオトラックのアップロード]**.
@@ -165,7 +162,6 @@ Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強�
    | **オプション 2** | AI で複数の言語のキャプションファイルを生成したい。<br>参照： **オプション 2** 以下の手順 8. |
    | **オプション 3** | キャプションファイル（.vtt）のテキストは修正し、再度アップロードして古い.vtt ファイルを置き換えてから、AI に修正したファイルを翻訳してもらう必要があります。<br>参照： **オプション 3** 以下の手順 8. |
 
-
 +++**オプション 1:** *使用したい言語の既存のキャプションファイルを自分で用意します。*
 
    1. ページの右上付近にある「」をクリックします **[!UICONTROL キャプションを作成]** > **[!UICONTROL ファイルをアップロード]**.
@@ -189,7 +185,6 @@ Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強�
 
    1. を選択した場合 **[!UICONTROL 保存して閉じる]** 前の手順では、を選択する代わりに、 **[!UICONTROL 保存]**&#x200B;を選択した場合でも、アップロードされたファイルの処理ステータスを確認できます。 参照： [アップロードされたキャプションおよびオーディオトラックファイルのライフサイクルステータスの表示].
    1. 手順 9 に進みます。
-
 +++
 
 +++**オプション 2:** *AI で複数の言語のキャプションファイルを生成したい。*
@@ -218,7 +213,6 @@ Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強�
 
       必要に応じて、特定のキャプションメタデータを後で変更または編集できます。 ビデオが公開されると、これらのメタデータの詳細は公開済みビデオの公開 URL に反映されます。
    1. 手順 9 に進みます。
-
 +++
 
 +++**オプション 3:** *キャプションファイル（.vtt）のテキストは修正し、再度アップロードして古い.vtt ファイルを置き換えてから、AI に修正したファイルを翻訳してもらう必要があります。*
@@ -248,7 +242,6 @@ Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強�
       必要に応じて、特定のキャプションメタデータを後で変更または編集できます。 ビデオが公開されると、これらのメタデータの詳細は公開済みビデオの公開 URL に反映されます。
 
    1. 手順 9 に進みます。
-
 +++
 
 1. （オプション）キャプションとオーディオが期待どおりに動作するように、公開前にビデオをプレビューします。 参照： [複数のキャプションとオーディオトラックを持つビデオのプレビュー].
