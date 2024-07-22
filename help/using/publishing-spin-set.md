@@ -1,5 +1,5 @@
 ---
-title: スピンセットの公開
+title: スピンセットのPublish
 description: Adobe Dynamic Media Classicからのスピンセットの公開方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,18 +17,18 @@ ht-degree: 10%
 
 ---
 
-# スピンセットの公開{#publishing-a-spin-set}
+# スピンセットのPublish{#publishing-a-spin-set}
 
 スピンセットを公開すると、Dynamic Media Image Server 上のセットに画像が配置され、web サイトやアプリケーションで使用できるようになります。 さらに、公開プロセス中に、Adobe Dynamic Media Classicは web サイトまたはアプリケーションに必要なスピンセット URL 文字列をアクティベートします。
 
 ## スピンセットの公開用のマーク {#marking-a-spin-set-for-publish}
 
-スピンセットをAdobe Dynamic Media Classic Image Server にコピーするには、スピンセットを公開用にマークします。 スピンセットを公開用にマークするには、参照パネルで「 **[!UICONTROL 公開用にマーク]** 名前の左側にあるアイコン。 スピンセット自体を公開用にマークすると、セット内のすべての画像が公開用にマークされます。
+スピンセットをAdobe Dynamic Media Classic Image Server にコピーするには、スピンセットを公開用にマークします。 スピンセット名の左側にある **[!UICONTROL Publish用にマーク]** アイコンを選択すると、参照パネルでスピンセットを公開用にマークできます。 スピンセット自体を公開用にマークすると、セット内のすべての画像が公開用にマークされます。
 
-## スピンセットの公開 {#publishing-the-spin-set}
+## スピンセットのPublish {#publishing-the-spin-set}
 
-Dynamic Media Image Server にスピンセットを公開するには、グローバルナビゲーションバーで「」を選択します **[!UICONTROL 公開]**. 次に、 **[!UICONTROL 条件]** オプション。 必要に応じて、公開ジョブの名前を入力できます。 を選択 **[!UICONTROL 公開を送信]**.
+Dynamic Media Image Server にスピンセットを公開するには、グローバルナビゲーションバーで「**[!UICONTROL Publish]**」を選択します。 次に、「条件 **[!UICONTROL オプションを選択]** ます。 必要に応じて、公開ジョブの名前を入力できます。 **[!UICONTROL Publishの送信]** を選択します。
 
 >[!MORELIKETHIS]
 >
->* [ファイルを公開](publishing-files.md#publishing_files)
+>* [Publish ファイル ](publishing-files.md#publishing_files)

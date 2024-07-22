@@ -37,7 +37,7 @@ ht-degree: 19%
 
 ほとんどの企業は自社のインターネットをファイアウォールの背後で動作させています。インターネットへのアクセスは、特定のルート経由で可能であり、通常は制限された範囲のパブリック IP アドレスを経由します。
 
-企業ネットワークから、次のような web サイトを使用してパブリック IP アドレスを把握できます。 [https://www.whatismyip.com](https://www.whatismyip.com/) または、企業の IT 組織にこの情報をリクエストしてください。
+企業ネットワークから、[https://www.whatismyip.com](https://www.whatismyip.com/) などの web サイトを使用してパブリック IP アドレスを把握するか、企業の IT 組織にこの情報をリクエストします。
 
 セキュアテストを使用すると、Adobe Dynamic Media Classicは、ステージング環境または内部アプリケーション用に専用の Image Server を設定します。 このサーバに対するあらゆる要求は、送信元 IP アドレスがチェックされます。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗の応答が返されます。 Adobe Dynamic Media Classic Company Administrator は、自社のセキュアテスト環境用の承認済み IP アドレスリストを設定します。
 
@@ -103,28 +103,28 @@ Last Modified Date:
  -->
 
 1. Adobeのカスタマーケアに問い合わせ、お使いのアカウントでセキュアテストを有効にするようリクエストしてください。
-1. Adobe Dynamic Media Classicのグローバルナビゲーションバーで、に移動します **[!UICONTROL 設定]** > **[!UICONTROL 公開設定]** > **[!UICONTROL Image Server]**.
-1. Image Server 公開ページの **[!UICONTROL `Publish Context`]** ドロップダウンリストから「」を選択します **[!UICONTROL テスト画像サービング]**.
-1. [Client Address Filter] で、 **[!UICONTROL 追加]**.
+1. Adobe Dynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL 設定]**/**[!UICONTROL 2}Publish設定]**/Image Server ]**に移動します。**[!UICONTROL 
+1. Image Server Publish ページの **[!UICONTROL `Publish Context`]** ドロップダウンリストで、「**[!UICONTROL 画像サービングをテスト]**」を選択します。
+1. 「Client Address Filter」で「**[!UICONTROL Add]**」を選択します。
 1. チェックボックスをオンにしてアドレスを有効にし、それぞれのテキストフィールドに IP アドレスとネットマスクを入力します。
 
    >[!NOTE]
    >
-   >1 つの IP アドレスとネットマスクを追加すると、そのアドレスからアセットが呼び出される可能性があります。 ただし、追加したその他の IP アドレスおよびネットマスクでは、アセット呼び出しを行うことはできません。 そのため、上記の手順のチェックボックスを無効（オフ）にして、IP アドレスとネットマスクを指定する機能をオフにすることを検討します。 そうすることで、実質的に以下を可能にします *all* アセット呼び出しを行うための IP アドレスであり、それらがすべて表示されます。
+   >1 つの IP アドレスとネットマスクを追加すると、そのアドレスからアセットが呼び出される可能性があります。 ただし、追加したその他の IP アドレスおよびネットマスクでは、アセット呼び出しを行うことはできません。 そのため、上記の手順のチェックボックスを無効（オフ）にして、IP アドレスとネットマスクを指定する機能をオフにすることを検討します。 これにより、実質的に *すべて* の IP アドレスにアセット呼び出しを行うことが許可され、それらがすべて表示されます。
 
 1. 次のいずれかの操作を行います。
    * さらに IP アドレスを追加する必要がある場合は、前の 2 つの手順を繰り返します。
    * 次の手順に進みます。
-1. Image Server 公開ページの左下で、を選択します。 **[!UICONTROL 保存]**
+1. Image Server Publishページの左下で、「**[!UICONTROL 保存]**」を選択します
 1. 目的の画像をAdobe Dynamic Media Classic アカウントにアップロードします。
 
-   参照： [ファイルをアップロード](uploading-files.md#uploading_files).
+   [ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。
 
 1. 一部の画像が公開用にマークされており、他の画像がマークされていないことを確認し、公開ジョブを送信します。
 
-   参照： [ファイルを公開](publishing-files.md#publishing_files).
+   [Publish ファイル ](publishing-files.md#publishing_files) を参照してください。
 
-1. に移動して、セキュアテストサービスの名前を決定します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 一般設定]**.
+1. **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 一般設定]** に移動して、セキュアテストサービスの名前を決定します。
 1. アプリケーション全般設定ページのサーバグループの下で、**[!UICONTROL 「公開コンテキストのサーバ名のテスト」]**&#x200B;の右側にある名前を検索します。
 
 サーバー名がない場合またはサーバーへの URL が機能しない場合は、Adobeケアにお問い合わせください。

@@ -31,15 +31,15 @@ Adobe Dynamic Media Classic HTML5 ビデオビューアプリセットは、堅�
 
 リッチメディアコンテンツの配信範囲をデスクトップユーザーとモバイルユーザーに拡大できます。 また、ビデオエクスペリエンスを確実に効率化できます。
 
-関連トピック [HTML5 ビューアについて](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) （Adobeビューアリファレンスガイド）を参照してください。
+Adobeビューアリファレンスガイドの [HTML5 ビューアについて ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) も参照してください。
 
-関連トピック [ビューアプリセット](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) トレーニングビデオ。
+[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
 ## Adobe Dynamic Media Classic ビデオビューアを使用した、デスクトップコンピューターおよびモバイルデバイスでのビデオ再生 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 デスクトップおよびモバイルへのアダプティブビデオストリーミングの場合、ビットレートの切り替えに使用されるビデオは、アダプティブビデオセット内のすべての MP4 ビデオに基づいています。
 
-ビデオ再生は、HLS ビデオまたはプログレッシブビデオを使用して行われます。 HLS （HTTP ライブストリーミング）は、アダプティブビデオストリーミングのApple標準で、ネットワーク帯域幅に基づいて再生を自動調整します。 また、ビデオの残りがダウンロードされるまで待たなくても、ビデオ内の任意のポイントを「シーク」できます。 関連トピック [HTTP ライブストリーミング](https://developer.apple.com/streaming/). プログレッシブビデオは、ユーザーのデスクトップ画面やモバイルデバイスにダウンロードしてローカルに保存することで配信されます。
+ビデオ再生は、HLS ビデオまたはプログレッシブビデオを使用して行われます。 HLS （HTTP ライブストリーミング）は、アダプティブビデオストリーミングのApple標準で、ネットワーク帯域幅に基づいて再生を自動調整します。 また、ビデオの残りがダウンロードされるまで待たなくても、ビデオ内の任意のポイントを「シーク」できます。 [HTTP ライブストリーミング ](https://developer.apple.com/streaming/) も参照してください。 プログレッシブビデオは、ユーザーのデスクトップ画面やモバイルデバイスにダウンロードしてローカルに保存することで配信されます。
 
 デスクトップコンピューターおよびモバイルデバイスでAdobe Dynamic Media Classic ビデオビューアを使用してビデオを再生する場合の、デバイス、ブラウザーおよび再生方法を次の表に示します。
 
@@ -51,9 +51,9 @@ Adobe Dynamic Media Classic HTML5 ビデオビューアプリセットは、堅�
 | デスクトップ | Firefox 45 以降 | HLS ビデオストリーミング。 |
 | デスクトップ | Chrome | HLS ビデオストリーミング。 |
 | デスクトップ | Safari （Mac） | HLS ビデオストリーミング。 |
-| モバイル | Chrome （Android™ 6 以前） | プログレッシブダウンロード。 |
-| モバイル | Chrome （Android™ 7 以降） | HLS ビデオストリーミング。 |
+| モバイル | Chrome（Android™ 6 以前） | プログレッシブダウンロード。 |
+| モバイル | Chrome（Android™ 7 以降） | HLS ビデオストリーミング。 |
 | モバイル | Android™ （デフォルトブラウザー） | プログレッシブダウンロード。 |
 | モバイル | Safari （iOS） | HLS ビデオストリーミング。 |
-| モバイル | Chrome （iOS） | HLS ビデオストリーミング。 |
+| モバイル | Chrome（iOS） | HLS ビデオストリーミング。 |
 | モバイル | BlackBerry® | HLS ビデオストリーミング。 |

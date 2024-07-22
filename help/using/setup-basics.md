@@ -19,22 +19,22 @@ ht-degree: 16%
 
 # 設定の基本{#setup-basics}
 
-Adobe Dynamic Media Classicの設定ページを使用して、個人設定を入力します。 管理者の場合は、会社情報の設定を行うことができます。設定ページを開くには、グローバルナビゲーションバーで、以下を選択します。 **[!UICONTROL 設定]**.
+Adobe Dynamic Media Classicの設定ページを使用して、個人設定を入力します。 管理者の場合は、会社情報の設定を行うことができます。設定ページを開くには、グローバルナビゲーションバーで「**[!UICONTROL 設定]**」を選択します。
 
 このページで利用できる設定は、ユーザーまたは管理者としてのステータスによって異なります。
 
-* ユーザーは以下にのみアクセスできます： **[!UICONTROL 個人設定]** さらに、自分が属する会社のアカウント。管理タスクを実行することはできません。
-* にアクセスできる管理者 **[!UICONTROL 個人設定]**&#x200B;を参照して、独自の会社アカウントを表示および管理します。 また、すべてのアプリケーション設定機能と、管理者およびユーザの追加などのすべての管理機能を実行することができます。
+* ユーザーは、**[!UICONTROL 個人設定]** および自分がメンバーである会社のアカウントにのみアクセスでき、管理タスクを実行できません。
+* 管理者は、**[!UICONTROL 個人設定]** にアクセスし、独自の会社アカウントを表示および管理できます。 また、すべてのアプリケーション設定機能と、管理者およびユーザの追加などのすべての管理機能を実行することができます。
 
-管理者は、で画像プリセットとビューアプリセットを設定することもできます **[!UICONTROL 設定]** ページ：
+管理者は、**[!UICONTROL 設定]** ページで画像プリセットとビューアプリセットを設定することもできます。
 
-* **画像プリセット**：画像プリセットは、異なるサイズと形式でプライマリ画像を表示するための保存済みの形式です。
+* **画像プリセット**：画像プリセットは、プライマリ画像を様々なサイズや形式で表示するための保存済みの形式です。
 
-* **ビューアプリセット**：ビューアプリセットは、ビューアで表示する際のリッチメディアの表示方法を決定します。
+* **ビューアプリセット**：ビューアプリセットは、ビューアでリッチメディアを表示する際の表示方法を決定します。
 
 >[!MORELIKETHIS]
 >
->* [基本的な設定のトレーニングビデオ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
->* [Adobe Dynamic Media Classic ユーザーのロールと権限](administration-setup.md#user_administration)
+>* [ 基本的な設定のトレーニングビデオ ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Adobe Dynamic Media Classicのユーザーのロールと権限 ](administration-setup.md#user_administration)
 >* [画像プリセット](application-setup.md#image_presets)
->* [ビューアプリセット](application-setup.md#viewer_presets)
+>* [ ビューアプリセット ](application-setup.md#viewer_presets)

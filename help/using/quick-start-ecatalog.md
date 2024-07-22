@@ -23,8 +23,8 @@ eCatalog は、デジタル版、Web 版の印刷資料です。例えば、カ�
 
 次のトレーニングビデオも参照してください。
 
-* [クイックスタート 1:eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
-* [クイックスタート 2:eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+* [ クイックスタート 1:eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [ クイックスタート 2:eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
 eCatalog に対して選択した設定に応じて、ビューアでは次の操作を実行できます。
 
@@ -40,7 +40,7 @@ eCatalog に対して選択した設定に応じて、ビューアでは次の�
 * ピンチズームやスワイプによるページめくりなど、ジェスチャ操作を使用します。
 * キーワードと一致する項目を検索することができます。
 
-![ユーザーに表示される eCatalog。 A） eCatalog 開始ページ B） eCatalog を 2 ページ目に戻しました。](/help/using/assets/ec_cat_viewer_popup.png)
+![ ユーザーに表示される eCatalog。 A） eCatalog 開始ページ B） eCatalog を 2.](/help/using/assets/ec_cat_viewer_popup.png) ページに変更
 
 eCatalog を作成するには、通常、Adobe Acrobatまたは別の印刷プログラムで作成した高解像度のPDFファイルを使用しますが、画像ファイルから eCatalog を作成することもできます。
 
@@ -48,11 +48,11 @@ eCatalog を作成する際に、ページや見開きページの並び順を�
 
 >[!NOTE]
 >
->Dynamic Media:Scene7 モードのユーザーで、eCatalog を使用する場合は、 `pdfbrochure` CRXDE Lite内の値。 これをおこなうには、Adobe Experience Managerで次に移動します。 **[!UICONTROL ツール]** > **[!UICONTROL 一般]** > **[!UICONTROL CRXDE Lite]**. 左パネルのナビゲーションツリーで、に移動します。 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Dynamic Media:Scene7 モードのユーザーで、eCatalog を使用する場合は、CRXDE Liteで `pdfbrochure` の値を編集します。 これを行うには、Adobe Experience Managerで、**[!UICONTROL ツール]**/**[!UICONTROL 一般]**/**[!UICONTROL CRXDE Lite]** に移動します。 左側のパネルのナビゲーションツリーで、`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf` に移動します。
 >
->右下のペインの **[!UICONTROL プロパティ]** タブで、 `jobParam` 行。 の値を設定 `pdfbrochure` から `false` 対象： `true`. 例： `pdfbrochure=true`
+>右下のウィンドウの「**[!UICONTROL プロパティ]**」タブで、`jobParam` の行を選択します。 `pdfbrochure` の値を `false` から `true` に設定します。 例：`pdfbrochure=true`
 >
->CRXDE Liteページの左上隅にあるを選択します。 **[!UICONTROL すべて保存]**.
+>CRXDE Liteページの左上隅にある「**[!UICONTROL すべて保存]**」を選択します。
 >
 >これで、Adobe Dynamic Media Classicで eCatalog を作成できるようになりました。
 
@@ -62,65 +62,65 @@ eCatalog を作成する際に、ページや見開きページの並び順を�
 
 eCatalog のもとになるファイルは、ほとんどの場合 Adobe PDF ファイルです。PDF ファイルは印刷を目的としたファイルなので、通常、CMYK 画像が含まれています。Adobe Dynamic Media Classicはこれらの画像を検出し、標準の CMYK カラープロファイルを使用して変換します。 ただし、アップロードしてカスタムカラープロファイルを使用する必要があります。
 
-グローバルナビゲーションバーで、を選択します。 **[!UICONTROL Upload]** eCatalog のPDFファイルまたは画像のアップロードを開始します。 デスクトップから、または FTP 経由でファイルをアップロードできます。アップロードするファイル数が多い場合や 100 MB を超えるファイルの場合は、FTP をお勧めします。
+グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、eCatalog のPDFファイルまたは画像のアップロードを開始します。 デスクトップから、または FTP 経由でファイルをアップロードできます。アップロードするファイル数が多い場合や 100 MB を超えるファイルの場合は、FTP をお勧めします。
 
-「PDF オプション」を選択すると、アップロード画面に、適正な解像度とカラースペースで PDF ファイルをアップロードするためのオプションが表示されます。解像度の推奨値は 150 pixel/インチです。このオプションを選択できます **[!UICONTROL eCatalog の自動生成]** :PDFファイルのアップロード時に eCatalog を作成します。
+「PDF オプション」を選択すると、アップロード画面に、適正な解像度とカラースペースで PDF ファイルをアップロードするためのオプションが表示されます。解像度の推奨値は 150 pixel/インチです。「**[!UICONTROL eCatalog を自動生成]**」オプションを選択すると、PDFファイルのアップロード時に eCatalog を作成できます。
 
-参照： [PDFファイルのアップロード](uploading-pdf-files.md#uploading_the_pdf_files).
+[PDFファイルのアップロード ](uploading-pdf-files.md#uploading_the_pdf_files) を参照してください。
 
 ## 2. eCatalog の作成
 
-参照パネルでPDFまたは画像ファイルを選択して、eCatalog を作成します。 を選択 **[!UICONTROL ビルド]**&#x200B;を選択してから、 **[!UICONTROL eCatalog]**.
+参照パネルでPDFまたは画像ファイルを選択して、eCatalog を作成します。 「**[!UICONTROL ビルド]**」を選択し、「**[!UICONTROL eCatalog]**」を選択します。
 
-eCatalog ページの **[!UICONTROL ページを注文]** タブで、「レイアウト」オプションを選択します。 **[!UICONTROL 1 つ上]**, **[!UICONTROL 2 つ上]**、または **[!UICONTROL カスタム]**. ページや見開きページの配置変更は、それらをドラッグすることで行えますが、eCatalog のサイズが大きい場合には、移動先メニューでページ名を選択することでも行えます。
+eCatalog ページの「**[!UICONTROL ページを並べ替え]**」タブで、**[!UICONTROL 1 アップ]**、**[!UICONTROL 2 アップ]**、**[!UICONTROL カスタム]** のいずれかのレイアウトオプションを選択します。 ページや見開きページの配置変更は、それらをドラッグすることで行えますが、eCatalog のサイズが大きい場合には、移動先メニューでページ名を選択することでも行えます。
 
 ページを追加するには、アセットライブラリのフォルダを選択してから、PDF ファイルまたは画像ファイルをページ順序画面にドラッグします。デフォルトのページ番号の代わりに、カスタムページ名を指定したり、多数のページ名を読み込んだりできます。
 
-を選択 **[!UICONTROL 保存]**&#x200B;を選択し、eCatalog の名前を入力します。次に、この eCatalog が格納されるAdobe Dynamic Media Classic フォルダーを選択して、 **[!UICONTROL 保存]**. ページの順序を変更したり eCatalog を編集したりするたびに、以下を選択して変更を保存します。 **[!UICONTROL 保存]**.
+「**[!UICONTROL 保存]**」を選択し、eCatalog の名前を入力します。次に、この eCatalog を保存するAdobe Dynamic Media Classic フォルダーを選択して、「**[!UICONTROL 保存]**」を選択します。 ページの順序を変更したり eCatalog を編集したりするたびに、「**[!UICONTROL 保存]**」を選択して変更を保存します。
 
-参照： [eCatalog の作成](creating-ecatalog.md).
+[eCatalog の作成 ](creating-ecatalog.md) を参照してください。
 
 ## 3.画像マップの作成
 
 画像マップは、eCatalog ページに別の側面を追加します。 画像マップとは、ページの中で、項目に関する詳細情報を表示できる領域を指します。画像マップにポインタを合わせると、その項目の説明が表示されます。画像マップをクリックすると、外部参照がアクティブになり、新しい web ページが開いて項目の詳細を確認できます。
 
-画像マップを作成するには、eCatalog 画面を開き、次に、 **[!UICONTROL ページのマッピング]** eCatalog 画面のタブをクリックし、長方形イメージマップツールまたはポリゴンイメージマップツールを使用してマップをフレームします。 画像マップの位置とサイズは、パン ツールでマップの境界線をドラッグして調整できます。
+画像マップを作成するには、eCatalog 画面を開き、次に、eCatalog 画面の **[!UICONTROL ページをマップ]** タブに移動し、長方形画像マップツールまたはポリゴン画像マップツールを使用してマップをフレーム化します。 画像マップの位置とサイズは、パン ツールでマップの境界線をドラッグして調整できます。
 
 画像マップをフレーム化した後、画像マップを選択する際に移動する URL アドレスを入力します。 画像マップにポインタを合わせたときに表示するロールオーバーテキストを入力することもできます。
 
-参照： [eCatalog 画像マップの作成](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
+[eCatalog 画像マップの作成 ](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps) を参照してください。
 
-参照： [画像マップを使用した eCatalog へのリッチメディアの埋め込み](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
+[ 画像マップを使用して eCatalog にリッチメディアを埋め込む ](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog) を参照してください。
 
 eCatalog 画面の情報パネル設定を使用して、画像マップのテキストを設定および管理できます。
 
-参照： [eCatalog の情報パネルコンテンツの管理](/help/using/info-panel-content-ecatalog.md).
+[eCatalog の情報パネルコンテンツの管理 ](/help/using/info-panel-content-ecatalog.md) を参照してください。
 
 ## 4. eCatalog ビューアプリセットの設定
 
 エンドユーザは eCatalog ビューアで eCatalog を表示します。管理者には eCatalog ビューアを設定する権限があります。アウトラインの色を変更し、新しい「スキン」を選択して eCatalog をブランディングできます。 Adobe Dynamic Media Classicには、いくつかの「ベストプラクティス」 eCatalog ビューアプリセットが付属しています。 eCatalog を表示するためのプリセットを 1 つ選択できます。 管理者であれば、独自の eCatalog ビューアプリセットを作成することもできます。
 
-eCatalog ビューアプリセットを作成するには、グローバルナビゲーションバーで「」を選択します。 **[!UICONTROL 設定]**&#x200B;を選択してから、 **[!UICONTROL ビューアプリセット]**. を選択 **[!UICONTROL 追加]**&#x200B;を選択します。プラットフォームを選択してから、 **[!UICONTROL eCatalog]** > **[!UICONTROL ビューア]**.
+eCatalog ビューアプリセットを作成するには、グローバルナビゲーションバーで **[!UICONTROL 設定]**/「**[!UICONTROL ビューアプリセット]** の順に選択します。 **[!UICONTROL 追加]** を選択し、プラットフォームを選択して、**[!UICONTROL eCatalog]**/**[!UICONTROL ビューア]** を選択します。
 
-参照： [eCatalog ビューアプリセットの設定](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
+[eCatalog ビューアプリセットの設定 ](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets) を参照してください。
 
 ## 5. eCatalog ビューアでの eCatalog のプレビュー
 
 eCatalog ビューアのスタイルと動作は、eCatalog ビューアプリセットによって設定されます。
 
-eCatalog ビューアプリセットで eCatalog がどのように表示されるかを確認するには、参照パネルで eCatalog を選択し、次に以下を選択します。 **[!UICONTROL プレビュー]**. 初期設定のビューアが開き、プレビュー画面が表示されます。
+eCatalog ビューアプリセットで eCatalog がどのように表示されるかを確認するには、参照パネルで eCatalog を選択して **[!UICONTROL プレビュー]** を選択します。 初期設定のビューアが開き、プレビュー画面が表示されます。
 
 向き、カラースキーム、ページ変更のコントロール、ページをめくったときの見た目を確認します。
 
-参照： [eCatalog ビューアでの eCatalog のプレビュー](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
+[eCatalog ビューアでの eCatalog のプレビュー ](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer) を参照してください。
 
-## 6. eCatalog と関連PDFの公開
+## 6. Publish eCatalog および関連PDF
 
 eCatalog および関連PDFを公開すると、Web サイトやアプリケーションに配信できるように、その eCatalog がDynamic Media Image Server に配置されます。 公開プロセスの一環として、Adobe Dynamic Media Classicは eCatalog の URL 文字列をアクティベートします。 この URL を使用して、Dynamic Media Image Server から web サイトまたはアプリケーションに eCatalog を呼び出します。
 
-参照パネルで eCatalog と公開PDFをマークしたら、グローバルナビゲーションバーの「公開」ボタンを選択して公開を開始します。 公開ページで、を選択します。 **[!UICONTROL 公開を送信]**.
+参照パネルで eCatalog と公開用PDFをマークした後、グローバルナビゲーションバーの「Publish」ボタンを選択して公開を開始します。 公開ページで、「**[!UICONTROL Publishを送信]**」を選択します。
 
-参照： [eCatalog と関連PDFの公開](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+[Publish eCatalog と関連するPDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs) を参照してください。
 
 ## 7. web ページへの eCatalog のリンク
 
@@ -128,4 +128,4 @@ Adobe Dynamic Media Classicは、Dynamic Media Image Server に公開する際�
 
 IT チームと協力して、web ページの適切な場所に eCatalog へのリンクを配置します。 ユーザーがリンクを選択すると、eCatalog ビューアが表示され、ユーザーは eCatalog を参照できます。
 
-参照： [Web ページへの eCatalog のリンク](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
+[Web ページへの eCatalog のリンク ](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page) を参照してください。

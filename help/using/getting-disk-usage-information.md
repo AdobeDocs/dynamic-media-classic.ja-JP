@@ -18,7 +18,7 @@ ht-degree: 42%
 
 # ディスク使用量の情報を取得 {#get-disk-usage-information}
 
-を使用できます `disk_info` 次の例に示すように、会社のディスク容量の使用状況に関する情報を取得するパラメーター。
+次の例に示すように、`disk_info` パラメーターを使用して、会社のディスク容量の使用状況に関する情報を取得できます。
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63

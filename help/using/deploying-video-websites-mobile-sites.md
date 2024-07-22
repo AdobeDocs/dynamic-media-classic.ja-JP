@@ -31,9 +31,9 @@ Web サイト、モバイルサイトおよびデスクトップアプリケー�
 
 ビデオの公開に使用できる方法は 2 つあります。
 
-* **アップロード時にビデオを自動的かつ即座に公開**：ビデオのアップロードプロセスの一環として、Adobe Dynamic Media Classicでは、ビデオがアップロードおよびエンコードされる際にビデオを自動的に公開できます。 このインスタントパブリッシング機能により、事後にビデオを個別に公開する必要がなくなります。
+* **Publishのビデオは、アップロード時に自動で即座に公開されます**: ビデオのアップロードプロセスの一環として、Adobe Dynamic Media Classicでは、ビデオがアップロードおよびエンコードされる際にビデオを自動で公開できます。 このインスタントパブリッシング機能により、事後にビデオを個別に公開する必要がなくなります。
 
-* **アップロード後にビデオを手動で公開**：ビデオをすぐに公開しない場合は、いつでも手動で公開できます。
+* **アップロード後に手動でPublish ビデオを公開**：ビデオをすぐに公開しない場合は、いつでも手動で公開できます。
 
 ビデオを公開すると、Adobe Dynamic Media ClassicによってHTMLページまたはアプリケーションコードの URL 文字列がアクティベートされます。
 
@@ -41,8 +41,8 @@ Web サイト、モバイルサイトおよびデスクトップアプリケー�
 
 1. 次のいずれかの操作を行います。
 
-   * アップロード時にビデオを自動的かつ即座に公開するには、アップロードページで「」を選択します **[!UICONTROL アップロード後に公開]**. 完了後は、それ以上の手順は必要ありません。
-   * アップロード後にビデオを手動で公開するには、参照パネルでビデオを選択して、グローバルナビゲーションバーでを選択します **公開**.
+   * アップロード時にビデオを自動的かつ即座に公開するには、アップロードページで「**[!UICONTROL アップロード後にPublish]**」を選択します。 完了後は、それ以上の手順は必要ありません。
+   * アップロード後にビデオを手動で公開するには、参照パネルでビデオを選択し、グローバルナビゲーションバーで「**Publish**」を選択します。
 
 ## ビデオ URL のモバイルサイトまたは web サイトへのリンク {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -50,26 +50,26 @@ Web サイト、モバイルサイトおよびデスクトップアプリケー�
 
 顧客がリンクを選択すると、そのデバイス、帯域幅、画面サイズが自動的に検出されます。 デスクトップの場合は、定義済みビューアでの再生に適したビデオが表示され、スマートフォンおよびタブレットの場合は、携帯端末のネイティブビデオプレーヤーでの再生に適したビデオが表示されます。
 
-関連トピック [Web ページへのビデオビューアの埋め込み](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
+[Web ページへのビデオビューアの埋め込み ](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page) も参照してください。
 
 **ビデオ URL をモバイルサイトまたは web サイトにリンクするには：**
 
-1. アセットの参照パネルの **[!UICONTROL 表示]** ドロップダウンリストから「」を選択します **[!UICONTROL ビデオ]**、または **[!UICONTROL アダプティブビデオセット]**.
+1. アセットの参照パネルの **[!UICONTROL 表示]** ドロップダウンリストで、「**[!UICONTROL ビデオ]**」または **[!UICONTROL アダプティブビデオセット]** を選択します。
 1. 左側のアセットライブラリパネルで、リンクするビデオまたはアダプティブビデオセットを含むアセットフォルダーに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
-   * を選択 **[!UICONTROL グリッド表示]** または **[!UICONTROL リスト表示]**. アセットの参照パネルで、単一アセットのビデオサムネールをダブルクリックして、詳細ビューで開きます。右側の URL と埋め込みコード パネルの「HTTP ストリーミング」で、次の項目を選択します **[!UICONTROL URL をコピー]** をビューアの右側にクリックします。 ベストプラクティスとして、に関連付けられた URL をコピーします `Universal_HTML5_Video` ビューア。
-   * を選択 **[!UICONTROL グリッド表示]**. アセット参照パネルで、1 つのアセットを選択し、サムネール画像の下のに移動します。 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * **[!UICONTROL グリッド表示]** または **[!UICONTROL リスト表示]** を選択します。 アセットの参照パネルで、単一アセットのビデオサムネールをダブルクリックして、詳細ビューで開きます。右側の URL と埋め込みコード パネルの「HTTP ストリーミング」で、ビューアの右側にある「**[!UICONTROL URL をコピー]**」を選択します。 ベストプラクティスとして、`Universal_HTML5_Video` ビューアに関連付けられた URL をコピーします。
+   * **[!UICONTROL グリッド表示]** を選択します。 アセット参照パネルで、アセットを 1 つ選択し、サムネール画像の下で **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
 
-     ビューアリストページの表の「アクション」列で、次の項目を選択します **[!UICONTROL URL をコピー]**. ベストプラクティスとして、に関連付けられた URL をコピーします `Universal_HTML5_Video` ビューア。
+     ビューアリストページの表の「アクション」列で、「**[!UICONTROL URL をコピー]**」を選択します。 ベストプラクティスとして、`Universal_HTML5_Video` ビューアに関連付けられた URL をコピーします。
 
-   * を選択 **[!UICONTROL リスト表示]**. アセット参照パネルで、1 つのアセットを選択し、サムネール画像の右側で、 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * **[!UICONTROL リスト表示]** を選択します。 アセット参照パネルで、アセットを 1 つ選択し、サムネール画像の右側で **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
 
-     ビューアリストページの表の「アクション」列で、次の項目を選択します **[!UICONTROL URL をコピー]**. ベストプラクティスとして、に関連付けられた URL をコピーします `Universal_HTML5_Video` ビューア。
+     ビューアリストページの表の「アクション」列で、「**[!UICONTROL URL をコピー]**」を選択します。 ベストプラクティスとして、`Universal_HTML5_Video` ビューアに関連付けられた URL をコピーします。
 
-   * を選択 **[!UICONTROL グリッド表示]**, **[!UICONTROL リスト表示]**、または **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * **[!UICONTROL グリッド表示]**、**[!UICONTROL リスト表示]** または **[!UICONTROL 詳細表示]** を選択します。 同じツールバーで、**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
 
-     ビューアリストページの表の「アクション」列で、次の項目を選択します **[!UICONTROL URL をコピー]**. ベストプラクティスとして、に関連付けられた URL をコピーします `Universal_HTML5_Video` ビューア。
+     ビューアリストページの表の「アクション」列で、「**[!UICONTROL URL をコピー]**」を選択します。 ベストプラクティスとして、`Universal_HTML5_Video` ビューアに関連付けられた URL をコピーします。
 
 1. HTML5 ビデオ URL のリンクを Web サイトおよびモバイルサイトに貼り付けます。
 
@@ -77,37 +77,37 @@ Web サイト、モバイルサイトおよびデスクトップアプリケー�
 
 Web ページに埋め込んだビデオを再生する場合は、埋め込みコード機能を使用します。 埋め込みコードをクリップボードにコピーして、Web ページに貼り付けることができます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-関連トピック [ビデオ URL のモバイルサイトまたは web サイトへのリンク](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+[ ビデオ URL のモバイルサイトまたは web サイトへのリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website) も参照してください。
 
 **ビデオビューアを Web ページに埋め込むには：**
 
-1. アセットの参照パネルの「表示」ドロップダウンリストで、を選択します **[!UICONTROL ビデオ]**、または **[!UICONTROL アダプティブビデオセット]**.
+1. アセットの参照パネルの「表示」ドロップダウンリストで、「**[!UICONTROL ビデオ]**」または「**[!UICONTROL アダプティブビデオセット]**」を選択します。
 1. 左側のアセットライブラリパネルで、埋め込みコードをコピーするビデオまたはアダプティブビデオセットを含むアセットフォルダーに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
-   * を選択 **[!UICONTROL グリッド表示]** または **[!UICONTROL リスト表示]**. アセットの参照パネルで、単一アセットのビデオサムネールをダブルクリックして、詳細ビューで開きます。右側の URL と埋め込みコード パネルの「HTTP ストリーミング」で、次の項目を選択します **[!UICONTROL 埋め込みコード]** をビューアの右側にクリックします。 ベストプラクティスとして、を選択します **[!UICONTROL 埋め込みコード]** に関連付けられています `Universal_HTML5_Video` ビューア。
-   * を選択 **[!UICONTROL グリッド表示]**. アセット参照パネルで、1 つのアセットを選択し、ビデオサムネール画像の下でを選択します **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * **[!UICONTROL グリッド表示]** または **[!UICONTROL リスト表示]** を選択します。 アセットの参照パネルで、単一アセットのビデオサムネールをダブルクリックして、詳細ビューで開きます。右側の URL と埋め込みコード パネルの「HTTP ストリーミング」で、目的とするビューアの右側にある「**[!UICONTROL 埋め込みコード]**」を選択します。 ベストプラクティスとして、`Universal_HTML5_Video` ビューアに関連付けられている **[!UICONTROL 埋め込みコード]** を選択します。
+   * **[!UICONTROL グリッド表示]** を選択します。 アセット参照パネルで、アセットを 1 つ選択し、ビデオサムネール画像の下で **[!UICONTROL プレビュー]**/ **[!UICONTROL ビューアリスト]** を選択します。
 
-     ビューアリストページの表の「アクション」列で、次の項目を選択します **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、を選択します **[!UICONTROL 埋め込みコード]** に関連付けられています `Universal_HTML5_Video` ビューア。
+     ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。 ベストプラクティスとして、`Universal_HTML5_Video` ビューアに関連付けられている **[!UICONTROL 埋め込みコード]** を選択します。
 
-   * を選択 **[!UICONTROL リスト表示]**. アセット参照パネルで、1 つのアセットを選択し、サムネール画像の右側で、 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * **[!UICONTROL リスト表示]** を選択します。 アセット参照パネルで、アセットを 1 つ選択し、サムネール画像の右側で **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
 
-     ビューアリストページの表の「アクション」列で、次の項目を選択します **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、を選択します **[!UICONTROL 埋め込みコード]** に関連付けられています `Universal_HTML5_Video` ビューア。
+     ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。 ベストプラクティスとして、`Universal_HTML5_Video` ビューアに関連付けられている **[!UICONTROL 埋め込みコード]** を選択します。
 
-   * を選択 **[!UICONTROL グリッド表示]**, **[!UICONTROL リスト表示]**、または **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * **[!UICONTROL グリッド表示]**、**[!UICONTROL リスト表示]** または **[!UICONTROL 詳細表示]** を選択します。 同じツールバーで、**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
 
-     ビューアリストページの表の「アクション」列で、次の項目を選択します **[!UICONTROL 埋め込みコード]**. ベストプラクティスとして、を選択します **[!UICONTROL 埋め込みコード]** に関連付けられています `Universal_HTML5_Video` ビューア。
+     ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。 ベストプラクティスとして、`Universal_HTML5_Video` ビューアに関連付けられている **[!UICONTROL 埋め込みコード]** を選択します。
 
-1. 埋め込みコード ダイアログボックスで、を選択します。 **[!UICONTROL クリップボードにコピー]**.
+1. 埋め込みコードダイアログボックスで、「**[!UICONTROL クリップボードにコピー]**」を選択します。
 
    埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-1. 選択 **[!UICONTROL 閉じる]**.
+1. **[!UICONTROL 閉じる]** を選択します。
 1. 埋め込みコードを Web ページに貼り付けます。
 
 ### MP4 ビデオアセットでHTML 5 ビデオを使用するための埋め込みコードの実装 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Adobe Dynamic Media Classic HTML5 ビデオプレーヤーを使用したくない場合があります。 代わりに、ネイティブHTMLを使用する場合は、次のようにします。5 `<video>` mp4 ビデオアセットのタグ付けでは、以下の埋め込みコードサンプルを使用できます。
+Adobe Dynamic Media Classic HTML5 ビデオプレーヤーを使用したくない場合があります。 MP4 ビデオアセットでネイティブのHTML5 `<video>` タグを使用する場合は、代わりに以下の埋め込みコードサンプルを使用できます。
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -117,17 +117,17 @@ Adobe Dynamic Media Classic HTML5 ビデオプレーヤーを使用したくな�
 </video>
 ```
 
-* 置換 `"S7 video thumbnail URL"` ビデオのサムネール URL は、ビデオを再生する前にユーザーに表示されるビデオのサムネール画像です。
+* `"S7 video thumbnail URL"` をビデオのサムネール URL に置き換えます。これは、ビデオを再生する前にユーザーに表示されるビデオのサムネール画像です。
 
-  参照： [ビデオサムネール URL の取得](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  [ ビデオサムネール URL の取得 ](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls) を参照してください。
 
-* 置換 `"S7 OGG video asset URL (no player)"` OGG ビデオ用のビデオのプログレッシブ URL を使用します。
+* `"S7 OGG video asset URL (no player)"` を OGG ビデオのビデオのプログレッシブ URL に置き換えます。
 
-  参照： [ビデオ URL のモバイルサイトまたは web サイトへのリンク](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  [ モバイルサイトまたは web サイトへのビデオ URL のリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website) を参照してください。
 
-* 置換 `"S7 MP4 mobile progressive video asset URL (no player)"` ビデオのモバイルプログレッシブ URL を使用します。
+* `"S7 MP4 mobile progressive video asset URL (no player)"` をビデオのモバイルプログレッシブ URL に置き換えます。
 
-  参照： [ビデオ URL のモバイルサイトまたは web サイトへのリンク](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  [ モバイルサイトまたは web サイトへのビデオ URL のリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website) を参照してください。
 
 ## サードパーティのビデオプレーヤーを使用したビデオのデプロイ {#deploying-video-using-a-third-party-video-player}
 
@@ -135,23 +135,23 @@ Dynamic Media Classic ビデオビューアではなく、サードパーティ�
 
 **サードパーティのビデオプレーヤーを使用してビデオをデプロイするには：**
 
-1. Adobe Dynamic Media Classicのグローバルナビゲーションバーで、に移動します **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 一般設定]**.
+1. Adobe Dynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 一般設定]** に移動します。
 1. 使用する URL のタイプに応じて、次のいずれかの操作を行います。
 
 * ダイレクト HLS ストリーミングビデオ URL （マルチビットレート）を生成するには
 
-  日 **[!UICONTROL アプリケーションの一般設定]** ページ （内） **[!UICONTROL サーバー]** グループ、内 **[!UICONTROL 公開先サーバー名]** テキストフィールドで、ダイレクト URL を作成します。 次の構文を使用します。 `server/is/content/company/folder/filename.m3u8`
+  **[!UICONTROL アプリケーション一般設定]** ページの **[!UICONTROL サーバー]** グループで、「**[!UICONTROL 公開先サーバー名]**」テキストフィールドにダイレクト URL を作成します。 次の構文を使用します。`server/is/content/company/folder/filename.m3u8`
 
-  例えば、公開先サーバー名がであるとします `https://s7d9.scene7.com/.` 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
+  例えば、公開先サーバー名が「`https://s7d9.scene7.com/.`」であるとします。手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * ダイレクト HLS ストリーミングビデオ URL （単一ビットレート）を生成するには
 
-  日 **[!UICONTROL アプリケーションの一般設定]** ページ （内） **[!UICONTROL サーバー]** グループ、内 **[!UICONTROL HLS ストリーミング サーバー名]** テキストフィールドで、次の構文を使用してダイレクト URL を作成します。
+  **[!UICONTROL アプリケーション一般設定]** ページの **[!UICONTROL サーバー]** グループで、「**[!UICONTROL HLS ストリーミングサーバー名]**」テキストフィールドに次の構文を使用してダイレクト URL を作成します。
 
   `server/company/folder/filename.ext.m3u8`
 
-  例えば、HLS ストリーミングサーバー名がであるとします `https://s7mbrstream.scene7.com/hls-vod/`. 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
+  例えば、HLS ストリーミングサーバー名が `https://s7mbrstream.scene7.com/hls-vod/` であるとします。 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * プログレッシブビデオのダイレクト URL を生成するには
@@ -160,7 +160,7 @@ Dynamic Media Classic ビデオビューアではなく、サードパーティ�
 
   `server/company/folder/filename`
 
-  例えば、プログレッシブビデオサーバー名がであるとします `https://s7d9.scene7.com/is/content/`. 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
+  例えば、プログレッシブビデオサーバー名が `https://s7d9.scene7.com/is/content/` であるとします。 手順 2 の構文を使用すると、ダイレクト URL は次のようになります。
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## ビデオサムネールの操作 {#working-with-video-thumbnails}
@@ -175,9 +175,9 @@ Adobe Dynamic Media Classicは、アップロード処理中にビデオサム�
 
 ビデオサムネールの URL を生成するには、公開操作を実行します。
 
-参照： [ビデオを公開](deploying-video-websites-mobile-sites.md#publishing_video).
+[Publishのビデオ ](deploying-video-websites-mobile-sites.md#publishing_video) を参照してください。
 
-公開後、URL および埋め込みコードパネルの詳細ビューでビデオサムネールの URL を取得できます。を選択 **[!UICONTROL URL をコピー]** ビデオのサムネールの右側に表示されるので、関連する URL をコピーできます。
+公開後、URL および埋め込みコードパネルの詳細ビューでビデオサムネールの URL を取得できます。ビデオサムネールの右側の **[!UICONTROL URL をコピー]** を選択して、関連する URL をコピーします。
 
 ### ビデオビューアでのポスターフレームの変更 {#modifying-poster-frames-in-video-viewers}
 
@@ -185,12 +185,12 @@ Adobe Dynamic Media Classicは、アップロード処理中にビデオサム�
 
 ポスターフレームに画像修飾子を適用できます。例えば、ポスターフレームを切り抜いたり、透明にしたりすることができます。ポスターフレームを変更するには、ビデオビューアの設定画面を開いて、「ポスター画像修飾子」セクションに修飾子を入力します。
 
-参照： [ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+詳しくは [ ビデオビューアプリセットの追加または編集 ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) を参照してください。
 
-参照： [画像サービングガイド](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+[ 画像サービングガイド ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api) を参照してください。
 
 また、ビデオサムネールの URL に修飾子を追加して、ビデオサムネールを変更することもできます。
 
 >[!MORELIKETHIS]
 >
->* [ファイルを公開](publishing-files.md#publishing_files)
+>* [Publish ファイル ](publishing-files.md#publishing_files)

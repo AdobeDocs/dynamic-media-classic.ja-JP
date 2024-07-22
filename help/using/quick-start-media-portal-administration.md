@@ -25,11 +25,11 @@ ht-degree: 45%
 
 以下のトレーニングビデオを参照してください。
 
-* [メディアポータルの概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+* [ メディアポータルの概要 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [メディアポータルツアー 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [ メディアポータルツアー 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [メディアポータルツアー 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [ メディアポータルツアー 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
 次のクイックスタートは、Media Portal 管理をすぐに使い始められるように設計されています。 各ステップの最後で、トピックのリンクを選択して詳細を確認してください。
 
@@ -43,19 +43,19 @@ Media Portal ユーザーは、ユーザー、投稿者、ユーザー投稿者�
 
 グループは、ユーザがアクセスするフォルダおよびファイル、これらのフォルダおよびファイルでユーザが実行できることおよび使用可能な画像プリセットを指定します。管理者の最初の作業は、グループを作成することです。各グループについて、グループメンバーがアクセスできるフォルダ、ファイルおよび画像プリセットを指定します。また、読み取り、書き込みおよび削除の権限をグループメンバーに付与します。これらの権限によって、メンバーが、アクセスできるフォルダとファイルを参照、編集、名前変更、削除できるかどうかが指定されます。
 
-参照： [メディアポータルグループの作成と管理](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+[ メディアポータルグループの作成と管理 ](creating-media-portal-groups.md#creating_and_managing_media_portal_groups) を参照してください。
 
 ## 3. ユーザの追加
 
 ユーザを追加する際、ユーザに役割（ユーザ、寄稿者または寄稿者ユーザ）を割り当てます。ユーザーを 1 つ以上のグループに割り当てることもできます。 ユーザの追加を速やかに行うため、ユーザリストを CSV ファイル形式でアップロードできます。新しいユーザにはご案内の電子メールメッセージと Media Portal へのログオン手順が送信されます。
 
-参照： [メディアポータルユーザーの追加と管理](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+[ メディアポータルユーザーの追加と管理 ](adding-media-portal-users.md#adding_and_managing_media_portal_users) を参照してください。
 
 ## 4. FTP アカウントの管理
 
 メディアポータルに関連付けられた個別の FTP アカウントを持つことができます。 これらは、Adobe Dynamic Media Classic アカウントの特定のフォルダーにマッピングできます。 この種の機能は、ユーザが個別の FTP アカウントを使用して、アカウントにデジタルアセットをアップロードできるようにすることを意味します。
 
-参照： [FTP アカウントの管理](ftp-accounts.md#managing_ftp_accounts).
+[FTP アカウントの管理 ](ftp-accounts.md#managing_ftp_accounts) を参照してください。
 
 >[!NOTE]
 >
@@ -67,13 +67,13 @@ Media Portal ユーザーは、ユーザー、投稿者、ユーザー投稿者�
 
 Media Portal ユーザーは、ファイルを書き出す際に、権限を付与されている場合は、ファイルを再フォーマットして元のプライマリファイルを書き出すことができます。 管理者は、ユーザによるファイルの書き出し方法を指定します。
 
-参照： [メディアポータルユーザーが使用できる書き出しオプションを指定](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+[Media Portal ユーザーが使用できる書き出しオプションの指定 ](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users) を参照してください。
 
 ## 6. 画像プリセットの作成
 
 画像プリセットは、事前定義済みの設定のコレクションです。 これらの設定により、サイズ、画質、形式、解像度、および書き出し時の画像の外観のその他の側面を変更できます。 画像プリセットを作成して、ユーザが書き出すときに画像の形式を変更する方法を制御できます。
 
-参照： [画像プリセットを作成して有効にする](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+[ 画像プリセットの作成と有効化 ](creating-enabling-image-presets.md#creating_and_enabling_image_presets) を参照してください。
 
 ## 7. メタデータプリセットとユーザ定義メタデータフィールドの作成
 
@@ -85,4 +85,4 @@ Media Portal ユーザーは、ファイルを書き出す際に、権限を付�
 
 Media Portal スタイル設定を使用すると、会社のロゴとカラーで Media Portal ページのブランドを設定できます。 スタイル設定を使用して、メディアポータルに会社のブランディングを配置します。
 
-参照： [メディアポータルページのカスタマイズ](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
+[ メディアポータルページのカスタマイズ ](customizing-media-portal-screen.md#customizing_the_media_portal_screen) を参照してください。

@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Adobe Dynamic Media ClassicとAdobe Target Standard/Premium の統合 {#integrating-dmc-with-target}
 
-統合する前に [!DNL Adobe Dynamic Media Classic] （を使用） [!DNL Target Standard/Premium]にターゲット URL を入力する必要があります [!DNL Adobe Dynamic Media Classic] アプリケーションの一般設定画面 ターゲット URL を取得し、アプリケーションの一般設定ページに入力するには、次の手順を実行します。
+[!DNL Adobe Dynamic Media Classic] を [!DNL Target Standard/Premium] と統合する前に、[!DNL Adobe Dynamic Media Classic] アプリケーションの一般設定画面で Target URL を入力する必要があります。 ターゲット URL を取得し、アプリケーションの一般設定ページに入力するには、次の手順を実行します。
 
-1. 対象： [!DNL Adobe Experience Cloud]、にログイン [!DNL Target Standard/Premium] アカウント。
-1. ログイン後、ブラウザーのアドレスバーに URL を以下の値までコピーします `.com`.
+1. [!DNL Adobe Experience Cloud] で、[!DNL Target Standard/Premium] アカウントにログインします。
+1. ログイン後、ブラウザーのアドレスバーに URL を `.com` 以下にコピーします。
 
-   例えば、 *架空の* アドレスバーの URL （この例のように、URL パスには常にスラッシュが含まれ、バックスラッシュは含まれません）は、です。 `https:\\www.myfictionalsite.com/categories/admin/home.do`、の該当する部分のみをコピー *架空の* URL: `https:\\www.myfictionalsite.com`.
+   例えば、アドレスバーの *架空の* URL （この例のように URL パスには常にスラッシュが含まれ、バックスラッシュは含まれません）が `https:\\www.myfictionalsite.com/categories/admin/home.do` の場合、*架空の* URL の次の部分のみをコピーします。`https:\\www.myfictionalsite.com`。
 
-1. 対象： [!DNL Adobe Dynamic Media Classic]に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]**.
-1. アプリケーションの一般設定ページの **[!UICONTROL Test&amp;Target サーバー名]** フィールドに、手順 2 でコピーした URL をペーストします。
-1. を選択 **[!UICONTROL 閉じる]**.
+1. [!DNL Adobe Dynamic Media Classic] で、**[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]** に移動します。
+1. アプリケーションの一般設定ページの「**[!UICONTROL Test&amp;Target サーバー名]**」フィールドに、手順 2 でコピーした URL を貼り付けます。
+1. **[!UICONTROL 閉じる]** を選択します。

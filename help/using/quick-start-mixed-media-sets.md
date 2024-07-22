@@ -29,21 +29,21 @@ ht-degree: 16%
 
 まず、混在メディアセット用の画像、スウォッチファイルおよびビデオをアップロードします。ユーザーは混在メディアセットビューアで画像をズームできるので、画像を選択する際には必ずこの機能を考慮してください。 最大サイズで 2,000 ピクセル以上の画像を使用してください。
 
-グローバルナビゲーションバーで、を選択します。 **[!UICONTROL Upload]** （コンピューターからAdobe Dynamic Media Classicのフォルダーにファイルをアップロードする場合）
+グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターからAdobe Dynamic Media Classic上のフォルダーにファイルをアップロードします。
 
-参照： [ファイルをアップロード](uploading-files.md#uploading-your-files).
+[ ファイルのアップロード ](uploading-files.md#uploading-your-files) を参照してください。
 
 ## 2.混在メディアセット内で使用するメディアセットを作成する
 
 画像、画像セット、見本セット、スピンセットおよびビデオを混在メディアセットに追加できます。 混在メディアセットに追加する前に、メディアセットを準備します。
 
-参照： [画像セットを作成](creating-image-set.md#creating-an-image-set), [スウォッチセットの作成](creating-swatch-set.md#creating-a-swatch-set)、および [スピンセットの作成](creating-spin-set.md#creating-a-spin-set).
+[ 画像セットの作成 ](creating-image-set.md#creating-an-image-set)、[ スウォッチセットの作成 ](creating-swatch-set.md#creating-a-swatch-set) および [ スピンセットの作成 ](creating-spin-set.md#creating-a-spin-set) を参照してください。
 
 ## 3.混在メディアセットの作成
 
-グローバルナビゲーションバーで、に移動します。 **[!UICONTROL ビルド]** > **[!UICONTROL 混在メディアセット]**. 画像、見本セット、画像セットおよびビデオを混在メディアセットページにドラッグします。 サウンドトラックを追加するには、「サウンドトラック」ボックスにオーディオファイルをドラッグします。
+グローバルナビゲーションバーで、**[!UICONTROL ビルド]**/**[!UICONTROL 混在メディアセット]** に移動します。 画像、見本セット、画像セットおよびビデオを混在メディアセットページにドラッグします。 サウンドトラックを追加するには、「サウンドトラック」ボックスにオーディオファイルをドラッグします。
 
-参照： [混在メディアセットの作成](creating-mixed-media-set.md#creating-a-mixed-media-set).
+[ 混在メディアセットの作成 ](creating-mixed-media-set.md#creating-a-mixed-media-set) を参照してください。
 
 ## 4.混在メディアビューアプリセットの設定
 
@@ -51,26 +51,26 @@ Adobe Dynamic Media Classicには、混在メディアセット用のデフォ�
 
 混在メディアセットビューアプリセットを設定する場合、セット内の他のすべてのアセットのビューアプリセットを追加します。 例えば、混在メディアセットにビデオが含まれている場合、混在メディアセットビューアプリセットにビデオビューアプリセットを追加します。 ビューアにサウンドトラックを追加することもできます。サウンドトラックはビューアが開いていると再生されますが、ビデオがアクティブなときには再生されません。
 
-参照： [混在メディアセットビューアプリセットの設定](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) および [ビューアプリセットの作成と編集](application-setup.md#adding-and-editing-viewer-presets).
+[ 混在メディアセットビューアプリセットの設定 ](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) および [ ビューアプリセットの作成と編集 ](application-setup.md#adding-and-editing-viewer-presets) を参照してください。
 
-関連トピック [ビューアプリセット](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) トレーニングビデオ。
+[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
 ## 5.混在メディアセットのプレビュー
 
-混在メディアセットの選択 **[!UICONTROL プレビュー]** ボタン。 混在メディアセットビューアで混在メディアセットを確認するには、サムネールアイコンとスウォッチアイコンを選択します。 プリセットメニューから様々なビューアを選択できます。
+混在メディアセットの **[!UICONTROL プレビュー]** ボタンを選択します。 混在メディアセットビューアで混在メディアセットを確認するには、サムネールアイコンとスウォッチアイコンを選択します。 プリセットメニューから様々なビューアを選択できます。
 
-参照： [アセットのプレビュー](previewing-asset.md#previewing-an-asset).
+[ アセットのプレビュー ](previewing-asset.md#previewing-an-asset) を参照してください。
 
-## 6.混在メディアセットの公開
+## 6. Publish a 混在メディアセット
 
 混在メディアセットを公開すると、そのセットはAdobe Dynamic Media Classic サーバーに配置され、URL 文字列がアクティベートされます。
 
-混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。使用方法 **ビデオ サーバー** 公開用にマークした実際のビデオを公開します。 また、を使用します **Image Server** 関連アセット（ビデオサムネールなど）を公開し、アダプティブビデオセットの情報を設定します。
+混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。公開用にマークした実際のビデオを公開するには、**ビデオサーバー** を使用します。 また、**Image Server** を使用して、ビデオのサムネールなどの関連アセットを公開し、アダプティブビデオセットの情報を設定します。
 
-参照： [混在メディアセットの公開](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
+[Publish混在メディアセット ](publishing-mixed-media-set.md#publishing-a-mixed-media-set) を参照してください。
 
 ## 7. Web ページへの混在メディアセットのリンク
 
 混在メディアセットの URL 呼び出しは、Adobe Dynamic Media Classicによって公開後にアクティベートされます。 これらの URL は、プレビューページからコピーできます。
 
-混在メディアセットを選択し、 **[!UICONTROL プレビュー]**. プレビューページで、混在メディアセットビューアプリセットを選択し、次に **[!UICONTROL URL をコピー]**. 参照： [混在メディアセットの Web ページへのリンク](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+混在メディアセットを選択し、「**[!UICONTROL プレビュー]**」を選択します。 プレビューページで、混在メディアセットビューアプリセットを選択し、「**[!UICONTROL URL をコピー]**」を選択します。 [Web ページへの混在メディアセットのリンク ](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page) を参照してください。

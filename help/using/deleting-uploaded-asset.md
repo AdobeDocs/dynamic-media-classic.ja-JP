@@ -18,7 +18,7 @@ ht-degree: 33%
 
 # アップロードしたアセットの削除{#deleting-an-uploaded-asset}
 
-を使用できます `delete` アセットを削除するには、次の形式のパラメーターを指定します。
+`delete` の形式のパラメーターを使用してアセットを削除できます。
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

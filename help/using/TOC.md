@@ -16,16 +16,16 @@ ht-degree: 18%
 
 # Adobe Dynamic Media Classic ガイド {#using}
 
-+ Dynamic Media ClassicからDynamic Mediaへのアップグレード {#upgrade}
++ Dynamic Media ClassicからDynamic Media {#upgrade} へのアップグレード
    + [Dynamic Mediaにアップグレードする理由](upgrade.md)
    + [アップグレードに関するよくある質問](upgrade-faq.md)
    + [機能リストの比較](upgrade-feature-comparison.md)
    + [アップグレード準備チェックリスト](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic ガイド](home.md)
-+ [Adobe Dynamic Media Classic ベストプラクティスチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Adobe Dynamic Media Classic ベストプラクティスチュートリアル ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新しいAdobe Dynamic Media Classic ログオンが利用できるようになりました](new-ui-2020.md)
 + [Experience League別AdobeDynamic Mediaニュースレターアーカイブ](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classicについて {#intro}
++ Adobe Dynamic Media Classic {#intro} の概要
    + [Adobe Dynamic Media Classic デスクトップアプリ：提供開始](dynamic-media-classic-desktop-app.md)
    + [Adobe Dynamic Media Classic ヘルプについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
@@ -36,20 +36,20 @@ ht-degree: 18%
    + [Adobe トレーニングサービス](training-services.md)
    + [よく使用される学習リソース](popular-resources.md)
    + [トレーニングビデオ](training-videos.md)
-+ はじめに {#getting-started}
++ 入門 {#getting-started}
    + [Adobe Dynamic Media Classic プログラムの概要](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [ログインとログアウト](signing-out.md)
    + [ナビゲーションの基本](navigation-basics.md)
    + [設定の基本](setup-basics.md)
    + [リッチメディア](rich-media.md)
-+ の設定 {#setup}
++ {#setup} の設定
    + [個人設定](personal-setup.md)
    + [アプリケーション設定](application-setup.md)
    + [公開設定](publish-setup.md)
    + [ビデオ SEO（検索エンジン最適化）](video-seo-search-engine-optimization.md)
    + [管理設定](administration-setup.md)
-+ メディアポータル {#media-portal}
++ Media Portal {#media-portal}
    + [Adobe Dynamic Media Classicの Media Portal の必要システム構成](system-requirements-media-portal.md)
    + [クイックスタート：メディアポータル](quick-start-media-portal-administration.md)
    + [Media Portal ユーザの役割](media-portal-user-roles.md)
@@ -63,7 +63,7 @@ ht-degree: 18%
 + アセットのアップロードと公開 {#upload-publish}
    + [アセットのアップロードと公開について](about-asset-upload-publish.md)
    + [ファイルのアップロード](uploading-files.md)
-   + [ファイルを公開](publishing-files.md)
+   + [Publish ファイル](publishing-files.md)
    + [Dynamic Mediaの制限](limitations.md)
    + [アセットを公開する前にテストする](testing-assets-making-them-public.md)
    + [ジョブ ファイルの確認](checking-job-files.md)
@@ -82,10 +82,10 @@ ht-degree: 18%
    + [アセットの印刷](printing-assets.md)
    + [ごみ箱フォルダーの管理](trash-folder.md)
    + [プロジェクトを使用して作業を整理する](organizing-projects.md)
-+ 画像サイズ {#image-sizing}
++ 画像のサイズ {#image-sizing}
    + [クイックスタート：画像サイズ変更](quick-start-image-sizing.md)
    + [プライマリ画像のアップロード](uploading-master-images.md)
-   + [プライマリ画像の公開](publishing-master-images.md)
+   + [Publishのプライマリ画像](publishing-master-images.md)
    + [画像プリセットの設定](setting-image-presets.md)
    + [Web アプリケーションへの URL のリンク](linking-urls-web-application.md)
 + ズーム {#zoom}
@@ -94,9 +94,9 @@ ht-degree: 18%
    + [ガイド付きズームのズームターゲットの作成](creating-zoom-targets-guided-zoom.md)
    + [ズームビューアプリセットの設定](setting-zoom-viewer-presets.md)
    + [様々なズームビューアでの画像アセットのプレビュー](previewing-image-assets-different-zoom.md)
-   + [ズーム画像の公開](publishing-zoom-images.md)
+   + [Publish ズーム画像](publishing-zoom-images.md)
    + [Web ページへのズームビューアのリンク](linking-zoom-viewers-web-pages.md)
-+ eCatalog {#ecatalogs}
++ eCatalogs {#ecatalogs}
    + [クイックスタート：eCatalog](quick-start-ecatalog.md)
    + [PDFファイルのアップロード](uploading-pdf-files.md)
    + [eCatalog の作成](creating-ecatalog.md)
@@ -104,7 +104,7 @@ ht-degree: 18%
    + [eCatalog の情報パネルコンテンツの管理](info-panel-content-ecatalog.md)
    + [eCatalog ビューアプリセットの設定](setting-ecatalog-viewer-presets.md)
    + [eCatalog ビューアでの eCatalog のプレビュー](previewing-ecatalogs-ecatalog-viewer.md)
-   + [eCatalog と関連PDFの公開](publishing-ecatalogs-associated-pdfs.md)
+   + [Publish eCatalog と関連PDF](publishing-ecatalogs-associated-pdfs.md)
    + [Web ページへの eCatalog のリンク](linking-ecatalog-web-page.md)
 + 画像セット {#image-sets}
    + [クイックスタート：画像セット](quick-start-image-sets.md)
@@ -126,7 +126,7 @@ ht-degree: 18%
    + [クイックスタート：スピンセット](quick-start-spin-sets.md)
    + [スピンセットの作成](creating-spin-set.md)
    + [スピンセットのプレビュー](previewing-spin-set.md)
-   + [スピンセットの公開](publishing-spin-set.md)
+   + [スピンセットのPublish](publishing-spin-set.md)
    + [スピンセットビューアプリセットの設定](setting-spin-set-viewer-presets.md)
    + [Web ページへのスピンセットのリンク](linking-spin-set-web-page.md)
 + テンプレートの基本 {#template-basics}
@@ -150,7 +150,7 @@ ht-degree: 18%
    + [クイックスタート：混在メディアセット](quick-start-mixed-media-sets.md)
    + [混在メディアセットビューアプリセットの設定](setting-mixed-media-set-viewer.md)
    + [混在メディアセットの作成](creating-mixed-media-set.md)
-   + [混在メディアセットの公開](publishing-mixed-media-set.md)
+   + [混在メディアセットのPublish](publishing-mixed-media-set.md)
    + [Web ページへの混在メディアセットのリンク](linking-mixed-media-set-web.md)
 + Adobe Analytics計装キット {#analytics-kit}
    + [クイックスタート：Adobe Dynamic Media ClassicとAdobe Analyticsの統合](quick-start-integrating-dmc-analytics.md)
@@ -160,13 +160,13 @@ ht-degree: 18%
    + [Adobe Analyticsのトラッキングの無効化](disabling-analytics-tracking.md)
    + [Adobe Analytics レポートを表示して統合をテスト](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics ビデオレポートを有効にする](enabling-analytics-video-reports.md)
-   + [Adobe Analytics設定情報の公開](publishing-analytics-configuration-information.md)
+   + [Publish Adobe Analyticsの設定情報](publishing-analytics-configuration-information.md)
 + Adobe Target Standard と Premium の統合 {#target-classic}
    + [クイックスタート：Adobe Target Standard と Premium の統合](quick-start-target-integration.md)
    + [Adobe Dynamic Media ClassicとAdobe Target Standard/Premium の統合](integrating-dmc-with-target.md)
    + [オファーセットの作成](creating-offer-set.md)
    + [オファーセットをAdobe Target Standard/Premium にプッシュ](pushing-offer-sets-target.md)
-+ ユーザー作成コンテンツ {#user-generated-content}
++ ユーザー生成コンテンツ {#user-generated-content}
    + [ユーザー生成コンテンツについて](about-ugc.md)
    + [アップロードしたアセットの削除](deleting-uploaded-asset.md)
    + [ディスク使用量の情報を取得](getting-disk-usage-information.md)
@@ -181,9 +181,9 @@ ht-degree: 18%
    + [アップロード時の画像の編集オプションの微調整](image-editing-options-upload.md)
    + [PDFの操作](pdfs.md)
    + [PSDファイルの操作](psd-files.md)
-   + [PostScript ファイルとIllustrator ファイルの操作](postscript-illustrator-files.md)
+   + [PostScriptおよびIllustrator ファイルの操作](postscript-illustrator-files.md)
    + [ビネット、窓の覆い、キャビネット ファイルを使用する](vignette-window-covering-cabinet-files.md)
-+ サポートファイル {#support-files}
++ サポート ファイル {#support-files}
    + [フォント](fonts.md)
    + [XML ファイル](xml-files.md)
    + [ICC プロファイル［ICC ぷろふぁいる］](icc-profiles.md)

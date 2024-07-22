@@ -27,14 +27,14 @@ ht-degree: 32%
 
 テンプレートは、Adobe Photoshop PSD ファイルまたは画像ファイルから作成できます。
 
-ファイルのアップロード手順については、を参照してください。 [ファイルをアップロード](uploading-files.md#uploading_files). テンプレートファイルをアップロードするときは、以下の点に注意してください。
+ファイルのアップロード手順について詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。 テンプレートファイルをアップロードするときは、以下の点に注意してください。
 
-* PSDファイルをアップロードする場合は、テンプレートを作成できます。 Adobe Dynamic Media Classicは、PSDのレイヤーごとに個別の画像を作成します。 アップロードジョブオプション ダイアログボックスで、 **[!UICONTROL Photoshopのオプション]**&#x200B;を選択し、 **[!UICONTROL レイヤーを維持]** および **[!UICONTROL テンプレートを作成]**. 次に、からオプションを選択します **[!UICONTROL レイヤーの名前]** Adobe Dynamic Media ClassicがPSD内のレイヤーから作成する画像に名前を付けるためのドロップダウンリスト。
+* PSDファイルをアップロードする場合は、テンプレートを作成できます。 Adobe Dynamic Media Classicは、PSDのレイヤーごとに個別の画像を作成します。 「アップロードジョブオプション」ダイアログボックスで、「**[!UICONTROL Photoshop オプション]**」を選択し、「**[!UICONTROL レイヤーを維持]**」および「**[!UICONTROL テンプレートを作成]**」を選択します。 次に、「**[!UICONTROL レイヤーの命名]**」ドロップダウンリストからオプションを選択して、Adobe Dynamic Media ClassicがPSD内のレイヤーから作成する画像に名前を付けます。
 詳しくは、[PSD アップロードオプション](psd-files.md#psd_upload_options)を参照してください。
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
->* [ファイルをアップロード](uploading-files.md#uploading_your_files)
->* [PSDファイルの操作](psd-files.md#working_with_psd_files)
+>* [ ファイルをアップロードする ](uploading-files.md#uploading_your_files)
+>* [PSDファイルの操作 ](psd-files.md#working_with_psd_files)

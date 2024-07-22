@@ -25,9 +25,9 @@ ht-degree: 44%
 
 ユーザは画像セットで画像をズームできるので、長辺が少なくとも 2000 pixel の画像を使用してください。Adobe Dynamic Media Classicは多くの画像ファイル形式をサポートしていますが、可逆圧縮TIFF、PNG およびEPSの画像の使用をお勧めします。
 
-アセットのアップロード手順について詳しくは、を参照してください。 [ファイルをアップロード](uploading-files.md#uploading_files).
+アセットのアップロード手順について詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ファイルをアップロード](uploading-files.md#uploading_your_files)
->* [ビネット、窓の覆い、キャビネット ファイルを使用する](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [ ファイルをアップロードする ](uploading-files.md#uploading_your_files)
+>* [ ビネット、ウィンドウカバー、キャビネットファイルの操作 ](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

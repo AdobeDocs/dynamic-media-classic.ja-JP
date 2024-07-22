@@ -1,6 +1,6 @@
 ---
-title: ソースとエンコードされたビデオを書き出し
-description: ソースとエンコードされたビデオをAdobe Dynamic Media Classicで書き出す方法を説明します。
+title: ソースビデオおよびエンコードされたビデオの書き出し
+description: Adobe Dynamic Media Classicでソースビデオとエンコードされたビデオを書き出す方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ---
 
-# ソースとエンコードされたビデオを書き出し{#exporting-source-and-encoded-videos}
+# ソースビデオおよびエンコードされたビデオの書き出し{#exporting-source-and-encoded-videos}
 
-参照パネルで、ソースビデオにはラベルが付きます *プライマリビデオ*. エンコードされたビデオには、ラベルが付けられます *ビデオ*. プライマリビデオとプライマリビデオを書き出すことができます。 ビデオファイルを書き出すには、参照パネルでビデオファイルを選択し、に移動します。 **[!UICONTROL ファイル]** > **[!UICONTROL 書き出し]**.
+参照パネルでは、ソースビデオには *プライマリビデオ* というラベルが付いています。 エンコードされたビデオには「*ビデオ* というラベルが付けられます。 プライマリビデオとビデオを書き出すことができます。 ビデオファイルを書き出すには、参照パネルでビデオファイルを選択して、**[!UICONTROL ファイル]**/**[!UICONTROL 書き出し]** に移動します。
 
-詳しくは、 [Adobe Dynamic Media Classicからのアセットの書き出し](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+[Adobe Dynamic Media Classicからのアセットのエクスポート ](exporting-assets-from-dmc.md#exporting-assets-from-dmc) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ビデオのアップロードとエンコード](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading_and_encoding_videos)

@@ -1,6 +1,6 @@
 ---
-title: 新機能
-description: 最新のリリースノートを通じて新しいAdobe Dynamic Media Classicについて説明します。
+title: 最新情報
+description: 現在のリリースノートを通じて、Adobe Dynamic Media Classicの新機能について説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,6 +17,6 @@ ht-degree: 0%
 
 ---
 
-# 新機能 {#what-s-new}
+# 最新情報 {#what-s-new}
 
-新機能、機能強化、修正など、最新のAdobe Dynamic Media Classicリリース情報については、 [Adobe Dynamic Media Classicリリースノート](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017).
+新機能、機能強化、修正点など、最新のAdobe Dynamic Media Classic リリース情報については、[Adobe Dynamic Media Classic リリースノート ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017) を参照してください。

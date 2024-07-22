@@ -30,14 +30,14 @@ ht-degree: 17%
 1. 参照パネルで 1 つまたは複数のアセットを選択し、次のいずれかの操作を行います。
 
    * アセットライブラリでアセットの移動先のフォルダーを表示し、アセットをフォルダーにドラッグします。
-   * に移動 **[!UICONTROL ファイル]** > **[!UICONTROL 移動]**&#x200B;を選択し、「アセットを移動」ウィンドウでフォルダーを選択して、 **[!UICONTROL 移動]**.
+   * **[!UICONTROL ファイル]**/**[!UICONTROL 移動]** に移動し、「Assetsを移動」ウィンドウでフォルダーを選択して、「**[!UICONTROL 移動]**」を選択します。
 
 ## アセット名の変更 {#rename-assets}
 
 1. 参照パネルでアセットを選択し、次のいずれかの操作を行います。
 
-   * 名前を選択し、新しい名前を入力して、キーを押します **[!UICONTROL Enter]** または、名前から離れた場所を選択します。
-   * に移動 **[!UICONTROL ファイル]** > **[!UICONTROL 名前を変更]**. アセットの名前がハイライトされます。新しい名前を入力し、キーを押します **[!UICONTROL Enter]**. 既存のAdobe Dynamic Media Classic アセットの名前を入力しないでください。
+   * 名前を選択し、新しい名前を入力して、**[!UICONTROL Enter]** キーを押すか、名前の外側を選択します。
+   * **[!UICONTROL ファイル]**/**[!UICONTROL 名前を変更]** に移動します。 アセットの名前がハイライトされます。新しい名前を入力し、**[!UICONTROL Enter]** キーを押します。 既存のAdobe Dynamic Media Classic アセットの名前を入力しないでください。
 
 ## アセットの削除 {#delete-assets}
 
@@ -55,8 +55,8 @@ ht-degree: 17%
 
 1. 次のいずれかの操作を行います。
 
-   * 1 つ以上のアセットを削除するには、参照パネルでアセットを選択して、キーを押します **[!UICONTROL 削除]** または、に移動します。 **[!UICONTROL ファイル]** > **[!UICONTROL 削除]**.
-   * フォルダーを削除するには、アセットライブラリでフォルダーを選択し、次のチェックボックスをオンにします。 **[!UICONTROL フォルダーを削除]**.
+   * 1 つ以上のアセットを削除するには、参照パネルでアセットを選択して **[!UICONTROL 削除]** を押すか、**[!UICONTROL ファイル]**/**[!UICONTROL 削除]** に移動します。
+   * フォルダーを削除するには、アセットライブラリでフォルダーを選択して、「**[!UICONTROL フォルダーを削除]**」を選択します。
 
      フォルダーを削除すると、フォルダー、フォルダー内のすべてのアセットとそのサブフォルダー内のすべてのアセットが削除されます。
 
@@ -70,14 +70,14 @@ Adobe Dynamic Media Classic ID のリストを作成し、テキスト（.txt）
 
 リストを作成したら、次の手順に従ってアセットを削除します。
 
-1. に移動 **[!UICONTROL ファイル]** > **[!UICONTROL アセットリストを削除]**.
-1. が含まれる **[!UICONTROL 削除されたアセットリスト]** ダイアログボックスで、削除するアセットのリストを含むテキストファイルへのパスを入力します。
-1. を選択 **[!UICONTROL 削除]**.
+1. **[!UICONTROL ファイル]**/**[!UICONTROL アセットリストを削除]** に移動します。
+1. **[!UICONTROL 削除済みアセットリスト]** ダイアログボックスで、削除するアセットのリストを含むテキストファイルへのパスを入力します。
+1. 「**[!UICONTROL 削除]**」を選択します。
 
 テキストファイルを使用してアセットを削除するときに、リストにAdobe Dynamic Media Classic ID が含まれていない場合は、「リスト内のこれらのエントリを検証できません：」というメッセージが表示されます。 エントリのリストも表示されます。 ただし、Adobe Dynamic Media Classicでは、ジョブ ページでエラーは生成されません。
 
 >[!MORELIKETHIS]
 >
->* [参照パネルでのアセットの選択](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [アップロード用のアセットとフォルダーの準備](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [ごみ箱フォルダーからのアセットの復元](trash-folder.md#restoring_assets_from_the_trash_folder)
+>* [ 参照パネルでのアセットの選択 ](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+>* [ アップロード用のアセットとフォルダーの準備 ](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [ ごみ箱フォルダーからのアセットの復元 ](trash-folder.md#restoring_assets_from_the_trash_folder)

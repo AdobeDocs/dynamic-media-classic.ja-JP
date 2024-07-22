@@ -1,6 +1,6 @@
 ---
-title: ビネット、ウィンドウカバー、キャビネットファイルの操作
-description: Adobe Dynamic Media Classicでビネット、ウィンドウカバリング、キャビネットファイルを使用する方法を学びます。
+title: ビネット、窓の覆い、キャビネット ファイルを使用する
+description: Adobe Dynamic Media Classicでビネット、ウィンドウカバー、キャビネットファイルを使用する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ---
 
-# ビネット、ウィンドウカバリング、キャビネットファイルの操作{#working-with-vignette-window-covering-and-cabinet-files}
+# ビネット、ウィンドウカバー、およびキャビネットファイルの操作{#working-with-vignette-window-covering-and-cabinet-files}
 
-Adobe Dynamic Media Classic Image Authoring ツールのユーザーが、次の操作を実行できます。 *use* ビネット（VNT ファイル）、ウィンドウカバリング（VNW ファイル）、キャビネット（VNC ファイル）。 これらのファイルは、Adobe Dynamic Media Classicでは作成または編集できません。
+Adobe Dynamic Media Classic画像オーサリングツールを使用すると *ビネット* VNT ファイル）、ウィンドウカバー（VNW ファイル）、キャビネット（VNC ファイル）を使用できます。 これらのファイルは、Adobe Dynamic Media Classicで作成または編集することはできません。
 
-ビネット、窓カバー、キャビネットは、オーサリングされた画像です。 Image Authoring と呼ばれる別のAdobe Dynamic Media Classicプログラムを使用して、画像内のオブジェクトをマスクし、同じ画像を様々なテクスチャや色で表示できるようにします。 例えば、様々な布で覆われたソファーや、様々な窓処理で飾られた窓、様々な木で仕上げられたキャビネットなどが見られます。
+ビネット、窓の覆い、キャビネットは、作成されるイメージです。 画像オーサリングと呼ばれる別のAdobe Dynamic Media Classic プログラムを使用して、画像内のオブジェクトをマスクし、同じ画像を様々なテクスチャや色で表示できます。 たとえば、さまざまな布地で張られたソファや、さまざまな窓処理で装飾された窓、さまざまな種類の木材で仕上げられたキャビネットなどがあります。
 
-他のファイルと同様に、ビネット、窓カバー、キャビネットをアップロードします。
+他のファイルと同様に、ビネット、ウィンドウカバー、キャビネットをアップロードします。
 
 >[!MORELIKETHIS]
 >

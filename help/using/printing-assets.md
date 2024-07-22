@@ -20,5 +20,5 @@ ht-degree: 0%
 # アセットの印刷{#printing-assets}
 
 1. 参照パネルで、印刷するアセットを 1 つ以上選択します。
-1. に移動 **[!UICONTROL ファイル]** > **[!UICONTROL 印刷]** または押す `Ctrl+P` （Windows®）または `Command+P` （Mac）。
-1. [ 印刷 ] ダイアログ ボックスで、印刷する部数を選択し、 **[!UICONTROL 印刷]**.
+1. **[!UICONTROL ファイル]**/**[!UICONTROL 印刷]** に移動するか、`Ctrl+P` （Windows®）または `Command+P` （Mac）を押します。
+1. 印刷ダイアログボックスで、印刷する部数を選択し、「**[!UICONTROL 印刷]**」をクリックします。

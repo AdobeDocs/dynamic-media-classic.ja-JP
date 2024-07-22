@@ -30,7 +30,7 @@ ht-degree: 51%
 
 ## 共有秘密鍵のリクエスト {#requesting-a-shared-secret-key}
 
-をリクエスト *shared-secret key* 作成者： [Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) テクニカルサポートケースでは、共有秘密鍵をリクエストします。
+Admin Consoleを使用して *shared-secret key* をリクエストし、サポートケースを作成します。[](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) テクニカルサポートケースでは、共有秘密鍵をリクエストします。
 
 電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Adobe Dynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
 
@@ -41,12 +41,12 @@ ht-degree: 51%
 アップロードトークンは英数字で構成された文字列で、一定の期間しか利用できません。次の URL を使用し、共有秘密鍵を置き換えて、アップロードトークンを取得します。
 
 * ラスターイメージ
-  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`この例では、共有秘密鍵はです。 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602` この例では、共有秘密鍵は `fece4b21-87ee-47fc-9b99-2e29b78b602` です
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-初期設定で、アップロードトークンは取得後 5 分（300 秒）で有効期限切れになります。さらに時間をリクエストするには、次を含めます `expires` URL および必要な時間（秒単位）。 例えば、次のサンプル画像の URL では、1800 秒間有効なアップロードトークンを取得します。
+初期設定で、アップロードトークンは取得後 5 分（300 秒）で有効期限切れになります。さらに時間をリクエストするには、URL に `expires` を含め、必要な時間（秒単位）を指定します。 例えば、次のサンプル画像の URL では、1800 秒間有効なアップロードトークンを取得します。
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -83,7 +83,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | shared_secret | 必須 | アップロードを実行する会社の共有秘密鍵。 |
 | expires | オプション | アップロードトークンの有効秒数。指定しない場合、デフォルト値は 300 秒です。 |
 
-**ラスターイメージのサンプル URL:**
+**サンプル ラスターイメージ URL:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
@@ -92,11 +92,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **許可される HTTP メソッド：**
-`GET` および `POST`
+`GET` と `POST`
 
 これで、画像アセットをアップロードできるようになりました。
 
-参照： [画像アセットのアップロード](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+[ 画像アセットのアップロード ](uploading-image-asset-or-vector.md#uploading_an_image_asset) を参照してください。
 
 ## ラスター画像アセットのアップロード {#uploading-an-image-asset}
 
@@ -106,11 +106,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-この `upload_token` および `company_name` フィールドは必須です。
+`upload_token` フィールドと `company_name` フィールドは必須です。
 
-参照： [アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+[ アップロードトークンの取得 ](uploading-image-asset-or-vector.md#retrieving_the_upload_token) を参照してください。
 
-参照： [共有秘密鍵の取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+[ 共有秘密鍵の取得 ](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key) を参照してください。
 
 この例のように、他のオプションの値も URL クエリ文字列として送信できます。
 
@@ -118,14 +118,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-この `file_limit` パラメーターは、ファイルサイズの制限をバイト単位で指定します。 この `file_exts` パラメーターは、アップロードが許可されるファイル名の拡張子を指定します。 この 2 つのパラメータはオプションです。
+`file_limit` パラメーターは、ファイルサイズの上限をバイト単位で指定します。 `file_exts` パラメーターは、アップロードが許可されるファイル名拡張子を指定します。 この 2 つのパラメータはオプションです。
 
 ファイルサイズ制限とファイル名拡張子に適用されるグローバル制限は、アプリケーション内で設定されます。リクエストで送信したものがグローバル制限のサブセットである場合、そのリクエストは優先されます。 グローバル制限は次のとおりです。
 
 | グローバル制限 | 値 |
 | --- | --- |
 | すべてのクライアントのファイルサイズ | 20MB |
-| アップロードでサポートされている画像ファイルの形式 | BMP, GIF,JPG, PNG, PSD,TIFF |
+| アップロードでサポートされている画像ファイルの形式 | BMP, GIF, JPG, PNG, PSD, TIFF |
 
 アセットのアップロードには次の HTML フォームを使用できます。フォームからは次の情報の入力が求められます。
 
@@ -135,14 +135,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * ファイル名拡張子のリスト。
 * アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
 * ノックアウトの背景を使用するかどうか。 [ 背景の抜き ] を有効にした場合は、[ コーナー ]、[ 許容差 ]、[ 塗り潰し方法 ] を設定します。
-のノックアウトの背景を参照してください [アップロード時の画像微調整オプション](image-editing-options-upload.md#image-editing-options-at-upload).
+[ アップロード時の画像の微調整オプション ](image-editing-options-upload.md#image-editing-options-at-upload) のノックアウトの背景を参照してください。
 * アップロードするファイルの名前。
 
-上記のフォームに関連付けられたHTMLソースコードを表示するには、次のオプションを選択します。 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+上記のフォームに関連付けられたHTMLのソース コードを表示するには、[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) を選んでください。
 
-Firefox で、ブラウザーウィンドウ内を右クリックし、 **[!UICONTROL ページソースを表示]**. このコードは、対応する URL クエリ文字列と、ユーザーが選択したときに実行されるPOSTメソッドを示します **[!UICONTROL Submit]**.
+Firefox で、ブラウザーウィンドウ内を右クリックし、「**[!UICONTROL ページSourceを表示]**」を選択します。 このコードは、対応する URL クエリ文字列と、ユーザーが **[!UICONTROL 送信]** を選択したときに実行されるPOSTメソッドを示しています。
 
-Internet Explorer で XML 応答を表示するには、次に移動します： **[!UICONTROL 表示]** > **[!UICONTROL ソース]**. Firefox で XML 応答を表示するには、次に移動します。 **[!UICONTROL ツール]** > **[!UICONTROL ブラウザーツール]** > **[!UICONTROL Web 開発者ツール]**. XML 応答の表示には、Firefox を使用することをお勧めします。
+Internet Explorer で XML 応答を表示するには、**[!UICONTROL 表示]** > **[!UICONTROL Source]** に移動します。 Firefox で XML 応答を表示するには、**[!UICONTROL ツール]**/**[!UICONTROL ブラウザーツール]**/**[!UICONTROL Web 開発者ツール]** に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -202,7 +202,7 @@ POST
 
 ### 画像のアセットメタデータの取得 {#getting-asset-metadata-for-images}
 
-次を使用できます `image_info` 次の例に示すように、アップロードしたアセットのメタデータを取得します。
+次の例に示すように、`image_info` を使用して、アップロードしたアセットのメタデータを取得できます。
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

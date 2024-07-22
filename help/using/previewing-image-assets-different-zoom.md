@@ -21,9 +21,9 @@ ht-degree: 27%
 
 ビューアリスト画面で、様々なズームビューアプリセットを使用して画像をプレビューできます。
 
-参照： [デフォルトビューアを設定](application-setup.md#configuring_default_viewers).
+[ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers) を参照してください。
 
-参照： [アセットのプレビュー](previewing-asset.md#previewing_an_asset).
+[ アセットのプレビュー ](previewing-asset.md#previewing_an_asset) を参照してください。
 
 **様々なズームビューアで画像アセットをプレビューするには：**
 
@@ -31,15 +31,15 @@ ht-degree: 27%
 1. 左側のアセットライブラリパネルで、ズームビューアでプレビューする画像を含むアセットフォルダに移動します。
 1. 次のいずれかの操作を行います。
 
-   * Assets ウィンドウの上のツールバーの右側で、次の項目を選択します **[!UICONTROL グリッド表示]**. アセットウィンドウのサムネール画像の下で、 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
-   * Assets ウィンドウの上のツールバーの右側で、次の項目を選択します **[!UICONTROL リスト表示]**. アセットウィンドウでアセットを選択し、サムネール画像の右側で、 **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
-   * Assets ウィンドウの上のツールバーの右側で、次の項目を選択します **[!UICONTROL 詳細ビュー]**. 同じツールバーで、に移動します **[!UICONTROL プレビュー]** > **[!UICONTROL ビューアリスト]**.
+   * Assetsウィンドウの上のツールバーの右側にある「**[!UICONTROL グリッド表示]**」を選択します。 アセットウィンドウのサムネール画像の下で、**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
+   * Assetsウィンドウの上のツールバーの右側にある「**[!UICONTROL リスト表示]**」を選択します。 アセットウィンドウでアセットを選択し、サムネール画像の右側で **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
+   * Assetsウィンドウの上のツールバーの右側にある「**[!UICONTROL 詳細ビュー]**」を選択します。 同じツールバーで、**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
 
 1. ビューアリストウィンドウのテーブルで、ビューアリンクを選択し、選択したビューアでアセットをプレビューします。
 1. 表示されたビューアを閉じます。
-1. Viewer List ウィンドウの右下隅にある以下の項目を選択します。 **[!UICONTROL 閉じる]** をクリックして、アセット画面に戻ります。
+1. ビューアリストウィンドウの右下隅にある「**[!UICONTROL 閉じる]** を選択して、Assets画面に戻ります。
 
 >[!MORELIKETHIS]
 >
->* [ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [デフォルトビューアを設定](application-setup.md#configuring_default_viewers)
+>* [ ズームビューアプリセットの設定 ](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
+>* [ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers)

@@ -24,4 +24,4 @@ ht-degree: 3%
 1. Adobe Dynamic Media ClassicのAdobe Analytics設定ページで、すべてのイベントをオフにします。
 1. 保存して公開します。
 
-これらの手順により、Adobe Dynamic Media Classicとの URL のサポートが無効になります。 **[!UICONTROL CopyURL]** 機能 カスタムトラッキングを実装する場合は、カスタム実装との競合を防ぐために、設定ページで設定されているAdobe Analyticsのトラッキングを無効にします。
+これらの手順により、Adobe Dynamic Media Classicと、**[!UICONTROL CopyURL]** 機能から取得した URL のサポートがオフになります。 カスタムトラッキングを実装する場合は、カスタム実装との競合を防ぐために、設定ページで設定されているAdobe Analyticsのトラッキングを無効にします。

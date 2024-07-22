@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classicでは、次のヘルプドキュメントも利用できます。
 
-**Adobe Dynamic Media Classic Media Portal の使用**:Adobe Dynamic Media Classic Media Portal は、企業が承認した形式のアセットのアップロード、参照、検索、プレビュー、書き出しにポータルユーザーが簡単にアクセスできるブラウザーベースの環境です。 参照： [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
+**Adobe Dynamic Media Classic Media Portal の使用**:Adobe Dynamic Media Classic Media Portal は、企業が承認した形式でアセットをアップロード、参照、検索、プレビューおよび書き出すことができるブラウザーベースの環境です。 [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/) を参照してください。
 
 <!-- Is this topic still needed? -rb 04/22/21
  used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/-->

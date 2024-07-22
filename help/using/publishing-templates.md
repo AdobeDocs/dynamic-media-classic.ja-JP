@@ -27,13 +27,13 @@ ht-degree: 11%
 
 ## 公開用にテンプレートをマーク {#marking-templates-for-publish}
 
-Dynamic Media Image Server に配置するには、テンプレートとそのすべてのサポートファイルを公開用にマークする必要があります。 参照パネルでこれらの項目を公開用にマークするには、次のオプションを選択します **[!UICONTROL 公開用にマーク]** アイコン。
+Dynamic Media Image Server に配置するには、テンプレートとそのすべてのサポートファイルを公開用にマークする必要があります。 **[!UICONTROL Publish用にマーク]** アイコンをオンにすると、参照パネルでこれらの項目を公開用にマークできます。
 
-## テンプレートの公開 {#publishing-your-template}
+## テンプレートのPublish {#publishing-your-template}
 
-Dynamic Media Image Server にテンプレートを公開するには、グローバルナビゲーションバーで「」を選択します。 **[!UICONTROL 公開]**&#x200B;を選択してから、 **[!UICONTROL 条件]** オプション。 必要に応じて、公開ジョブの名前を入力できます。 を選択 **[!UICONTROL 公開を送信]**.
+テンプレートをDynamic Media Image Server に公開するには、グローバルナビゲーションバーで「**[!UICONTROL Publish]**」を選択し、「**[!UICONTROL 条件]** を選択します。 必要に応じて、公開ジョブの名前を入力できます。 **[!UICONTROL Publishの送信]** を選択します。
 
 >[!MORELIKETHIS]
 >
->* [公開用にアセットをマーク](publishing-files.md#publish_after_uploading)
->* [公開ジョブの作成](publishing-files.md#creating_a_publish_job)
+>* [ アセットを公開用にマーク ](publishing-files.md#publish_after_uploading)
+>* [ 公開ジョブの作成 ](publishing-files.md#creating_a_publish_job)
