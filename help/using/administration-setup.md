@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5482f442b067fd4911a05351e88c5be130c0b76d
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 32%
@@ -24,7 +24,7 @@ ht-degree: 32%
 
 1. 管理設定オプションにアクセスするには、**設定**/**個人設定**/**管理設定** に移動します。
 
-## ユーザ管理 {#user-administration}
+## ユーザー管理 {#user-administration}
 
 すべてのAdobe Dynamic Media Classic ユーザーには、Adobe Dynamic Media Classicの機能への権限とアクセス権を決定する役割が割り当てられます。 管理者が、割り当てられている会社に対する各ユーザの役割や責任を決定します。
 
