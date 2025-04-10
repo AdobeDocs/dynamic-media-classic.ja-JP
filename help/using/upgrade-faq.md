@@ -1,12 +1,12 @@
 ---
 title: アップグレードに関するよくある質問
-description: ' [!DNL Adobe Dynamic Media Classic]  デスクトップアプリケーションから  [!DNL Adobe Experience Manager] on [!DNL Dynamic Media] Assetsにアップグレードする際のよくある質問（FAQ）です。'
+description: アップグレード時によくある質問(FAQ) [!DNL Adobe Dynamic Media Classic] デスクトップアプリケーション to  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] Assets.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 4601442c2d51d50a2712eee7fd8e5110b43fb2a0
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 ## 一般情報
 
 +++**Assets[!DNL Dynamic Media] は何 [!DNL Adobe Experience Manager] すか？**
-[!DNL Dynamic Media] は、Assets内の [!DNL Adobe Dynamic Media Classic] （旧称Scene7）機能の次世代 [!DNL Experience Manager] 進化です。 このソリューションは、アセット管理の機能とリッチメディア配信を組み合わせています。 次のような機能があります。
+[!DNL Dynamic Media] は、Assets内の [!DNL Adobe Dynamic Media Classic] （旧称 Scene7）機能が次世代 [!DNL Experience Manager] 進化したものです。 このソリューションは、アセット管理の機能とリッチメディア配信を組み合わせています。 次のような機能があります。
 
 * 画像とビデオを管理するための単一のユーザーインターフェイスおよびプラットフォーム。
 * 革新的なマーチャンダイジング機能。
@@ -30,8 +30,8 @@ ht-degree: 0%
 +++**[!DNL Dynamic Media] にアップグレードする主なメリットは何ですか？**
 
 * Collaborationと共有ファイルは、[!DNL Adobe Creative Cloud] アプリケーションと同期されます。
-* 次の機能を備えたエンタープライズレベルのデジタルアセット管理
-   * 堅牢なメタデータのサポート
+* 以下を含む大規模法人レベルのデジタルアセット管理:
+   * 堅牢なメタデータサポート
    * スマート検索
    * lightbox とコレクション
    * バージョン管理
@@ -39,15 +39,15 @@ ht-degree: 0%
 * WIP アセットのレビューと承認のワークフロー
 * 新しい UI により、導入と使用が容易になります。
 * コンバージョンを促進し、ユーザーエンゲージメントと満足度を高める画像とビデオを使用して、ショッパブル/インタラクティブメディアエクスペリエンスを作成します。
-* キャンペーンアセットと製品情報を組み合わせて、クリックして買い物かごを効率化できます。
-* WYSIWYG ビューアDesignerを使用して、インタラクティブビューアを簡単に作成、調整、ブランディング、デプロイできます。
+* キャンペーンアセットを製品情報と組み合わせることで、クリックによる買い物かごを効率化できます。
+* WYSIWYG ビューアデザイナーを使用して、インタラクティブビューアを簡単に作成、調整、ブランドおよびデプロイできます。
 * 最適化されたリッチメディアを [!DNL Experience Cloud] ソリューションに配信します。
 * [!DNL Experience Cloud] との統合により、マーケティングタッチポイントをまたいで、高度なアセット分析、ターゲティング、アセットの再利用が可能になります。 これらのタッチポイントには、メールの [!DNL Adobe Campaign]、ソーシャルチャネルの [!DNL Adobe Social]、レスポンシブ Web およびモバイルアプリの [!DNL Experience Manager] Sites が含まれます。
 
 +++
 
 +++**既存 [!DNL Dynamic Media]Adobe CDN （コンテンツ配信ネットワーク）を使用していますか？**
-はい、[!DNL Dynamic Media] はAdobeの堅牢な最上位層の配信ネットワークを使用しています。
+はい、Adobeの堅牢 [!DNL Dynamic Media] 最上位層の配信ネットワークを使用しています。
 
 * インターネット小売 1000 に対する上位のリッチメディアベンダー、9 年連続。
 * 265 年 7 月 24 日のサポート、99.95% の SLA
@@ -55,35 +55,34 @@ ht-degree: 0%
 
 +++
 
-+++**[!DNL Dynamic Media Classic] とは？ AdobeはAdobe Scene7の名前を変更していますか？**
-AdobeがAdobe Scene7の名前を [!DNL Dynamic Media Classic] に変更しました。
++++**[!DNL Dynamic Media Classic] とは？ Adobeは Adobe Scene7 の名前を変更していますか？**
+Adobeが Adobe Scene7 の名前を [!DNL Dynamic Media Classic] に変更しました。
 
 +++
 
 ## アップグレードプロセスとツール
 
 +++**アップグレードプログラムの対象となるのは誰ですか？**
-現在 [!DNL Dynamic Media Classic] （旧称Scene7）を保有し、[!DNL Experience Manager] も保有しているお客様。
+現在 [!DNL Dynamic Media Classic] （旧称 Scene7）を所有し、[!DNL Experience Manager] も所有しているお客様。
 
 +++
 
-+++**アップグレードプロセスを開始するにはどうすればよいですか？**
-Adobeアカウントチームの担当者に問い合わせるか、件名 `[!DNL Dynamic Media] Upgrade Program` を [s7support@adobe.comにメール ](mailto:s7support@adobe.com) してください。
++++**アップグレードプロセス開始方法を教えてください。**
+Adobe アカウントチーム担当者に問い合わせるか、件名 `[!DNL Dynamic Media] Upgrade Program` を [s7support@adobe.comにメール ](mailto:s7support@adobe.com) してください。
 
 +++
 
 +++**アップグレードプロセスはどのように扱われますか？**
-AGS （Adobeグローバルサービス）は、アップグレードを処理し、サービスプロジェクトとして扱います。 Adobeでは、アセットの移行のみを行います。 その他すべてのアップグレードの側面と手順については、お客様、AGS、またはパートナーが責任を負います。 概要レベルでは、アップグレードプランには次の内容が含まれます。
+AGS （Adobe グローバルサービス）はアップグレードを処理し、サービスプロジェクトとして扱います。 Adobeはアセットの移行のみを提供します。 その他すべてのアップグレードの側面と手順については、お客様、AGS、またはパートナーが責任を負います。 概要レベルでは、アップグレードプランには次の内容が含まれます。
 
 * 会社/ユーザーアカウントをプロビジョニングします。
-* [!DNL Dynamic Media Classic] （旧称Scene7）からAssetsの [!DNL Dynamic Media] コンポーネント（自動アップグレードツール [!DNL Experience Manager] 通じてAdobeが提供）にアセットをレプリケートします。
+* [!DNL Dynamic Media Classic] （旧称 Scene7）からAssetsの [!DNL Dynamic Media] コンポーネント（自動アップグレードツール [!DNL Experience Manager] 通じてAdobeが提供）にアセットをレプリケートします。
 * 画像およびビデオの設定を指定します。
 * 生産プロセスを変更し、ユーザーをトレーニングします。
 
 +++
 
-+++**アップグレードプロセスにはどのくらいの時間がかかりますか？**
-アップグレードプロセスの時間は、アセットの数とアセットのサイズなど、いくつかの要因によって異なります。 AGS またはパートナーは、プロジェクトタイムラインを管理します。
++++**アップグレードプロセスにはどのくらいの時間がかかりますか?**&#x200B;アップグレード プロセスの時間は、アセットの数やアセットのサイズなど、いくつかの要因によって異なります。 AGS またはパートナーがプロジェクトタイムラインを管理します。
 
 +++
 
@@ -98,12 +97,11 @@ AGS （Adobeグローバルサービス）は、アップグレードを処理�
 +++
 
 +++**ライセンスコストに違いはありますか？**
-価格の詳細については、Adobeアカウントチーム担当者にお問い合わせください。
+価格について詳しくは、Adobe アカウントチーム担当者にお問い合わせください。
 
 +++
 
-+++**アップグレードプロセスに関連するダウンタイムはありますか？**
-いいえ。 アップグレードプロセス中、[!DNL Dynamic Media Classic] は中断することなく引き続き機能します。 アップグレードが完了し、コンテンツが検証されると、すべてのユーザーがAssetsの [!DNL Dynamic Media] コンポーネント内で排他的 [!DNL Experience Manager] 作業します。
++++**アップグレード プロセスに関連するダウンタイムはありますか?**&#x200B;いいえ。 アップグレードプロセス中、[!DNL Dynamic Media Classic] は中断することなく引き続き機能します。 アップグレードが完了し、内容が検証されると、すべてのユーザーは[!DNL Experience Manager]Assetsの[!DNL Dynamic Media]コンポーネント内で排他的に作業します。
 
 +++
 
@@ -113,14 +111,14 @@ AGS （Adobeグローバルサービス）は、アップグレードを処理�
 +++
 
 +++**アップグレードが必要ですか？**
-いいえ。 Adobeでは、現在および将来にわたって、[!DNL Dynamic Media Classic] （お客様からリクエストされたバグ修正、セキュリティ修正、プラットフォームのスケーラビリティおよび信頼性）を完全にサポートし、維持しています。
+いいえ。 Adobeでは、現在および将来にわたって、[!DNL Dynamic Media Classic] （お客様からリクエストされたバグ修正、セキュリティ修正、プラットフォームのスケーラビリティおよび信頼性）の完全なサポートと管理を行っています。
 
 [!DNL Dynamic Media] が提供する新機能を利用する準備が整ったら、アップグレードできます。
 
 +++
 
-+++**[!DNL Dynamic Media] にアップグレードした後も、[!DNL Dynamic Media Classic] （旧称Adobe Scene7）を引き続き使用できますか？**
-[!DNL Dynamic Media] へのアップグレード後は、画像およびビデオに対してのみDynamic Mediaを使用する必要があります。 引き続き [!DNL Dynamic Media Classic] を使用できるのは、次の [!DNL Dynamic Media] でまだ使用できない機能のみです。
++++**[!DNL Dynamic Media] にアップグレードした後も、[!DNL Dynamic Media Classic] （旧称 Adobe Scene7）を引き続き使用できますか？**
+[!DNL Dynamic Media] へのアップグレード後は、画像およびビデオに対してのみ Dynamic Media を使用する必要があります。 引き続き [!DNL Dynamic Media Classic] を使用できるのは、次の [!DNL Dynamic Media] でまだ使用できない機能のみです。
 
 * ビジュアルコンフィギュレーター（画像作成者、画像レンダリング）。
 * 画像テンプレート。
@@ -129,12 +127,12 @@ AGS （Adobeグローバルサービス）は、アップグレードを処理�
 +++
 
 +++**アップグレードプロセスを自動化するために、Adobeにはどのようなツールが用意されていますか？**
-アップグレードプログラムの最初のローンチに対して、Adobeは、Assets内でアセットを [!DNL Dynamic Media Classic] から [!DNL Dynamic Media] に自動的に移動できるツール [!DNL Experience Manager] 提供します。
+アップグレードプログラムの最初のローンチに対して、Adobeには、Assets内でアセットを [!DNL Dynamic Media Classic] から [!DNL Dynamic Media] に自動的に移動できるツール [!DNL Experience Manager] 用意されています。
 
 +++
 
 +++**既存の [!DNL Dynamic Media Classic] URL、API 統合およびビューアは、アップグレード中もアップグレード後も引き続き機能しますか？**
-はい。 [!DNL Dynamic Media Classic] （旧称Adobe Scene7）の公開および配信インフラストラクチャは、引き続き [!DNL Dynamic Media] ソリューションでそのまま使用できます。
+はい。 [!DNL Dynamic Media Classic] （旧称 Adobe Scene7）の公開および配信インフラストラクチャは、引き続き [!DNL Dynamic Media] ソリューションでそのまま使用できます。
 
 +++
 
@@ -148,12 +146,10 @@ AGS （Adobeグローバルサービス）は、アップグレードを処理�
 
 +++
 
-+++**カスタムビューアを変更したり、再開発したりする必要はありますか？**
-いいえ。 Adobeは、[!DNL Dynamic Media] ソリューションの [!DNL Dynamic Media Classic] 公開および配信インフラストラクチャをそのまま引き続き使用します。 このアプローチの利点は、カスタム構築されたビューアを引き続き使用できるので、[!DNL Dynamic Media] への移行のリスクと労力を最小限に抑えられることです。
++++**カスタムビューアを変更したり、再開発したりする必要はありますか？**&#x200B;いいえ。 Adobe Systems では、 [!DNL Dynamic Media Classic] のパブリッシュおよび配信インフラストラクチャを [!DNL Dynamic Media] ソリューションで引き続き使用します。 このアプローチの利点は、カスタムビルドのビューアを引き続き使用できるため、 [!DNL Dynamic Media]への移行のリスクと労力を最小限に抑えることができることです。
 +++
 
-+++**設定（画像プリセット、ビデオエンコーディングなど）を [!DNL Dynamic Media] に移行するにはどうすればよいですか？**
-プリセットとその他の設定は、[!DNL Dynamic Media] 内で再作成する必要があります。 サービスプロジェクトの一環として、Adobeグローバルサービスまたはパートナーが支援を行います。
++++**設定（画像プリセット、ビデオエンコーディングなど）を [!DNL Dynamic Media] に移行するにはどうすればよいですか？**&#x200B;プリセットなどの設定は、 [!DNL Dynamic Media] 内に再作成する必要があります。 サービスプロジェクトの一環として、Adobe グローバルサービスまたはパートナーがお手伝いします。
 
 +++
 
@@ -163,12 +159,11 @@ AGS （Adobeグローバルサービス）は、アップグレードを処理�
 +++
 
 +++**アセットのバッチ/バルクアップロードに FTP を引き続き使用できますか？**
-はい。 取り込み用に既存のワークフローを変更する必要はなく、引き続き FTP ベースのアップロードをスケジュールできます。
+はい。 取得 のために既存のワークフローを変更する必要はなく、FTP ベースのアップロードを引き続きスケジュールできます。
 
 +++
 
-+++**新規ユーザーのトレーニングにはどのようなリソースが利用できますか？**
-トレーニングは、ADLS （Adobeデジタルラーニングサービス）を通じて利用できます。 [!DNL Dynamic Media] の機能については、デジタルAssetsの管理と配信およびデジタルAssetsのカスタマイズの 2 つのコースで説明しています。
++++**新規ユーザートレーニングにはどのようなリソースがありますか?**&#x200B;トレーニングはADLS(Adobe Systemsデジタル学習サービス)を通じて利用できます。 [!DNL Dynamic Media] 機能は、デジタルAssetsの管理と配信とデジタルAssetsのカスタマイズの2つのコースでカバーされています。
 
 +++
 
@@ -178,12 +173,12 @@ AGS （Adobeグローバルサービス）は、アップグレードを処理�
 +++
 
 +++**スタンドアローン製品として [!DNL Dynamic Media Classic] の製品が存在するのはどのくらいですか？**
-Adobeでは、現在および将来にわたって、[!DNL Dynamic Media Classic] （お客様からリクエストされたバグ修正、セキュリティ修正、プラットフォームのスケーラビリティおよび信頼性）を完全にサポートし、維持しています。
+Adobeでは、現在および将来にわたって、[!DNL Dynamic Media Classic] （お客様からリクエストされたバグ修正、セキュリティ修正、プラットフォームのスケーラビリティおよび信頼性）の完全なサポートと管理を行っています。
 
 +++
 
 +++**[!DNL Dynamic Media] に付属するストレージの容量はどれくらいですか？**
-Dynamic Mediaには 60 GB のストレージが付属しています。 追加のストレージは 250 GB のブロックで購入できます。 契約の詳細を確認して、現在のストレージの割り当てを取得できるようにします。
+Dynamic Media には 60 GB のストレージが付属しています。 追加のストレージは 250 GB のブロックで購入できます。 契約の詳細を確認して、現在のストレージの割り当てを取得できるようにします。
 
 +++
 
@@ -192,7 +187,7 @@ Dynamic Mediaには 60 GB のストレージが付属しています。 追加�
 
 * Web ページの読み込みまたは更新が発生するたびに
 * アプリケーションの読み込み時
-* コンテンツのレンダリング時
+* 内容 がレンダリングされるタイミング
 * 開封または表示されたメールを通して表示
 
 +++
@@ -207,8 +202,8 @@ Adobeは、[!DNL Dynamic Media] に移動されるすべてのアセットに対
 
 +++
 
-+++**[!DNL Dynamic Media] に対する SLA はありますか？**
-はい。 詳しくは、Adobeアカウントチームの担当者にお問い合わせください。
++++**[!DNL Dynamic Media] のSLAはありますか。**
+はい。 詳しくは、Adobe アカウントチーム担当者にお問い合わせください。
 
 +++
 
@@ -227,7 +222,7 @@ Adobeは、[!DNL Dynamic Media] に移動されるすべてのアセットに対
 
 * ビジュアルコンフィギュレーター（画像作成者、画像レンダリング）。
 * 画像テンプレート。
-* eCatalog。
+* eCatalog
 
 詳しくは、[ 機能の比較 ](/help/using/upgrade-feature-comparison.md) ページも参照してください。
 
@@ -246,7 +241,7 @@ Adobeは、[!DNL Dynamic Media] に移動されるすべてのアセットに対
 +++
 
 +++**サービスプロジェクトはどのようなものですか？**
-Adobeはお客様と協力してプロジェクトを計画します。 Adobeは、アカウントのプロビジョニングと設定、アセットのレプリケーション、テストおよび検証を担当します。
+Adobeはお客様と協力してプロジェクトの計画を立てます。 Adobeは、アカウントのプロビジョニングと設定、アセットのレプリケーション、テストおよび検証を担当します。
 
 お客様は、ユーザーのトレーニング、生産プロセスの編集、新機能の展開など、主に変更管理を担当します。
 
@@ -254,7 +249,7 @@ Adobeはお客様と協力してプロジェクトを計画します。 Adobeは
 
 ## サポートとトレーニング
 
-+++**サポートを受けるにはどうすればよいですか？**
++++**サポートを受けるにはどうすればよいですか?**
 2035 年 7 月 24 日クライアントケアのサポートが利用できます。 [ テクニカルサポートにお問い合わせください ](https://experienceleague.adobe.com/?support-solution=General#support)。
 
 電話：1-800-898-9743 （米国） | +44 （0） 20 35641782 （英国） | +81-3-6743-9632 （日本）
@@ -262,16 +257,15 @@ Adobeはお客様と協力してプロジェクトを計画します。 Adobeは
 +++
 
 +++**有料トレーニングオプションの詳細はどこで確認できますか？**
-[Adobeのデジタル学習サービス ](https://learning.adobe.com) を参照してください。
+[Adobe Digital Learning Services](https://learning.adobe.com) を参照してください。
 
-カスタムまたは個別のトレーニングについては、Adobeアカウントチーム担当者にお問い合わせください。
+カスタムまたは個人のトレーニングについては、Adobe アカウントチーム担当者にお問い合わせください。
 
 +++
 
 ## その他のリソース
 
-+++**ここで
-[!DNL Dynamic Media] とその機能について詳しく知ることはできますか？**
++++**[!DNL Dynamic Media] とその機能について詳しくは、どこを参照してください。**
 [!DNL Dynamic Media] について詳しくは、[[!DNL Dynamic Media]  マイクロサイト ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html) を参照してください。
 
 +++
