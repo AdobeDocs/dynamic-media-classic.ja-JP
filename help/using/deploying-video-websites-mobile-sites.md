@@ -187,7 +187,7 @@ Adobe Dynamic Media Classicは、アップロード処理中にビデオサム�
 
 詳しくは [ ビデオビューアプリセットの追加または編集 ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) を参照してください。
 
-[ 画像サービングガイド ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api) を参照してください。
+[ 画像サービングガイド ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api) を参照してください。
 
 また、ビデオサムネールの URL に修飾子を追加して、ビデオサムネールを変更することもできます。
 

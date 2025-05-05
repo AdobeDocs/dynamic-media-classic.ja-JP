@@ -25,7 +25,7 @@ Adobe AnalyticsをAdobe Dynamic Media Classicと統合すると、web サイト�
 
 Adobe Analytics レポートを使用して、Web サイト上でのユーザーアクティビティの全体像を明確に把握できます。どの製品プレゼンテーションがコンバージョンにつながり、どの製品プレゼンテーションが顧客の関心を引かないかを判断できます。
 
-[Adobe Analyticsでのビデオの測定 ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview) も参照してください。
+[Adobe Analyticsでのビデオの測定 ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) も参照してください。
 
 >[!NOTE]
 >

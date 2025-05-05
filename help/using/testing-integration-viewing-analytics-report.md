@@ -37,4 +37,4 @@ Adobe Analyticsで必要な変数を作成し、Adobe Dynamic Media Classic イ�
 >
 >すべてのAdobe Dynamic Media Classic ビューアデータは、Adobe Analyticsのカスタムトラフィックレポートまたはカスタムコンバージョンレポートに表示およびレポートされます。
 
-詳しくは、「[Analytics Tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)」を参照してください。
+詳しくは、「[Analytics Tutorials](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)」を参照してください。

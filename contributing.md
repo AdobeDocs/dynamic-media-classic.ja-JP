@@ -58,4 +58,4 @@ Adobeはあらゆる貢献を歓迎します。 投稿は、公開リポジト�
 
 ## 詳細情報
 
-を参照してください。 [Adobeドキュメント投稿者ガイド](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) github オーサリングプラットフォームの使用方法について詳しくは、こちらを参照してください。
+を参照してください。 [Adobeドキュメント投稿者ガイド](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction) github オーサリングプラットフォームの使用方法について詳しくは、こちらを参照してください。

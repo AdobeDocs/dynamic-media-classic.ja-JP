@@ -23,7 +23,7 @@ ht-degree: 40%
 
 Adobe Dynamic Media Classicには、画像をチューニングおよび最適化して結果をレンダリングするための、100 を超える画像サービングコマンドがあります。 重要なコマンドおよびベストプラクティスを使用して、このプロセスを効率化し、良い結果をすばやく得るために、次のガイドラインが役に立ちます。
 
-[ スマートイメージング ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq) も参照してください。
+[ スマートイメージング ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/imaging-faq) も参照してください。
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classicには、画像をチューニングおよび最適�
 >* ネットワーク帯域幅
 >* DPR （デバイスピクセル比）
 >
->スナップショットの使用がどれほど簡単かを知るには、[ スナップショットのトレーニングビデオ ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3 分 17 秒）を再生してください。
+>スナップショットの使用がどれほど簡単かを知るには、[ スナップショットのトレーニングビデオ ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3 分 17 秒）を再生してください。
 
 
 ## 画像形式（&amp;fmt=）のベストプラクティス {#best-practices-for-image-format-fmt}
