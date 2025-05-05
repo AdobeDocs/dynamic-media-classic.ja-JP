@@ -103,7 +103,7 @@ Last Modified Date:
  -->
 
 1. Adobeのカスタマーケアに問い合わせ、お使いのアカウントでセキュアテストを有効にするようリクエストしてください。
-1. Adobe Dynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL 設定]**/**[!UICONTROL 2}Publish設定]**/Image Server ]**に移動します。**[!UICONTROL 
+1. Adobe Dynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL 設定]**/**[!UICONTROL 2&rbrace;Publish設定]**/Image Server **に移動します。**
 1. Image Server Publish ページの **[!UICONTROL `Publish Context`]** ドロップダウンリストで、「**[!UICONTROL 画像サービングをテスト]**」を選択します。
 1. 「Client Address Filter」で「**[!UICONTROL Add]**」を選択します。
 1. チェックボックスをオンにしてアドレスを有効にし、それぞれのテキストフィールドに IP アドレスとネットマスクを入力します。

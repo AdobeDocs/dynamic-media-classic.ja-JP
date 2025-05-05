@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # Adobe Dynamic Media Classic ガイド {#using}
 
-+ Dynamic Media ClassicからDynamic Media {#upgrade} へのアップグレード
++ Dynamic Media ClassicからDynamic Media へのアップグレード {#upgrade}
    + [Dynamic Mediaにアップグレードする理由](upgrade.md)
    + [アップグレードに関するよくある質問](upgrade-faq.md)
    + [機能リストの比較](upgrade-feature-comparison.md)
@@ -25,7 +25,7 @@ ht-degree: 18%
 + [Adobe Dynamic Media Classic ベストプラクティスチュートリアル ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新しいAdobe Dynamic Media Classic ログオンが利用できるようになりました](new-ui-2020.md)
 + [Experience League別AdobeDynamic Mediaニュースレターアーカイブ](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classic {#intro} の概要
++ Adobe Dynamic Media Classic の概要 {#intro}
    + [Adobe Dynamic Media Classic デスクトップアプリ：提供開始](dynamic-media-classic-desktop-app.md)
    + [Adobe Dynamic Media Classic ヘルプについて](introduction.md)
    + [開発者向けリソース](developer-resources.md)
@@ -43,7 +43,7 @@ ht-degree: 18%
    + [ナビゲーションの基本](navigation-basics.md)
    + [設定の基本](setup-basics.md)
    + [リッチメディア](rich-media.md)
-+ {#setup} の設定
++ の設定{#setup}
    + [個人設定](personal-setup.md)
    + [アプリケーション設定](application-setup.md)
    + [公開設定](publish-setup.md)

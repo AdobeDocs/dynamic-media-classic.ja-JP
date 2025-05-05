@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Assetsの [!DNL Dynamic Media] とデスクトップアプリケーション [!DNL Adobe Experience Manager] 機能 [!DNL Adobe Dynamic Media Classic] 比較テーブル。 ✓ 「a」は、その機能がソフトウェア内またはソフトウェアと共に使用可能であることを意味し、「–」は使用可能でないことを意味します。
 
-| 機能 | [!DNL Dynamic Media] | [!DNL Dynamic Media<br> クラシック ] |
+| 機能 | [!DNL Dynamic Media] | [!DNL Dynamic Media<br> クラシック &#x200B;] |
 | :--- | :---: | :---: |
 | 360 ビデオ | ✓ * | ✓ * |
 | 高度な画像処理 | ✓ * | ✓ * |

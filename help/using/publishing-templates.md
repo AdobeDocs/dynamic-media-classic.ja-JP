@@ -17,7 +17,7 @@ ht-degree: 11%
 
 ---
 
-#  テンプレートの公開{#publishing-templates}
+# テンプレートの公開{#publishing-templates}
 
 テンプレートを公開すると、Dynamic Media Image Server に配置され、web サイトやアプリケーションで使用できるようになります。 公開プロセス中に、Adobe Dynamic Media Classicは Web サイトおよびアプリケーションに必要な URL をアクティベートします。
 

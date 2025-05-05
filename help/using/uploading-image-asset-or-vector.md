@@ -30,7 +30,7 @@ ht-degree: 51%
 
 ## 共有秘密鍵のリクエスト {#requesting-a-shared-secret-key}
 
-Admin Consoleを使用して *shared-secret key* をリクエストし、サポートケースを作成します。[](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) テクニカルサポートケースでは、共有秘密鍵をリクエストします。
+Admin Consoleを使用して *shared-secret key* をリクエストし、サポートケースを作成します。[&#128279;](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) テクニカルサポートケースでは、共有秘密鍵をリクエストします。
 
 電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Adobe Dynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
 

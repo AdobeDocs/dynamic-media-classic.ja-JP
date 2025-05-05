@@ -39,7 +39,7 @@ Adobe Analytics レポートを使用して、Web サイト上でのユーザー
 >
 >Adobe Analyticsの web サービスアクセスグループのメンバーとして追加されていることを確認します。 Adobe Analytics レポートを設定する前に、この検証を行います。 また、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントと照合する前に、 このグループのメンバーは、指定されたレポートスイート内のすべてのレポートにアクセスできます。 インターフェイスで設定された権限に関係なく、Experience Cloudの Web サービス API を使用して行うことができます。 グループにメンバーを追加するには、Adobe Analyticsで **[!UICONTROL 管理ツール]**/**[!UICONTROL User Management]**/**[!UICONTROL グループを編集]** に移動します。
 
-Web サービスアクセスグループのメンバーであることを確認したら、Adobe Dynamic Media Classicで **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/]**4}Adobe Analytics} に移動します。**[!UICONTROL  Adobe Analytics設定ページで、「**[!UICONTROL Adobe Analytics Login]**」を選択します。
+Web サービスアクセスグループのメンバーであることを確認したら、Adobe Dynamic Media Classicで **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**4&rbrace;Adobe Analytics&rbrace; に移動します。** Adobe Analytics設定ページで、「**[!UICONTROL Adobe Analytics Login]**」を選択します。
 
 [Adobe Analyticsへのログオン ](log-analytics.md#log_in_to_adobe_analytics) を参照してください。
 
