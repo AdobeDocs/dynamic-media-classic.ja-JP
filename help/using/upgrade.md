@@ -1,5 +1,5 @@
 ---
-title: Adobeからオン  [!DNL Dynamic Media Classic]  のアップグレ  [!DNL Dynamic Media]  ド  [!DNL Experience Manager] Assets
+title: Adobeから  [!DNL Dynamic Media Classic] on [!DNL Dynamic Media]  [!DNL Experience Manager] Assetsへのアップグレード
 description: ' [!DNL Adobe Dynamic Media Classic]  から  [!DNL Dynamic Media]  へのアップグレード  [!DNL Adobe Experience Manager].  [!DNL Dynamic Media] の主なメリットと機能について説明します。 機能リストの比較、アップグレードに関する FAQ、準備チェックリストを確認します。'
 feature: Dynamic Media Classic
 role: Admin,User
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # [!DNL Dynamic Media] にアップグレードする理由
 
-Adobeは、あなたを念頭に置いて [!DNL Dynamic Media] を作成しました。
+Adobeは、お客様を念頭に置いて [!DNL Dynamic Media] を作成しました。
 
-[!DNL Adobe Experience Manager] の新しい [!DNL Dynamic Media] は、[!DNL Dynamic Media Classic] （旧称Scene7）に搭載されている機能に基づいています。 より良い、より魅力的なエクスペリエンスを構築するための新しい改善されたツールを組織に提供します。
+[!DNL Dynamic Media] の新しい [!DNL Adobe Experience Manager] は、[!DNL Dynamic Media Classic] （旧称 Scene7）で期待される機能に基づいています。 より良い、より魅力的なエクスペリエンスを構築するための新しい改善されたツールを組織に提供します。
 
-[!DNL Dynamic Media] は、リアルタイムのビジュアルビルダーを使用して、コンテンツ作成エクスペリエンスをアップグレードします。 Adobeの実証済みの信頼性の高いスケーラブルな配信ネットワークの上に座り、直感的な [!DNL Adobe Experience Manager] ユーザーインターフェイスと組み合わ [!DNL Dynamic Media] ることで、魅力的な次のレベルのエクスペリエンスを作成、反復、配信できます。
+[!DNL Dynamic Media] は、リアルタイムのビジュアルビルダーを使用して、コンテンツ作成エクスペリエンスをアップグレードします。 Adobeの実証済みの信頼性の高いスケーラブルな配信ネットワークの上に、直感的な [!DNL Adobe Experience Manager] ユーザーインターフェイス [!DNL Dynamic Media] 組み合わされて、魅力的な次のレベルのエクスペリエンスを作成、繰り返し、配信できます。
 
 | [!DNL Dynamic Media] のメリット | 説明 |
 | --- | --- |
 | プライマリファイルアプローチ | フルサイズのアセットをアップロードすると、必要に応じて [!DNL Dynamic Media] が自動的にサイズを作成します。 |
 | 容易なオーサリング | 技術的なヘルプを必要とせずに、豊富なエクスペリエンスをすばやく作成、カスタマイズおよび開始します。 |
-| 直感的なインターフェイス | 使いやすい WYSIWYG （What You See It What You Get）インターフェイスで画像ビューアやビデオプレーヤーを編集できます。 |
+| 直感的なインターフェイス | 使いやすいWYSIWYG（What You See It What You Get）インターフェイスで画像ビューアとビデオプレーヤーを編集できます。 |
 | ショッパブルメディア | 画像のホットスポットとクリック可能なリンクを使用して、ショッパブル画像、ビデオ、カルーセルを作成します。 |
 | スケーラブル CDN | 実証済みの拡張性とパフォーマンスを備えたクラス最高のコンテンツ配信ネットワーク（CDN）にアクセスして、あらゆるニーズに対応します。 |
 | Dynamic Imaging | 1 つのプライマリファイルを使用して、サイズ、形式、解像度、切り抜きまたはエフェクトを変更し、無制限のバージョンを自動生成して公開します。 |
@@ -35,14 +35,14 @@ Adobeは、あなたを念頭に置いて [!DNL Dynamic Media] を作成しま�
 
 ## [!DNL Dynamic Media] の主なメリットと機能
 
-[!DNL Dynamic Media Classic] の自然な進化は [!DNL Dynamic Media] である。 リッチメディアオーサリング、公開および配信ツールセットを提供します。 また、革新的なユーザー中心のインターフェイスを備えたクラス最高の配信が含まれており、最新の実世界のワークフローを促進します。
+[!DNL Dynamic Media] の自然な進化は [!DNL Dynamic Media Classic] である。 リッチメディアオーサリング、公開および配信ツールセットを提供します。 また、革新的なユーザー中心のインターフェイスを備えたクラス最高の配信が含まれており、最新の実世界のワークフローを促進します。
 
 * [!DNL Adobe Experience Manager] とのシームレスな統合エクスペリエンスおよび統合：リッチコンテンツを 1 つのストアと 1 つのソースから設定して動的に配信します
 * リッチメディアコンテンツのオーサリングと配信を容易にする、マーケターを中心とした新しいユーザーエクスペリエンス
-* 画像ビューアおよびビデオプレーヤーの WYSIWYG （What You See Is What You Get）ルックアンドフィールとビヘイビアーエディター。
+* 画像ビューアおよびビデオプレーヤー用のWYSIWYG（What You See Is What You Get）のルックアンドフィールおよびビヘイビアーエディターです。
 * 画像ホットスポットやショッパブルビデオなどのショッパブル/インタラクティブメディアエクスペリエンスの作成とデプロイメントを高速化
 
-### Assets内 [!DNL Experience Manager][!DNL Dynamic Media] 機能
+### Assets内 [!DNL Dynamic Media][!DNL Experience Manager] 機能
 
 | 機能 | 説明 |
 | --- | --- |
@@ -50,7 +50,7 @@ Adobeは、あなたを念頭に置いて [!DNL Dynamic Media] を作成しま�
 | 簡単でインタラクティブなエクスペリエンスの UI 要素 | ・技術系ではないリアルタイムビルダーを使用して、エクスペリエンスを簡単に作成できます。<br>・ ショッパブル/インタラクティブメディア。キャンペーンアセットと製品情報を組み合わせます。<br>・顧客満足度の向上とコンバージョンの促進 |
 | 包括的なエンドツーエンドのワークフロー | ・完全な [!DNL Adobe Experience Cloud] ソリューションを含むすべてのタッチポイントに最適化されたリッチメディアを配信します。<br>・ [!DNL Adobe Experience Cloud] との統合により、マーケティングタッチポイント間での高度なアセット分析、ターゲティング、アセット再利用が可能になります。 これらのタッチポイントの一部には、メール用の [!DNL Adobe Campaign]、ソーシャルチャネル用の [!DNL Adobe Social]、レスポンシブ Web およびモバイルアプリ用の [!DNL Adobe Experience Manager] Sites が含まれます。 |
 
-## Adobeを使用する理由
+## Adobeを選ぶ理由
 
 * デジタルアセットの Forrester WAVE レポートで最大のプラスのムーバーです。
 * 2016 年のオンラインビデオプラットフォームレポートで高い評価を得た。
