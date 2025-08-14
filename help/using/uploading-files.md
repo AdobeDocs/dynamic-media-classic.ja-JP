@@ -26,7 +26,7 @@ Adobe Dynamic Media Classicにアセットをアップロードする前に、�
 
 ### サポートされているアセットファイル形式 {#supported-asset-file-formats}
 
-次の表に、Adobe Dynamic Media Classicがサポートするアセットファイル形式を示します。 サポートされるCamera Raw ファイルについては、[https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html) を参照してください。
+次の表に、Adobe Dynamic Media Classicがサポートするアセットファイル形式を示します。 サポートされるCamera Raw ファイルについては、[https://helpx.adobe.com/jp/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/jp/camera-raw/using/supported-cameras.html) を参照してください。
 
 | アセットファイル形式 | 説明 |
 | --- | --- |

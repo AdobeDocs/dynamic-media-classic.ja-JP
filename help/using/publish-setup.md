@@ -53,7 +53,7 @@ Image Server ページでは、Image Server から画像を配信するための
   例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。この機能を実現するには、ロケールマップ文字列を指定します。次に、ビューアのプリセットでツールヒントテキストを編集します。 必要な言語の翻訳済みテキスト文字列を追加するだけです。
 
   >[!NOTE]
-  > ローカライゼーションサポートオプションを設定するには、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) サポートケースでは、設定ヘルプをリクエストします。
+  > ローカライゼーションサポートオプションを設定するには、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) サポートケースでは、設定ヘルプをリクエストします。
 
   **[!UICONTROL 「ローカリゼーションサポート」]**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
 
@@ -61,7 +61,7 @@ Image Server ページでは、Image Server から画像を配信するための
 
 >[!NOTE]
 >
->「ロケールマップ」フィールドなど、Adobe Dynamic Media Classicにローカライゼーションサポートオプションを設定する場合は、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) サポートケースでは、設定ヘルプをリクエストします。
+>「ロケールマップ」フィールドなど、Adobe Dynamic Media Classicにローカライゼーションサポートオプションを設定する場合は、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) サポートケースでは、設定ヘルプをリクエストします。
 
 Adobe Dynamic Media Classicの一般的な使用方法は、e-Commerce web サイトで商品画像を管理することです。 国際的なビジネスでは、同じ製品のアセットの表示が国によって異なるという課題に直面します。通常、違いはメディア全体のいくつかの部分のためのものです。 国ごとに全ての資産をコピーし、その違いだけを上書きすることで、このような違いに対処するのは大変な労力であり、単一の主要資産の比喩とは矛盾します。 このようなアセットの相違によって、オーディオトラックが異なる国別のビデオから、製品に使用される電源コードの違いという微妙ながらも重要な違いまで対応できます。Adobe Dynamic Media Classicでは、基本的な検索メカニズムを使用します。 Image Server が検索するアセットのサフィックスの順序を定義します（必要なロケールから始めます）。
 

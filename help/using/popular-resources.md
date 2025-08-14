@@ -18,14 +18,14 @@ ht-degree: 2%
 
 ## Adobe Dynamic Media Classic技術ドキュメント
 
-* [ リリースノート ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
+* [ リリースノート ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [ユーザーガイド](introduction.md)
 
 ## Adobe Dynamic Media Classic開発者向けリソース
 
-* [Adobe ビューアリファレンスガイド ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Adobe ビューアリファレンスガイド ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources)
 * [ ビューアライブラリの例 ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [ 画像サービングおよび画像レンダリング API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [ 画像サービングおよび画像レンダリング API](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources)
 
 ## Adobe Dynamic Media Classic ニュースレター、チュートリアル、ウェビナー
 
@@ -42,6 +42,6 @@ ht-degree: 2%
 ## Adobe Dynamic Media Classic トレーニング
 
 現在利用できるトレーニング コースを表示するには、[ こちら ](https://training.adobe.com/training/courses.html#product=adobe-scene7) をクリックしてください。
-[Adobe Dynamic Media Classicのトレーニングビデオ ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro)。
+[Adobe Dynamic Media Classicのトレーニングビデオ ](https://experienceleague.adobe.com/ja/docs/dynamic-media-classic/using/intro/training-videos#intro)。
 
 [Adobe Dynamic Media Classic](home.md) で利用可能な一般的なリソースをすべて表示します。

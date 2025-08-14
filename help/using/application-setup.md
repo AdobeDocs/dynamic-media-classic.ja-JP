@@ -161,7 +161,7 @@ Adobe Dynamic Media Classicでは、2 つのファイルが同じ名前を持つ
 
 画像プリセット画面を開くには、グローバルナビゲーションバーで **[!UICONTROL 設定]**/**[!UICONTROL 画像プリセット]** に移動します。
 
-[ スマートイメージング ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq) を参照してください。
+[ スマートイメージング ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/imaging-faq) を参照してください。
 
 ### 画像プリセットの作成と編集 {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Adobe Dynamic Media Classicには、アダプティブビデオエンコーデ�
 
 リッチメディアコンテンツの配信範囲をデスクトップ、タブレットおよびモバイルユーザーに拡大し、ビデオエクスペリエンスを確実に効率化できます。
 
-Adobe ビューアリファレンスガイドの [HTML5 ビューアについて ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) を参照してください。
+Adobe ビューアリファレンスガイドの [HTML5 ビューアについて ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) を参照してください。
 
 [Adobe Dynamic Media Classic ビューアプリセットの互換性マトリックス ](application-setup.md#scene7_viewer_preset_compatibility_matrix) を参照してください。
 
@@ -450,7 +450,7 @@ Adobe ビューアリファレンスガイドの [HTML5 ビューアについて
 
 Web ページによってニーズは異なります。 HTML5 ビューアを別のブラウザーウィンドウで開くリンクを提供する web ページが必要な場合があります。 その他の場合は、ホスティングページにHTML5 ビューアを直接埋め込む必要があります。 後者の場合、web ページは静的レイアウトになっている可能性があります。 または、「レスポンシブ」であり、デバイスの違いやブラウザーウィンドウのサイズの違いによって表示が異なります。 これらのニーズに対応するために、Adobe Dynamic Media Classicに付属するHTML5 ビューアでは、静的な web ページとレスポンシブデザイン web ページの両方をサポートしています。
 
-レスポンシブビューアを Web ページに埋め込む方法について詳しくは、[ レスポンシブ画像ライブラリについて ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[ レスポンシブ画像ライブラリを使用 ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、[ コマンドリファレンス：コマンド属性 ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library) を参照してください。
+レスポンシブビューアを Web ページに埋め込む方法について詳しくは、[ レスポンシブ画像ライブラリについて ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[ レスポンシブ画像ライブラリを使用 ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、[ コマンドリファレンス：コマンド属性 ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library) を参照してください。
 
 ### ビューアプリセットのタイプ {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Web ページによってニーズは異なります。 HTML5 ビューアを別
 
 ビューアでサポートされる web ブラウザーとオペレーティングシステムのバージョンについて詳しくは、ビューアリリースノートを参照してください。
 
-[Adobe ビューアリファレンスリリースノート ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources) を参照してください。
+[Adobe ビューアリファレンスリリースノート ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources) を参照してください。
 
 |  | ビューアテクノロジ | デスクトップ | Apple iPhone | Apple iPad | Android™ スマートフォン | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |

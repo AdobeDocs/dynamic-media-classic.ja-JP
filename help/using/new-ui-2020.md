@@ -94,12 +94,12 @@ Windows® で新しいAdobe Dynamic Media Classic デスクトップアプリケ
 +++**_リッチメディア戦略を最適化していることを確認したい。 Adobe Dynamic Media Classicの詳細を確認するにはどうすればよいですか？_** 
 Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強化するために設計された、強力で機能豊富なソリューションです。 すべての機能を確実に活用するには、次のような実用的なリソースを参照してください。
 
-* [Adobe Dynamic Media Classic ベストプラクティスチュートリアル ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic ベストプラクティスチュートリアル ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobeのブログ投稿 ](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Adobe Dynamic Media ニュースレターアーカイブ ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Adobe Dynamic Media ニュースレターアーカイブ ](https://experienceleague.adobe.com/ja/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=ja), and the complementary audit program. -->
 
 +++**_Adobe Experience Manager Assetsを使用したAdobe Dynamic Media へのアップグレードについて詳しく説明します。 詳細情報はどこで入手できますか？_**
 次世代のリッチメディアオーサリング、パブリッシング、および動的配信へのアップグレードの利点について詳しくは、[Adobe アップグレード用 Dynamic Media ポータル ](/help/using/upgrade.md) を参照してください。

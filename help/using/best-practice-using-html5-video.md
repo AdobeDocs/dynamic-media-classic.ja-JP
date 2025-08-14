@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic HTML5 ビデオビューアプリセットは、堅�
 
 リッチメディアコンテンツの配信範囲をデスクトップユーザーとモバイルユーザーに拡大できます。 また、ビデオエクスペリエンスを確実に効率化できます。
 
-Adobe ビューアリファレンスガイドの [HTML5 ビューアについて ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) も参照してください。
+Adobe ビューアリファレンスガイドの [HTML5 ビューアについて ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) も参照してください。
 
 [ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
