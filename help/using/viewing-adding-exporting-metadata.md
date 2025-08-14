@@ -73,7 +73,7 @@ Adobe Dynamic Media Classicでは、使用するファイルに固有の情報�
 >[!NOTE]
 >
 >Adobe Dynamic Media Classicにファイルをアップロードする際に、ファイルにキーワードを追加できます。 「アップロードジョブオプション」ダイアログボックスで、「その他のメタデータ **[!UICONTROL を選択し、キーワードを入力し]** す。
->>詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
+>&#x200B;>詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
 
 ## メタデータの取り込み {#import-metadata}
 
@@ -82,7 +82,7 @@ Adobe Dynamic Media Classicでは、使用するファイルに固有の情報�
 >[!NOTE]
 >
 >メタデータを入力するためのテンプレートを作成して、Adobe Dynamic Media Classicに適切に読み込むことができます。 作成したテンプレートは、メタデータの入力に使用できます。
->>詳しくは、[アップロードするメタデータを入力するためのテンプレートの作成](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)を参照してください。
+>&#x200B;>詳しくは、[アップロードするメタデータを入力するためのテンプレートの作成](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)を参照してください。
 
 標準化されたプロパティについて詳しくは、[Adobe XMP デベロッパーセンター ](https://www.adobe.com/devnet/xmp.html) を参照してください。
 

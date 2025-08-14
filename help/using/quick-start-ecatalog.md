@@ -48,7 +48,7 @@ eCatalog を作成する際に、ページや見開きページの並び順を�
 
 >[!NOTE]
 >
->Dynamic Media:Scene7 モードのユーザーで eCatalog を使用する場合は、CRXDE Liteで `pdfbrochure` の値を編集します。 これを行うには、Adobe Experience Managerで、**[!UICONTROL ツール]**/**[!UICONTROL 一般]**/**[!UICONTROL 4}CRXDE Lite} に移動します。]**&#x200B;左側のパネルのナビゲーションツリーで、`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf` に移動します。
+>Dynamic Media:Scene7 モードのユーザーで eCatalog を使用する場合は、CRXDE Liteで `pdfbrochure` の値を編集します。 これを行うには、Adobe Experience Managerで、**[!UICONTROL ツール]**/**[!UICONTROL 一般]**/**[!UICONTROL 4&rbrace;CRXDE Lite&rbrace; に移動します。]**&#x200B;左側のパネルのナビゲーションツリーで、`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf` に移動します。
 >
 >右下のウィンドウの「**[!UICONTROL プロパティ]**」タブで、`jobParam` の行を選択します。 `pdfbrochure` の値を `false` から `true` に設定します。 例：`pdfbrochure=true`
 >
