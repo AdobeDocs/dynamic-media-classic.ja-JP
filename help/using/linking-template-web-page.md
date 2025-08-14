@@ -19,7 +19,7 @@ ht-degree: 16%
 
 # Web ページへのテンプレートのリンク{#linking-a-template-to-a-web-page}
 
-Web サイトおよびアプリケーションは、URL 文字列を介してDynamic Media Image Server コンテンツにアクセスします。 テンプレートを公開すると、Adobe Dynamic Media Classicはそのテンプレートを参照する URL 文字列をDynamic Media Image Server 上でアクティベートします。 この URL を Web ブラウザーに貼り付けてテストできます。
+Web サイトおよびアプリケーションは、URL 文字列を介して Dynamic Media Image Server コンテンツにアクセスします。 テンプレートを公開すると、Adobe Dynamic Media Classicはそのテンプレートを参照する Dynamic Media Image Server 上の URL 文字列をアクティベートします。 この URL を Web ブラウザーに貼り付けてテストできます。
 
 Web ページおよびアプリケーションに URL 文字列を配置するには、Adobe Dynamic Media Classicから URL 文字列をコピーします。 画像プリセットで生成されたテンプレート URL 文字列を取得するには、プレビュー画面または参照パネル（詳細表示）に移動します。 そして、画像プリセットを選択して、「URL をコピー」ボタンを選択します。
 
@@ -37,7 +37,7 @@ Web ページおよびアプリケーションに URL 文字列を配置する�
 
 ## Web ページへのテンプレート URL の追加 {#adding-template-urls-to-your-web-page}
 
-Web ページにテンプレートを追加するには、Web ページ開発チームに問い合わせて、HTMLの Web ページのコードで `<IMG>` タグを変更してください。 Adobe Dynamic Media Classic URL 文字列を使用して、Dynamic Media Image Server にリクエストを送信します。 コマースエンジンまたは動的 web ページのコードは、テンプレート画像を、サイズに応じて、およびテンプレート用に選択した画像プリセットで定義されたフォーマット設定で挿入します。
+Web ページにテンプレートを追加するには、web ページ開発チームに問い合わせて、HTML web ページのコードで `<IMG>` タグを変更してください。 Adobe Dynamic Media Classic URL 文字列を使用して、Dynamic Media Image Server にリクエストを送信します。 コマースエンジンまたは動的 web ページのコードは、テンプレート画像を、サイズに応じて、およびテンプレート用に選択した画像プリセットで定義されたフォーマット設定で挿入します。
 
 >[!MORELIKETHIS]
 >

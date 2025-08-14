@@ -19,7 +19,7 @@ ht-degree: 26%
 
 # Web アプリケーションへの URL のリンク{#linking-urls-to-your-web-application}
 
-Web サイトおよびアプリケーションは、URL 文字列を介してDynamic Media Image Server コンテンツにアクセスします。 画像を公開すると、Adobe Dynamic Media ClassicはDynamic Media Image Server 上の画像プリセットを参照する URL 文字列をアクティベートします。 これらの URL を Web ブラウザーに貼り付けてテストできます。
+Web サイトおよびアプリケーションは、URL 文字列を介して Dynamic Media Image Server コンテンツにアクセスします。 画像を公開すると、Adobe Dynamic Media Classicは Dynamic Media Image Server 上の画像プリセットを参照する URL 文字列をアクティベートします。 これらの URL を Web ブラウザーに貼り付けてテストできます。
 
 これらの URL 文字列を web ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。 画像プリセットで生成された URL 文字列を取得するには、プレビュー画面または参照パネル（詳細表示）に移動します。
 
@@ -54,7 +54,7 @@ Web サイトおよびアプリケーションは、URL 文字列を介してDyn
 
 ## 画像プリセットの URL 文字列について {#about-image-preset-url-strings}
 
-Dynamic Media Image Server に対する画像サイズ設定の URL 呼び出しは、次の基本的な構文を持ちます。
+Dynamic Media 画像サーバーへの画像サイズ設定の URL 呼び出しは、次の基本的な構文を持ちます。
 
 *パス*/*Image Server 名*/*アカウント名*/*image画像名*?*モディファイア 1*&amp;*モディファイア 2*&amp;...
 
@@ -76,11 +76,11 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resM
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-URL 内で、画像プリセット名はドル記号（$）で囲まれています。「Large」画像プリセットで定義されるサイズおよびフォーマット手順を使用して、Dynamic Media Image Server が URL （この場合は `Large`）の画像プリセット部分に到達したとき。
+URL 内で、画像プリセット名はドル記号（$）で囲まれています。Dynamic Media 画像サーバーが「Large」画像プリセットで定義されるサイズおよびフォーマット手順を使用して、URL （この場合は `Large`）の画像プリセット部分に遭遇した場合。
 
 ## Web ページへの動的画像の追加 {#adding-dynamic-images-to-your-web-page}
 
-Web ページに動的画像を追加する場合、HTMLページコードの `<IMG>` タグは通常、Adobe Dynamic Media Classic URL 文字列を使用して変更され、Dynamic Media Image Server にリクエストを送信します。 この文字列は、画像プリセットによって定義されているサイズおよび形式仕様で画像を生成します。
+Web ページにダイナミックイメージを追加する場合、HTML ページコードの `<IMG>` タグは通常、Dynamic Media URL 文字列を使用して変更され、Adobe Dynamic Media Classic Image Server にリクエストを送信します。 この文字列は、画像プリセットによって定義されているサイズおよび形式仕様で画像を生成します。
 
 例えば、静的な画像を開くための次のような一般的な呼び出しの代わりに、
 
@@ -94,4 +94,4 @@ img src="/company_images/products/backpack_thumbnail.jpg"
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-この例では、Dynamic Media Image Server が `$thumbnail$` の定義を「検索」し、`thumbnail` 画像プリセットで定義されたサイズとフォーマットの仕様を使用して、適切な画像を動的に生成します。 URL 文字列では、製品画像のファイル名（この場合は `backpack_trns`）を除くすべての項目が、通常、ページテンプレートにハードワイヤリングされます。 コマースサーバからページテンプレートに自動的に挿入される唯一の項目は、IPS ID または画像の名前です。
+この例では、Dynamic Media 画像サーバーが `$thumbnail$` の定義を「検索」し、「画像プリセット `thumbnail` で定義されたサイズとフォーマットの仕様を使用して、適切な画像を動的に生成します。 URL 文字列では、製品画像のファイル名（この場合は `backpack_trns`）を除くすべての項目が、通常、ページテンプレートにハードワイヤリングされます。 コマースサーバからページテンプレートに自動的に挿入される唯一の項目は、IPS ID または画像の名前です。

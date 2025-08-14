@@ -29,7 +29,7 @@ Adobe Analytics設定画面では、ビューアイベントを変数に関連�
 
 [Adobe Analyticsへのログオン ](log-analytics.md#log_in_to_adobe_analytics) を参照してください。
 
-[Publishの設定に関する情報 ](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information) を参照してください。
+[ 設定情報の公開 ](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information) を参照してください。
 
 ## Adobe Analytics変数のAdobe Dynamic Media Classic ビューアイベントおよび変数への割り当て {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
@@ -53,7 +53,7 @@ Adobe Analytics設定画面を使用して、ビューアイベントをAdobe An
    「**[!UICONTROL 保存]**」を選択すると、ビューアイベント、Adobe Analytics変数およびAdobe Dynamic Media Classic変数がAdobe Analytics設定画面に一覧表示されます。
 
 1. 右下隅にある「**[!UICONTROL 閉じる]** を選択します。
-1. 画像サービング公開を実行するには、**[!UICONTROL Publish]**/**[!UICONTROL Publishを送信]** に移動します。
+1. **[!UICONTROL 公開]** / **[!UICONTROL 送信公開]** に移動して、画像サービング公開を実行します。
 
    ビューアに含まれる情報をAdobe Dynamic Media Classic サーバーで使用できるようにするには、公開する必要があります。
 
@@ -72,10 +72,10 @@ Adobe Analytics設定画面を使用して、ビューアイベントをAdobe An
 | HREF | **X**（eCatalog） | 画像マップをサポートするビューアで、ユーザーが画像マップ内の URL を選択したとき。 |
 | TARGET | | ターゲットズームビューアで、ユーザーがズームターゲットを選択して画像の一部にズームする場合。 |
 | SEARCH | | eCatalog で、ユーザが単語検索を実行したとき。 |
-| PLAY | **X**（ビデオ） | ビデオビューアで、ユーザーが「再生」を選択してビデオの再生を開始したとき。<br><br>**注意：** Adobe Analytics ハートビートベースのビデオレポートを使用している場合は、Adobe Dynamic Media ClassicでAdobe Analyticsを設定するときに、このビューアイベントに変数をマッピングする必要はありません。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオおよび MixedMedia ビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。 [Adobe Analytics ビデオレポートの有効化 ](enabling-analytics-video-reports.md) を参照してください。 |
-| PAUSE | **X**（ビデオ） | ビデオビューアで、ユーザーが **[!UICONTROL 一時停止]** を選択してビデオを凍結したとき。<br><br>**注意：** Adobe Analytics ハートビートベースのビデオレポートを使用している場合は、Adobe Dynamic Media ClassicでAdobe Analyticsを設定するときに、このビューアイベントに変数をマッピングする必要はありません。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオおよび MixedMedia ビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。 [Adobe Analytics ビデオレポートの有効化 ](enabling-analytics-video-reports.md) を参照してください。 |
-| STOP | **X**（ビデオ） | ビデオビューアで、ユーザーが **[!UICONTROL 停止]** を選択してビデオの再生を停止したとき。<br><br>**注意：** Adobe Analytics ハートビートベースのビデオレポートを使用している場合は、Adobe Dynamic Media ClassicでAdobe Analyticsを設定するときに、このビューアイベントに変数をマッピングする必要はありません。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオおよび MixedMedia ビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。 [Adobe Analytics ビデオレポートの有効化 ](enabling-analytics-video-reports.md) を参照してください。 |
-| MILESTONE | **X**（ビデオ） | ビデオビューアでは、ユーザーがビデオを 0、25、50、75 または 100 パーセント見ると Milestone イベントが生成されます。<br><br>**注意：** Adobe Analytics ハートビートベースのビデオレポートを使用している場合は、Adobe Dynamic Media ClassicでAdobe Analyticsを設定するときに、このビューアイベントに変数をマッピングする必要はありません。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオおよび MixedMedia ビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。 [Adobe Analytics ビデオレポートの有効化 ](enabling-analytics-video-reports.md) を参照してください。 |
+| PLAY | **X**（ビデオ） | ビデオビューアで、ユーザーが「再生」を選択してビデオの再生を開始したとき。<br><br>**注意：** Adobe Analytics ハートビートベースのビデオレポートを使用している場合は、Adobe Dynamic Media ClassicでAdobe Analyticsを設定するときに、このビューアイベントに変数をマッピングする必要はありません。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオビューアと MixedMedia ビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。 [Adobe Analytics ビデオレポートの有効化 ](enabling-analytics-video-reports.md) を参照してください。 |
+| PAUSE | **X**（ビデオ） | ビデオビューアで、ユーザーが **[!UICONTROL 一時停止]** を選択してビデオを凍結したとき。<br><br>**注意：** Adobe Analytics ハートビートベースのビデオレポートを使用している場合は、Adobe Dynamic Media ClassicでAdobe Analyticsを設定するときに、このビューアイベントに変数をマッピングする必要はありません。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオビューアと MixedMedia ビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。 [Adobe Analytics ビデオレポートの有効化 ](enabling-analytics-video-reports.md) を参照してください。 |
+| STOP | **X**（ビデオ） | ビデオビューアで、ユーザーが **[!UICONTROL 停止]** を選択してビデオの再生を停止したとき。<br><br>**注意：** Adobe Analytics ハートビートベースのビデオレポートを使用している場合は、Adobe Dynamic Media ClassicでAdobe Analyticsを設定するときに、このビューアイベントに変数をマッピングする必要はありません。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオビューアと MixedMedia ビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。 [Adobe Analytics ビデオレポートの有効化 ](enabling-analytics-video-reports.md) を参照してください。 |
+| MILESTONE | **X**（ビデオ） | ビデオビューアでは、ユーザーがビデオを 0、25、50、75 または 100 パーセント見ると Milestone イベントが生成されます。<br><br>**注意：** Adobe Analytics ハートビートベースのビデオレポートを使用している場合は、Adobe Dynamic Media ClassicでAdobe Analyticsを設定するときに、このビューアイベントに変数をマッピングする必要はありません。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオビューアと MixedMedia ビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。 [Adobe Analytics ビデオレポートの有効化 ](enabling-analytics-video-reports.md) を参照してください。 |
 | SWATCH | **X**（フライアウト、ズーム） | このビューアイベントは、Adobe Dynamic Media Classicのページビューアイベントにマッピングされます。 |
 | ZOOM | **X**（eCatalog、スピンセット、ズーム） | Adobe Analytics では追跡されません。 |
 | PAN | **X**（eCatalog、スピンセット、ズーム） | Adobe Analytics では追跡されません。 |

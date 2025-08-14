@@ -29,7 +29,7 @@ Adobe Dynamic Media Classicでは、ビューアプリセットにシャープ�
 
 >[!NOTE]
 >
->「シャープ」コマンドは、シャープ効果を含めた画像プリセット設定を上書きします。画像プリセットは、Dynamic Media Image Server から配信される画像のサイズと形式を管理します。 Adobe Dynamic Media Classicでは、画像が均一なサイズとシャープニングで配信されるようにすべての画像を配信するために、画像プリセットを使用することを強くお勧めします。 ただし、いったん個別の画像にシャープを設定すると、その後、画像プリセットのシャープ設定が画像に適用されなくなります。このような画像は、画像プリセットのシャープ設定を適用せずに配信されます。
+>「シャープ」コマンドは、シャープ効果を含めた画像プリセット設定を上書きします。画像プリセットは、Dynamic Media Image Server から配信される画像のサイズと形式を制御します。 Adobe Dynamic Media Classicでは、画像が均一なサイズとシャープニングで配信されるようにすべての画像を配信するために、画像プリセットを使用することを強くお勧めします。 ただし、いったん個別の画像にシャープを設定すると、その後、画像プリセットのシャープ設定が画像に適用されなくなります。このような画像は、画像プリセットのシャープ設定を適用せずに配信されます。
 
 多くの場合、画像にシャープを適用する必要があります。Adobe Dynamic Media Classicと Image Server には、複数のシャープニングオプションが用意されています。 シャープの適用が画像に与える影響や、シャープの適用がどの程度必要であるか理解することが重要です。ほとんどの画像にシャープを適用する必要がありますが、要求される程度は画像によって異なります。
 
@@ -37,11 +37,11 @@ Adobe Dynamic Media Classicでは、ビューアプリセットにシャープ�
 
 画像を過剰にシャープにすると、ハロー効果（エッジの線の縞模様）が生じます。
 
-Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像のシャープニングを最適化するためのベストプラクティスがあります。
+Adobe Dynamic Media Classicおよび Dynamic Media Image Server での画像のシャープニングを最適化するためのベストプラクティスがあります。
 
-[Adobe Dynamic Media ClassicおよびDynamic Media Image Server の画像をシャープにするベストプラクティス ](/help/using/assets/s7_sharpening_images.pdf) を参照してください。
+[Adobe Dynamic Media Classicおよび Dynamic Media Image Server の画像をシャープにするベストプラクティス ](/help/using/assets/s7_sharpening_images.pdf) を参照してください。
 
-[ シャープニング ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
+[ シャープニング ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
 **画像をシャープにするには：**
 
@@ -58,7 +58,7 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像の�
 | 名前 | URL プロトコル | 値 | 例 |
 | --- | --- | --- | --- |
 | 単純なシャープの適用 | `op_sharpen` | `0` 以 `1` | `op_sharpen=1` |
-| 再サンプルモード | `resMode` | `bilin`、`bicub`、`sharp2`、`trilin`<br><br>`bilin`：標準の双線形補間を選択します。 最も速い再サンプリング方法。エイリアシング アーティファクトの中には、多くの場合は目立つものがあります。<br>`bicub`：二三次補間を選択します。 `bilin` よりも CPU に負荷がかかりますが、より目立つエイリアシングのアーティファクトが少なく、より鮮明な画像が得られます。<br><br>`sharp2`：補間アルゴリズムとして、変更されたランチョス Windows® 関数を選択します。 CPU コストが高いと、2 立方バイトよりもわずかにシャープな結果が得られます。<br><br>`trilin`：修正されたトリリニア補間を選択します。この補間では、高解像度と低解像度の両方が使用されます（使用可能な場合）。 エイリアシングが問題となっている場合にのみ使用することをお勧めします。周波数の高いデータが削減されることから、JPEG のサイズが小さくなります。 | `resMode=sharp2` |
+| 再サンプルモード | `resMode` | `bilin`、`bicub`、`sharp2`、`trilin`<br><br>`bilin`：標準の双線形補間を選択します。 最も速い再サンプリング方法。エイリアシング アーティファクトの中には、多くの場合は目立つものがあります。<br>`bicub`：二三次補間を選択します。 `bilin` よりもCPUを大量に消費しますが、より目立たないエイリアシングのアーティファクトで、より鮮明な画像が得られます。<br><br>`sharp2`：補間アルゴリズムとして、変更されたランチョス Windows® 関数を選択します。 CPUのコストが高いと、2 立方バイトよりもわずかにシャープな結果が得られます。<br><br>`trilin`：修正されたトリリニア補間を選択します。この補間では、高解像度と低解像度の両方が使用されます（使用可能な場合）。 エイリアシングが問題となっている場合にのみ使用することをお勧めします。周波数の高いデータが削減されることから、JPEG のサイズが小さくなります。 | `resMode=sharp2` |
 | アンシャープマスク | `op_usm` | `amount`、`radius`、`threshold`、`monochrome`<br><br>`amount`：フィルター強度係数（実際 0...5） <br><br>`radius`：フィルターカーネル半径（ピクセル単位）（実際 0...250） <br><br>`threshold`：フィルターしきい値レベル（整数 0...255） <br><br>`monochrome`:`0` に設定すると各色成分に別々にアンシャープマスクが適用され、`1` に設定すると画像の明るさ（強さ）がアンシャープマスクに適用されます | `op_usm=1,1,10,0` |
 
 **[!UICONTROL シャープニング]** メニューを選択し、次のいずれかのオプションを選択します。
@@ -95,15 +95,15 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像の�
 
 * **[!UICONTROL バイリニア]**：最も速い再サンプリング方法。一部のエイリアスアーティファクトが目立ちます。
 
-* **[!UICONTROL バイキュービック法]**:Image Server の CPU 使用率が増加しますが、より鮮明な画像が得られ、エイリアスアーティファクトは目立ちません。
+* **[!UICONTROL バイキュービック法]**:Image Server でのCPUの使用量を増やしますが、顕著なエイリアスアーティファクトが少なく、よりシャープな画像が得られます。
 
-* **[!UICONTROL `Sharpen 2`]**: **[!UICONTROL Bicubic]** よりも少しシャープな結果が得られますが、Image Server の CPU コストはさらに高くなります。
+* **[!UICONTROL `Sharpen 2`]**: **[!UICONTROL Bicubic]** よりも少しシャープな結果が得られますが、Image Server ではCPUのコストがさらに高くなります。
 
 * **[!UICONTROL Trilinear]**：使用可能な場合は、高い解像度と低い解像度の両方を使用します。エイリアシングが問題となる場合にのみ推奨されます。 この方法では、周波数の高いデータが削減されるため JPEG のサイズが小さくなります。
 
 **画像プリセットとシャープニング**
 
-最終的な結果を得るために、3 つのシャープニング効果をすべて組み込むことができます。 ただし、この方法はお勧めしません。 Adobe Dynamic Media Classicでは、シャープニング効果を画像プリセットの一部として保存することをお勧めします。 画像プリセットを使用すると、最も頻繁に使用される画像の修飾子をパッケージ化して、小さなテキスト文字列で動的にサイズ変更された画像を作成できます。 画像プリセットには、ファイル形式（通常は web のJPEG）、ピクセル数、画像シャープニングの値が含まれます。 特定のタイプの画像サイズの作成に使用する必要がある各画像修飾子を URL に追加する代わりに、「サムネール」などの名前の付いた画像プリセットを作成します。 次に、適切なサイズ、ファイル形式、シャープニングオプションを使用してサムネール画像プリセットを設定します。 画像プリセット名を使用して画像を呼び出します。 画像プリセットは、URL 全体の長さを短縮します。 これらの 2 つの URL で、シャープニングされた同じ 350 x 350 JPEG画像が生成されます。
+最終的な結果を得るために、3 つのシャープニング効果をすべて組み込むことができます。 ただし、この方法はお勧めしません。 Adobe Dynamic Media Classicでは、シャープニング効果を画像プリセットの一部として保存することをお勧めします。 画像プリセットを使用すると、最も頻繁に使用される画像の修飾子をパッケージ化して、小さなテキスト文字列で動的にサイズ変更された画像を作成できます。 画像プリセットには、ファイル形式（通常は web 用のJPEG）、ピクセル数、画像シャープニングの値が含まれます。 特定のタイプの画像サイズの作成に使用する必要がある各画像修飾子を URL に追加する代わりに、「サムネール」などの名前の付いた画像プリセットを作成します。 次に、適切なサイズ、ファイル形式、シャープニングオプションを使用してサムネール画像プリセットを設定します。 画像プリセット名を使用して画像を呼び出します。 画像プリセットは、URL 全体の長さを短縮します。 これらの 2 つの URL で、シャープニングされた同じ 350 x 350 JPEG画像が生成されます。
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -116,17 +116,17 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像の�
 
 「JPG 画質」オプションは、JPG の圧縮レベルを制御します。
 
-* **JPG品質**：圧縮レベルとクロミナンス ダウンサンプリングを制御する場合は、このオプションを選択します。
+* **JPG画質**：圧縮レベルとクロミナンスダウンサンプリングを制御する場合は、このオプションを選択します。
 
 * **Slider**:JPGの圧縮レベルを指定します。 この設定は、ファイルサイズと画質の両方に影響を与えます。JPG 画質の値の範囲は、1 ～ 100 です。
 
-* **JPG Chrominance Downsampling を有効にする**：高域の輝度よりも高域のカラーに対する眼の感度が低いため、JPEGイメージはイメージ情報を輝度とカラー成分に分割します。 JPEG 画像を圧縮すると、輝度成分は最大解像度が維持され、色成分はピクセルのグループの平均化によりダウンサンプリングされます。ダウンサンプリングは、知覚品質にほとんど影響を与えることなく、データ量を半分または 3 分の 1 に減らします。 ダウンサンプリングは、グレースケール画像では使用できません。この方法は、コントラストが高い画像（テキストがオーバーレイされた画像など）で圧縮の量を低減させるのに役立ちます。
+* **JPG クロミナンス ダウンサンプリングを有効にする**：高域のルミナンスよりも高域のカラーに対する眼の感度が低いため、JPEGの画像では、画像の情報がルミナンスとカラーの成分に分類されます。 JPEG 画像を圧縮すると、輝度成分は最大解像度が維持され、色成分はピクセルのグループの平均化によりダウンサンプリングされます。ダウンサンプリングは、知覚品質にほとんど影響を与えることなく、データ量を半分または 3 分の 1 に減らします。 ダウンサンプリングは、グレースケール画像では使用できません。この方法は、コントラストが高い画像（テキストがオーバーレイされた画像など）で圧縮の量を低減させるのに役立ちます。
 
 **会社全体のシャープニングオプションの設定**
 
 画像プリセットを使用しなかった場合や、URL 文字列に沿って特定の Image Server シャープニングプロトコルを渡した場合、ダウンサンプリング時に画像のシャープニングは発生しません。 ただし、このようなシャープニングの欠落が発生した場合は、デフォルトのシャープニング値を設定することで、画像に常に一定のシャープニングを適用できます。
 
-会社のデフォルトのシャープニングオプションを設定するには、**[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL Publish設定]**/**[!UICONTROL Image Server]** に移動します。 デフォルトの再サンプリングモードを **`Sharp2`** に設定すると、ダウンサンプリングの際に画像が常にシャープになります。
+会社のデフォルトのシャープニングオプションを設定するには、**[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 公開設定]**/**[!UICONTROL Image Server]** に移動します。 デフォルトの再サンプリングモードを **`Sharp2`** に設定すると、ダウンサンプリングの際に画像が常にシャープになります。
 
 **ビューアプリセットへのシャープニングの追加**
 
@@ -134,7 +134,7 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Server での画像の�
 
 ビューアプリセット（画像プリセットなど）を使用すると、多くのオプションを 1 か所に集約できます。選択肢としては、スキンやビューアのオプション（印刷ボタンの使用やズームアニメーションの速度の制御など）があります。 ビューアプリセットは、画像プリセットと同じセクションの **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL ビューアプリセット]** にあります。
 
-[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) トレーニングビデオを参照してください。
+[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) トレーニングビデオを参照してください。
 
 修飾子オプションは、すべての eCatalog、回転、カスタムズームビューアプリセットのコア設定セクションの下に表示されます。URL シャープニングコマンドを「修飾子」ボックスに追加すると、そのビューアプリセットでビューアが呼び出されるたびにシャープニングが追加されます。
 

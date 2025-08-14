@@ -1,5 +1,5 @@
 ---
-title: 「クイックスタート：スピンセット」
+title: クイックスタート：スピンセット
 description: Adobe Dynamic Media Classicをすぐに使い始めるのに役立つスピンセットの概要とクイックスタートです。
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 21%
 
 [ 画像マップの作成 ](creating-image-maps.md) を参照してください。
 
-[ 画像およびスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) のトレーニングビデオを参照してください。
+トレーニングビデオの [ 画像セットとスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) を参照してください。
 
 スピンセットを作成する場合、Adobeでは次のベストプラクティスを推奨し、次の制限を適用します。
 
@@ -35,7 +35,7 @@ ht-degree: 21%
 | --- | --- | --- |
 | 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
 
-[Dynamic Mediaの制限事項 ](/help/using/limitations.md) も参照してください。
+[Dynamic Media の制限 ](/help/using/limitations.md) も参照してください。
 
 このスピンセットクイックスタートは、Adobe Dynamic Media Classicのスピンセット手法をすぐに使い始められるように設計されています。 手順 1 ～ 7 に従ってください。各手順の最後で、トピックリンクを選択して詳細を確認できます。
 
@@ -47,19 +47,19 @@ ht-degree: 21%
 
 詳しくは、[スピンセット画像のキャプチャに関するガイドライン](creating-spin-set.md#guidelines-for-shooting-spin-set-images)を参照してください。
 
-## 2. スピンセットの作成
+## &#x200B;2. スピンセットの作成
 
 スピンセットを作成するには、グローバルナビゲーションバーで **[!UICONTROL ビルド]**/**[!UICONTROL スピンセット]** を選択します。 スピンセットサイズ ダイアログボックスで、行とセルの数を選択して **[!UICONTROL OK]** を選択します。 次に、画像をスピンセットページのグリッドにドラッグします。
 
 [ スピンセットの作成 ](creating-spin-set.md#creating-a-spin-set) を参照してください。
 
-## 3. スピンセットの編集
+## &#x200B;3. スピンセットの編集
 
 スピンセットを編集するには、グローバルナビゲーションバーで **[!UICONTROL 設定]**/**[!UICONTROL ビューアプリセット]** を選択します。 スピンセットを選択し、「**[!UICONTROL 編集]** を選択します。 画像の追加、削除、位置の変更を行います。2 次元スピンセットの行の位置を変更できます。
 
 [ スピンセットの編集 ](creating-spin-set.md#editing-a-spin-set) を参照してください。
 
-## 4. スピンセットビューアプリセットのセットアップ
+## &#x200B;4. スピンセットビューアプリセットのセットアップ
 
 管理者はスピンセットビューアプリセットを作成できます。これらのプリセットは、スピンセットビューアの外観を決定します。新しいスピンセットビューアプリセットを設定するには、グローバルナビゲーションバーで **[!UICONTROL 設定]**/**[!UICONTROL ビューアプリセット]** に移動します。
 
@@ -67,21 +67,21 @@ ht-degree: 21%
 
 [ スピンセットビューアプリセットのセットアップ ](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets) を参照してください。
 
-## 5. スピンセットのプレビュー
+## &#x200B;5. スピンセットのプレビュー
 
 参照パネルでスピンセットを選択し、「プレビュー **[!UICONTROL を選択し]** す。 プレビューページで、マウスボタンを押しながらポインターを左右にドラッグして、項目を視覚的に「スピン」します。
 
 [ スピンセットのプレビュー ](previewing-spin-set.md#previewing-a-spin-set) を参照してください。
 
-## 6. Publish a スピンセット
+## &#x200B;6. スピンセットの公開
 
 スピンセットを公開すると、Adobe Dynamic Media Classic サーバーに配置されるので、web サイトやアプリケーションに動的に配信できます。 また、Dynamic Media Image Server から Web サイトまたはアプリケーションにスピンセットを呼び出す URL 文字列もアクティベートされます。
 
-スピンセットを公開するには、参照パネルの名前の横にある **[!UICONTROL Publish用にマーク]** アイコンをオンにして、公開用にマークします。 グローバルナビゲーションバーの「**[!UICONTROL Publish]**」を選択して、公開を開始します。 公開ページで、「**[!UICONTROL Publishを送信]**」を選択します。
+スピンセットを公開するには、参照パネルで名前の横にある **[!UICONTROL 公開用にマーク]** アイコンを選択して、公開用にマークします。 グローバルナビゲーションバーの「**[!UICONTROL 公開]**」を選択して公開を開始します。 公開ページで、「**[!UICONTROL 公開を送信]**」を選択します。
 
-[Publish A スピンセット ](publishing-spin-set.md#publishing-a-spin-set) を参照してください。
+[ スピンセットの公開 ](publishing-spin-set.md#publishing-a-spin-set) を参照してください。
 
-## 7. Web ページへのスピンセットのリンク
+## &#x200B;7. Web ページへのスピンセットのリンク
 
 Adobe Dynamic Media Classicは、スピンセットの URL コールアウト文字列を作成し、公開後にアクティブ化します。 これらの URL は、プレビューページからコピーできます。
 

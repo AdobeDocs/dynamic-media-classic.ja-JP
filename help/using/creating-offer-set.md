@@ -41,15 +41,15 @@ Adobe Dynamic Media Classicには、オファーセットの作成や編集を�
 
 * **画像テンプレート**:**[!UICONTROL 作成]**/「テンプレートの基本」コマンドを使用して、Adobe Dynamic Media Classicの画像テンプレートをパラメーター化できます。 テンプレートのパラメーター、コンポーネント、テキストフレーム内のテキスト、様々な画像を入れ替えてカスタマイズできます。 オファーセットの場合、例えばテンプレートパラメーターを使用して、オファーセット内の同じ画像にバリエーションを作成できます。 画像テンプレートの作成とパラメーター化について詳しくは、[ テンプレートパラメーターの作成 ](creating-template-parameters.md#creating_template_parameters) を参照してください。
 
-[ テンプレートの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) トレーニングビデオも参照してください。
+[ テンプレートの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) トレーニングビデオも参照してください。
 
 * **ビデオ**：オファーセットのビデオを組み合わせることができます。 各ビデオはセット内の異なるオファーになります。
 
 ## パラメーター化されたテンプレートを使用したオファーセットの作成 {#creating-an-offer-set-with-a-parameterized-template}
 
-オファーセットを作成する場合、**[!UICONTROL 保存後のPublish]** オプションはセットおよびセットメンバーに次のように影響します。
+オファーセットの作成時、「保存後に公開 **[!UICONTROL オプションは、次のようにセットおよびセットのメンバーに影響します]**。
 
-| **[!UICONTROL 保存後にPublish]** 保存する前にオプションを選択しますか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
+| **[!UICONTROL 保存後に公開]** オプションを選択してから保存しますか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 | --- | --- | --- |
 | はい | 公開 | 公開 |
 | いいえ | 非公開 | セットメンバーの公開または非公開の状態が維持される。 |
@@ -73,16 +73,16 @@ Adobe Dynamic Media Classicには、オファーセットの作成や編集を�
    Test&amp;Target オファーセットページには、作成したオファーが一覧表示されます。
 
 1. 手順 3 から 5 を繰り返して、セットのオファーをさらに作成します。
-1. 完了したら、ページの右下隅付近で、「save&#x200B;***の後に** Publish」が選択されていることを確認します（デフォルト）。
+1. 完了したら、ページの右下隅付近で **[!UICONTROL 保存後に公開*]** が選択されていることを確認します（デフォルト）。
 1. 「**[!UICONTROL 閉じる]**」を選択し、オファーセットの名前を入力して、「**[!UICONTROL 保存]**」を選択します。
 
 Test&amp;Target オファーセットページを閉じる前に、オファーセットをAdobe Target Standard/Premium にプッシュします。 [Test&amp;Target へのオファーセットのプッシュ ](pushing-offer-sets-target.md#pushing_offer_sets_to_target) を参照してください。
 
 ## 画像またはビデオを含むオファーセットの作成 {#creating-an-offer-set-with-images-or-videos}
 
-オファーセットを作成する場合、**[!UICONTROL 保存後のPublish]** オプションはセットおよびセットメンバーに次のように影響します。
+オファーセットの作成時、「保存後に公開 **[!UICONTROL オプションは、次のようにセットおよびセットのメンバーに影響します]**。
 
-| **[!UICONTROL 保存後にPublish]** 保存する前にオプションを選択しますか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
+| **[!UICONTROL 保存後に公開]** オプションを選択してから保存しますか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 | --- | --- | --- |
 | はい | 公開 | 公開 |
 | いいえ | 非公開 | セットメンバーの公開または非公開の状態が維持される。 |
@@ -104,16 +104,16 @@ Test&amp;Target オファーセットページを閉じる前に、オファー�
 
    「**[!UICONTROL 保存]**」を選択して、画像またはビデオオファーに対する変更を保存します。 次に、「**[!UICONTROL 閉じる]**」を選択して、Test&amp;Target オファーセット ページに戻ります。
 
-1. オファーセットのオファーを作成し、様々な画像の画像プリセットを選択したら、必ず **[!UICONTROL 保存後のPublish]** を選択します（デフォルト）。
+1. オファーセットのオファーの作成を完了し、様々な画像の画像プリセットを選択したら、**[!UICONTROL 保存後に公開]**」が選択されていることを確認します（デフォルト）。
 1. 「**[!UICONTROL 保存]**」を選択して、オファーセットの名前を入力し、「**[!UICONTROL 保存]**」を選択します。
 
 Test&amp;Target オファーセットページを閉じる前に、オファーセットをAdobe Target Standard/Premium にプッシュします。 [Test&amp;Target へのオファーセットのプッシュ ](pushing-offer-sets-target.md#pushing_offer_sets_to_target) を参照してください。
 
 ## オファーセットを編集 {#editing-an-offer-set}
 
-公開済みセットと非公開セットのどちらを編集する場合でも、「**[!UICONTROL 保存後のPublish]**」オプションは、次のようにセットとセットメンバーに影響します。
+公開済みセットと非公開セットのどちらを編集する場合でも、「保存後に公開 **[!UICONTROL オプションは、次のようにセットとセットのメンバーに影響を与えます]**
 
-| セットが既に公開されているか？ | 編集内容を保存する前に **保存後に** Publish」オプションが選択されていますか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
+| セットが既に公開されているか？ | 編集を保存する前に「**[!UICONTROL 保存後に公開]**」オプションを選択していますか？ | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 | --- | --- | --- | --- |
 | はい | はい | 公開 | 公開 |
 | はい | いいえ | 公開 | 既存のセットメンバーは、公開済みの状態を維持します。 編集中に追加した新しいセットメンバーの公開または非公開の状態が維持される。 |
@@ -136,7 +136,7 @@ Test&amp;Target オファーセットページを閉じる前に、オファー�
    >
    >キャンペーンに関連付けられているオファーセットは削除できません。 キャンペーンに関連付けられているオファーセットを削除するには、Adobe Target Standard/Premium にサインインし、最初にキャンペーンの関連付けを削除します。 キャンペーンから関連付けを解除した後でも、アセットはAdobe Dynamic Media Classicからのみ削除できます。削除するにはAdobe Target Standard/Premium へのログインが必要で、Adobe Target Standard/Premium 内からは削除できません。
 
-1. 編集が完了したら、ページの右下隅付近で、「**[!UICONTROL 保存後にPublish]**」が選択されていることを確認します（デフォルト）。
+1. 編集が完了したら、ページの右下隅付近にある **[!UICONTROL 保存後に公開]**」が選択されていることを確認します（デフォルト）。
 1. 「**[!UICONTROL 保存]**」を選択し、ストレージフォルダーを選択します。次に、セットの名前を入力して、「**[!UICONTROL 保存]**」を選択します。
 
 ## オファーセットの削除 {#delet-an-offer-set}

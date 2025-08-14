@@ -1,5 +1,5 @@
 ---
-title: 混在メディアセットのPublish
+title: 混在メディアセットの公開
 description: Adobe Dynamic Media Classicから混在メディアセットを公開する方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ---
 
-# 混在メディアセットのPublish{#publishing-a-mixed-media-set}
+# 混在メディアセットの公開{#publishing-a-mixed-media-set}
 
 公開ジョブを作成して、公開用にマークした混在メディアセットをAdobe Dynamic Media Classic Video Server および Image Server に公開します。 Adobe Dynamic Media Classicには、特定のサーバーに公開するための高度な公開オプションと、既に公開されたアセットを再公開するためのオプションが用意されています。
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. 次のいずれかの操作を行います。
 
-   * 参照パネルで、公開する各ファイル名の横にある **[!UICONTROL Publishをマーク]** を選択します。
-   * アップロード画面で、公開する各ファイル名の横にある「**[!UICONTROL Publish用にマーク]**」を選択します。
+   * 参照パネルで、公開する各ファイル名の横にある「**[!UICONTROL 公開用にマーク]**」を選択します。
+   * アップロード画面で、公開する各ファイル名の横にある **[!UICONTROL 公開用にマーク]** を選択します。
 
-1. グローバルナビゲーションバーの「**[!UICONTROL Publish]**」を選択します。
+1. グローバルナビゲーションバーの「**[!UICONTROL 公開]**」を選択します。
 1. 必要なスケジュール オプションを設定します。
 1. （オプション） **[!UICONTROL ジョブ名]** フィールドに、公開ジョブの名前を入力します。
-1. **[!UICONTROL 詳細]** オプションの **[!UICONTROL Publish先]** ドロップダウンリストで、「**[!UICONTROL ビデオサーバー]**」を選択します。
+1. **[!UICONTROL 詳細]** オプションの **[!UICONTROL 公開先]** ドロップダウンリストで **[!UICONTROL ビデオサーバー]** を選択します。
 
    設定できるその他のオプションについては、[ 詳細公開オプション ](publishing-files.md#advanced_publish_options) を参照してください。
 
-1. **[!UICONTROL Publishの送信]** を選択します。
+1. **[!UICONTROL 公開を送信]** を選択します。
 1. 上記の手順 2～4 を繰り返します。
 1. 「**[!UICONTROL 詳細]**」の「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL Image Server]**」を選択します。
 
    設定できるその他のオプションについては、[ 詳細公開オプション ](publishing-files.md#advanced_publish_options) を参照してください。
 
-1. **[!UICONTROL Publishの送信]** を選択します。
+1. **[!UICONTROL 公開を送信]** を選択します。

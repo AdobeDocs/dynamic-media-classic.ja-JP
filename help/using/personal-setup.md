@@ -33,8 +33,8 @@ ht-degree: 19%
 
 ## デスクトップ
 
-* **画像キャッシュをクリア**:AdobeのDynamic Mediaでキャッシュされたすべての画像ファイルをコンピューターから削除します。
-* **アセットキャッシュをクリア**:Dynamic MediaがアセットファイルをキャッシュするすべてのAdobeーをコンピューターから削除します。
+* **画像キャッシュをクリア**:Adobe Dynamic Media でキャッシュされたすべての画像ファイルをコンピューターから削除します。
+* **アセットキャッシュをクリア**：すべてのAdobe Dynamic Media キャッシュのアセットファイルをコンピューターから削除します。
 
 デスクトップアプリケーションを使用して画像とアセットのキャッシュをクリアする以外に、ファイルシステムから直接キャッシュを手動でクリアすることもできます。 オペレーティングシステムに応じて、次に移動します。
 
@@ -43,9 +43,9 @@ ht-degree: 19%
 
 ## CREATIVE SUITE EXTENSION
 
-**Adobe Dynamic Media Creative Suite拡張機能をインストールするには：**
+**Adobe Dynamic Media Creative Suite 拡張機能をインストールするには：**
 
-1. Adobe Dynamic Media Classicのツールバーで、**[!UICONTROL 設定]**/**[!UICONTROL 個人設定]** に移動し、「Creative Suiteの拡張子」の下の **[!UICONTROL 今すぐダウンロード]** を選択して、`s7csxs.zxp` ファイルをダウンロードします。
+1. Adobe Dynamic Media Classicのツールバーで、**[!UICONTROL 設定]**/**[!UICONTROL 個人設定]** に移動し、Creative Suite 拡張機能の下で **[!UICONTROL 今すぐダウンロード]** を選択して `s7csxs.zxp` ファイルをダウンロードします。
 1. **[!UICONTROL インストール]** リンクおよび **[!UICONTROL システム要件]** リンクを選択すると、拡張機能に関する追加情報が表示されます。
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.

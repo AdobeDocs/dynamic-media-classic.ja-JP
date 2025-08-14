@@ -1,5 +1,5 @@
 ---
-title: 「クイックスタート：Adobe Dynamic Media ClassicとAdobe Analyticsの統合」
+title: クイックスタート：Adobe Dynamic Media ClassicとAdobe Analyticsの統合
 description: Adobe Dynamic Media ClassicとAdobe Analyticsの統合方法に関する概要とクイックスタートです。
 contentOwner: Rick Brough
 content-type: reference
@@ -25,7 +25,7 @@ Adobe AnalyticsをAdobe Dynamic Media Classicと統合すると、web サイト�
 
 Adobe Analytics レポートを使用して、Web サイト上でのユーザーアクティビティの全体像を明確に把握できます。どの製品プレゼンテーションがコンバージョンにつながり、どの製品プレゼンテーションが顧客の関心を引かないかを判断できます。
 
-[Adobe Analyticsでのビデオの測定 ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) も参照してください。
+[Adobe Analyticsでのビデオの測定 ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview) も参照してください。
 
 >[!NOTE]
 >
@@ -33,19 +33,19 @@ Adobe Analytics レポートを使用して、Web サイト上でのユーザー
 
 このクイックスタートは、Adobe Analytics インストルメンテーションキットをすぐに使い始めることを目的としています。
 
-## 1. Adobe Dynamic Media Classic経由でAdobe Analyticsにログオンし、Adobe Analytics レポート変数をダウンロードします
+## &#x200B;1. Adobe Dynamic Media Classic経由でAdobe Analyticsにログオンし、Adobe Analytics レポート変数をダウンロードします
 
 >[!NOTE]
 >
->Adobe Analyticsの web サービスアクセスグループのメンバーとして追加されていることを確認します。 Adobe Analytics レポートを設定する前に、この検証を行います。 また、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントと照合する前に、 このグループのメンバーは、指定されたレポートスイート内のすべてのレポートにアクセスできます。 インターフェイスで設定された権限に関係なく、Experience Cloudの Web サービス API を使用して行うことができます。 グループにメンバーを追加するには、Adobe Analyticsで **[!UICONTROL 管理ツール]**/**[!UICONTROL User Management]**/**[!UICONTROL グループを編集]** に移動します。
+>Adobe Analyticsの web サービスアクセスグループのメンバーとして追加されていることを確認します。 Adobe Analytics レポートを設定する前に、この検証を行います。 また、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントと照合する前に、 このグループのメンバーは、指定されたレポートスイート内のすべてのレポートにアクセスできます。 インターフェイスで設定されている権限に関係なく、Experience Cloud Web サービス API を使用して行うことができます。 グループにメンバーを追加するには、Adobe Analyticsで **[!UICONTROL 管理ツール]**/**[!UICONTROL User Management]**/**[!UICONTROL グループを編集]** に移動します。
 
-Web サービスアクセスグループのメンバーであることを確認したら、Adobe Dynamic Media Classicで **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**4&rbrace;Adobe Analytics&rbrace; に移動します。** Adobe Analytics設定ページで、「**[!UICONTROL Adobe Analytics Login]**」を選択します。
+Web サービスアクセスグループのメンバーであることを確認したら、Adobe Dynamic Media Classicで **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 4}Adobe Analytics} に移動します。]** Adobe Analytics設定ページで、「**[!UICONTROL Adobe Analytics Login]**」を選択します。
 
 [Adobe Analyticsへのログオン ](log-analytics.md#log_in_to_adobe_analytics) を参照してください。
 
 Adobe Analyticsのログインダイアログボックスで、Experience Cloud組織 ID （オプション）、完全な資格情報を入力し、「**[!UICONTROL ログイン]**」を選択します。 「レポートスイート」ドロップダウンメニューで、使用するレポートスイートの名前を選択します。
 
-## 2. Adobe Analytics レポート変数をAdobe Dynamic Media Classic ビューアイベントとAdobe Dynamic Media Classic変数に割り当てる
+## &#x200B;2. Adobe Analytics レポート変数をAdobe Dynamic Media Classic ビューアイベントとAdobe Dynamic Media Classic変数に割り当てる
 
 Adobe Analytics 設定ページで、Adobe Analytics レポートに表示する情報を指定します。情報を取得するAdobe Dynamic Media Classic ビューアイベントごとに、Adobe Analytics変数（レポートスイートから）とAdobe Dynamic Media Classic変数を選択します。
 
@@ -58,17 +58,17 @@ Adobe Analytics設定ページで「**[!UICONTROL 保存]**」を選択すると
 
 [Adobe Analytics レポートの設定 ](configuring-analytics-reports.md#configuring_adobe_analytics_reports) を参照してください。
 
-## 3. Adobe Dynamic Media Classic ビューアをPublishする
+## &#x200B;3. Adobe Dynamic Media Classic ビューアを公開する
 
-ビューア（Adobe Analytics レポートでのユーザーアクティビティをトラッキングするコードを含む）がAdobe Dynamic Media Classic サーバーに読み込まれるように、Adobe Dynamic Media Classic ビューアをPublishします。 公開後、この情報はビューアに含まれます。 Adobe Analyticsの分析に使用します。
+Adobe Dynamic Media Classic ビューア（Adobe Analytics レポートでのユーザーアクティビティを追跡するコードを含む）がAdobe Dynamic Media Classic サーバーに読み込まれるように、ビューアを公開します。 公開後、この情報はビューアに含まれます。 Adobe Analyticsの分析に使用します。
 
-[Publishの設定に関する情報 ](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information) を参照してください。
+[ 設定情報の公開 ](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information) を参照してください。
 
-## 4. Web サイトへのAdobe Dynamic Media Classic ビューアの配置
+## &#x200B;4. Web サイトへのAdobe Dynamic Media Classic ビューアの配置
 
 Adobe Analytics トラッキングコードを使用したAdobe Dynamic Media Classic ビューアを Web サイトに配置します。
 
-## 5. Adobe Analytics レポートを表示してAdobe Analytics統合をテストする
+## &#x200B;5. Adobe Analytics レポートを表示してAdobe Analytics統合をテストする
 
 Adobe Analytics レポートを表示するには、Adobe Analytics Web サイトにアクセスします。「レポート」ページでは、データを表示し、グラフとチャートを生成して様々なビューアでユーザーアクティビティを測定できます。
 

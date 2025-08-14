@@ -1,6 +1,6 @@
 ---
-title: Dynamic Mediaの制限
-description: 画像セットやスピンセットを作成したり、PDFをアップロードしたりする際の、ベストプラクティスと適用される制限について説明します。 また、Dynamic Mediaでサポートしていない web ブラウザーとオペレーティングシステムの組み合わせについても説明します。」
+title: Dynamic Media の制限
+description: 画像セットやスピンセットを作成したり、PDFをアップロードしたりする際の、ベストプラクティスと適用される制限について説明します。 また、Dynamic Media でサポートしていない web ブラウザーとオペレーティングシステムの組み合わせについても説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,18 +17,18 @@ ht-degree: 1%
 
 ---
 
-# Dynamic Mediaの制限
+# Dynamic Media の制限
 
-次の節では、Dynamic Mediaの制限について説明します。
+次の節では、Dynamic Media の制限について説明します。
 
 このトピックには、次のセクションが含まれます。
 
-* [アセットタイプに関するDynamic Mediaのベストプラクティスと適用される制限](#best-practice-enforced-limits)
-* [Dynamic Mediaでサポートしていない web ブラウザーとオペレーティングシステムの組み合わせ](#unsupported-browser-os)
+* [アセットタイプに関する Dynamic Media のベストプラクティスと適用される制限](#best-practice-enforced-limits)
+* [Dynamic Media でサポートしていない web ブラウザーとオペレーティングシステムの組み合わせ](#unsupported-browser-os)
 
-## アセットタイプに関するDynamic Mediaのベストプラクティスと適用される制限 {#best-practice-enforced-limits}
+## アセットタイプに関する Dynamic Media のベストプラクティスと適用される制限 {#best-practice-enforced-limits}
 
-スピンセットや画像セットを作成したり、ページ抽出用にPDFをアップロードしたりする場合、Adobeでは次のベストプラクティスを推奨します。 Adobeでは、次の制限も適用されます。
+Adobeでは、スピンセットや画像セットを作成したり、ページ抽出用に PDF をアップロードしたりする際、次のベストプラクティスを推奨します。 Adobeでは、次の制限も適用されます。
 
 | アセット：制限タイプ | ベストプラクティス | 適用される制限 |
 | --- | --- | --- |
@@ -36,17 +36,17 @@ ht-degree: 1%
 | **すべてのセット**:1 セットあたりの重複アセット数 | 重複なし | 20‡ |
 | **すべてのセット**:1 セットあたりの最大アセット数 | 1 セットあたり 5～10 個の画像 | 1000 |
 | **スピンセット**:2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
-| **PDF**：抽出で考慮されるPDFの最大ページ数 |  | 100 （すべてのPDF用） |
+| **PDF**：抽出対象となるPDFの最大ページ数 |  | 100 （すべての PDF 用） |
 
 ‡セットに重複したアセットを含めないでください。 1 つのアセットに対する重複の上限は 20 個です。 そのアセットに対して別の重複を（そのセット内で）追加した場合、リクエストでエラーが発生するか、重複が無視されます。
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 
-## Dynamic Mediaでサポートしていない web ブラウザーとオペレーティングシステムの組み合わせ {#unsupported-browser-os}
+## Dynamic Media でサポートしていない web ブラウザーとオペレーティングシステムの組み合わせ {#unsupported-browser-os}
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Mediaでは、次の web ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
+Adobe Dynamic Media では、次の web ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
 
 * Internet Explorer 11 と Windows 7
 * Internet Explorer 11 と Windows 8.1
@@ -63,7 +63,7 @@ AdobeDynamic Mediaでは、次の web ブラウザーとオペレーティング
 <!-- CQDOC-19433 (original ticket)
 and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-2024 年 4 月 30 日（PT）より、AdobeDynamic Mediaは、以下のサポートを終了します。
+2024 年 4 月 30 日（PT）より、Adobe Dynamic Media は、以下のサポートを終了します。
 
 * SSL （Secure Socket Layer） 2.0
 * SSL 3.0

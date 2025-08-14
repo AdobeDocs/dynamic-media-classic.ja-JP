@@ -23,9 +23,9 @@ ht-degree: 27%
 
 Adobe Dynamic Media Classic Video SEO を使用すると、ビデオメタデータを適用して、ビデオの説明を検索エンジンに提供できます。 Adobe Dynamic Media Classicでは、ビデオサイトマップと mRSS フィードを作成できます。 検索エンジンにビデオ情報を送信するには、次の標準 XML ファイルを使用します。
 
-* **ビデオサイトマップ**：サイト上のビデオコンテンツの場所と内容をGoogleに正確に伝えます。 そのため、ビデオはGoogleで完全に検索できます。 例えば、ビデオサイトマップでビデオの実行時間とカテゴリを指定できます。ビデオサイトマップについて詳しくは、「[ ビデオサイトマップとビデオサイトマップの代替 ](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1)」を参照してください。
+* **ビデオサイトマップ**：サイト上のビデオコンテンツの場所と内容をGoogleに正確に伝えます。 そのため、ビデオはGoogleで完全に検索できます。 例えば、ビデオサイトマップでビデオの実行時間とカテゴリを指定できます。ビデオサイトマップについて詳しくは、「[ ビデオサイトマップとビデオサイトマップの代替 ](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)」を参照してください。
 
-* **mRSS （Media Really Simple Syndication）フィード**：コンテンツ発行者がメディアファイルを Yahoo！にフィードするために使用します。 ビデオ検索にフィードするために使用されます。mRSS フィードについて詳しくは、「[ ビデオサイトマップとビデオサイトマップの代替 ](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1)」を参照してください。
+* **mRSS （Media Really Simple Syndication）フィード**：コンテンツ発行者がメディアファイルを Yahoo！にフィードするために使用します。 ビデオ検索にフィードするために使用されます。mRSS フィードについて詳しくは、「[ ビデオサイトマップとビデオサイトマップの代替 ](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)」を参照してください。
 
 >[!NOTE]
 >
@@ -65,15 +65,15 @@ Adobe Dynamic Media Classicは、各ビデオと共に保存されるメタデ�
 
 **[!UICONTROL 自動/手動モード]** ドロップダウンリストで、自動生成するか手動生成するかを選択します。
 
-* **自動モード**:Adobe Dynamic Media Classicでは、毎日 1 つのビデオサイトマップ、メディア RSS （mRSS）フィード、またはその両方が自動的に生成されます。 「**[!UICONTROL Publish用にマーク]**」オプションをオンにすると、Adobe Dynamic Media Classicが生成する XML ファイルを公開用に自動的にマークできます。
+* **自動モード**:Adobe Dynamic Media Classicでは、毎日 1 つのビデオサイトマップ、メディア RSS （mRSS）フィード、またはその両方が自動的に生成されます。 **[!UICONTROL 公開用にマーク]** オプションをオンにすると、Adobe Dynamic Media Classicで生成される XML ファイルを公開用に自動的にマークできます。
 
-   * **Publish用にマーク** 生成された XML ファイルを公開するためのマークです。
+   * **公開用にマーク** 生成された XML ファイルを公開するためにマークします。
 
 * **手動モード**: ビデオ検索最適化の設定画面で「**[!UICONTROL 生成]**」または「**[!UICONTROL 保存して生成]**」を選択すると、Adobe Dynamic Media Classicは、ビデオサイトマップ、メディア RSS （mRSS）フィード、またはその両方を生成します。 以下のオプションも同様に選択します。
 
    * **その他の設定なし**：生成された XML ファイルを公開するようにマークしません。
 
-   * **Publish用にマーク**：生成された XML ファイルを公開するためのマークです。
+   * **公開用にマーク**：生成された XML ファイルを公開するためのマークです。
 
    * **部分生成を許可**：すべてのビデオの完全なメタデータ情報が含まれていない XML ファイルを、検索エンジンが却下することがあります。 このオプションは、一部のビデオでメタデータを使用できない場合でも XML ファイルを生成します。 この場合、レポート画面に警告が登録されます。XML ファイルを書き出した後で、欠落している情報を手動で処理する場合は、このオプションを選択します。
 
@@ -98,7 +98,7 @@ Adobe Dynamic Media Classicは、各ビデオと共に保存されるメタデ�
 
 >[!NOTE]
 >
->検索エンジンに送信する前に、ビデオサイトマップまたは mRSS フィードをPublishします。 ビデオサイトマップおよびメディア RSS（mRSS）フィードファイルは、会社のルートフォルダに保存されます。必要に応じてこれらの XML ファイルを公開用にマークし、「**[!UICONTROL Publish]**」を選択します。
+>検索エンジンに送信する前に、ビデオサイトマップまたは mRSS フィードを公開します。 ビデオサイトマップおよびメディア RSS（mRSS）フィードファイルは、会社のルートフォルダに保存されます。必要に応じてこれらの XML ファイルを公開用にマークし、「**[!UICONTROL 公開]**」を選択します。
 
 ## 検索エンジンへのビデオサイトマップおよび mRSS フィードファイルの送信 {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 

@@ -22,7 +22,7 @@ ht-degree: 51%
 
 >[!IMPORTANT]
 >
->2023 年 5 月 1 日（PT）以降、Dynamic Mediaの UGC アセットは、アップロード日から最大 60 日間使用できます。 60 日後にアセットが削除されます。
+>2023 年 5 月 1 日（PT）以降、Dynamic Media の UGC アセットは、アップロード日から最大 60 日間使用できます。 60 日後にアセットが削除されます。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 51%
 
 ## 共有秘密鍵のリクエスト {#requesting-a-shared-secret-key}
 
-Admin Consoleを使用して *shared-secret key* をリクエストし、サポートケースを作成します。[&#128279;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) テクニカルサポートケースでは、共有秘密鍵をリクエストします。
+Admin Consoleを使用して *shared-secret key* をリクエストし、サポートケースを作成します。[](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) テクニカルサポートケースでは、共有秘密鍵をリクエストします。
 
 電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。Adobe Dynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
 
@@ -138,9 +138,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 [ アップロード時の画像の微調整オプション ](image-editing-options-upload.md#image-editing-options-at-upload) のノックアウトの背景を参照してください。
 * アップロードするファイルの名前。
 
-上記のフォームに関連付けられたHTMLのソース コードを表示するには、[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) を選んでください。
+上記のフォームに関連付けられたHTML ソースコードを確認するには、[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) を選択してください。
 
-Firefox で、ブラウザーウィンドウ内を右クリックし、「**[!UICONTROL ページSourceを表示]**」を選択します。 このコードは、対応する URL クエリ文字列と、ユーザーが **[!UICONTROL 送信]** を選択したときに実行されるPOSTメソッドを示しています。
+Firefox で、ブラウザーウィンドウ内を右クリックし、「**[!UICONTROL ページSourceを表示]**」を選択します。 このコードは、対応する URL クエリ文字列と、ユーザーが **[!UICONTROL 送信]** を選択したときに実行される POST メソッドを示します。
 
 Internet Explorer で XML 応答を表示するには、**[!UICONTROL 表示]** > **[!UICONTROL Source]** に移動します。 Firefox で XML 応答を表示するには、**[!UICONTROL ツール]**/**[!UICONTROL ブラウザーツール]**/**[!UICONTROL Web 開発者ツール]** に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
 

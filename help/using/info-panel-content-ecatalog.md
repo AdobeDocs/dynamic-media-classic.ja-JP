@@ -51,7 +51,7 @@ Adobe Dynamic Media Classicの以下の機能を使用して、InfoPanel の設�
    * データが 1 日中頻繁に更新される場合は、数値を小さくします。
    * データが比較的安定しており、1 日を通じて頻繁に更新する必要がない場合は、この値を大きくします。 初期設定は 10 時間です。
 
-1. 「**[!UICONTROL Publish]**」を選択します。
+1. **[!UICONTROL 公開]** を選択します。
 
 ## eCatalogs の情報パネルのソースコンテンツの読み込み {#import-source-content-for-the-info-panel-in-ecatalogs}
 

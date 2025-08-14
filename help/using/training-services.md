@@ -1,6 +1,6 @@
 ---
 title: Adobe トレーニングサービス
-description: Adobe Dynamic Media ClassicのAdobeトレーニングサービスの詳細を説明します。
+description: Adobe Dynamic Media ClassicのAdobe トレーニングサービスの詳細を説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -25,7 +25,7 @@ Dynamic Media Classicでは、ビデオトレーニング、インストラク�
 
 Adobe トレーニングサービスは、お客様のニーズに合わせてカスタマイズされた詳細なクラスルーム形式のトレーニングを提供しています。トレーニングには、地域の講義形式のクラスルーム、Web ベースのセッション、カスタマイズしたオンサイトワークショップがあります。地域のクラスはすべてのお客様が利用でき、北米および EMEA の各地で定期的に開催されています。カスタムセッションは、初めて使用するユーザから熟練ユーザ、エンドユーザ、管理者、IT 担当者向けにカスタマイズすることができます。
 
-[Adobeトレーニングサービスを参照してください ](https://learning.adobe.com/)
+[Adobe トレーニングサービス ](https://learning.adobe.com/) を参照
 
 ## デモ
 

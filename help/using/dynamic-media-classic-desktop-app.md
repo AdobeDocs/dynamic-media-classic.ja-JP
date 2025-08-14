@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # 提供開始：Adobe Dynamic Media Classic デスクトップアプリケーション {#dynamic-media-classic-desktop-app}
 
-Adobe Dynamic Media Classic ユーザーは、ブラウザーのAdobeFlashテクノロジーに依存しなくなった新しいデスクトップアプリエクスペリエンスにアクセスできるようになりました。
+Adobe Dynamic Media Classic ユーザーは、ブラウザーのAdobe Flash テクノロジーに依存しなくなった新しいデスクトップアプリエクスペリエンスにアクセスできるようになりました。
 
 この新しいアプリは、Windows® とmacOSで利用できるようになりました。
 
 >[!IMPORTANT]
 >
->Adobeでは、2020 年 10 月 1 日（PT）までに新しいAdobe Dynamic Media Classic デスクトップアプリケーションをインストールすることをお勧めします。 これにより、2020 年 12 月 31 日（PT）にAdobeFlash Playerが廃止される前に、スムーズに移行できます。 その日を過ぎると、ブラウザーバージョンのAdobe Dynamic Media Classic ユーザーインターフェイス（製品で「Adobe Dynamic Media Classic」というラベルが付いています）にログオンできなくなります。
+>Adobeでは、2020 年 10 月 1 日（PT）までに新しいAdobe Dynamic Media Classic デスクトップアプリケーションをインストールすることをお勧めします。 これにより、2020 年 12 月 31 日（PT）にAdobe Flash Player が非推奨（廃止予定）になる前に、スムーズに移行できます。 その日を過ぎると、ブラウザーバージョンのAdobe Dynamic Media Classic ユーザーインターフェイス（製品で「Adobe Dynamic Media Classic」というラベルが付いています）にログオンできなくなります。
 
 [ 新しく利用可能になったAdobe Dynamic Media Classicへのログイン ](/help/using/new-ui-2020.md) については、FAQ を参照してください。
 
@@ -47,9 +47,9 @@ Adobe Dynamic Media Classic デスクトップアプリケーション内のア�
 ## 最新リリース（20.22.1）の修正 {#release-jan2022}
 
 * 画像を編集する際に、「**[!UICONTROL 保存]** ボタンが機能しませんでした。
-* セットエディターで、「**[!UICONTROL Assetsを追加]** パネルにアセットをスクロールすると、**[!UICONTROL 閉じる]**、**保存** および **[!UICONTROL 名前を付けて保存]** ボタンが無効になります。
+* セットエディターで、「**[!UICONTROL Assetsを追加]** パネルにアセットをスクロールすると、**[!UICONTROL 閉じる]**、**[!UICONTROL 保存]** および **[!UICONTROL 名前を付けて保存]** ボタンが無効になります。
 * ビデオの詳細表示の **[!UICONTROL 再生]** ボタンが機能しませんでした。
-* macOS Monterey の実行時に、**[!UICONTROL ユーザー名]** フィールドと **[!UICONTROL パスワード]** フィールドに「`d`」と「`e`」を入力できなかった。
+* macOS Monterey の実行時に、`d` ユーザー名 `e` フィールドと **[!UICONTROL パスワード]** フィールドに「**[!UICONTROL 」と「]**」を入力できなかった。
 * 残りの Analytics API をバージョン 2.0 に移行しました。
 
 ## リリース 20.21.3 の修正点 {#release-sept2021}
@@ -67,10 +67,10 @@ Adobe Dynamic Media Classic デスクトップアプリケーション内のア�
 ## リリース 20.21.2 の修正点 {#minor-release}
 
 * 20.21.1 での既知の制限事項：ログイン画面の **[!UICONTROL サーバー]** ドロップダウンリストが空でした。
-* **[!UICONTROL アップロードジョブオプション]** で、**[!UICONTROL Photoshop オプション]** のデフォルトのレイヤー名の値は、**[!UICONTROL Photoshopとレイヤー名]** になりました。 PSDファイル内のレイヤーを別々の画像としてアップロードします。
-   * 以前のデフォルトの **[!UICONTROL レイヤー名]** では、PSDファイル内のレイヤー名またはレイヤー番号に従って画像に名前が付けられました。 PSDファイル内のレイヤー名がデフォルトのPhotoshop レイヤー名であった場合、レイヤー番号が使用されていました。
-   * 新しいデフォルトの **[!UICONTROL Photoshopとレイヤー名]** では、PSDファイルの後にレイヤー名またはレイヤー番号を付けた名前になります。 PSDファイル内のレイヤー名がデフォルトのPhotoshop レイヤー名である場合、レイヤー番号が使用されます。
-   * Adobe Dynamic Media Classicのレイヤーイメージには一意の名前が付けられているため、既存のPSDやテンプレート（元のPSDファイルで共有されているレイヤー名）は更新されません。
+* **[!UICONTROL アップロードジョブオプション]** で、**[!UICONTROL Photoshop オプション]** のデフォルトのレイヤー名の値は、**[!UICONTROL Photoshopとレイヤー名]** になりました。 PSD ファイル内のレイヤーを別々の画像としてアップロードします。
+   * 以前のデフォルトの **[!UICONTROL レイヤー名]** では、PSD ファイル内のレイヤー名またはレイヤー番号に従って画像に名前が付けられていました。 PSD ファイル内のレイヤー名がデフォルトのPhotoshop レイヤー名であった場合、レイヤー番号が使用されていました。
+   * 新しいデフォルトの **[!UICONTROL Photoshopとレイヤー名]** では、画像はPSD ファイルの後にレイヤー名またはレイヤー番号を付けた名前になります。 PSD ファイル内のレイヤー名がデフォルトのPhotoshop レイヤー名である場合、レイヤー番号が使用されます。
+   * Adobe Dynamic Media Classicのレイヤーイメージには一意の名前が付けられているので、既存のPSDやテンプレート（元のPSD ファイルで共有されるレイヤー名）は更新されません。
 * アセットの壊れたサムネール。
 
 ## リリース 20.21.1 の修正 {#latest-fixes-desktop-app}
@@ -233,14 +233,14 @@ Windows® 上で最新バージョンのAdobe Dynamic Media Classic デスクト
 
 ## Adobe Dynamic Media Classic デスクトップアプリケーションの使用に関するビデオウォークスルー {#dmc-app-video-walk-through}
 
-Adobe Dynamic Media Classic デスクトップアプリケーションの使用方法に関する [ ビデオウォークスルー ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長さ：2 分 36 秒）を視聴します。
+Adobe Dynamic Media Classic デスクトップアプリケーションの使用方法に関する [ ビデオウォークスルー ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長さ：2 分 36 秒）を視聴します。
 
 ## デスクトップアプリケーションを使用した、コンピューター上の画像キャッシュとアセットキャッシュのクリア {#clear-cache}
 
 1. Adobe Dynamic Media Classic デスクトップアプリケーションの右上隅付近で、**[!UICONTROL 設定]**/**[!UICONTROL 個人設定]** をタップします。
 1. **[!UICONTROL 個人用セットアップ]** ページの **[!UICONTROL デスクトップ]** 見出しの下で、次のいずれかの操作を行います。
-   * AdobeのDynamic Mediaでキャッシュされたすべての画像ファイルをコンピューターから削除するには、**[!UICONTROL 画像キャッシュをクリア]** をタップし、**[!UICONTROL OK]** をタップします。
-   * AdobeのDynamic Mediaでキャッシュされたアセットファイルをすべてコンピューターから削除するには、「**[!UICONTROL アセットキャッシュをクリア]**」をタップし、「**[!UICONTROL OK]**」をタップします。
+   * Adobe Dynamic Media でキャッシュされたすべての画像ファイルをコンピューターから削除するには、**[!UICONTROL 画像キャッシュをクリア]** をタップし、**[!UICONTROL OK]** をタップします。
+   * Adobe Dynamic Media でキャッシュされたすべてのアセットファイルをコンピューターから削除するには、「**[!UICONTROL アセットキャッシュをクリア]**」をタップし、「**[!UICONTROL OK]**」をタップします。
 1. ページの右下隅にある「**[!UICONTROL 閉じる]** をタップします。
 
 ### 画像キャッシュとアセットキャッシュの手動消去
@@ -271,11 +271,11 @@ Adobe Dynamic Media Classic デスクトップアプリケーションの使用�
 
 ## ヒントとテクニック
 
-**_Adobe Dynamic Media Classicのランディングページにメディアの買い物かごパネルが表示されません。_**<br>Adobe Dynamic Media Classicで、**[!UICONTROL 設定/個人設定&#x200B;]**&#x200B;をタップします。 「ブラウザー」セクションで、「**[!UICONTROL MediaPortal 機能を表示&#x200B;]**」が選択（オン）されていることを確認します。**[!UICONTROL 保存/閉じる&#x200B;]**&#x200B;をタップします。
+**_Adobe Dynamic Media Classicのランディングページにメディアの買い物かごパネルが表示されません。_**<br>Adobe Dynamic Media Classicで、**[!UICONTROL 設定/個人設定&#x200B;]**をタップします。 「ブラウザー」セクションで、「**[!UICONTROL MediaPortal 機能を表示&#x200B;]**」が選択（オン）されていることを確認します。**[!UICONTROL 保存/閉じる&#x200B;]**をタップします。
 
-**_アセットのPublishの状態（緑色のインジケーター）が正しく反映されていません。_**<br>ブラウザーユーザーインターフェイスで、アセットの正しい公開状態を確認するには、UI への再ログインが必要でした。 デスクトップアプリケーションのAdobeで、「**[!UICONTROL なし&#x200B;]**」ボタンの右側にあるツールバーの&#x200B;**[!UICONTROL 更新&#x200B;]**&#x200B;アイコンが導入されました。**[!UICONTROL 更新&#x200B;]**&#x200B;アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザー UI の場合のように、再ログオンは必要ありません。
+**_アセットの公開状態（緑色のインジケーター）が正しく反映されていない。_**<br>ブラウザーユーザーインターフェイスで、アセットの正しい公開状態を確認するには、UI への再ログインが必要でした。 デスクトップアプリケーションで、Adobeのツールバーの「**[!UICONTROL 何も選択しない&#x200B;]**ボタンの右側にある**[!UICONTROL 更新&#x200B;]**アイコンが導入されました。**[!UICONTROL 更新&#x200B;]**アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザー UI の場合のように、再ログオンは必要ありません。
 
 ![ 更新アイコン ](/help/using/assets/refresh-icon1.png)
 *更新アイコン*
 
-**_デスクトップアプリケーションでバッチセットプリセットが機能しません。_**<br>アップロード&#x200B;**[!UICONTROL ジョブオプション/バッチセットプリセット&#x200B;]**&#x200B;をタップします。 関連する&#x200B;**[!UICONTROL バッチセットプリセット&#x200B;]**&#x200B;が有効になっていることを確認します。**[!UICONTROL アップロードを保存して送信&#x200B;]**&#x200B;をクリックします。
+**_デスクトップアプリケーションでバッチセットプリセットが機能しません。_**<br>アップロード**[!UICONTROL ジョブオプション/バッチセットプリセット&#x200B;]**をタップします。 関連する**[!UICONTROL バッチセットプリセット&#x200B;]**が有効になっていることを確認します。**[!UICONTROL アップロードを保存して送信&#x200B;]**をクリックします。

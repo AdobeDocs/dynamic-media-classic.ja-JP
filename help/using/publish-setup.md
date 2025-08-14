@@ -1,6 +1,6 @@
 ---
 title: 公開設定
-description: Publish設定を使用すると、Adobe Dynamic Media Classic サーバーから web サイトやアプリケーションにアセットがデフォルトでどのように配信されるかを指定できます。
+description: 公開設定を使用すると、Adobe Dynamic Media Classic サーバーから web サイトやアプリケーションにアセットがデフォルトでどのように配信されるかを指定できます。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,15 +18,15 @@ ht-degree: 30%
 
 # 公開設定 {#publish-setup}
 
-Publishの設定ページの設定は、Adobe Dynamic Media Classic サーバーから web サイトまたはアプリケーションにアセットがデフォルトでどのように配信されるかを決定します。 設定が指定されていない場合、Adobe Dynamic Media Classic サーバーはPublish設定ページのデフォルト設定に従ってアセットを配信します。 例えば、解像度属性を含まない画像を配信リクエストすると、Image Server ページに「デフォルトのオブジェクト解像度」設定の画像が生成されます。
+公開設定ページの設定によって、Adobe Dynamic Media Classic サーバーから web サイトまたはアプリケーションにアセットがデフォルトでどのように配信されるかが決まります。 設定が指定されていない場合、Adobe Dynamic Media Classic サーバーは公開設定ページのデフォルト設定に従ってアセットを配信します。 例えば、解像度属性を含まない画像を配信リクエストすると、Image Server ページに「デフォルトのオブジェクト解像度」設定の画像が生成されます。
 
 管理者は、Image Server、画像レンダラーおよびビネットページのデフォルト設定を変更して、サーバーからアセットを配信するためのデフォルト設定を確立することができます。
 
-Publish設定のページを開くには、**[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL Publish設定]** に移動します。
+公開設定のページを開くには、**[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 公開設定]** に移動します。
 
 >[!NOTE]
 >
->Publish設定ページは、経験豊富な web サイト開発者やプログラマーが使用します。 Adobe Dynamic Media Classicでは、これらのページの設定を変更するユーザーが、Adobe Dynamic Media Classic、HTTP プロトコルの標準と規則、基本的な画像技術に精通していることを前提としています。
+>公開設定ページは、経験豊富な web サイト開発者およびプログラマーが使用します。 Adobe Dynamic Media Classicでは、これらのページの設定を変更するユーザーが、Adobe Dynamic Media Classic、HTTP プロトコルの標準と規則、基本的な画像技術に精通していることを前提としています。
 
 ## Image Server {#image-server}
 
@@ -34,7 +34,7 @@ Image Server ページでは、Image Server から画像を配信するための
 
 これらの設定の変更は、Adobe Dynamic Media Classic サポート担当者の協力が必要です。
 
-* **[!UICONTROL カタログ管理]**：これらの設定は、Adobe Dynamic Media Classicとカタログのやり取りを決定します。 ほとんどの web サーバーとは異なり、Dynamic Media Image Server の URL 呼び出しは、画像ファイルの適切な場所ではなく、マニフェストまたはカタログファイルに送られます。 カタログファイル（eCatalog と混同しないこと）には、Image Server に公開されるすべてのコンテンツのリストが含まれます。 また、各画像へのパスも含まれます。 Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
+* **[!UICONTROL カタログ管理]**：これらの設定は、Adobe Dynamic Media Classicとカタログのやり取りを決定します。 ほとんどの Web サーバーとは異なり、Dynamic Media Image Server の URL 呼び出しは、画像ファイルの適切な場所ではなく、マニフェストまたはカタログファイルに送られます。 カタログファイル（eCatalog と混同しないこと）には、Image Server に公開されるすべてのコンテンツのリストが含まれます。 また、各画像へのパスも含まれます。 Digimarc ID がある場合は、「Digimarc ユーザ情報」セクションにユーザ情報を入力します。
 
 * **[!UICONTROL リクエスト属性]**：この設定では、サーバーから配信可能な画像に制限を適用します。 例えば、*最大* **[!UICONTROL 返信画像のサイズ制限]** は **[!UICONTROL 幅]** 5000 および **[!UICONTROL 高さ]** 5000 です。
 
@@ -53,7 +53,7 @@ Image Server ページでは、Image Server から画像を配信するための
   例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。この機能を実現するには、ロケールマップ文字列を指定します。次に、ビューアのプリセットでツールヒントテキストを編集します。 必要な言語の翻訳済みテキスト文字列を追加するだけです。
 
   >[!NOTE]
-  > ローカライゼーションサポートオプションを設定するには、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) サポートケースでは、設定ヘルプをリクエストします。
+  > ローカライゼーションサポートオプションを設定するには、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) サポートケースでは、設定ヘルプをリクエストします。
 
   **[!UICONTROL 「ローカリゼーションサポート」]**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
 
@@ -61,7 +61,7 @@ Image Server ページでは、Image Server から画像を配信するための
 
 >[!NOTE]
 >
->「ロケールマップ」フィールドなど、Adobe Dynamic Media Classicにローカライゼーションサポートオプションを設定する場合は、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) サポートケースでは、設定ヘルプをリクエストします。
+>「ロケールマップ」フィールドなど、Adobe Dynamic Media Classicにローカライゼーションサポートオプションを設定する場合は、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) サポートケースでは、設定ヘルプをリクエストします。
 
 Adobe Dynamic Media Classicの一般的な使用方法は、e-Commerce web サイトで商品画像を管理することです。 国際的なビジネスでは、同じ製品のアセットの表示が国によって異なるという課題に直面します。通常、違いはメディア全体のいくつかの部分のためのものです。 国ごとに全ての資産をコピーし、その違いだけを上書きすることで、このような違いに対処するのは大変な労力であり、単一の主要資産の比喩とは矛盾します。 このようなアセットの相違によって、オーディオトラックが異なる国別のビデオから、製品に使用される電源コードの違いという微妙ながらも重要な違いまで対応できます。Adobe Dynamic Media Classicでは、基本的な検索メカニズムを使用します。 Image Server が検索するアセットのサフィックスの順序を定義します（必要なロケールから始めます）。
 
@@ -109,7 +109,7 @@ Adobe Dynamic Media Classicと画像サービングには、画像と静的コ�
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Image Server が http 呼び出しを受信すると、`locale=` パラメーターは、**[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL Publish設定]**/**[!UICONTROL Image Server]**/**[!UICONTROL ローカリゼーションサポート]** グループの `localeMap` フィールドを介して解析されます。
+Image Server が http 呼び出しを受信すると、`locale=` パラメーターは、`localeMap` 設定 **[!UICONTROL /]** アプリケーション設定 **[!UICONTROL /]** 公開設定 **[!UICONTROL /]** Image Server **[!UICONTROL /]** ローカライゼーションサポート **[!UICONTROL グループの]** フィールドを介して解析されます。
 
 ロケールマップフィールドには、パイプ記号（|）で区切られたエントリのリストが含まれています。
 
@@ -186,7 +186,7 @@ Image Server は、要求されたロケールの選択肢を 1 つずつ検索�
 
 ヨーロッパ、中東、北米などロケールをグループ化し、肌の露出度など地域の基準に対処することが望ましい場合が多くあります。多層検索を使用して、このような効果を実現することができます。
 
-例えば、西および中東での使用に対応するコレクションをサポートするとします。 どちらのコレクションも汎用の画像コレクションに基づいて作成し、いくつかの画像を追加または変更します。その後、特定のロケールに対して、両方のコレクションがさらに絞り込まれます。 例えば、`w1` と `w3` の画像を共有する場合を除き、中東の 2 つのバリアントには `m1, m2` を、西部の 3 つのロケールには `w1, w2,` と `w3` を使用します。 不明なロケールは汎用のコレクションのみにマッピングされ、ロケール固有の画像にはアクセスされません。マッピングは次のようになります。
+例えば、西および中東での使用に対応するコレクションをサポートするとします。 どちらのコレクションも汎用の画像コレクションに基づいて作成し、いくつかの画像を追加または変更します。その後、特定のロケールに対して、両方のコレクションがさらに絞り込まれます。 例えば、`m1, m2` と `w1, w2,` の画像を共有する場合を除き、中東の 2 つのバリアントには `w3` を、西部の 3 つのロケールには `w1` と `w3` を使用します。 不明なロケールは汎用のコレクションのみにマッピングされ、ロケール固有の画像にはアクセスされません。マッピングは次のようになります。
 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 

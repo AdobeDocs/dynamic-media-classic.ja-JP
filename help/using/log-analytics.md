@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Adobe Analyticsへのログオン{#log-in-to-adobe-analytics}
 
-Adobe Analyticsの Web サービスアクセスグループのメンバーであることを確認します。 Adobe Analytics レポートを設定し、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントと照合するには、ログインする前に行います。 このグループのメンバーは、指定されたレポートスイートのすべてのレポートにアクセスできます。 インターフェイスで設定されている権限に関係なく、Experience Cloudの web サービス API を使用して設定します。 グループにメンバーを追加するには、Adobe Analyticsで **[!UICONTROL 管理ツール]**/**[!UICONTROL User Management]**/**[!UICONTROL グループを編集]** に移動します。
+Adobe Analyticsの Web サービスアクセスグループのメンバーであることを確認します。 Adobe Analytics レポートを設定し、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントと照合するには、ログインする前に行います。 このグループのメンバーは、指定されたレポートスイートのすべてのレポートにアクセスできます。 インターフェイスで設定されている権限に関係なく、Experience Cloud Web サービス API を使用して設定します。 グループにメンバーを追加するには、Adobe Analyticsで **[!UICONTROL 管理ツール]**/**[!UICONTROL User Management]**/**[!UICONTROL グループを編集]** に移動します。
 
-ログイン時に、Experience Cloud組織 ID を入力して最新のビデオ分析実装を使用することもできます。 ID を入力しない場合でも、ビデオレポートは機能します。 ただし、Adobe Dynamic Media Classicの外部からのそのクライアントの他のデータと正しく統合されない可能性があります。
+ログインしたら、Experience Cloud組織 ID を入力して最新のビデオ分析実装を使用することもできます。 ID を入力しない場合でも、ビデオレポートは機能します。 ただし、Adobe Dynamic Media Classicの外部からのそのクライアントの他のデータと正しく統合されない可能性があります。
 
 >[!NOTE]
 >

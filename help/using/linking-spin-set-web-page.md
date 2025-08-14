@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Web ページへのスピンセットのリンク{#linking-a-spin-set-to-a-web-page}
 
-Web サイトおよびアプリケーションは、URL 文字列または埋め込みコードを介して、スピンセットを含むDynamic Media Image Server コンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。スピンセットの URL 文字列または埋め込みコードを web ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。
+Web サイトおよびアプリケーションは、URL 文字列または埋め込みコードを介して、スピンセットを含む Dynamic Media Image Server コンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。スピンセットの URL 文字列または埋め込みコードを web ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-title: HTML5 ビデオビューアの使用のベストプラクティス
+title: HTML5 ビデオビューアを使用する際のベストプラクティス
 description: HTML5 ビデオビューアを使用する際のベストプラクティスについて説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 Adobe Dynamic Media Classic HTML5 ビデオビューアプリセットは、堅牢なビデオプレーヤーです。 プレーヤーの設計面では、標準の web 開発ツールを使用してビデオプレーヤーの機能全体を作成できます。 例えば、ボタン、コントロールおよびカスタムのポスター画像背景を HTML5 と CSS を使用して設計し、顧客にカスタマイズした外観を提供することができます。
 
-ビューアの再生側では、ブラウザーのビデオ機能を自動的に検出します。 その後、アダプティブビデオストリーミングとも呼ばれる HLS （HTTP ライブストリーミング）を使用してビデオを提供します。 または、その配信方法が使用できない場合は、代わりにHTML5 プログレッシブが使用されます。
+ビューアの再生側では、ブラウザーのビデオ機能を自動的に検出します。 その後、アダプティブビデオストリーミングとも呼ばれるHLS（HTTP ライブストリーミング）を使用してビデオを提供します。 または、その配信方法が使用できない場合は、代わりにHTML5 プログレッシブが使用されます。
 
 単一のプレーヤーに以下の能力を組み合わせる：
 
@@ -31,15 +31,15 @@ Adobe Dynamic Media Classic HTML5 ビデオビューアプリセットは、堅�
 
 リッチメディアコンテンツの配信範囲をデスクトップユーザーとモバイルユーザーに拡大できます。 また、ビデオエクスペリエンスを確実に効率化できます。
 
-Adobeビューアリファレンスガイドの [HTML5 ビューアについて ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) も参照してください。
+Adobe ビューアリファレンスガイドの [HTML5 ビューアについて ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) も参照してください。
 
-[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
+[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
 ## Adobe Dynamic Media Classic ビデオビューアを使用した、デスクトップコンピューターおよびモバイルデバイスでのビデオ再生 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 デスクトップおよびモバイルへのアダプティブビデオストリーミングの場合、ビットレートの切り替えに使用されるビデオは、アダプティブビデオセット内のすべての MP4 ビデオに基づいています。
 
-ビデオ再生は、HLS ビデオまたはプログレッシブビデオを使用して行われます。 HLS （HTTP ライブストリーミング）は、アダプティブビデオストリーミングのApple標準で、ネットワーク帯域幅に基づいて再生を自動調整します。 また、ビデオの残りがダウンロードされるまで待たなくても、ビデオ内の任意のポイントを「シーク」できます。 [HTTP ライブストリーミング ](https://developer.apple.com/streaming/) も参照してください。 プログレッシブビデオは、ユーザーのデスクトップ画面やモバイルデバイスにダウンロードしてローカルに保存することで配信されます。
+ビデオの再生は、HLSまたはプログレッシブビデオを使用して行われます。 HLS（HTTP ライブストリーミング）は、ネットワーク帯域幅に基づいて再生を自動調整する、アダプティブビデオストリーミング用のApple標準です。 また、ビデオの残りがダウンロードされるまで待たなくても、ビデオ内の任意のポイントを「シーク」できます。 [HTTP ライブストリーミング ](https://developer.apple.com/streaming/) も参照してください。 プログレッシブビデオは、ユーザーのデスクトップ画面やモバイルデバイスにダウンロードしてローカルに保存することで配信されます。
 
 デスクトップコンピューターおよびモバイルデバイスでAdobe Dynamic Media Classic ビデオビューアを使用してビデオを再生する場合の、デバイス、ブラウザーおよび再生方法を次の表に示します。
 

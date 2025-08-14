@@ -34,7 +34,7 @@ Adobe Dynamic Media Classicの設定ページを使用して、個人設定を�
 
 >[!MORELIKETHIS]
 >
->* [ 基本的な設定のトレーニングビデオ ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [ 基本的な設定のトレーニングビデオ ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 >* [Adobe Dynamic Media Classicのユーザーのロールと権限 ](administration-setup.md#user_administration)
 >* [画像プリセット](application-setup.md#image_presets)
 >* [ ビューアプリセット ](application-setup.md#viewer_presets)

@@ -63,5 +63,5 @@ Adobe Dynamic Media Classicで画像を切り抜くことができます。 シ�
 >[!MORELIKETHIS]
 >
 >* [ アップロード時の画像編集のオプション ](image-editing-options-upload.md#image-editing-options-at-upload)
->* [PDFファイルから空白を切り抜く ](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [PDF ファイルから空白を切り抜く ](pdfs.md#cropping_white_space_from_a_pdf_file)
 >* [PDFページの端から切り抜く ](pdfs.md#cropping_from_the_sides_of_pdf_pages)

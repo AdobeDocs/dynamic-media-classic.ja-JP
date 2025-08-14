@@ -41,7 +41,7 @@ ht-degree: 19%
 
 セキュアテストを使用すると、Adobe Dynamic Media Classicは、ステージング環境または内部アプリケーション用に専用の Image Server を設定します。 このサーバに対するあらゆる要求は、送信元 IP アドレスがチェックされます。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗の応答が返されます。 Adobe Dynamic Media Classic Company Administrator は、自社のセキュアテスト環境用の承認済み IP アドレスリストを設定します。
 
-元のリクエストの場所を確認する必要があるので、セキュアテストサービスのトラフィックは、パブリックなDynamic Media Image Server トラフィックのようにコンテンツ配信ネットワークを通じてルーティングされません。 セキュアテストサービスへのリクエストの待ち時間は、パブリックなDynamic Media Image Server に比べて若干長くなります。
+元のリクエストの場所を確認する必要があるので、セキュアテストサービスのトラフィックは、パブリック Dynamic Media Image Server トラフィックのようにコンテンツ配信ネットワークを通じてルーティングされません。 セキュアテストサービスへのリクエストの待ち時間は、パブリックな Dynamic Media Image Server に比べて若干長くなります。
 
 非公開のアセットは、セキュアテストサービスでは直ちに使用可能になり、公開の必要はありません。この方法では、公開されている Image Server にアセットを公開する前にプレビューを実行できます。
 
@@ -102,9 +102,9 @@ Last Modified Date:
 
  -->
 
-1. Adobeのカスタマーケアに問い合わせ、お使いのアカウントでセキュアテストを有効にするようリクエストしてください。
-1. Adobe Dynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL 設定]**/**[!UICONTROL 2&rbrace;Publish設定]**/Image Server **に移動します。**
-1. Image Server Publish ページの **[!UICONTROL `Publish Context`]** ドロップダウンリストで、「**[!UICONTROL 画像サービングをテスト]**」を選択します。
+1. Adobe カスタマーケアに問い合わせ、お使いのアカウントでセキュアテストを有効にするようリクエストしてください。
+1. Adobe Dynamic Media Classicのグローバルナビゲーションバーで、**[!UICONTROL 設定]**/**[!UICONTROL 公開設定]**/**[!UICONTROL Image Server]** に移動します。
+1. Image Server 公開ページの **[!UICONTROL `Publish Context`]** ドロップダウンリストで、「**[!UICONTROL 画像サービングをテスト]**」を選択します。
 1. 「Client Address Filter」で「**[!UICONTROL Add]**」を選択します。
 1. チェックボックスをオンにしてアドレスを有効にし、それぞれのテキストフィールドに IP アドレスとネットマスクを入力します。
 
@@ -115,19 +115,19 @@ Last Modified Date:
 1. 次のいずれかの操作を行います。
    * さらに IP アドレスを追加する必要がある場合は、前の 2 つの手順を繰り返します。
    * 次の手順に進みます。
-1. Image Server Publishページの左下で、「**[!UICONTROL 保存]**」を選択します
+1. Image Server 公開ページの左下にある「**[!UICONTROL 保存]**」を選択します
 1. 目的の画像をAdobe Dynamic Media Classic アカウントにアップロードします。
 
    [ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。
 
 1. 一部の画像が公開用にマークされており、他の画像がマークされていないことを確認し、公開ジョブを送信します。
 
-   [Publish ファイル ](publishing-files.md#publishing_files) を参照してください。
+   [ ファイルを公開 ](publishing-files.md#publishing_files) を参照してください。
 
 1. **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 一般設定]** に移動して、セキュアテストサービスの名前を決定します。
 1. アプリケーション全般設定ページのサーバグループの下で、**[!UICONTROL 「公開コンテキストのサーバ名のテスト」]**&#x200B;の右側にある名前を検索します。
 
-サーバー名がない場合またはサーバーへの URL が機能しない場合は、Adobeケアにお問い合わせください。
+サーバー名がない場合またはサーバーへの URL が機能しない場合は、Adobe ケアにお問い合わせください。
 
 ### Web サイトのバリエーションの準備
 

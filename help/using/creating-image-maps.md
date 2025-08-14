@@ -197,7 +197,7 @@ Javascript:loadProduct('$$');void(0);
 
 画像マップは、Adobe Acrobat や Adobe InDesign での eCatalog のデザイン中に作成できます。
 
-Adobe AcrobatまたはAdobe InDesignで、画像マップを表示する場所にハイパーリンク参照を作成し、画像マップの URL の場所を指定します。 PDFファイルをAdobe Dynamic Media Classicにアップロードする際に「リンクを抽出」オプションをオンにすると、リンクが画像マップに自動変換されます。
+Adobe AcrobatまたはAdobe InDesignで、画像マップを表示する場所にハイパーリンク参照を作成し、画像マップの URL の場所を指定します。 PDF ファイルをAdobe Dynamic Media Classicにアップロードする際に「リンクを抽出」オプションをオンにすると、リンクが画像マップに自動変換されます。
 
 詳しくは、Adobe InDesign ヘルプまたはAdobe Acrobat ヘルプを参照してください。
 
@@ -217,7 +217,7 @@ Adobe AcrobatまたはAdobe InDesignで、画像マップを表示する場所�
 1. 作成するすべての画像マップに対して手順 2 ～ 6 を繰り返します。
 1. ファイルを PDF として書き出します。
 1. PDFをAdobe Dynamic Media Classicにアップロードします。
-1. 「**[!UICONTROL PDFオプション]**」で、「**[!UICONTROL リンクを抽出]**」を選択します。
+1. 「**[!UICONTROL PDFのオプション]**」で、「**[!UICONTROL リンクを抽出]**」を選択します。
 
 ### Adobe Acrobat で画像マップを作成するには {#to-create-image-maps-in-adobe-acrobat}
 
@@ -234,4 +234,4 @@ Adobe AcrobatまたはAdobe InDesignで、画像マップを表示する場所�
 1. 「URL を編集」ボックスに画像マップの製品 ID を入力し、「**[!UICONTROL OK]**」を選択します。 （Adobe Dynamic Media Classicは、画像マップ URL テンプレートを使用して URL を完成させます）。
 1. 作成するすべての画像マップに対して手順 1 ～ 7 を繰り返します。
 1. ファイルを保存します。
-1. PDFをAdobe Dynamic Media Classicにアップロードし、PDFオプションから「リンクを抽出」を選択します。
+1. PDFをAdobe Dynamic Media Classicにアップロードし、PDF オプションから「リンクを抽出」を選択します。

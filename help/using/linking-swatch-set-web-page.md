@@ -48,7 +48,7 @@ ht-degree: 16%
 
 スウォッチセットをデプロイする最も一般的な方法は、Web ページに（ナビゲーションアイコンを介して）リンクを配置することです。 選択すると、リンクによって動的ページ（ASP または JSP）が起動され、ポップアップズームウィンドウにスウォッチセットが表示されます。 ズームリンクをクリックすると、実際のズーム機能を含むポップアップウィンドウが開きます。
 
-詳細とコードサンプルについては、[AdobeビューアリファレンスガイドのHTML5 ズームビューアの埋め込み ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) を参照してください。
+詳細とコードサンプルについて詳しくは、[Adobe ビューアリファレンスガイドのHTML5 ズームビューアの埋め込み ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) を参照してください。
 
 ## スウォッチセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -81,4 +81,4 @@ ht-degree: 16%
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [ 公開 ](publishing-files.md#publishing_files)

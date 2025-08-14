@@ -27,7 +27,7 @@ ht-degree: 45%
 
 パラメータは複数回参照できます。パラメータダイアログボックスの各コマンド用のコンボボックスを使用して、特定のコマンドに該当するパラメータを選択しますたとえば、`size=` コマンドでは、すべてのサイズ パラメータを使用できます。 パラメータ参照は、コンボボックスに既に存在する任意のパラメータに再割り当てすることと、コンボボックスに存在しない名前に変更することができます。後者の場合、名前は一意である必要があります。 それ以外の場合は、パラメーターが存在することを示すエラーが表示されます。 パラメーター参照が他の場所で参照されていない場合、パラメーター参照を削除すると、そのパラメーターは URL から削除されます。 テキストパラメーターのデフォルト値を変更すると、そのパラメーターへの参照がすべて更新されます。 更新は、レイヤーテーブル、テンプレートのレンダリングおよび URL で確認できます。 サイズ変更ハンドルを操作するか、プロパティパネルに値を入力してレイヤーの属性を変更すると、パラメーター値が更新され、パラメーターへのすべての参照が更新されます。 例えば、2 つのレイヤーのサイズを 1 つのパラメータでパラメータ化した場合、片方のレイヤーのサイズが変更されると両方のレイヤーサイズが更新されます。テンプレートをプレビューし、パラメータを変更すると、そのパラメータへのすべての参照が更新されます。
 
-[ テンプレートの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) トレーニングビデオも参照してください。
+[ テンプレートの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) トレーニングビデオも参照してください。
 
 ## レイヤーのパラメーター化 {#parameterizing-a-layer}
 

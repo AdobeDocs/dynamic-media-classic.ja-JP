@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3989'
+source-wordcount: '3981'
 ht-degree: 40%
 
 ---
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classicはビデオサムネールも生成します。 ビ�
 1. アップロードページで、「**[!UICONTROL デスクトップから]**」タブを選択します。
 1. アップロード ページの **[!UICONTROL アップロードするファイルを選択]** パネルで **[!UICONTROL 参照]** を選択し、MP4 ビデオファイルに移動して **[!UICONTROL 開く]** を選択します。
 1. 選択した **[!UICONTROL フォルダーの宛先]** パネルで、アップロードしたファイルのフォルダーを選択します。
-1. アップロード ページで、「**[!UICONTROL アップロード後のPublish]**」が選択されていることを確認します。
+1. アップロードページで、「アップロード後に公開 **[!UICONTROL がオンになっていることを確認]** ます。
 1. **[!UICONTROL アップロードを送信]** を選択します。
 
 *Adobe Dynamic Media Classicを使用してビデオをエンコードする場合*
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classicはビデオサムネールも生成します。 ビ�
    * オプション。 個々のエンコーディング設定を使用する場合は、「**[!UICONTROL シングルエンコーディングプリセット]**」を展開し、デスクトップ、モバイルおよびタブレットで使用するエンコーディングオプションを選択します。
 詳しくは、[デスクトップビデオエンコーディングプリセット](application-setup.md#desktop-video-encoding-presets)、[モバイルビデオエンコーディングプリセット](application-setup.md#mobile-video-encoding-presets)および[タブレットビデオエンコーディングプリセット](application-setup.md#tablet-video-encoding-presets)を参照してください。
 1. アップロードジョブオプション ダイアログボックスで、「**[!UICONTROL 保存]**」を選択します。
-1. アップロード ページで、「**[!UICONTROL アップロード後のPublish]**」が選択されていることを確認します。
+1. アップロードページで、「アップロード後に公開 **[!UICONTROL がオンになっていることを確認]** ます。
 1. アップロードページの右下隅で「**[!UICONTROL アップロードを送信]**」を選択します。
 
 *以前にアップロードしたビデオファイルを再エンコードする場合*
@@ -128,8 +128,8 @@ Adobe Dynamic Media Classicはビデオサムネールも生成します。 ビ�
 <!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
 
-* Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_jp). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
-* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_jp). -->
+* Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
+* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). -->
 
 ### ソースビデオファイル {#source-video-files}
 
@@ -168,7 +168,7 @@ For advice about video encoding, see the following:
 | 1.78 | 16:9 |
 | 0.56 | 9:16 |
 
-例えば、幅 1,440、高さ 1,080×ビデオの縦横比は 1,440/1,080 （1.33）になります。この場合、ビデオファイルをエンコードするには、縦横比が 4:3 のビデオエンコーディングプリセットを選択します。
+例えば、幅 1,440、高さ 1,080×ビデオの縦横比は 1,440/1,080 （1.33）になります。この場合、縦横比が 4 :3 のビデオエンコーディングプリセットを選択して、ビデオファイルをエンコードします。
 
 ### データレート {#data-rate}
 
@@ -277,7 +277,7 @@ Adobe Dynamic Media Classicでアップロードしてエンコードするビ�
 **MP4 H.264** 次の場合に MP4 ファイルを使用します。
 
 * デスクトップでの HTTP ダイナミックストリーミング
-* HLS （HTTP ライブストリーミング、Apple ストリーミングプロトコル）
+* HLS（HTTP ライブストリーミング、Apple ストリーミングプロトコル）
 * Android™、BlackBerry®、Windows® モバイルデバイスへのプログレッシブビデオ配信。
 
 その他のビデオ形式およびコーデックは、「プライマリビデオ」として扱われます。 このアセット分類は、この種のビデオはソースビデオファイルであり、デスクトップや携帯端末での配信再生には使用できないことを意味します。例えば、これらのタイプのビデオはAdobe Dynamic Media Classicでプレビューできません。 ビデオプレーヤーや web サイトなどで使用するコピー URL や埋め込みコードを生成することはできません。
@@ -378,4 +378,4 @@ Adobe Dynamic Media Classicでは、適切な再生エクスペリエンスを�
 >* [ クイックスタート：Adobe Dynamic Media Classicのビデオ ](quick-start-video.md#quick-start-video)
 >* [ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [ ビデオビューアプリセットの操作 ](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) トレーニングビデオ
+>* [ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) トレーニングビデオ

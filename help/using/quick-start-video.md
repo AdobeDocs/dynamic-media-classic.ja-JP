@@ -1,5 +1,5 @@
 ---
-title: 「クイックスタート：Adobe Dynamic Media Classicのビデオ」
+title: クイックスタート：Adobe Dynamic Media Classicのビデオ
 description: すぐに使い始めるのに役立つAdobe Dynamic Media Classicの概要とクイックスタート ビデオです。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,8 +12,8 @@ topic: Content Management
 level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 23%
+source-wordcount: '1441'
+ht-degree: 24%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic ビデオは、高品質のアダプティブビデ�
 
 [ アダプティブビデオプリセットのアクティベートとアクティベート解除 ](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets) を参照してください。
 
-[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) トレーニングビデオも参照してください。
+[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) トレーニングビデオも参照してください。
 
 生成されるアダプティブビデオセットには、MP4 ビデオが含まれます。
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic ビデオは、高品質のアダプティブビデ�
 >
 >プライマリビデオ、ソースビデオおよびその他のソースフォーマットのビデオは、アダプティブビデオセットに *追加されません*。
 
-* Univeral_HTML5_Video ビューア、Universal_HTML5_MixedMedia_dark ビューア、Universal_HTML5_MixedMedia_light ビューアでのビデオキャプション、および Univeral_HTML5_Video ビューア、Universal_HTML5_MixedMedia_dark ビューア、Universal_HTML5_MixedMedia_light ビューアでのビデオチャプターナビゲーション。
+* Univeral_HTML5_Video ビューア、Universal_HTML5_MixedMedia_dark ビューア、Universal_HTML5_MixedMedia_light ビューアでのビデオキャプションと、Univeral_HTML5_Video ビューア、Universal_HTML5_MixedMedia_dark ビューア、Universal_HTML5_MixedMedia_light ビューアでのビデオチャプターナビゲーション。
 
   [ ビデオへのキャプションの追加 ](adding-captions-video.md) を参照してください。
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic ビデオは、高品質のアダプティブビデ�
 
   アダプティブビデオのストリーミングは、様々なiOS プラットフォームでサポートされています。
 
-  最新のサポートについては、[Adobeビューアリファレンスガイド ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources) を参照してください。
+  最新のサポートについては、[Adobe ビューアリファレンスガイド ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources) を参照してください。
 
   Adobe Dynamic Media Classicでは、MP4 H.264 ビデオのモバイルビデオ再生がサポートされています。<!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -79,26 +79,26 @@ Adobe Dynamic Media Classic ビデオは、高品質のアダプティブビデ�
 * 単純な URL か埋め込みコードを使用して、ビデオを web サイト、モバイルサイトまたはモバイルアプリケーションに統合します。
 
 以下のトレーニングビデオを参照してください。
-* [MP4 ビデオの概要 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+* [MP4 ビデオの概要 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
-* [MP4 ビデオプレビュー ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+* [MP4 ビデオプレビュー ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [MP4 ビデオのアップロード ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [MP4 ビデオのアップロード ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [ ストリーミングの概要 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [ ストリーミングの概要 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **クイックスタート**
 
 次のワークフローの手順説明は、Adobe Dynamic Media Classicでアダプティブビデオセットをすぐに使い始めることを目的としたものです。 各手順に続いて、詳細な情報を見つけることができるトピックの見出しへの相互参照があります。
 
-## 1. ビデオのアップロードとエンコード
+## &#x200B;1. ビデオのアップロードとエンコード
 
 次の 2 つのシナリオのうちいずれかを使用して、アダプティブビデオセットをアップロードおよび生成します。
 
 * **事前にエンコードされたビデオをアップロードする**：ビデオが既にAdobe Dynamic Media Classicの外部でエンコードされている場合は、グローバルナビゲーションバーで **[!UICONTROL アップロード]** を選択します。 MP4 ビデオファイルを参照してAdobe Dynamic Media Classicに直接アップロードします。 次に、**[!UICONTROL ビルド]**/**[!UICONTROL アダプティブビデオセット]** に移動します。 ビデオファイルを参照します。目的のビデオファイルをアダプティブビデオセット テーブルにドラッグ&amp;ドロップし、セットを保存します。
 * **プライマリソースビデオをアップロード**：ビデオがエンコードされていない場合は、グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、プライマリソースファイル（MP4 以外）をアップロードします。 Adobe Dynamic Media Classicは、それらを MP4 ファイルにエンコードします。 **[!UICONTROL アップロードジョブオプション]** ダイアログボックスの **[!UICONTROL EVideo オプション]** で **[!UICONTROL アダプティブビデオ]** を選択します。
 
-  この推奨オプションを使用すると、アダプティブビデオセットを作成できます。 アップロードしたビデオのサイズに合わせて、適切なエンコーディングプリセットが（16:9 と 4:3 のどちらでも）ビデオに自動的に適用されます。 アップロードジョブを送信すると、3 つのエンコーディングビデオ設定が正しい縦横比で含まれるアダプティブビデオセットが自動的に作成されます。
+  この推奨オプションを使用すると、アダプティブビデオセットを作成できます。 アップロードしたビデオのサイズに合わせて、適切なエンコーディングプリセットが 16:9 または 4:3 のいずれであっても、ビデオに自動的に適用されます。 アップロードジョブを送信すると、3 つのエンコーディングビデオ設定が正しい縦横比で含まれるアダプティブビデオセットが自動的に作成されます。
 
   または、同じ **[!UICONTROL ジョブオプション]** ダイアログボックスの **[!UICONTROL EVideo オプション]** で、「**[!UICONTROL シングルエンコーディングプリセット]**」を展開します。 目的のビデオエンコーディングプリセットを個別に選択します。 **デスクトップ**、**モバイル（iPhone、iPad、Android™）** および **タブレット（iPad、Android™）** を選択して、MP4 ファイルを作成できます。
 
@@ -114,7 +114,7 @@ Adobe Dynamic Media Classicには、事前定義済みのビデオエンコー�
 
 [ ビデオエンコーディングプリセットの操作 ](uploading-encoding-videos.md#working_with_video_encoding_presets) を参照してください。
 
-## 2. ビデオビューアでビデオをプレビューする
+## &#x200B;2. ビデオビューアでビデオをプレビューする
 
 デスクトップ、Web サイトまたはモバイルデバイスでのエンドユーザーに対するビデオの再生方法を確認するには、参照パネルでビデオを選択します。 次に、「**[!UICONTROL プレビュー]**」を選択します。
 
@@ -128,15 +128,15 @@ Adobe Dynamic Media Classicには、事前定義済みのビデオエンコー�
 
 [ ビデオビューアプリセットの操作 ](previewing-videos-video-viewer.md#working_with_video_viewer_presets) を参照してください。
 
-[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) トレーニングビデオも参照してください。
+[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) トレーニングビデオも参照してください。
 
-## 3. Web サイトやモバイルサイトにビデオをデプロイする
+## &#x200B;3. Web サイトやモバイルサイトにビデオをデプロイする
 
 ビデオを Web サイトに統合するには、次のいずれかの操作を行います。
 
 * ビデオを独自のポップアップウィンドウまたはモーダルウィンドウで表示します。この場合は、「**[!UICONTROL URL をコピー]** 機能を使用します。
 
-  ビデオの URL を取得するには、グリッド表示またはリスト表示で、参照パネルでビデオを選択します。 「**[!UICONTROL プレビュー]**」を選択したあと、`Universal_HTML5_Viewer` の右側にある「**[!UICONTROL URL をコピー]**」を選択します。
+  ビデオの URL を取得するには、グリッド表示またはリスト表示で、参照パネルでビデオを選択します。 「**[!UICONTROL プレビュー]**」を選択したあと、**[!UICONTROL の右側にある「]** URL をコピー `Universal_HTML5_Viewer`」を選択します。
 
   **[!UICONTROL URL をコピー]** を選択すると、URL がクリップボードにコピーされます。 Web サイト、モバイルサイトまたはアプリケーションの HTML にこのコードを設定します。
 
@@ -146,7 +146,7 @@ Adobe Dynamic Media Classicには、事前定義済みのビデオエンコー�
 
 * Web ページに埋め込まれたビデオを表示します。この場合、**[!UICONTROL 埋め込みコード]** 機能を使用します。
 
-  ビデオの埋め込みコードを取得するには、グリッド表示またはリスト表示で、参照パネルのビデオを選択します。 **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。 表の「アクション」列で、`Universal_HTML5_Video` の右側にある「**[!UICONTROL 埋め込みコード]**」を選択します。 コードの編集はできません。
+  ビデオの埋め込みコードを取得するには、グリッド表示またはリスト表示で、参照パネルのビデオを選択します。 **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。 表の「アクション」列で、**[!UICONTROL の右側にある「]** 埋め込みコード `Universal_HTML5_Video`」を選択します。 コードの編集はできません。
 
   「**[!UICONTROL 閉じる]**」を選択し、1 つ以上の Web ページに埋め込みコードを貼り付けます。
 

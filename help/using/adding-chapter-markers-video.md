@@ -25,7 +25,7 @@ ht-degree: 24%
 >
 >使用されるビデオプレーヤーがチャプターマーカーの使用に対応している必要があります。
 
-ビデオビューア（HTML5）のチャプターナビゲーションキューポイントおよびチャプタータイトルポップアップテキストを設定する場合は、[`Universal_HTML5_Video` デオビューアプリセットを追加または編集 ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) を参照してください。
+ビデオビューア（HTML5）のチャプターナビゲーションキューポイントおよびチャプタータイトルポップアップテキストを設定する場合は、[ ビデオビューアプリセットを追加または ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) 集 `Universal_HTML5_Video` を参照してください。
 
 [ ビューアプリセットの追加と編集 ](application-setup.md#adding_and_editing_viewer_presets) も参照してください。
 
@@ -85,6 +85,6 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
      埋め込みコードダイアログボックスで、「**[!UICONTROL クリップボードにコピー]**」を選択します。
 
-     HTML 5 `Universal_HTML5_Video` ビューアの場合は、コピーした埋め込みコードに次のコードを追加します。
+     HTML5 `Universal_HTML5_Video` ビューアの場合は、コピーした埋め込みコードに次のコードを追加します。
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

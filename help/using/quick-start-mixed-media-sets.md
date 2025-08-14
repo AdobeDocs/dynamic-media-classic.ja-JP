@@ -1,5 +1,5 @@
 ---
-title: 「クイックスタート：混在メディアセット」
+title: クイックスタート：混在メディアセット
 description: Adobe Dynamic Media Classicをすぐに使い始めるのに役立つ混在メディアセットの概要とクイックスタートです。
 contentOwner: Rick Brough
 content-type: reference
@@ -53,7 +53,7 @@ Adobe Dynamic Media Classicには、混在メディアセット用のデフォ�
 
 [ 混在メディアセットビューアプリセットの設定 ](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) および [ ビューアプリセットの作成と編集 ](application-setup.md#adding-and-editing-viewer-presets) を参照してください。
 
-[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
+[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
 ## 5.混在メディアセットのプレビュー
 
@@ -61,15 +61,15 @@ Adobe Dynamic Media Classicには、混在メディアセット用のデフォ�
 
 [ アセットのプレビュー ](previewing-asset.md#previewing-an-asset) を参照してください。
 
-## 6. Publish a 混在メディアセット
+## 6.混在メディアセットの公開
 
 混在メディアセットを公開すると、そのセットはAdobe Dynamic Media Classic サーバーに配置され、URL 文字列がアクティベートされます。
 
 混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。公開用にマークした実際のビデオを公開するには、**ビデオサーバー** を使用します。 また、**Image Server** を使用して、ビデオのサムネールなどの関連アセットを公開し、アダプティブビデオセットの情報を設定します。
 
-[Publish混在メディアセット ](publishing-mixed-media-set.md#publishing-a-mixed-media-set) を参照してください。
+[ 混在メディアセットの公開 ](publishing-mixed-media-set.md#publishing-a-mixed-media-set) を参照してください。
 
-## 7. Web ページへの混在メディアセットのリンク
+## &#x200B;7. Web ページへの混在メディアセットのリンク
 
 混在メディアセットの URL 呼び出しは、Adobe Dynamic Media Classicによって公開後にアクティベートされます。 これらの URL は、プレビューページからコピーできます。
 

@@ -1,5 +1,5 @@
 ---
-title: 「クイックスタート：画像セット」
+title: クイックスタート：画像セット
 description: Adobe Dynamic Media Classicの画像セット手法をすぐに使い始めるのに役立つ画像セットの概要とクイックスタートです。
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに�
 
 画像セットビューアでは、ズームツールを使用して、詳細に画像を確認できます。必要に応じて、ガイド付きズームターゲットと画像マップを画像セットの一部にすることができます。 画像セットによって、統合的で詳細な表示操作が可能になります。
 
-[ 画像およびスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) のトレーニングビデオを参照してください。
+トレーニングビデオの [ 画像セットとスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) を参照してください。
 
 画像セットを作成する場合、Adobeでは次のベストプラクティスを推奨し、次の制限を適用します。
 
@@ -34,13 +34,13 @@ Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに�
 
 ‡セットに重複したアセットを含めないでください。 1 つのアセットに対する重複の上限は 20 個です。 そのアセットに対して別の重複を（そのセット内で）追加した場合、リクエストでエラーが発生するか、重複が無視されます。
 
-[Dynamic Mediaの制限事項 ](/help/using/limitations.md) も参照してください。
+[Dynamic Media の制限 ](/help/using/limitations.md) も参照してください。
 
 次の画像セットのクイックスタートは、Adobe Dynamic Media Classicの画像セット手法をすぐに使い始められるように設計されています。
 
 ## 1.複数のビューおよびスウォッチ用のプライマリ画像をアップロードする
 
-まず、画像セット用の画像をアップロードします。ユーザーは画像セットビューアで画像をズームできるので、画像を選択する際には必ずこの機能を考慮してください。 最大サイズで 2,000 ピクセル以上の画像を使用してください。 Adobe Dynamic Media Classicは多くの画像ファイル形式をサポートしていますが、可逆圧縮TIFF、PNG およびEPSの画像の使用をお勧めします。
+まず、画像セット用の画像をアップロードします。ユーザーは画像セットビューアで画像をズームできるので、画像を選択する際には必ずこの機能を考慮してください。 最大サイズで 2,000 ピクセル以上の画像を使用してください。 Adobe Dynamic Media Classicは多くの画像ファイル形式をサポートしていますが、可逆圧縮TIFF、PNG およびEPS画像の使用をお勧めします。
 
 グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターからAdobe Dynamic Media Classic上のフォルダーにファイルをアップロードします。
 
@@ -70,17 +70,17 @@ Adobe Dynamic Media Classic画像セットを使用すると、ユーザーに�
 
 [ アセットのプレビュー ](previewing-asset.md#previewing-an-asset) を参照してください。
 
-## 5.画像セットのPublish
+## 5.画像セットを公開する
 
 画像セットを公開すると、Adobe Dynamic Media Classic サーバーに配置され、URL 文字列がアクティベートされます。
 
 >[!NOTE]
 >
->画像セットの作成および保存時に、保存後に **[!UICONTROL Publish]** （デフォルト）を選択した場合、この手順は不要です。
+>画像セットの作成および保存時に **[!UICONTROL 保存後に公開]** （デフォルト）を選択した場合は、この手順は必要ありません。
 
-参照パネルで、名前の左側にある **[!UICONTROL Publish用にマーク]** アイコンを選択します。 次に、「**[!UICONTROL Publish]**」を選択します。 公開ページで、「**[!UICONTROL Publishを送信]**」を選択します。
+参照パネルでその名前の左側にある **[!UICONTROL 公開用にマーク]** アイコンを選択します。 次に、「**[!UICONTROL 公開]**」を選択します。 公開ページで、「**[!UICONTROL 公開を送信]**」を選択します。
 
-[Publish ファイル ](publishing-files.md#publishing-files) を参照してください。
+[ ファイルを公開 ](publishing-files.md#publishing-files) を参照してください。
 
 ## 6.画像セットの Web サイトへのリンク
 

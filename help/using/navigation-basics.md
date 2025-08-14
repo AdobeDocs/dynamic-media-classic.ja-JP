@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic画面には、グローバルナビゲーション�
 
 * **[!UICONTROL ビルド]**：メニューからビルドタスクを選択します。 ビルドパネルが開いたら、各種アセットを作成します。
 
-* **[!UICONTROL Publish]**：公開画面が開き、AdobeのDynamic Media Image Server および他のAdobe Dynamic Media Classic SAAS インフラストラクチャにリッチメディアアセットを公開できます。
+* **[!UICONTROL 公開]**：公開画面が開き、リッチメディアアセットをAdobe Dynamic Media Image Server およびその他のAdobe Dynamic Media Classic SAAS インフラストラクチャに公開できます。
 
 * **[!UICONTROL ジョブ]**: ジョブ画面が開き、アップロードジョブとパブリッシュジョブのレコードを確認できます。
 
@@ -71,7 +71,7 @@ Adobe Dynamic Media Classic画面には、グローバルナビゲーション�
 
 * **[!UICONTROL ビルドモード]**:「**[!UICONTROL ビルド]**」を選択してオプションを選択し、eCatalog、画像セット、スピンセットまたはビルド メニューのその他の使用可能な項目の 1 つを作成します。 ビルド ページが開きます。 操作対象のアセットを選択するタイミングは、ビルドモードに移る前でも後でも構いません。
 
-[ ナビゲーションの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) トレーニングビデオも参照してください。
+[ ナビゲーションの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) トレーニングビデオも参照してください。
 
 >[!MORELIKETHIS]
 >

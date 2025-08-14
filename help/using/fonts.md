@@ -24,7 +24,7 @@ Adobe Dynamic Media Classicでは、特定のフォントでテキストを入�
 Adobe Dynamic Media Classicでは、次のフォントタイプをサポートしています。
 
 * すべての TrueType フォント
-* PostScript®フォント
+* PostScript® フォント
 * OpenType/TrueType フォント
 * OpenType/PostScript フォント
 * PhotoFont
@@ -55,14 +55,14 @@ Adobe Dynamic Media Classicでは、次のフォントタイプをサポート�
 
 * **[!UICONTROL フォントスタイル]**：オプションは、「プレーン」、「太字」、「斜体」、「太字斜体」です。
 
-* **[!UICONTROL Font Type]**：オプションは TrueType とAdobe Type 1 です。 これらのフォントを別の名前で呼び出す場合は、その名前を入力します。
+* **[!UICONTROL フォントタイプ]**：オプションは TrueType とAdobe Type 1 です。 これらのフォントを別の名前で呼び出す場合は、その名前を入力します。
 
 * **[!UICONTROL フォントタイプの略語]**：次のオプションがあります。
 
    * **[!UICONTROL TTF]**:PDF/PostScriptのレンダリングおよび画像サービングに使用される TrueType フォントファイル。
 
-   * **[!UICONTROL AFM]**:Adobeフォント指標の情報を含み、画像サービングに使用されるAdobe PostScript フォントファイル。
+   * **[!UICONTROL AFM]**:Adobe PostScript Font Metrics の情報を含み、画像サービングに使用されるAdobe フォントファイル。
 
    * **[!UICONTROL PFM]**：バイナリのフォント指標情報を含むAdobe PostScript フォントファイル。
 
-   * **[!UICONTROL PFB]**：バイナリのフォントアウトライン情報を含み、PDF/Adobe PostScriptのレンダリングおよび画像サービングに使用されるPostScript フォントファイル。
+   * **[!UICONTROL PFB]**：バイナリのフォントアウトライン情報を含み、PDF/PostScriptのレンダリングおよび画像サービングに使用されるAdobe PostScript フォントファイル。

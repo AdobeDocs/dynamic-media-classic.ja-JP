@@ -21,11 +21,11 @@ ht-degree: 15%
 
 Adobe Analytics Instrumentation Kit を使用して、HTML5 ビューアをAdobe Analyticsと統合できます。
 
-事前定義済みのAdobe Dynamic Media Classic HTML5 ビューアプリセットのいずれかを使用すると、Adobe Analyticsにデータを送信するためのすべての実装コードが既に含まれます。 それ以上のインストルメンテーションを追加する必要はありません。
+事前定義済みのAdobe Dynamic Media Classic HTML5 ビューアプリセットのいずれかを使用すると、データをAdobe Analyticsに送信するためのすべての実装コードが既に含まれます。 それ以上のインストルメンテーションを追加する必要はありません。
 
 ## Adobe Dynamic Media ClassicからのAdobe Analytics トラッキングの設定 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-すべてのHTML 5 ビューアで、次のJavaScriptをHTMLコンテナ（通常は &lt;head> 要素）に追加します。
+すべてのHTML5 ビューアで、次のJavaScriptをHTML コンテナ（通常は &lt;head> 要素）に追加します。
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
@@ -35,7 +35,7 @@ Adobe Analytics Instrumentation Kit を使用して、HTML5 ビューアをAdobe
 
 続いて、ビューアイベントをAdobe Analytics トラッキングコードに送信する関数を追加します。
 
-コンテナHTML（または JSP、ASPX など）に `s7ComponentEvent()` 関数を追加します。
+コンテナ HTML（または JSP、ASPX など）に `s7ComponentEvent()` 関数を追加します。
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }

@@ -38,7 +38,7 @@ ht-degree: 17%
 
 Adobe Dynamic Media Classicでは、キャプションファイルを JSON （JavaScript Object Notation）形式に変換できます。 このように変換できるので、JSON テキストを、ビデオの完全なトランスクリプトとして表示せずに web ページに埋め込むことができます。 その後、検索エンジンがコンテンツをクロールしてインデックスを作成します。これにより、ビデオを見つけやすくなるとともに、ビデオコンテンツの詳細がユーザーに提供されます。
 
-URL で JSON 関数を使用する方法について詳しくは、[ の静的コンテンツ（画像以外）の提供 ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) を参照してください。
+URL で JSON 関数を使用する方法について詳しくは、[ の静的コンテンツ（画像以外）の提供 ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) を参照してください。
 
 **ビデオにキャプションを追加するには：**
 
@@ -54,7 +54,7 @@ URL で JSON 関数を使用する方法について詳しくは、[ の静的�
 
 1. 左側のアセットライブラリパネルで、アップロードしたキャプションファイルに関連付けるビデオファイルを含むアセットフォルダーに移動します。
 1. アセット参照パネルで、1 つのビデオアセットを選択し、アセットのサムネール画像の下で **[!UICONTROL プレビュー]**/ **[!UICONTROL ビューアリスト]** を選択します。
-1. 「ビューアリスト」テーブルで、「**Universal_HTML5_Video**」、「**Universal_HTML5_MixedMedia_dark**」、「**Universal_HTML5_MixedMedia_light**」という名前のHTML5 ビューアを探し、次のいずれかの操作を行います。
+1. 「ビューアリスト」テーブルで、**Universal_HTML5_Video**、**Universal_HTML5_MixedMedia_dark** または **Universal_HTML5_MixedMedia_light** という名前のHTML5 ビューアを探し、次のいずれかの操作を行います。
 
    * ポップアップビデオビューアエクスペリエンスの場合は、名前の右端にある **[!UICONTROL URL をコピー]** を選択します。
 
@@ -68,7 +68,7 @@ URL で JSON 関数を使用する方法について詳しくは、[ の静的�
 
      埋め込みコードダイアログボックスで、「**[!UICONTROL クリップボードにコピー]**」を選択します。
 
-     HTML 5 `Universal_HTML5_Video`、`Universal_HTML5_MixedMedia_dark` または `Universal_HTML5_MixedMedia_light` ビューアの場合は、コピーした埋め込みコードに次のコードを追加します。
+     HTML5 `Universal_HTML5_Video`、`Universal_HTML5_MixedMedia_dark` または `Universal_HTML5_MixedMedia_light` ビューアの場合は、コピーした埋め込みコードに次のコードを追加します。
 
      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1"`
 

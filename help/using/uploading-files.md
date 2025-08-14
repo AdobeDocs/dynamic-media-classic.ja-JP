@@ -26,7 +26,7 @@ Adobe Dynamic Media Classicにアセットをアップロードする前に、�
 
 ### サポートされているアセットファイル形式 {#supported-asset-file-formats}
 
-次の表に、Adobe Dynamic Media Classicがサポートするアセットファイル形式を示します。 サポートされるCamera Raw ファイルについては、[https://helpx.adobe.com/jp/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/jp/camera-raw/using/supported-cameras.html) を参照してください。
+次の表に、Adobe Dynamic Media Classicがサポートするアセットファイル形式を示します。 サポートされるCamera Raw ファイルについては、[https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html) を参照してください。
 
 | アセットファイル形式 | 説明 |
 | --- | --- |
@@ -267,7 +267,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションでは、�
 
 * **その他のメタデータ**：アップロードするファイルを説明するキーワードを入力します。 キーワードはカンマで区切ります。キーワードを使用すると、アセットの検索が容易になります。
 [ 詳細検索の実行 ](searching-assets.md#conducting_an_advanced_search) を参照してください。
-[ キーワードのアップロード ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) トレーニングビデオも参照してください。
+[ キーワードのアップロード ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) トレーニングビデオも参照してください。
 
 * **バッチセットプリセット**：アップロードしたファイルから画像セット、スピンセット、スウォッチセットを作成するには、使用するプリセットの「**[!UICONTROL アクティブ]**」列を選択します。 複数のプリセットを選択できます。プリセットは、アプリケーション設定/バッチセットプリセット ページで作成できます。
 詳しくは、[バッチセットプリセット](application-setup.md#batch_set_presets)を参照してください。

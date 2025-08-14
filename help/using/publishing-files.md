@@ -1,5 +1,5 @@
 ---
-title: Publish ファイル
+title: ファイルを公開
 description: Dynamic Media Image Server にアセットを公開する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,23 +17,23 @@ ht-degree: 21%
 
 ---
 
-# Publish ファイル{#publishing-files}
+# ファイルを公開{#publishing-files}
 
-アセットをDynamic Media Image Server に公開します。 アセットは、1 回限りで公開することも、Adobe Dynamic Media Classicが繰り返しスケジュールに従って公開するように設定することもできます。 アセットの公開が完了すれば、それらを配信することができます。Adobe Dynamic Media Classicからの URL 呼び出しをコピーして、web サイトやアプリケーションに追加できます。
+アセットを Dynamic Media Image Server に公開します。 アセットは、1 回限りで公開することも、Adobe Dynamic Media Classicが繰り返しスケジュールに従って公開するように設定することもできます。 アセットの公開が完了すれば、それらを配信することができます。Adobe Dynamic Media Classicからの URL 呼び出しをコピーして、web サイトやアプリケーションに追加できます。
 
-Adobe Dynamic Media Classicは、HTTP/2 を介したすべての画像とビデオの配信をサポートするようになりました。 つまり、画像やビデオの公開済み URL または埋め込みコードを、ホストされているアセットを受け入れる任意のアプリケーションに統合できます。 その公開済みアセットは HTTP/2 プロトコルを使用して配信されます。 この配信方法によりブラウザーとサーバーの通信が改善され、すべてのAdobe Dynamic Media Classic アセットの応答時間と読み込み時間が短縮されます。 [ コンテンツの HTTP/2 配信の FAQ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/http2) を参照してください。
+Adobe Dynamic Media Classicは、HTTP/2 を介したすべての画像とビデオの配信をサポートするようになりました。 つまり、画像やビデオの公開済み URL または埋め込みコードを、ホストされているアセットを受け入れる任意のアプリケーションに統合できます。 その公開済みアセットは HTTP/2 プロトコルを使用して配信されます。 この配信方法によりブラウザーとサーバーの通信が改善され、すべてのAdobe Dynamic Media Classic アセットの応答時間と読み込み時間が短縮されます。 [ コンテンツの HTTP/2 配信の FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2) を参照してください。
 
 ## アップロード後に公開 {#publish-after-uploading}
 
 アセットは、公開または非公開のいずれかの状態です。デフォルトでは、Adobe Dynamic Media Classicにアップロードしたアセットは、公開用に自動的にマークされます。
 
-詳しくは、「[ インスタントPublishのお知らせPDF](/help/using/assets/rendering-instant-publish-notification.pdf)」を参照してください。
+詳しくは、「[ インスタント公開通知PDF](/help/using/assets/rendering-instant-publish-notification.pdf)」を参照してください。
 
 次の手法を使用して、公開用にアセットをマークします。
 
-* **[!UICONTROL アップロード後のPublish]**: アップロードページの下部付近にある「**[!UICONTROL アップロード後のPublish]**」を選択します。 初期設定では選択された状態になります。
+* **[!UICONTROL アップロード後に公開]**：アップロードページの下部付近にある「**[!UICONTROL アップロード後に公開]**」を選択します。 初期設定では選択された状態になります。
 
-* **[!UICONTROL アップロード後のPublish]**: ジョブオプションダイアログボックスで、「**[!UICONTROL アップロード後のPublish]**」を選択します。 初期設定では選択された状態になります。
+* **[!UICONTROL アップロード後に公開]**:「ジョブオプション」ダイアログボックスで「**[!UICONTROL アップロード後に公開]**」を選択します。 初期設定では選択された状態になります。
 
 一部の子アセットは、親アセットを公開用にマークしたときに自動的に公開用にマークされます。次の表に、自動的に公開用にマークされる子アセットを示します。
 
@@ -52,7 +52,7 @@ Adobe Dynamic Media Classic サーバーにアップロード済みアセット�
 
 **公開ジョブを作成するには：**
 
-1. グローバルナビゲーションバーの「**[!UICONTROL Publish]**」を選択します。
+1. グローバルナビゲーションバーの「**[!UICONTROL 公開]**」を選択します。
 1. 公開ダイアログボックスで、公開ジョブを 1 回限りにするか繰り返すかを選択します。
 
    [1 回限りの公開ジョブの作成 ](publishing-files.md#creating_a_one_time_publish_job) および [ 繰り返し公開ジョブの作成 ](publishing-files.md#creating_a_recurring_publish_job) を参照してください。
@@ -62,7 +62,7 @@ Adobe Dynamic Media Classic サーバーにアップロード済みアセット�
 
    詳しくは、[詳細公開オプション](publishing-files.md#advanced_publish_options)を参照してください。
 
-1. **[!UICONTROL Publishの送信]** を選択します。
+1. **[!UICONTROL 公開を送信]** を選択します。
 
 Adobe Dynamic Media Classicは、ジョブ ページで公開ジョブを追跡します。 このページで公開ジョブを確認できます。
 
@@ -92,9 +92,9 @@ Adobe Dynamic Media Classicは、ジョブ ページで公開ジョブを追跡�
 
 公開ページに詳細オプションを表示し、公開ジョブを処理するための次のオプションを選択できます。
 
-* **[!UICONTROL Publish宛先]**：特定のサーバーにのみアセットを公開するには、サーバータイプを選択します。
+* **[!UICONTROL 公開先]**：特定のサーバーにのみアセットを公開するには、サーバータイプを選択します。
 
-* **[!UICONTROL Publish]**: デフォルトでは、Adobe Dynamic Media Classicは、これまで公開されたことがない（前回のPublish以降に新規オプション）新規のアセットのみを公開します。 ただし、「**[!UICONTROL 完全なPublish]** を選択すれば、最後に公開された後に更新または変更されたアセットを公開することもできます。 eCatalog を公開し、読者がキーワードで検索できるようにする場合は、「**[!UICONTROL 検索データで完全に検索]**」を選択します。
+* **[!UICONTROL 公開]**：デフォルトでは、Adobe Dynamic Media Classicは、まだ公開されていない新しいアセット（「前回の公開以降に新規」オプション）のみを公開します。 ただし、「完全公開 **[!UICONTROL を選択した場合は、最後の公開以降に更新または変更されたアセットを公開することもできます]**。 eCatalog を公開し、読者がキーワードで検索できるようにする場合は、「**[!UICONTROL 検索データで完全に検索]**」を選択します。
 
 * **[!UICONTROL ジョブの実行方法]**：リストからユーザー名を選択します。 ジョブページで、ジョブをユーザー名で並べ替えることができます。名前を選択すると、公開ジョブとユーザーを関連付けることができます。
 
@@ -112,7 +112,7 @@ Adobe Dynamic Media Classicは、ジョブ ページで公開ジョブを追跡�
 >
 >パブリッシュジョブをキャンセルすると、ジョブが安全に停止できる時点に達するまで、ジョブのステータスが「停止中」に変わります。 パブリッシュジョブがデータベースからデータを取得中の場合、パブリッシュジョブの停止に時間がかかる場合があります。
 
-## Publish assets を手動で {#manually-publishing-assets}
+## アセットを手動で公開 {#manually-publishing-assets}
 
 公開ジョブを作成する代わりに、手動で個々のアセットを公開することができます。画像セットやアダプティブビデオセットなどのセットを公開すると、そのセット（または「親」）と、そのセット内のすべてのメンバー（または「子」）が公開されます。
 
@@ -124,7 +124,7 @@ Adobe Dynamic Media Classicは、ジョブ ページで公開ジョブを追跡�
 
    * グリッドビュー、リストビューまたは詳細ビューで、標準的なファイル選択方法によって、1 つ以上の非公開アセットを選択します。
 
-     グローバルナビゲーションバーで **[!UICONTROL ファイル]**/**[!UICONTROL Publish]** に移動します。
+     グローバルナビゲーションバーで **[!UICONTROL ファイル]**/**[!UICONTROL 公開]** に移動します。
 
    * グリッド表示、リスト表示または詳細表示で、アセット名の左側にスラッシュが付いたグレーの丸いアイコンを選択します。
 

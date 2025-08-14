@@ -1,5 +1,5 @@
 ---
-title: テンプレートの公開
+title: ' テンプレートの公開'
 description: Adobe Dynamic Media Classicからテンプレートを公開する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 11%
 
 ---
 
-# テンプレートの公開{#publishing-templates}
+#  テンプレートの公開{#publishing-templates}
 
-テンプレートを公開すると、Dynamic Media Image Server に配置され、web サイトやアプリケーションで使用できるようになります。 公開プロセス中に、Adobe Dynamic Media Classicは Web サイトおよびアプリケーションに必要な URL をアクティベートします。
+テンプレートを公開すると、Dynamic Media 画像サーバーに配置され、web サイトやアプリケーションで使用できるようになります。 公開プロセス中に、Adobe Dynamic Media Classicは Web サイトおよびアプリケーションに必要な URL をアクティベートします。
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ ht-degree: 11%
 
 ## 公開用にテンプレートをマーク {#marking-templates-for-publish}
 
-Dynamic Media Image Server に配置するには、テンプレートとそのすべてのサポートファイルを公開用にマークする必要があります。 **[!UICONTROL Publish用にマーク]** アイコンをオンにすると、参照パネルでこれらの項目を公開用にマークできます。
+Dynamic Media Image Server に配置するには、テンプレートとそのすべてのサポートファイルを公開用にマークする必要があります。 これらの項目を公開用にマークするには、参照パネルで **[!UICONTROL 公開用にマーク]** アイコンを選択します。
 
-## テンプレートのPublish {#publishing-your-template}
+## テンプレートの公開 {#publishing-your-template}
 
-テンプレートをDynamic Media Image Server に公開するには、グローバルナビゲーションバーで「**[!UICONTROL Publish]**」を選択し、「**[!UICONTROL 条件]** を選択します。 必要に応じて、公開ジョブの名前を入力できます。 **[!UICONTROL Publishの送信]** を選択します。
+テンプレートを Dynamic Media Image Server に公開するには、グローバルナビゲーションバーで **[!UICONTROL 公開]** を選択し、「**[!UICONTROL 条件]** オプションを選択します。 必要に応じて、公開ジョブの名前を入力できます。 **[!UICONTROL 公開を送信]** を選択します。
 
 >[!MORELIKETHIS]
 >

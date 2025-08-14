@@ -24,7 +24,7 @@ UGC は、ラスターイメージファイル形式 BMP、GIF、JPG、PNG、PSD
 
 >[!IMPORTANT]
 >
->2023 年 5 月 1 日（PT）以降、Dynamic Mediaの UGC アセットは、アップロード日から最大 60 日間使用できます。 60 日後にアセットが削除されます。
+>2023 年 5 月 1 日（PT）以降、Dynamic Media の UGC アセットは、アップロード日から最大 60 日間使用できます。 60 日後にアセットが削除されます。
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 

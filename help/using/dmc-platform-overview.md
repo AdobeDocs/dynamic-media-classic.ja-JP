@@ -21,7 +21,7 @@ ht-degree: 12%
 
 Adobe Dynamic Media Classicは、統合されたリッチメディア管理、公開および提供環境です。 リッチメディアは、すべてのマーケティングチャネルと販売チャネルに配信できます。 これらのチャネルには、Web、印刷資料、メールキャンペーン、Web ポータル、デスクトップ、デバイスなどがあります。
 
-[Platform の概要 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) トレーニングビデオも参照してください。
+[Platform の概要 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) トレーニングビデオも参照してください。
 
 ## ワークフロープロセス {#workflow-process}
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classicの主なワークフロー手順は次のとおり�
 
 * **リッチメディアの作成**:eCatalog、画像セット、スピンセット、スウォッチセット、混在メディアセット、基本テンプレート、FXG テンプレートなど、アセットの様々な設定を作成します。
 
-* **Publishと管理**:Publish Assets をAdobe Dynamic Media Classic SaaS ネットワークに追加します。 アセットの公開時のステータスの監視 ユーザー権限の管理とセキュリティの維持。
+* **公開と管理**：アセットをAdobe Dynamic Media Classic SaaS ネットワークに公開します。 アセットの公開時のステータスの監視 ユーザー権限の管理とセキュリティの維持。
 
 * **サービス**:Adobe Dynamic Media Classic SaaS Network から web ページ、アプリケーション、モバイルデバイスにメディアを配信します。メディアはパフォーマンスが最適化され、CDN キャッシングで配信されます。 Adobe Dynamic Media Classicは各アセットの URL を提供します。 アセットを公開すると、URL がアクティブになります。
 
@@ -48,4 +48,4 @@ Adobe Dynamic Media Classicで生成した URL 文字列には、配信時にア
 
 ## コンテンツのキャッシング {#content-caching}
 
-Adobe Dynamic Media Classicが動的に生成する画像は、キャッシュに適しています。通常、画像は、画像を識別する一意の URL 呼び出しを持つJPEG画像です。 画像はコンテンツ配信ネットワーク（CDN）方式で配信されます。この方式は、コンテンツ配信を高速化するために、サーバをインターネット上で相互接続する方式です。画像はグローバルに配置されたサーバ間で配信されてから、コンピュータに配信されます。任意の CDN ベンダーを使用してキャッシュメカニズムを実装する場合は、サーバー名を変更して CDN 対応のDynamic Media Image Server を指すようにするだけです。 すべてのAdobe Dynamic Media Classic エディションには、バンドルされた CDN キャッシングが含まれています。
+Adobe Dynamic Media Classicが動的に生成する画像は、キャッシュに適しています。通常、画像は、画像を識別する一意の URL 呼び出しを持つJPEG画像です。 画像はコンテンツ配信ネットワーク（CDN）方式で配信されます。この方式は、コンテンツ配信を高速化するために、サーバをインターネット上で相互接続する方式です。画像はグローバルに配置されたサーバ間で配信されてから、コンピュータに配信されます。任意の CDN ベンダーを使用してキャッシュメカニズムを実装する場合は、CDN 対応の Dynamic Media 画像サーバーを指すようにサーバー名を変更するだけです。 すべてのAdobe Dynamic Media Classic エディションには、バンドルされた CDN キャッシングが含まれています。
