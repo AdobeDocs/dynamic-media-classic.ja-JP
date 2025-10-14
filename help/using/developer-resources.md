@@ -20,7 +20,7 @@ ht-degree: 20%
 
 これらのサーバーモジュールの http プロトコルについては、ビューア、画像サービングと画像レンダリング、画像実稼働システムのリファレンスガイドで説明しています。 さらにカスタマイズして、Adobe Dynamic Media Classic リッチメディアを Web サイトやカスタムアプリケーションに使用する場合は、これらのガイドを使用できます。 Dynamic Media Classic デスクトップアプリケーション、一般的な http プロトコルの標準と規則、基本的な画像用語について、ユーザーが熟知していることを前提としています。
 
-[Dynamic Media 開発者リソース ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources) も参照してください。
+[Dynamic Media 開発者リソース &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources) も参照してください。
 
 ## ビューア {#viewers-guide}
 

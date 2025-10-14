@@ -27,7 +27,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classicでは、プロジェクトではなくメタデータを使用してアセットを整理することをお勧めします。 [ メタデータの表示、追加、書き出し ](viewing-adding-exporting-metadata.md) を参照してください。
+>Adobe Dynamic Media Classicでは、プロジェクトではなくメタデータを使用してアセットを整理することをお勧めします。 [&#x200B; メタデータの表示、追加、書き出し &#x200B;](viewing-adding-exporting-metadata.md) を参照してください。
 
 >[!NOTE]
 >

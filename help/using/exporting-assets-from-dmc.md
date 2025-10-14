@@ -36,7 +36,7 @@ Adobe Dynamic Media Classicは、ジョブ画面にジョブの書き出しを�
 
    * **[!UICONTROL サイズ]**：標準サイズを選択できます。 または、**[!UICONTROL サイズ]** ドロップダウンリストから **[!UICONTROL その他]** を選択し、目的の測定単位を選択してから、幅と高さを指定することもできます。
 
-     [Media Portal ユーザーが使用できる書き出しオプションの指定 ](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users) も参照してください。
+     [Media Portal ユーザーが使用できる書き出しオプションの指定 &#x200B;](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users) も参照してください。
 
    * **[!UICONTROL 形式]**：画像形式を選択します。
 

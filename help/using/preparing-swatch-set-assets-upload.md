@@ -28,8 +28,8 @@ ht-degree: 61%
 
 ユーザはスウォッチセットで画像をズームできるので、長辺が少なくとも 2000 pixel の画像を使用してください。Adobe Dynamic Media Classicは多くの画像ファイル形式をサポートしていますが、可逆圧縮TIFF、PNG およびEPS画像の使用をお勧めします。
 
-アセットのアップロード手順について詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。
+アセットのアップロード手順について詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ ビネット、ウィンドウカバー、キャビネットファイルの操作 ](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [&#x200B; ビネット、ウィンドウカバー、キャビネットファイルの操作 &#x200B;](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

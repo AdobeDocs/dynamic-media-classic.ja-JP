@@ -25,7 +25,7 @@ ht-degree: 17%
 
 パラメーターページを使用すると、テンプレートのあらゆる側面をアドレス可能なパラメーターに変換できます。 その際に、使用するレイヤー化された画像や、テンプレートで使用するテキスト値を変更できます。 パラメーターは URL 文字列と共に渡され、任意のパラメーターを変更できるので、Image Server から生成された返信画像を動的にカスタマイズできます。
 
-[ テンプレートの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) トレーニングビデオも参照してください。
+[&#x200B; テンプレートの基本 &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) トレーニングビデオも参照してください。
 
 このクイックスタートは、テンプレートの基本をすぐに使い始められるように設計されています。
 
@@ -37,7 +37,7 @@ PSD ファイルを使用してテンプレートを作成する場合は、PSD 
 
 画像ファイルを使用している場合は、画像を切り抜くことも、画像のアップロード時に画像のクリッピングパスからマスクを作成することもできます。
 
-グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、PSD ファイルまたは他の画像ファイルをコンピューターからAdobe Dynamic Media Classicのフォルダーにアップロードします。 [ テンプレートファイルのアップロード ](uploading-template-files.md#uploading_template_files) を参照してください。
+グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、PSD ファイルまたは他の画像ファイルをコンピューターからAdobe Dynamic Media Classicのフォルダーにアップロードします。 [&#x200B; テンプレートファイルのアップロード &#x200B;](uploading-template-files.md#uploading_template_files) を参照してください。
 
 ## &#x200B;2. テンプレートの作成
 
@@ -49,13 +49,13 @@ PSD ファイルからテンプレートを作成するには、ファイルを�
 * レイヤーの順序の変更。
 * 画像およびテキストレイヤーへのシャドウ効果と光彩効果の適用。
 
-[ テンプレートの作成 ](creating-template.md#creating_a_template) を参照してください。
+[&#x200B; テンプレートの作成 &#x200B;](creating-template.md#creating_a_template) を参照してください。
 
 ## &#x200B;3. テンプレートパラメーターの作成
 
 次に、レイヤーのプロパティをパラメータ化して、URL 文字列に含めるレイヤープロパティを決定します。パラメータにより、最大限の柔軟性でテンプレートを使用できるようになります。レイヤープロパティをパラメータ化にした後に、それを動的に変更することができます。
 
-レイヤーをパラメーター化するには、テンプレートページでテンプレートを開き、レイヤー名の横にある **[!UICONTROL パラメーター]** を選択します。 パラメーターページで、追加する各パラメーターの横にあるオプションを選択します。 [ テンプレートパラメーターの作成 ](creating-template-parameters.md#creating_template_parameters) を参照してください。
+レイヤーをパラメーター化するには、テンプレートページでテンプレートを開き、レイヤー名の横にある **[!UICONTROL パラメーター]** を選択します。 パラメーターページで、追加する各パラメーターの横にあるオプションを選択します。 [&#x200B; テンプレートパラメーターの作成 &#x200B;](creating-template-parameters.md#creating_template_parameters) を参照してください。
 
 ## &#x200B;4. テンプレートの公開
 
@@ -63,10 +63,10 @@ PSD ファイルからテンプレートを作成するには、ファイルを�
 
 必ず、テンプレートに関連付けられているすべての画像を公開してください。
 
-テンプレートを公開するには、公開用にマークを付け、グローバルナビゲーションバーで「**[!UICONTROL 公開]**」を選択します。 次に、「**[!UICONTROL 公開を送信]**」を選択します。 [ テンプレートの公開 ](publishing-templates.md#publishing_templates) を参照してください。
+テンプレートを公開するには、公開用にマークを付け、グローバルナビゲーションバーで「**[!UICONTROL 公開]**」を選択します。 次に、「**[!UICONTROL 公開を送信]**」を選択します。 [&#x200B; テンプレートの公開 &#x200B;](publishing-templates.md#publishing_templates) を参照してください。
 
 ## &#x200B;5. Web ページにテンプレートをリンクする
 
 Dynamic Media Classicはテンプレートの URL を作成し、Dynamic Media Image Server にテンプレートを公開する際に URL をアクティベートします。 これらの URL 文字列は、テンプレートのプレビューページからコピーできます。
 
-参照パネルでテンプレートを選択し、「**[!UICONTROL プレビュー]** を選択して、テンプレートプレビューページを開きます。 テンプレートを配信するための画像プリセットを選択し、「**[!UICONTROL URL をコピー]**」ボタンをクリックします。 プレビューページから URL をコピーすると、web サイトやアプリケーションで使用できます。 [Web ページへのテンプレートのリンク ](linking-template-web-page.md#linking_a_template_to_a_web_page) を参照してください。
+参照パネルでテンプレートを選択し、「**[!UICONTROL プレビュー]** を選択して、テンプレートプレビューページを開きます。 テンプレートを配信するための画像プリセットを選択し、「**[!UICONTROL URL をコピー]**」ボタンをクリックします。 プレビューページから URL をコピーすると、web サイトやアプリケーションで使用できます。 [Web ページへのテンプレートのリンク &#x200B;](linking-template-web-page.md#linking_a_template_to_a_web_page) を参照してください。

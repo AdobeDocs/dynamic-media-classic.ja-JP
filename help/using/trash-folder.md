@@ -59,4 +59,4 @@ Adobe Dynamic Media Classicから削除した項目は、ごみ箱フォルダ�
 
 >[!MORELIKETHIS]
 >
->* [ アセットの削除 ](moving-renaming-deleting-assets.md#delete_assets)
+>* [&#x200B; アセットの削除 &#x200B;](moving-renaming-deleting-assets.md#delete_assets)

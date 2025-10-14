@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic レポートの設定に関する情報がAdobe Dyna
 
 詳しくは、[Adobe Analytics へのログイン](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 
-[Adobe Analytics レポートの設定 ](configuring-analytics-reports.md#configuring_adobe_analytics_reports) を参照してください。
+[Adobe Analytics レポートの設定 &#x200B;](configuring-analytics-reports.md#configuring_adobe_analytics_reports) を参照してください。
 
 **設定情報を公開するには：**
 

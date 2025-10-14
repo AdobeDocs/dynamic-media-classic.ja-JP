@@ -23,7 +23,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->ユーザを追加する前に、ユーザを管理するためのグループを設定します。Media Portal では、ユーザーを 1 つ以上のグループに割り当てることでユーザーを追加できます。 詳しくは、[ メディアポータルグループの作成と管理 ](creating-media-portal-groups.md#creating_and_managing_media_portal_groups) を参照してください。
+>ユーザを追加する前に、ユーザを管理するためのグループを設定します。Media Portal では、ユーザーを 1 つ以上のグループに割り当てることでユーザーを追加できます。 詳しくは、[&#x200B; メディアポータルグループの作成と管理 &#x200B;](creating-media-portal-groups.md#creating_and_managing_media_portal_groups) を参照してください。
 
 ## メディアポータルパスワードの管理 {#handling-media-portal-passwords}
 
@@ -49,7 +49,7 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 
 1. アクセスグループパネルで、1 つまたは複数のグループを選択します。
 
-   [ メディアポータルグループの作成と管理 ](creating-media-portal-groups.md#creating_and_managing_media_portal_groups) を参照してください。
+   [&#x200B; メディアポータルグループの作成と管理 &#x200B;](creating-media-portal-groups.md#creating_and_managing_media_portal_groups) を参照してください。
 
 1. （オプション）デフォルトの設定とは異なるメール設定を選択するには、「**[!UICONTROL メール設定]**」を選択します。
 

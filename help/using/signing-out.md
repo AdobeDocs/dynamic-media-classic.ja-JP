@@ -29,7 +29,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションを使用�
 
 1. Adobe Dynamic Media Classic デスクトップアプリケーションを開きます。
 
-   ![Adobe Dynamic Media Classicへのログイン ](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classicへのログイン &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. 「**[!UICONTROL ユーザー名]**」フィールドにメールアドレスを入力します。
 1. **[!UICONTROL パスワード]** フィールドにパスワードを入力します。

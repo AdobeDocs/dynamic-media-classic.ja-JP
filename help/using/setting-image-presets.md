@@ -75,6 +75,6 @@ Adobe Dynamic Media Classicには、使用できるように既に設定され�
 
 >[!MORELIKETHIS]
 >
->* [ 画像プリセットの作成と編集 ](application-setup.md#creating_and_editing_image_presets)
->* [ 画像プリセットオプション ](application-setup.md#image_preset_options)
->* [ 画像プリセットに基づいた画像アセットのプレビュー ](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
+>* [&#x200B; 画像プリセットの作成と編集 &#x200B;](application-setup.md#creating_and_editing_image_presets)
+>* [&#x200B; 画像プリセットオプション &#x200B;](application-setup.md#image_preset_options)
+>* [&#x200B; 画像プリセットに基づいた画像アセットのプレビュー &#x200B;](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)

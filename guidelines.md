@@ -37,7 +37,7 @@ Adobeはドキュメントへの投稿を歓迎しますが、プル要求やイ
 
 ドキュメントの改善に必要なアイデアがあれば、投稿として歓迎します。 ただし、コメント、イシュー、プルリクエストは、を対象としています *投稿* のみ。 Adobe Dynamic Media Classicの使用方法、プロジェクトの実装方法、技術的な問題の解決方法に関する質問への回答を目的としたものではありません。
 
-Adobe Dynamic Media Classicの使用方法に関するご質問や技術的な問題については、 [Experience Cloudエンタープライズサポートポータル](https://experienceleague.adobe.com/ja?support-solution=General&amp;support-tab=home#support) またはで議論される [Experience Cloud界](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja).
+Adobe Dynamic Media Classicの使用方法に関するご質問や技術的な問題については、 [Experience Cloudエンタープライズサポートポータル](https://experienceleague.adobe.com/ja?support-solution=General&support-tab=home#support) またはで議論される [Experience Cloud界](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja).
 
 ***ドキュメントの投稿は、Adobeカスタマーケアに代わるものではありません*** また、サポート関連の質問に対する回答を求めるような投稿は拒否されます。
 

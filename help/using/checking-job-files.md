@@ -95,7 +95,7 @@ Adobe Dynamic Media Classicへのファイルのアップロードや、Adobe Dy
 
 * **繰り返しジョブの編集**:「**[!UICONTROL 編集]**」ボタンを選択し、「スケジュールされたジョブの編集」ダイアログボックスにスケジュール情報を入力します。 選択した間隔でジョブを繰り返す場合は、**[!UICONTROL 繰り返し]**/**[!UICONTROL カスタム]** に移動します。
 
-[ カスタムアップロードまたは公開ジョブの時間間隔の作成 ](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval) を参照してください。
+[&#x200B; カスタムアップロードまたは公開ジョブの時間間隔の作成 &#x200B;](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval) を参照してください。
 
 * **繰り返しジョブの削除**:「**[!UICONTROL 削除]**」ボタンを選択します。
 

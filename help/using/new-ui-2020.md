@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Adobe Dynamic Media Classic デスクトップアプリ：提供開始 {#new-ui-2020}
 
-システム要件を確認するには、[Adobe Dynamic Media Classic デスクトップアプリ ](/help/using/dynamic-media-classic-desktop-app.md) を参照し、新しいアプリをダウンロードしてインストールしてから、サインインします。
+システム要件を確認するには、[Adobe Dynamic Media Classic デスクトップアプリ &#x200B;](/help/using/dynamic-media-classic-desktop-app.md) を参照し、新しいアプリをダウンロードしてインストールしてから、サインインします。
 
 ## _最終更新日：2020 年 6 月 30 日_
 
@@ -33,7 +33,7 @@ Adobe Flash Player は、Adobe Flash Platform で開発されたコンテンツ�
 +++**_新しいデスクトップアプリケーションにアクセスするにはどうすればよいですか？_**
 新しいデスクトップアプリケーションは、macOSの `.dmg` インストーラーとして、または Windows® の `.exe` インストーラーとして使用できます。
 
-[Adobe Dynamic Media Classic デスクトップアプリ ](/help/using/dynamic-media-classic-desktop-app.md) を参照して、必要なシステム構成を確認し、新しいアプリをダウンロードしてインストールしてから、そのアプリにサインインします。
+[Adobe Dynamic Media Classic デスクトップアプリ &#x200B;](/help/using/dynamic-media-classic-desktop-app.md) を参照して、必要なシステム構成を確認し、新しいアプリをダウンロードしてインストールしてから、そのアプリにサインインします。
 +++
 
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
@@ -94,20 +94,20 @@ Windows® で新しいAdobe Dynamic Media Classic デスクトップアプリケ
 +++**_リッチメディア戦略を最適化していることを確認したい。 Adobe Dynamic Media Classicの詳細を確認するにはどうすればよいですか？_** 
 Adobe Dynamic Media Classicは、お客様のリッチメディア戦略を強化するために設計された、強力で機能豊富なソリューションです。 すべての機能を確実に活用するには、次のような実用的なリソースを参照してください。
 
-* [Adobe Dynamic Media Classic ベストプラクティスチュートリアル ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
-* [Adobeのブログ投稿 ](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Adobe Dynamic Media ニュースレターアーカイブ ](https://experienceleague.adobe.com/ja/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Adobe Dynamic Media Classic ベストプラクティスチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobeのブログ投稿 &#x200B;](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
+* [Adobe Dynamic Media ニュースレターアーカイブ &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=ja), and the complementary audit program. -->
 
 +++**_Adobe Experience Manager Assetsを使用したAdobe Dynamic Media へのアップグレードについて詳しく説明します。 詳細情報はどこで入手できますか？_**
-次世代のリッチメディアオーサリング、パブリッシング、および動的配信へのアップグレードの利点について詳しくは、[Adobe アップグレード用 Dynamic Media ポータル ](/help/using/upgrade.md) を参照してください。
+次世代のリッチメディアオーサリング、パブリッシング、および動的配信へのアップグレードの利点について詳しくは、[Adobe アップグレード用 Dynamic Media ポータル &#x200B;](/help/using/upgrade.md) を参照してください。
 +++
 
 >[!MORELIKETHIS]
 >
->* [Adobe Dynamic Media Classic デスクトップアプリケーションへのログインとログアウト ](/help/using/signing-out.md)
->* [Adobe Dynamic Media Classic デスクトップアプリケーションをダウンロードしてインストールする ](/help/using/dynamic-media-classic-desktop-app.md)
+>* [Adobe Dynamic Media Classic デスクトップアプリケーションへのログインとログアウト &#x200B;](/help/using/signing-out.md)
+>* [Adobe Dynamic Media Classic デスクトップアプリケーションをダウンロードしてインストールする &#x200B;](/help/using/dynamic-media-classic-desktop-app.md)
 
 <!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

@@ -36,7 +36,7 @@ Adobe Dynamic Media Classicの以下の機能を使用して、InfoPanel の設�
 >
 >ビューアプリセットで応答テンプレートを設定することもできます。ビューアプリセットで応答テンプレートを代わりに使用するには、ビューアプリセットの Information Server URL の末尾に `fmt=1` を追加します。
 >
->[eCatalog ビューアプリセットの設定 ](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets) を参照してください。
+>[eCatalog ビューアプリセットの設定 &#x200B;](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets) を参照してください。
 
 1. eCatalog をダブルクリックして、詳細表示で開きます。
 1. **[!UICONTROL InfoPanel セットアップ]** パネルを選択します。

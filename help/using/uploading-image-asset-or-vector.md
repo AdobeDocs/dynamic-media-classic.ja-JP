@@ -96,7 +96,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 これで、画像アセットをアップロードできるようになりました。
 
-[ 画像アセットのアップロード ](uploading-image-asset-or-vector.md#uploading_an_image_asset) を参照してください。
+[&#x200B; 画像アセットのアップロード &#x200B;](uploading-image-asset-or-vector.md#uploading_an_image_asset) を参照してください。
 
 ## ラスター画像アセットのアップロード {#uploading-an-image-asset}
 
@@ -108,9 +108,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token` フィールドと `company_name` フィールドは必須です。
 
-[ アップロードトークンの取得 ](uploading-image-asset-or-vector.md#retrieving_the_upload_token) を参照してください。
+[&#x200B; アップロードトークンの取得 &#x200B;](uploading-image-asset-or-vector.md#retrieving_the_upload_token) を参照してください。
 
-[ 共有秘密鍵の取得 ](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key) を参照してください。
+[&#x200B; 共有秘密鍵の取得 &#x200B;](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key) を参照してください。
 
 この例のように、他のオプションの値も URL クエリ文字列として送信できます。
 
@@ -135,7 +135,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * ファイル名拡張子のリスト。
 * アセットに関連付けられたカラープロファイルとファイル名を保持するかどうか。
 * ノックアウトの背景を使用するかどうか。 [ 背景の抜き ] を有効にした場合は、[ コーナー ]、[ 許容差 ]、[ 塗り潰し方法 ] を設定します。
-[ アップロード時の画像の微調整オプション ](image-editing-options-upload.md#image-editing-options-at-upload) のノックアウトの背景を参照してください。
+[&#x200B; アップロード時の画像の微調整オプション &#x200B;](image-editing-options-upload.md#image-editing-options-at-upload) のノックアウトの背景を参照してください。
 * アップロードするファイルの名前。
 
 上記のフォームに関連付けられたHTML ソースコードを確認するには、[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) を選択してください。

@@ -68,4 +68,4 @@ ht-degree: 20%
 
 >[!MORELIKETHIS]
 >
->* [ ビューアプリセットの作成と編集 ](application-setup.md#adding_and_editing_viewer_presets)
+>* [&#x200B; ビューアプリセットの作成と編集 &#x200B;](application-setup.md#adding_and_editing_viewer_presets)

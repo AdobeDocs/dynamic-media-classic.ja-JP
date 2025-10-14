@@ -25,16 +25,16 @@ Dynamic Media Classicでは、ビデオトレーニング、インストラク�
 
 Adobe トレーニングサービスは、お客様のニーズに合わせてカスタマイズされた詳細なクラスルーム形式のトレーニングを提供しています。トレーニングには、地域の講義形式のクラスルーム、Web ベースのセッション、カスタマイズしたオンサイトワークショップがあります。地域のクラスはすべてのお客様が利用でき、北米および EMEA の各地で定期的に開催されています。カスタムセッションは、初めて使用するユーザから熟練ユーザ、エンドユーザ、管理者、IT 担当者向けにカスタマイズすることができます。
 
-[Adobe トレーニングサービス ](https://learning.adobe.com/) を参照
+[Adobe トレーニングサービス &#x200B;](https://learning.adobe.com/) を参照
 
 ## デモ
 
 Adobe Dynamic Media Classic ビューア機能のデモをご覧ください。
 
-[ デモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) を参照。
+[&#x200B; デモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) を参照。
 
 ## ヘルプの「はじめに」の章
 
 ヘルプの「はじめに」セクションでは、Adobe Dynamic Media Classicを初めて使用するユーザー向けの手順を示しています。 プログラム、ナビゲーション、設定、アセット管理、リッチメディアの構築などの基本について説明します。
 
-[ はじめに ](dmc-platform-overview.md) を参照してください。
+[&#x200B; はじめに &#x200B;](dmc-platform-overview.md) を参照してください。

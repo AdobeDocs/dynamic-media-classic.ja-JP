@@ -27,7 +27,7 @@ ht-degree: 32%
 
 テンプレートは、Adobe Photoshop PSD ファイルまたは画像ファイルから作成できます。
 
-ファイルのアップロード手順について詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。 テンプレートファイルをアップロードするときは、以下の点に注意してください。
+ファイルのアップロード手順について詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files) を参照してください。 テンプレートファイルをアップロードするときは、以下の点に注意してください。
 
 * PSD ファイルをアップロードする場合は、そこからテンプレートを作成できます。 Adobe Dynamic Media Classicは、PSDのレイヤーごとに個別の画像を作成します。 「アップロードジョブオプション」ダイアログボックスで、「**[!UICONTROL Photoshop オプション]**」を選択し、「**[!UICONTROL レイヤーを維持]**」および「**[!UICONTROL テンプレートを作成]**」を選択します。 次に、「**[!UICONTROL レイヤーの名前]**」ドロップダウンリストからオプションを選択して、Adobe Dynamic Media ClassicがPSDのレイヤーから作成する画像に名前を付けます。
 詳しくは、[PSD アップロードオプション](psd-files.md#psd_upload_options)を参照してください。
@@ -36,5 +36,5 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 
 >[!MORELIKETHIS]
 >
->* [ ファイルをアップロードする ](uploading-files.md#uploading_your_files)
->* [PSD ファイルの操作 ](psd-files.md#working_with_psd_files)
+>* [&#x200B; ファイルをアップロードする &#x200B;](uploading-files.md#uploading_your_files)
+>* [PSD ファイルの操作 &#x200B;](psd-files.md#working_with_psd_files)

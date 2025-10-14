@@ -21,7 +21,7 @@ ht-degree: 27%
 
 ズームターゲットにより、画像の特定の部分に注目させることができます。ビューアは、フリーフォームのズームに加えて、ズームターゲットのサムネールを選択し、画像のフォーカスしたい部分にズームできます。 ズームターゲットを使用すると、画像の魅力的な部分または特長的な部分を強調することができます。
 
-![ ガイド付きズームのズームターゲットの作成 ](/help/using/assets/zo_guided_zoom.png)
+![&#x200B; ガイド付きズームのズームターゲットの作成 &#x200B;](/help/using/assets/zo_guided_zoom.png)
 
 ## ズームターゲットについて {#about-zoom-targets}
 
@@ -32,7 +32,7 @@ ht-degree: 27%
 | 大 | 小 | 最小ズーム率は小さくなる |
 | 小 | 大 | 最小ズーム率は大きくなる |
 
-Web ページで使用されているサイズに合わせて、ズームビューアのサイズを変更できます。 この設定を永続的に変更するには、[ セットアップ ] 画面のビューア サイズを変更します（管理者の場合）。 [ ズームビューアプリセットの設定 ](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets) を参照してください。
+Web ページで使用されているサイズに合わせて、ズームビューアのサイズを変更できます。 この設定を永続的に変更するには、[ セットアップ ] 画面のビューア サイズを変更します（管理者の場合）。 [&#x200B; ズームビューアプリセットの設定 &#x200B;](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets) を参照してください。
 
 ## ズームターゲットの作成と編集 {#creating-and-editing-zoom-targets}
 
@@ -70,7 +70,7 @@ Web ページで使用されているサイズに合わせて、ズームビュ�
 
 >[!NOTE]
 >
->ズームビューアでズームターゲットがどのように表示されるかを確認するには、ズームターゲットエディター画面の「**[!UICONTROL プレビュー]**」ボタンを選択します。 次に、プレビュー画面でズームビューアを選択します。 この画面について詳しくは、[ 様々なズームビューアで画像をプレビューする ](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers) を参照してください。
+>ズームビューアでズームターゲットがどのように表示されるかを確認するには、ズームターゲットエディター画面の「**[!UICONTROL プレビュー]**」ボタンを選択します。 次に、プレビュー画面でズームビューアを選択します。 この画面について詳しくは、[&#x200B; 様々なズームビューアで画像をプレビューする &#x200B;](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers) を参照してください。
 
 ### ズームターゲットの編集 {#editing-zoom-targets}
 

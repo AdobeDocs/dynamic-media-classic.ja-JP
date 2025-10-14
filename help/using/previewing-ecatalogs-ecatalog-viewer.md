@@ -21,9 +21,9 @@ ht-degree: 32%
 
 プレビューを使用すると、様々な eCatalog ビューアプリセットを使用して eCatalog を表示できます。ページの移動、ノート注釈の記入および参照用のコントロールをテストすることもできます。
 
-[ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers) を参照してください。
+[&#x200B; デフォルトビューアの設定 &#x200B;](application-setup.md#configuring_default_viewers) を参照してください。
 
-[ アセットのプレビュー ](previewing-asset.md#previewing_an_asset) を参照してください。
+[&#x200B; アセットのプレビュー &#x200B;](previewing-asset.md#previewing_an_asset) を参照してください。
 
 **eCatalog ビューアで eCatalog をプレビューするには：**
 
@@ -41,4 +41,4 @@ ht-degree: 32%
 
 >[!MORELIKETHIS]
 >
->* [eCatalog ビューアプリセットの設定 ](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)
+>* [eCatalog ビューアプリセットの設定 &#x200B;](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)

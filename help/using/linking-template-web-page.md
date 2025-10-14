@@ -41,4 +41,4 @@ Web ページにテンプレートを追加するには、web ページ開発チ
 
 >[!MORELIKETHIS]
 >
->* [Web ページへの動的画像の追加 ](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)
+>* [Web ページへの動的画像の追加 &#x200B;](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)

@@ -20,7 +20,7 @@ ht-degree: 1%
 |  | タスク | 説明 |
 | :--- | :--- | --- |
 | **フェーズ 1：ライセンス** | 契約の実行 | Adobe アカウントチームがトラフィックとストレージに基づいて [!DNL Dynamic Media Classic] ライセンスから移行し、[!DNL Dynamic Media] ライセンスで更新できるようにします。 |
-| **フェーズ 2：準備** | 機能の使用状況の検証 | [!DNL Dynamic Media Classic] で使用されている機能が [!DNL Dynamic Media] で使用できることを確認します。 [ 機能の比較 ](/help/using/upgrade-feature-comparison.md) ページを参照してください。 [!DNL Dynamic Media] でまだ利用できない主な機能は次のとおりです。<br>・ ビジュアルコンフィギュレーター（画像作成者、画像レンダリング）。<br>・画像テンプレート（1:1 テンプレート）<br>・ eCatalog。<br> 上記の機能を使用している場合でも、これらの機能に [!DNL Dynamic Media Classic] 経由でアクセスできると仮定すると、アップグレードが行われます。 |
+| **フェーズ 2：準備** | 機能の使用状況の検証 | [!DNL Dynamic Media Classic] で使用されている機能が [!DNL Dynamic Media] で使用できることを確認します。 [&#x200B; 機能の比較 &#x200B;](/help/using/upgrade-feature-comparison.md) ページを参照してください。 [!DNL Dynamic Media] でまだ利用できない主な機能は次のとおりです。<br>・ ビジュアルコンフィギュレーター（画像作成者、画像レンダリング）。<br>・画像テンプレート（1:1 テンプレート）<br>・ eCatalog。<br> 上記の機能を使用している場合でも、これらの機能に [!DNL Dynamic Media Classic] 経由でアクセスできると仮定すると、アップグレードが行われます。 |
 |   | アセットの識別 | アップグレードに使用するアセットとプリセットを検索して準備します。 |
 | **フェーズ 3：環境** | アップグレード [!DNL Adobe Experience Manager] | [!DNL Adobe Experience Manager] のすべてのインスタンスを最新バージョンに更新する必要があります。 |
 |   | 設定 [!DNL Dynamic Media] | Adobe Consultingまたはパートナーが、ユーザーの資格情報を使用して [!DNL Dynamic Media] を設定します。 |

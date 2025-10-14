@@ -54,7 +54,7 @@ Adobe Dynamic Media Classicでスピンセットを作成または作成する�
 | --- | --- | --- |
 | 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
 
-[Dynamic Media の制限 ](/help/using/limitations.md) も参照してください。
+[Dynamic Media の制限 &#x200B;](/help/using/limitations.md) も参照してください。
 
 スピンセットを保存すると、ビルド：スピンセットページでプレビューを使用して、初期設定のビューアでスピンセットの見栄えを確認することができます。
 

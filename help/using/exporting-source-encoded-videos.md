@@ -21,8 +21,8 @@ ht-degree: 0%
 
 参照パネルでは、ソースビデオには *プライマリビデオ* というラベルが付いています。 エンコードされたビデオには「*ビデオ* というラベルが付けられます。 プライマリビデオとビデオを書き出すことができます。 ビデオファイルを書き出すには、参照パネルでビデオファイルを選択して、**[!UICONTROL ファイル]**/**[!UICONTROL 書き出し]** に移動します。
 
-[Adobe Dynamic Media Classicからのアセットのエクスポート ](exporting-assets-from-dmc.md#exporting-assets-from-dmc) を参照してください。
+[Adobe Dynamic Media Classicからのアセットのエクスポート &#x200B;](exporting-assets-from-dmc.md#exporting-assets-from-dmc) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [&#x200B; ビデオのアップロードとエンコード &#x200B;](uploading-encoding-videos.md#uploading_and_encoding_videos)

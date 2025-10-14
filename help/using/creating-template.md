@@ -21,7 +21,7 @@ ht-degree: 36%
 
 テンプレートを作成するには、**[!UICONTROL 作成]**/**[!UICONTROL テンプレートの基本]** に移動します。 「デザイナー」または「開発者」を選択します。このページで、画像とテキストレイヤーを追加できます。また、レイヤーの順序を変更したり、レイヤーのサイズや位置を変更したり、画像やテキストにシャドウ効果と光彩効果を適用することもできます。
 
-[ テンプレートの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) トレーニングビデオも参照してください。
+[&#x200B; テンプレートの基本 &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) トレーニングビデオも参照してください。
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ ht-degree: 36%
 
 * **[!UICONTROL パン]**：レイヤーの選択、キャンバス内での移動、サイズ変更、回転が可能です。
 
-* **[!UICONTROL テキスト]**：テキストレイヤーを作成します。 カンバス上をドラッグしてテキストレイヤーを作成し、レイヤーにテキストを入力します。[ テキストレイヤーの作成 ](#creating-a-text-layer) を参照してください。
+* **[!UICONTROL テキスト]**：テキストレイヤーを作成します。 カンバス上をドラッグしてテキストレイヤーを作成し、レイヤーにテキストを入力します。[&#x200B; テキストレイヤーの作成 &#x200B;](#creating-a-text-layer) を参照してください。
 
 * **[!UICONTROL プレビュー]**: プレビュー画面を開き、ズームビューアにテンプレートを表示します。 Web サイトまたはアプリケーションのユーザーに、テンプレートがどのように表示されるかを確認できます。
 
@@ -111,9 +111,9 @@ ht-degree: 36%
 
 * **[!UICONTROL キャンバス]**：テンプレートを定義するために使用できる領域の合計をピクセル単位で定義します。 デフォルトサイズは 300 × 300 ピクセルです。 レイヤーは、カンバス上に配置されます。
 
-* **[!UICONTROL レイヤーリスト]**：テンプレート内のレイヤーの名前が一覧表示されます。 レイヤーを選択するには、「レイヤー」リストで名前を選択します。「レイヤー」リストには、レイヤーに効果を追加したり、レイヤーを削除したり、レイヤーの順序を変更したり、レイヤーをパラメータ化するためのツールがあります。詳しくは [ レイヤーの操作 ](#working-with-layers) を参照してください。
+* **[!UICONTROL レイヤーリスト]**：テンプレート内のレイヤーの名前が一覧表示されます。 レイヤーを選択するには、「レイヤー」リストで名前を選択します。「レイヤー」リストには、レイヤーに効果を追加したり、レイヤーを削除したり、レイヤーの順序を変更したり、レイヤーをパラメータ化するためのツールがあります。詳しくは [&#x200B; レイヤーの操作 &#x200B;](#working-with-layers) を参照してください。
 
-* **[!UICONTROL レイヤープロパティ領域]**：この領域には、レイヤーの背景色、不透明度、サイズおよび位置を変更するためのツールが表示されます。 また、キャンバスの背景色、不透明度、サイズも変更できます。 また、シャドウ効果と光彩効果を調整することもできます。詳しくは [ レイヤーの操作 ](#working-with-layers) を参照してください。
+* **[!UICONTROL レイヤープロパティ領域]**：この領域には、レイヤーの背景色、不透明度、サイズおよび位置を変更するためのツールが表示されます。 また、キャンバスの背景色、不透明度、サイズも変更できます。 また、シャドウ効果と光彩効果を調整することもできます。詳しくは [&#x200B; レイヤーの操作 &#x200B;](#working-with-layers) を参照してください。
 
 ## 画像レイヤーの作成 {#creating-image-layers}
 
@@ -246,7 +246,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classicでは、テンプレートとまったく同じサイズの画像プリセットを作成することをお勧めします。 画像プリセットのサイズをテンプレートのサイズと同じにすることで、テンプレートの最終出力サイズとシャープオプションが正しく設定されます。この画像プリセットを作成したら、テンプレートプレビュー画面のプリセットを適用メニューから選択できます。 画面には、画像がサーバから配信されたときにどのように表示されるかが示されます。[ 画像プリセットの設定 ](setting-image-presets.md#setting_up_image_presets) を参照してください。
+>Adobe Dynamic Media Classicでは、テンプレートとまったく同じサイズの画像プリセットを作成することをお勧めします。 画像プリセットのサイズをテンプレートのサイズと同じにすることで、テンプレートの最終出力サイズとシャープオプションが正しく設定されます。この画像プリセットを作成したら、テンプレートプレビュー画面のプリセットを適用メニューから選択できます。 画面には、画像がサーバから配信されたときにどのように表示されるかが示されます。[&#x200B; 画像プリセットの設定 &#x200B;](setting-image-presets.md#setting_up_image_presets) を参照してください。
 
 * **レイヤーのサイズの変更**：レイヤーまたはキャンバスのサイズを変更するには、「レイヤー」リストでレイヤーまたはキャンバスを選択し、次のいずれかの方法を使用します。
 

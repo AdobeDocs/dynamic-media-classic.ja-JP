@@ -68,7 +68,7 @@ Adobeが Adobe Scene7 の名前を [!DNL Dynamic Media Classic] に変更しま�
 +++
 
 +++**アップグレードプロセスを開始するにはどうすればよいですか？**
-Adobe アカウントチーム担当者に問い合わせるか、件名 [ を ](mailto:s7support@adobe.com)s7support@adobe.comにメール `[!DNL Dynamic Media] Upgrade Program` してください。
+Adobe アカウントチーム担当者に問い合わせるか、件名 [&#x200B; を &#x200B;](mailto:s7support@adobe.com)s7support@adobe.comにメール `[!DNL Dynamic Media] Upgrade Program` してください。
 
 +++
 
@@ -108,7 +108,7 @@ AGS （Adobe グローバルサービス）はアップグレードを処理し�
 +++
 
 +++**アップグレード準備チェックリスト内のすべての手順は必要ですか？**
-いいえ。 [ 準備チェックリスト ](/help/using/upgrade-readiness.md) には、必須およびオプションのベストプラクティス手順が含まれています。
+いいえ。 [&#x200B; 準備チェックリスト &#x200B;](/help/using/upgrade-readiness.md) には、必須およびオプションのベストプラクティス手順が含まれています。
 
 +++
 
@@ -218,7 +218,7 @@ Adobeは、[!DNL Dynamic Media] に移動されるすべてのアセットに対
 +++
 
 +++**アップグレード [!DNL Dynamic Media] きるように、必要な機能はありますか？ [!DNL Dynamic Media] Assetsの [!DNL Experience Manager] ではどのような機能を利用できますか？**
-詳しくは、[ 機能の比較 ](/help/using/upgrade-feature-comparison.md) ページを参照してください。
+詳しくは、[&#x200B; 機能の比較 &#x200B;](/help/using/upgrade-feature-comparison.md) ページを参照してください。
 
 +++
 
@@ -229,7 +229,7 @@ Adobeは、[!DNL Dynamic Media] に移動されるすべてのアセットに対
 * 画像テンプレート。
 * eCatalog。
 
-詳しくは、[ 機能の比較 ](/help/using/upgrade-feature-comparison.md) ページも参照してください。
+詳しくは、[&#x200B; 機能の比較 &#x200B;](/help/using/upgrade-feature-comparison.md) ページも参照してください。
 
 +++
 
@@ -255,7 +255,7 @@ Adobeはお客様と協力してプロジェクトの計画を立てます。 Ad
 ## サポートとトレーニング
 
 +++**サポートを受けるにはどうすればよいですか？**
-2035 年 7 月 24 日クライアントケアのサポートが利用できます。 [ テクニカルサポートにお問い合わせください ](https://experienceleague.adobe.com/ja?support-solution=General#support)。
+2035 年 7 月 24 日クライアントケアのサポートが利用できます。 [&#x200B; テクニカルサポートにお問い合わせください &#x200B;](https://experienceleague.adobe.com/ja?support-solution=General#support)。
 
 電話：1-800-898-9743 （米国） | +44 （0） 20 35641782 （英国） | +81-3-6743-9632 （日本）
 

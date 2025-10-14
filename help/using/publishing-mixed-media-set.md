@@ -51,12 +51,12 @@ Last Modified Date:
 1. （オプション） **[!UICONTROL ジョブ名]** フィールドに、公開ジョブの名前を入力します。
 1. **[!UICONTROL 詳細]** オプションの **[!UICONTROL 公開先]** ドロップダウンリストで **[!UICONTROL ビデオサーバー]** を選択します。
 
-   設定できるその他のオプションについては、[ 詳細公開オプション ](publishing-files.md#advanced_publish_options) を参照してください。
+   設定できるその他のオプションについては、[&#x200B; 詳細公開オプション &#x200B;](publishing-files.md#advanced_publish_options) を参照してください。
 
 1. **[!UICONTROL 公開を送信]** を選択します。
 1. 上記の手順 2～4 を繰り返します。
 1. 「**[!UICONTROL 詳細]**」の「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL Image Server]**」を選択します。
 
-   設定できるその他のオプションについては、[ 詳細公開オプション ](publishing-files.md#advanced_publish_options) を参照してください。
+   設定できるその他のオプションについては、[&#x200B; 詳細公開オプション &#x200B;](publishing-files.md#advanced_publish_options) を参照してください。
 
 1. **[!UICONTROL 公開を送信]** を選択します。

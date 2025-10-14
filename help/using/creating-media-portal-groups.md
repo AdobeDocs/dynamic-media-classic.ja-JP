@@ -79,7 +79,7 @@ ht-degree: 49%
 
 グループメンバーが Media Portal でアセットを書き出す際に使用することができる画像プリセットを指定する場合は、グループの画像プリセットのアクセス権限を選択します。
 
-[Media Portal ユーザーが使用できる書き出しオプションの指定 ](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users) も参照してください。
+[Media Portal ユーザーが使用できる書き出しオプションの指定 &#x200B;](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users) も参照してください。
 
 **グループの画像プリセットのアクセス権限を選択するには：**
 

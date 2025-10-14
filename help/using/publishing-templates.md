@@ -35,5 +35,5 @@ Dynamic Media Image Server に配置するには、テンプレートとその�
 
 >[!MORELIKETHIS]
 >
->* [ アセットを公開用にマーク ](publishing-files.md#publish_after_uploading)
->* [ 公開ジョブの作成 ](publishing-files.md#creating_a_publish_job)
+>* [&#x200B; アセットを公開用にマーク &#x200B;](publishing-files.md#publish_after_uploading)
+>* [&#x200B; 公開ジョブの作成 &#x200B;](publishing-files.md#creating_a_publish_job)

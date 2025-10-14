@@ -118,11 +118,11 @@ Last Modified Date:
 1. Image Server 公開ページの左下にある「**[!UICONTROL 保存]**」を選択します
 1. 目的の画像をAdobe Dynamic Media Classic アカウントにアップロードします。
 
-   [ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。
+   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files) を参照してください。
 
 1. 一部の画像が公開用にマークされており、他の画像がマークされていないことを確認し、公開ジョブを送信します。
 
-   [ ファイルを公開 ](publishing-files.md#publishing_files) を参照してください。
+   [&#x200B; ファイルを公開 &#x200B;](publishing-files.md#publishing_files) を参照してください。
 
 1. **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 一般設定]** に移動して、セキュアテストサービスの名前を決定します。
 1. アプリケーション全般設定ページのサーバグループの下で、**[!UICONTROL 「公開コンテキストのサーバ名のテスト」]**&#x200B;の右側にある名前を検索します。

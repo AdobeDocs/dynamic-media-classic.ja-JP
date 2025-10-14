@@ -21,7 +21,7 @@ ht-degree: 0%
 
 画像をAdobe Dynamic Media Classicにアップロードする前に、画像が最高品質のサイズと形式であることを確認してください。 Adobe Dynamic Media Classicでは、十分なピクセル数（長いサイズで 1500～2000 ピクセル）を持つ高品質の画像をアップロードすることをお勧めします。 このサイズ設定により、必要なDynamic Imagingがすべて可能になります。
 
-画像のアップロードについて詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。
+画像のアップロードについて詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files) を参照してください。
 
 **アップロード用のプライマリ画像を準備：**
 
@@ -31,4 +31,4 @@ Adobe Dynamic Media Classicにアップロードする前に、プライマリ�
 
 * **ファイル形式**:Adobe Dynamic Media Classicでは、すべての標準画像ファイル形式をサポートしています。 これらのフォーマットには、TIFF、BMP、JPEG、PSD、GIF、EPSなどがあります。 可逆圧縮形式（TIFFおよび PNG）をお勧めします。 JPEG画像を使用する場合は、最高画質の設定を使用します。
 
-* **カラースペース**:RGBは、web 画像表示のカラースペースです。印刷に一般的に使用される CMYK 画像は、アップロード時にRGBに自動変換されます。 ICC （International Color Consortium）カラープロファイルが埋め込まれた CMYK 画像をアップロードしてRGBに変換することをお勧めします。 [ICC （International Color Consortium） プロファイル ](/help/using/icc-profiles.md) も参照してください。
+* **カラースペース**:RGBは、web 画像表示のカラースペースです。印刷に一般的に使用される CMYK 画像は、アップロード時にRGBに自動変換されます。 ICC （International Color Consortium）カラープロファイルが埋め込まれた CMYK 画像をアップロードしてRGBに変換することをお勧めします。 [ICC （International Color Consortium） プロファイル &#x200B;](/help/using/icc-profiles.md) も参照してください。

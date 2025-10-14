@@ -25,5 +25,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ ガイド付きズームのズームターゲットの作成 ](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
->* [ 画像マップの作成 ](creating-image-maps.md#creating_image_maps)
+>* [&#x200B; ガイド付きズームのズームターゲットの作成 &#x200B;](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
+>* [&#x200B; 画像マップの作成 &#x200B;](creating-image-maps.md#creating_image_maps)

@@ -24,13 +24,13 @@ ht-degree: 14%
 | サポート | 製品版 |
 | --- | --- |
 | 案件数 | 無制限。 |
-| Adobeのシステムステータスの確認 | [Adobe Dynamic Media Classic システムの状態 ](https://status.adobe.com/products/1175)。 |
-| 答えが見つからない場合は、 | [ サポートからサポートを受けるには、チケットを開いてください ](https://experienceleague.adobe.com/ja?support-solution=General#support)。 |
-| コミュニティフォーラム | [Experience Manager コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)。 |
-| SLA（Service Level Agreement） | [ サポートサービス /利用条件 ](https://helpx.adobe.com/jp/support/programs/support-policies-terms-conditions.html)。 |
+| Adobeのシステムステータスの確認 | [Adobe Dynamic Media Classic システムの状態 &#x200B;](https://status.adobe.com/products/1175)。 |
+| 答えが見つからない場合は、 | [&#x200B; サポートからサポートを受けるには、チケットを開いてください &#x200B;](https://experienceleague.adobe.com/ja?support-solution=General#support)。 |
+| コミュニティフォーラム | [Experience Manager コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)。 |
+| SLA（Service Level Agreement） | [&#x200B; サポートサービス /利用条件 &#x200B;](https://helpx.adobe.com/jp/support/programs/support-policies-terms-conditions.html)。 |
 | サポートされるユーザー | サポート対象ユーザーは、組織あたり最大 10 人のユーザーを指定でき、カスタマーケアでケースをオープンできます。 |
 | 無料のライブ Web トレーニングおよびインストラクション ビデオ | 組み込み |
-| 電話サポート | <ul><li>米国およびカナダ：1-800-497-0335 </li><li>[ その他の地域の電話番号 ](https://experienceleague.adobe.com/ja?support-tab=home#support) </li></ul> |
+| 電話サポート | <ul><li>米国およびカナダ：1-800-497-0335 </li><li>[&#x200B; その他の地域の電話番号 &#x200B;](https://experienceleague.adobe.com/ja?support-tab=home#support) </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 

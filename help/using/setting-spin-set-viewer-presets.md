@@ -38,7 +38,7 @@ ht-degree: 24%
 
 **[!UICONTROL デフォルトにする]** を選択すると、作成したスピンセットビューアプリセットがスピンセット表示用にデフォルトになります。
 
-[ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers) を参照してください。
+[&#x200B; デフォルトビューアの設定 &#x200B;](application-setup.md#configuring_default_viewers) を参照してください。
 
 スピンセットビューアプリセットを削除するには、ビューアプリセットページでスピンセットビューアプリセットを選択して、「**[!UICONTROL 削除]**」を選択します。
 

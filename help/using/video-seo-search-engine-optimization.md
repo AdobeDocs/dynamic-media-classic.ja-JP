@@ -23,9 +23,9 @@ ht-degree: 27%
 
 Adobe Dynamic Media Classic Video SEO を使用すると、ビデオメタデータを適用して、ビデオの説明を検索エンジンに提供できます。 Adobe Dynamic Media Classicでは、ビデオサイトマップと mRSS フィードを作成できます。 検索エンジンにビデオ情報を送信するには、次の標準 XML ファイルを使用します。
 
-* **ビデオサイトマップ**：サイト上のビデオコンテンツの場所と内容をGoogleに正確に伝えます。 そのため、ビデオはGoogleで完全に検索できます。 例えば、ビデオサイトマップでビデオの実行時間とカテゴリを指定できます。ビデオサイトマップについて詳しくは、「[ ビデオサイトマップとビデオサイトマップの代替 ](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)」を参照してください。
+* **ビデオサイトマップ**：サイト上のビデオコンテンツの場所と内容をGoogleに正確に伝えます。 そのため、ビデオはGoogleで完全に検索できます。 例えば、ビデオサイトマップでビデオの実行時間とカテゴリを指定できます。ビデオサイトマップについて詳しくは、「[&#x200B; ビデオサイトマップとビデオサイトマップの代替 &#x200B;](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)」を参照してください。
 
-* **mRSS （Media Really Simple Syndication）フィード**：コンテンツ発行者がメディアファイルを Yahoo！にフィードするために使用します。 ビデオ検索にフィードするために使用されます。mRSS フィードについて詳しくは、「[ ビデオサイトマップとビデオサイトマップの代替 ](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)」を参照してください。
+* **mRSS （Media Really Simple Syndication）フィード**：コンテンツ発行者がメディアファイルを Yahoo！にフィードするために使用します。 ビデオ検索にフィードするために使用されます。mRSS フィードについて詳しくは、「[&#x200B; ビデオサイトマップとビデオサイトマップの代替 &#x200B;](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)」を参照してください。
 
 >[!NOTE]
 >

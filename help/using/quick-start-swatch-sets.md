@@ -27,23 +27,23 @@ Adobe Dynamic Media Classic スウォッチセットは、統合された閲覧�
 
 まず、スウォッチセット用の画像とスウォッチファイルをアップロードします。
 
-グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターからAdobe Dynamic Media Classic上のフォルダーにファイルをアップロードします。 [ アップロード用のスウォッチセットアセットの準備 ](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) および [ ファイルのアップロード ](uploading-files.md#uploading-your-files) を参照してください。
+グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターからAdobe Dynamic Media Classic上のフォルダーにファイルをアップロードします。 [&#x200B; アップロード用のスウォッチセットアセットの準備 &#x200B;](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) および [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading-your-files) を参照してください。
 
 ## &#x200B;2. スウォッチセットの作成
 
-スウォッチセットを作成するには、グローバルナビゲーションバーで **[!UICONTROL 作成]**/**[!UICONTROL スウォッチセット]** を選択します。 スウォッチセット ページで、画像とカラースウォッチをページにドラッグします。 [ スウォッチセットの作成 ](creating-swatch-set.md#creating-a-swatch-set) を参照してください。
+スウォッチセットを作成するには、グローバルナビゲーションバーで **[!UICONTROL 作成]**/**[!UICONTROL スウォッチセット]** を選択します。 スウォッチセット ページで、画像とカラースウォッチをページにドラッグします。 [&#x200B; スウォッチセットの作成 &#x200B;](creating-swatch-set.md#creating-a-swatch-set) を参照してください。
 
 ## &#x200B;3. スウォッチセットビューアプリセットの設定
 
 管理者は、画像セットビューアのプリセットを作成または変更できます。Adobe Dynamic Media Classicには、リッチメディアタイプごとにデフォルトのビューアプリセットが用意されています。 ズームビューア : カスタム／画像セット / カラースウォッチのプリセットを使用してスウォッチセットを表示します。
 
-[ ビューアプリセットの作成と編集 ](application-setup.md#adding-and-editing-viewer-presets) を参照してください。
+[&#x200B; ビューアプリセットの作成と編集 &#x200B;](application-setup.md#adding-and-editing-viewer-presets) を参照してください。
 
 ## &#x200B;4. スウォッチセットのプレビュー
 
 参照パネルでスウォッチセットを選択し、「**[!UICONTROL プレビュー]**」を選択します。 スウォッチセットがこのページに表示されます。 サムネールおよびスウォッチアイコンを選択して、選択したビューアでのスウォッチセットの表示を確認します。 プリセットメニューから様々なビューアを選択できます。
 
-[ アセットのプレビュー ](previewing-asset.md#previewing-an-asset) を参照してください。
+[&#x200B; アセットのプレビュー &#x200B;](previewing-asset.md#previewing-an-asset) を参照してください。
 
 ## &#x200B;5. スウォッチセットの公開
 
@@ -51,10 +51,10 @@ Adobe Dynamic Media Classic スウォッチセットは、統合された閲覧�
 
 参照パネルで、公開用にマーク **[!UICONTROL アイコンをその名前の左側で選択します。]** 次に、「**[!UICONTROL 公開]**」を選択します。 公開ページで、「**[!UICONTROL 公開を送信]**」を選択します。
 
-[ ファイルを公開 ](publishing-files.md#publishing-files) を参照してください。
+[&#x200B; ファイルを公開 &#x200B;](publishing-files.md#publishing-files) を参照してください。
 
 ## &#x200B;6. スウォッチセットを web ページにリンクする
 
 Adobe Dynamic Media Classicによって、スウォッチセットの URL 呼び出しが作成され、公開後にアクティベートされます。 これらの URL は、プレビューページからコピーできます。
 
-スウォッチセットを選択して、「プレビュー」ボタンを選択します。プレビューページが開きます。 スウォッチセットビューアプリセットを選択して、「URL をコピー」ボタンを選択します。[Web ページへのスウォッチセットのリンク ](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page) を参照してください。
+スウォッチセットを選択して、「プレビュー」ボタンを選択します。プレビューページが開きます。 スウォッチセットビューアプリセットを選択して、「URL をコピー」ボタンを選択します。[Web ページへのスウォッチセットのリンク &#x200B;](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page) を参照してください。

@@ -37,4 +37,4 @@ Dynamic Media Image Server にコピーするには、プライマリ画像が�
 
 >[!MORELIKETHIS]
 >
->* [ ファイルを公開 ](publishing-files.md#publishing_files)
+>* [&#x200B; ファイルを公開 &#x200B;](publishing-files.md#publishing_files)

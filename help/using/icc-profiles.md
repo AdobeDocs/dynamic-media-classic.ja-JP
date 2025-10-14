@@ -23,7 +23,7 @@ ICC （International Color Consortium）プロファイルは、画像ファイ�
 
 Adobe Dynamic Media Classicでは、画像をアップロードする際に画像を別のカラースペースに変換する ICC プロファイルを選択できます。 すべての標準Photoshop ICC プロファイルは、デフォルトでAdobe Dynamic Media Classicで使用できます。 アップロード画面でカラープロファイル名を表示するには、カラープロファイルメニューを選択します。次に、「カスタム開始/終了」を選択し、「変換元」および「変換先」メニューで ICC プロファイル名を選択します。
 
-[ アップロード時の画像編集オプション ](image-editing-options-upload.md#image-editing-options-at-upload) を参照してください。
+[&#x200B; アップロード時の画像編集オプション &#x200B;](image-editing-options-upload.md#image-editing-options-at-upload) を参照してください。
 
 デフォルトの ICC プロファイルを使用する以外にも、他の ICC プロファイルをAdobe Dynamic Media Classicにアップロードして、カラースペースの変換に使用できるようにします。 参照パネルの詳細ビューに切り替えて、ICC プロファイルのプロファイルクラス、カラースペースタイプ、PCS タイプを調べます。
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classicでは、画像をアップロードする際に画�
 
 ICC プロファイルのアップロードは、ファイルをアップロードするのと同じ方法で行います。ICC プロファイルは任意のAdobe Dynamic Media Classic フォルダーに保存できます。
 
-[ ファイルのアップロード ](uploading-files.md#uploading_your_files) を参照してください。
+[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_your_files) を参照してください。
 
 ## ICC プロファイルの調査 {#examining-an-icc-profile}
 

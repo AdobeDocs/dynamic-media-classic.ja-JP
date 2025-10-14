@@ -27,7 +27,7 @@ PDF（Portable Document Format）ファイルは、eCatalog を作成するた�
 | --- | --- | --- |
 | 抽出対象となるPDFの最大ページ数 | 5000 （新規アップロード用） | 100 （すべての PDF 用） |
 
-[Dynamic Media の制限 ](/help/using/limitations.md) も参照してください。
+[Dynamic Media の制限 &#x200B;](/help/using/limitations.md) も参照してください。
 
 ## PDF アップロードオプション {#pdf-upload-options}
 

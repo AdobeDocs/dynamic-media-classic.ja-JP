@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic ユーザーは、ブラウザーのAdobe Flash テ�
 >
 >Adobeでは、2020 年 10 月 1 日（PT）までに新しいAdobe Dynamic Media Classic デスクトップアプリケーションをインストールすることをお勧めします。 これにより、2020 年 12 月 31 日（PT）にAdobe Flash Player が非推奨（廃止予定）になる前に、スムーズに移行できます。 その日を過ぎると、ブラウザーバージョンのAdobe Dynamic Media Classic ユーザーインターフェイス（製品で「Adobe Dynamic Media Classic」というラベルが付いています）にログオンできなくなります。
 
-[ 新しく利用可能になったAdobe Dynamic Media Classicへのログイン ](/help/using/new-ui-2020.md) については、FAQ を参照してください。
+[&#x200B; 新しく利用可能になったAdobe Dynamic Media Classicへのログイン &#x200B;](/help/using/new-ui-2020.md) については、FAQ を参照してください。
 
 ## Adobe Dynamic Media Classic デスクトップアプリケーションの動作環境 {#system-requirements-dmc-app}
 
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションは、次�
 * macOS 10.10 以降。
 * Windows® 7 以降。
 
-完全なシステム要件については、[Adobe Dynamic Media Classic デスクトップアプリケーションのシステム要件 ](/help/using/system-requirements.md) を参照してください。
+完全なシステム要件については、[Adobe Dynamic Media Classic デスクトップアプリケーションのシステム要件 &#x200B;](/help/using/system-requirements.md) を参照してください。
 
 Adobe Dynamic Media Classic デスクトップアプリケーション内のアップグレード通知が、*マイナー* リリースでは生成されません。 マイナーリリースの修正によるメリットが得られる顧客は、アップグレードできます。
 
@@ -58,11 +58,11 @@ Adobe Dynamic Media Classic デスクトップアプリケーション内のア�
 * デスクトップアプリケーションは、通常、設定操作の後に応答を停止します。
 * **[!UICONTROL テスト画像サービング]** でリクエストの不明化とロックモードを自動的に有効にします。
 
-  [ セキュアテストサービス ](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service) を参照してください。
+  [&#x200B; セキュアテストサービス &#x200B;](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service) を参照してください。
 
 * Adobe Analyticsの認証メカニズムを更新しました。 新しい統合に関連しているか、Dynamic Media Classic デスクトップアプリ内から一部の Analytics 変数を更新する必要がある場合。
 
-  更新された手順については、[Adobe Analyticsへのログオン ](/help/using/log-analytics.md) を参照してください。
+  更新された手順については、[Adobe Analyticsへのログオン &#x200B;](/help/using/log-analytics.md) を参照してください。
 
 ## リリース 20.21.2 の修正点 {#minor-release}
 
@@ -99,13 +99,13 @@ Adobe Dynamic Media Classic デスクトップアプリケーション内のア�
 
    * 最新バージョンは以下で入手できます。
 
-      * [macOS （.DMG）: ダウンロード ](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows （.EXE）: ダウンロード ](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+      * [macOS （.DMG）: ダウンロード &#x200B;](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows （.EXE）: ダウンロード &#x200B;](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * 以前のバージョンは次の場所で入手できます。
 
-      * [macOS （.DMG）: ダウンロード ](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® （.EXE）: ダウンロード ](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+      * [macOS （.DMG）: ダウンロード &#x200B;](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+      * [Windows® （.EXE）: ダウンロード &#x200B;](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 <!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
@@ -120,18 +120,18 @@ Adobe Dynamic Media Classic デスクトップアプリケーション内のア�
 
    * **macOS** – 「**[!UICONTROL ドラッグ&amp;ドロップしてインストール]**」ダイアログボックスで、「**[!UICONTROL Adobe Dynamic Media Classic]**」をドラッグして **[!UICONTROL アプリケーション]** にドロップします。
 
-     ![macOSへのインストールをドラッグ&amp;ドロップ ](/help/using/assets/dragondrop-install1.png)
+     ![macOSへのインストールをドラッグ&amp;ドロップ &#x200B;](/help/using/assets/dragondrop-install1.png)
 
    * **[!UICONTROL Applications]** フォルダーで、「Adobe Dynamic Media Classic」アイコンをタップします。
    * ダイアログボックスで、「**[!UICONTROL 開く]** をタップして、Adobe Dynamic Media Classic デスクトップアプリケーションを開きます。
 
-     ![ ダウンロードしたアプリを開く ](/help/using/assets/open-dmclassicapp1.png)
+     ![&#x200B; ダウンロードしたアプリを開く &#x200B;](/help/using/assets/open-dmclassicapp1.png)
 
    * **Windows** - インストーラーバイナリを実行し、画面の指示に従ってデスクトップアプリケーションをインストールします。
 
 1. アプリケーションを開くと、新しいAdobe Dynamic Media Classic ログインページが表示されます。
 
-   ![Adobe Dynamic Media Classicへのログイン ](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classicへのログイン &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Adobe Dynamic Media Classic デスクトップアプリケーションにログインするには、ブラウザーでAdobe Dynamic Media Classicへのログオンに使用したのと同じ資格情報を使用します。
 
@@ -158,7 +158,7 @@ macOSに最新バージョンのAdobe Dynamic Media Classic デスクトップ�
 
 1. macOS用Adobe Dynamic Media Classic デスクトップアプリケーションの最新のインストーラーをダウンロードします。
 
-   * [macOS （.DMG）: ダウンロード ](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+   * [macOS （.DMG）: ダウンロード &#x200B;](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. 次のコマンドを使用して、ダウンロードしたディスクイメージ（.DMG）をマウントポイントの場所にマウントします。
 
@@ -173,7 +173,7 @@ macOSに最新バージョンのAdobe Dynamic Media Classic デスクトップ�
 
 1. アプリケーションを開くと、新しいAdobe Dynamic Media Classic ログインページが表示されます。
 
-   ![Adobe Dynamic Media Classicへのログイン ](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classicへのログイン &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Adobe Dynamic Media Classic デスクトップアプリケーションにログインするには、ブラウザーでAdobe Dynamic Media Classicへのログオンに使用したのと同じ資格情報を使用します。
 
@@ -187,7 +187,7 @@ macOSに最新バージョンのAdobe Dynamic Media Classic デスクトップ�
 
 ## Windows に最新のAdobe Dynamic Media Classic デスクトップアプリをダウンロードし ** サイレントに）インストールする® {#install-silent-windows-dmc-app}
 
-使用するコマンドは、基本的な MSI サイレントインストール用です。 ただし、Adobe Dynamic Media Classic デスクトップアプリケーションインストーラーは、InstallShield を使用して作成された InstallScript MSI インストーラーです。 インストーラーを記録モードで実行すると、ユーザーの操作がすべて応答ファイルに記録されます。 次に、この応答ファイルは、「サイレントモードでのインストールの実行 [ で説明されているように、サイレントインストールに使用され ](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm) す。
+使用するコマンドは、基本的な MSI サイレントインストール用です。 ただし、Adobe Dynamic Media Classic デスクトップアプリケーションインストーラーは、InstallShield を使用して作成された InstallScript MSI インストーラーです。 インストーラーを記録モードで実行すると、ユーザーの操作がすべて応答ファイルに記録されます。 次に、この応答ファイルは、「サイレントモードでのインストールの実行 [&#x200B; で説明されているように、サイレントインストールに使用され &#x200B;](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm) す。
 
 関連トピック：
 
@@ -201,7 +201,7 @@ Windows® 上で最新バージョンのAdobe Dynamic Media Classic デスクト
 
 1. Adobe Dynamic Media Classic デスクトップアプリケーションの最新のインストーラーをダウンロードします。
 
-   * [Windows® （.EXE）: ダウンロード ](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * [Windows® （.EXE）: ダウンロード &#x200B;](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
 1. 次のコマンドを使用して、記録モードでインストーラーを実行します。
 
@@ -215,11 +215,11 @@ Windows® 上で最新バージョンのAdobe Dynamic Media Classic デスクト
 
    `adobe-dynamic-media-classic-20.22.1.exe /s /f1"C:\Setup.iss"`
 
-   コマンド ライン パラメーターの詳細については、[Setup.exe および Update.exe コマンド ライン パラメーター ](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/IHelpSetup_EXECmdLine.htm?Highlight=Setup.exe%20and%20Update.exe%20Command-Line%20Parameters) を参照してください。
+   コマンド ライン パラメーターの詳細については、[Setup.exe および Update.exe コマンド ライン パラメーター &#x200B;](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/IHelpSetup_EXECmdLine.htm?Highlight=Setup.exe%20and%20Update.exe%20Command-Line%20Parameters) を参照してください。
 
 1. アプリケーションを開くと、新しいAdobe Dynamic Media Classic ログインページが表示されます。
 
-   ![Adobe Dynamic Media Classicへのログイン ](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classicへのログイン &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Adobe Dynamic Media Classic デスクトップアプリケーションにログインするには、ブラウザーでAdobe Dynamic Media Classicへのログオンに使用したのと同じ資格情報を使用します。
 
@@ -233,7 +233,7 @@ Windows® 上で最新バージョンのAdobe Dynamic Media Classic デスクト
 
 ## Adobe Dynamic Media Classic デスクトップアプリケーションの使用に関するビデオウォークスルー {#dmc-app-video-walk-through}
 
-Adobe Dynamic Media Classic デスクトップアプリケーションの使用方法に関する [ ビデオウォークスルー ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長さ：2 分 36 秒）を視聴します。
+Adobe Dynamic Media Classic デスクトップアプリケーションの使用方法に関する [&#x200B; ビデオウォークスルー &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長さ：2 分 36 秒）を視聴します。
 
 ## デスクトップアプリケーションを使用した、コンピューター上の画像キャッシュとアセットキャッシュのクリア {#clear-cache}
 
@@ -254,7 +254,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションの使用�
 
 ## Adobe Dynamic Media Classic 20.21.1 の既知の制限
 
-* Adobe Dynamic Media Classic デスクトップアプリケーション 20.21.1 にアップデートすると、「**[!UICONTROL サーバー]**」ドロップダウンリストが空になります。シナリオ：Adobe Dynamic Media Classic 20.20.1 または 20.20.2 をインストールしてログインし、アプリケーションを閉じます。 次に、Adobe Dynamic Media Classic 20.21.1 に更新します。ログインしようとすると、「**[!UICONTROL アカウントへのサインイン]**」ダイアログボックスの **[!UICONTROL サーバー]** ドロップダウンリストが空になります。 この問題を回避するには、[ 手動でキャッシュをクリア ](#clear-cache) する必要があります（上記の手順を参照）。
+* Adobe Dynamic Media Classic デスクトップアプリケーション 20.21.1 にアップデートすると、「**[!UICONTROL サーバー]**」ドロップダウンリストが空になります。シナリオ：Adobe Dynamic Media Classic 20.20.1 または 20.20.2 をインストールしてログインし、アプリケーションを閉じます。 次に、Adobe Dynamic Media Classic 20.21.1 に更新します。ログインしようとすると、「**[!UICONTROL アカウントへのサインイン]**」ダイアログボックスの **[!UICONTROL サーバー]** ドロップダウンリストが空になります。 この問題を回避するには、[&#x200B; 手動でキャッシュをクリア &#x200B;](#clear-cache) する必要があります（上記の手順を参照）。
 
 ## Adobe Dynamic Media Classic 20.20.1 の既知の制限（20.20.2 で修正）
 
@@ -265,7 +265,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションの使用�
 * Adobe Dynamic Media Classic アプリケーションで、会社ドロップダウンリストから新しい会社を選択します。
 * ポップアップウィンドウが表示されたら、「**[!UICONTROL OK]**」をタップしてログアウトし、アプリを閉じます。
 
-  ![ 新しい会社を使用するには、アプリを再起動します ](/help/using/assets/dmclassic-new-company1.png)
+  ![&#x200B; 新しい会社を使用するには、アプリを再起動します &#x200B;](/help/using/assets/dmclassic-new-company1.png)
 
 * Adobe Dynamic Media Classicを再起動し、通常どおりログインして新しい会社で作業します。
 
@@ -275,7 +275,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションの使用�
 
 **_アセットの公開状態（緑色のインジケーター）が正しく反映されていない。_**<br>ブラウザーユーザーインターフェイスで、アセットの正しい公開状態を確認するには、UI への再ログインが必要でした。 デスクトップアプリケーションで、Adobeのツールバーの「**[!UICONTROL 何も選択しない&#x200B;]**&#x200B;ボタンの右側にある&#x200B;**[!UICONTROL 更新&#x200B;]**&#x200B;アイコンが導入されました。**[!UICONTROL 更新&#x200B;]**&#x200B;アイコンをタップして、特定のページ上のすべてのアセットの最新のステータスを表示します。 ブラウザー UI の場合のように、再ログオンは必要ありません。
 
-![ 更新アイコン ](/help/using/assets/refresh-icon1.png)
+![&#x200B; 更新アイコン &#x200B;](/help/using/assets/refresh-icon1.png)
 *更新アイコン*
 
 **_デスクトップアプリケーションでバッチセットプリセットが機能しません。_**<br>アップロード&#x200B;**[!UICONTROL ジョブオプション/バッチセットプリセット&#x200B;]**&#x200B;をタップします。 関連する&#x200B;**[!UICONTROL バッチセットプリセット&#x200B;]**&#x200B;が有効になっていることを確認します。**[!UICONTROL アップロードを保存して送信&#x200B;]**&#x200B;をクリックします。

@@ -23,8 +23,8 @@ eCatalog は、デジタル版、Web 版の印刷資料です。例えば、カ�
 
 次のトレーニングビデオも参照してください。
 
-* [ クイックスタート 1:eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
-* [ クイックスタート 2:eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+* [&#x200B; クイックスタート 1:eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [&#x200B; クイックスタート 2:eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
 eCatalog に対して選択した設定に応じて、ビューアでは次の操作を実行できます。
 
@@ -40,7 +40,7 @@ eCatalog に対して選択した設定に応じて、ビューアでは次の�
 * ピンチズームやスワイプによるページめくりなど、ジェスチャ操作を使用します。
 * キーワードと一致する項目を検索することができます。
 
-![ ユーザーに表示される eCatalog。 A） eCatalog 開始ページ B） eCatalog を 2.](/help/using/assets/ec_cat_viewer_popup.png) ページに変更
+![&#x200B; ユーザーに表示される eCatalog。 A） eCatalog 開始ページ B） eCatalog を 2.](/help/using/assets/ec_cat_viewer_popup.png) ページに変更
 
 eCatalog を作成するには、通常、Adobe Acrobatまたは別の印刷プログラムで作成された高解像度のPDF ファイルを使用しますが、画像ファイルから eCatalog を作成することもできます。
 
@@ -66,7 +66,7 @@ eCatalog のもとになるファイルは、ほとんどの場合 Adobe PDF フ
 
 「PDF オプション」を選択すると、アップロード画面に、適正な解像度とカラースペースで PDF ファイルをアップロードするためのオプションが表示されます。解像度の推奨値は 150 pixel/インチです。「**[!UICONTROL eCatalog を自動生成]**」オプションを選択すると、PDF ファイルのアップロード時に eCatalog を作成できます。
 
-[PDF ファイルのアップロード ](uploading-pdf-files.md#uploading_the_pdf_files) を参照してください。
+[PDF ファイルのアップロード &#x200B;](uploading-pdf-files.md#uploading_the_pdf_files) を参照してください。
 
 ## &#x200B;2. eCatalog の作成
 
@@ -78,7 +78,7 @@ eCatalog ページの「**[!UICONTROL ページを並べ替え]**」タブで、
 
 「**[!UICONTROL 保存]**」を選択し、eCatalog の名前を入力します。次に、この eCatalog を保存するAdobe Dynamic Media Classic フォルダーを選択して、「**[!UICONTROL 保存]**」を選択します。 ページの順序を変更したり eCatalog を編集したりするたびに、「**[!UICONTROL 保存]**」を選択して変更を保存します。
 
-[eCatalog の作成 ](creating-ecatalog.md) を参照してください。
+[eCatalog の作成 &#x200B;](creating-ecatalog.md) を参照してください。
 
 ## 3.画像マップの作成
 
@@ -88,13 +88,13 @@ eCatalog ページの「**[!UICONTROL ページを並べ替え]**」タブで、
 
 画像マップをフレーム化した後、画像マップを選択する際に移動する URL アドレスを入力します。 画像マップにポインタを合わせたときに表示するロールオーバーテキストを入力することもできます。
 
-[eCatalog 画像マップの作成 ](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps) を参照してください。
+[eCatalog 画像マップの作成 &#x200B;](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps) を参照してください。
 
-[ 画像マップを使用して eCatalog にリッチメディアを埋め込む ](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog) を参照してください。
+[&#x200B; 画像マップを使用して eCatalog にリッチメディアを埋め込む &#x200B;](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog) を参照してください。
 
 eCatalog 画面の情報パネル設定を使用して、画像マップのテキストを設定および管理できます。
 
-[eCatalog の情報パネルコンテンツの管理 ](/help/using/info-panel-content-ecatalog.md) を参照してください。
+[eCatalog の情報パネルコンテンツの管理 &#x200B;](/help/using/info-panel-content-ecatalog.md) を参照してください。
 
 ## &#x200B;4. eCatalog ビューアプリセットの設定
 
@@ -102,7 +102,7 @@ eCatalog 画面の情報パネル設定を使用して、画像マップのテ�
 
 eCatalog ビューアプリセットを作成するには、グローバルナビゲーションバーで **[!UICONTROL 設定]**/「**[!UICONTROL ビューアプリセット]** の順に選択します。 **[!UICONTROL 追加]** を選択し、プラットフォームを選択して、**[!UICONTROL eCatalog]**/**[!UICONTROL ビューア]** を選択します。
 
-[eCatalog ビューアプリセットの設定 ](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets) を参照してください。
+[eCatalog ビューアプリセットの設定 &#x200B;](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets) を参照してください。
 
 ## &#x200B;5. eCatalog ビューアでの eCatalog のプレビュー
 
@@ -112,7 +112,7 @@ eCatalog ビューアプリセットで eCatalog がどのように表示され�
 
 向き、カラースキーム、ページ変更のコントロール、ページをめくったときの見た目を確認します。
 
-[eCatalog ビューアでの eCatalog のプレビュー ](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer) を参照してください。
+[eCatalog ビューアでの eCatalog のプレビュー &#x200B;](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer) を参照してください。
 
 ## &#x200B;6. eCatalog と関連 PDF の公開
 
@@ -120,7 +120,7 @@ eCatalog および関連するPDFを公開すると、Web サイトやアプリ�
 
 参照パネルで eCatalog とPDFを公開用にマークした後、グローバルナビゲーションバーの「公開」ボタンを選択して公開を開始します。 公開ページで、「**[!UICONTROL 公開を送信]**」を選択します。
 
-[eCatalog と関連 PDF の公開 ](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs) を参照してください。
+[eCatalog と関連 PDF の公開 &#x200B;](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs) を参照してください。
 
 ## &#x200B;7. web ページへの eCatalog のリンク
 
@@ -128,4 +128,4 @@ Adobe Dynamic Media Classicは、Dynamic Media Image Server に公開する際�
 
 IT チームと協力して、web ページの適切な場所に eCatalog へのリンクを配置します。 ユーザーがリンクを選択すると、eCatalog ビューアが表示され、ユーザーは eCatalog を参照できます。
 
-[Web ページへの eCatalog のリンク ](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page) を参照してください。
+[Web ページへの eCatalog のリンク &#x200B;](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page) を参照してください。

@@ -20,7 +20,7 @@ ht-degree: 56%
 
 混在メディアセットは、複数のタイプのビューアを 1 つの表示に組み合わせる場合に作成します。混在メディアセットに追加するファイル、画像セット、スウォッチセットおよびスピンセットは、公開できる状態になっている必要があります。
 
-![ 混在メディアセット ](/help/using/assets/mm_mixed_media_set.png)
+![&#x200B; 混在メディアセット &#x200B;](/help/using/assets/mm_mixed_media_set.png)
 
 ## 混在メディアセットの作成 {#create-a-mixed-media-set}
 

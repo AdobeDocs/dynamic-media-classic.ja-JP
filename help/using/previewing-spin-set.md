@@ -21,9 +21,9 @@ ht-degree: 28%
 
 ビューアリストを使用して、HTML5 などの特定のビューアタイプのプラットフォームでアセットがどのように表示されるかをプレビューできます。 アセットタイプとプレビューのために選択した関連ビューアによっては、ビューアリストで使用できないプラットフォームがあります。
 
-[ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers) を参照してください。
+[&#x200B; デフォルトビューアの設定 &#x200B;](application-setup.md#configuring_default_viewers) を参照してください。
 
-[ アセットのプレビュー ](previewing-asset.md#previewing_an_asset) を参照してください。
+[&#x200B; アセットのプレビュー &#x200B;](previewing-asset.md#previewing_an_asset) を参照してください。
 
 **スピンセットをプレビューするには：**
 
@@ -41,4 +41,4 @@ ht-degree: 28%
 
 >[!MORELIKETHIS]
 >
->* [ スピンセットの編集 ](creating-spin-set.md#editing-a-spin-set)
+>* [&#x200B; スピンセットの編集 &#x200B;](creating-spin-set.md#editing-a-spin-set)

@@ -31,19 +31,19 @@ ht-degree: 16%
 
 グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターからAdobe Dynamic Media Classic上のフォルダーにファイルをアップロードします。
 
-[ ファイルのアップロード ](uploading-files.md#uploading-your-files) を参照してください。
+[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading-your-files) を参照してください。
 
 ## 2.混在メディアセット内で使用するメディアセットを作成する
 
 画像、画像セット、見本セット、スピンセットおよびビデオを混在メディアセットに追加できます。 混在メディアセットに追加する前に、メディアセットを準備します。
 
-[ 画像セットの作成 ](creating-image-set.md#creating-an-image-set)、[ スウォッチセットの作成 ](creating-swatch-set.md#creating-a-swatch-set) および [ スピンセットの作成 ](creating-spin-set.md#creating-a-spin-set) を参照してください。
+[&#x200B; 画像セットの作成 &#x200B;](creating-image-set.md#creating-an-image-set)、[&#x200B; スウォッチセットの作成 &#x200B;](creating-swatch-set.md#creating-a-swatch-set) および [&#x200B; スピンセットの作成 &#x200B;](creating-spin-set.md#creating-a-spin-set) を参照してください。
 
 ## 3.混在メディアセットの作成
 
 グローバルナビゲーションバーで、**[!UICONTROL ビルド]**/**[!UICONTROL 混在メディアセット]** に移動します。 画像、見本セット、画像セットおよびビデオを混在メディアセットページにドラッグします。 サウンドトラックを追加するには、「サウンドトラック」ボックスにオーディオファイルをドラッグします。
 
-[ 混在メディアセットの作成 ](creating-mixed-media-set.md#creating-a-mixed-media-set) を参照してください。
+[&#x200B; 混在メディアセットの作成 &#x200B;](creating-mixed-media-set.md#creating-a-mixed-media-set) を参照してください。
 
 ## 4.混在メディアビューアプリセットの設定
 
@@ -51,15 +51,15 @@ Adobe Dynamic Media Classicには、混在メディアセット用のデフォ�
 
 混在メディアセットビューアプリセットを設定する場合、セット内の他のすべてのアセットのビューアプリセットを追加します。 例えば、混在メディアセットにビデオが含まれている場合、混在メディアセットビューアプリセットにビデオビューアプリセットを追加します。 ビューアにサウンドトラックを追加することもできます。サウンドトラックはビューアが開いていると再生されますが、ビデオがアクティブなときには再生されません。
 
-[ 混在メディアセットビューアプリセットの設定 ](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) および [ ビューアプリセットの作成と編集 ](application-setup.md#adding-and-editing-viewer-presets) を参照してください。
+[&#x200B; 混在メディアセットビューアプリセットの設定 &#x200B;](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) および [&#x200B; ビューアプリセットの作成と編集 &#x200B;](application-setup.md#adding-and-editing-viewer-presets) を参照してください。
 
-[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
+[&#x200B; ビューアプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
 ## 5.混在メディアセットのプレビュー
 
 混在メディアセットの **[!UICONTROL プレビュー]** ボタンを選択します。 混在メディアセットビューアで混在メディアセットを確認するには、サムネールアイコンとスウォッチアイコンを選択します。 プリセットメニューから様々なビューアを選択できます。
 
-[ アセットのプレビュー ](previewing-asset.md#previewing-an-asset) を参照してください。
+[&#x200B; アセットのプレビュー &#x200B;](previewing-asset.md#previewing-an-asset) を参照してください。
 
 ## 6.混在メディアセットの公開
 
@@ -67,10 +67,10 @@ Adobe Dynamic Media Classicには、混在メディアセット用のデフォ�
 
 混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。公開用にマークした実際のビデオを公開するには、**ビデオサーバー** を使用します。 また、**Image Server** を使用して、ビデオのサムネールなどの関連アセットを公開し、アダプティブビデオセットの情報を設定します。
 
-[ 混在メディアセットの公開 ](publishing-mixed-media-set.md#publishing-a-mixed-media-set) を参照してください。
+[&#x200B; 混在メディアセットの公開 &#x200B;](publishing-mixed-media-set.md#publishing-a-mixed-media-set) を参照してください。
 
 ## &#x200B;7. Web ページへの混在メディアセットのリンク
 
 混在メディアセットの URL 呼び出しは、Adobe Dynamic Media Classicによって公開後にアクティベートされます。 これらの URL は、プレビューページからコピーできます。
 
-混在メディアセットを選択し、「**[!UICONTROL プレビュー]**」を選択します。 プレビューページで、混在メディアセットビューアプリセットを選択し、「**[!UICONTROL URL をコピー]**」を選択します。 [Web ページへの混在メディアセットのリンク ](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page) を参照してください。
+混在メディアセットを選択し、「**[!UICONTROL プレビュー]**」を選択します。 プレビューページで、混在メディアセットビューアプリセットを選択し、「**[!UICONTROL URL をコピー]**」を選択します。 [Web ページへの混在メディアセットのリンク &#x200B;](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page) を参照してください。

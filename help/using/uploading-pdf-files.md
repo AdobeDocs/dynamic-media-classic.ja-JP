@@ -26,7 +26,7 @@ ht-degree: 30%
 | --- | --- | --- |
 | 抽出対象となるPDFの最大ページ数 | 5000 （新規アップロード用） | 100 （すべての PDF 用） |
 
-[Dynamic Media の制限 ](/help/using/limitations.md) も参照してください。
+[Dynamic Media の制限 &#x200B;](/help/using/limitations.md) も参照してください。
 
 ## PDF ファイルの準備
 
@@ -38,7 +38,7 @@ Adobe Dynamic Media Classicにアップロードする前にPDF ファイルを�
 * 閲覧者がキーワードで eCatalog を検索できるようにする場合は、PDF ファイルが「統合」されているかどうかを調べます。 画像化された PDF ファイルでは、検索語を抽出できなくなります。PDFが統合されているかどうかを確認するには、その中のテキストを選択してみてください。 テキストを選択できない場合、PDFは統合され、ビューアは eCatalog 内をキーワードで検索できなくなります。
 * PDF ファイルは印刷を目的としたファイルなので、通常、CMYK 画像が含まれています。デフォルトでは、Adobe Dynamic Media Classicは、これらの CMYK 画像をインテリジェントに検出し、内部の CMYK カラープロファイルを使用して変換できます。 ただし、必要に応じて、カスタムカラープロファイルを使用して CMYK 画像を変換することもできます。
 
-  [ICC （International Color Consortium）のプロファイル ](icc-profiles.md#icc_profiles) を参照してください。
+  [ICC （International Color Consortium）のプロファイル &#x200B;](icc-profiles.md#icc_profiles) を参照してください。
 
 ## ベストプラクティスの PDF アップロードオプション {#best-practice-pdf-upload-options}
 
@@ -58,7 +58,7 @@ Adobe Dynamic Media Classicにアップロードする前にPDF ファイルを�
 
 * **カラースペース**: アップロードジョブオプション ダイアログボックスで、「**[!UICONTROL PDFオプション]**」を選択します。 「カラースペース」ドロップダウンリストで、「**[!UICONTROL 自動検出]**」を選択します。 一般的に PDF のカラースペースは、印刷出力が目的の場合には CMYK、オンライン表示が目的の場合には RGB になります。PDF に両方のカラースペースが含まれている場合は、「RGB としてレンダリング」または「CMYK としてレンダリング」のいずれかを選択して、一方のカラースペースを選択できます。例えば、ページのグラフィックに CMYK カラースペースが使用され、ピクチャに RGB カラースペースが使用されている場合には、両方のカラースペースが PDF に含まれます。ICC プロファイルをアップロードしておくと、カラースペースメニューにその名前が表示され、選択して使用できます。
 
-  [ICC （International Color Consortium）のプロファイル ](/help/using/icc-profiles.md) を参照してください。
+  [ICC （International Color Consortium）のプロファイル &#x200B;](/help/using/icc-profiles.md) を参照してください。
 
 * **カラープロファイルオプション**: アップロードジョブオプション ダイアログボックスで、「**[!UICONTROL カラープロファイルオプション]**」を選択したあと、カラープロファイルオプションを選択します。
 
@@ -68,7 +68,7 @@ Adobe Dynamic Media Classicにアップロードする前にPDF ファイルを�
 
 <!-- * **Convert To SRGB**: Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on Web pages. -->
 
-[ICC （International Color Consortium）のプロファイル ](icc-profiles.md#icc_profiles) を参照してください。
+[ICC （International Color Consortium）のプロファイル &#x200B;](icc-profiles.md#icc_profiles) を参照してください。
 
 >[!NOTE]
 >

@@ -33,13 +33,13 @@ Adobe Dynamic Media Classicには、ガイド付きズームも用意されて�
 
 まず、ズーム画像をAdobe Dynamic Media Classicにアップロードします。 最適なズームを行うために、Adobe Dynamic Media Classicでは、画像を最長サイズで 2,000 ピクセル以上にすることをお勧めしています。
 
-グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターまたはネットワークからAdobe Dynamic Media Classicのフォルダーに画像をアップロードします。 [ ズーム画像のアップロード ](uploading-zoom-images.md#uploading_zoom_images) を参照してください。
+グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターまたはネットワークからAdobe Dynamic Media Classicのフォルダーに画像をアップロードします。 [&#x200B; ズーム画像のアップロード &#x200B;](uploading-zoom-images.md#uploading_zoom_images) を参照してください。
 
 ## &#x200B;2. ガイド付きズームのズームターゲットの作成
 
 ズームターゲットにより、画像の特定の部分を強調して表示できます。例えば、画像の特長的な部分に注目させることができます。Zoom Viewer ウィンドウで、ズーム ターゲットがサムネール画像の形で画像の横に表示されます。 いずれかのズームターゲットサムネールを選択すると、画像の指定した部分が自動的にズームされます。
 
-ズームターゲットを作成するには、「**[!UICONTROL 編集]**」を選択して「ズームターゲット」を選択するか、詳細ビューの参照パネルで画像を開いて「**[!UICONTROL ズームターゲット]**」を選択します。 次に、ズームターゲットエディターページのズームツールを使用して、画像の一部をターゲットとして分離します。 [ ガイドズームのズームターゲットの作成 ](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom) を参照してください。
+ズームターゲットを作成するには、「**[!UICONTROL 編集]**」を選択して「ズームターゲット」を選択するか、詳細ビューの参照パネルで画像を開いて「**[!UICONTROL ズームターゲット]**」を選択します。 次に、ズームターゲットエディターページのズームツールを使用して、画像の一部をターゲットとして分離します。 [&#x200B; ガイドズームのズームターゲットの作成 &#x200B;](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom) を参照してください。
 
 ## &#x200B;3. ズームビューアプリセットの設定
 
@@ -47,7 +47,7 @@ Adobe Dynamic Media Classicには、ガイド付きズームも用意されて�
 
 ズームビューアプリセットを作成するには、グローバルナビゲーションバーで **[!UICONTROL 設定]**/**[!UICONTROL ビューアプリセット]** に移動します。 ビューアプリセットページで「**[!UICONTROL 追加]**」を選択し、プラットフォーム、ズームビューアを選択して、「**[!UICONTROL 追加]**」を選択します。 次に、`Configure Viewer` ページでオプションを選択します。
 
-Adobe Dynamic Media Classicでは、ボタンのスタイルとビューア全体の外観を選択できる **[!UICONTROL ズームビューアプリセット]** オプションが用意されています。 Web サイトのズーム設定をカスタマイズすることもできます。 [ ズームビューアプリセットの設定 ](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets) を参照してください。
+Adobe Dynamic Media Classicでは、ボタンのスタイルとビューア全体の外観を選択できる **[!UICONTROL ズームビューアプリセット]** オプションが用意されています。 Web サイトのズーム設定をカスタマイズすることもできます。 [&#x200B; ズームビューアプリセットの設定 &#x200B;](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets) を参照してください。
 
 ## &#x200B;4. ズームビューアでの画像のプレビュー
 
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classicでは、ボタンのスタイルとビューア全�
 
 様々なズームビューアプリセットを探索し、ズームエクスペリエンスがどのように表示されるかを確認するには、参照パネルで画像を選択して **[!UICONTROL プレビュー]** を選択します。 **[!UICONTROL プリセット]** / **[!UICONTROL ズーム]** に移動し、ズーム メニューでプリセットを選択します。
 
-ズームボタンが表示されます。Web サイトでズーム画像がどのように表示されるかを確認できます。 「ズーム」ボタン（および「ズームターゲット」）を選択して、選択したズームビューアプリセットの設定をテストできます。 [ 様々なズームビューアで画像をプレビュー ](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers) を参照してください。
+ズームボタンが表示されます。Web サイトでズーム画像がどのように表示されるかを確認できます。 「ズーム」ボタン（および「ズームターゲット」）を選択して、選択したズームビューアプリセットの設定をテストできます。 [&#x200B; 様々なズームビューアで画像をプレビュー &#x200B;](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers) を参照してください。
 
 ## &#x200B;5. ズーム画像の公開
 
@@ -65,4 +65,4 @@ Adobe Dynamic Media Classicでは、ボタンのスタイルとビューア全�
 
 ## &#x200B;6. ズームビューアを web ページにリンクする
 
-Adobe Dynamic Media Classicは、画像のズームに必要な URL コールアウト文字列を作成し、Dynamic Media Image Server に画像を公開するときにそれらをアクティブにします。 これらの URL 文字列は、「**[!UICONTROL プレビュー]**」ページからコピーできます。 URL 文字列をコピーすると、Web サイトやアプリケーションで使用できるようになります。 [Web ページへのズームビューアのリンク ](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages) を参照してください。
+Adobe Dynamic Media Classicは、画像のズームに必要な URL コールアウト文字列を作成し、Dynamic Media Image Server に画像を公開するときにそれらをアクティブにします。 これらの URL 文字列は、「**[!UICONTROL プレビュー]**」ページからコピーできます。 URL 文字列をコピーすると、Web サイトやアプリケーションで使用できるようになります。 [Web ページへのズームビューアのリンク &#x200B;](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages) を参照してください。

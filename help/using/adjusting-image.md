@@ -21,7 +21,7 @@ ht-degree: 41%
 
 Adobe Dynamic Media Classicには、画像の外観を調整するための様々なコマンドが用意されています。 画像の反転、回転、ブラー、カラーバランスの変更、カラー化を行うことができます。 これらのコマンドを試すと、操作対象の画像に対するそれぞれの効果が確認できます。
 
-[ 画像のエイリアスの作成 ](adjusting-image.md#creating_an_alias_for_an_image) も参照してください。
+[&#x200B; 画像のエイリアスの作成 &#x200B;](adjusting-image.md#creating_an_alias_for_an_image) も参照してください。
 
 **画像を調整するには：**
 

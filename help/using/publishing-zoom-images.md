@@ -31,4 +31,4 @@ Dynamic Media Image Server にコピーするには、画像を公開用にマ�
 
 >[!MORELIKETHIS]
 >
->* [ ファイルを公開 ](publishing-files.md#publishing_files)
+>* [&#x200B; ファイルを公開 &#x200B;](publishing-files.md#publishing_files)

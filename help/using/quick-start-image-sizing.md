@@ -25,9 +25,9 @@ ht-degree: 7%
 * Web サイト全体またはアプリケーション全体で、画像タイプのサイズをすばやく変更できます。 例えば、すべてのサムネイル画像を変更するには、「サムネール」画像プリセットを変更します。 画像プリセットは、マクロに似ており、サイズ属性とフォーマット属性のコレクションです。 「サムネール」画像プリセットを変更すると、web サイトまたはアプリケーション全体のすべてのサムネール画像のサイズを変更できます。
 * コンテンツやアセット管理システムのプライマリファイルやあらゆる派生物を内部または外部で管理する必要はありません。
 
-![ 同じ高解像度のプライマリファイルから、異なるサイズで複数の派生画像を作成できます。](/help/using/assets/is_derivative_sizes_popup.png)
+![&#x200B; 同じ高解像度のプライマリファイルから、異なるサイズで複数の派生画像を作成できます。](/help/using/assets/is_derivative_sizes_popup.png)
 
-[ 画像サイズ：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) のトレーニングビデオを参照してください。
+[&#x200B; 画像サイズ：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) のトレーニングビデオを参照してください。
 
 次の画像サイズ設定のクイックスタートは、Adobe Dynamic Media Classicで画像サイズ設定テクニックをすぐに使い始めることを目的としたものです。 手順 1～5 に従います。 各手順に続いて、必要に応じて詳細情報を見つけることができる相互参照があります。
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 まず、プライマリ画像をAdobe Dynamic Media Classicにアップロードします。 サイズについては、Adobe Dynamic Media Classicでは、web サイトまたはアプリケーションで使用する予想最大のサイズの画像を使用することをお勧めします。 例えば、ビューアに画像をズームさせる場合は、最大サイズが 2,000 ピクセル以上の画像をアップロードします。 Adobe Dynamic Media Classicは多くの画像ファイル形式をサポートしていますが、可逆圧縮TIFFおよび PNG 画像の使用が推奨されます。
 
-グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターからAdobe Dynamic Media Classic上のフォルダーにファイルをアップロードします。 [ プライマリ画像のアップロード ](uploading-master-images.md#uploading_master_images) を参照してください。
+グローバルナビゲーションバーの **[!UICONTROL アップロード]** を選択して、コンピューターからAdobe Dynamic Media Classic上のフォルダーにファイルをアップロードします。 [&#x200B; プライマリ画像のアップロード &#x200B;](uploading-master-images.md#uploading_master_images) を参照してください。
 
 ## 2.画像プリセットのセットアップ
 
@@ -43,7 +43,7 @@ ht-degree: 7%
 
 画像プリセットを作成するには（管理者の場合）、グローバルナビゲーションバーで **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 画像プリセット]** に移動します。 次に、「**[!UICONTROL 追加]**」を選択して画像プリセットを作成するか、「**[!UICONTROL 編集]** を選択して既存の画像プリセットを変更します。
 
-作成した画像プリセットは、プレビューページの画像プリセットメニューに追加されます。 新しい画像プリセットを使用すると、Web サイトやアプリケーションに画像を動的に表示できます。 [ 画像プリセットの設定 ](setting-image-presets.md#setting_up_image_presets) を参照してください。
+作成した画像プリセットは、プレビューページの画像プリセットメニューに追加されます。 新しい画像プリセットを使用すると、Web サイトやアプリケーションに画像を動的に表示できます。 [&#x200B; 画像プリセットの設定 &#x200B;](setting-image-presets.md#setting_up_image_presets) を参照してください。
 
 ## 3.画像プリセットのプレビュー
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
 様々な画像プリセットを試してみてください。Web サイトやアプリケーションに異なるサイズで動的に配信された画像の表示方法を確認します。
 
-[ 画像プリセットに基づいた画像アセットのプレビュー ](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset) を参照してください。
+[&#x200B; 画像プリセットに基づいた画像アセットのプレビュー &#x200B;](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset) を参照してください。
 
 ## &#x200B;4. プライマリ画像を公開する
 
@@ -62,10 +62,10 @@ ht-degree: 7%
 * プライマリ画像を Dynamic Media Image Server に公開して、画像を Web サイトやアプリケーションに動的に配信できるようにします。
 * 公開すると、Dynamic Media Image Server から web サイトまたはアプリケーションに画像を呼び出すための URL 文字列がアクティブ化されます。 公開後、Adobe Dynamic Media Classicで生成された URL をコピーして、必要に応じて web サイトやアプリケーションに配置できます。
 
-グローバルナビゲーションバーの「**[!UICONTROL 公開]**」を選択して、公開ジョブを開始します。 公開ダイアログボックスで、「**[!UICONTROL 公開を送信]**」を選択します。 [ プライマリ画像の公開 ](publishing-master-images.md#publishing_master_images) を参照してください。
+グローバルナビゲーションバーの「**[!UICONTROL 公開]**」を選択して、公開ジョブを開始します。 公開ダイアログボックスで、「**[!UICONTROL 公開を送信]**」を選択します。 [&#x200B; プライマリ画像の公開 &#x200B;](publishing-master-images.md#publishing_master_images) を参照してください。
 
 ## &#x200B;5. Web アプリケーションに URL をリンクする
 
 Adobe Dynamic Media Classicは、画像の URL コールアウト文字列を作成します。 画像を Dynamic Media Image Server に公開すると、URL がアクティブになります。 これらの URL 文字列は、参照パネル（詳細ビュー）またはプレビュー画面からコピーできます。 URL 文字列をコピーすると、Web サイトやアプリケーションで使用できます。 画像サイズ設定の URL は、web ページのコード内の静的な画像名への参照に代わるものです。 URL は、表示する新しい画像ごとにデータベースで置き換えられるプライマリ画像名を参照します。
 
-画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。この名前は、ドル記号（`$`）で囲まれています。 例え `$thumbnail$`、サムネールサイズでプライマリ画像を表示するように設計された画像プリセットを使用できます。 [Web アプリケーションに URL をリンクする ](linking-urls-web-application.md#linking_urls_to_your_web_application) を参照してください。
+画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。この名前は、ドル記号（`$`）で囲まれています。 例え `$thumbnail$`、サムネールサイズでプライマリ画像を表示するように設計された画像プリセットを使用できます。 [Web アプリケーションに URL をリンクする &#x200B;](linking-urls-web-application.md#linking_urls_to_your_web_application) を参照してください。

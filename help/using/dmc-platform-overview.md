@@ -21,7 +21,7 @@ ht-degree: 12%
 
 Adobe Dynamic Media Classicは、統合されたリッチメディア管理、公開および提供環境です。 リッチメディアは、すべてのマーケティングチャネルと販売チャネルに配信できます。 これらのチャネルには、Web、印刷資料、メールキャンペーン、Web ポータル、デスクトップ、デバイスなどがあります。
 
-[Platform の概要 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) トレーニングビデオも参照してください。
+[Platform の概要 &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) トレーニングビデオも参照してください。
 
 ## ワークフロープロセス {#workflow-process}
 
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classicの主なワークフロー手順は次のとおり�
 
 * **サービス**:Adobe Dynamic Media Classic SaaS Network から web ページ、アプリケーション、モバイルデバイスにメディアを配信します。メディアはパフォーマンスが最適化され、CDN キャッシングで配信されます。 Adobe Dynamic Media Classicは各アセットの URL を提供します。 アセットを公開すると、URL がアクティブになります。
 
-![Adobe Dynamic Media Classic ワークフロープロセス ](/help/using/assets/gs_workflow.png)
+![Adobe Dynamic Media Classic ワークフロープロセス &#x200B;](/help/using/assets/gs_workflow.png)
 
 ## 単一のプライマリ画像と単一の URL 呼び出し {#single-master-images-and-single-url-calls}
 

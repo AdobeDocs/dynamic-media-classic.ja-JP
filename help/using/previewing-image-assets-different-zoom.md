@@ -21,9 +21,9 @@ ht-degree: 27%
 
 ビューアリスト画面で、様々なズームビューアプリセットを使用して画像をプレビューできます。
 
-[ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers) を参照してください。
+[&#x200B; デフォルトビューアの設定 &#x200B;](application-setup.md#configuring_default_viewers) を参照してください。
 
-[ アセットのプレビュー ](previewing-asset.md#previewing_an_asset) を参照してください。
+[&#x200B; アセットのプレビュー &#x200B;](previewing-asset.md#previewing_an_asset) を参照してください。
 
 **様々なズームビューアで画像アセットをプレビューするには：**
 
@@ -41,5 +41,5 @@ ht-degree: 27%
 
 >[!MORELIKETHIS]
 >
->* [ ズームビューアプリセットの設定 ](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers)
+>* [&#x200B; ズームビューアプリセットの設定 &#x200B;](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
+>* [&#x200B; デフォルトビューアの設定 &#x200B;](application-setup.md#configuring_default_viewers)

@@ -25,7 +25,7 @@ Adobe AnalyticsをAdobe Dynamic Media Classicと統合すると、web サイト�
 
 Adobe Analytics レポートを使用して、Web サイト上でのユーザーアクティビティの全体像を明確に把握できます。どの製品プレゼンテーションがコンバージョンにつながり、どの製品プレゼンテーションが顧客の関心を引かないかを判断できます。
 
-[Adobe Analyticsでのビデオの測定 ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) も参照してください。
+[Adobe Analyticsでのビデオの測定 &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) も参照してください。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Adobe Analytics レポートを使用して、Web サイト上でのユーザー
 
 Web サービスアクセスグループのメンバーであることを確認したら、Adobe Dynamic Media Classicで **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 4&rbrace;Adobe Analytics&rbrace; に移動します。]** Adobe Analytics設定ページで、「**[!UICONTROL Adobe Analytics Login]**」を選択します。
 
-[Adobe Analyticsへのログオン ](log-analytics.md#log_in_to_adobe_analytics) を参照してください。
+[Adobe Analyticsへのログオン &#x200B;](log-analytics.md#log_in_to_adobe_analytics) を参照してください。
 
 Adobe Analyticsのログインダイアログボックスで、Experience Cloud組織 ID （オプション）、完全な資格情報を入力し、「**[!UICONTROL ログイン]**」を選択します。 「レポートスイート」ドロップダウンメニューで、使用するレポートスイートの名前を選択します。
 
@@ -56,13 +56,13 @@ Adobe Analytics 設定には、ビューアイベントのアクティブ化、�
 
 Adobe Analytics設定ページで「**[!UICONTROL 保存]**」を選択すると、ユーザーアクティビティを測定するためのカスタマイズされたトラッキングコードがAdobe Dynamic Media Classic ビューアに挿入されます。 この機能により、ユーザーアクティビティを Adobe Analytics レポートで追跡できるようになります。
 
-[Adobe Analytics レポートの設定 ](configuring-analytics-reports.md#configuring_adobe_analytics_reports) を参照してください。
+[Adobe Analytics レポートの設定 &#x200B;](configuring-analytics-reports.md#configuring_adobe_analytics_reports) を参照してください。
 
 ## &#x200B;3. Adobe Dynamic Media Classic ビューアを公開する
 
 Adobe Dynamic Media Classic ビューア（Adobe Analytics レポートでのユーザーアクティビティを追跡するコードを含む）がAdobe Dynamic Media Classic サーバーに読み込まれるように、ビューアを公開します。 公開後、この情報はビューアに含まれます。 Adobe Analyticsの分析に使用します。
 
-[ 設定情報の公開 ](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information) を参照してください。
+[&#x200B; 設定情報の公開 &#x200B;](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information) を参照してください。
 
 ## &#x200B;4. Web サイトへのAdobe Dynamic Media Classic ビューアの配置
 
@@ -72,4 +72,4 @@ Adobe Analytics トラッキングコードを使用したAdobe Dynamic Media Cl
 
 Adobe Analytics レポートを表示するには、Adobe Analytics Web サイトにアクセスします。「レポート」ページでは、データを表示し、グラフとチャートを生成して様々なビューアでユーザーアクティビティを測定できます。
 
-[Adobe Analytics レポートを表示してAdobe Analytics統合をテストする ](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report) を参照してください。
+[Adobe Analytics レポートを表示してAdobe Analytics統合をテストする &#x200B;](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report) を参照してください。

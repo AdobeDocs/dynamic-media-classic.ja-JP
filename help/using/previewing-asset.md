@@ -21,11 +21,11 @@ ht-degree: 12%
 
 プレビューを使用して、デジタルアセットがユーザーに表示されたときにどのように表示されるかを確認できます。 プレビューでは、アセットに割り当てられている初期設定ビューアが使用されます。初期設定ビューアは、アプリケーション設定で設定します。
 
-[ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers) を参照してください。
+[&#x200B; デフォルトビューアの設定 &#x200B;](application-setup.md#configuring_default_viewers) を参照してください。
 
 パラメーターレイヤーを含むテンプレートアセットをプレビューしている場合は、パラメーターを変更したり、画像プリセットを変更したりできます。 変更はインラインで行われるため、同じプレビューウィンドウに直ちに結果が表示されます。
 
-[Adobe ビューアリファレンスライブラリの例 ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) も参照してください。
+[Adobe ビューアリファレンスライブラリの例 &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) も参照してください。
 
 **アセットをプレビューするには：**
 
@@ -84,9 +84,9 @@ ht-degree: 12%
 
 画像プリセットは、事前定義済みの設定のコレクションです。 これらの設定により、画像のサイズ、画質、形式、解像度、書き出し時の画像の外観のその他の側面が変更されます。
 
-[ 画像プリセットの設定 ](setting-image-presets.md#setting_up_image_presets) を参照してください。
+[&#x200B; 画像プリセットの設定 &#x200B;](setting-image-presets.md#setting_up_image_presets) を参照してください。
 
-[ 画像プリセットの作成と有効化 ](creating-enabling-image-presets.md#creating_and_enabling_image_presets) を参照してください。
+[&#x200B; 画像プリセットの作成と有効化 &#x200B;](creating-enabling-image-presets.md#creating_and_enabling_image_presets) を参照してください。
 
 **画像プリセットに基づいて画像アセットをプレビューするには：**
 

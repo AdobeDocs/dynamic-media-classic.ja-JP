@@ -21,7 +21,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classic画面には、グローバルナビゲーションバー、アセットライブラリ、「アセットフィルター」タブ、「参照」パネル/ビルドパネル、Media Cart （Media Portal のみ）の 3 つの主要な領域があります。
 
-![ ナビゲーションの基本 ](/help/using/assets/gs_navigation_basics_popup_popup.png)
+![&#x200B; ナビゲーションの基本 &#x200B;](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *主なAdobe Dynamic Media Classic地域*
 *A） グローバルナビゲーションバー B） アセットライブラリパネル C）「アセットフィルター」タブ D） 「参照」パネル E） メディアカート （メディアポータルのみ）*
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic画面には、グローバルナビゲーション�
 
 * **[!UICONTROL 会社を選択]**：メニューからアクセスする会社を選択します。 1 つの会社で作業している場合、このボタンは使用できません。
 
-* **[!UICONTROL アップロード]**: アップロード画面が開き、コンピューターまたはネットワークからAdobe Dynamic Media Classicにファイルをアップロードできます。 デスクトップから、または FTP 経由でファイルをアップロードできます。 [ ファイルのアップロード ](/help/using/uploading-files.md) を参照してください。
+* **[!UICONTROL アップロード]**: アップロード画面が開き、コンピューターまたはネットワークからAdobe Dynamic Media Classicにファイルをアップロードできます。 デスクトップから、または FTP 経由でファイルをアップロードできます。 [&#x200B; ファイルのアップロード &#x200B;](/help/using/uploading-files.md) を参照してください。
 
 * **[!UICONTROL ビルド]**：メニューからビルドタスクを選択します。 ビルドパネルが開いたら、各種アセットを作成します。
 
@@ -71,11 +71,11 @@ Adobe Dynamic Media Classic画面には、グローバルナビゲーション�
 
 * **[!UICONTROL ビルドモード]**:「**[!UICONTROL ビルド]**」を選択してオプションを選択し、eCatalog、画像セット、スピンセットまたはビルド メニューのその他の使用可能な項目の 1 つを作成します。 ビルド ページが開きます。 操作対象のアセットを選択するタイミングは、ビルドモードに移る前でも後でも構いません。
 
-[ ナビゲーションの基本 ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) トレーニングビデオも参照してください。
+[&#x200B; ナビゲーションの基本 &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) トレーニングビデオも参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ アセットの管理 ](about-managing-assets.md)
->* [ 参照パネルでのアセットの表示 ](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
->* [ 参照パネルでのアセットの選択 ](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [ アセットの検索 ](searching-assets.md#searching_assets)
+>* [&#x200B; アセットの管理 &#x200B;](about-managing-assets.md)
+>* [&#x200B; 参照パネルでのアセットの表示 &#x200B;](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
+>* [&#x200B; 参照パネルでのアセットの選択 &#x200B;](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+>* [&#x200B; アセットの検索 &#x200B;](searching-assets.md#searching_assets)

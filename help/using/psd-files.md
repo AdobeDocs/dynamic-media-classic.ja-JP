@@ -86,11 +86,11 @@ PSDをアップロードしたときに「**[!UICONTROL レイヤーを維持]**
 1. **[!UICONTROL レイヤー]** を選択します。 すべてのレイヤーが別個の画像としてレイヤーパネルに表示されます。
 1. レイヤーをダブルクリックし、次のいずれかの操作を行います。
 
-   * レイヤーに画像マップを作成するには、「**[!UICONTROL 画像マップ]**」アイコンを選択します。 （[ 画像マップの作成 ](creating-image-maps.md#creating_image_maps) を参照）。
-   * レイヤーにズームターゲットを作成するには、「**[!UICONTROL ズームターゲット]** アイコンを選択します。 （[ ガイド付きズームのズームターゲットの作成 ](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom) を参照。）
-   * レイヤーを切り抜くには、「**[!UICONTROL 切り抜き]** アイコンを選択します。 （[ 画像の切り抜き ](cropping-image.md#cropping_an_image) を参照してください）。
-   * レイヤーをシャープにするには、「**[!UICONTROL シャープ]**」を選択します。 （[ 画像のシャープニング ](sharpening-image.md#sharpening_an_image) を参照してください）。
-   * レイヤーを調整するには、「**[!UICONTROL 調整]**」を選択します。 （[ 画像の調整 ](adjusting-image.md#adjusting_an_image) を参照してください）。
+   * レイヤーに画像マップを作成するには、「**[!UICONTROL 画像マップ]**」アイコンを選択します。 （[&#x200B; 画像マップの作成 &#x200B;](creating-image-maps.md#creating_image_maps) を参照）。
+   * レイヤーにズームターゲットを作成するには、「**[!UICONTROL ズームターゲット]** アイコンを選択します。 （[&#x200B; ガイド付きズームのズームターゲットの作成 &#x200B;](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom) を参照。）
+   * レイヤーを切り抜くには、「**[!UICONTROL 切り抜き]** アイコンを選択します。 （[&#x200B; 画像の切り抜き &#x200B;](cropping-image.md#cropping_an_image) を参照してください）。
+   * レイヤーをシャープにするには、「**[!UICONTROL シャープ]**」を選択します。 （[&#x200B; 画像のシャープニング &#x200B;](sharpening-image.md#sharpening_an_image) を参照してください）。
+   * レイヤーを調整するには、「**[!UICONTROL 調整]**」を選択します。 （[&#x200B; 画像の調整 &#x200B;](adjusting-image.md#adjusting_an_image) を参照してください）。
 
 1. **[!UICONTROL 保存]** または **[!UICONTROL 名前を付けて保存]** を選択します。
 1. 別のレイヤーを表示または編集するには、レイヤープレビューの下部にある矢印を選択します。

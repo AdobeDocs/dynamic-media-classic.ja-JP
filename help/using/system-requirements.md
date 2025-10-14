@@ -31,5 +31,5 @@ Adobe Dynamic Media Classic デスクトップアプリケーションを最適�
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media の制限 ](/help/using/limitations.md)
+>* [Dynamic Media の制限 &#x200B;](/help/using/limitations.md)
 

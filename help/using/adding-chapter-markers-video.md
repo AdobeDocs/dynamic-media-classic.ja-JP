@@ -25,9 +25,9 @@ ht-degree: 24%
 >
 >使用されるビデオプレーヤーがチャプターマーカーの使用に対応している必要があります。
 
-ビデオビューア（HTML5）のチャプターナビゲーションキューポイントおよびチャプタータイトルポップアップテキストを設定する場合は、[ ビデオビューアプリセットを追加または ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) 集 `Universal_HTML5_Video` を参照してください。
+ビデオビューア（HTML5）のチャプターナビゲーションキューポイントおよびチャプタータイトルポップアップテキストを設定する場合は、[&#x200B; ビデオビューアプリセットを追加または &#x200B;](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) 集 `Universal_HTML5_Video` を参照してください。
 
-[ ビューアプリセットの追加と編集 ](application-setup.md#adding_and_editing_viewer_presets) も参照してください。
+[&#x200B; ビューアプリセットの追加と編集 &#x200B;](application-setup.md#adding_and_editing_viewer_presets) も参照してください。
 
 ビデオのチャプターリストの作成方法は、キャプションの作成方法とよく似ていて、WebVTT ファイルを作成します。ただし、このファイルは、使用している他の WebVTT キャプションファイルと分ける必要があります。キャプションとチャプターを 1 つの WebVTT ファイルにまとめることはできません。
 
@@ -53,7 +53,7 @@ Cost-efficient access to rapidly evolving technology.
 
 HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。チャプターファイルの拡張子は `.VTT` です。 WebVTT のキャプション規格について、さらに詳しく調べることができます。
 
-[WebVTT:Web ビデオテキストで形式を追跡 ](https://w3c.github.io/webvtt/) を参照してください。
+[WebVTT:Web ビデオテキストで形式を追跡 &#x200B;](https://w3c.github.io/webvtt/) を参照してください。
 
 **ビデオにチャプターマーカーを追加するには：**
 
@@ -69,7 +69,7 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
 1. Adobe Dynamic Media Classicで、WebVTT チャプターファイルをアップロードします。
 
-   [ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。
+   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files) を参照してください。
 
 1. 左側のアセットライブラリパネルで、アップロードしたチャプターファイルに関連付けるビデオファイルを含むアセットフォルダーに移動します。
 1. アセット参照パネルで、1 つのビデオアセットを選択し、アセットのサムネール画像の下で **[!UICONTROL プレビュー]**/ **[!UICONTROL ビューアリスト]** を選択します。

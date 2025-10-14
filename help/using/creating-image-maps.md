@@ -42,7 +42,7 @@ Adobe Dynamic Media Classicで画像マップを作成する機能に加えて�
    * グリッド表示またはリスト表示でスピンセットを操作している場合は、「**[!UICONTROL 編集]**」を選択します。 または、詳細表示で開き、「**[!UICONTROL 編集]**」を選択します。 画像アセットを選択し、「**[!UICONTROL 画像マップ]**」を選択します。
    * eCatalog を使用している場合は、グリッド ビュー、リスト ビュー、詳細ビューで、[**[!UICONTROL 編集]**] を選択します。 「**[!UICONTROL ページをマップ]**」タブを選択します。
 
-   ![ 画像マップの図 ](assets/ma_image_map.png)
+   ![&#x200B; 画像マップの図 &#x200B;](assets/ma_image_map.png)
 
 1. 長方形または多角形の画像マップを描画します。
 
@@ -56,13 +56,13 @@ Adobe Dynamic Media Classicで画像マップを作成する機能に加えて�
 
 1. ユーザーが画像マップを選択したときに新しい web ページを開くようにするには、画像マップ リストに URL を入力します。
 
-   [JavaScriptと URL を入力するには ](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls) を参照してください。
+   [JavaScriptと URL を入力するには &#x200B;](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls) を参照してください。
 
 1. ユーザが画像マップにポインタを合わせたときに、ロールオーバーテキストを表示する場合は、画像マップリストにそのテキストを入力します。画像マップ リストで「**[!UICONTROL 表示]**」メニューを選択し、「**[!UICONTROL ロールオーバーテキスト]**」を選択します。 次に、ユーザーに画面上で表示するテキストを入力します。 ワードプロセッサーで入力したテキストを「ロールオーバーテキスト」フィールドにコピーすることもできます。
 
 1. 画像マップにポインタを合わせたときに別のアクション効果を実行する場合は、アクションを定義します。**[!UICONTROL 表示]** ドロップダウンリストで「**[!UICONTROL その他のアクション]**」を選択します。 アクションの属性を入力します（画像マップのロールオーバーテキストとアクションを作成するには、**[!UICONTROL 表示]**/**[!UICONTROL 両方]** に移動します）。
 
-   [ 画像マップのその他のアクションの定義 ](creating-image-maps.md#defining_other_actions_for_image_maps) を参照してください。
+   [&#x200B; 画像マップのその他のアクションの定義 &#x200B;](creating-image-maps.md#defining_other_actions_for_image_maps) を参照してください。
 
 1. 必要に応じて次の操作を行います。
 

@@ -31,4 +31,4 @@ Dynamic Media 画像サーバーにスピンセットを公開するには、グ
 
 >[!MORELIKETHIS]
 >
->* [ ファイルを公開 ](publishing-files.md#publishing_files)
+>* [&#x200B; ファイルを公開 &#x200B;](publishing-files.md#publishing_files)
