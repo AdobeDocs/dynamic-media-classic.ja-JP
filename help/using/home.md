@@ -26,7 +26,7 @@ Adobe Dynamic Media Classic ヘルプへようこそ。 ここでは、使用可
 
 ## Dynamic Media 開発者リソース
 
-* [Dynamic Media 開発者向けリソースのランディングページ &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)：次のものが含まれます。
+* [Dynamic Media 開発者向けリソースのランディングページ &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources)：次のものが含まれます。
    * ビューアリファレンスガイド
    * 画像サービング/画像レンダリング API
    * Image Production System API
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classic ヘルプへようこそ。 ここでは、使用可
 ## Adobe Dynamic Media Classic ユーザーリソース
 
 * [Dynamic Media 月刊ニュースレター](dynamic-media-newsletter.md)
-* [Adobe Dynamic Media Classic ベストプラクティスチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic ベストプラクティスチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [ガイド：画像のシャープニングに関するベストプラクティスガイド](/help/using/assets/s7_sharpening_images.pdf)
 * [&#x200B; ガイド：Adobe Dynamic Media Classicによる SEO のサポート &#x200B;](/help/using/assets/s7_seo.pdf)：現在、検索エンジンでは web サイトと画像の検索が可能です。 Adobe Dynamic Media Classicでは、画像を検索エンジンに適したものにする取り組みをサポートしており、より多くのトラフィックがAdobe Dynamic Media Classic ユーザーの web サイトに誘導されるようになります。 PDFのこのガイドでは、これを実現するための背景と実装に関する推奨事項を説明します。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
