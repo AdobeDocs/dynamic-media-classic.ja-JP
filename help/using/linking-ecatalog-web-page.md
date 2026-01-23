@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 23%
+source-wordcount: '672'
+ht-degree: 21%
 
 ---
 
@@ -48,11 +48,11 @@ Web サイトおよびアプリケーションは、URL 文字列または埋め
 
 eCatalog をデプロイする最も一般的な方法は、web ページに eCatalog のサムネールのカバーページの形式でリンクを配置することです。 中央にきちんと表示されるポップアップウィンドウで eCatalog が起動するように、IT 部門の担当者と相談してください。また、ブラウザ画面にツールバーやアドレスバーなどを表示しないように依頼してください。
 
-詳細とコードサンプルについては、[Adobe ビューアリファレンスガイドのHTML5 eCatalog ビューアの埋め込み &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) を参照してください。
+詳細およびコードサンプルについては、Adobe ビューアリファレンスの [ 埋め込みHTML5 eCatalog ビューア ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) を参照してください。
 
 ## eCatalog ビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-埋め込みコード機能を使用すると、選択した eCatalog のビューアコードをレビューすることができます。コードをクリップボードにコピーして、Web ページに貼り付け、ビューアをデプロイすることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択した eCatalog のビューアコードを確認できます。 コードをクリップボードにコピーして、Web ページに貼り付け、ビューアをデプロイすることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
 **eCatalog ビューアの埋め込みコードをコピーするには：**
 

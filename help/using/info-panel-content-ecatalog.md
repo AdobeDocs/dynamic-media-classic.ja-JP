@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ eCatalog 内のロールオーバーに画像マップテキストを使用す�
 
 Adobe Dynamic Media Classicの以下の機能を使用して、InfoPanel の設定とデータを管理できます。
 
-* InfoPanel のセットアップ パネルでは、情報パネルのテキストを表示するためのテンプレート、エラーに対する既定の応答、および情報がキャッシュされる時間数を指定できます。 eCatalog を自動的に公開するかどうかを指定することもできます。
+* InfoPanel のセットアップ パネルでは、情報パネルのテキストを表示するためのテンプレート、エラーに対する既定の応答、および情報がキャッシュされる時間数を指定できます。 また、eCatalog を自動的に公開するかどうかを指定することもできます。
 * InfoPanel データフィードパネルでは、InfoPanel ロールオーバーテキストに表示するテキストを含む CSV ファイルを指定し、情報を更新する時間をスケジュールできます。
 * メタデータのインポートダイアログボックス（ページのマップビューからアクセス）を使用すると、ロールオーバーテキスト情報を含む、タブ区切りの TXT ファイルをインポートできます。 ロールオーバーテキストには、この TXT オプションまたはデータフィードパネルを CSV ファイルオプションと共に使用できます。
 * マップページビューには、特定の画像マップに表示される xml をプレビューするためのオプションが用意されています。
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classicの以下の機能を使用して、InfoPanel の設�
 >
 >ビューアプリセットで応答テンプレートを設定することもできます。ビューアプリセットで応答テンプレートを代わりに使用するには、ビューアプリセットの Information Server URL の末尾に `fmt=1` を追加します。
 >
->[eCatalog ビューアプリセットの設定 &#x200B;](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets) を参照してください。
+>[eCatalog ビューアプリセットの設定 ](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets) を参照してください。
 
 1. eCatalog をダブルクリックして、詳細表示で開きます。
 1. **[!UICONTROL InfoPanel セットアップ]** パネルを選択します。

@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1995'
-ht-degree: 29%
+source-wordcount: '1991'
+ht-degree: 30%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Dynamic Media Classicは、複数のユーザーの役割をサポート�
 
 1. ユーザーに役割を割り当てるには、「役割」オプションを選択します。
 
-   詳しくは、[Adobe Dynamic Media Classicのユーザーの役割と権限 &#x200B;](administration-setup.md#user_administration) を参照してください。
+   詳しくは、[Adobe Dynamic Media Classicのユーザーの役割と権限 ](administration-setup.md#user_administration) を参照してください。
 
 1. ユーザーを会社に追加するには、会社名を選択します。
 1. ユーザーをグループに追加する場合（Media Portal ユーザーまたはコントリビューターを追加する場合）、「**[!UICONTROL 次へ]**」を選択し、ユーザーを追加します。
@@ -105,7 +105,7 @@ Adobe Dynamic Media Classicは、複数のユーザーの役割をサポート�
 
 * **ユーザーロールでフィルター**:「**[!UICONTROL ユーザーロール別]**」メニューを選択し、リストを様々なタイプのユーザーまたは管理者に絞り込むオプションを選択します。
 
-* **フィールド名でフィルター**:「**[!UICONTROL フィールドでフィルターを有効にする]** を選択します。 次に、「**[!UICONTROL フィールド名]** メニューを選択し、リストをフィルタリングする列を選択して、「文字をフィルター」メニューを選択し、レターを選択します。 リストは、選択したレターによって列の 1 つにフィルターされます。 完全なリストを表示するには、「**[!UICONTROL フィールドによるフィルターを有効にする]** オプションの選択を解除します。
+* **フィールド名でフィルター**:「**[!UICONTROL フィールドでフィルターを有効にする]** を選択します。 次に、「**[!UICONTROL フィールド名]** メニューを選択し、リストをフィルタリングする列を選択して、「文字をフィルター」メニューを選択し、レターを選択します。 リストは、選択したレターによって列の 1 つにフィルターされます。 完全なリストを表示するには、「**`Enable Filter By Field`**」オプションを選択解除します。
 
 * **無効なユーザーを除外**：選択を解除 **[!UICONTROL 無効を含める]**。 検索結果には、システム内のユーザだけが表示されます。無効なユーザーがシステムおよび管理するアカウントから削除されました。
 

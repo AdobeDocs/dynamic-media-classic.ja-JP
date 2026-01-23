@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 17%
 1. 参照パネルで 1 つまたは複数のアセットを選択し、次のいずれかの操作を行います。
 
    * アセットライブラリでアセットの移動先のフォルダーを表示し、アセットをフォルダーにドラッグします。
-   * **[!UICONTROL ファイル]**/**[!UICONTROL 移動]** に移動し、「Assetsを移動」ウィンドウでフォルダーを選択して、「**[!UICONTROL 移動]**」を選択します。
+   * **[!UICONTROL ファイル]**/**`Move`** に移動し、`Move Assets` ウィンドウでフォルダーを選択して、「**`Move`**」を選択します。
 
 ## アセット名の変更 {#rename-assets}
 
@@ -78,6 +78,6 @@ Adobe Dynamic Media Classic ID のリストを作成し、テキスト（.txt）
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 参照パネルでのアセットの選択 &#x200B;](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [&#x200B; アップロード用のアセットとフォルダーの準備 &#x200B;](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [&#x200B; ごみ箱フォルダーからのアセットの復元 &#x200B;](trash-folder.md#restoring_assets_from_the_trash_folder)
+>* [ 参照パネルでのアセットの選択 ](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+>* [ アップロード用のアセットとフォルダーの準備 ](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [ ごみ箱フォルダーからのアセットの復元 ](trash-folder.md#restoring_assets_from_the_trash_folder)

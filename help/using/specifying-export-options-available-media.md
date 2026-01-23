@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 42%
@@ -25,7 +25,7 @@ ht-degree: 42%
 * 書き出しジョブの場合、書き出し用の圧縮 ZIP ファイルの最大ファイルサイズは 1 GB です。
 * 書き出しジョブあたり合計 500 個のアセットまで許容されています。
 
-[Adobe Dynamic Media Classicからのアセットの書き出し &#x200B;](exporting-assets-from-dmc.md#exporting-assets-from_dmc) も参照してください。
+[Adobe Dynamic Media Classicからのアセットの書き出し ](exporting-assets-from-dmc.md#exporting-assets-from_dmc) も参照してください。
 
 **Media Portal ユーザーが使用できる書き出しオプションを指定するには：**
 
@@ -43,4 +43,4 @@ ht-degree: 42%
 >[!MORELIKETHIS]
 >
 >* [画像プリセット](application-setup.md#image_presets)
->* [&#x200B; グループの画像プリセットのアクセス権限の選択 &#x200B;](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [ グループの画像プリセットのアクセス権限の選択 ](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

@@ -10,10 +10,10 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 41%
+ht-degree: 36%
 
 ---
 
@@ -23,7 +23,7 @@ ICC （International Color Consortium）プロファイルは、画像ファイ�
 
 Adobe Dynamic Media Classicでは、画像をアップロードする際に画像を別のカラースペースに変換する ICC プロファイルを選択できます。 すべての標準Photoshop ICC プロファイルは、デフォルトでAdobe Dynamic Media Classicで使用できます。 アップロード画面でカラープロファイル名を表示するには、カラープロファイルメニューを選択します。次に、「カスタム開始/終了」を選択し、「変換元」および「変換先」メニューで ICC プロファイル名を選択します。
 
-[&#x200B; アップロード時の画像編集オプション &#x200B;](image-editing-options-upload.md#image-editing-options-at-upload) を参照してください。
+[ アップロード時の画像編集オプション ](image-editing-options-upload.md#image-editing-options-at-upload) を参照してください。
 
 デフォルトの ICC プロファイルを使用する以外にも、他の ICC プロファイルをAdobe Dynamic Media Classicにアップロードして、カラースペースの変換に使用できるようにします。 参照パネルの詳細ビューに切り替えて、ICC プロファイルのプロファイルクラス、カラースペースタイプ、PCS タイプを調べます。
 
@@ -31,13 +31,13 @@ Adobe Dynamic Media Classicでは、画像をアップロードする際に画�
 
 ICC プロファイルのアップロードは、ファイルをアップロードするのと同じ方法で行います。ICC プロファイルは任意のAdobe Dynamic Media Classic フォルダーに保存できます。
 
-[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_your_files) を参照してください。
+[ ファイルのアップロード ](uploading-files.md#uploading_your_files) を参照してください。
 
 ## ICC プロファイルの調査 {#examining-an-icc-profile}
 
 ICC プロファイルを調べるには、参照パネルでプロファイルを選択し、詳細ビューで表示します。 詳細ビューには、ICC プロファイルに関する次の情報が表示されます。
 
-* **[!UICONTROL プロファイルクラス]**:ICC （International Color Consortium）は、アプリケーションの種類に対応するように各クラスを定義しています。 例えば、入力プロファイルはデジタルカメラやスキャナなどに対応し、出力プロファイルはプリンタに対応しています。
+* **[!UICONTROL プロファイルクラス]**:ICC （International Color Consortium）は、アプリケーションの種類に対応するように各クラスを定義しています。 例えば、入力プロファイルはデジタルカメラやスキャナーなどのデバイスに適用され、出力プロファイルはプリンターに適用されます。
 
 * **[!UICONTROL カラースペースタイプ]**：この数値は、ICC で定義されているプロファイルの「入力」カラースペースです。 カラースペースの種類は、カラースペースの構成要素数とそれらの構成要素の解釈を定義します。例えば、RGB は、赤、緑、青の 3 つの構成要素のあるカラースペースです。カラースペースの種類は、スペースの特定の色特性は定義しません（例えば、原色の色度）。
 

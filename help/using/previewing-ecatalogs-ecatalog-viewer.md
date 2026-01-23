@@ -10,10 +10,10 @@ role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 32%
+ht-degree: 22%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 32%
 
 プレビューを使用すると、様々な eCatalog ビューアプリセットを使用して eCatalog を表示できます。ページの移動、ノート注釈の記入および参照用のコントロールをテストすることもできます。
 
-[&#x200B; デフォルトビューアの設定 &#x200B;](application-setup.md#configuring_default_viewers) を参照してください。
+[ デフォルトビューアの設定 ](application-setup.md#configuring_default_viewers) を参照してください。
 
-[&#x200B; アセットのプレビュー &#x200B;](previewing-asset.md#previewing_an_asset) を参照してください。
+[ アセットのプレビュー ](previewing-asset.md#previewing_an_asset) を参照してください。
 
 **eCatalog ビューアで eCatalog をプレビューするには：**
 
@@ -41,4 +41,4 @@ ht-degree: 32%
 
 >[!MORELIKETHIS]
 >
->* [eCatalog ビューアプリセットの設定 &#x200B;](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)
+>* [eCatalog ビューアプリセットの設定 ](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)

@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 32%
@@ -54,7 +54,7 @@ Adobe Dynamic Media Classicでスピンセットを作成または作成する�
 | --- | --- | --- |
 | 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
 
-[Dynamic Media の制限 &#x200B;](/help/using/limitations.md) も参照してください。
+[Dynamic Media の制限 ](/help/using/limitations.md) も参照してください。
 
 スピンセットを保存すると、ビルド：スピンセットページでプレビューを使用して、初期設定のビューアでスピンセットの見栄えを確認することができます。
 
@@ -89,7 +89,7 @@ Adobe Dynamic Media Classicでスピンセットを作成または作成する�
 
 **スピンセットを編集するには：**
 
-1. スピンセットのロールオーバー **[!UICONTROL 編集]** ボタンを選択します。
+1. スピニングセットのロールオーバー **[!UICONTROL 編集]** ボタンを選択します。
 1. 次のいずれかの操作を行います。
 
    * **画像の削除**：画像を選択し、「**[!UICONTROL 削除]**」を選択します。

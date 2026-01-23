@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 34%
@@ -39,7 +39,7 @@ Adobe Dynamic Media Classicでは、使用するファイルに固有の情報�
 
 管理者はメタデータビューを作成できます。これらのビューは、メタデータビューメニューにも表示されます。
 
-メタデータビューの作成について詳しくは、[&#x200B; メタデータビュー &#x200B;](application-setup.md#metadata_views) を参照してください。
+メタデータビューの作成について詳しくは、[ メタデータビュー ](application-setup.md#metadata_views) を参照してください。
 
 ## アセットのメタデータの手動入力 {#manually-enter-metadata-for-an-asset}
 
@@ -73,7 +73,7 @@ Adobe Dynamic Media Classicでは、使用するファイルに固有の情報�
 >[!NOTE]
 >
 >Adobe Dynamic Media Classicにファイルをアップロードする際に、ファイルにキーワードを追加できます。 「アップロードジョブオプション」ダイアログボックスで、「その他のメタデータ **[!UICONTROL を選択し、キーワードを入力し]** す。
->&#x200B;>詳しくは、[&#x200B; アップロードオプション](uploading-files.md#upload_options)を参照してください。
+>詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
 
 ## メタデータの取り込み {#import-metadata}
 
@@ -82,9 +82,9 @@ Adobe Dynamic Media Classicでは、使用するファイルに固有の情報�
 >[!NOTE]
 >
 >メタデータを入力するためのテンプレートを作成して、Adobe Dynamic Media Classicに適切に読み込むことができます。 作成したテンプレートは、メタデータの入力に使用できます。
->&#x200B;>詳しくは、[アップロードするメタデータを入力するためのテンプレートの作成](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)を参照してください。
+>詳しくは、[アップロードするメタデータを入力するためのテンプレートの作成](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)を参照してください。
 
-標準化されたプロパティについて詳しくは、[Adobe XMP デベロッパーセンター &#x200B;](https://www.adobe.com/devnet/xmp.html) を参照してください。
+標準化されたプロパティについて詳しくは、[Adobe XMP デベロッパーセンター ](https://www.adobe.com/devnet/xmp.html) を参照してください。
 
 1. 参照パネルで、タブ区切りまたは XML ファイルからメタデータを追加する画像を選択します。
 1. **[!UICONTROL ファイル]**/**[!UICONTROL メタデータをインポート]** に移動します。

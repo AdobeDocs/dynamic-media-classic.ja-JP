@@ -10,10 +10,10 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -47,11 +47,11 @@ Web サイトおよびアプリケーションは、URL 文字列または埋め
 
 通常、訪問者は、最初にズームアイコン（多くの場合、アイコンは虫眼鏡の画像を表示）を選択して、web サイト上で画像をズームします。 このアイコンを選択すると、動的な web ページ（ASP または JSP）が起動し、ポップアップウィンドウに画像が表示されます。 このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
 
-詳細とコードサンプルについては、[Adobe ビューアリファレンスガイドのHTML5 基本ズームビューアの埋め込み &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) を参照してください。
+詳細とコードサンプルについては、『Adobe ビューアリファレンスガイド』の [ 埋め込みHTML5 基本ズームビューア ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) を参照してください。
 
 ## ズームビューアの埋め込みコピーのコピー {#copying-the-embed-copy-of-a-zoom-viewer}
 
-埋め込みコード機能を使用すると、選択したズームビューアのビューアコードをレビューすることができます。コードをクリップボードにコピーして、Web ページに貼り付け、ビューアをデプロイすることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択したズームビューアのビューアコードを確認できます。 コードをクリップボードにコピーして、Web ページに貼り付け、ビューアをデプロイすることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
 **ズームビューアの埋め込みコードをコピーするには：**
 

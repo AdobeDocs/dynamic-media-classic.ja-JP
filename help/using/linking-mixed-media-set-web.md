@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 22%
 
 ## 混在メディアセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-埋め込みコード機能を使用すると、選択した混在メディアセットのビューアコードをレビューすることができます。コードをクリップボードにコピーして、Web ページに貼り付け、ビューアをデプロイすることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択した混在メディアセットのビューアコードを確認できます。 コードをクリップボードにコピーして、Web ページに貼り付け、ビューアをデプロイすることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
 **混在メディアセットビューアの埋め込みコードをコピーするには：**
 
@@ -75,4 +75,4 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 公開 &#x200B;](publishing-files.md#publishing_files)
+>* [ 公開 ](publishing-files.md#publishing_files)

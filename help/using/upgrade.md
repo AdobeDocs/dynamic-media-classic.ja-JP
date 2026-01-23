@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,10 +39,10 @@ Adobeは、お客様を念頭に置いて [!DNL Dynamic Media] を作成しま�
 
 * [!DNL Adobe Experience Manager] とのシームレスな統合エクスペリエンスおよび統合：リッチコンテンツを 1 つのストアと 1 つのソースから設定して動的に配信します
 * リッチメディアコンテンツのオーサリングと配信を容易にする、マーケターを中心とした新しいユーザーエクスペリエンス
-* 画像ビューアおよびビデオプレーヤー用のWYSIWYG（What You See Is What You Get）のルックアンドフィールおよびビヘイビアーエディターです。
+* 画像ビューアとビデオプレーヤーの全体的なルックアンドフィールとビヘイビアーエディターに関しては、WYSIWYG（What You See Is What You Get）を参照してください。
 * 画像ホットスポットやショッパブルビデオなどのショッパブル/インタラクティブメディアエクスペリエンスの作成とデプロイメントを高速化
 
-### Assets内 [!DNL Dynamic Media]&#x200B;[!DNL Experience Manager] 機能
+### Assets内 [!DNL Dynamic Media][!DNL Experience Manager] 機能
 
 | 機能 | 説明 |
 | --- | --- |
