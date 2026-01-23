@@ -107,7 +107,7 @@ Adobe Dynamic Media Classicでファイルアセットを検索するには、�
 
    作成および保存したフィルター操作を実行するには、「**[!UICONTROL プリセットを選択]**」を選択し、メニューで操作の名前を選択します。
 
-   [ フィルター操作の保存、繰り返し、削除 ](searching-assets.md#saving_repeating_and_deleting_filter_operations) を参照してください。
+   [&#x200B; フィルター操作の保存、繰り返し、削除 &#x200B;](searching-assets.md#saving_repeating_and_deleting_filter_operations) を参照してください。
 
 1. パネルの **[!UICONTROL フィールド]** をクリックし、次の手順に従ってフィルタリングメニューを表示し、フィルター操作を作成します。
 
@@ -169,5 +169,5 @@ Metadata Server Publisher ページでは、次のオプションを設定でき
 
 >[!MORELIKETHIS]
 >
->* [ ナビゲーションの基本 ](navigation-basics.md#navigation_basics)
->* [ メタデータの表示、追加、エクスポート ](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [&#x200B; ナビゲーションの基本 &#x200B;](navigation-basics.md#navigation_basics)
+>* [&#x200B; メタデータの表示、追加、エクスポート &#x200B;](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

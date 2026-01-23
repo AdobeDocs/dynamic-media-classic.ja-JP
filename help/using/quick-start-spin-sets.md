@@ -21,13 +21,13 @@ ht-degree: 18%
 
 スピンセットを使用することで、現実と同じようにオブジェクトを回転させて確認することができます。つまり、アイテムをあらゆる角度から表示して、特徴的な部分を詳細に確認できるようになります。スピンセットでは、360°の方向からアイテムを表示することができます。Adobe Dynamic Media Classicには、ビューアがアイテムを回転できる 1 次元スピンセットと、ビューアがアイテムを回転および反転できる 2 次元スピンセットが用意されています。 さらに、ユーザーは「フリーフォーム」ズームを使用し、マウスを数回クリックするだけで任意のビューをパンできます。 これらの機能により、特定の方向からアイテムを詳細に確認することができます。
 
-![ スピンセットの画像 ](/help/using/assets/spin_set.png)
+![&#x200B; スピンセットの画像 &#x200B;](/help/using/assets/spin_set.png)
 
 スピニングセットはイメージマップも受け付けます。 画像マップは、スピンセット内の画像上の領域で、テキスト付きのロールオーバーパネルを表示します。 ユーザーが画像マップを選択すると、何らかのアクションがトリガーされます。 例えば、ユーザーが製品についてさらに知ることができるように web ページが起動されます。 スピンセット内の画像マップを示すために、ユーザーがマウスポインターを画像マップ上に移動すると、画像マップ自体の周囲にアウトラインが表示されます。
 
-[ 画像マップの作成 ](creating-image-maps.md) を参照してください。
+[&#x200B; 画像マップの作成 &#x200B;](creating-image-maps.md) を参照してください。
 
-トレーニングビデオの [ 画像セットとスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) を参照してください。
+トレーニングビデオの [&#x200B; 画像セットとスピンセット：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) を参照してください。
 
 スピンセットを作成する場合、Adobeでは次のベストプラクティスを推奨し、次の制限を適用します。
 
@@ -35,7 +35,7 @@ ht-degree: 18%
 | --- | --- | --- |
 | 2D セットあたりの最大行数/列数 | 1 セットあたり 12～18 個の画像 | 1000 |
 
-[Dynamic Media の制限 ](/help/using/limitations.md) も参照してください。
+[Dynamic Media の制限 &#x200B;](/help/using/limitations.md) も参照してください。
 
 このクイックスタートは、Adobe Dynamic Media Classicのスピンセット手法をすぐに使い始めることを目的としたものです。 手順 1 ～ 7 に従ってください。各手順の最後で、トピックリンクを選択して詳細を確認できます。
 
@@ -51,13 +51,13 @@ ht-degree: 18%
 
 スピンセットを作成するには、グローバルナビゲーションバーで **[!UICONTROL ビルド]**/**[!UICONTROL スピンセット]** を選択します。 スピンセットサイズ ダイアログボックスで、行とセルの数を選択して **[!UICONTROL OK]** を選択します。 次に、画像をスピンセットページのグリッドにドラッグします。
 
-[ スピンセットの作成 ](creating-spin-set.md#creating-a-spin-set) を参照してください。
+[&#x200B; スピンセットの作成 &#x200B;](creating-spin-set.md#creating-a-spin-set) を参照してください。
 
 ## &#x200B;3. スピンセットの編集
 
 スピンセットを編集するには、グローバルナビゲーションバーで **[!UICONTROL 設定]**/**[!UICONTROL ビューアプリセット]** を選択します。 スピンセットを選択し、「**[!UICONTROL 編集]** を選択します。 画像の追加、削除、位置の変更を行います。2 次元スピンセットの行の位置を変更できます。
 
-[ スピンセットの編集 ](creating-spin-set.md#editing-a-spin-set) を参照してください。
+[&#x200B; スピンセットの編集 &#x200B;](creating-spin-set.md#editing-a-spin-set) を参照してください。
 
 ## &#x200B;4. スピンセットビューアプリセットのセットアップ
 
@@ -65,13 +65,13 @@ ht-degree: 18%
 
 ビューアプリセットページで「**[!UICONTROL 追加]**」を選択したあと、ドロップダウンリストから「**[!UICONTROL スピンセットビューア]**」を選択し、「**[!UICONTROL 追加]**」を選択します。 `Configure Viewer` のページでオプションを選択し、「**[!UICONTROL 保存]** を選択します。
 
-[ スピンセットビューアプリセットのセットアップ ](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets) を参照してください。
+[&#x200B; スピンセットビューアプリセットのセットアップ &#x200B;](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets) を参照してください。
 
 ## &#x200B;5. スピンセットのプレビュー
 
 参照パネルでスピンセットを選択し、「プレビュー **[!UICONTROL を選択し]** す。 プレビューページで、マウスボタンを押しながらポインターを左右にドラッグして、項目を視覚的に「スピン」します。
 
-[ スピンセットのプレビュー ](previewing-spin-set.md#previewing-a-spin-set) を参照してください。
+[&#x200B; スピンセットのプレビュー &#x200B;](previewing-spin-set.md#previewing-a-spin-set) を参照してください。
 
 ## &#x200B;6. スピンセットの公開
 
@@ -79,7 +79,7 @@ ht-degree: 18%
 
 スピンセットを公開するには、参照パネルで名前の横にある **[!UICONTROL 公開用にマーク]** アイコンを選択して、公開用にマークします。 グローバルナビゲーションバーの「**[!UICONTROL 公開]**」を選択して公開を開始します。 公開ページで、「**[!UICONTROL 公開を送信]**」を選択します。
 
-[ スピンセットの公開 ](publishing-spin-set.md#publishing-a-spin-set) を参照してください。
+[&#x200B; スピンセットの公開 &#x200B;](publishing-spin-set.md#publishing-a-spin-set) を参照してください。
 
 ## &#x200B;7. Web ページへのスピンセットのリンク
 
@@ -87,4 +87,4 @@ Adobe Dynamic Media Classicは、スピンセットの URL コールアウト文
 
 スピンセットを選択し、「**[!UICONTROL プレビュー]** を選択します。 スピンセットビューアプリセットを選択し、次に、「**[!UICONTROL URL をコピー]**」を選択します。
 
-[Web ページへのスピンセットのリンク ](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page) を参照してください。
+[Web ページへのスピンセットのリンク &#x200B;](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page) を参照してください。

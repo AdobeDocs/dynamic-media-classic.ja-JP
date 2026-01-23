@@ -23,7 +23,7 @@ ht-degree: 39%
 
 Adobe Dynamic Media Classicには、画像をチューニングおよび最適化して結果をレンダリングするための、100 を超える画像サービングコマンドがあります。 重要なコマンドおよびベストプラクティスを使用して、このプロセスを効率化し、良い結果をすばやく得るために、次のガイドラインが役に立ちます。
 
-[ スマートイメージング ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq) も参照してください。
+[&#x200B; スマートイメージング &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq) も参照してください。
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classicには、画像をチューニングおよび最適�
 >* ネットワーク帯域幅
 >* DPR （デバイスピクセル比）
 >
->スナップショットの使用がどれほど簡単かを知るには、[ スナップショットのトレーニングビデオ ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3 分 17 秒）を再生してください。
+>スナップショットの使用がどれほど簡単かを知るには、[&#x200B; スナップショットのトレーニングビデオ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3 分 17 秒）を再生してください。
 
 
 ## 画像形式（&amp;fmt=）のベストプラクティス {#best-practices-for-image-format-fmt}
@@ -62,7 +62,7 @@ Adobe Dynamic Media Classicには、画像をチューニングおよび最適�
 
 画像へのシャープ適用は、Web サイト上の画像を管理する上で最も複雑な側面であり、ミスが多く起きるところです。次の役立つリソースを参照し、Adobe Dynamic Media Classicでのシャープニングおよびアンシャープマスクの仕組みについて詳しく学んでください。
 
-PDFのベストプラクティスホワイトペーパー [Adobe Dynamic Media Classicおよび Image Server での画像のシャープニング ](/help/using/assets/s7_sharpening_images.pdf)
+PDFのベストプラクティスホワイトペーパー [Adobe Dynamic Media Classicおよび Image Server での画像のシャープニング &#x200B;](/help/using/assets/s7_sharpening_images.pdf)
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -84,7 +84,7 @@ Adobe Dynamic Media Classicを使用すれば、取り込み時、配信時ま�
 
         このパラメーターは、シャープを適用するピクセルが周囲の領域とどの程度異なれば、端のピクセルとみなされフィルターによりシャープが適用されるかを指定します。しきい値は、肌のトーンのような類似した色の領域に過度なシャープが適用されることを防ぐために使用できます。例えば、しきい値を 12 にした場合、肌のトーンの明るさにわずかな差があっても無視して「ノイズ」が加わるのを防ぎながら、まつげと肌が隣り合う場所など、コントラストの高い領域に対してエッジコントラストを追加することができます。
 
-        フィルターを使用したベストプラクティスを含む、これら 3 つのパラメーターの設定方法について詳しくは、[Adobe Dynamic Media Classicおよび Image Server での画像のシャープニング ](/help/using/assets/s7_sharpening_images.pdf) を参照してください。
+        フィルターを使用したベストプラクティスを含む、これら 3 つのパラメーターの設定方法について詳しくは、[Adobe Dynamic Media Classicおよび Image Server での画像のシャープニング &#x200B;](/help/using/assets/s7_sharpening_images.pdf) を参照してください。
 
       * Adobe Dynamic Media Classicでは第 4 パラメーターの monochrome （`0,1`）も制御できます。 このパラメーターでは、アンシャープマスクをそれぞれの色成分に個別に適用するか（値 `0`）、または画像の明るさ/明度に対して `1` 値で適用するかを指定します。
 

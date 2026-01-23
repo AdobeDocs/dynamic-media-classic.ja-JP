@@ -78,6 +78,6 @@ Adobe Dynamic Media Classic ID のリストを作成し、テキスト（.txt）
 
 >[!MORELIKETHIS]
 >
->* [ 参照パネルでのアセットの選択 ](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [ アップロード用のアセットとフォルダーの準備 ](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [ ごみ箱フォルダーからのアセットの復元 ](trash-folder.md#restoring_assets_from_the_trash_folder)
+>* [&#x200B; 参照パネルでのアセットの選択 &#x200B;](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+>* [&#x200B; アップロード用のアセットとフォルダーの準備 &#x200B;](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [&#x200B; ごみ箱フォルダーからのアセットの復元 &#x200B;](trash-folder.md#restoring_assets_from_the_trash_folder)

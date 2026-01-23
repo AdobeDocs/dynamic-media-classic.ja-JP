@@ -39,9 +39,9 @@ Adobe Dynamic Media Classicでは、ビューアプリセットにシャープ�
 
 Adobe Dynamic Media Classicおよび Dynamic Media Image Server での画像のシャープニングを最適化するためのベストプラクティスがあります。
 
-[Adobe Dynamic Media Classicおよび Dynamic Media Image Server の画像をシャープにするベストプラクティス ](/help/using/assets/s7_sharpening_images.pdf) を参照してください。
+[Adobe Dynamic Media Classicおよび Dynamic Media Image Server の画像をシャープにするベストプラクティス &#x200B;](/help/using/assets/s7_sharpening_images.pdf) を参照してください。
 
-[ シャープニング ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
+[&#x200B; シャープニング &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
 
 **画像をシャープにするには：**
 
@@ -134,7 +134,7 @@ Adobe Dynamic Media Classicおよび Dynamic Media Image Server での画像の�
 
 ビューアプリセット（画像プリセットなど）を使用すると、多くのオプションを 1 か所に集約できます。選択肢としては、スキンやビューアのオプション（印刷ボタンの使用やズームアニメーションの速度の制御など）があります。 ビューアプリセットは、画像プリセットと同じセクションの **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL ビューアプリセット]** にあります。
 
-[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) トレーニングビデオを参照してください。
+[&#x200B; ビューアプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) トレーニングビデオを参照してください。
 
 修飾子オプションは、すべての eCatalog、回転、カスタムズームビューアプリセットのコア設定セクションの下に表示されます。URL シャープニングコマンドを「修飾子」ボックスに追加すると、そのビューアプリセットでビューアが呼び出されるたびにシャープニングが追加されます。
 

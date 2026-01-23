@@ -42,7 +42,7 @@ Adobeは、お客様を念頭に置いて [!DNL Dynamic Media] を作成しま�
 * 画像ビューアとビデオプレーヤーの全体的なルックアンドフィールとビヘイビアーエディターに関しては、WYSIWYG（What You See Is What You Get）を参照してください。
 * 画像ホットスポットやショッパブルビデオなどのショッパブル/インタラクティブメディアエクスペリエンスの作成とデプロイメントを高速化
 
-### Assets内 [!DNL Dynamic Media][!DNL Experience Manager] 機能
+### Assets内 [!DNL Dynamic Media]&#x200B;[!DNL Experience Manager] 機能
 
 | 機能 | 説明 |
 | --- | --- |
