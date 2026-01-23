@@ -233,7 +233,7 @@ Windows® 上で最新バージョンのAdobe Dynamic Media Classic デスクト
 
 ## Adobe Dynamic Media Classic デスクトップアプリケーションの使用に関するビデオウォークスルー {#dmc-app-video-walk-through}
 
-Adobe Dynamic Media Classic デスクトップアプリケーションの使用方法に関する [&#x200B; ビデオウォークスルー &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長さ：2 分 36 秒）を視聴します。
+Adobe Dynamic Media Classic デスクトップアプリケーションの使用方法に関する [&#x200B; ビデオウォークスルー &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （長さ：2 分 36 秒）を視聴します。
 
 ## デスクトップアプリケーションを使用した、コンピューター上の画像キャッシュとアセットキャッシュのクリア {#clear-cache}
 
