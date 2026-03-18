@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 topic: Development, Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 0%
 
 Adobe Analytics ハートビートベースのビデオレポートを使用して、Adobe Dynamic Media ClassicでAdobe Analyticsを設定する際に、4 つのビデオビューアイベント（再生、一時停止、停止、マイルストーン）を有効にする必要がなくなりました。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオビューアと混在メディアビューアで機能します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。
 
-* ストリーミングメディアと「ハートビート測定」の概要については、[Adobe Analytics for Streaming Media について &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) を参照してください。
+* ストリーミングメディアと「ハートビート測定」の概要については、[Adobe Analytics for Streaming Media について ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview) を参照してください。
 
 * Adobe Analytics ビデオレポートとAdobe Dynamic Media Classicの統合では、ソリューション変数をサポートしていますが、カスタム変数はサポートしていません。
 
-  ソリューション変数とカスタム変数について詳しくは、[&#x200B; オーディオおよびビデオパラメーター &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/audio-video-parameters) を参照してください。
+  ソリューション変数とカスタム変数について詳しくは、[ オーディオおよびビデオパラメーター ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters) を参照してください。
 
 * 標準提供の 1 分単位のセグメントがサポートされています。 ただし、時間増分、マイルストーン率（%）、オフセットマイルストーンに基づく顧客定義のマイルストーンなど、カスタムセグメントレポートはサポートされていません。
 
-  ストリーミングメディアの要件と設定について詳しくは、[Adobe Analyticsでの Steaming Media の測定 &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) を参照してください。
+  ストリーミングメディアの要件と設定について詳しくは、[Adobe Analyticsでの Steaming Media の測定 ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview) を参照してください。
 
-* カスタム変数とソリューション変数について詳しくは、[&#x200B; メディアレポートの有効化 &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-reports/media-reports-enable#media-reports) を参照してください。
+* カスタム変数とソリューション変数について詳しくは、[ メディアレポートの有効化 ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-reports/media-reports-enable#media-reports) を参照してください。
 
 >[!NOTE]
 >

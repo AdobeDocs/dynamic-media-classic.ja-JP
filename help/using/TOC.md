@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
 user-guide-description: Adobe Dynamic Media Classicの使用についての詳細情報
-index: y
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+index: true
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '810'
 ht-degree: 21%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 21%
    + [機能リストの比較](upgrade-feature-comparison.md)
    + [アップグレード準備チェックリスト](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic ガイド](home.md)
-+ [Adobe Dynamic Media Classic ベストプラクティスチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Adobe Dynamic Media Classic ベストプラクティスチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新しいAdobe Dynamic Media Classic ログオンが利用できるようになりました](new-ui-2020.md)
 + [Experience League提供のAdobe Dynamic Media ニュースレターアーカイブ](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classicについて {#intro}
@@ -134,7 +134,7 @@ ht-degree: 21%
    + [テンプレートファイルのアップロード](uploading-template-files.md)
    + [テンプレートの作成](creating-template.md)
    + [テンプレートパラメータの作成](creating-template-parameters.md)
-   + [&#x200B; テンプレートの公開](publishing-templates.md)
+   + [テンプレートの公開](publishing-templates.md)
    + [Web ページへのテンプレートのリンク](linking-template-web-page.md)
    + [コンテンツのバリエーションの管理](content-variations.md)
 + ビデオ {#video}

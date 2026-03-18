@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 19%
+source-wordcount: '1070'
+ht-degree: 21%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 19%
 
 ## テスト作業をセキュリティで保護する方法 {#how-secure-testing-works}
 
-ほとんどの企業は自社のインターネットをファイアウォールの背後で動作させています。インターネットへのアクセスは、特定のルート経由で可能であり、通常は制限された範囲のパブリック IP アドレスを経由します。
+ほとんどの企業は自社のインターネットをファイアウォールの背後で動作させています。 インターネットへのアクセスは、特定のルート経由で可能であり、通常は制限された範囲のパブリック IP アドレスを経由します。
 
 企業ネットワークから、[https://www.whatismyip.com](https://www.whatismyip.com/) などの web サイトを使用してパブリック IP アドレスを把握するか、企業の IT 組織にこの情報をリクエストします。
 
-セキュアテストを使用すると、Adobe Dynamic Media Classicは、ステージング環境または内部アプリケーション用に専用の Image Server を設定します。 このサーバに対するあらゆる要求は、送信元 IP アドレスがチェックされます。受信リクエストが IP アドレスの承認済みリストに含まれていない場合は、失敗の応答が返されます。 Adobe Dynamic Media Classic Company Administrator は、自社のセキュアテスト環境用の承認済み IP アドレスリストを設定します。
+セキュアテストを使用すると、Adobe Dynamic Media Classicは、ステージング環境または内部アプリケーション用に専用の Image Server を設定します。 このサーバに対するあらゆる要求は、送信元 IP アドレスがチェックされます。 着信要求が、承認された IP アドレスリストの中に含まれていない場合、失敗の応答が返されます。 Adobe Dynamic Media Classic Company Administrator は、自社のセキュアテスト環境用の承認済み IP アドレスリストを設定します。
 
 元のリクエストの場所を確認する必要があるので、セキュアテストサービスのトラフィックは、パブリック Dynamic Media Image Server トラフィックのようにコンテンツ配信ネットワークを通じてルーティングされません。 セキュアテストサービスへのリクエストの待ち時間は、パブリックな Dynamic Media Image Server に比べて若干長くなります。
 
-非公開のアセットは、セキュアテストサービスでは直ちに使用可能になり、公開の必要はありません。この方法では、公開されている Image Server にアセットを公開する前にプレビューを実行できます。
+非公開のアセットは、セキュアテストサービスでは直ちに使用可能になり、公開の必要はありません。 この方法では、公開されている Image Server にアセットを公開する前にプレビューを実行できます。
 
 >[!NOTE]
 >
@@ -86,9 +86,11 @@ Last Modified Date:
 
 セキュアテストサービスをテストして、期待どおりに動作することを確認できます。
 
-<!-- >[!NOTE]
+<!-- 
+>[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. 
+-->
 
 ### アカウントの準備
 
@@ -118,11 +120,11 @@ Last Modified Date:
 1. Image Server 公開ページの左下にある「**[!UICONTROL 保存]**」を選択します
 1. 目的の画像をAdobe Dynamic Media Classic アカウントにアップロードします。
 
-   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files) を参照してください。
+   [ ファイルのアップロード ](uploading-files.md#uploading_files) を参照してください。
 
 1. 一部の画像が公開用にマークされており、他の画像がマークされていないことを確認し、公開ジョブを送信します。
 
-   [&#x200B; ファイルを公開 &#x200B;](publishing-files.md#publishing_files) を参照してください。
+   [ ファイルを公開 ](publishing-files.md#publishing_files) を参照してください。
 
 1. **[!UICONTROL 設定]**/**[!UICONTROL アプリケーション設定]**/**[!UICONTROL 一般設定]** に移動して、セキュアテストサービスの名前を決定します。
 1. アプリケーション全般設定ページのサーバグループの下で、**[!UICONTROL 「公開コンテキストのサーバ名のテスト」]**&#x200B;の右側にある名前を検索します。

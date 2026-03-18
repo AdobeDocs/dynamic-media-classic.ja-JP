@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '841'
 ht-degree: 19%
 
 ---
 
 # 個人設定 {#personal-setup}
 
-すべてのユーザが個人設定画面の設定を変更できます。個人設定画面を開くには、**[!UICONTROL 設定]**/**[!UICONTROL 個人設定]** に移動します。
+すべてのユーザが個人設定画面の設定を変更できます。 個人設定画面を開くには、**[!UICONTROL 設定]**/**[!UICONTROL 個人設定]** に移動します。
 
 >[!NOTE]
 >
@@ -48,11 +48,14 @@ ht-degree: 19%
 1. Adobe Dynamic Media Classicのツールバーで、**[!UICONTROL 設定]**/**[!UICONTROL 個人設定]** に移動し、Creative Suite 拡張機能の下で **[!UICONTROL 今すぐダウンロード]** を選択して `s7csxs.zxp` ファイルをダウンロードします。
 1. **[!UICONTROL インストール]** リンクおよび **[!UICONTROL システム要件]** リンクを選択すると、拡張機能に関する追加情報が表示されます。
 
-<!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
+<!--    
+A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
-1. Depending on your installed operating system, do one of the following: -->
+1. Depending on your installed operating system, do one of the following: 
+-->
 
-<!-- #### Windows
+<!--
+#### Windows
 
 |If you are running|Do this|
 |--- |--- |
@@ -68,12 +71,13 @@ ht-degree: 19%
 |Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
 |Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
-The plug-in is now available for you to use in Adobe Illustrator. -->
+The plug-in is now available for you to use in Adobe Illustrator.
+-->
 
 ## ブラウザ
 
 * **[!UICONTROL サムネールサイズ]**：参照パネルのグリッド表示のサムネール画像のデフォルトサイズを決定します。
-* **[!UICONTROL デフォルトのアセットライブラリ表示]**：ビルドセット用のアセットライブラリ内のアセットをサムネールとして表示するか名前で表示するかを決定します。 アセットライブラリで大量のアセットを操作する場合は、アセットを名前順に表示できます。例えば、PDF ファイルを多く含む大規模な eCatalog を作成している場合は、アセットを名前順で表示してリストを短くすることができます。
+* **[!UICONTROL デフォルトのアセットライブラリ表示]**：ビルドセット用のアセットライブラリ内のアセットをサムネールとして表示するか名前で表示するかを決定します。 アセットライブラリで大量のアセットを操作する場合は、アセットを名前順に表示できます。 例えば、PDF ファイルを多く含む大規模な eCatalog を作成している場合は、アセットを名前順で表示してリストを短くすることができます。
 * **[!UICONTROL デフォルトの参照の並べ替え順序]**：参照パネルでデフォルトに表示されるアセットの順序を指定します。 メニューで並べ替え条件を選択して、昇順または降順のどちらで並べ替えるかを指定します。
 * **[!UICONTROL デフォルトの参照場所]**：参照場所をデフォルト、最後に参照されたフォルダー、または移動先で識別できる特定の場所に設定できます。 また、ファイルやフォルダを昇順または降順に並べ替えるよう参照場所を設定できます。
 * **[!UICONTROL デフォルトの参照表示]**：最初に参照パネルを開いたときに表示されるデフォルトの表示を、グリッド表示またはリスト表示のいずれにするかを指定します。
@@ -83,7 +87,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL ファイルサイズを表示]**：参照中のアセットのファイルサイズを表示します。
 * **[!UICONTROL 検索に UDF を含める]**：実行するほとんどのメタデータ検索でシステムパフォーマンスを向上させるには、選択を解除（デフォルト）します。
 
-  メタデータ検索の多くの場合に、ユーザ定義フィールドを含めることで利点がある場合は、このオプションを選択して有効にすることができます。別の方法として、ユーザー定義のフィールドを含めることで、よりダイレクトで高速な検索を実現する詳細検索を使用してください。
+  メタデータ検索の多くの場合に、ユーザ定義フィールドを含めることで利点がある場合は、このオプションを選択して有効にすることができます。 別の方法として、ユーザー定義のフィールドを含めることで、よりダイレクトで高速な検索を実現する詳細検索を使用してください。
 
   詳しくは、[詳細検索の実行](searching-assets.md#conducting_an_advanced_search)を参照してください。
 

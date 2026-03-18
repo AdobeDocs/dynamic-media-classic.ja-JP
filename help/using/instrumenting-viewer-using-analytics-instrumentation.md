@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 15%
+source-wordcount: '307'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics Instrumentation Kit を使用して、HTML5 ビューアをAdobe
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-ここで、`Adobe Dynamic Media Classic Company ID` はAdobe Dynamic Media Classicの会社名に設定されます。 また、`&preset` はオプションです。 会社のプリセット名が `companypreset` でない場合は、オプションではありません。 このような場合は、`companypreset-1, companypreset-2` など、様々な影響が考えられます。 番号が大きいほど、プリセットの最新のインスタンスになります。正しい会社プリセット値の名前を決定するには、「**[!UICONTROL URL をコピー]**」を選択し、`preset=` パラメーターを確認して、会社プリセット名を見つけます。
+ここで、`Adobe Dynamic Media Classic Company ID` はAdobe Dynamic Media Classicの会社名に設定されます。 また、`&preset` はオプションです。 会社のプリセット名が `companypreset` でない場合は、オプションではありません。 このような場合は、`companypreset-1, companypreset-2` など、様々な影響が考えられます。 番号が大きいほど、プリセットの最新のインスタンスになります。 正しい会社プリセット値の名前を決定するには、「**[!UICONTROL URL をコピー]**」を選択し、`preset=` パラメーターを確認して、会社プリセット名を見つけます。
 
 続いて、ビューアイベントをAdobe Analytics トラッキングコードに送信する関数を追加します。
 
@@ -45,4 +45,4 @@ function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eve
 
 ## HREF および項目イベントを有効にする {#enabling-href-and-item-events}
 
-画像マップを編集することで、ビューアの HREF（ロールオーバー）および ITEM（マウスクリック／タッチ）イベントを有効にできます。ビューアコンテンツと関連付けられている画像マップ内で、HREF と ITEM の識別子を定義します。画像マップ内の HREF 値に `&rolloverKey=` パラメーターを追加します。
+画像マップを編集することで、ビューアの HREF（ロールオーバー）および ITEM（マウスクリック／タッチ）イベントを有効にできます。 ビューアコンテンツと関連付けられている画像マップ内で、HREF と ITEM の識別子を定義します。 画像マップ内の HREF 値に `&rolloverKey=` パラメーターを追加します。
