@@ -34,7 +34,7 @@ Adobe Analyticsの Web サービスアクセスグループのメンバーであ
 1. [Adobe Developer Console](https://developer.adobe.com/console) にアクセスします。 統合が必要な組織の管理者権限がアカウントにあることを確認します。
 1. ホームページの右上隅付近にあるドロップダウンリストで適切な会社を選択します。 （以下のスクリーンショットは情報提供のみを目的としています。選択した実際の会社名は異なる場合があります。）
 
-   ![ 新規プロジェクトの作成 ](assets/analytics-oauth1.png)
+   ![&#x200B; 新規プロジェクトの作成 &#x200B;](assets/analytics-oauth1.png)
 
 1. 次のいずれかの操作をおこないます。
 
@@ -45,7 +45,7 @@ Adobe Analyticsの Web サービスアクセスグループのメンバーであ
 1. **[!UICONTROL API を追加]** ページで、「**[!UICONTROL Adobe Analytics]**」を選択します。
 1. ページの右下隅付近にある「**[!UICONTROL 次へ]**」を選択します。
 
-   ![API を追加 ](assets/analytics-oauth2.png)
+   ![API を追加 &#x200B;](assets/analytics-oauth2.png)
 
 1. **[!UICONTROL `Configure API`]** ページで、「**[!UICONTROL ユーザー認証 OAuth]**」を選択します。
 1. ページの右下隅付近にある「**[!UICONTROL 次へ]**」を選択します。
@@ -103,4 +103,4 @@ Adobe Analyticsの Web サービスアクセスグループのメンバーであ
 
 >[!MORELIKETHIS]
 >
->* [Adobe Analytics レポートの設定 ](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
+>* [Adobe Analytics レポートの設定 &#x200B;](configuring-analytics-reports.md#configuring_adobe_analytics_reports)

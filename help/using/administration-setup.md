@@ -52,7 +52,7 @@ Adobe Dynamic Media Classicは、複数のユーザーの役割をサポート�
 
 1. ユーザーに役割を割り当てるには、「役割」オプションを選択します。
 
-   詳しくは、[Adobe Dynamic Media Classicのユーザーの役割と権限 ](administration-setup.md#user_administration) を参照してください。
+   詳しくは、[Adobe Dynamic Media Classicのユーザーの役割と権限 &#x200B;](administration-setup.md#user_administration) を参照してください。
 
 1. ユーザーを会社に追加するには、会社名を選択します。
 1. ユーザーをグループに追加する場合（Media Portal ユーザーまたはコントリビューターを追加する場合）、「**[!UICONTROL 次へ]**」を選択し、ユーザーを追加します。
