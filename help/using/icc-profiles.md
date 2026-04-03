@@ -1,6 +1,6 @@
 ---
 title: ICC （International Color Consortium）プロファイル
-description: Adobe Dynamic Media Classicの ICC プロファイルについて説明します。
+description: Adobe Dynamic Media ClassicのICC プロファイルについて説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,37 +10,46 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 2893110e9629ef72a0e919b47abc94c916e132e9
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 36%
+source-wordcount: '528'
+ht-degree: 31%
 
 ---
 
 # ICC プロファイル［ICC ぷろふぁいる］{#icc-profiles}
 
-ICC （International Color Consortium）プロファイルは、画像ファイルをカラースペース間で正しく変換する方法を記述したファイルです。 ICC プロファイルにより、画像の正しい色を得ることができます。例えば、コンピューターモニターで印刷用の画像を正しく表示するには、ICC プロファイルを選択します。 このプロファイルは、画像を異なるカラースペースに変換し、オンラインで正確に色が表示されるようにします。
+ICC （International Color Consortium）プロファイルは、あるカラースペースから別のカラースペースに画像ファイルを正しく変換する方法を説明するファイルです。 ICC プロファイルにより、画像の正しい色を得ることができます。 たとえば、コンピュータモニターに印刷するように設計された画像を正しく表示するには、ICC プロファイルを選択できます。 このプロファイルは、画像を異なるカラースペースに変換し、オンラインで正確に色が表示されるようにします。
 
-Adobe Dynamic Media Classicでは、画像をアップロードする際に画像を別のカラースペースに変換する ICC プロファイルを選択できます。 すべての標準Photoshop ICC プロファイルは、デフォルトでAdobe Dynamic Media Classicで使用できます。 アップロード画面でカラープロファイル名を表示するには、カラープロファイルメニューを選択します。次に、「カスタム開始/終了」を選択し、「変換元」および「変換先」メニューで ICC プロファイル名を選択します。
+Adobe Dynamic Media Classicでは、ICC プロファイルを選択して、画像をアップロードするときに画像を別のカラースペースに変換できます。 すべての標準Photoshop ICC プロファイルは、Adobe Dynamic Media Classicでデフォルトで使用できます。 アップロード画面でカラープロファイル名を表示するには、カラープロファイルメニューを選択します。 そして、「カスタム アップロード元 > アップロード先」を選択して、変換前メニューと変換後メニューで ICC プロファイル名を選択します。
 
-[&#x200B; アップロード時の画像編集オプション &#x200B;](image-editing-options-upload.md#image-editing-options-at-upload) を参照してください。
+アップロード ](image-editing-options-upload.md#image-editing-options-at-upload)の[画像編集オプションを参照してください。
 
-デフォルトの ICC プロファイルを使用する以外にも、他の ICC プロファイルをAdobe Dynamic Media Classicにアップロードして、カラースペースの変換に使用できるようにします。 参照パネルの詳細ビューに切り替えて、ICC プロファイルのプロファイルクラス、カラースペースタイプ、PCS タイプを調べます。
+デフォルトのICC プロファイルを使用するだけでなく、他のICC プロファイルをAdobe Dynamic Media Classicにアップロードして、カラースペースの変換に利用できるようにすることもできます。 参照パネルの詳細表示に切り替えて、ICC プロファイルのプロファイルクラス、カラースペースタイプ、およびPCS タイプを調べます。
 
-## ICC プロファイルをアップロード {#uploading-icc-profiles}
+要約すると、ICC プロファイルの重要なポイントは次のとおりです。
 
-ICC プロファイルのアップロードは、ファイルをアップロードするのと同じ方法で行います。ICC プロファイルは任意のAdobe Dynamic Media Classic フォルダーに保存できます。
+* ICC プロファイルを使用すると、画像ファイルの異なるカラースペース間で正しいカラー変換が可能になります。
+* Adobe Dynamic Media Classicには、堅牢な画像変換を実現する、あらゆる標準のPhotoshop ICC プロファイルが組み込まれています。
+* カスタム ICC プロファイルにより、高度なカラースペース変換ニーズに対応する柔軟性が向上しました。
+* プロファイルクラスやPCS タイプなどの詳細を詳細ビューで表示すると、ICC設定の管理に役立ちます。
+* ICC プロファイルのアップロードは簡単で、Dynamic Media Classicのフォルダー間でアクセスできます。
 
-[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_your_files) を参照してください。
 
-## ICC プロファイルの調査 {#examining-an-icc-profile}
+## ICC プロファイルのアップロード {#uploading-icc-profiles}
 
-ICC プロファイルを調べるには、参照パネルでプロファイルを選択し、詳細ビューで表示します。 詳細ビューには、ICC プロファイルに関する次の情報が表示されます。
+ICC プロファイルのアップロードは、ファイルをアップロードするのと同じ方法で行います。 ICC プロファイルは、任意のAdobe Dynamic Media Classic フォルダーに保存できます。
 
-* **[!UICONTROL プロファイルクラス]**:ICC （International Color Consortium）は、アプリケーションの種類に対応するように各クラスを定義しています。 例えば、入力プロファイルはデジタルカメラやスキャナーなどのデバイスに適用され、出力プロファイルはプリンターに適用されます。
+[ ファイルのアップロード ](uploading-files.md#uploading_your_files)を参照してください。
 
-* **[!UICONTROL カラースペースタイプ]**：この数値は、ICC で定義されているプロファイルの「入力」カラースペースです。 カラースペースの種類は、カラースペースの構成要素数とそれらの構成要素の解釈を定義します。例えば、RGB は、赤、緑、青の 3 つの構成要素のあるカラースペースです。カラースペースの種類は、スペースの特定の色特性は定義しません（例えば、原色の色度）。
+## ICC プロファイルを調べる {#examining-an-icc-profile}
 
-* **[!UICONTROL PCS タイプ]**：この PCS タイプは、プロファイルの「出力」カラースペース（プロファイル接続スペース）です。 例えば、カラープロファイルは RGB から PCS に変換して、その後 CMYK に変換することができます。
+ICC プロファイルを調べるには、参照パネルで選択し、詳細ビューに表示します。 詳細ビューには、ICC プロファイルに関する次の情報が表示されます。
 
-色や画像のタグ付けに使用する入力、表示または出力プロファイルでは、PCS の種類は XYZ または Lab です。このプロファイルを、ICC 仕様に定義されている対応する特定のカラースペースとして解釈します。
+* **[!UICONTROL プロファイルクラス]**: ICCは、アプリケーションの種類をカバーする各クラスを定義します。 例えば、入力プロファイルは、デジタルカメラやスキャナーなどのデバイスに適用されます。 出力プロファイルはプリンターに適用されます。
+
+* **[!UICONTROL 色空間タイプ]**：この数値は、ICCで定義されているプロファイルの「入力」色空間です。 カラースペースの種類は、カラースペースの構成要素数とそれらの構成要素の解釈を定義します。 例えば、RGB は、赤、緑、青の 3 つの構成要素のあるカラースペースです。 カラースペースの種類は、スペースの特定の色特性は定義しません（例えば、原色の色度）。
+
+* **[!UICONTROL PCS タイプ]**：このPCS タイプは、プロファイルの「出力」カラースペース（プロファイル接続スペース）です。 例えば、カラープロファイルは RGB から PCS に変換して、その後 CMYK に変換することができます。
+
+カラーや画像のタグ付けに便利な入力、表示、または出力プロファイルの場合、PCS タイプはXYZまたはLabです。 このプロファイルを、ICC 仕様に定義されている対応する特定のカラースペースとして解釈します。
