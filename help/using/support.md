@@ -24,7 +24,7 @@ ht-degree: 14%
 | サポート | 製品版 |
 | --- | --- |
 | 案件数 | 無制限。 |
-| Adobeのシステムステータスの確認 | [Adobe Dynamic Media Classic システムの状態 &#x200B;](https://status.adobe.com/products/1175)。 |
+| Adobeのシステムステータスの確認 | [Adobe Dynamic Media Classic システムの状態 &#x200B;](https://status.adobe.com/jp/products/1175)。 |
 | 答えが見つからない場合は、 | [&#x200B; サポートからサポートを受けるには、チケットを開いてください &#x200B;](https://experienceleague.adobe.com/ja?support-solution=General#support)。 |
 | コミュニティフォーラム | [Experience Manager コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)。 |
 | SLA（Service Level Agreement） | [&#x200B; サポートサービス /利用条件 &#x200B;](https://helpx.adobe.com/jp/support/programs/support-policies-terms-conditions.html)。 |
