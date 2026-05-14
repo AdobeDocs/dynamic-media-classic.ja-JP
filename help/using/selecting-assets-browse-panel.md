@@ -10,9 +10,18 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:11:47.710Z'
+TQID: 'https://experienceleague.adobe.com/l8-4aT-7RbLlnM9lxq1DQhiUeALUL4AMpHrmuEN5ypA'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: 109
 ht-degree: 18%
 
 ---
@@ -21,10 +30,10 @@ ht-degree: 18%
 
 参照パネルでアセットを選択して、アセットを操作できるようにします。 アセットを選択するには、次のいずれかの手順に従います。
 
-* **1 つのアセット**：アセットを選択します（ダブルクリックすると、詳細表示でアセットが開きます）。
+* **単一のアセット**: アセットを選択します（ダブルクリックすると、アセットが詳細ビューで開きます）。
 
-* **複数のアセット**:Ctrl キー（Windows®）または Command キー（Mac）を押しながらアセットをクリックすると、参照パネルの異なる場所にあるアセットを選択できます。 隣接するアセットを選択するには、Shift キーを押しながら 2 つのアセットを順に選択します。
+* **複数のアセット**: Ctrl キー（Windows®）またはCommand キー（Mac）を押しながらアセットをクリックして、参照パネルの別の場所にあるアセットを選択します。 隣接するアセットを選択するには、Shift キーを押しながら 2 つのアセットを順に選択します。
 
-* **参照パネルのすべてのアセット**:**[!UICONTROL 選択]**/**[!UICONTROL すべて]** に移動します。
+* **参照パネルのすべてのアセット**: **[!UICONTROL 選択]** > **[!UICONTROL すべて]**&#x200B;に移動します。
 
-* **アセットなし**:**[!UICONTROL 選択]**/**[!UICONTROL なし]** に移動します。
+* **アセットなし**: **[!UICONTROL 選択]** > **[!UICONTROL なし]**&#x200B;に移動します。

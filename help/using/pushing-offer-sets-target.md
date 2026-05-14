@@ -1,6 +1,6 @@
 ---
-title: オファーセットをAdobe Target Standard/Premium にプッシュ
-description: Adobe Dynamic Media ClassicからAdobe Target Standard/Premium にオファーセットをプッシュする方法を説明します。
+title: Adobe Target Standard/Premiumへのオファーセットのプッシュ
+description: Adobe Dynamic Media ClassicからAdobe Target Standard/Premiumにオファーセットをプッシュする方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,21 +10,31 @@ role: Developer,Admin,User
 exl-id: 778fd54b-a9e5-40c5-aff1-a156a5c15923
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
+autotag-review: '2026-05-13T19:55:22.850Z'
+TQID: 'https://experienceleague.adobe.com/8j9sRn1zhAhgj-wMV6hYix1F9aARZjDUiFZofcVVcBw'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: 289
 ht-degree: 0%
 
 ---
 
-# オファーセットをAdobe Target Standard/Premium にプッシュ {#pushing-offer-sets-to-target}
+# Adobe Target Standard/Premiumへのオファーセットのプッシュ {#pushing-offer-sets-to-target}
 
-オファーセットを作成または編集した後、次の手順に従ってオファーセットをAdobe Target Standard/Premium にプッシュします。
+オファーセットを作成または編集したら、次の手順に従ってAdobe Target Standard/Premiumにプッシュします。
 
-1. Test&amp;Target オファーセット画面で、「**[!UICONTROL プッシュオファー]**」を選択します。
+1. Test&amp;Target オファーセット画面で、**[!UICONTROL プッシュオファー]**&#x200B;を選択します。
 1. クライアントコードとログイン資格情報を入力します。
-1. **[!UICONTROL ログイン]** を選択します。
+1. 「**[!UICONTROL ログイン]**」を選択します。
 
-Adobe Target Standard/Premium への転送中に、オファー名の先頭に `S7_` というプレフィックスが自動的に付加されます。 このプレフィックスは、Test&amp;Target オファーリストでAdobe Dynamic Media Classic オファーを簡単に見つけられるように付加されます。 例えば、オファーは `S7_<name of offer set>_<offer name>` のように表示されます。
+Adobe Target Standard/Premiumへの転送時に、オファー名の先頭に接頭辞`S7_`が自動的に付加されます。 この接頭辞は、Test&amp;Target オファーリストでAdobe Dynamic Media Classic オファーを簡単に見つけられるように添付されています。 例えば、オファーは`S7_<name of offer set>_<offer name>`と表示されます。
 
-Adobe Dynamic Media Classicは、Adobe Target Standard/Premium ウィジェットオファーにプッシュします。 ウィジェットオファーを使用して、独自に提供されたコンテンツをAdobe Target Standard/Premium でホストできます。 ウィジェットオファーは、Adobe Target Standard/Premium がホストする標準オファーに似ています。 Adobe Target Standard/Premium で、サーバーに保存されたオファーコンテンツをデプロイできるので、より高度で動的な使用が可能になります。 ウィジェットオファーでは、URL からコンテンツを取得し、そのコンテンツを約 2 時間キャッシュして提供できます。 Widget オファーは、Adobe Target Standard/Preimium 以外の他のオファーにはない、動的コンテンツ生成機能を提供します。 オファーを提供する mbox に `mboxProductID` や `mbox.offerId` などの mbox パラメーターが含まれている場合、リクエストされた URL に `productId=[PRODUCT_ID]` と `offerID=[OFFERID]` の URL パラメーターが追加されます。 これらのパラメーターは、ウィジェットオファー URL で利用可能なサービスによって、mbox の商品または注文情報を使用するAdobe Target Standard/Premium 外のコンテンツを返すために使用されます。 このウィジェットオファーには API を通じてアクセスすることもできるので、Adobe Target Standard/Premium 以外でプログラムによってオファーを作成できます。
+Adobe Dynamic Media Classicは、Adobe Target Standard/Premium ウィジェットのオファーにプッシュします。 Widget オファーを使用して、Adobe Target Standard/Premiumで独自の提供コンテンツをホストできます。 ウィジェットのオファーは、Adobe Target Standard/Prermiumがホストする標準オファーと似ています。 Adobe Target Standard/Premiumでは、サーバーに保存されたオファーコンテンツをデプロイできるため、より洗練された動的な使用が可能になります。 ウィジェットのオファーは、URLからコンテンツを取得し、そのコンテンツを約2時間キャッシュして配信できます。 Widgetのオファーは、Adobe Target Standard/Preimium以外のオファーでは提供されない、一部の動的コンテンツ生成機能を提供します。 オファーを配信するmboxに`mboxProductID`や`mbox.offerId`などのmbox パラメーターが含まれている場合、`productId=[PRODUCT_ID]`および`offerID=[OFFERID]`のURL パラメーターがリクエストされたURLに追加されます。 これらのパラメーターは、ウィジェットのオファーURLで利用できるサービスで使用され、mboxから商品または注文情報を使用するAdobe Target Standard/Premium以外のコンテンツを返します。 Widget オファーはAPIからもアクセスできるため、Adobe Target Standard/Premium以外でもプログラムでオファーを作成できます。

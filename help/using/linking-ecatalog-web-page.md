@@ -1,6 +1,6 @@
 ---
-title: Web ページへの eCatalog のリンク
-description: Adobe Dynamic Media Classicで eCatalog を web ページにリンクする方法を説明します。
+title: eCatalogをWeb ページにリンクする
+description: Adobe Dynamic Media ClassicでeCatalogをWeb ページにリンクする方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,71 +10,80 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:52:09.030Z'
+TQID: 'https://experienceleague.adobe.com/cAIaFvlJ3jYoqu1LeLRILuuYsfvuYH6f-N8PqqkHkrk'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 21%
+source-wordcount: 698
+ht-degree: 20%
 
 ---
 
-# Web ページへの eCatalog のリンク{#linking-an-ecatalog-to-a-web-page}
+# eCatalogをWeb ページにリンクする{#linking-an-ecatalog-to-a-web-page}
 
-Web サイトおよびアプリケーションは、URL 文字列または埋め込みコードを介して、eCatalog を含む Dynamic Media Image Server コンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。Web ページやアプリケーションに eCatalog の URL 文字列または埋め込みコードを配置するには、Adobe Dynamic Media Classicからコピーします。
+Web サイトとアプリケーションは、URL文字列または埋め込みコードを使用して、e カタログを含むDynamic Media Image Server コンテンツにアクセスします。 この URL 文字列は、公開処理中にアクティブになります。 Web ページやアプリケーションにeCatalogのURL文字列または埋め込みコードを配置するには、Adobe Dynamic Media Classicからコピーします。
 
 >[!NOTE]
 >
 >URL は、アセットを公開するまでアクティブになりません。
 
-## eCatalog URL をコピー {#copying-an-ecatalog-url}
+## eCatalog URLのコピー {#copying-an-ecatalog-url}
 
-1. アセットの参照パネルの「表示」ドロップダウンリストで、「**[!UICONTROL カタログ]**」を選択します。
-1. 左側のアセットライブラリパネルで、埋め込みコードをコピーする eCatalog を含むアセットフォルダーに移動します。
+1. アセット参照パネルの「表示」ドロップダウンリストで、「**[!UICONTROL カタログ]**」を選択します。
+1. 左側のアセットライブラリパネルで、埋め込みコードをコピーするeCatalogを含むアセットフォルダーに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
-   * **[!UICONTROL グリッド表示]** を選択します。 アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL と埋め込みコード パネルで、必要なビューアの右側にある **[!UICONTROL URL をコピー]** を選択します。
-   * **[!UICONTROL グリッド表示]** を選択します。 アセット参照パネルで、アセットを 1 つ選択し、サムネール画像の下で **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
+   * **[!UICONTROL グリッドビュー]**&#x200B;を選択します。 アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。 右側の「URLと埋め込みコード」パネルで、必要なビューアの右側にある「**[!UICONTROL URL]**&#x200B;をコピー」を選択します。
+   * **[!UICONTROL グリッドビュー]**&#x200B;を選択します。 アセット参照パネルで、1つのアセットを選択し、サムネイル画像の下の&#x200B;**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアーリスト]**&#x200B;に移動します。
 
-     ビューアリストページの表の「アクション」列で、「**[!UICONTROL URL をコピー]**」を選択します。
+     ビューアーリストページのテーブルの「アクション」列で、「**[!UICONTROL URLをコピー]**」を選択します。
 
-   * **[!UICONTROL リスト表示]** を選択します。 アセット参照パネルで、アセットを 1 つ選択し、サムネール画像の右側で **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
+   * **[!UICONTROL リストビュー]**&#x200B;を選択します。 アセット参照パネルで、1つのアセットを選択し、サムネイル画像の右側にある&#x200B;**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアーリスト]**&#x200B;に移動します。
 
-     ビューアリストページの表の「アクション」列で、「**[!UICONTROL URL をコピー]**」を選択します。
+     ビューアーリストページのテーブルの「アクション」列で、「**[!UICONTROL URLをコピー]**」を選択します。
 
-   * **[!UICONTROL グリッド表示]**、**[!UICONTROL リスト表示]** または **[!UICONTROL 詳細表示]** を選択します。 同じツールバーで、**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
+   * **[!UICONTROL グリッドビュー]**、**[!UICONTROL リストビュー]**、または&#x200B;**[!UICONTROL 詳細表示]**&#x200B;を選択します。 同じツールバーで、**[!UICONTROL プレビュー]** > **[!UICONTROL ビューアーリスト]**&#x200B;に移動します。
 
-     ビューアリストページの表の「アクション」列で、「**URL をコピー**」を選択します。
+     ビューアーリストページのテーブルの「アクション」列で、「**URLをコピー**」を選択します。
 
-## Web ページへの eCatalog URL の追加 {#adding-ecatalog-urls-to-your-web-page}
+## Web ページへのeCatalog URLの追加 {#adding-ecatalog-urls-to-your-web-page}
 
-eCatalog をデプロイする最も一般的な方法は、web ページに eCatalog のサムネールのカバーページの形式でリンクを配置することです。 中央にきちんと表示されるポップアップウィンドウで eCatalog が起動するように、IT 部門の担当者と相談してください。また、ブラウザ画面にツールバーやアドレスバーなどを表示しないように依頼してください。
+eCatalogをデプロイする最も一般的な方法は、Web ページにeCatalog サムネールカバーページの形式でリンクを配置することです。 中央にきちんと表示されるポップアップウィンドウで eCatalog が起動するように、IT 部門の担当者と相談してください。 また、ブラウザ画面にツールバーやアドレスバーなどを表示しないように依頼してください。
 
-詳細およびコードサンプルについては、Adobe ビューアリファレンスの [&#x200B; 埋め込みHTML5 eCatalog ビューア &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) を参照してください。
+詳細およびコードサンプルについては、「Adobe ビューアリファレンス」の「[Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
 
 ## eCatalog ビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-埋め込みコード機能を使用すると、選択した eCatalog のビューアコードを確認できます。 コードをクリップボードにコピーして、Web ページに貼り付け、ビューアをデプロイすることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択したeCatalogのビューアコードを確認できます。 コードをクリップボードにコピーして、ビューアのデプロイメント用にWeb ページに貼り付けることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
 **eCatalog ビューアの埋め込みコードをコピーするには：**
 
-1. アセットの参照パネルの「表示」ドロップダウンリストで、「**[!UICONTROL カタログ]**」を選択します。
-1. 左側のアセットライブラリパネルで、埋め込みコードをコピーする eCatalog を含むアセットフォルダーに移動します。
+1. アセット参照パネルの「表示」ドロップダウンリストで、「**[!UICONTROL カタログ]**」を選択します。
+1. 左側のアセットライブラリパネルで、埋め込みコードをコピーするeCatalogを含むアセットフォルダーに移動します。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
-   * **[!UICONTROL グリッド表示]** を選択します。 アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。右側の URL パネルで、「**[!UICONTROL 埋め込みコード]**」を選択します。
-   * **[!UICONTROL グリッド表示]** を選択します。 アセット参照パネルで、アセットを 1 つ選択し、サムネール画像の下で **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
+   * **[!UICONTROL グリッドビュー]**&#x200B;を選択します。 アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。 右側のURL パネルで、**[!UICONTROL 埋め込みコード]**&#x200B;を選択します。
+   * **[!UICONTROL グリッドビュー]**&#x200B;を選択します。 アセット参照パネルで、1つのアセットを選択し、サムネイル画像の下の&#x200B;**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアーリスト]**&#x200B;に移動します。
 
-     ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。
+     ビューアーリストページのテーブルの「アクション」列で、「**[!UICONTROL コードを埋め込む]**」を選択します。
 
-   * **[!UICONTROL リスト表示]** を選択します。 アセット参照パネルで、アセットを 1 つ選択し、サムネール画像の右側で **[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
+   * **[!UICONTROL リストビュー]**&#x200B;を選択します。 アセット参照パネルで、1つのアセットを選択し、サムネイル画像の右側にある&#x200B;**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアーリスト]**&#x200B;に移動します。
 
-     ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。
+     ビューアーリストページのテーブルの「アクション」列で、「**[!UICONTROL コードを埋め込む]**」を選択します。
 
-   * **[!UICONTROL グリッド表示]**、**[!UICONTROL リスト表示]** または **[!UICONTROL 詳細表示]** を選択します。 同じツールバーで、**[!UICONTROL プレビュー]**/**[!UICONTROL ビューアリスト]** に移動します。
+   * **[!UICONTROL グリッドビュー]**、**[!UICONTROL リストビュー]**、または&#x200B;**[!UICONTROL 詳細表示]**&#x200B;を選択します。 同じツールバーで、**[!UICONTROL プレビュー]** > **[!UICONTROL ビューアーリスト]**&#x200B;に移動します。
 
-     ビューアリストページの表の「アクション」列で、「**[!UICONTROL 埋め込みコード]**」を選択します。
+     ビューアーリストページのテーブルの「アクション」列で、「**[!UICONTROL コードを埋め込む]**」を選択します。
 
-1. 埋め込みコードダイアログボックスで、「**[!UICONTROL クリップボードにコピー]**」を選択します。
+1. 埋め込みコードダイアログボックスで、**[!UICONTROL クリップボードにコピー]**&#x200B;を選択します。
 
    埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-1. **[!UICONTROL 閉じる]** を選択します。
+1. **[!UICONTROL 閉じる]**&#x200B;を選択します。
