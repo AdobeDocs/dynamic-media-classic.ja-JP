@@ -268,7 +268,7 @@ Adobeは、ユーザーと協力してプロジェクトを計画します。 Ad
 ## サポートとトレーニング
 
 +++**サポートを受けるにはどうすればよいですか？**
-24/7/365 クライアントケアのサポートを利用できます。 [&#x200B; テクニカルサポートにお問い合わせください](https://experienceleague.adobe.com/?support-solution=General#support)。
+24/7/365 クライアントケアのサポートを利用できます。 [&#x200B; テクニカルサポートにお問い合わせください](https://experienceleague.adobe.com/ja?support-solution=General#support)。
 
 電話番号：1-800-898-9743 （米国） | +44 （0） 20 35641782 （英国） | +81-3-6743-9632 （日本）
 

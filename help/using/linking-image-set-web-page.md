@@ -56,7 +56,7 @@ ht-degree: 18%
 
 画像セットをデプロイする最も一般的な方法は、（ナビゲーションアイコンを使用して） Web ページにリンクを配置することです。 選択すると、リンクは動的ページ（JSP）を起動し、画像セットをポップアップズームウィンドウに表示します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
-詳細およびコードサンプルについては、『HTML ビューアリファレンスガイド』の「[埋め込みAdobe5 Zoom Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
+詳細およびコードサンプルについては、『HTML ビューアリファレンスガイド』の「[埋め込みAdobe5 Zoom Viewer](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
 
 ## 画像セットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-image-set-viewer}
 

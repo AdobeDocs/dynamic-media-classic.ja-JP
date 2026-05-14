@@ -28,26 +28,26 @@ ht-degree: 12%
 
 ビューア、画像サービングおよび画像レンダリング、および画像制作システムのリファレンスガイドでは、これらのサーバーモジュールのhttp プロトコルについて説明します。 web サイトの開発者は、さらにカスタマイズして、web サイトまたはカスタムアプリケーションにAdobe Dynamic Media Classic リッチメディアを使用する場合は、これらのガイドを使用できます。 Dynamic Media Classic デスクトップアプリ、一般的なhttp プロトコルの標準と規則、基本的なイメージング用語に精通していることを前提としています。
 
-[Dynamic Media開発者リソース &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)も参照してください。
+[Dynamic Media開発者リソース &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources)も参照してください。
 
 ## ビューア {#viewers-guide}
 
 | ドキュメント | Web アドレス |
 | --- | --- |
-| ビューアリファレンスガイドおよびリリースノート | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
+| ビューアリファレンスガイドおよびリリースノート | [https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/homeviewers) |
 | ビューアライブラリの例 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## 画像サービング/画像レンダリング（IS/IR） API {#is-ir-api-guide}
 
 | ドキュメント | Web アドレス |
 | --- | --- |
-| API リファレンスガイド | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
+| API リファレンスガイド | [https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
 ## 画像制作システム（IPS） API {#ips-api-guide}
 
 | ドキュメント | Web アドレス |
 | --- | --- |
-| API リファレンスガイド | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
+| API リファレンスガイド | [https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
 <!-- 
 ## Image Authoring {#ia}

@@ -35,7 +35,7 @@ Adobe Target Standard/Premiumなら、マーケターが直接コントロール
 
 Adobe Dynamic Media Classicでは、Adobe Target Standard/Premium キャンペーンのオファーとオファーセットを作成できます。 例えば、同じリッチメディアアセットの3つのバリエーションを含むオファーセットを作成できます。 そして、Adobe Target StandardまたはPremiumを使用して、どのアセットがコンバージョン率の向上に役立つかを判断できます。 基本テンプレートまたは個々の画像から、オファーとオファーセットを作成できます。 オファーセットがAdobe Target Standard/Premiumにプッシュまたは保存され、オファーがmboxとエクスペリエンスに関連付けられると、Adobe Target Standard/Premiumでキャンペーンを実行できます。 こうした施策は、クリックスルーやコンバージョンに対して、web サイトのバリエーションの中で最もパフォーマンスの高いものを特定します。
 
-動的なAdobe Dynamic Media Classic コンテンツのカスタマイズを強化するには、Adobe Target Standard/Premium HTML オファーを使用します。 詳しくは、[Adobe Target Standard/Premium製品ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/target)を参照してください。
+動的なAdobe Dynamic Media Classic コンテンツのカスタマイズを強化するには、Adobe Target Standard/Premium HTML オファーを使用します。 詳しくは、[Adobe Target Standard/Premium製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target)を参照してください。
 
 >[!NOTE]
 >

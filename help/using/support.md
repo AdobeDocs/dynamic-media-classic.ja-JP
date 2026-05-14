@@ -36,15 +36,15 @@ ht-degree: 12%
 | サポート | 製品版 |
 | --- | --- |
 | 案件数 | 無制限。 |
-| Adobeのシステムステータスの確認 | [Adobe Dynamic Media Classic システムの状態](https://status.adobe.com/products/1175)。 |
-| 回答が見つかりませんか？ | [&#x200B; サポートからサポートを受けるには、チケットを開きます](https://experienceleague.adobe.com/?support-solution=General#support)。 |
-| コミュニティフォーラム | [Experience Manager コミュニティ フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
-| SLA（サービスレベル契約） | [&#x200B; サポートサービス/利用条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
+| Adobeのシステムステータスの確認 | [Adobe Dynamic Media Classic システムの状態](https://status.adobe.com/jp/products/1175)。 |
+| 回答が見つかりませんか？ | [&#x200B; サポートからサポートを受けるには、チケットを開きます](https://experienceleague.adobe.com/ja?support-solution=General#support)。 |
+| コミュニティフォーラム | [Experience Manager コミュニティ フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)。 |
+| SLA（サービスレベル契約） | [&#x200B; サポートサービス/利用条件](https://helpx.adobe.com/jp/support/programs/support-policies-terms-conditions.html)。 |
 | サポート対象ユーザー | 組織ごとに最大10人のユーザーをサポート対象ユーザーとして指定できます。サポート対象ユーザーは、カスタマーケアでケースを開くことができます。 |
 | 無料のライブウェブトレーニングとインストラクションビデオ | 含まれています。 |
-| 電話サポート | <ul><li>米国/カナダ：1-800-497-0335 </li><li>[他の地域の電話番号](https://experienceleague.adobe.com/?support-tab=home#support)。 </li></ul> |
+| 電話サポート | <ul><li>米国/カナダ：1-800-497-0335 </li><li>[他の地域の電話番号](https://experienceleague.adobe.com/ja?support-tab=home#support)。 </li></ul> |
 
-<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
+<!-- |Create a support case| [https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 テクニカルサポートに問題を報告される際には、次の情報をご提供ください。
 

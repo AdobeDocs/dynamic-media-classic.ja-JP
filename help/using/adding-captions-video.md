@@ -48,7 +48,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classicでは、キャプションファイルをJSON （JavaScript Object Notation）形式に変換できます。 この変換により、JSON テキストをWeb ページに埋め込み、ビデオの隠れた完全なトランスクリプトとして使用できます。 そして、検索エンジンがコンテンツをクロールしてインデックスを作成することで、動画をより見つけやすくし、動画コンテンツに関する詳細を提供します。
 
-URLでJSON関数を使用する方法について詳しくは、の[静的（画像でない）コンテンツの提供](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)を参照してください。
+URLでJSON関数を使用する方法について詳しくは、の[静的（画像でない）コンテンツの提供](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)を参照してください。
 
 **ビデオにキャプションを追加するには：**
 
