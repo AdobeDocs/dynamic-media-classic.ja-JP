@@ -12,9 +12,13 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:55:49.663Z'
 TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1572
@@ -28,8 +32,8 @@ e カタログとは、web版の印刷物（カタログ、パンフレット、
 
 次のトレーニングビデオも参照してください。
 
-* [ クイックスタート 1: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
-* [ クイックスタート 2: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+* [&#x200B; クイックスタート 1: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [&#x200B; クイックスタート 2: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
 eCatalogで選択した設定に応じて、ビューアで次の操作を実行できます。
 
@@ -45,7 +49,7 @@ eCatalogで選択した設定に応じて、ビューアで次の操作を実行
 * ピンチズームやスワイプによるページめくりなど、ジェスチャ操作を使用します。
 * キーワードと一致する項目を検索することができます。
 
-![ ユーザーに表示されるe カタログ。 A） eCatalog開封ページ。 B） eCatalogが2 ページ目になりました。](/help/using/assets/ec_cat_viewer_popup.png)
+![&#x200B; ユーザーに表示されるe カタログ。 A） eCatalog開封ページ。 B） eCatalogが2 ページ目になりました。](/help/using/assets/ec_cat_viewer_popup.png)
 
 eCatalogを作成するには、通常、Adobe Acrobatまたは他の印刷プログラムで作成された高解像度のPDF ファイルを使用しますが、画像ファイルからeCatalogを作成することもできます。
 
@@ -71,7 +75,7 @@ eCatalog のもとになるファイルは、ほとんどの場合 Adobe PDF フ
 
 「PDF オプション」を選択すると、アップロード画面に、適正な解像度とカラースペースで PDF ファイルをアップロードするためのオプションが表示されます。 解像度の推奨値は 150 pixel/インチです。 PDF ファイルをアップロードするときにeCatalogを作成するには、「**[!UICONTROL eCatalogを自動生成]**」オプションを選択します。
 
-[PDF ファイルのアップロード ](uploading-pdf-files.md#uploading_the_pdf_files)を参照してください。
+[PDF ファイルのアップロード &#x200B;](uploading-pdf-files.md#uploading_the_pdf_files)を参照してください。
 
 ## &#x200B;2. eCatalogの作成
 
@@ -99,7 +103,7 @@ eCatalog ページの「**[!UICONTROL 注文ページ]**」タブで、「**[!UI
 
 eCatalog画面の情報パネル設定を使用して、画像マップのテキストを設定および管理できます。
 
-eCatalogs](/help/using/info-panel-content-ecatalog.md)の[情報パネルのコンテンツの管理を参照してください。
+eCatalogs[&#128279;](/help/using/info-panel-content-ecatalog.md)の情報パネルのコンテンツの管理を参照してください。
 
 ## &#x200B;4. eCatalog ビューアプリセットの設定
 
@@ -117,7 +121,7 @@ eCatalog ビューアプリセットでのeCatalogの表示方法を確認する
 
 向き、カラースキーム、ページ変更のコントロール、ページをめくったときの見た目を確認します。
 
-eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)の「[eCatalogのプレビュー」を参照してください。
+eCatalog Viewer[&#128279;](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)の「eCatalogのプレビュー」を参照してください。
 
 ## &#x200B;6. eCatalogと関連するPDFの公開
 

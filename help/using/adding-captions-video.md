@@ -11,10 +11,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:36:57.321Z'
 TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 730
@@ -38,9 +42,9 @@ ht-degree: 15%
 * `Universal_HTML5_MixedMedia_dark`人の閲覧者
 * `Universal_HTML5_MixedMedia_light`人の閲覧者
 
-[ ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
+[&#x200B; ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
 
-[ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
+[&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
 
 Adobe Dynamic Media Classicでは、キャプションファイルをJSON （JavaScript Object Notation）形式に変換できます。 この変換により、JSON テキストをWeb ページに埋め込み、ビデオの隠れた完全なトランスクリプトとして使用できます。 そして、検索エンジンがコンテンツをクロールしてインデックスを作成することで、動画をより見つけやすくし、動画コンテンツに関する詳細を提供します。
 
@@ -56,7 +60,7 @@ URLでJSON関数を使用する方法について詳しくは、の[静的（画
 
 1. Adobe Dynamic Media Classicで、WebVTT、DFXP、またはSMPTE XML キャプションファイルをアップロードします。
 
-   [ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
+   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
 
 1. 左側のアセットライブラリパネルで、アップロードしたキャプションファイルに関連付けるビデオファイルを含むアセットフォルダーに移動します。
 1. アセット参照パネルで、1つのビデオアセットを選択し、アセットのサムネール画像の下にある「**[!UICONTROL プレビュー]**」 > 「**[!UICONTROL ビューアーリスト]**」を選択します。

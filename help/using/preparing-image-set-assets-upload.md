@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:03.270Z'
 TQID: 'https://experienceleague.adobe.com/n3TYKaOnpe4rVGIigj536q-ZZOCcRPaqu86NwNj7ViQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 162
@@ -30,9 +33,9 @@ ht-degree: 45%
 
 ユーザは画像セットで画像をズームできるので、長辺が少なくとも 2000 pixel の画像を使用してください。 Adobe Dynamic Media Classicでは、多くの画像ファイル形式をサポートしていますが、TIFF、PNG、EPSの各画像は可逆です。
 
-アセットのアップロードについて詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
+アセットのアップロードについて詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ ファイルをアップロード ](uploading-files.md#uploading_your_files)
+>* [&#x200B; ファイルをアップロード &#x200B;](uploading-files.md#uploading_your_files)
 >* [周辺光量補正、窓カバー、キャビネットファイルの操作](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

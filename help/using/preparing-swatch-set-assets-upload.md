@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:11.598Z'
 TQID: 'https://experienceleague.adobe.com/ycea-WknxKN0HeCGeBB0IjxFV3A4Hgv4MSDsccbIjVE'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 180
@@ -33,7 +36,7 @@ ht-degree: 61%
 
 ユーザはスウォッチセットで画像をズームできるので、長辺が少なくとも 2000 pixel の画像を使用してください。 Adobe Dynamic Media Classicでは、多くの画像ファイル形式をサポートしていますが、TIFF、PNG、EPSの各画像は可逆です。
 
-アセットのアップロードについて詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
+アセットのアップロードについて詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
 
 >[!MORELIKETHIS]
 >

@@ -12,10 +12,16 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:56:29.690Z'
 TQID: 'https://experienceleague.adobe.com/urNoJw6SrzPpsfpoTtudKndZfJOmWsZKtBZ3Za4aE0I'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 534
@@ -29,7 +35,7 @@ Adobe Target Standard/Premiumなら、マーケターが直接コントロール
 
 Adobe Dynamic Media Classicでは、Adobe Target Standard/Premium キャンペーンのオファーとオファーセットを作成できます。 例えば、同じリッチメディアアセットの3つのバリエーションを含むオファーセットを作成できます。 そして、Adobe Target StandardまたはPremiumを使用して、どのアセットがコンバージョン率の向上に役立つかを判断できます。 基本テンプレートまたは個々の画像から、オファーとオファーセットを作成できます。 オファーセットがAdobe Target Standard/Premiumにプッシュまたは保存され、オファーがmboxとエクスペリエンスに関連付けられると、Adobe Target Standard/Premiumでキャンペーンを実行できます。 こうした施策は、クリックスルーやコンバージョンに対して、web サイトのバリエーションの中で最もパフォーマンスの高いものを特定します。
 
-動的なAdobe Dynamic Media Classic コンテンツのカスタマイズを強化するには、Adobe Target Standard/Premium HTML オファーを使用します。 詳しくは、[Adobe Target Standard/Premium製品ドキュメント ](https://experienceleague.adobe.com/en/docs/target)を参照してください。
+動的なAdobe Dynamic Media Classic コンテンツのカスタマイズを強化するには、Adobe Target Standard/Premium HTML オファーを使用します。 詳しくは、[Adobe Target Standard/Premium製品ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/target)を参照してください。
 
 >[!NOTE]
 >
@@ -51,8 +57,8 @@ Adobe Dynamic Media Classicでは、Adobe Target Standard/Premiumと統合する
 
 オファーセットを作成した後で、オファーセットを保存します。
 
-[ オファーセットの作成](creating-offer-set.md#creating_an_offer_set)を参照してください。
+[&#x200B; オファーセットの作成](creating-offer-set.md#creating_an_offer_set)を参照してください。
 
 ## &#x200B;3. オファーセットをAdobe Target Standard/Premiumにプッシュする
 
-Test&amp;Target オファーセットページで、**[!UICONTROL プッシュオファー]**&#x200B;を選択し、Test&amp;Target ログインダイアログボックスにログイン資格情報を入力します。 Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target)へのオファーセットのプッシュを参照してください。[
+Test&amp;Target オファーセットページで、**[!UICONTROL プッシュオファー]**&#x200B;を選択し、Test&amp;Target ログインダイアログボックスにログイン資格情報を入力します。 Adobe Target Standard/Premium[&#128279;](pushing-offer-sets-target.md#pushing_offer_sets_to_target)へのオファーセットのプッシュを参照してください。

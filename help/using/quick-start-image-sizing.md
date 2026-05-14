@@ -12,9 +12,12 @@ level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 autotag-review: '2026-05-13T20:09:57.533Z'
 TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 926
@@ -40,7 +43,7 @@ ht-degree: 7%
 
 まず、プライマリ画像をAdobe Dynamic Media Classicにアップロードします。 サイズに関しては、Adobe Dynamic Media Classicでは、Web サイトまたはアプリケーションで想定される最大サイズの画像を使用することをお勧めします。 例えば、ビューアに画像をズームさせたい場合は、最大サイズで2000 ピクセル以上の画像をアップロードします。 Adobe Dynamic Media Classicでは、多くの画像ファイル形式をサポートしていますが、TIFFやPNG画像は可逆です。
 
-グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して、コンピューターからAdobe Dynamic Media Classicのフォルダーにファイルをアップロードします。 [ プライマリ画像のアップロード ](uploading-master-images.md#uploading_master_images)を参照してください。
+グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して、コンピューターからAdobe Dynamic Media Classicのフォルダーにファイルをアップロードします。 [&#x200B; プライマリ画像のアップロード &#x200B;](uploading-master-images.md#uploading_master_images)を参照してください。
 
 ## &#x200B;2. 画像プリセットの設定
 
@@ -67,10 +70,10 @@ ht-degree: 7%
 * 画像をWeb サイトとアプリケーションに動的に配信できるように、プライマリ画像をDynamic Media Image Serverに公開します。
 * 公開すると、Dynamic Media Image ServerからWeb サイトまたはアプリケーションに画像を呼び出すためのURL文字列がアクティブ化されます。 公開後、Adobe Dynamic Media Classicで生成したURLをコピーして、Web サイトまたはアプリケーションに必要に応じて配置できます。
 
-グローバルナビゲーションバーで、**[!UICONTROL 公開]**&#x200B;を選択して公開ジョブを開始します。 公開ダイアログボックスで、**[!UICONTROL 公開を送信]**&#x200B;を選択します。 [ プライマリ画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
+グローバルナビゲーションバーで、**[!UICONTROL 公開]**&#x200B;を選択して公開ジョブを開始します。 公開ダイアログボックスで、**[!UICONTROL 公開を送信]**&#x200B;を選択します。 [&#x200B; プライマリ画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
 
 ## &#x200B;5. Web アプリケーションへのURLのリンク
 
 Adobe Dynamic Media Classicは、画像のURL コールアウト文字列を作成します。 Dynamic Media画像サーバーに画像を公開すると、URLがアクティブになります。 これらのURL文字列は、参照パネル（詳細ビュー）またはプレビュー画面からコピーできます。 URL文字列をコピーしたら、Web サイトとアプリケーションで使用できます。 画像サイズ変更のURLは、Web ページコード内の静的な画像名への参照に置き換わります。 URLは、表示する新しい画像ごとにデータベースが置き換えるプライマリ画像名を参照します。
 
-画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。 この名前はドル記号（`$`）で囲まれています。 例えば、`$thumbnail$`は、サムネールサイズでプライマリ画像を表示するように設計された画像プリセットです。 「[Web アプリケーションへのURLのリンク ](linking-urls-web-application.md#linking_urls_to_your_web_application)」を参照してください。
+画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。 この名前はドル記号（`$`）で囲まれています。 例えば、`$thumbnail$`は、サムネールサイズでプライマリ画像を表示するように設計された画像プリセットです。 「[Web アプリケーションへのURLのリンク &#x200B;](linking-urls-web-application.md#linking_urls_to_your_web_application)」を参照してください。

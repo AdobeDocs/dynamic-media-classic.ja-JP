@@ -8,10 +8,16 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:15:53.781Z'
 TQID: 'https://experienceleague.adobe.com/Vspfbt1BiWMboojAr-0pUHcZ1Ry12OIEaiOhSqdqcrM'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 156
@@ -23,7 +29,7 @@ ht-degree: 5%
 
 [!DNL Adobe Experience Manager] Assetsの[!DNL Dynamic Media]とデスクトップアプリケーション [!DNL Adobe Dynamic Media Classic]の機能比較テーブル。 「✓」とは、機能がソフトウェア内またはソフトウェアと共に使用できることを意味します。「 – 」とは、機能が使用できないことを意味します。
 
-| 機能 | [!DNL Dynamic Media] | [!DNL Dynamic Media<br> クラシック ] |
+| 機能 | [!DNL Dynamic Media] | [!DNL Dynamic Media<br> クラシック &#x200B;] |
 | :--- | :---: | :---: |
 | 360 ビデオ | ✓ | ✓ |
 | 高度な画像処理 | ✓ | ✓ |

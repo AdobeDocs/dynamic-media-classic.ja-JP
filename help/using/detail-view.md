@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:19.277Z'
 TQID: 'https://experienceleague.adobe.com/XtUpvJz6aepSU0F9CupyrR8-cdSpNo3blHK38hh9Fc8'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 620
@@ -72,7 +76,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 * **アセットの名前を変更**：名前を選択し、新しい名前を入力します。
 
-* **メタデータの編集と追加**: メタデータパネルを選択し、必要に応じて変更します。 [ メタデータの表示、追加、エクスポート ](/help/using/viewing-adding-exporting-metadata.md)を参照してください。
+* **メタデータの編集と追加**: メタデータパネルを選択し、必要に応じて変更します。 [&#x200B; メタデータの表示、追加、エクスポート &#x200B;](/help/using/viewing-adding-exporting-metadata.md)を参照してください。
 
 * **キーワードの編集と追加**: キーワードを選択し、必要に応じて追加または削除します。 詳しくは、[キーワードの追加または編集](/help/using/viewing-adding-exporting-metadata.md)を参照してください。
 
@@ -105,4 +109,4 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!MORELIKETHIS]
 >
->* [ メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [&#x200B; メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

@@ -9,10 +9,18 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:06:45.018Z'
 TQID: 'https://experienceleague.adobe.com/mYN8K6E7pOWC1yLHetjo3OeoeNytSlVJEufTN3IHPCc'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 267
@@ -42,12 +50,12 @@ ht-degree: 2%
 <!-- NOT FOUND * [Design for Mobile Optimization](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Using Adobe Dynamic Media Classic for efficient delivery of targeted rich media to all devices. In this webinar, you learn how to design and deliver imaging and video viewing experiences that are effective across mobile apps and responsive sites. -->
 * [Adobe Dynamic Media ClassicがSEOをサポートする仕組み](/help/using/assets/s7_seo.pdf)：今日の検索エンジンでは、web サイトと画像の検索が可能になっています。 Adobe Dynamic Media Classicでは、Adobe Dynamic Media Classic ユーザーのweb サイトへのトラフィックを増加させるために、画像をより検索エンジンに適したものにする取り組みをサポートしています。 このPDFでは、それを実現するための背景と実装ガイダンスを提供します。
 <!-- NOT FOUND * [Use Adobe Dynamic Media Classic to maximize holiday conversion](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): This webinar teaches you how to set up automated workflows to get content from watched folders and automatically create Spin Sets and videos. You also learn how you can quickly manage changes and update images. -->
-* [Adobe Dynamic Media Classicでインタラクティブなエクスペリエンスを提供するためのベストプラクティス ](https://seminars.adobeconnect.com/p7wb8ej3u6d/)：このウェビナーでは、Adobe Dynamic Media Classicの内外でコンテンツを取得する方法を説明します。 最適なパフォーマンスとエクスペリエンスを得るための画像プリセットの設定方法について説明します。 ビューアプリセットとキャッシュ設定についても説明します。
+* [Adobe Dynamic Media Classicでインタラクティブなエクスペリエンスを提供するためのベストプラクティス &#x200B;](https://seminars.adobeconnect.com/p7wb8ej3u6d/)：このウェビナーでは、Adobe Dynamic Media Classicの内外でコンテンツを取得する方法を説明します。 最適なパフォーマンスとエクスペリエンスを得るための画像プリセットの設定方法について説明します。 ビューアプリセットとキャッシュ設定についても説明します。
 <!-- NOT FOUND ANYMORE* [Best practices for responsive design](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): This webinar teaches you practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices. Increase mobile performance by dynamically changing the resolution of images. Or, orient images for portrait or landscape displays. Also learn how to dynamically crop, scale, or resize images. -->
 
 ## Adobe Dynamic Media Classic Training
 
 [こちら](https://training.adobe.com/training/courses.html#product=adobe-scene7)に移動して、現在利用可能なトレーニングコースを確認します。
-[Adobe Dynamic Media Classic トレーニング ビデオ ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro)。
+[Adobe Dynamic Media Classic トレーニング ビデオ &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro)。
 
 [Adobe Dynamic Media Classic](home.md)で利用可能なすべての一般的なリソースを表示します。

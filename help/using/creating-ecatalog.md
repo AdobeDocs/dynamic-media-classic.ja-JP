@@ -12,10 +12,15 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:46.184Z'
 TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 990
@@ -31,7 +36,7 @@ eCatalogを作成するには、ページの順序、ページレイアウトの
 
 eCatalogには、画像ファイルとPDF ファイルを含めることができます。
 
-eCatalogを作成する場合、保存&#x200B;]**後に**[!UICONTROL &#x200B;公開オプションは、次の方法でセットおよびセットメンバーに影響を与えます。
+eCatalogを作成する場合、保存&#x200B;**後に**&#x200B;公開オプションは、次の方法でセットおよびセットメンバーに影響を与えます。
 
 | 保存前に「保存後に公開」オプションを選択した場合 | 保存後のセットの状態 | 保存後のセットメンバーの状態 |
 | --- | --- | --- |
@@ -62,7 +67,7 @@ eCatalogを作成する場合、保存&#x200B;]**後に**[!UICONTROL &#x200B;公
 
    * **シーケンス#**: リスト表示で、シーケンス#のフィールドにページ番号を入力します。
 
-1. 完了したら、ページの右下隅付近で、保存&#x200B;]**が選択された後に**[!UICONTROL &#x200B;公開することを確認します（デフォルト）。
+1. 完了したら、ページの右下隅付近で、保存&#x200B;**が選択された後に**&#x200B;公開することを確認します（デフォルト）。
 1. **[!UICONTROL 保存]**&#x200B;を選択します。
 1. 保存ダイアログボックスで、eCatalog を保存するフォルダーを選択します。 「ファイル名」フィールドに、スピンセット名を入力します。
 1. **[!UICONTROL 保存]**&#x200B;を選択します。
@@ -86,7 +91,7 @@ eCatalogを作成する場合、保存&#x200B;]**後に**[!UICONTROL &#x200B;公
 
 1. eCatalogのロールオーバー&#x200B;**[!UICONTROL 編集]** ボタンを選択します。
 1. 必要に応じて変更を加えます。
-1. 編集が完了したら、ページの右下隅付近で、保存&#x200B;]**が選択された後に**[!UICONTROL &#x200B;公開することを確認します（デフォルト）。
+1. 編集が完了したら、ページの右下隅付近で、保存&#x200B;**が選択された後に**&#x200B;公開することを確認します（デフォルト）。
 1. **[!UICONTROL 保存]**&#x200B;を選択し、ストレージフォルダーを選択し、セットの名前を入力してから、**[!UICONTROL 保存]**&#x200B;を選択します。
 
 ## eCatalogの削除

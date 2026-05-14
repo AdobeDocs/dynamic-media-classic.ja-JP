@@ -12,10 +12,14 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:39:54.763Z'
 TQID: 'https://experienceleague.adobe.com/eXBA0XV6xC3vgJ7eqqnDwnx0dThxnALmVrOo58jd-wc'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1643
@@ -101,7 +105,7 @@ Adobe Dynamic Media Classicへのファイルのアップロードと、Adobe Dy
 
 * **繰り返しジョブを編集**:「**[!UICONTROL 編集]**」ボタンを選択し、スケジュール済みジョブを編集ダイアログボックスにスケジュール情報を入力します。 選択した間隔でジョブを繰り返す場合は、**[!UICONTROL 繰り返し]** > **[!UICONTROL カスタム]**&#x200B;に移動します。
 
-[ カスタム アップロードまたは公開ジョブの時間間隔の作成](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)を参照してください。
+[&#x200B; カスタム アップロードまたは公開ジョブの時間間隔の作成](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)を参照してください。
 
 * **繰り返しジョブの削除**:「**[!UICONTROL 削除]**」ボタンを選択します。
 

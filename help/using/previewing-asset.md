@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:17.783Z'
 TQID: 'https://experienceleague.adobe.com/SGEzcnrSQUNlvBeZjObo3kn6mStNAXtUeUtAmHMosS4'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 1023
@@ -26,7 +29,7 @@ ht-degree: 11%
 
 プレビューを使用すると、顧客がデジタルアセットを閲覧したときにデジタルアセットがどのように表示されるかを確認できます。 プレビューでは、アセットに割り当てられている初期設定ビューアが使用されます。 初期設定ビューアは、アプリケーション設定で設定します。
 
-[ デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)を参照してください。
+[&#x200B; デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)を参照してください。
 
 パラメーターレイヤーを含むテンプレートアセットをプレビューする場合は、パラメーターを変更したり、画像プリセットを変更したりできます。 変更はインラインで行われるため、同じプレビューウィンドウに直ちに結果が表示されます。
 

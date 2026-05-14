@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:26.177Z'
 TQID: 'https://experienceleague.adobe.com/hK4tEnRy4u4fZ4BAuw5oosbAH-1kWu5K-b9CyHeM7fY'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 251
@@ -26,9 +29,9 @@ ht-degree: 28%
 
 ビューアリスト画面で、様々なズームビューアプリセットを使用して画像をプレビューできます。
 
-[ デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)を参照してください。
+[&#x200B; デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)を参照してください。
 
-[ アセットのプレビュー](previewing-asset.md#previewing_an_asset)を参照してください。
+[&#x200B; アセットのプレビュー](previewing-asset.md#previewing_an_asset)を参照してください。
 
 **異なるズームビューアで画像アセットをプレビューするには：**
 
@@ -46,5 +49,5 @@ ht-degree: 28%
 
 >[!MORELIKETHIS]
 >
->* [ ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [ デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)
+>* [&#x200B; ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
+>* [&#x200B; デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)
