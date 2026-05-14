@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic Media Portal のヘルプ
-description: Adobe Dynamic Media Classic Media Portal のヘルプの入手方法について説明します。
+title: Adobe Dynamic Media Classic Media Portalのヘルプ
+description: Adobe Dynamic Media Classic Media Portalに関するヘルプを参照する
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,18 +10,23 @@ role: Admin,User
 exl-id: 2c7c0838-0c48-450e-94ff-521bae19425f
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T19:59:18.353Z'
+TQID: 'https://experienceleague.adobe.com/CmX-gSZYPboz0fvargZ-GK5f-HxudHFAoePq3KXoAiA'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: 87
 ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic Media Portal のヘルプ{#help-for-scene-media-portal}
+# Adobe Dynamic Media Classic Media Portalのヘルプ{#help-for-scene-media-portal}
 
-Adobe Dynamic Media Classicでは、次のヘルプドキュメントも利用できます。
+次のヘルプドキュメントは、Adobe Dynamic Media Classicからも入手できます。
 
-**Adobe Dynamic Media Classic Media Portal の使用**:Adobe Dynamic Media Classic Media Portal は、企業が承認した形式でアセットをアップロード、参照、検索、プレビューおよび書き出すことができるブラウザーベースの環境です。 [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/) を参照してください。
+**Adobe Dynamic Media Classic Media Portalを使用**: Adobe Dynamic Media Classic Media Portalは、ポータルユーザーが企業が承認した形式でアセットを簡単にアップロード、参照、検索、プレビュー、エクスポートできるブラウザーベースの環境です。 [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/)を参照してください。
 
 <!-- 
 Is this topic still needed? -rb 04/22/21

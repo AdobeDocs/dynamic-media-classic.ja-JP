@@ -1,6 +1,6 @@
 ---
-title: 画像プリセットを作成して有効にする
-description: Adobe Dynamic Media Classicで画像プリセットを作成して有効にする方法を説明します。
+title: 画像プリセットの作成と有効化
+description: Adobe Dynamic Media Classicで画像プリセットを作成し、有効にする方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,23 +10,28 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T17:41:19.856Z'
+TQID: 'https://experienceleague.adobe.com/AlYkBI41GganXzy28kbNN9DXU1Pd4mVCwJKCdwmnN4M'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 48%
+source-wordcount: 265
+ht-degree: 47%
 
 ---
 
-# 画像プリセットを作成して有効にする{#creating-and-enabling-image-presets}
+# 画像プリセットの作成と有効化{#creating-and-enabling-image-presets}
 
-ユーザが Media Portal を使用して画像アセットを書き出すとき、選択したアセットを書き出しダイアログボックスで画像プリセットを選択できます。画像プリセットは、事前定義済みの設定のコレクションです。 これらの設定により、サイズ、画質、形式、解像度、および書き出し時の画像の外観のその他の側面を変更できます。
+ユーザが Media Portal を使用して画像アセットを書き出すとき、選択したアセットを書き出しダイアログボックスで画像プリセットを選択できます。 画像プリセットは、定義済みの設定のコレクションです。 これらの設定により、書き出し時の画像のサイズ、画質、形式、解像度などの外観を変更できます。
 
-Media Portal 管理者は画像プリセットを作成して、画像が書き出されるときの形式の変更方法を制御できます。ユーザーがAdobe Dynamic Media Classicから画像を書き出すと、画像プリセットによって、画像が会社の仕様に合わせて再フォーマットされます。 画像の形式を自動的に変更するのではなく、画像プリセットで定められた正確な指定に従って書き出します。
+Media Portal 管理者は画像プリセットを作成して、画像が書き出されるときの形式の変更方法を制御できます。 画像プリセットは、ユーザーがAdobe Dynamic Media Classicから画像を書き出す際に、会社の仕様に合わせて画像を再フォーマットします。 画像の形式を自動的に変更するのではなく、画像プリセットで定められた正確な指定に従って書き出します。
 
 画像アセットを書き出す際、以下の制限が適用されます。
 
-* 幅×高さは、1 つの画像につき 100 MB 以下である必要があります。 例えば、画像のサイズは 10 K × 10 K 以下にしたり、縦横比のバリエーション（8 K × 12 K など）を超えたりすることはできません。
-* エクスポートジョブあたりの合計ファイルサイズは最大 1 GB です。
+* 幅×高さは、画像ごとに100 MB以下にする必要があります。 例えば、画像のアスペクト比が10 K×10 Kを超えること、または8 K×12 Kなどのアスペクト比を超えることはできません。
+* 書き出しジョブごとに最大1 GBの合計ファイルサイズがあります。
 * 書き出しジョブあたり合計 500 個のアセットまで許容されています。
 
 >[!NOTE]

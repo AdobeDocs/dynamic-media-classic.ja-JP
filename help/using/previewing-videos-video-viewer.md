@@ -1,5 +1,5 @@
 ---
-title: ビデオビューアでビデオをプレビューする
+title: ビデオビューアでのビデオのプレビュー
 description: ビデオビューアでビデオをプレビューする方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -10,88 +10,93 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:07:44.590Z'
+TQID: 'https://experienceleague.adobe.com/-ulcs6af9bMfE-L-kIhwlqs8edAub06N0FTyfhgGxb4'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 21%
+source-wordcount: 870
+ht-degree: 19%
 
 ---
 
-# ビデオビューアでビデオをプレビューする{#previewing-videos-in-a-video-viewer}
+# ビデオビューアでのビデオのプレビュー{#previewing-videos-in-a-video-viewer}
 
 ビデオビューアでビデオがどのように再生されるかをプレビューできます。
 
-[&#x200B; ビューアプリセットの追加と編集 &#x200B;](application-setup.md#adding_and_editing_viewer_presets) を参照してください。
+[ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
 
 **ビデオビューアでビデオをプレビューするには：**
 
-1. 左側のアセットライブラリパネルの「表示」ドロップダウンリストで、「**[!UICONTROL ビデオ]**」（単一のエンコードビデオ）または「**[!UICONTROL アダプティブビデオセット]**」を選択します。 アダプティブビデオエンコーディングプリセットを使用すると、一連の複数ビットレートのエンコードされたビデオが作成されます。
+1. 左側のアセットライブラリパネルの「表示」ドロップダウンリストで、**[!UICONTROL ビデオ]** （シングルエンコードされたビデオ）または&#x200B;**[!UICONTROL アダプティブビデオセット]**&#x200B;を選択します。 アダプティブビデオエンコーディングプリセットを使用すると、マルチビットレートエンコードされたビデオセットが作成されます。
 1. 左側のアセットライブラリパネルでアセットフォルダに移動し、プレビューするビデオを選択します。
 1. 次のいずれかの操作を行います。
 
-   * Assetsウィンドウの上のツールバーの右側にある「**[!UICONTROL リスト表示]**」を選択します。 アセットウィンドウで、アセットの上にマウスポインターを置き、「**[!UICONTROL プレビュー]**」を選択します。
-   * Assetsウィンドウの上のツールバーの右側にある「**[!UICONTROL グリッド表示]**」を選択します。 アセットウィンドウのアセットサムネールウィンドウで、「**[!UICONTROL プレビュー]**」を選択します。
-   * Assetsウィンドウの上のツールバーの右側にある「**[!UICONTROL 詳細ビュー]**」を選択します。 同じツールバーで「**[!UICONTROL プレビュー]**」を選択します。
-   * アセットウィンドウで、アセットを選択します。ツールバーで、**[!UICONTROL ファイル]**/**[!UICONTROL プレビュー]** に移動します。
+   * Assets ウィンドウの上、ツールバーの右側にある「**[!UICONTROL リスト表示]**」を選択します。 アセットウィンドウで、アセットにマウスポインターを置き、**[!UICONTROL プレビュー]**&#x200B;を選択します。
+   * Assets ウィンドウの上、ツールバーの右側にある&#x200B;**[!UICONTROL グリッド表示]**&#x200B;を選択します。 アセットウィンドウのアセットのサムネールウィンドウで、**[!UICONTROL プレビュー]**&#x200B;を選択します。
+   * Assets ウィンドウの上、ツールバーの右側にある&#x200B;**[!UICONTROL 詳細表示]**&#x200B;を選択します。 同じツールバーで、**[!UICONTROL プレビュー]**&#x200B;を選択します。
+   * アセットウィンドウで、アセットを選択します。 ツールバーで、**[!UICONTROL ファイル]** > **[!UICONTROL プレビュー]**&#x200B;に移動します。
 
-1. （オプション）プレビューウィンドウの下部にあるドロップダウンリストで、アセットの URL をコピーするときに適用する URL エンコーディングを選択します。
-1. **[!UICONTROL プレビュー]** リンクを選択すると、選択したビューアでアセットを確認できます。
-1. 表示されたビューアを閉じます。
-1. 「**[!UICONTROL 閉じる]**」を選択して、Assets画面に戻ります。
+1. （オプション）プレビューウィンドウの下部にあるドロップダウンリストで、コピー時にアセットのURLに適用するURL エンコーディングを選択します。
+1. 選択したビューアでアセットをレビューできるように、**[!UICONTROL プレビュー]** リンクを選択します。
+1. 表示されているビューアを閉じます。
+1. **[!UICONTROL 閉じる]**&#x200B;を選択して、Assets画面に戻ります。
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classicは、デスクトップで MP4 ビデオをプレビューする便利な方法を提供します。 この方法を使用すると、モバイルコンテンツを携帯端末で物理的にテストしないでコンテンツをデスクトップ上でプレビューできます。ただし、デスクトッププレビューで表示される内容は、モバイルデバイスでの再生の外観を現実的に示すものではないことに注意してください。 モバイルデバイスでのビデオの表示と再生をプレビューするには、プレビュー画面に移動します。 **[!UICONTROL URL をコピー]** をクリックして、モバイルデバイスの web ブラウザーにその URL を入力します。 詳しくは、[Web サイトやモバイルサイトへのビデオのデプロイ &#x200B;](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites) を参照してください。
+>Adobe Dynamic Media Classicは、デスクトップ上でMP4 ビデオをプレビューする便利な方法を提供します。 この方法を使用すると、モバイルコンテンツを携帯端末で物理的にテストしないでコンテンツをデスクトップ上でプレビューできます。 ただし、デスクトッププレビューに表示される内容は、モバイルデバイスでの再生がどのようなものかを実際に示すものではないことに注意してください。 モバイルデバイスでのビデオの表示と再生をプレビューするには、プレビュー画面に移動します。 「**[!UICONTROL URLをコピー]**」をクリックし、モバイルデバイスのWeb ブラウザーにそのURLを入力します。 詳しくは、[Web サイトとモバイルサイトへのビデオのデプロイ ](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)を参照してください。
 
 ## ビデオビューアプリセットの操作 {#working-with-video-viewer-presets}
 
-ユーザは、ビデオビューアでビデオを再生できます。ビデオビューアの動作、外観、再生コントロールの動作は、ビデオの再生用に選択したビューアプリセットに従います。ビデオプリセットはプレビュー画面で選択できます。プリセットを選択すると、選択したビューアプリセットを使用してビデオを再生するための URL または埋め込みコードを取得できます。
+ユーザは、ビデオビューアでビデオを再生できます。 ビデオビューアの動作、外観、再生コントロールの動作は、ビデオの再生用に選択したビューアプリセットに従います。 ビデオプリセットはプレビュー画面で選択できます。 プリセットを選択した後、選択したビューアプリセットを使用してビデオを再生するためのURLまたは埋め込みコードを取得できます。
 
-Adobe Dynamic Media Classicには、ビデオを再生するための事前定義済みのビューアプリセットが多数用意されています。管理者は、カスタムビューアプリセットを作成できます。 ビデオビューアの設定には、12 種類以上の設定があります。 サイズ、カラー、ビデオコントロールとオーディオコントロール、プログレスバー、ユーザーインターフェイススキンおよびソーシャル機能を設定できます。
+Adobe Dynamic Media Classicには、ビデオを再生するための多くの定義済みビューアプリセットが用意されています。管理者であれば、カスタムのビューアプリセットを作成できます。 ビデオビューアの設定には、12以上の異なる設定があります。 サイズ、カラー、ビデオコントロールとオーディオコントロール、プログレスバー、ユーザーインターフェイススキンおよびソーシャル機能を設定できます。
 
-[&#x200B; ビデオビューアでビデオをプレビューする &#x200B;](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer) を参照してください。
+ビデオビューアで[ ビデオをプレビュー](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)を参照してください。
 
-[&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
+[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
-### ビデオビューアプリセットを追加または編集する {#adding-or-editing-a-video-viewer-preset}
+### ビデオビューアプリセットの追加または編集 {#adding-or-editing-a-video-viewer-preset}
 
-ビューアプリセットを使用すると、各種ビューアタイプとその定義済み設定を表示できます。カスタマイズした独自のビューアプリセットを追加して編集したり、Adobe Dynamic Media Classicに付属している既存のビューアプリセットを編集したりすることもできます。
+ビューアプリセットを使用すると、各種ビューアタイプとその定義済み設定を表示できます。 また、カスタマイズした独自のビューアプリセットを追加して編集したり、Adobe Dynamic Media Classicに付属する既存のビューアプリセットを編集したりすることもできます。
 
-ビューアプリセットでは、ビューアプリセットのアクティベート、フィルタリング、並べ替え、プレビューを行うことができます。
+ビューアプリセットでは、ビューアプリセットをアクティブ化、フィルタリング、並べ替え、プレビューできます。
 
 詳しくは、[ビューアプリセット](application-setup.md#viewer_presets)を参照してください。
 
-[&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) のトレーニングビデオも参照してください。
+[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 **ビデオビューアプリセットを追加または編集するには：**
 
-1. Adobe Dynamic Media Classicの右上隅付近にある **[!UICONTROL 設定]**/**[!UICONTROL ビューアプリセット]** に移動します。
+1. Adobe Dynamic Media Classicの右上隅付近で、**[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**&#x200B;に移動します。
 
-   ビデオビューアのプリセットのみを表示するように選択できます。 テーブルのすぐ上のツールバーで、「ビューアを開く」ドロップダウンリストから「ビデオビューア」を選択します。
+   ビデオビューアのプリセットのみを表示するように選択できます。 表の真上にあるツールバーで、開いているビューア ドロップダウンリストから「ビデオビューア」を選択します。
 
 1. ビデオを表示するビューアプリセットを追加または編集します。
 
-   * **追加**：ツールバーの **[!UICONTROL 追加]** を選択します。 ビューアプリセットを追加ダイアログボックスで、それぞれのドロップダウンリストからプラットフォームとビューアを選択して、「**[!UICONTROL 追加]**」を選択します。
+   * **追加**: ツールバーで「**[!UICONTROL 追加]**」を選択します。 ビューアプリセットを追加ダイアログボックスで、それぞれのドロップダウンリストからプラットフォームとビューアを選択し、**[!UICONTROL 追加]**&#x200B;を選択します。
 
-   [&#x200B; ビューアプリセットの追加と編集 &#x200B;](application-setup.md#adding_and_editing_viewer_presets) も参照してください。
+   [ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
 
-   * **既存のビューアプリセットから開始して追加**：テーブルで、ビデオビューアプリセットを選択したあと、ツールバーで **[!UICONTROL 編集]** を選択します。
+   * **既存のビューアプリセットから開始して追加する**: テーブルでビデオビューアプリセットを選択し、ツールバーで「**[!UICONTROL 編集]**」を選択します。
 
-   ビデオビューアを再設定した後、「**[!UICONTROL 名前を付けて保存]**」を選択して、「プリセット名」テキストフィールドで別の名前を使用してプリセットを保存します。
+   ビデオビューアを再設定した後、「**[!UICONTROL 別名で保存]**」を選択し、「プリセット名」テキストフィールドに別の名前を使用してプリセットを保存します。
 
-   * **編集**：ビデオビューアプリセットを選択してから、**[!UICONTROL 編集]** を選択します。
+   * **編集**: ビデオビューアプリセットを選択し、**[!UICONTROL 編集]**&#x200B;を選択します。
 
-1. `Configure Viewer` ページの「プリセット名」フィールドで、プリセット名を入力または編集します。
+1. `Configure Viewer` ページの「プリセット名」フィールドに、プリセット名を入力または編集します。
 1. 必要に応じてその他のオプションを設定します。
 
-   オプションの説明を表示するには、オプションの情報ヒントアイコンを選択します。
+   オプションの説明を表示するには、その情報ヒント アイコンを選択します。
 
 1. 次のいずれかの操作を行います。
 
-   * 既存のプリセットから開始してビューアプリセットを追加した場合は、「**[!UICONTROL 名前を付けて保存]**」を選択します。
-   * ビューアプリセットを追加または編集した場合は、「**[!UICONTROL 保存]**」を選択します。
+   * 既存のプリセットから開始してビューアプリセットを追加した場合は、**[!UICONTROL 別名で保存]**&#x200B;を選択します。
+   * ビューアプリセットを追加または編集した場合は、**[!UICONTROL 保存]**&#x200B;を選択します。
 
 >[!MORELIKETHIS]
 >
 >* [ビデオのエンコーディングのベストプラクティス](uploading-encoding-videos.md#best_practices_for_video_encoding)
->* [&#x200B; ビデオエンコーディングプリセットの操作 &#x200B;](uploading-encoding-videos.md#working_with_video_encoding_presets)
+>* [ ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)

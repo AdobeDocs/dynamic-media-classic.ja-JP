@@ -1,6 +1,6 @@
 ---
 title: 開発者向けリソース
-description: Dynamic Media で使用できる開発者リソースについて説明します。
+description: Dynamic Mediaで利用できる開発者リソースについて説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,37 +9,42 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T19:45:42.823Z'
+TQID: 'https://experienceleague.adobe.com/yVtwbE8JePSUMeMBeajLy-fsI-zHn0bbZjCasDT5AuQ'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 228
 ht-degree: 12%
 
 ---
 
 # 開発者向けリソース {#developer-resources}
 
-これらのサーバーモジュールの http プロトコルについては、ビューア、画像サービングと画像レンダリング、画像実稼働システムのリファレンスガイドで説明しています。 さらにカスタマイズして、Adobe Dynamic Media Classic リッチメディアを Web サイトやカスタムアプリケーションに使用する場合は、これらのガイドを使用できます。 Dynamic Media Classic デスクトップアプリケーション、一般的な http プロトコルの標準と規則、基本的な画像用語について、ユーザーが熟知していることを前提としています。
+ビューア、画像サービングおよび画像レンダリング、および画像制作システムのリファレンスガイドでは、これらのサーバーモジュールのhttp プロトコルについて説明します。 web サイトの開発者は、さらにカスタマイズして、web サイトまたはカスタムアプリケーションにAdobe Dynamic Media Classic リッチメディアを使用する場合は、これらのガイドを使用できます。 Dynamic Media Classic デスクトップアプリ、一般的なhttp プロトコルの標準と規則、基本的なイメージング用語に精通していることを前提としています。
 
-[Dynamic Media 開発者リソース &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources) も参照してください。
+[Dynamic Media開発者リソース ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)も参照してください。
 
 ## ビューア {#viewers-guide}
 
 | ドキュメント | Web アドレス |
 | --- | --- |
-| ビューアリファレンスガイドおよびリリースノート | [https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/homeviewers) |
+| ビューアリファレンスガイドおよびリリースノート | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
 | ビューアライブラリの例 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## 画像サービング/画像レンダリング（IS/IR） API {#is-ir-api-guide}
 
 | ドキュメント | Web アドレス |
 | --- | --- |
-| API リファレンスガイド | [https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
+| API リファレンスガイド | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
-## 画像実稼働システム（IPS） API {#ips-api-guide}
+## 画像制作システム（IPS） API {#ips-api-guide}
 
 | ドキュメント | Web アドレス |
 | --- | --- |
-| API リファレンスガイド | [https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
+| API リファレンスガイド | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
 <!-- 
 ## Image Authoring {#ia}
