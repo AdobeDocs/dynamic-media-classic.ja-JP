@@ -12,12 +12,9 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:57.110Z'
 TQID: 'https://experienceleague.adobe.com/ZDf5ovDIKfCJ5p-6-Qz-isp77LnCQDKJo5hQA1HBN0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 264
@@ -59,12 +56,12 @@ Last Modified Date:
 1. （オプション）「**[!UICONTROL ジョブ名]**」フィールドに、公開ジョブの名前を入力します。
 1. **[!UICONTROL 詳細]** オプションで、**[!UICONTROL 公開先]** ドロップダウンリストから「**[!UICONTROL ビデオサーバー]**」を選択します。
 
-   設定できる詳細なオプションについては、[高度な公開オプション &#x200B;](publishing-files.md#advanced_publish_options)を参照してください。
+   設定できる詳細なオプションについては、[高度な公開オプション ](publishing-files.md#advanced_publish_options)を参照してください。
 
 1. 「**[!UICONTROL 公開を送信]**」を選択します。
 1. 上記の手順2～4を繰り返します。
 1. 「**[!UICONTROL 詳細]**」の「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL Image Server]**」を選択します。
 
-   設定できる詳細なオプションについては、[高度な公開オプション &#x200B;](publishing-files.md#advanced_publish_options)を参照してください。
+   設定できる詳細なオプションについては、[高度な公開オプション ](publishing-files.md#advanced_publish_options)を参照してください。
 
 1. 「**[!UICONTROL 公開を送信]**」を選択します。

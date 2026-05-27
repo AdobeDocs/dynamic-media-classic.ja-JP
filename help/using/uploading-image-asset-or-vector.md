@@ -11,14 +11,10 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:55.218Z'
 TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 1051
@@ -40,7 +36,7 @@ ht-degree: 50%
 
 ## 共有秘密鍵をリクエスト {#requesting-a-shared-secret-key}
 
-Admin Consoleを使用して[が&#x200B;*共有シークレット キー*&#x200B;をリクエストして、サポート ケースを作成します。](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) テクニカルサポートのケースでは、共有秘密鍵をリクエストします。
+Admin Consoleを使用して[が&#x200B;*共有シークレット キー*&#x200B;をリクエストして、サポート ケースを作成します。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) テクニカルサポートのケースでは、共有秘密鍵をリクエストします。
 
 電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。 Adobe Dynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
 
@@ -110,7 +106,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 これで、画像アセットをアップロードできるようになりました。
 
-[画像アセットのアップロード &#x200B;](uploading-image-asset-or-vector.md#uploading_an_image_asset)を参照してください。
+[画像アセットのアップロード ](uploading-image-asset-or-vector.md#uploading_an_image_asset)を参照してください。
 
 ## ラスター画像アセットのアップロード {#uploading-an-image-asset}
 
@@ -122,7 +118,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token`および`company_name` フィールドは必須です。
 
-[&#x200B; アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token)を参照してください。
+[ アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token)を参照してください。
 
 [共有秘密キーの取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)を参照してください。
 
@@ -149,7 +145,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * ファイル名拡張子のリスト。
 * アセットに関連付けられているカラープロファイルとファイル名を保持するかどうか。
 * ノックアウト背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、コーナー、許容値、塗りつぶし方法を設定します。
-「[画像の微調整オプションをアップロード &#x200B;](image-editing-options-upload.md#image-editing-options-at-upload)で確認する」で、ノックアウトの背景を参照してください。
+「[画像の微調整オプションをアップロード ](image-editing-options-upload.md#image-editing-options-at-upload)で確認する」で、ノックアウトの背景を参照してください。
 * アップロードするファイルの名前。
 
 上記のフォームに関連付けられているHTML ソースコードを表示するには、[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)を選択します
