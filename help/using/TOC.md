@@ -22,7 +22,7 @@ ht-degree: 21%
    + [機能リストの比較](upgrade-feature-comparison.md)
    + [アップグレードの準備状況チェックリスト](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic ガイド](home.md)
-+ [Adobe Dynamic Media Classicのベストプラクティスのチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Adobe Dynamic Media Classicのベストプラクティスのチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新しいAdobe Dynamic Media Classic ログオンが利用可能になりました](new-ui-2020.md)
 + [Experience LeagueによるAdobe Dynamic Media ニュースレターアーカイブ](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classicとは {#intro}
