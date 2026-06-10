@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Adobe Media Portalを利用することで、企業は承認済みアセットを取得、管理し、外部パートナー、チャネル、内部ユーザーに配布できます。 ブラウザーベースの「セルフサービス」環境では、ポータルユーザーが管理者管理の「ビュー」をAdobe Dynamic Media Classic アセットに提供し、企業が承認した形式でアセットを簡単にアップロード、参照、検索、プレビュー、エクスポートできます。
 
-システム要件を含むMedia Portalについて詳しくは、[Adobe Dynamic Media Classic Media Portalの使用](https://help.adobe.com/en_US/scene7/mediaportal/)を参照してください。<!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
+システム要件を含むMedia Portalについて詳しくは、[Adobe Dynamic Media Classic Media Portalの使用](https://help.adobe.com/ja_JP/scene7/mediaportal/)を参照してください。<!-- (https://help.adobe.com/ja_JP/scene7/mediaportal/index.html) -->
 
 Media Portal の管理については、[クイックスタート：Media Portal の管理](quick-start-media-portal-administration.md#quick_start_media_portal_administration)を参照してください。
 
