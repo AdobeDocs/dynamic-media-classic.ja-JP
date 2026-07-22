@@ -1,5 +1,5 @@
 ---
-title: アセットのアップロードと公開
+title: Assetsのアップロードと公開
 description: Adobe Dynamic Media Classicでアセットをアップロードして公開する方法について説明します。
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -11,25 +11,22 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:33:44.592Z'
 TQID: 'https://experienceleague.adobe.com/cBIWqoPxMe-Xw32Ywiqr82U2-wdJySjyM7BzDdGPA0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 9417586477c07ca389e075bc8f0d09e21bac7957
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 25%
+source-wordcount: 144
+ht-degree: 20%
 
 ---
 
 # アセットのアップロードと公開 {#about-uploading-and-publishing-assets}
 
-Adobe Dynamic Media Classicでの作業は、次の3つの基本的なエリアに分けられます。
+Adobe Dynamic Media Classicには、次の3つの基本的な機能があります。
 
 * Adobe Dynamic Media Classicへのファイルアセットのアップロード。
-* リッチメディアアセットの作成に使用できるようにファイルを管理する
+* ファイルを管理して、リッチメディアアセットを作成できるようにします。
 * アセットファイルをDynamic Media Classic サーバーに公開して、web サイトやアプリケーションに配信できるようにします。
 
 Adobe Dynamic Media Classicにアセットファイルをアップロードし、Adobe Dynamic Media Classic サーバーにアセットファイルを公開すると、これらのファイル転送が&#x200B;**[!UICONTROL ジョブ]** ページに記録されます。 このページで、アップロードおよび公開操作を追跡および監視することができます。
