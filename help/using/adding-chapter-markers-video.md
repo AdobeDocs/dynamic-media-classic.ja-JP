@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:37:15.687Z'
 TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: a41ad4865cfa5692ed38c030b45fbb579ce2b3f9
 workflow-type: tm+mt
 source-wordcount: 609
@@ -30,9 +33,9 @@ ht-degree: 12%
 >
 >ビデオプレーヤーは、チャプターマーカーの使用をサポートしている必要があります。
 
-`Universal_HTML5_Video` ビューア （HTML5）のチャプターナビゲーションキューポイントとチャプタータイトルポップアップテキストを設定する場合は、[ ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
+`Universal_HTML5_Video` ビューア （HTML5）のチャプターナビゲーションキューポイントとチャプタータイトルポップアップテキストを設定する場合は、[&#x200B; ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
 
-[ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
+[&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
 
 ビデオのチャプターリストの作成方法は、キャプションの作成方法とよく似ていて、 WebVTT ファイルを作成します。 ただし、このファイルは、使用するWebVTT キャプションファイルとは別にする必要があります。キャプションとチャプターを1つのWebVTT ファイルに結合しないでください。
 
@@ -74,7 +77,7 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
 
 1. Adobe Dynamic Media Classicで、WebVTT チャプターファイルをアップロードします。
 
-   [ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
+   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
 
 1. 左側のアセットライブラリパネルで、アップロードしたチャプターファイルに関連付けるビデオファイルを含むアセットフォルダーに移動します。
 1. アセット参照パネルで、1つのビデオアセットを選択し、アセットのサムネール画像の下にある「**[!UICONTROL プレビュー]**」 > 「**[!UICONTROL ビューアーリスト]**」を選択します。
