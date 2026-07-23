@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:37:15.687Z'
 TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a41ad4865cfa5692ed38c030b45fbb579ce2b3f9
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 22%
+source-wordcount: 609
+ht-degree: 12%
 
 ---
 
@@ -33,11 +30,11 @@ ht-degree: 22%
 >
 >ビデオプレーヤーは、チャプターマーカーの使用をサポートしている必要があります。
 
-`Universal_HTML5_Video` ビューア （HTML5）のチャプターナビゲーションキューポイントとチャプタータイトルポップアップテキストを設定する場合は、[&#x200B; ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
+`Universal_HTML5_Video` ビューア （HTML5）のチャプターナビゲーションキューポイントとチャプタータイトルポップアップテキストを設定する場合は、[ ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
 
-[&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
+[ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
 
-ビデオのチャプターリストの作成方法は、キャプションの作成方法とよく似ていて、 WebVTT ファイルを作成します。 ただし、このファイルは、使用している他の WebVTT キャプションファイルと分ける必要があります。キャプションとチャプターを 1 つの WebVTT ファイルにまとめることはできません。
+ビデオのチャプターリストの作成方法は、キャプションの作成方法とよく似ていて、 WebVTT ファイルを作成します。 ただし、このファイルは、使用するWebVTT キャプションファイルとは別にする必要があります。キャプションとチャプターを1つのWebVTT ファイルに結合しないでください。
 
 チャプターナビゲーションを含む WebVTT ファイルを作成する際には、次のサンプルをフォーマット例として使用できます。
 
@@ -57,7 +54,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-上記の例では、`Chapter 1`はキュー識別子であり、オプションです。 `00:00:000 --> 01:04:364`のキュー時間は、00:00:000形式で、章の開始時間と終了時間を指定します。 末尾の 3 桁はミリ秒であり、必要に応じて 000 のままにすることができます。 `The bicycle store behind it all`の章タイトルは、章の内容の実際の説明です。 ビデオのタイムラインの視覚的なキューポイントにポインターを置くと、キュー識別子、開始キュー時間、章タイトルがすべてビデオプレーヤーのポップアップに表示されます。
+上記の例では、`Chapter 1`はキュー識別子であり、オプションです。 `00:00:000 --> 01:04:364`のキュー時間は、00:00:000形式で、章の開始時間と終了時間を指定します。 最後の3桁はミリ秒で、必要に応じて000のままにすることができます。 `The bicycle store behind it all`の章タイトルは、章コンテンツの説明です。 ビデオのタイムライン上の視覚的なキューポイントにポインターを置くと、キュー識別子、開始キュー時間、および章タイトルがビデオプレーヤーポップアップに表示されます。
 
 HTML5 ビデオビューアを使用しているので、作成するチャプターファイルが WebVTT（Web Video Text Tracks）規格に従っていることを確認してください。 章ファイル名の拡張子は`.VTT`です。 WebVTT のキャプション規格について、さらに詳しく調べることができます。
 
@@ -71,17 +68,17 @@ HTML5 ビデオビューアを使用しているので、作成するチャプ�
    >
    >英語以外の言語でビデオチャプターをグローバルにサポートする場合、WebVTT標準では、サポートする言語ごとに`.VTT`個のファイルと呼び出しを個別に作成する必要があります。
 
-1. VTT ファイルをUTF8 エンコーディングで保存すると、章タイトルテキストの文字レンディションに関する問題を回避できます。
+1. VTT ファイルをUTF-8 エンコーディングで保存すると、章タイトルテキストの文字レンディションに関する問題を回避できます。
 
-   通常、チャプターVTT ファイルにビデオファイルと同じ名前を付け、`chapters`を付けて追加します。 これにより、既存のWeb コンテンツ管理システムを使用してビデオ URLの生成を自動化できます。
+   チャプターVTT ファイルにビデオファイルと同じ名前を付け、`_chapters`を付けて追加します。 これにより、既存のWeb コンテンツ管理システムを使用して、ビデオ URLの生成を自動化できます。
 
 1. Adobe Dynamic Media Classicで、WebVTT チャプターファイルをアップロードします。
 
-   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
+   [ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
 
 1. 左側のアセットライブラリパネルで、アップロードしたチャプターファイルに関連付けるビデオファイルを含むアセットフォルダーに移動します。
 1. アセット参照パネルで、1つのビデオアセットを選択し、アセットのサムネール画像の下にある「**[!UICONTROL プレビュー]**」 > 「**[!UICONTROL ビューアーリスト]**」を選択します。
-1. ビューアリストの表で、**Univeral_HTML5_Video** という名前の HTML5 ビューアを探し、次のいずれかの操作を行います。
+1. ビューア リスト テーブルで、**Universal_HTML5_Video**&#x200B;という名前のHTML5 ビューアを見つけ、次のいずれかの操作を行います。
 
    * ポップアップビデオのビューアエクスペリエンスの場合は、名前の右端にある「**[!UICONTROL URL]**&#x200B;をコピー」を選択します。
 
