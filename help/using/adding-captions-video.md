@@ -11,24 +11,20 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:36:57.321Z'
 TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 15%
+source-wordcount: 716
+ht-degree: 7%
 
 ---
 
 # ビデオにキャプションを追加 {#add-captions-to-video}
 
-動画のリーチをグローバル市場に拡大。 これは、単一のビデオまたはアダプティブビデオセットにキャプションを追加することで可能です。 キャプションを追加することで、オーディオをダビングする必要がなくなります。また、異なる言語ごとにオーディオを再度録音する必要もなくなります。 ビデオは録画されたときの言語で再生されます。 外国語のサブタイトルが表示されるため、異なる言語のユーザもオーディオ部分を理解できます。
+動画を世界市場で利用可能にする。 これは、単一のビデオまたはアダプティブビデオセットにキャプションを追加することで可能です。 キャプションを追加することで、音声を吹き替える必要や、ネイティブボイスアーティストを使用して各言語で音声を録音する必要を回避できます。 ビデオは元の言語で再生されます。 翻訳された字幕は、異なる言語の人々がオーディオ部分を理解できるように表示されます。
 
 また、キャプションにより、耳の不自由なユーザや難聴者向けにクローズドキャプションを使用することで、高いアクセス性が可能になります。
 
@@ -42,13 +38,13 @@ ht-degree: 15%
 * `Universal_HTML5_MixedMedia_dark`人の閲覧者
 * `Universal_HTML5_MixedMedia_light`人の閲覧者
 
-[&#x200B; ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
+[ ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
 
-[&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
+[ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
 
-Adobe Dynamic Media Classicでは、キャプションファイルをJSON （JavaScript Object Notation）形式に変換できます。 この変換により、JSON テキストをWeb ページに埋め込み、ビデオの隠れた完全なトランスクリプトとして使用できます。 そして、検索エンジンがコンテンツをクロールしてインデックスを作成することで、動画をより見つけやすくし、動画コンテンツに関する詳細を提供します。
+Adobe Dynamic Media Classicでは、キャプションファイルをJSON （JavaScript Object Notation）形式に変換できます。 この変換を使用すると、JSON テキストをWeb ページに埋め込み、ビデオの非表示だが完全なトランスクリプトとして使用できます。 そして、検索エンジンがコンテンツをクロールしてインデックスを作成することで、動画をより見つけやすくし、動画コンテンツに関する詳細を提供します。
 
-URLでJSON関数を使用する方法について詳しくは、の[静的（画像でない）コンテンツの提供](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)を参照してください。
+URLでJSON関数を使用する方法について詳しくは、[静的（画像でない）コンテンツを提供](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)を参照してください。
 
 **ビデオにキャプションを追加するには：**
 
@@ -60,21 +56,21 @@ URLでJSON関数を使用する方法について詳しくは、の[静的（画
 
 1. Adobe Dynamic Media Classicで、WebVTT、DFXP、またはSMPTE XML キャプションファイルをアップロードします。
 
-   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
+   [ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
 
 1. 左側のアセットライブラリパネルで、アップロードしたキャプションファイルに関連付けるビデオファイルを含むアセットフォルダーに移動します。
 1. アセット参照パネルで、1つのビデオアセットを選択し、アセットのサムネール画像の下にある「**[!UICONTROL プレビュー]**」 > 「**[!UICONTROL ビューアーリスト]**」を選択します。
 1. ビューア リスト テーブルで、**Universal_HTML5_Video**、**Universal_HTML5_MixedMedia_dark**&#x200B;または&#x200B;**Universal_HTML5_MixedMedia_light**&#x200B;という名前のHTML5 ビューアを見つけ、次のいずれかの操作を行います。
 
-   * ポップアップビデオのビューアエクスペリエンスの場合は、名前の右端にある「**[!UICONTROL URL]**&#x200B;をコピー」を選択します。
+   * ポップアップビデオのビューアエクスペリエンスの場合は、名前の右側にある「**[!UICONTROL URL]**&#x200B;をコピー」を選択します。
 
-     次の構文を使用してビデオのコピーURLを追加し、コピーしたURLとキャプションファイルに関連付けることができます。
+     ビデオのコピーされたURLに次の構文を追加して、キャプションファイルに関連付けることができます。
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      キャプション URL パスの末尾に`,1`をメモします。 パス内のVTT ファイル名拡張子の直後に、ビデオプレーヤーバーのクローズドキャプションボタンをオプションで有効または無効にできます。それぞれ`1`または`0`に設定します。
 
-   * 埋め込みビデオビューアエクスペリエンスの場合は、名前の右端にある「**[!UICONTROL 埋め込みコード]**」を選択します。
+   * 埋め込みビデオビューアエクスペリエンスの場合は、名前の右側にある「**[!UICONTROL 埋め込みコード]**」を選択します。
 
      埋め込みコードダイアログボックスで、**[!UICONTROL クリップボードにコピー]**&#x200B;を選択します。
 
