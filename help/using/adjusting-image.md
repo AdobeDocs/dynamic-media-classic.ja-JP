@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:38:08.783Z'
 TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
 source-wordcount: 535
@@ -50,13 +53,13 @@ Adobe Dynamic Media Classicには、画像の外観を調整するための様�
 
    * 画像を新しいプライマリ画像として保存するには、**[!UICONTROL 別名で保存]**&#x200B;を選択します。
 
-     ドロップダウンリストで、**[!UICONTROL 新しいプライマリとして保存]**を選択します。
+     ドロップダウンリストで、**[!UICONTROL 新しいプライマリとして保存]**&#x200B;を選択します。
      **[!UICONTROL フォルダー名]** リストボックスで、新しいプライマリイメージを保存するフォルダーを選択します。
      **[!UICONTROL 保存]**&#x200B;を選択します。
 
    * プライマリ画像の別のビューとして画像を保存するには、そのエイリアスを作成します。 **[!UICONTROL 別名で保存]**&#x200B;を選択します。
 
-     **[!UICONTROL 別名で保存]** ダイアログボックスのドロップダウンリストから、**[!UICONTROL プライマリ]**の別のビューとして保存を選択します。
+     **[!UICONTROL 別名で保存]** ダイアログボックスのドロップダウンリストから、**[!UICONTROL プライマリ]**&#x200B;の別のビューとして保存を選択します。
      **[!UICONTROL フォルダー名]** リストボックスで、新しいプライマリイメージを保存するフォルダーを選択します。
      **[!UICONTROL 保存]**&#x200B;を選択します。
 
