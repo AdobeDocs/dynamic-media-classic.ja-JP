@@ -12,10 +12,16 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:06.354Z'
 TQID: 'https://experienceleague.adobe.com/GiljiYJVAfOfWB78ZruSnTP01haCDv9fLKESpq7t5YA'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: d60c30a11ad8777f8074c4283893f8984220c305
 workflow-type: tm+mt
 source-wordcount: 1248
@@ -39,7 +45,7 @@ Adobe Analytics で Adobe Analytics レポートに含める情報を指定す�
 
 ## Adobe Dynamic Media Classic ビューアのイベントおよび変数へのAdobe Analytics変数の割り当て {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
-Adobe Analytics設定画面を使用して、ビューアイベントをAdobe Analytics変数およびAdobe Dynamic Media Classic変数に関連付けます。 各ビューアーイベントに対して、1つのAdobe Analytics変数と1つのAdobe Dynamic Media Classic変数を選択します。 Adobe Analytics Configuration画面を開く手順については、[Adobe Analyticsにログオン ](log-analytics.md#log_in_to_adobe_analytics)するを参照してください。
+Adobe Analytics設定画面を使用して、ビューアイベントをAdobe Analytics変数およびAdobe Dynamic Media Classic変数に関連付けます。 各ビューアーイベントに対して、1つのAdobe Analytics変数と1つのAdobe Dynamic Media Classic変数を選択します。 Adobe Analytics Configuration画面を開く手順については、[Adobe Analyticsにログオン &#x200B;](log-analytics.md#log_in_to_adobe_analytics)するを参照してください。
 
 **Adobe Dynamic Media Classic ビューアのイベントと変数にAdobe Analytics変数を割り当てるには：**
 
