@@ -12,10 +12,14 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:26.837Z'
 TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 23257d3c04ec0d662f382ffb55fd6c26454d39a2
 workflow-type: tm+mt
 source-wordcount: 1496
@@ -47,12 +51,12 @@ eCatalog では、eCatalog 画面の「ページをマップ」タブで画像�
 
    URL （HREF テンプレート）の入力を簡単にするには、**[!UICONTROL 編集]**&#x200B;を選択してテンプレートを入力します。
 
-[ テンプレートを使用してJavaScriptとURLを入力する](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)を参照してください。
+[&#x200B; テンプレートを使用してJavaScriptとURLを入力する](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)を参照してください。
 
 1. （オプション）表示ドロップダウンリストで「**[!UICONTROL テキストをロールオーバー]**」を選択し、ユーザーが画像マップ上にポインターを移動したときに画面に表示するテキストを入力します。
 1. （オプション）表示ドロップダウンリストで「**[!UICONTROL その他のアクション]**」を選択し、ユーザーが画像マップ上でポインターを動かしたときに、ぼかしまたはフォーカスアクションをトリガーする属性を入力します。
 
-   画像マップ ](creating-image-maps.md#defining_other_actions_for_image_maps)に対する他のアクションの定義を参照してください。[
+   画像マップ [&#128279;](creating-image-maps.md#defining_other_actions_for_image_maps)に対する他のアクションの定義を参照してください。
 
 1. **[!UICONTROL 保存]**&#x200B;を選択します。
 1. （オプション）「**[!UICONTROL プレビュー]**」を選択して、デフォルトのeCatalog ビューアプリセットでeCatalogを表示します。
@@ -69,7 +73,7 @@ eCatalogのリッチメディアオプションを使用して、eCatalogに追�
 
 1. eCatalog 画像マップを描画します。
 
-   [ カタログ画像マップを描画](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)を参照してください。
+   [&#x200B; カタログ画像マップを描画](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)を参照してください。
 
 1. 表示ドロップダウンリストで、**[!UICONTROL リッチメディア]**&#x200B;を選択します。
 1. 左側の「Assetsを追加」パネルで、埋め込むスピンセットまたはビデオ（MP4形式）アセットを含むフォルダーに移動します。
