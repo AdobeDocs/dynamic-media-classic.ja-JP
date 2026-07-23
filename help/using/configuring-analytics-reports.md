@@ -12,32 +12,26 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:06.354Z'
 TQID: 'https://experienceleague.adobe.com/GiljiYJVAfOfWB78ZruSnTP01haCDv9fLKESpq7t5YA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: d60c30a11ad8777f8074c4283893f8984220c305
 workflow-type: tm+mt
-source-wordcount: 1251
-ht-degree: 20%
+source-wordcount: 1248
+ht-degree: 22%
 
 ---
 
 # Adobe Analytics レポートの設定{#configuring-adobe-analytics-reports}
 
-Adobe AnalyticsにAdobe Analytics レポートに必要な情報を伝えるには、Adobe Analyticsの設定画面に移動します。 この画面では、設定レポートに従って、対応するAdobe Analytics変数とAdobe Dynamic Media Classic変数の情報を必要とする各ビューアイベントが一覧表示されます。 これらのビューアーイベント、Adobe Analytics変数、Adobe Dynamic Media Classic変数の組み合わせにより、報告される情報が決まります。
+Adobe Analytics で Adobe Analytics レポートに含める情報を指定するには、Adobe Analytics 設定画面に移動します。 設定後、この画面には、対応するAdobe Analytics変数とビューアイベントごとにAdobe Dynamic Media Classic変数が一覧表示されます。 これらのビューアーイベント、Adobe Analytics変数、およびAdobe Dynamic Media Classic変数の組み合わせにより、レポートされる情報が決まります。
 
-ビューア イベントを変数に関連付けるだけでなく、Adobe Analyticsの設定画面には、ビューア イベントをアクティブ化、編集、削除するためのツールが表示されます。
+ビューアイベントを変数に関連付けるだけでなく、Adobe Analyticsの設定画面には、ビューアイベントをアクティブ化、編集、削除するためのツールが表示されます。
 
 >[!NOTE]
 >
->Adobe Analytics内でAdobe Analytics レポートの設定を変更する場合は、必ずAdobe Dynamic Media Classic内からAdobe Analyticsにログオンし、Adobe Analyticsの設定を再保存してから再公開してください。
+>Adobe Analytics内でAdobe Analytics レポートの設定を変更する場合は、Adobe Dynamic Media Classic内からAdobe Analyticsにログインし、Adobe Analyticsの設定を再保存してから再公開します。
 
 [Adobe Analyticsにログオンする](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 
@@ -45,12 +39,12 @@ Adobe AnalyticsにAdobe Analytics レポートに必要な情報を伝えるに�
 
 ## Adobe Dynamic Media Classic ビューアのイベントおよび変数へのAdobe Analytics変数の割り当て {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
-Adobe Analytics設定画面を使用して、ビューアイベントをAdobe Analytics変数およびAdobe Dynamic Media Classic変数に関連付けます。 各ビューアーイベントに対して、1つのAdobe Analytics変数と1つのAdobe Dynamic Media Classic変数を選択します。 Adobe Analytics Configuration画面を開く方法については、[Adobe Analyticsへのログオン &#x200B;](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
+Adobe Analytics設定画面を使用して、ビューアイベントをAdobe Analytics変数およびAdobe Dynamic Media Classic変数に関連付けます。 各ビューアーイベントに対して、1つのAdobe Analytics変数と1つのAdobe Dynamic Media Classic変数を選択します。 Adobe Analytics Configuration画面を開く手順については、[Adobe Analyticsにログオン ](log-analytics.md#log_in_to_adobe_analytics)するを参照してください。
 
 **Adobe Dynamic Media Classic ビューアのイベントと変数にAdobe Analytics変数を割り当てるには：**
 
-1. Dynamic Media Classic内からAdobe Analyticsにログインし、レポートスイートを選択した後、Adobe Analytics設定ページの右側のテーブル列で、**[!UICONTROL 有効]**&#x200B;を選択してビューアイベントをアクティブ化します。
-1. 「変数」列の下に、目的のビューアイベントの矢印ボタンを選択して、変数ペアの選択ツールを表示します。
+1. Dynamic Media ClassicからAdobe Analyticsにログインし、レポートスイートを選択した後、右側のテーブル列の&#x200B;**[!UICONTROL Enable]**&#x200B;を選択して、Adobe Analytics設定ページでビューアイベントをアクティブ化します。
+1. 「変数」列に、目的のビューアイベントの矢印ボタンを選択して、変数ペアセレクターを表示します。
 
    詳しくは、[ビューアイベント](configuring-analytics-reports.md#viewer_events)を参照してください。
 
@@ -71,7 +65,7 @@ Adobe Analytics設定画面を使用して、ビューアイベントをAdobe An
 
 ### ビューアイベント {#viewer-events}
 
-Viewer イベントは、Dynamic Media Classic ビューアでユーザーが実行するアクションを表します。 ユーザーがサムネールの選択やビデオの開始または停止などのアクションを開始すると、ビューアはWeb ページにイベントを「ブロードキャスト」します。 そのイベントに関連するデータもプッシュされます。
+Viewer イベントは、Dynamic Media Classic ビューアでユーザーが実行するアクションを表します。 ユーザーがサムネールの選択やビデオの開始または停止などのアクションを開始すると、ビューアはWeb ページにイベントを送信します。 そのイベントに関連するデータも送信されます。
 
 次の表に、Adobe Analytics Configuration画面に追加できるビューアイベントを示します。
 
@@ -95,7 +89,7 @@ Viewer イベントは、Dynamic Media Classic ビューアでユーザーが実
 
 ### Adobe Dynamic Media Classic変数 {#scene-variables}
 
-Adobe Analytics Configuration画面の各ビューアーイベントについて、Adobe Analytics変数と&#x200B;*Adobe Dynamic Media Classic変数*&#x200B;を選択します。 Adobe Dynamic Media Classic変数は、レポート用に取得できるデータを表します。 例えば、`searchTerm`変数には、eCatalog検索で使用されるキーワードが一覧表示されます。
+Adobe Analytics Configuration画面の各ビューアーイベントについて、Adobe Analytics変数と&#x200B;*Adobe Dynamic Media Classic変数*&#x200B;を選択します。 Adobe Dynamic Media Classic変数は、レポート用に取得できるデータを指定します。 例えば、`searchTerm`変数には、eCatalog検索で使用されるキーワードが一覧表示されます。
 
 次の表に、Adobe Dynamic Media Classicの変数を示します。
 
@@ -119,6 +113,6 @@ Adobe Analytics 設定画面で、ビューアイベントをアクティブ化�
 
 * **アクティブ化**：選択したビューアイベントをアクティブ化するには、**[!UICONTROL アクティブ化]**&#x200B;を選択するか、**[!UICONTROL 無効にする]**&#x200B;を選択します。
 
-* **編集**: ビューアーイベントを選択し、**[!UICONTROL 表示/編集]**&#x200B;変数グレーのボタンを選択します。 Adobe Dynamic Media Classic変数とAdobe Analytics変数のドロップダウンリストで、それぞれのリストから異なる変数を選択します。 詳しくは、[Adobe Dynamic Media Classic ビューアのイベントおよび変数へのAdobe Analytics変数の割り当て](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables)を参照してください。
+* **編集**: ビューアーイベントを選択し、**[!UICONTROL 表示/編集]**&#x200B;変数グレーのボタンを選択します。 Adobe Dynamic Media Classic変数とAdobe Analytics変数のドロップダウンリストで、それぞれのリストから異なる変数を選択します。 詳しくは、[Adobe Dynamic Media Classic ビューアのイベントおよび変数へのAdobe Analytics変数の割り当て](#assigning-adobe-analytics-variables-to-adobe-dynamic-media-classic-viewer-events-and-variables)を参照してください。
 
-* **削除**：ビューアーイベントを選択し、**[!UICONTROL 表示/編集]**&#x200B;変数グレーのボタンを選択します。 **[!UICONTROL 削除]**&#x200B;を選択します。
+* **削除**：ビューアイベントを選択し、**[!UICONTROL 表示/編集]** グレーのボタンを選択します。 **[!UICONTROL 削除]**&#x200B;を選択します。
