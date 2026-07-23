@@ -1,5 +1,5 @@
 ---
-title: Adobe Dynamic Media Classicでのアセット管理について
+title: Adobe Dynamic Media ClassicでのAssetsの管理について
 description: Adobe Dynamic Media Classicでのアセット管理の概要
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,17 +19,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 16%
+source-wordcount: 166
+ht-degree: 7%
 
 ---
 
 # Adobe Dynamic Media Classicでのアセット管理について {#about-managing-assets}
 
-Adobe Dynamic Media Classicでは、アセットを管理するためのAsset Libraryを提供しています。 アセットライブラリには、アセットファイルを格納するフォルダが含まれています。 アセットライブラリでフォルダーを選択すると、フォルダーの内容が参照パネルに表示されます。 参照パネルのアイテムは、グリッド表示、リスト表示または詳細表示で表示できます。 単一のアセットにフォーカスする場合は、参照パネルでアセットをダブルクリックして、詳細ビューに表示します。
+Adobe Dynamic Media Classicでは、アセットを管理するためのAsset Libraryを提供しています。 アセットライブラリには、アセットファイルを格納するフォルダが含まれています。 アセットライブラリでフォルダーを選択すると、フォルダーの内容が参照パネルに表示されます。 グリッド、リスト、または詳細表示を使用して、参照パネルで項目を表示できます。 単一のアセットにフォーカスする場合は、参照パネルでアセットをダブルクリックして、詳細ビューに表示します。
 
-参照パネルには、表示、選択、検索のためのツールが用意されています。 パネルには、アセットのプレビュー、移動、名前の変更、削除も表示されます。 削除したアセットは、ごみ箱フォルダに配置されます。このフォルダからアセットを元に戻すこともできます。
+参照パネルには、表示、選択、検索のためのツールが用意されています。 パネルには、アセットのプレビュー、移動、名前の変更、削除も表示されます。 削除したAssetsは、削除済みアイテム フォルダーに配置されます。このフォルダーからアセットを復元できます。
 
-アセットを調査または操作する場合は、詳細ビューでアセットを開きます。 詳細ビューにメタデータを記録すると、アセットの検索と操作が簡単になります。
+アセットを表示または管理するには、詳細ビューでアセットを開きます。 アセットの検索と操作を容易にするために、詳細表示でメタデータを追加できます。
