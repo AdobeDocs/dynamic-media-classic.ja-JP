@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
 workflow-type: tm+mt
-source-wordcount: 179
-ht-degree: 33%
+source-wordcount: 173
+ht-degree: 29%
 
 ---
 
 # Adobe Dynamic Media ClassicのUGCについて {#about-user-generated-content}
 
-UGC （ユーザー生成コンテンツ）を利用するには、専用のAdobe Dynamic Media Classicストレージリポジトリにアセットをアップロードして、関連する操作を実行する必要があります。
+UGC （ユーザー生成コンテンツ）は、専用の[!DNL Adobe Dynamic Media Classic] ストレージリポジトリにアセットをアップロードし、関連する操作を実行することで構成されます。
 
 UGCは、BMP、GIF、JPG、PNG、PSD、TIFFなどのラスター画像ファイル形式に対応しています。
 
 >[!IMPORTANT]
 >
->2023年5月1日（PT）以降、Dynamic MediaのUGC アセットは、アップロード日から最大60日間使用できるようになります。 60日後、アセットは削除されます。
+>2023年5月1日（PT）以降、Dynamic MediaのUGC アセットは、アップロード日から最大60日間使用できます。 60日後、アセットは削除されます。
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
@@ -43,7 +43,7 @@ UGCは、BMP、GIF、JPG、PNG、PSD、TIFFなどのラスター画像ファイ�
 >
 >Adobe Dynamic Media Classicでの新規または既存のUGC ベクター画像アセットのサポートは、2021年9月30日に終了しました。
 
-アセットをアップロードする前に、共有秘密キーを取得します。 このキーは、アップロードトークンを取得するために使用します。 アセットをアップロードしたり、ほかのユーザ生成コンテンツのタスクを実行したりするときは、このアップロードトークンを送信します。
+アセットをアップロードする前に、共有秘密キーを取得する必要があります。 このキーは、アップロードトークンを取得するために使用します。 アセットをアップロードしたり、ほかのユーザ生成コンテンツのタスクを実行したりするときは、このアップロードトークンを送信します。
 
 共有秘密キーとアップロードトークンを取得したら、以下のユーザ生成コンテンツ関連の操作を実行できます。
 

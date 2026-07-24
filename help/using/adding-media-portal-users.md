@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +111,7 @@ Media Portal ユーザ、寄稿者、寄稿者ユーザをサインアップし�
 
 ## 選択可能な Media Portal ユーザリストの生成 {#generating-a-selectable-list-of-media-portal-users}
 
-Media Portal ユーザの名前と電子メールアドレスをポップアップウィンドウに表示できます。 このリストは、ユーザ名とアドレスを Media Portal 以外で使用するためにカットおよびペーストする場合に便利です。
+Media Portal ユーザの名前と電子メールアドレスをポップアップウィンドウに表示できます。 このリストは、Media Portal以外で使用するユーザー名とアドレスをコピーして貼り付ける場合に便利です。
 
 1. **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**&#x200B;に移動します。
 1. **[!UICONTROL ユーザーの役割]** ドロップダウンリストで、Media Portal ユーザーの役割の名前を選択し、**[!UICONTROL 更新]**&#x200B;を選択して、Media Portal ユーザーの1つのクラスの名前を表示します。
@@ -135,7 +135,7 @@ Media Portal ユーザの名前と電子メールアドレスをポップアッ�
 
 ユーザ管理設定画面から、次のタスクも実行できます。
 
-* **[!UICONTROL ユーザーリストをフィルタリングして並べ替え]**: Media Portal ユーザーのリストをフィルタリングしてユーザーを検索します。
+* **[!UICONTROL ユーザーリストをフィルタリングして並べ替え]**: ユーザーを見つけるには、Media Portal ユーザーのリストをフィルタリングします。
 
 * **[!UICONTROL ユーザーを削除]**: リストからユーザーを削除します。
 
