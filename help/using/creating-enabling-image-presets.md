@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:41:19.856Z'
 TQID: 'https://experienceleague.adobe.com/AlYkBI41GganXzy28kbNN9DXU1Pd4mVCwJKCdwmnN4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: da232d1762d4bb21788ab094ea56d715a58c27d2
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 47%
+source-wordcount: 260
+ht-degree: 46%
 
 ---
 
@@ -30,13 +26,13 @@ ht-degree: 47%
 
 ユーザが Media Portal を使用して画像アセットを書き出すとき、選択したアセットを書き出しダイアログボックスで画像プリセットを選択できます。 画像プリセットは、定義済みの設定のコレクションです。 これらの設定により、書き出し時の画像のサイズ、画質、形式、解像度などの外観を変更できます。
 
-Media Portal 管理者は画像プリセットを作成して、画像が書き出されるときの形式の変更方法を制御できます。 画像プリセットは、ユーザーがAdobe Dynamic Media Classicから画像を書き出す際に、会社の仕様に合わせて画像を再フォーマットします。 画像の形式を自動的に変更するのではなく、画像プリセットで定められた正確な指定に従って書き出します。
+Media Portal 管理者は画像プリセットを作成して、画像が書き出されるときの形式の変更方法を制御できます。 Adobe Dynamic Media Classicから画像を書き出すときに、画像プリセットを使用すると、会社の仕様に合わせて画像が再フォーマットされます。 ユーザーは、画像を手動で再フォーマットする代わりに、画像プリセットの正確な仕様に画像を書き出します。
 
 画像アセットを書き出す際、以下の制限が適用されます。
 
 * 幅×高さは、画像ごとに100 MB以下にする必要があります。 例えば、画像のアスペクト比が10 K×10 Kを超えること、または8 K×12 Kなどのアスペクト比を超えることはできません。
-* 書き出しジョブごとに最大1 GBの合計ファイルサイズがあります。
-* 書き出しジョブあたり合計 500 個のアセットまで許容されています。
+* 書き出しジョブあたり、ファイルサイズの合計は最大で 1 GB です。
+* 書き出しジョブあたり、アセットの合計は最大で 500 個です。
 
 >[!NOTE]
 >
