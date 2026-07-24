@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:41:35.428Z'
 TQID: 'https://experienceleague.adobe.com/zss-r9uFbwUnAU35hcpQsXKE1HgyBCrrK7JGiqV65Pg'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: f139091df2b0bd1018cd89c591abdde2c0f57cc0
 workflow-type: tm+mt
 source-wordcount: 2431
@@ -68,7 +72,7 @@ Adobe Dynamic Media Classicで画像マップを作成する機能に加えて�
 
 1. 画像マップにポインタを合わせたときに別のアクション効果を実行する場合は、アクションを定義します。 **[!UICONTROL 表示]** ドロップダウンリストで、**[!UICONTROL その他のアクション]**&#x200B;を選択します。 アクションの属性を入力します （**[!UICONTROL 表示]** > **[!UICONTROL 両方]**&#x200B;に移動して、ロールオーバーテキストと画像マップのアクションを作成します）。
 
-   画像マップ ](creating-image-maps.md#defining_other_actions_for_image_maps)に対する他のアクションの定義を参照してください。[
+   画像マップ [&#128279;](creating-image-maps.md#defining_other_actions_for_image_maps)に対する他のアクションの定義を参照してください。
 
 1. 必要に応じて次の操作を行います。
 
