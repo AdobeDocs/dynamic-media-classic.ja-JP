@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: e0b8668dab1b4f3f936d22642deb9a2519455703
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: 1287
 ht-degree: 21%
 
 ---
@@ -46,11 +46,11 @@ Adobe Dynamic Media Classicには、オファーセットを作成するだけ�
 
 ## オファーセットの種類 {#types-of-offer-sets}
 
-次のタイプのオファーセットからオファーセットを作成します。
+次のタイプのオファーセットからオファーセットを選択します。
 
 * **画像**: オファーセットの画像を組み立てることができます。 各画像には、セット内に異なるオファーが含まれています。
 
-* **画像テンプレート**: **[!UICONTROL ビルド]**/テンプレートの基本コマンドを使用して、Adobe Dynamic Media Classicで画像テンプレートをパラメーター化できます。 パラメーター、テンプレートのコンポーネント、テキストフレーム内のテキスト、異なる画像を切り替えてカスタマイズできます。 オファーセットの場合、例えば、テンプレートパラメーターを使用して、オファーセット内の同じ画像にバリエーションを作成できます。 画像テンプレートの作成とパラメータ化について詳しくは、[&#x200B; テンプレートパラメーターの作成](creating-template-parameters.md#creating_template_parameters)を参照してください。
+* **画像テンプレート**: **[!UICONTROL ビルド]**/テンプレートの基本コマンドを使用して、Adobe Dynamic Media Classicで画像テンプレートをパラメーター化できます。 パラメーター、テンプレートのコンポーネント、テキスト枠内のテキスト、および様々な画像を置き換えてカスタマイズできます。 オファーセットの場合、テンプレートパラメーターを使用して、オファーセット内の同じ画像にバリエーションを作成できます。 画像テンプレートの作成とパラメータ化について詳しくは、[&#x200B; テンプレートパラメーターの作成](creating-template-parameters.md#creating_template_parameters)を参照してください。
 
 [&#x200B; テンプレートの基本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)のトレーニングビデオも参照してください。
 
@@ -72,14 +72,14 @@ Adobe Dynamic Media Classicには、オファーセットを作成するだけ�
 1. テンプレートまたはバナーを選択します。
 1. **[!UICONTROL ビルド]** > **[!UICONTROL テスト&amp;ターゲットオファーセット]**&#x200B;に移動します。
 
-   Test&amp;Target オファーセットページには、オファーセット内のオファーが一覧表示されます。 リストの先頭アイテムがオブジェクトです。
+   Test&amp;Target オファーセットページには、オファーセット内のオファーが一覧表示されます。 リストの最初の項目はプライマリアセットです。
 
 1. オブジェクトを選択し、**[!UICONTROL 追加とプレビュー]**&#x200B;を選択します。
 
    このページの左側には、テンプレートのパラメーターと値が表示されます。
 
-1. パラメータ値を変更して、オファーを作成します。 例えば、テキストフィールドに別のテキストを入力したり、レイヤーのサイズを変更したり、ある画像を別の画像に入れ替えたり、別のビューアプリセットを選択したりすることができます。
-1. オファーをオファーセットの一部として保存するには、**[!UICONTROL 保存&lbrace;1**&#x200B;または&#x200B;**[!UICONTROL &#x200B;別名で保存&#x200B;]**&#x200B;を選択します。]**
+1. パラメータ値を変更して、オファーを作成します。 例えば、テキストの編集、レイヤーのサイズ変更、画像の入れ替え、プリセットの選択などです。
+1. オファーをオファーセットの一部として保存するには、**[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL 別名で保存]**&#x200B;を選択します。
 
    Test&amp;Target オファーセット ページには、作成したオファーが一覧表示されます。
 
@@ -87,7 +87,7 @@ Adobe Dynamic Media Classicには、オファーセットを作成するだけ�
 1. 終了したら、ページの右下隅付近で、保存&#x200B;***が選択された後に**&#x200B;公開することを確認します（デフォルト）。
 1. **[!UICONTROL 閉じる]**&#x200B;を選択し、オファーセットの名前を入力してから、**[!UICONTROL 保存]**&#x200B;を選択します。
 
-Test&amp;Target オファーセットページを閉じる前に、オファーセットをAdobe Target Standard/Premiumにプッシュします。 「[&#x200B; オファーセットをTest&amp;Targetにプッシュする](pushing-offer-sets-target.md#pushing_offer_sets_to_target)」を参照してください。
+Test&amp;Target オファーセットページを閉じる前に、オファーセットをAdobe Target Standard/Premiumに送信します。 オファーセットをTest&amp;Targetに送信するには、[&#x200B; オファーセットをTest&amp;Targetにプッシュ &#x200B;](pushing-offer-sets-target.md#pushing_offer_sets_to_target)を参照してください。
 
 ## 画像またはビデオを使用したオファーセットの作成 {#creating-an-offer-set-with-images-or-videos}
 
@@ -111,14 +111,14 @@ Test&amp;Target オファーセットページを閉じる前に、オファー�
 1. オプションで、画像またはビデオを選択し、**[!UICONTROL プレビュー]**&#x200B;を選択します。 プレビューオファーページで、選択した画像またはビデオのサイズと外観を変更できます。 または、オファーセット内のすべての画像またはビデオを変更できます。
 
    * プリセットを選択して、画像またはビデオの外観とサイズを変更します。
-   * オファーセット内のすべてのオファーに選択したプリセットを適用するには、**`Select Presets to All`** チェックボックスをオンにします。
+   * オファーセット内のすべてのオファーに選択したプリセットを適用するには、**`Apply Presets to All`** チェックボックスをオンにします。
 
    **[!UICONTROL 保存]**&#x200B;を選択して、画像またはビデオのオファーに対する変更を保存します。 次に、**[!UICONTROL 閉じる]**&#x200B;を選択して、テストとターゲットのオファーセットページに戻ります。
 
 1. オファーセットのオファーを作成し、異なる画像の画像プリセットを選択したら、**[!UICONTROL 保存]**&#x200B;が選択された後に公開します（デフォルト）。
 1. **[!UICONTROL 保存]**&#x200B;を選択し、オファーセットの名前を入力して、**[!UICONTROL 保存]**&#x200B;を選択します。
 
-Test&amp;Target オファーセットページを閉じる前に、オファーセットをAdobe Target Standard/Premiumにプッシュします。 「[&#x200B; オファーセットをTest&amp;Targetにプッシュする](pushing-offer-sets-target.md#pushing_offer_sets_to_target)」を参照してください。
+Test&amp;Target オファーセットページを閉じる前に、オファーセットをAdobe Target Standard/Premiumに送信します。 オファーセットをTest&amp;Targetにプッシュするには、[&#x200B; オファーセットをTest&amp;Targetにプッシュ &#x200B;](pushing-offer-sets-target.md#pushing_offer_sets_to_target)を参照してください。
 
 ## オファーセットの編集 {#editing-an-offer-set}
 
@@ -140,8 +140,8 @@ Test&amp;Target オファーセットページを閉じる前に、オファー�
 
    * **オファーの削除**: オファーを選択し、**[!UICONTROL 削除]**&#x200B;を選択して、セットからオファーを削除します。
    * **オファーの追加**：オファーの追加方法は、使用しているオファーセットの種類によって異なります。
-      * **テンプレート**: **[!UICONTROL 追加とプレビュー]**&#x200B;を選択し、「オファーを追加とプレビュー」ページで別のオファーを作成します。
-      * **画像とビデオ**：画像またはビデオをTest&amp;Target オファーセットページにドラッグします。
+     * **テンプレート**: **[!UICONTROL 追加とプレビュー]**&#x200B;を選択し、「オファーを追加とプレビュー」ページで別のオファーを作成します。
+     * **画像とビデオ**：画像またはビデオをTest&amp;Target オファーセットページにドラッグします。
 
    >[!NOTE]
    >
@@ -152,14 +152,14 @@ Test&amp;Target オファーセットページを閉じる前に、オファー�
 
 ## オファーセットの削除 {#delet-an-offer-set}
 
-オファーセットを削除すると、そのセット自体はごみ箱に移されます。 ただし、そのセット内のメンバー（または「子」）は影響を受けません。代わりに、それぞれが既存の公開済みまたは未公開状態を保持します。
+オファーセットを削除すると、そのセット自体はごみ箱に移されます。 ただし、そのセット内のメンバーは影響を受けません。代わりに、それぞれが既存の公開済みまたは未公開状態を保持します。
 
 [手動でのアセットの公開](publishing-files.md#manually_publishing_assets)と[手動でのアセットの非公開](publishing-files.md#manually_unpublishing_assets)も参照してください。
 
 **オファーセットを削除するには：**
 
-1. グリッド表示、リスト表示または詳細表示で、1つ以上のオファーセットを選択します。
-1. グローバルナビゲーションバーで、**[!UICONTROL ファイル]** > **[!UICONTROL 削除]** > **削除**&#x200B;に移動します。
+1. グリッドビュー、リストビューまたは詳細ビューで、1 つ以上のオファーセットを選択します。
+1. グローバルナビゲーションバーで、**[!UICONTROL ファイル]** > **[!UICONTROL 削除]**&#x200B;に移動します。
 
 >[!MORELIKETHIS]
 >
