@@ -12,9 +12,13 @@ topic: Development
 level: Experienced
 autotag-review: '2026-05-13T18:18:48.978Z'
 TQID: 'https://experienceleague.adobe.com/OER2DJaRg4M20aJ1hlimXCf-yAqBrr27un4ZCPov4GA'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 source-git-commit: 6e5910c1120d980bd60343c7e6feb76bbd8e289a
 workflow-type: tm+mt
 source-wordcount: 829
@@ -32,7 +36,7 @@ ht-degree: 29%
 
 パラメータは複数回参照できます。 パラメータダイアログボックスの各コマンド用のコンボボックスを使用して、特定のコマンドに該当するパラメータを選択します 例えば、`size=` コマンドでは、すべてのサイズ パラメーターを使用できます。 パラメーター参照をコンボボックス内の既存の任意のパラメーターに再割り当てし、コンボボックス内にない名前に変更できます。 後者の場合、名前は一意である必要があります。 それ以外の場合は、パラメーターが存在することを示すエラーが発生します。 パラメーター参照を削除すると、そのパラメーターが他の場所で参照されていない場合、そのパラメーターはURLから削除されます。 テキストパラメーターのデフォルト値を変更すると、そのパラメーターへのすべての参照が更新されます。 レイヤーテーブル、テンプレートレンダリング、URLに更新が表示されます。 プロパティパネルでサイズ変更ハンドルを操作するか、値を入力してレイヤー属性を変更すると、パラメーター値が更新され、パラメーターへの参照がすべて更新されます。 例えば、1つのパラメーターを使用して2つのレイヤーのサイズをパラメーター化した場合、レイヤーサイズのいずれかが変更されると、両方のレイヤーサイズが更新されます。 テンプレートをプレビューし、パラメータを変更すると、そのパラメータへのすべての参照が更新されます。
 
-[ テンプレートの基本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)のトレーニングビデオも参照してください。
+[&#x200B; テンプレートの基本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)のトレーニングビデオも参照してください。
 
 ## レイヤーのパラメータ化 {#parameterizing-a-layer}
 
