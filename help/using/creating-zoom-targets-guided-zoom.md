@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:42:52.841Z'
 TQID: 'https://experienceleague.adobe.com/XXeYyrU-e6TE4MwaaiGmV176s9PZuOoBI1oSOXEtzGE'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: e7543e72fee35a936749cdd110d1d4a2a288c3bf
 workflow-type: tm+mt
 source-wordcount: 724
@@ -26,7 +29,7 @@ ht-degree: 25%
 
 ズームターゲットにより、画像の特定の部分に注目させることができます。 ビューアは、自由形式のズーム以外にも、ズームターゲットのサムネールを選択し、画像の焦点を合わせる部分にズームできます。 ズームターゲットを使用すると、画像の特定の部分をハイライト表示できます。
 
-![ ガイド付きズームのズームターゲットを作成](/help/using/assets/zo_guided_zoom.png)
+![&#x200B; ガイド付きズームのズームターゲットを作成](/help/using/assets/zo_guided_zoom.png)
 
 ## ズームターゲットについて {#about-zoom-targets}
 
@@ -37,7 +40,7 @@ ht-degree: 25%
 | 大 | 小 | 最小ズーム率は小さくなる |
 | 小 | 大 | 最小ズーム率は大きくなる |
 
-Web ページで使用されているサイズに合わせて、ズームビューアのサイズを変更できます。 この設定は、設定画面でビューアサイズを変更することで永続的に変更できます（管理者の場合）。 [ ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)を参照してください。
+Web ページで使用されているサイズに合わせて、ズームビューアのサイズを変更できます。 この設定は、設定画面でビューアサイズを変更することで永続的に変更できます（管理者の場合）。 [&#x200B; ズームビューアプリセットの設定](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)を参照してください。
 
 ## ズームターゲットの作成と編集 {#creating-and-editing-zoom-targets}
 
