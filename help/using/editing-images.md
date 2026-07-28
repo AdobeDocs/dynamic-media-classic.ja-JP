@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:46:38.633Z'
 TQID: 'https://experienceleague.adobe.com/9mKPTkpqt7mAjsAqsACECGo-Wtia-6kPfEXBrndz-zU'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 7030f0f6339a3fd25ac7d81f5d11cd2edbc1996a
 workflow-type: tm+mt
 source-wordcount: 317
@@ -28,7 +31,7 @@ Adobe Dynamic Media Classicには、メディアエフェクトを作成する�
 
 * **画像マップを作成**：画像マップを作成するには、「画像」コマンドまたは「**[!UICONTROL 画像マップ]**」ボタンを選択します。 画像マップは、画像上のホットスポット、e カタログページ、またはロールオーバーテキストを含むパネルを表示するスピンセット内の画像です。 例えば、ユーザーは画像マップを選択して、新しいWeb ページを起動できます。 [画像マップの作成](/help/using/creating-image-maps.md)を参照してください。
 
-* **ズームターゲットを作成**: ズームターゲットを作成するには、「**[!UICONTROL ズームターゲット]**」ボタンまたは「 ズームターゲット 」コマンドを選択します。 ユーザーは、ズームビューアでサムネールターゲットを選択して、画像の特定の部分に直接ズームできます。 ガイド付きズーム ](/help/using/creating-zoom-targets-guided-zoom.md)のズームターゲットを[作成するを参照してください。
+* **ズームターゲットを作成**: ズームターゲットを作成するには、「**[!UICONTROL ズームターゲット]**」ボタンまたは「 ズームターゲット 」コマンドを選択します。 ユーザーは、ズームビューアでサムネールターゲットを選択して、画像の特定の部分に直接ズームできます。 ガイド付きズーム [&#128279;](/help/using/creating-zoom-targets-guided-zoom.md)のズームターゲットを作成するを参照してください。
 
 * **画像を切り抜く**：画像を切り抜くには、「切り抜き」コマンドまたは「**[!UICONTROL 切り抜き]**」ボタンを選択します。 [画像を切り抜く](/help/using/cropping-image.md)を参照してください。
 
