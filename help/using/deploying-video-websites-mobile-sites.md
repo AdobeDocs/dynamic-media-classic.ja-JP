@@ -1,5 +1,5 @@
 ---
-title: Web サイトやモバイルサイトへのビデオの配信
+title: Web サイトとモバイルサイトへのビデオのデプロイ
 description: Adobe Dynamic Media Classicからweb サイトとモバイルサイトにビデオをデプロイする方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:00.273Z'
 TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 22%
+source-wordcount: 1720
+ht-degree: 19%
 
 ---
 
@@ -39,7 +36,7 @@ web サイト、モバイルサイト、デスクトップアプリケーショ�
 
 ビデオの公開に使用できる方法は2つあります。
 
-* **アップロード時にビデオを自動的かつ即座に公開する**：ビデオのアップロードプロセスの一環として、Adobe Dynamic Media Classicはビデオのアップロードとエンコード時にビデオを自動的に公開できます。 このインスタントパブリッシング機能により、事後別にビデオを公開する必要がなくなります。
+* **アップロード時にビデオを自動的かつ即座に公開する**：ビデオのアップロードプロセスの一環として、Adobe Dynamic Media Classicはビデオのアップロードとエンコード時にビデオを自動的に公開できます。 インスタントパブリッシングは、ビデオを個別に公開する必要がないことを意味します。
 
 * **アップロード後にビデオを手動で公開**：ビデオをすぐに公開しない場合は、いつでも手動でビデオを公開できます。
 
@@ -49,7 +46,7 @@ web サイト、モバイルサイト、デスクトップアプリケーショ�
 
 1. 次のいずれかの操作を行います。
 
-   * アップロード時にビデオを自動的かつ即座に公開するには、アップロードページで「**[!UICONTROL アップロード後に公開」を選択します]**。 完了後は、それ以上の手順は必要ありません。
+   * アップロード時にビデオを自動的かつ即座に公開するには、アップロードページで「]**」をアップロードした後、「**[!UICONTROL &#x200B;公開」を選択します。 プロセスは完了しました。実行する手順はありません。
    * アップロード後にビデオを手動で公開するには、参照パネルでビデオを選択し、グローバルナビゲーションバーで「**公開**」を選択します。
 
 ## モバイルサイトまたはweb サイトへのビデオ URLのリンク {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -85,7 +82,7 @@ web サイト、モバイルサイト、デスクトップアプリケーショ�
 
 Web ページに埋め込まれたビデオを再生する場合は、埋め込みコード機能を使用します。 埋め込まれたコードをクリップボードにコピーして、Web ページに貼り付けることができます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-[&#x200B; モバイルサイトまたはweb サイトへのビデオ URLのリンク &#x200B;](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)も参照してください。
+[ モバイルサイトまたはweb サイトへのビデオ URLのリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)も参照してください。
 
 **Web ページにビデオビューアーを埋め込むには：**
 
@@ -127,15 +124,15 @@ Adobe Dynamic Media Classic HTML5 ビデオプレーヤーを使用しない場�
 
 * `"S7 video thumbnail URL"`を、ユーザーがビデオを再生する前に表示されるビデオのサムネール画像であるビデオのサムネール URLに置き換えます。
 
-  [&#x200B; ビデオサムネール URLの取得](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)を参照してください。
+  [ ビデオサムネール URLの取得](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)を参照してください。
 
 * `"S7 OGG video asset URL (no player)"`をOGG ビデオのビデオのプログレッシブ URLに置き換えます。
 
-  [&#x200B; モバイルサイトまたはweb サイトへのビデオ URLのリンク &#x200B;](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)を参照してください。
+  [ モバイルサイトまたはweb サイトへのビデオ URLのリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)を参照してください。
 
 * `"S7 MP4 mobile progressive video asset URL (no player)"`をビデオのモバイル プログレッシブ URLに置き換えます。
 
-  [&#x200B; モバイルサイトまたはweb サイトへのビデオ URLのリンク &#x200B;](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)を参照してください。
+  [ モバイルサイトまたはweb サイトへのビデオ URLのリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)を参照してください。
 
 ## サードパーティのビデオプレーヤーを使用してビデオをデプロイ {#deploying-video-using-a-third-party-video-player}
 
@@ -150,7 +147,8 @@ Dynamic Media Classic ビデオビューアの代わりにサードパーティ�
 
   **[!UICONTROL アプリケーション一般設定]** ページの&#x200B;**[!UICONTROL サーバー]** グループの&#x200B;**[!UICONTROL 公開サーバー名]** テキストフィールドで、直接URLを作成します。 次の構文を使用します：`server/is/content/company/folder/filename.m3u8`
 
-  例えば、公開済みサーバー名が`https://s7d9.scene7.com/.`であるとします。手順2の構文を使用すると、ダイレクト URLは次のようになります。
+  例えば、公開済みサーバー名が`https://s7d9.scene7.com/`であるとします。 手順2の構文を使用すると、ダイレクト URLは次のようになります。
+
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * HLSのストリーミングビデオのダイレクト URL （シングルビットレート）を生成するには
@@ -160,6 +158,7 @@ Dynamic Media Classic ビデオビューアの代わりにサードパーティ�
   `server/company/folder/filename.ext.m3u8`
 
   例えば、HLS ストリーミングサーバー名が`https://s7mbrstream.scene7.com/hls-vod/`であるとします。 手順2の構文を使用すると、ダイレクト URLは次のようになります。
+
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * プログレッシブビデオのダイレクト URL を生成するには
@@ -169,23 +168,24 @@ Dynamic Media Classic ビデオビューアの代わりにサードパーティ�
   `server/company/folder/filename`
 
   例えば、プログレッシブビデオサーバー名が`https://s7d9.scene7.com/is/content/`であるとします。 手順2の構文を使用すると、ダイレクト URLは次のようになります。
+
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## ビデオサムネールの操作 {#working-with-video-thumbnails}
 
 Adobe Dynamic Media Classicは、エンコードされたビデオと事前にエンコードされたビデオのサムネールを生成します。 ビデオサムネールは、画像アセットと同じように使用できます。 さらに、Adobe Dynamic Media Classicが生成するビデオサムネールのURLを取得することもできます。 次に、これらのURLをAdobe Dynamic Media Classicの外部にデプロイします。 例えば、Web サイト上の検索結果、関連するビデオリスト、ビデオ再生リストにサムネールを配信できます。
 
-ビデオの最初の不均一のフレーム（真っ黒でないフレーム、真っ白でないフレームなど）に基づきサムネールが生成されます。
+サムネールは、ビデオの最初の異種フレーム（すべての黒フレームや白フレームではない）に基づいて生成されます。
 
 ### ビデオサムネール URLの取得 {#obtaining-video-thumbnail-urls}
 
-Adobe Dynamic Media Classicは、アップロードプロセス中に自動的にビデオサムネールを生成します。 サムネールは、リストビューとグリッドビューの参照パネルに表示されます。
+Adobe Dynamic Media Classicは、アップロードプロセス中に自動的にビデオサムネールを生成します。 サムネールは、参照パネルのリストビューとグリッドビューに表示されます。
 
 ビデオサムネールの URL を生成するには、公開操作を実行します。
 
-[&#x200B; ビデオの公開](deploying-video-websites-mobile-sites.md#publishing_video)を参照してください。
+[ ビデオの公開](deploying-video-websites-mobile-sites.md#publishing_video)を参照してください。
 
-公開後、URL および埋め込みコードパネルの詳細ビューでビデオサムネールの URL を取得できます。 ビデオサムネールの右側にある「**[!UICONTROL URLをコピー]**」を選択すると、関連するURLをコピーできます。
+公開後、URLと埋め込みコードパネルの詳細ビューでビデオサムネール URLを取得できます。 ビデオサムネールの右側にある「**[!UICONTROL URLをコピー]**」を選択すると、関連するURLをコピーできます。
 
 ### ビデオビューアでのポスターフレームの変更 {#modifying-poster-frames-in-video-viewers}
 
@@ -193,12 +193,12 @@ Adobe Dynamic Media Classicは、アップロードプロセス中に自動的�
 
 ポスターフレームに画像修飾子を適用できます。 例えば、ポスターフレームを切り抜いたり、透明にしたりすることができます。 ポスターフレームを変更するには、ビデオビューアの設定画面を開いて、「ポスター画像修飾子」セクションに修飾子を入力します。
 
-[&#x200B; ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
+[ ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
 
-[画像サービングガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)を参照してください。
+[画像サービングガイド ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)を参照してください。
 
 また、ビデオサムネールの URL に修飾子を追加して、ビデオサムネールを変更することもできます。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファイルを公開](publishing-files.md#publishing_files)
+>* [ ファイルを公開](publishing-files.md#publishing_files)
