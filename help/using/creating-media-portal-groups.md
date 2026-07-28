@@ -1,5 +1,5 @@
 ---
-title: Media Portal グループの作成と管理
+title: メディア ポータル グループの作成と管理
 description: Adobe Dynamic Media ClassicでMedia Portal グループを作成および管理する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b83425ec5382ae173947fa0c9321e734f14eaced
+source-git-commit: 9e8d28c53d9bcc90cbbbb09b038833136fc96ad7
 workflow-type: tm+mt
 source-wordcount: 843
 ht-degree: 39%
