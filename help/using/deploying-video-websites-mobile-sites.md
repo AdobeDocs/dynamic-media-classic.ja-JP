@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:00.273Z'
 TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
 source-wordcount: 1720
@@ -46,7 +49,7 @@ web サイト、モバイルサイト、デスクトップアプリケーショ�
 
 1. 次のいずれかの操作を行います。
 
-   * アップロード時にビデオを自動的かつ即座に公開するには、アップロードページで「]**」をアップロードした後、「**[!UICONTROL &#x200B;公開」を選択します。 プロセスは完了しました。実行する手順はありません。
+   * アップロード時にビデオを自動的かつ即座に公開するには、アップロードページで「**」をアップロードした後、「**&#x200B;公開」を選択します。 プロセスは完了しました。実行する手順はありません。
    * アップロード後にビデオを手動で公開するには、参照パネルでビデオを選択し、グローバルナビゲーションバーで「**公開**」を選択します。
 
 ## モバイルサイトまたはweb サイトへのビデオ URLのリンク {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -82,7 +85,7 @@ web サイト、モバイルサイト、デスクトップアプリケーショ�
 
 Web ページに埋め込まれたビデオを再生する場合は、埋め込みコード機能を使用します。 埋め込まれたコードをクリップボードにコピーして、Web ページに貼り付けることができます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
-[ モバイルサイトまたはweb サイトへのビデオ URLのリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)も参照してください。
+[&#x200B; モバイルサイトまたはweb サイトへのビデオ URLのリンク &#x200B;](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)も参照してください。
 
 **Web ページにビデオビューアーを埋め込むには：**
 
@@ -124,15 +127,15 @@ Adobe Dynamic Media Classic HTML5 ビデオプレーヤーを使用しない場�
 
 * `"S7 video thumbnail URL"`を、ユーザーがビデオを再生する前に表示されるビデオのサムネール画像であるビデオのサムネール URLに置き換えます。
 
-  [ ビデオサムネール URLの取得](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)を参照してください。
+  [&#x200B; ビデオサムネール URLの取得](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)を参照してください。
 
 * `"S7 OGG video asset URL (no player)"`をOGG ビデオのビデオのプログレッシブ URLに置き換えます。
 
-  [ モバイルサイトまたはweb サイトへのビデオ URLのリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)を参照してください。
+  [&#x200B; モバイルサイトまたはweb サイトへのビデオ URLのリンク &#x200B;](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)を参照してください。
 
 * `"S7 MP4 mobile progressive video asset URL (no player)"`をビデオのモバイル プログレッシブ URLに置き換えます。
 
-  [ モバイルサイトまたはweb サイトへのビデオ URLのリンク ](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)を参照してください。
+  [&#x200B; モバイルサイトまたはweb サイトへのビデオ URLのリンク &#x200B;](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)を参照してください。
 
 ## サードパーティのビデオプレーヤーを使用してビデオをデプロイ {#deploying-video-using-a-third-party-video-player}
 
@@ -183,7 +186,7 @@ Adobe Dynamic Media Classicは、アップロードプロセス中に自動的�
 
 ビデオサムネールの URL を生成するには、公開操作を実行します。
 
-[ ビデオの公開](deploying-video-websites-mobile-sites.md#publishing_video)を参照してください。
+[&#x200B; ビデオの公開](deploying-video-websites-mobile-sites.md#publishing_video)を参照してください。
 
 公開後、URLと埋め込みコードパネルの詳細ビューでビデオサムネール URLを取得できます。 ビデオサムネールの右側にある「**[!UICONTROL URLをコピー]**」を選択すると、関連するURLをコピーできます。
 
@@ -193,12 +196,12 @@ Adobe Dynamic Media Classicは、アップロードプロセス中に自動的�
 
 ポスターフレームに画像修飾子を適用できます。 例えば、ポスターフレームを切り抜いたり、透明にしたりすることができます。 ポスターフレームを変更するには、ビデオビューアの設定画面を開いて、「ポスター画像修飾子」セクションに修飾子を入力します。
 
-[ ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
+[&#x200B; ビデオビューアプリセットの追加または編集](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)を参照してください。
 
-[画像サービングガイド ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)を参照してください。
+[画像サービングガイド &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)を参照してください。
 
 また、ビデオサムネールの URL に修飾子を追加して、ビデオサムネールを変更することもできます。
 
 >[!MORELIKETHIS]
 >
->* [ ファイルを公開](publishing-files.md#publishing_files)
+>* [&#x200B; ファイルを公開](publishing-files.md#publishing_files)
