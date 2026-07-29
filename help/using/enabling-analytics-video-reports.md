@@ -25,28 +25,28 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a157ef90a1ff3051fe0939b859d1ba7a63537b82
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: 265
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics ビデオレポートの有効化{#enabling-adobe-analytics-video-reports}
 
-Adobe Analytics ハートビートベースのビデオレポートを使用すると、Adobe Dynamic Media ClassicでAdobe Analyticsを設定する際に、4つのビデオビューアイベント（再生、一時停止、停止、マイルストーン）を有効にする必要がなくなりました。 ビデオ ハートビートは、Adobe Dynamic Media Classic HTML5のビデオおよびミックスメディアビューアで動作します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。
+Adobe Analytics ハートビートベースのビデオレポートを使用すると、Adobe Dynamic Media ClassicでAdobe Analyticsを設定する際に、4つのビデオビューアイベント（再生、一時停止、停止、マイルストーン）を有効にする必要がなくなりました。 ビデオハートビートは、標準のAdobe Dynamic Media Classic HTML5 ビデオビューアおよびミックスメディアビューアで動作します。 ビデオプレーヤーは、Adobe Analytics ビデオレポート内で表示するためのトラッキングデータを生成します。
 
 * ストリーミングメディアと「ハートビート測定」の概要については、[&#x200B; ストリーミングメディア用Adobe Analyticsについて](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。
 
 * Adobe Analytics ビデオレポートとAdobe Dynamic Media Classicの統合では、ソリューション変数はサポートされますが、カスタム変数はサポートされません。
 
-  ソリューション変数とカスタム変数について詳しくは、[&#x200B; オーディオとビデオのパラメーター](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/audio-video-parameters)を参照してください。
+  ソリューション変数とカスタム変数について詳しくは、[&#x200B; オーディオとビデオのパラメーター](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/overview)を参照してください。
 
-* 1分インクリメントのすぐに使用できるセグメントがサポートされています。 ただし、時間増分に基づく顧客定義のマイルストーン、% マイルストーン、オフセットマイルストーンなどのカスタムセグメントレポートはサポートされていません。
+* 1分インクリメントの標準セグメントがサポートされています。 ただし、時間増分に基づく顧客定義のマイルストーン、% マイルストーン、オフセットマイルストーンなどのカスタムセグメントレポートはサポートされていません。
 
   ストリーミングメディアの要件と設定について詳しくは、[Adobe Analyticsでのストリーミングメディアの測定](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。
 
-* カスタム変数とソリューション変数について詳しくは、[&#x200B; メディアレポートの有効化](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-reports/media-reports-enable#media-reports)を参照してください。
+* カスタム変数とソリューション変数について詳しくは、[&#x200B; メディアレポートの有効化](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management)を参照してください。
 
 >[!NOTE]
 >

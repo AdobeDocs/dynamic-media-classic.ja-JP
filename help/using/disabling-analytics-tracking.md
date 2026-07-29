@@ -23,18 +23,20 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 48c22780dad668ea7189197dce2ca2a7edd1cedd
 workflow-type: tm+mt
-source-wordcount: 85
-ht-degree: 3%
+source-wordcount: 84
+ht-degree: 32%
 
 ---
 
 # Adobe Analytics トラッキングを無効にする{#disabling-adobe-analytics-tracking}
+
+これらの手順により、Adobe Dynamic Media Classicおよび&#x200B;**[!UICONTROL CopyURL]**&#x200B;機能から取得したURLのサポートが無効になります。 独自の追跡機能を実装する場合は、独自の実装と競合しないように、設定ページで Adobe Analytics 追跡を無効にしてください。
 
 **Adobe Analytics トラッキングを無効にするには：**
 
 1. Adobe Dynamic Media ClassicのAdobe Analytics設定ページで、すべてのイベントをオフにします。
 1. 保存して公開します。
 
-これらの手順により、Adobe Dynamic Media Classicのサポートと&#x200B;**[!UICONTROL CopyURL]**&#x200B;機能から取得したURLのサポートがオフになります。 カスタムトラッキングを実装する場合は、設定ページで設定されたAdobe Analytics トラッキングを無効にして、カスタム実装との競合を防ぎます。
+

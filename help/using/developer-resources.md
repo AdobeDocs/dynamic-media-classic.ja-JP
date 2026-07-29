@@ -17,16 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ef0ddb7b88e52964af778ddb3ab049ce540f8f3d
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 221
 ht-degree: 12%
 
 ---
 
 # 開発者向けリソース {#developer-resources}
 
-ビューア、画像サービングおよび画像レンダリング、および画像制作システムのリファレンスガイドでは、これらのサーバーモジュールのhttp プロトコルについて説明します。 web サイトの開発者は、さらにカスタマイズして、web サイトまたはカスタムアプリケーションにAdobe Dynamic Media Classic リッチメディアを使用する場合は、これらのガイドを使用できます。 Dynamic Media Classic デスクトップアプリ、一般的なhttp プロトコルの標準と規則、基本的なイメージング用語に精通していることを前提としています。
+ビューア、画像サービングおよび画像レンダリング、および画像制作システムのリファレンスガイドでは、これらのサーバーモジュールのHTTP プロトコルについて説明します。 web サイトまたはカスタムアプリケーション用にAdobe Dynamic Media Classicリッチメディアをカスタマイズして使用するweb サイト開発者は、これらのガイドを使用できます。 Dynamic Media Classic デスクトップアプリ、一般的なHTTP プロトコルの標準と規則、基本的なイメージング用語に精通している必要があります。
 
 [Dynamic Media開発者リソース &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources)も参照してください。
 

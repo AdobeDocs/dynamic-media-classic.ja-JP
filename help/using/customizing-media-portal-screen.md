@@ -19,22 +19,22 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 00d087b14c6c030473ecfee92ec879e705a9b197
 workflow-type: tm+mt
 source-wordcount: 329
-ht-degree: 18%
+ht-degree: 5%
 
 ---
 
 # Media Portal画面のカスタマイズ{#customizing-the-media-portal-screen}
 
-Media Portal スタイル設定によって、Media Portal 画面に自社ロゴとカラーを使用してブランド化できます。 スタイル設定を使用して、Media Portalで会社のブランディングを設定します。
+Media Portal スタイル設定によって、Media Portal 画面に自社ロゴとカラーを使用してブランド化できます。 スタイル設定を使用して、会社のブランディングをMedia Portalに適用します。
 
-スタイル設定にアクセスするには、**[!UICONTROL 設定]** > **[!UICONTROL メディアポータル設定]** > **[!UICONTROL スタイル設定]**&#x200B;に移動します。 設定を作成した後で、設定を保存するには、**[!UICONTROL 保存]**&#x200B;を選択してください。 **[!UICONTROL 復元]**&#x200B;を選択して、デフォルト設定を復元できます。 選択すると、プレビューパネルに表示される内容が表示されます。
+スタイル設定にアクセスするには、**[!UICONTROL 設定]** > **[!UICONTROL メディアポータル設定]** > **[!UICONTROL スタイル設定]**&#x200B;に移動します。 設定を作成した後で、設定を保存するには、**[!UICONTROL 保存]**&#x200B;を選択してください。 **[!UICONTROL 復元]**&#x200B;を選択して、デフォルト設定にリセットできます。 選択すると、プレビューパネルに表示される内容が表示されます。
 
 * **[!UICONTROL ロゴ]**:「**[!UICONTROL 参照]**」を選択し、「ロゴ画像を選択」ウィンドウでグラフィックを選択します。
 
-* **[!UICONTROL アプリケーション]**：背景グラデーションカラーのメニューで選択して、グラデーションカラーブレンドを作成します。
+* **[!UICONTROL アプリケーション]**：背景グラデーションカラーのメニューでオプションを選択して、グラデーションカラーブレンドを設定します。
 
 * **[!UICONTROL ツリー]**: ロールオーバーの色と選択範囲の色を選択します。
 
@@ -48,7 +48,7 @@ Media Portal スタイル設定によって、Media Portal 画面に自社ロゴ
 
 * **[!UICONTROL 進行状況バー]**: アップロードとダウンロードの進行状況を示すバーの色を選択します。
 
-Media Portal ユーザーが選択したスタイル設定を表示するには、Media PortalにアクセスするURLに`?company=(company name)`を追加する必要があります。 例えば、スタイル設定を表示するには、次の場所にあるPortalCo会社にアクセスするMedia Portal ユーザーを指定します。
+Media Portal ユーザーが選択したスタイル設定を表示するには、Media PortalにアクセスするURLに`?company=(company name)`を追加する必要があります。 例えば、スタイル設定を表示するには、PortalCo会社にアクセスするMedia Portal ユーザーは次のURLを使用できます。
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -58,6 +58,6 @@ Media Portal ユーザーが選択したスタイル設定を表示するには�
 
 URLに会社名を含めると、Media Portalはユーザーがどの会社にアクセスしたいかを認識し、それに応じて会社のスタイル設定を適用できます。
 
-Media Portal ユーザーに URL の変更について伝え、新しいユーザーが正確な Media Portal URL を受け取るようにご案内の電子メールメッセージを設定する方法については、他の項で詳しく説明しています。
+Media Portal ユーザーにURLの変更を伝える方法と、新規ユーザーが正しいMedia Portal URLを受け取れるようにウェルカムメールメッセージを設定する方法について詳しくは、こちらを参照してください。
 
-[Media Portal ユーザ向けのご案内の電子メールメッセージの設定](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users)を参照してください。
+[Media Portal ユーザー向けのようこそ電子メールメッセージの設定](adding-media-portal-users.md#setting_up_the_welcome_email_message_for_media_portal_users)を参照してください。

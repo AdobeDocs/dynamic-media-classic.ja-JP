@@ -1,5 +1,5 @@
 ---
-title: 画像の編集
+title: 画像を編集
 description: Adobe Dynamic Media Classicで画像を編集する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 7030f0f6339a3fd25ac7d81f5d11cd2edbc1996a
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 317
 ht-degree: 7%
 
 ---
 
 # 画像の編集{#editing-images}
 
-Adobe Dynamic Media Classicには、リッチメディア効果を作成するためのツールが多数用意されています。 これらのツールは、ロールオーバー&#x200B;**[!UICONTROL 編集]** ボタンを選択し、詳細表示の参照パネルで使用できます。 Adobe Dynamic Media Classicでは、次の画像編集タスクを実行できます。
+Adobe Dynamic Media Classicには、メディアエフェクトを作成するためのツールが多数用意されています。 これらのツールは、ロールオーバー&#x200B;**[!UICONTROL 編集]** ボタンを選択するか、詳細ビューの参照パネルで使用できます。 Adobe Dynamic Media Classicでは、次の画像編集タスクを実行できます。
 
 * **画像マップを作成**：画像マップを作成するには、「画像」コマンドまたは「**[!UICONTROL 画像マップ]**」ボタンを選択します。 画像マップは、画像上のホットスポット、e カタログページ、またはロールオーバーテキストを含むパネルを表示するスピンセット内の画像です。 例えば、ユーザーは画像マップを選択して、新しいWeb ページを起動できます。 [画像マップの作成](/help/using/creating-image-maps.md)を参照してください。
 
-* **ズームターゲットを作成**: サムネールターゲットを作成するには、「ズームターゲット」コマンドまたは「**[!UICONTROL ズームターゲット]**」ボタンを選択します。 ユーザーは、ズームビューアでサムネールターゲットを選択して、画像の特定の部分に直接ズームできます。 ガイド付きズーム [&#128279;](/help/using/creating-zoom-targets-guided-zoom.md)のズームターゲットを作成するを参照してください。
+* **ズームターゲットを作成**: ズームターゲットを作成するには、「**[!UICONTROL ズームターゲット]**」ボタンまたは「 ズームターゲット 」コマンドを選択します。 ユーザーは、ズームビューアでサムネールターゲットを選択して、画像の特定の部分に直接ズームできます。 ガイド付きズーム [&#128279;](/help/using/creating-zoom-targets-guided-zoom.md)のズームターゲットを作成するを参照してください。
 
 * **画像を切り抜く**：画像を切り抜くには、「切り抜き」コマンドまたは「**[!UICONTROL 切り抜き]**」ボタンを選択します。 [画像を切り抜く](/help/using/cropping-image.md)を参照してください。
 
@@ -39,6 +39,6 @@ Adobe Dynamic Media Classicには、リッチメディア効果を作成する�
 
 * **画像を調整**: `Adjust` コマンドまたは&#x200B;**[!UICONTROL 調整]** ボタンを選択して、画像のカラーバランスを反転、回転、ぼかし、色付け、または変更します。 [画像の調整](/help/using/adjusting-image.md)を参照してください。
 
-* **レイヤーを編集**: PSD ファイル内の個別の編集可能なレイヤーを表示するには、「**[!UICONTROL レイヤー]**」タブを選択します。 PSD ファイルをアップロードすると、すべてのレイヤーが個別のファイルとして個別にアップロードされるので、Adobe Dynamic Media Classic内で編集できます。
+* **レイヤーを編集**: PSD ファイル内の個別の編集可能なレイヤーを表示するには、「**[!UICONTROL レイヤー]**」タブを選択します。 PSD ファイルをアップロードすると、すべてのレイヤーが個別のファイルとして個別にアップロードされ、Adobe Dynamic Media Classicで編集できるようになります。
 
 これらのツールを使用して画像を編集するだけでなく、Adobe Dynamic Media Classicにアップロードするときに画像を編集することもできます。 例えば、画像のアップロード時に、画像を切り抜いたり、クリッピングパスからマスクを作成したり、画像のカラープロファイルを選択したりできます。

@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 615
 ht-degree: 21%
 
 ---
@@ -54,13 +54,13 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. 参照パネルで、次のいずれかの操作を行います。
 
-   * アセットを選択します。 Adobe Dynamic Media Classicの右上隅付近にある「**[!UICONTROL 詳細表示]**」アイコンを選択します。
+   * アセットを選択します。 Adobe Dynamic Media Classicの右上隅付近にある&#x200B;**[!UICONTROL 詳細表示]** アイコンを選択します。
    * アセットをダブルクリックします。
    * アセットを選択し、**[!UICONTROL ファイル]**/**[!UICONTROL 詳細]**&#x200B;に移動します。
 
 >[!NOTE]
 >
->アセットからアセットへのページは、同じフォルダーの詳細表示で作成できます。 「**[!UICONTROL 前のアセット]**」または「**[!UICONTROL 次のアセット]**」をクリックします。 これらのボタンは、詳細表示の右上隅にあります。
+>同じフォルダー内のアセット間を移動するには、詳細表示を使用します。 **[!UICONTROL 前のアセット]**&#x200B;または&#x200B;**[!UICONTROL 次のアセット]**&#x200B;をクリックします。 これらのボタンは、詳細表示の右上隅にあります。
 
 ## 詳細ビューで情報を取得 {#getting-information-in-detail-view}
 
@@ -72,7 +72,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 詳細ビューには、開いたアセットを操作するためのツールが用意されています。 使用可能なツールは、使用するアセットのタイプによって異なりますが、詳細ビューには常に次の機能があります。
 
-* **パブリッシュ用アイテム**：名前の左側にある&#x200B;**[!UICONTROL `Publish`]** アイコンを選択するか、**[!UICONTROL ファイル]** > **[!UICONTROL 公開]**&#x200B;または&#x200B;**[!UICONTROL ファイル]** > **[!UICONTROL 非公開]**&#x200B;に移動します。
+* **公開するアイテム**：名前の左側にある&#x200B;**[!UICONTROL `Publish`]** アイコンを選択するか、**[!UICONTROL ファイル]** > **[!UICONTROL 公開]**&#x200B;または&#x200B;**[!UICONTROL ファイル]** > **[!UICONTROL 非公開]**&#x200B;に移動します。
 
 * **アセットの名前を変更**：名前を選択し、新しい名前を入力します。
 
