@@ -12,10 +12,15 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:50:36.235Z'
 TQID: 'https://experienceleague.adobe.com/6fNfI7Na3jeDys307id5U9nIt-DeWCmfwtIzsb0G73I'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ab98008be321400156bd26951ea7cc211b2a9425
 workflow-type: tm+mt
 source-wordcount: 233
@@ -29,7 +34,7 @@ Media Portal管理者のみがFTP アカウントを管理できます。 さら
 
 管理設定のユーザー管理ページを使用して、既存のMedia Portal ユーザーをアクティブ化または非アクティブ化できます。
 
-「[ ユーザーのアクティベートまたはアクティベート解除](administration-setup.md#activating_or_deactivating_users)」を参照してください。
+「[&#x200B; ユーザーのアクティベートまたはアクティベート解除](administration-setup.md#activating_or_deactivating_users)」を参照してください。
 
 1. **[!UICONTROL セットアップ]** > **[!UICONTROL メディアポータル]** > **[!UICONTROL FTP アカウント]**&#x200B;に移動します。
 1. 「FTP アカウントを追加」ページで、「FTP アカウントのユーザー名」ドロップダウンリストからユーザーを選択します。
@@ -43,7 +48,7 @@ Media Portal管理者のみがFTP アカウントを管理できます。 さら
 
    メディアアセットをアップロードするには、既存のアカウントテーブルにリストされているFTP アカウントユーザー名と、アカウントに割り当てられているパスワードが必要です。
 
-   「[ ファイルをアップロード ](uploading-files.md#uploading_files)」のトピックを参照してください。
+   「[&#x200B; ファイルをアップロード &#x200B;](uploading-files.md#uploading_files)」のトピックを参照してください。
 
 ## 既存のFTP アカウントの削除 {#deleting-an-existing-ftp-account}
 
