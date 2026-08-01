@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fa52322e2bccf9ac52380c0af87b5ca2bdb7f709
 workflow-type: tm+mt
 source-wordcount: 87
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 次のヘルプドキュメントは、Adobe Dynamic Media Classicからも入手できます。
 
-**Adobe Dynamic Media Classic Media Portalを使用**: Adobe Dynamic Media Classic Media Portalは、ポータルユーザーが企業が承認した形式でアセットを簡単にアップロード、参照、検索、プレビュー、エクスポートできるブラウザーベースの環境です。 [https://help.adobe.com/ja_JP/scene7/mediaportal/](https://help.adobe.com/ja_JP/scene7/mediaportal/)を参照してください。
+**Adobe Dynamic Media Classic Media Portalを使用**: Adobe Dynamic Media Classic Media Portalは、ポータルユーザーが企業が承認した形式でアセットをアップロード、参照、検索、プレビュー、およびエクスポートするためのアクセス権を提供するブラウザーベースの環境です。 [https://help.adobe.com/ja_JP/scene7/mediaportal/](https://help.adobe.com/ja_JP/scene7/mediaportal/)を参照してください。
 
 <!-- 
 Is this topic still needed? -rb 04/22/21

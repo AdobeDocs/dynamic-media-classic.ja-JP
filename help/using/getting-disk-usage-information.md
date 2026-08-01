@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: df89051c2f5083cdf7ae39f978ab0bfc05230296
 workflow-type: tm+mt
-source-wordcount: 92
-ht-degree: 42%
+source-wordcount: 88
+ht-degree: 34%
 
 ---
 
 # ディスク使用情報の取得 {#get-disk-usage-information}
 
-次の例に示すように、`disk_info` パラメーターを使用して、会社のディスク容量の使用状況に関する情報を取得できます。
+次の例に示すように、`disk_info` パラメーターを使用して、ディスク容量の使用状況に関する情報を取得できます。
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -60,7 +60,7 @@ URL クエリ文字列で以下のフィールドを使用して、ディスク�
 | op | 必須 | disk_info |
 | shared_secret | 必須 | 会社の共有秘密であるキー |
 
-以下のサンプルコードでは、000Company のディスク情報を取得します。
+次のサンプルコードは、ディスク情報を取得します。
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b9602
