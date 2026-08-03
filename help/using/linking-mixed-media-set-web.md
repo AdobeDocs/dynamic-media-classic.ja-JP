@@ -12,27 +12,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:02:51.028Z'
 TQID: 'https://experienceleague.adobe.com/3AeMn6W1vePdJL1PkXuy-YISRw75QUDfdkUP5V2xhEs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: afcc58640eb472fbd6877795fa24414b15eccf55
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 20%
+source-wordcount: 650
+ht-degree: 23%
 
 ---
 
 # 混在メディアセットをWeb ページにリンクする{#linking-a-mixed-media-set-to-a-web-page}
 
-混在メディアセットを公開した後は、Web サイトまたはアプリケーションで使用するための関連URLを取得できます。 次に、必要に応じてURLをデプロイして、ユーザーがWeb サイトまたはアプリケーションで混在メディアセットを表示できるようにします。
+混在メディアセットを公開した後、web サイトまたはアプリケーションで使用するための関連URLを取得できます。 この URL を必要に応じて適用すれば、ユーザが Web サイトやアプリケーション上で混在メディアセットを表示できるようになります。
 
 ## 混在メディアセットの URL の取得 {#obtain-a-mixed-media-set-url}
 
 1. アセット参照パネルの「表示」ドロップダウンリストで、「**[!UICONTROL メディアセット]**」を選択します。
-1. 左側のアセットライブラリパネルで、埋め込みコードをコピーするメディアセットを含むアセットフォルダーに移動します。
+1. 左側のアセットライブラリパネルで、アセットフォルダーに移動します。 コピーする埋め込みコードのメディアセットが含まれます。
 1. アセットの参照パネルの上のツールバーの右側で、次のいずれかの操作を行います。
 
    * **[!UICONTROL 「グリッドビュー」]**&#x200B;をクリックします。 アセットの参照パネルで、1 つのアセットをダブルクリックし、アセットを詳細ビューで開きます。 右側の「URLと埋め込みコード」パネルで、必要なビューアの右側にある「**[!UICONTROL URL]**&#x200B;をコピー」を選択します。
@@ -50,11 +47,11 @@ ht-degree: 20%
 
 ## Web ページへの混在メディアセット URLの追加 {#add-mixed-media-set-urls-to-your-web-page}
 
-混在メディアセットをデプロイする最も一般的な方法は、（ナビゲーションアイコンを介して） Web ページにリンクを配置することです。 選択すると、リンクは動的ページ（ASPまたはJSP）を起動し、Mixed Media Set ViewerにMixed Media Setが表示されます。
+混在メディアセットをデプロイする標準的な方法は、（ナビゲーションアイコンを使用して） web ページにリンクを追加することです。 選択すると、リンクは動的ページ（ASPまたはJSP）を起動し、Mixed Media Set ViewerにMixed Media Setが表示されます。
 
 ## 混在メディアセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-埋め込みコード機能を使用すると、選択した混在メディアセットのビューアーコードを確認できます。 コードをクリップボードにコピーして、ビューアのデプロイメント用にWeb ページに貼り付けることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
+埋め込みコード機能を使用すると、選択した混在メディアセットのビューアーコードを確認できます。 コードをクリップボードにコピーして、ビューアのデプロイメント用にweb ページに貼り付けることもできます。 埋め込みコードダイアログボックスでは、コードを編集することはできません。
 
 **混在メディアセットビューアの埋め込みコードをコピーするには：**
 
