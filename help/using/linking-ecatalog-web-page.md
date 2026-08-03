@@ -57,7 +57,7 @@ Web サイトとアプリケーションは、URL文字列または埋め込み�
 
 eCatalogをデプロイする標準的な方法は、Web ページのeCatalog サムネールカバーページを使用してリンクを追加することです。 eCatalogが中央のポップアップウィンドウで起動するように設定するには、IT部門にお問い合わせください。 ツールバーとアドレスバーを非表示にするには、ブラウザーを設定します。
 
-詳細およびコードサンプルについては、「Adobe ビューアリファレンス」の「[Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
+詳細およびコードサンプルについては、「Adobe ビューアリファレンス」の「[Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
 
 ## eCatalog ビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-ecatalog-viewer}
 
