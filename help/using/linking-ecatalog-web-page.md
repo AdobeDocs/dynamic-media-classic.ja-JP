@@ -1,5 +1,5 @@
 ---
-title: eCatalogをWeb ページにリンクする
+title: Web ページへのe カタログのリンク
 description: Adobe Dynamic Media ClassicでeCatalogをWeb ページにリンクする方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,17 +12,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:52:09.030Z'
 TQID: 'https://experienceleague.adobe.com/cAIaFvlJ3jYoqu1LeLRILuuYsfvuYH6f-N8PqqkHkrk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: a6b941f1da5843a57d082f6bebc4a75a6c2ee65c
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 683
+ht-degree: 16%
 
 ---
 
@@ -55,9 +51,9 @@ Web サイトとアプリケーションは、URL文字列または埋め込み�
 
 ## Web ページへのeCatalog URLの追加 {#adding-ecatalog-urls-to-your-web-page}
 
-eCatalogをデプロイする最も一般的な方法は、Web ページにeCatalog サムネールカバーページの形式でリンクを配置することです。 中央にきちんと表示されるポップアップウィンドウで eCatalog が起動するように、IT 部門の担当者と相談してください。 また、ブラウザ画面にツールバーやアドレスバーなどを表示しないように依頼してください。
+eCatalogをデプロイする標準的な方法は、Web ページのeCatalog サムネールカバーページを使用してリンクを追加することです。 eCatalogが中央のポップアップウィンドウで起動するように設定するには、IT部門にお問い合わせください。 ツールバーとアドレスバーを非表示にするには、ブラウザーを設定します。
 
-詳細およびコードサンプルについては、「Adobe ビューアリファレンス」の「[Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
+詳細およびコードサンプルについては、「Adobe ビューアリファレンス」の「[Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
 
 ## eCatalog ビューアの埋め込みコードのコピー {#copying-the-embed-code-of-an-ecatalog-viewer}
 
