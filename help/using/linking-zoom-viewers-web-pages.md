@@ -57,7 +57,7 @@ web サイトやアプリケーションは、URL文字列や埋め込みコー�
 
 通常、訪問者は、最初にズームアイコンを選択することで、web ページで画像をズームします（多くの場合、アイコンには虫眼鏡の画像が表示されます）。 このアイコンを選択すると、画像をポップアップウィンドウに表示する動的なWeb ページ（ASPまたはJSP）が起動します。 ポップアップウィンドウでは、訪問者が画像をズームします。
 
-詳細およびコードサンプルについては、『HTML ビューアリファレンスガイド』の「[Embedded Adobe5 Basic Zoom Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
+詳細およびコードサンプルについては、『HTML ビューアリファレンスガイド』の「[Embedded Adobe5 Basic Zoom Viewer](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
 
 ## Zoom ビューアの埋め込みコピーをコピーする {#copying-the-embed-copy-of-a-zoom-viewer}
 
