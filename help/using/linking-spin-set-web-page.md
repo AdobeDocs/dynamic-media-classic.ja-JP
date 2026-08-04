@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 98c2209424b1ad028b194d1bdf7c71d77b16b50d
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 21%
+source-wordcount: 729
+ht-degree: 16%
 
 ---
 
 # スピンセットをWeb ページにリンクする{#linking-a-spin-set-to-a-web-page}
 
-Web サイトやアプリケーションは、URL文字列や埋め込みコードを使用して、スピンセットを含むDynamic Media Image Serverのコンテンツにアクセスできます。 この URL 文字列は、公開処理中にアクティブになります。 スピンセットのURL文字列または埋め込みコードをWeb ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。
+Web サイトやアプリケーションは、URL文字列や埋め込みコードを使用して、スピンセットを含むDynamic Media Image Serverのコンテンツにアクセスできます。 これらのURL文字列は、公開プロセス中に有効になります。 スピンセットのURL文字列または埋め込みコードをWeb ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。
 
 >[!NOTE]
 >
@@ -56,13 +56,13 @@ Web サイトやアプリケーションは、URL文字列や埋め込みコー�
 
 ## Web ページへのスピンセット URLの追加 {#adding-spin-set-urls-to-your-web-page}
 
-スピンセットは、すべてのズームビューアと同様、スピンセットをズームウィンドウ内に表示するダイナミックページ（ASP や JSP）経由で配信されます。 Adobe Dynamic Media Classic プラットフォームへのURL呼び出しは、ズームビューアでも同じプロトコルに従います。 ただし、ビューアプリセット名は、管理者が初期設定のスピンセットビューアプリセットとして定義したプリセットによって決まります。 例えば、次の非ライブ URL構文の例では、`viewer.jsp`というプリセット名が含まれており、SKU パラメーターはスピンセット名になっています。
+スピンセットは、ズームウィンドウにスピンセットを表示するダイナミックページ（ASPまたはJSP）を使用して、すべてのズームビューアと同様にデプロイされます。 Adobe Dynamic Media Classic PlatformへのURL リクエストでは、ズームビューアと同じプロトコルが使用されます。 ただし、ビューアプリセット名は、管理者が初期設定のスピンセットビューアプリセットとして定義したプリセットによって決まります。 例えば、次のURL構文（ライブではない）の例では、`viewer.jsp`というプリセット名が含まれており、SKU パラメーターはスピンセット名になっています。
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-このURL構文の例では（リンクが公開されていません）、SKU番号（`sku=backpack_spin`）に注意してください。 `sku=`の後の文字列は、スピンセット名（`backpack spin`）です。
+このURL構文の例では（リンクが公開されていません）、SKU番号（`sku=backpack_spin`）を参照してください。 `sku=`の後の文字列は、スピンセット名（`backpack spin`）です。
 
 ## スピンセットビューアの埋め込みコードのコピー {#copying-the-embed-code-of-a-spin-set-viewer}
 

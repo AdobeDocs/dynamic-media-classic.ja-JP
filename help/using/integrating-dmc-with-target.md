@@ -20,21 +20,21 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: c8b39b658f09de6bb598277c5a0a4e1ce3a8bc9a
 workflow-type: tm+mt
-source-wordcount: 150
+source-wordcount: 137
 ht-degree: 0%
 
 ---
 
 # Adobe Dynamic Media ClassicとAdobe Target Standard/Premiumの統合 {#integrating-dmc-with-target}
 
-[!DNL Adobe Dynamic Media Classic]を[!DNL Target Standard/Premium]と統合する前に、[!DNL Adobe Dynamic Media Classic] アプリケーションの一般設定画面でターゲット URLを入力する必要があります。 Target URLを取得し、アプリケーションの一般設定ページに入力するには、次の操作を行います。
+[!DNL Adobe Dynamic Media Classic]を[!DNL Target Standard/Premium]と統合する前に、[!DNL Adobe Dynamic Media Classic] アプリケーションの一般設定画面でTarget URLを入力する必要があります。 Target URLを取得し、アプリケーションの一般設定ページに入力するには、次の操作を行います
 
 1. [!DNL Adobe Experience Cloud]で、[!DNL Target Standard/Premium] アカウントにログインします。
 1. ログイン後、ブラウザーのアドレスバーに、`.com`までのURLをコピーします。
 
-   例えば、アドレスバーの&#x200B;*架空の* URL （URLのパスに常にスラッシュが含まれ、この例のようにスラッシュが戻っていない）が`https:\\www.myfictionalsite.com/categories/admin/home.do`の場合、*架空の* URLのこの部分のみをコピーします：`https:\\www.myfictionalsite.com`。
+   アドレスバーのURL （URL パスに必ずスラッシュが含まれ、バックスラッシュが含まれない）が`https://www.myfictionalsite.com/categories/admin/home.do`の場合は、この部分をコピーします：`https://www.myfictionalsite.com`。
 
 1. [!DNL Adobe Dynamic Media Classic]で、**[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]**&#x200B;に移動します。
 1. アプリケーションの一般設定ページの「**[!UICONTROL Test&amp;Target Server Name]**」フィールドに、手順2でコピーしたURLを貼り付けます。

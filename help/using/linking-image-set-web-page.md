@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: bf08e294cba9b521d981ea457a3c592fb7ae50ea
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: 700
 ht-degree: 18%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 18%
 
 ## Web ページへの画像セット URLの追加 {#adding-image-set-urls-to-your-web-page}
 
-画像セットをデプロイする最も一般的な方法は、（ナビゲーションアイコンを使用して） Web ページにリンクを配置することです。 選択すると、リンクは動的ページ（JSP）を起動し、画像セットをポップアップズームウィンドウに表示します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
+画像セットをデプロイする標準的な方法は、（ナビゲーションアイコンを使用して） Web ページにリンクを配置することです。 選択すると、リンクは動的ページ（JSP）を起動し、画像セットをポップアップズームウィンドウに表示します。 ズームリンクによって実際のズーム機能を備えたポップアップウィンドウが開きます。
 
 詳細およびコードサンプルについては、『HTML ビューアリファレンスガイド』の「[埋め込みAdobe5 Zoom Viewer](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
 

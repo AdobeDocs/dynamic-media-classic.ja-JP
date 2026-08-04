@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: a39ab917e54f3c998f3542e0ff6628de720ca017
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 696
+ht-degree: 19%
 
 ---
 
-# Web ページへのZoom ビューアのリンク{#linking-zoom-viewers-to-your-web-pages}
+# Web ページへのZoom ビューアの接続{#linking-zoom-viewers-to-your-web-pages}
 
-Web サイトとアプリケーションは、URL文字列または埋め込みコードを介してDynamic Media Image Server コンテンツにアクセスします。 このアクセスには、プライマリ画像と関連するズームターゲットが含まれます。 また、Zoom Viewer プリセットも含まれています。 この URL 文字列は、公開処理中にアクティブになります。 これらのURL文字列または埋め込みコードをWeb ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。
+web サイトやアプリケーションは、URL文字列や埋め込みコードを使用して、Dynamic Media Image Serverのコンテンツにアクセスできます。 このアクセスには、プライマリ画像と関連するズームターゲットが含まれます。 また、Zoom Viewer プリセットも含まれています。 この URL 文字列は、公開処理中にアクティブになります。 これらのURL文字列または埋め込みコードをWeb ページやアプリケーションに配置するには、Adobe Dynamic Media Classicからコピーします。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Web サイトとアプリケーションは、URL文字列または埋め込み�
 
 ## Web ページへのZoom ビューア URLの追加 {#adding-zoom-viewer-urls-to-your-web-page}
 
-通常、訪問者は、最初にズームアイコンを選択することで、web サイトで画像をズームします（多くの場合、アイコンには虫眼鏡の画像が表示されます）。 このアイコンを選択すると、画像をポップアップウィンドウに表示する動的なWeb ページ（ASPまたはJSP）が起動します。 このポップアップウィンドウが、閲覧者が実際に画像をズームする場所となります。
+通常、訪問者は、最初にズームアイコンを選択することで、web ページで画像をズームします（多くの場合、アイコンには虫眼鏡の画像が表示されます）。 このアイコンを選択すると、画像をポップアップウィンドウに表示する動的なWeb ページ（ASPまたはJSP）が起動します。 ポップアップウィンドウでは、訪問者が画像をズームします。
 
 詳細およびコードサンプルについては、『HTML ビューアリファレンスガイド』の「[Embedded Adobe5 Basic Zoom Viewer](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)」を参照してください。
 
