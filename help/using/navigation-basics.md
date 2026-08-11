@@ -12,10 +12,15 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:05:39.171Z'
 TQID: 'https://experienceleague.adobe.com/DCK4H8boSXIInHtizm4W1MbLLE6jkwizXhi7fHFVWr0'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8c84c2e2ad388139c165ab4df89c5aa688f45051
 workflow-type: tm+mt
 source-wordcount: 692
@@ -27,7 +32,7 @@ ht-degree: 11%
 
 Adobe Dynamic Media Classic画面には、グローバルナビゲーションバー、アセットライブラリ、アセットフィルターのタブ、参照パネル/ビルドパネル、メディアカート（Media Portalのみ）の5つの主要な領域があります。
 
-![ ナビゲーションの基本](/help/using/assets/gs_navigation_basics_popup_popup.png)
+![&#x200B; ナビゲーションの基本](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *主なAdobe Dynamic Media Classic地域*
 *A） グローバル ナビゲーション バー；B） アセット ライブラリ；C） アセット フィルターのタブ；D）参照パネル；E） メディア カート （メディア ポータルのみ）*
 
@@ -37,7 +42,7 @@ Adobe Dynamic Media Classic画面には、グローバルナビゲーション�
 
 * **[!UICONTROL 会社を選択]**: メニューからアクセスする会社を選択します。 このボタンは、1つの会社で作業している場合は使用できません。
 
-* **[!UICONTROL アップロード]**: アップロード画面が開き、コンピューターまたはネットワークからAdobe Dynamic Media Classicにファイルをアップロードできます。 デスクトップまたはFTPからファイルをアップロードできます。 [ ファイルのアップロード ](/help/using/uploading-files.md)を参照してください。
+* **[!UICONTROL アップロード]**: アップロード画面が開き、コンピューターまたはネットワークからAdobe Dynamic Media Classicにファイルをアップロードできます。 デスクトップまたはFTPからファイルをアップロードできます。 [&#x200B; ファイルのアップロード &#x200B;](/help/using/uploading-files.md)を参照してください。
 
 * **[!UICONTROL ビルド]**: メニューからビルド タスクを選択します。 ビルドパネルが開いたら、各種アセットを作成します。
 
@@ -77,11 +82,11 @@ Adobe Dynamic Media Classic画面には、グローバルナビゲーション�
 
 * **[!UICONTROL ビルド モード]**: **[!UICONTROL ビルド]**&#x200B;を選択してから、オプションを選択して、ビルド メニューでe カタログ、画像セット、スピンセット、またはその他の使用可能なアイテムの1つを作成できます。 ビルド ページが開きます。 操作対象のアセットを選択するタイミングは、ビルドモードに移る前でも後でも構いません。
 
-[ ナビゲーションの基本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS)のトレーニングビデオも参照してください。
+[&#x200B; ナビゲーションの基本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS)のトレーニングビデオも参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ アセットの管理](about-managing-assets.md)
+>* [&#x200B; アセットの管理](about-managing-assets.md)
 >* [参照パネルでアセットを表示](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
 >* [参照パネルでアセットを選択](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [ アセットの検索](searching-assets.md#searching_assets)
+>* [&#x200B; アセットの検索](searching-assets.md#searching_assets)
