@@ -108,13 +108,13 @@ Adobeが新しいバージョンのデスクトップアプリケーションを
 +++**_リッチメディア戦略を最適化します。 Adobe Dynamic Media Classicについてさらに詳しく知るにはどうすればよいですか？_** 
 Adobe Dynamic Media Classicは、リッチメディアワークフローをサポートするために設計された包括的なソリューションです。 すべての機能を確実に使用するには、次の実践的なリソースを参照してください。
 
-* [Adobe Dynamic Media Classicのベストプラクティスのチュートリアル](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classicのベストプラクティスのチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobeに関するブログ記事](https://blog.adobe.com/)
-* [Adobe Dynamic Media ニュースレターのアーカイブ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Adobe Dynamic Media ニュースレターのアーカイブ](https://experienceleague.adobe.com/ja/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=ja), and the complementary audit program. -->
 
 +++**_Adobe Experience Manager AssetsでAdobe Dynamic Mediaにアップグレードする方法について詳しく知りたい。 詳細情報はどこで入手できますか？_**
 次世代のリッチメディアのオーサリング、公開、および動的配信にアップグレードするメリットについて詳しくは、[Adobe Dynamic Media ポータルにアクセスしてアップグレードしてください](/help/using/upgrade.md)。
