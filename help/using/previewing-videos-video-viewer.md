@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:44.590Z'
 TQID: 'https://experienceleague.adobe.com/-ulcs6af9bMfE-L-kIhwlqs8edAub06N0FTyfhgGxb4'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
 source-wordcount: 853
@@ -26,7 +29,7 @@ ht-degree: 15%
 
 ビデオビューアでビデオがどのように再生されるかをプレビューできます。
 
-[ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
+[&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
 
 **ビデオビューアでビデオをプレビューするには：**
 
@@ -46,7 +49,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classicを使用すると、デスクトップ上でMP4 ビデオをプレビューできます。 この方法を使用すると、モバイルデバイスでテストせずにデスクトップ上でモバイルコンテンツをプレビューできます。 ただし、PC版のプレビューでは、モバイルデバイスでの再生が正確に反映されません。 モバイルデバイスでのビデオの表示と再生をプレビューするには、プレビュー画面に移動します。 「**[!UICONTROL URLをコピー]**」をクリックし、モバイルデバイスのweb ブラウザーにそのURLを入力します。 詳しくは、[Web サイトとモバイルサイトへのビデオのデプロイ ](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)を参照してください。
+>Adobe Dynamic Media Classicを使用すると、デスクトップ上でMP4 ビデオをプレビューできます。 この方法を使用すると、モバイルデバイスでテストせずにデスクトップ上でモバイルコンテンツをプレビューできます。 ただし、PC版のプレビューでは、モバイルデバイスでの再生が正確に反映されません。 モバイルデバイスでのビデオの表示と再生をプレビューするには、プレビュー画面に移動します。 「**[!UICONTROL URLをコピー]**」をクリックし、モバイルデバイスのweb ブラウザーにそのURLを入力します。 詳しくは、[Web サイトとモバイルサイトへのビデオのデプロイ &#x200B;](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)を参照してください。
 
 ## ビデオビューアプリセットの操作 {#working-with-video-viewer-presets}
 
@@ -54,9 +57,9 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classicには、ビデオを再生するための多くの定義済みビューアプリセットが用意されています。管理者であれば、カスタムのビューアプリセットを作成できます。 ビデオビューアの設定には、12以上の異なる設定があります。 サイズ、カラー、ビデオコントロールとオーディオコントロール、プログレスバー、ユーザーインターフェイススキンおよびソーシャル機能を設定できます。
 
-ビデオビューアで[ ビデオをプレビュー](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)を参照してください。
+ビデオビューアで[&#x200B; ビデオをプレビュー](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)を参照してください。
 
-[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 ### ビデオビューアプリセットの追加または編集 {#adding-or-editing-a-video-viewer-preset}
 
@@ -66,7 +69,7 @@ Adobe Dynamic Media Classicには、ビデオを再生するための多くの�
 
 詳しくは、[ビューアプリセット](application-setup.md#viewer_presets)を参照してください。
 
-[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 **ビデオビューアプリセットを追加または編集するには：**
 
@@ -78,7 +81,7 @@ Adobe Dynamic Media Classicには、ビデオを再生するための多くの�
 
    * **追加**: ツールバーで「**[!UICONTROL 追加]**」を選択します。 ビューアプリセットを追加ダイアログボックスで、それぞれのドロップダウンリストからプラットフォームとビューアを選択し、**[!UICONTROL 追加]**&#x200B;を選択します。
 
-   [ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
+   [&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)も参照してください。
 
    * **既存のビューアプリセットから開始して追加する**: テーブルでビデオビューアプリセットを選択し、ツールバーで「**[!UICONTROL 編集]**」を選択します。
 
@@ -99,4 +102,4 @@ Adobe Dynamic Media Classicには、ビデオを再生するための多くの�
 >[!MORELIKETHIS]
 >
 >* [ビデオのエンコーディングのベストプラクティス](uploading-encoding-videos.md#best_practices_for_video_encoding)
->* [ ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)
+>* [&#x200B; ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)
