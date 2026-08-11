@@ -12,31 +12,28 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:53:48.605Z'
 TQID: 'https://experienceleague.adobe.com/UREKSrSiAyo9wRI003RgjbWBLbMz4n4mdO2IBxzP72c'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 3f3b662bf92a81b908f0f10ded2e5c19aa62266a
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 22%
+source-wordcount: 259
+ht-degree: 1%
 
 ---
 
 # eCatalog ビューアでのeCatalogのプレビュー{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-プレビューを使用すると、様々な eCatalog ビューアプリセットを使用して eCatalog を表示できます。 ページの移動、ノート注釈の記入および参照用のコントロールをテストすることもできます。
+プレビュー機能を使用して、異なるeCatalog ビューアプリセットを使用してeCatalogを表示できます。 ページを切り替えたり、メモを追加したり、参照したりするには、様々なコントロールを使用できます。
 
-[&#x200B; デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)を参照してください。
+[ デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)を参照してください。
 
-[&#x200B; アセットのプレビュー](previewing-asset.md#previewing_an_asset)を参照してください。
+[ アセットのプレビュー](previewing-asset.md#previewing_an_asset)を参照してください。
 
 **eCatalog ビューアでeCatalogをプレビューするには：**
 
-1. 左側のアセットライブラリパネルの「表示」ドロップダウンリストで、「ビデオ」や「ビデオセット」などのビデオベースのアセットタイプを選択します。
-1. 左側のアセットライブラリパネルで、eCatalog ビューアでプレビューするビデオを含むアセットフォルダに移動します。
+1. 左側のアセットライブラリパネルの「表示」ドロップダウンリストで、eCatalogやeCatalog SetなどのeCatalog ベースのアセットタイプを選択します。
+1. 左側のアセットライブラリパネルで、eCatalog ビューアでプレビューするeCatalogを含むアセットフォルダーに移動します。
 1. 次のいずれかの操作を行います。
 
    * Assets ウィンドウの上、ツールバーの右側にある&#x200B;**[!UICONTROL グリッド表示]**&#x200B;を選択します。 アセットウィンドウのサムネイル画像の下で、**[!UICONTROL プレビュー]** > **[!UICONTROL ビューアーリスト]**&#x200B;に移動します。
