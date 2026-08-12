@@ -29,7 +29,7 @@ ht-degree: 17%
 
 アセットをDynamic Media画像サーバーに公開します。 アセットを1回限りに公開することも、Adobe Dynamic Media Classicでアセットを定期的に公開するように調整することもできます。 アセットの公開が完了すれば、それらを配信することができます。 Adobe Dynamic Media ClassicからURL呼び出しをコピーし、web サイトまたはアプリケーションに追加できます。
 
-Adobe Dynamic Media Classicでは、HTTP/2経由ですべての画像とビデオの配信がサポートされるようになりました。 つまり、画像またはビデオの公開URLまたは埋め込みコードは、ホストされたアセットを受け入れる任意のアプリケーションと統合できます。 公開されたアセットは、HTTP/2 プロトコルを使用して配信されます。 この配信方法により、ブラウザーとサーバーの通信方法が改善され、すべてのAdobe Dynamic Media Classic アセットのレスポンスと読み込み時間が向上します。 コンテンツのHTTP2配信に関するFAQ[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)を参照してください。
+Adobe Dynamic Media Classicでは、HTTP/2経由ですべての画像とビデオの配信がサポートされるようになりました。 つまり、画像またはビデオの公開URLまたは埋め込みコードは、ホストされたアセットを受け入れる任意のアプリケーションと統合できます。 公開されたアセットは、HTTP/2 プロトコルを使用して配信されます。 この配信方法により、ブラウザーとサーバーの通信方法が改善され、すべてのAdobe Dynamic Media Classic アセットのレスポンスと読み込み時間が向上します。 コンテンツのHTTP2配信に関するFAQ[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/http2)を参照してください。
 
 ## アップロード後に公開 {#publish-after-uploading}
 
