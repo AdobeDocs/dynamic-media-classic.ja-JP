@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 5ed02e02ea5fd8756cbfc279a52985632ddf987a
 workflow-type: tm+mt
 source-wordcount: 243
 ht-degree: 6%
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 # Media Portal{#media-portal}
 
-Adobe Media Portalを利用することで、企業は承認済みアセットを取得、管理し、外部パートナー、チャネル、内部ユーザーに配布できます。 ブラウザーベースの「セルフサービス」環境では、ポータルユーザーが管理者管理の「ビュー」をAdobe Dynamic Media Classic アセットに提供し、企業が承認した形式でアセットを簡単にアップロード、参照、検索、プレビュー、エクスポートできます。
+Adobe Media Portalを利用することで、企業は承認されたアセットを取得、管理し、外部パートナー、チャネル、社内ユーザーに配信できます。 ブラウザーベースの「セルフサービス」環境では、ポータルユーザーが管理者管理の「ビュー」をAdobe Dynamic Media Classic アセットに提供し、企業が承認した形式でアセットを簡単にアップロード、参照、検索、プレビュー、エクスポートできます。
 
 システム要件を含むMedia Portalについて詳しくは、[Adobe Dynamic Media Classic Media Portalの使用](https://help.adobe.com/ja_JP/scene7/mediaportal/)を参照してください。<!-- (https://help.adobe.com/ja_JP/scene7/mediaportal/index.html) -->
 
@@ -39,5 +39,5 @@ Media Portal の管理については、[クイックスタート：Media Portal
 次のトレーニングビデオも参照してください。
 
 * [Media Portalの概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
-* [&#x200B; メディア ポータル ツアー1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
-* [&#x200B; メディア ポータル ツアー2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Media Portal ユーザーの概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Media Portal管理の概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)

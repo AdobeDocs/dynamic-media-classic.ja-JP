@@ -1,5 +1,5 @@
 ---
-title: スウォッチセットアセットのアップロードの準備
+title: スウォッチセットAssetsのアップロードの準備
 description: Adobe Dynamic Media Classicにアップロードするためのスウォッチセットアセットの準備方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -18,14 +18,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 327c9ba1e3d58d2daa8032dbd248c0312a7ec882
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 61%
 
 ---
 
-# スウォッチセットアセットのアップロードの準備{#preparing-swatch-set-assets-for-upload}
+# Swatch Set Assetsをアップロード用に準備{#preparing-swatch-set-assets-for-upload}
 
 画像をアップロードする前に、画像のサイズと形式が正しいことを確認します。 必要なスウォッチファイルもアセンブリします。
 

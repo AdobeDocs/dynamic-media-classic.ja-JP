@@ -1,5 +1,5 @@
 ---
-title: アセットの印刷
+title: Assetsを印刷
 description: Adobe Dynamic Media Classicからアセットを印刷する方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e04b8bf11de4d2ebf5f90a4147c05cda04000f0c
 workflow-type: tm+mt
 source-wordcount: 51
 ht-degree: 0%

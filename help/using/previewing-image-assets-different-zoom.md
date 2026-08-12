@@ -1,5 +1,5 @@
 ---
-title: 異なるズームビューアでの画像アセットのプレビュー
+title: 異なるズームビューアを使用したAssetsのプレビュー
 description: Adobe Dynamic Media Classicで様々なズームビューアを使用して画像アセットをプレビューする方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 89eddd2da3c67714ba6c239a371763ae731d8b49
 workflow-type: tm+mt
 source-wordcount: 251
-ht-degree: 28%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 28%
 **異なるズームビューアで画像アセットをプレビューするには：**
 
 1. 左側のアセットライブラリパネルの「表示」ドロップダウンリストで、「画像」や「画像セット」など、画像ベースのアセットタイプを選択します。
-1. 左側のアセットライブラリパネルで、ズームビューアでプレビューする画像を含むアセットフォルダに移動します。
+1. 左側のアセットライブラリパネルで、ズームビューアでプレビューする画像を含むアセットフォルダーに移動します。
 1. 次のいずれかの操作を行います。
 
    * Assets ウィンドウの上、ツールバーの右側にある&#x200B;**[!UICONTROL グリッド表示]**&#x200B;を選択します。 アセットウィンドウのサムネイル画像の下で、**[!UICONTROL プレビュー]** > **[!UICONTROL ビューアーリスト]**&#x200B;に移動します。

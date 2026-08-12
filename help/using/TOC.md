@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
 user-guide-description: Adobe Dynamic Media Classicの関連リソース。
 index: true
-source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
+source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '805'
 ht-degree: 21%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 21%
   + [FTP アカウントの管理](ftp-accounts.md)
   + [Media Portal ユーザが使用できる書き出しオプションの指定](specifying-export-options-available-media.md)
   + [画像プリセットの作成と有効化](creating-enabling-image-presets.md)
-  + [メタデータの有効活用](making-efficient-metadata.md)
+  + [メタデータの効率的な管理](making-efficient-metadata.md)
   + [Media Portal画面のカスタマイズ](customizing-media-portal-screen.md)
 + アセットのアップロードと公開 {#upload-publish}
   + [アセットのアップロードと公開](about-asset-upload-publish.md)
