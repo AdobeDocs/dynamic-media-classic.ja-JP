@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:38.271Z'
 TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 8653e7b7e736c91c71e1b66902525344b81320ed
 workflow-type: tm+mt
 source-wordcount: 1669
@@ -26,7 +29,7 @@ ht-degree: 17%
 
 アセットをDynamic Media画像サーバーに公開します。 アセットを1回限りに公開することも、Adobe Dynamic Media Classicでアセットを定期的に公開するように調整することもできます。 アセットの公開が完了すれば、それらを配信することができます。 Adobe Dynamic Media ClassicからURL呼び出しをコピーし、web サイトまたはアプリケーションに追加できます。
 
-Adobe Dynamic Media Classicでは、HTTP/2経由ですべての画像とビデオの配信がサポートされるようになりました。 つまり、画像またはビデオの公開URLまたは埋め込みコードは、ホストされたアセットを受け入れる任意のアプリケーションと統合できます。 公開されたアセットは、HTTP/2 プロトコルを使用して配信されます。 この配信方法により、ブラウザーとサーバーの通信方法が改善され、すべてのAdobe Dynamic Media Classic アセットのレスポンスと読み込み時間が向上します。 コンテンツのHTTP2配信に関するFAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)を参照してください。[
+Adobe Dynamic Media Classicでは、HTTP/2経由ですべての画像とビデオの配信がサポートされるようになりました。 つまり、画像またはビデオの公開URLまたは埋め込みコードは、ホストされたアセットを受け入れる任意のアプリケーションと統合できます。 公開されたアセットは、HTTP/2 プロトコルを使用して配信されます。 この配信方法により、ブラウザーとサーバーの通信方法が改善され、すべてのAdobe Dynamic Media Classic アセットのレスポンスと読み込み時間が向上します。 コンテンツのHTTP2配信に関するFAQ[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)を参照してください。
 
 ## アップロード後に公開 {#publish-after-uploading}
 
@@ -87,7 +90,7 @@ Adobe Dynamic Media Classicは、ジョブページで公開ジョブを追跡�
 
 次に、**[!UICONTROL 日次]**、**[!UICONTROL 週次]**、**[!UICONTROL 月次]**、または&#x200B;**[!UICONTROL カスタム]**&#x200B;の「繰り返し」オプションを選択し、公開ジョブを再実行するタイミングを指定します。 Adobe Dynamic Media Classicには、定期的な公開ジョブをスケジュールするためのカレンダーツールが用意されています。 「**[!UICONTROL カスタム]**」オプションを選択し、「ルール」テキストフィールドにルールを入力して、カスタムジョブ間隔を記述できます。
 
-[ カスタム アップロードまたは公開ジョブの時間間隔の作成](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)を参照してください。
+[&#x200B; カスタム アップロードまたは公開ジョブの時間間隔の作成](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)を参照してください。
 
 >[!NOTE]
 >
@@ -105,7 +108,7 @@ Adobe Dynamic Media Classicは、ジョブページで公開ジョブを追跡�
 
 **[!UICONTROL HTTP Notification]**：後続の公開ジョブをトリガーするURLを入力します。
 
-[ アップロードジョブまたはパブリッシュジョブをトリガーとして使用](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)を参照してください）。
+[&#x200B; アップロードジョブまたはパブリッシュジョブをトリガーとして使用](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)を参照してください）。
 
 ## 公開ジョブをキャンセル {#canceling-a-publish-job}
 
@@ -167,5 +170,5 @@ Adobe Dynamic Media Classicのアセットは、コンテンツ配信ネット�
 
 >[!MORELIKETHIS]
 >
->* [ ジョブ ファイルを確認](checking-job-files.md)
+>* [&#x200B; ジョブ ファイルを確認](checking-job-files.md)
 >* [定期的なジョブの編集、削除、一時停止、再開](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
