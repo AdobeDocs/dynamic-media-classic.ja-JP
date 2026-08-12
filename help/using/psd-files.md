@@ -12,9 +12,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T20:08:12.325Z'
 TQID: 'https://experienceleague.adobe.com/DkWNVywchW9Lpxgg-u56TlLEmryKxrxc1zKIno8KgfU'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 29689fc49e1526fa20f6f95af968c9408468f758
 workflow-type: tm+mt
 source-wordcount: 1027
@@ -38,7 +42,7 @@ PSD ファイルをアップロードするオプションは、アップロー�
 
 * **切り抜きオプション**: **[!UICONTROL 切り抜きオプション]**&#x200B;の下にあります。 「**[!UICONTROL トリミング]**」を選択すると、PSD ファイルのエッジから余白を自動的にトリミングできます。 「**[!UICONTROL 手動]**」を選択して、PSD ファイルの側面を切り抜きます。
 
-  * **[!UICONTROL トリミング]**:「]**に基づいてアウェイをトリミング」メニューを選択し、**[!UICONTROL  カラー&#x200B;]**または**[!UICONTROL &#x200B;透明度&#x200B;]**を選択します。**[!UICONTROL 
+  * **[!UICONTROL トリミング]**:「**に基づいてアウェイをトリミング」メニューを選択し、**&#x200B;[!UICONTROL &#x200B; カラー&#x200B;]&#x200B;**または**&#x200B;[!UICONTROL &#x200B;透明度&#x200B;]&#x200B;**を選択します。**
 
   「**[!UICONTROL カラー]**」オプションを選択した場合は、「コーナー」メニューを選択し、切り抜くホワイトスペースのカラーを最も的確に表現したカラーを持つPSDのコーナーを選択します。
 
@@ -92,7 +96,7 @@ PSDをアップロードするときに「**[!UICONTROL レイヤーを管理]**
 1. レイヤーをダブルクリックし、次のいずれかの操作を行います。
 
    * レイヤーに画像マップを作成するには、**[!UICONTROL 画像マップ]** アイコンを選択します。 （[画像マップの作成](creating-image-maps.md#creating_image_maps)を参照）。
-   * レイヤーにズームターゲットを作成するには、**[!UICONTROL ズームターゲット]** アイコンを選択します。 （[ ガイド付きズームのズームターゲットの作成](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)を参照）。
+   * レイヤーにズームターゲットを作成するには、**[!UICONTROL ズームターゲット]** アイコンを選択します。 （[&#x200B; ガイド付きズームのズームターゲットの作成](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)を参照）。
    * レイヤーを切り抜くには、**[!UICONTROL 切り抜き]** アイコンを選択します。 （[画像の切り抜き](cropping-image.md#cropping_an_image)を参照）。
    * レイヤーをシャープにするには、**[!UICONTROL シャープ]**&#x200B;を選択します。 （[画像をシャープにする](sharpening-image.md#sharpening_an_image)を参照）。
    * レイヤーを調整するには、**[!UICONTROL 調整]**&#x200B;を選択します。 （[画像の調整](adjusting-image.md#adjusting_an_image)を参照）。
