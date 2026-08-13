@@ -12,50 +12,44 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T20:10:08.073Z'
 TQID: 'https://experienceleague.adobe.com/DnpXpIqOz1HSLxZAoEOTHG65PSqTWLK7R--OzJj3FcY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: afc1e5c58de547307108448ae111af91f1f482e7
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 23%
+source-wordcount: 690
+ht-degree: 17%
 
 ---
 
 # クイックスタート：Adobe Dynamic Media ClassicとAdobe Analyticsの統合 {#quick-start-integrating-dmc-analytics}
 
-Adobe Analytics は、複数のマーケティングチャンネルからのすべてのオンライン業務の統合データを、マーケット担当者が一箇所で測定、分析、最適化できる、業界トップクラスの製品です。
+Adobe Analyticsは、マーケターが複数のマーケティングチャネルをまたいで、あらゆるオンラインイニシアチブからの統合データを測定、分析、最適化できる一元化された場所を提供する、業界をリードする製品です。
 
 Adobe AnalyticsとAdobe Dynamic Media Classicを統合すると、web サイトでAdobe Dynamic Media Classic ビューアを使用しているweb サイト訪問者の行動に関するレポートを取得できます。 例えば、web サイト訪問者がAdobe Dynamic Media Classic ズームビューアでズームターゲットを選択すると、Adobe Analyticsはこのアクションを記録します。 Adobe Analytics レポートは、Adobe Dynamic Media Classic ビューアでのユーザーアクティビティに関する累積情報を収集できます。
 
-Adobe Analytics レポートを使用して、Web サイト上でのユーザーアクティビティの全体像を明確に把握できます。 どの製品プレゼンテーションがコンバージョンにつながり、どの製品が顧客の興味を引かないかを判断できます。
+Adobe Analyticsのレポートを活用すれば、web サイトにおける顧客のアクティビティを把握できます。 どの製品プレゼンテーションがコンバージョンにつながり、どの製品が顧客の興味を引かないかを判断できます。
 
-Adobe Analyticsの[Measure ビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)も参照してください。
+Adobe Analyticsの[Measure ビデオ ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)も参照してください。
 
 >[!NOTE]
 >
 >AnalyticsとAdobe Dynamic Media Classicを統合し、Analytics レポートを生成するには、有効なAdobe Analytics アカウントが必要です。
 
-このクイックスタートは、Adobe Analytics Instrumentation Kitを使用して、すばやく起動できるように設計されています。
+このガイドは、Adobe Analytics Instrumentation Kitの設定に役立つように設計されています。
 
-## &#x200B;1. Adobe Dynamic Media Classic経由でAdobe Analyticsにログオンし、Adobe Analytics レポート変数をダウンロードします
+## &#x200B;1. Adobe Dynamic Media ClassicからAdobe Analyticsにログインし、Adobe Analytics レポート変数をダウンロードします
 
 >[!NOTE]
 >
->Adobe AnalyticsのWeb サービスアクセスグループのメンバーとして追加されていることを確認します。 Adobe Analytics レポートを設定する前に、この検証を行います。 また、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントに一致させる前に。 このグループのメンバーは、指定したレポートスイートのすべてのレポートにアクセスできます。 インターフェイスで設定された権限に関係なく、Experience CloudのWeb サービス APIを使用して行うことができます。 グループにメンバーを追加するには、Adobe Analyticsで、**[!UICONTROL 管理ツール]** > **[!UICONTROL ユーザー管理]** > **[!UICONTROL グループを編集]**&#x200B;に移動します。
+>Adobe AnalyticsのWeb サービスアクセスグループのメンバーとして追加されていることを確認します。 Adobe Analytics レポートを設定する前と、Adobe Analytics レポート変数をAdobe Dynamic Media Classic イベントに一致させる前に、この検証を行います。 このグループのメンバーは、指定したレポートスイートのすべてのレポートにアクセスできます。 このアクションは、インターフェイスで設定された権限に関係なく、Experience Cloud Web Services APIを使用して実行できます。 グループにメンバーを追加するには、Adobe Analyticsで、**[!UICONTROL 管理ツール]** > **[!UICONTROL ユーザー管理]** > **[!UICONTROL グループを編集]**&#x200B;に移動します。
 
 お客様がWeb サービス アクセス グループのメンバーであることを確認したら、Adobe Dynamic Media Classicで、**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]**&#x200B;に移動します。 Adobe Analytics Configuration ページで、**[!UICONTROL Adobe Analytics Login]**&#x200B;を選択します。
 
 [Adobe Analyticsにログオンする](log-analytics.md#log_in_to_adobe_analytics)を参照してください。
 
-Adobe Analytics ログインダイアログボックスで、Experience Cloud組織ID （オプション）と完全な資格情報を入力し、「**[!UICONTROL ログイン]**」を選択します。 「レポートスイート」ドロップダウンメニューで、使用するレポートスイートの名前を選択します。
+Adobe Analytics ログインダイアログボックスで、Experience Cloud組織ID （オプション）と完全な資格情報を入力し、**[!UICONTROL ログイン]**&#x200B;を選択します。 「レポートスイート」ドロップダウンメニューで、使用するレポートスイートの名前を選択します。
 
 ## &#x200B;2. Adobe Analytics レポート変数のAdobe Dynamic Media Classic ビューアイベントおよびAdobe Dynamic Media Classic変数への割り当て
 
