@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 50446d4791c5eda0eb9b9b5369cf4eee1fee2d3b
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 164
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 ## プライマリ画像をパブリッシュ用にマーク {#marking-master-images-for-publish}
 
-プライマリ画像をDynamic Media Image Serverにコピーするには、公開用にマークする必要があります。 参照パネルで「**[!UICONTROL 公開用にマーク」アイコン]**&#x200B;を選択すると、プライマリ画像を公開用にマークできます。 また、Adobe Dynamic Media Classicにアップロードした画像を公開用にマークすることもできます。
+プライマリ画像をDynamic Media Image Serverにコピーするには、公開用にマークする必要があります。 参照パネルで公開用にプライマリ画像をマークするには、**[!UICONTROL 公開用にマーク]** アイコンを選択します。 また、Adobe Dynamic Media Classicに画像をアップロードする際に、公開用にマークを付けることもできます。
 
 ## プライマリ画像の公開 {#publishing-your-master-images}
 

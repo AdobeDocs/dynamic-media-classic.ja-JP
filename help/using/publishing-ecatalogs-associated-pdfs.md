@@ -1,5 +1,5 @@
 ---
-title: eCatalogsおよび関連するPDFの公開
+title: eCatalogsと関連PDFの公開
 description: Adobe Dynamic Media Classicからe カタログと関連PDFを公開する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6fb52aee7459e9e80a812215a5ba225348fced52
 workflow-type: tm+mt
-source-wordcount: 197
-ht-degree: 13%
+source-wordcount: 195
+ht-degree: 10%
 
 ---
 
 # eCatalogsおよび関連するPDFの公開{#publishing-ecatalogs-and-associated-pdfs}
 
-公開すると、eCatalogとPDFがDynamic Media Image Servers上に配置され、Web サイトまたはアプリケーションで利用できるようになります。 公開プロセスの一環として、Adobe Dynamic Media ClassicはURL文字列をアクティベートします。 このURL文字列は、HTMLのweb ページコードに配置できます。
+公開すると、eCatalogとPDFがDynamic Media Image Servers上に配置され、web サイトまたはアプリケーションで利用できるようになります。 公開プロセスの一環として、Adobe Dynamic Media ClassicはURL文字列をアクティベートします。 このURL文字列は、HTMLのweb ページコードに配置できます。
 
 >[!NOTE]
 >
->eCatalogとPDFが同じフォルダーにあることを確認します。 また、公開する前に、参照パネルまたはアセットの詳細ページで公開用にマークされていることを確認してください。
+>eCatalogとPDFが同じフォルダーにあることを確認します。 公開する前に、参照パネルまたはアセットの詳細ページで公開用にマークされていることを確認してください。
 
 **電子カタログと関連するPDFを公開するには：**
 
@@ -39,7 +39,7 @@ ht-degree: 13%
 1. 公開画面で、「**[!UICONTROL 1回限り]**」を選択するか、「**[!UICONTROL 繰り返し]**」を選択します。
 1. （オプション）「ジョブ名」フィールドに、公開ジョブの名前を入力しますが、定義済みの日付と時刻のテキストは保持します。
 
-   閲覧者がキーワード検索できるように eCatalog を設定する場合は、キーワードが公開されていることを確認します。 公開ダイアログボックスで、**[!UICONTROL 詳細]**&#x200B;を選択します。 「**[!UICONTROL 公開]**」ドロップダウンメニューから、「**[!UICONTROL 検索データを含む]**」を選択します。 このオプションは初期設定ではオンになっています。
+   閲覧者がキーワード検索できるように eCatalog を設定する場合は、キーワードが公開されていることを確認します。 公開ダイアログボックスで、**[!UICONTROL 詳細]**&#x200B;を選択します。 **[!UICONTROL 公開]** ドロップダウンメニューから、「**[!UICONTROL 検索データを含む]**」を選択します。 このオプションはデフォルトで選択されます。
 
 1. 「**[!UICONTROL 公開を送信]**」を選択します。
 

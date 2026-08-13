@@ -18,34 +18,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 3a0d9567c4e9fc6830393efd44b9af43f3781382
 workflow-type: tm+mt
-source-wordcount: 264
+source-wordcount: 263
 ht-degree: 12%
 
 ---
 
 # 混在メディアセットの公開{#publishing-a-mixed-media-set}
 
-公開用にマークした混在メディアセットをAdobe Dynamic Media Classic Video ServerおよびImage Serverに公開するには、公開ジョブを作成します。 Adobe Dynamic Media Classicでは、特定のサーバーに公開するための高度な公開オプションと、既に公開されているアセットを再公開するためのオプションを提供しています。
+Adobe Dynamic Media Classic Video ServerおよびImage Serverへの公開用にマークした混在メディアセットを公開するには、公開ジョブを設定します。 Adobe Dynamic Media Classicでは、特定のサーバーに公開するための高度な公開オプションと、既に公開されているアセットを再公開するためのオプションを提供しています。
 
 >[!NOTE]
 >
->混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。 **Video Server**&#x200B;を使用して、公開用にマークした実際のビデオを公開します。 また、**Image Server**&#x200B;を使用して、ビデオサムネールなどの関連アセットを公開し、アダプティブビデオセットの情報を設定します。
+>混在メディアセットは、**ビデオサーバー**&#x200B;にも **Image Server** にも公開する必要があります。 **Video Server**&#x200B;を使用して、公開用にマークした実際のビデオを公開します。 **Image Server**&#x200B;を使用して、関連するアセット（ビデオサムネールなど）を公開し、アダプティブビデオセットの設定情報を公開します。
 
 Adobe Dynamic Media Classicは、ジョブ画面で公開ジョブを追跡します。
 
 詳しくは、[公開](publishing-files.md#publishing_files)を参照してください。
-
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>RB: Updated the following steps as per Cynthia email, 11/9/2012, added 11/12/2012</p>
-
- -->
 
 **混在メディアセットを公開するには：**
 
@@ -62,7 +52,7 @@ Last Modified Date:
    設定できる詳細なオプションについては、[高度な公開オプション &#x200B;](publishing-files.md#advanced_publish_options)を参照してください。
 
 1. 「**[!UICONTROL 公開を送信]**」を選択します。
-1. 上記の手順2～4を繰り返します。
+1. 手順2～6を繰り返します。
 1. 「**[!UICONTROL 詳細]**」の「**[!UICONTROL 公開先]**」ドロップダウンリストで、「**[!UICONTROL Image Server]**」を選択します。
 
    設定できる詳細なオプションについては、[高度な公開オプション &#x200B;](publishing-files.md#advanced_publish_options)を参照してください。
