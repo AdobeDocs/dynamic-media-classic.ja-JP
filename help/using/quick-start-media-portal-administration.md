@@ -12,10 +12,16 @@ topic: Collaboration, Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:17.674Z'
 TQID: 'https://experienceleague.adobe.com/FSvq-Pe4KTPk2wslzWUkBExR1rZNQAqB90Xw5e-QT-Q'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 42facb1222886a1f2b37ae5dbf2af2d163a8fc88
 workflow-type: tm+mt
 source-wordcount: 830
@@ -33,9 +39,9 @@ Media Portalを利用すれば、承認されたアセットを取得、管理�
 
 * [Media Portalの概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [ メディア ポータル ツアー1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [&#x200B; メディア ポータル ツアー1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [ メディア ポータル ツアー2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [&#x200B; メディア ポータル ツアー2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
 次のクイックスタートは、Media Portalの管理を開始するのに役立つように設計されています。 各ステップの最後に、トピックリンクを選択して詳細を確認します。
 
@@ -91,4 +97,4 @@ Media Portal ユーザーは、ファイルを書き出す際に、ファイル�
 
 Media Portalのスタイル設定を使用すると、Media Portal ページを会社のロゴとカラーでブランディングできます。 スタイル設定を使用して、Media Portalで会社のブランディングを設定します。
 
-[ メディアポータル ページのカスタマイズ ](customizing-media-portal-screen.md#customizing_the_media_portal_screen)を参照してください。
+[&#x200B; メディアポータル ページのカスタマイズ &#x200B;](customizing-media-portal-screen.md#customizing_the_media_portal_screen)を参照してください。
