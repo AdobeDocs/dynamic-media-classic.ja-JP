@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1572
-ht-degree: 25%
+source-wordcount: 1565
+ht-degree: 22%
 
 ---
 
@@ -65,7 +65,7 @@ eCatalog を作成する際に、ページや見開きページの並び順を�
 >
 >Adobe Dynamic Media Classicでe カタログを作成できるようになりました。
 
-ここでは、eCatalog の操作方法をすばやく習得できるように、手順について簡潔に説明します。 手順 1 ～ 7 に従ってください。 各ステップの後、トピック見出しへの相互参照があり、詳細を確認できます。
+このeCatalog クイックスタートは、eCatalogを素早く使用できるように設計されています。 手順 1 ～ 7 に従ってください。 各ステップの後、トピック見出しへの相互参照があり、詳細を確認できます。
 
 ## &#x200B;1. PDF ファイルのアップロード
 
@@ -83,7 +83,7 @@ eCatalog のもとになるファイルは、ほとんどの場合 Adobe PDF フ
 
 eCatalog ページの「**[!UICONTROL 注文ページ]**」タブで、「**[!UICONTROL 1 Up]**」、「**[!UICONTROL 2 Up]**」または「**[!UICONTROL Custom]**」のレイアウトオプションを選択します。 ページや見開きページの配置変更は、それらをドラッグすることで行えますが、eCatalog のサイズが大きい場合には、移動先メニューでページ名を選択することでも行えます。
 
-ページを追加するには、アセットライブラリのフォルダを選択してから、PDF ファイルまたは画像ファイルをページ順序画面にドラッグします。 デフォルトのページ番号の代わりに、カスタムページ名を指定したり、多数のページ名をインポートしたりできます。
+ページを追加するには、Asset Libraryでフォルダーを選択し、PDFまたは画像ファイルをOrder Pages画面にドラッグします。 デフォルトのページ番号の代わりに、カスタムページ名を指定したり、多数のページ名をインポートしたりできます。
 
 **[!UICONTROL 保存]**&#x200B;を選択し、eCatalogの名前を入力して、保存するAdobe Dynamic Media Classic フォルダーを選択し、**[!UICONTROL 保存]**&#x200B;を選択します。 ページの順序を変更したり、eCatalogを編集したりするたびに、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
@@ -135,6 +135,6 @@ eCatalogと関連するPDFを公開すると、Dynamic Media Image Serversに配
 
 Adobe Dynamic Media Classicは、eCatalogをDynamic Media Image Serverに公開するときに、eCatalogの表示に必要なURL コールアウト文字列をアクティブにします。 このURL文字列は、パネルでURLを選択することで、プレビュー画面および参照パネル（詳細表示）からコピーできます。 URL文字列をコピーすると、Web サイトとアプリケーションで使用できるようになります。
 
-IT チームと協力して、eCatalogへのリンクをWeb ページの適切な場所に配置します。 ユーザーがリンクを選択すると、eCatalog Viewerが表示され、ユーザーはeCatalogを参照できます。
+Web ページにeCatalogへのリンクを配置するには、IT チームと協力してください。 ユーザーがリンクを選択すると、eCatalog Viewerが表示され、ユーザーはeCatalogを参照できます。
 
 「[eCatalogをWeb ページにリンクする](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page)」を参照してください。
