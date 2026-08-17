@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:10:57.394Z'
 TQID: 'https://experienceleague.adobe.com/2DaWdJsCz9f5iXEkMi6N1L7s3eFdvpBc1ECrgbVAueo'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 604d547f6867b1a7683f6489555bd5932270d873
 workflow-type: tm+mt
 source-wordcount: 840
@@ -31,7 +35,7 @@ Adobe Photoshopなどの画像編集アプリケーションでは、レイヤ�
 
 パラメーターページを使用すると、テンプレートのあらゆる側面をアドレス可能なパラメーターに変換できます。 テンプレートで使用するレイヤー画像またはテキスト値を変更できます。 パラメーターはURL文字列で渡されます。 これにより、任意のパラメーターを変更できるので、Image Serverから生成された画像を動的にカスタマイズできます。
 
-[ テンプレートの基本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)のトレーニングビデオも参照してください。
+[&#x200B; テンプレートの基本](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)のトレーニングビデオも参照してください。
 
 このクイックスタートは、テンプレートの基本の使用を開始するのに役立つように設計されています。
 
@@ -43,7 +47,7 @@ PSD ファイルを使用してテンプレートを作成する場合は、PSD 
 
 画像ファイルを使用している場合は、画像を切り抜くことができ、画像をアップロードするときに画像内のクリッピングパスからマスクを作成することもできます。
 
-グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して、PSD ファイルまたはその他の画像ファイルをコンピューターからAdobe Dynamic Media Classicのフォルダーにアップロードします。 [ テンプレートファイルのアップロード ](uploading-template-files.md#uploading_template_files)を参照してください。
+グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して、PSD ファイルまたはその他の画像ファイルをコンピューターからAdobe Dynamic Media Classicのフォルダーにアップロードします。 [&#x200B; テンプレートファイルのアップロード &#x200B;](uploading-template-files.md#uploading_template_files)を参照してください。
 
 ## &#x200B;2. テンプレートの作成
 
@@ -55,13 +59,13 @@ PSD ファイルからテンプレートを作成するには、ファイルを�
 * レイヤーの順序の変更。
 * 画像およびテキストレイヤーへのシャドウ効果と光彩効果の適用。
 
-[ テンプレートの作成](creating-template.md#creating_a_template)を参照してください。
+[&#x200B; テンプレートの作成](creating-template.md#creating_a_template)を参照してください。
 
 ## &#x200B;3. テンプレートパラメータの作成
 
 次に、レイヤーのプロパティをパラメータ化して、URL 文字列に含めるレイヤープロパティを決定します。 パラメーターを使用すると、より柔軟にテンプレートを使用できます。 レイヤープロパティをパラメータ化にした後に、それを動的に変更することができます。
 
-レイヤーをパラメータ化するには、テンプレート ページでテンプレートを開き、レイヤー名の横にある&#x200B;**[!UICONTROL パラメーター]**&#x200B;を選択します。 「パラメーター」ページで、追加する各パラメーターの横にあるオプションを選択します。 [ テンプレートパラメーターの作成](creating-template-parameters.md#creating_template_parameters)を参照してください。
+レイヤーをパラメータ化するには、テンプレート ページでテンプレートを開き、レイヤー名の横にある&#x200B;**[!UICONTROL パラメーター]**&#x200B;を選択します。 「パラメーター」ページで、追加する各パラメーターの横にあるオプションを選択します。 [&#x200B; テンプレートパラメーターの作成](creating-template-parameters.md#creating_template_parameters)を参照してください。
 
 ## &#x200B;4. テンプレートの公開
 
@@ -69,7 +73,7 @@ PSD ファイルからテンプレートを作成するには、ファイルを�
 
 必ず、テンプレートに関連付けられているすべての画像を公開してください。
 
-テンプレートを公開するには、公開用にマークし、グローバルナビゲーションバーで「**[!UICONTROL 公開]**」を選択します。 次に、**[!UICONTROL 公開を送信]**&#x200B;を選択します。 [ テンプレートの公開](publishing-templates.md#publishing_templates)を参照してください。
+テンプレートを公開するには、公開用にマークし、グローバルナビゲーションバーで「**[!UICONTROL 公開]**」を選択します。 次に、**[!UICONTROL 公開を送信]**&#x200B;を選択します。 [&#x200B; テンプレートの公開](publishing-templates.md#publishing_templates)を参照してください。
 
 ## &#x200B;5. Web ページへのテンプレートのリンク
 
