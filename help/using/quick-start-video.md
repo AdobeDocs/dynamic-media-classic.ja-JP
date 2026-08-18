@@ -12,10 +12,14 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:11:06.721Z'
 TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
 workflow-type: tm+mt
 source-wordcount: 1728
@@ -45,9 +49,9 @@ Adobe Dynamic Media Classic Videoは、デスクトップ、iOS、Android™、B
 
 * 多数のサポートされているビデオ形式からビデオをアップロードします。 また、オーディオ形式をアップロードし、ビデオをMP4 H.264形式にエンコードして、複数の画面で再生できます。 定義済みのAdobe Dynamic Media Classic アダプティブビデオプリセット、シングルビデオエンコーディングプリセットを使用するか、独自のエンコーディングをカスタマイズして、ビデオの画質とサイズを制御できます。
 
-[ アダプティブビデオプリセットの有効化または無効化](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)を参照してください
+[&#x200B; アダプティブビデオプリセットの有効化または無効化](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)を参照してください
 
-[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 アダプティブビデオセットが生成されると、MP4 ビデオが含まれます。
 
@@ -57,7 +61,7 @@ Adobe Dynamic Media Classic Videoは、デスクトップ、iOS、Android™、B
 
 * ユニバーサル_HTML5_Video、ユニバーサル_HTML5_MixedMedia_dark、ユニバーサル_HTML5_MixedMedia_light ビューアのビデオキャプションと、ユニバーサル_HTML5_Video、ユニバーサル_HTML5_MixedMedia_dark、ユニバーサル_HTML5_MixedMedia_light ビューアのビデオ章ナビゲーション。
 
-  [ ビデオにキャプションを追加](adding-captions-video.md)を参照してください。
+  [&#x200B; ビデオにキャプションを追加](adding-captions-video.md)を参照してください。
 
   ビデオに[章マーカーを追加](adding-chapter-markers-video.md)を参照してください。
 
@@ -66,7 +70,7 @@ Adobe Dynamic Media Classic Videoは、デスクトップ、iOS、Android™、B
 
   アダプティブビデオストリーミングは、様々なiOS プラットフォームでサポートされています。
 
-  最新のサポートについては、[Adobe ビューアリファレンスガイド ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)を参照してください。
+  最新のサポートについては、[Adobe ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)を参照してください。
 
   Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再生をサポートしています。<!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -89,9 +93,9 @@ Adobe Dynamic Media Classic Videoは、デスクトップ、iOS、Android™、B
 
 * [MP4 ビデオのプレビュー](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [MP4 ビデオのアップロード ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [MP4 ビデオのアップロード &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [ ストリーミングの概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [&#x200B; ストリーミングの概要](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **クイックスタート**
 
@@ -110,7 +114,7 @@ Adobe Dynamic Media Classic Videoは、デスクトップ、iOS、Android™、B
 
 * または、**[!UICONTROL 再処理]**&#x200B;機能を使用してプライマリビデオを再処理することもできます。 新しくエンコードされたビデオは、既存のアダプティブビデオセットに追加されます。
 
-[ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
+[&#x200B; ビデオのアップロードとエンコード &#x200B;](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
 
 **オプション**
 
@@ -118,13 +122,13 @@ Adobe Dynamic Media Classicには、多数の定義済みビデオエンコー�
 
 ただし、さらにカスタマイズが必要な場合は、管理者はビデオプリセットを作成して、エンドユーザー向けにビデオのサイズと再生体験をカスタマイズできます。 管理者は、**[!UICONTROL セットアップ]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL ビデオプリセット]** > **[!UICONTROL 単一エンコーディングプリセット]**&#x200B;で利用可能なビデオプリセットページからビデオプリセットを追加および管理できます。 ビデオプリセットページには、ビデオプリセットの追加、編集、削除およびアクティブ化を行うオプションがあります。
 
-[ ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)を参照してください。
+[&#x200B; ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)を参照してください。
 
 ## &#x200B;2. ビデオビューアでのビデオのプレビュー
 
 デスクトップ、web サイト、モバイルデバイス上のエンドユーザーに対してビデオの再生方法を確認するには、参照パネルでビデオを選択します。 次に、**[!UICONTROL プレビュー]**&#x200B;を選択します。
 
-ビデオ ビューアで[ ビデオをプレビュー](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)を参照してください。
+ビデオ ビューアで[&#x200B; ビデオをプレビュー](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)を参照してください。
 
 プレビューページでビデオを再生できます。 また、様々なビデオビューアを選択して、様々なプレーヤーでビデオがどのように表示されるかを確認することもできます。 ベストプラクティスとして、デスクトップ、タブレットおよび携帯端末でのマルチ画面再生には HTML5 ビデオプレーヤーを使用します。
 
@@ -132,9 +136,9 @@ Adobe Dynamic Media Classicには、多数の定義済みビデオエンコー�
 
 ビューアプリセットのカスタマイズ：Adobe Dynamic Media Classicでは、ビデオを配信するための事前定義済みのビューアプリセットが提供されます。 これらのプリセットは、ビューアの外観と、その再生コントロールの動作を決定します。 管理者はビデオビューアをカスタマイズするために、ビューアプリセットページでビューアプリセットを追加および管理することができます。 このページを開くには、Adobe Dynamic Media Classicの右上隅にある&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL ビューアプリセット]**&#x200B;に移動します。 ビューアプリセットページには、ビューアプリセットの追加、編集、削除およびアクティブ化を行うコマンドがあります。
 
-[ ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working_with_video_viewer_presets)を参照してください。
+[&#x200B; ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working_with_video_viewer_presets)を参照してください。
 
-[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 ## &#x200B;3. Web サイトとモバイルサイトへのビデオのデプロイ
 
@@ -160,7 +164,7 @@ Adobe Dynamic Media Classicには、多数の定義済みビデオエンコー�
   >
   >埋め込まれたコードは、ビデオまたはアダプティブビデオセットを公開した後にのみアクティブ化されます。
 
-[Web サイトとモバイルサイトへのビデオのデプロイ ](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)を参照してください。
+[Web サイトとモバイルサイトへのビデオのデプロイ &#x200B;](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)を参照してください。
 
 >[!MORELIKETHIS]
 >
