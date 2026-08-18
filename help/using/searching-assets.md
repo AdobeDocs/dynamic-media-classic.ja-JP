@@ -1,5 +1,5 @@
 ---
-title: Dynamic Media Classic アセットの検索
+title: Dynamic Media Classic Assetsを検索
 description: Adobe Dynamic Media Classicでアセットを検索する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,19 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:34.580Z'
 TQID: 'https://experienceleague.adobe.com/pC3khbkWx53M4aRmPWAV8bFx-Zl8-mD4qU4fZB-cGM8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: fd4b2bc8960392112ad800d9e3da62a09196462b
 workflow-type: tm+mt
-source-wordcount: 1521
-ht-degree: 17%
+source-wordcount: 1501
+ht-degree: 16%
 
 ---
 
@@ -38,15 +33,15 @@ Adobe Dynamic Media Classicでファイルアセットを検索するには、�
 
 ## タイプ別のアセットの表示 {#viewing-assets-by-type}
 
-特定のタイプのファイルのみを参照するには、左側のアセットライブラリの&#x200B;**[!UICONTROL 表示]** ドロップダウンリストで、ファイルタイプを選択します。 表示するタイプのアセットのみがアセットライブラリに表示されます。
+特定のタイプのファイルのみを参照するには、左側のアセットライブラリの&#x200B;**[!UICONTROL 表示]** ドロップダウンリストでファイルタイプを選択します。 表示するタイプのアセットのみがアセットライブラリに表示されます。
 
 >[!NOTE]
 >
->左側にAsset Library パネルが表示されない場合は、Dynamic Media Classic ウィンドウの半分の下側にある右側の三角形の矢印をクリックして、Asset Libraryを開きます。
+>アセットライブラリパネルが非表示になっている場合は、Dynamic Media Classic ウィンドウの中央にある右向き三角形の矢印をクリックして表示します。
 
 ## 参照パネルでのファイルの並べ替え {#sorting-files-in-the-browse-panel}
 
-右側の参照パネルに表示されるフォルダーまたは検索結果の内容を並べ替えることができます。 グローバルナビゲーションバーで、**[!UICONTROL 並べ替え]**&#x200B;を選択し、オプションを選択します。 オプションは、**[!UICONTROL 名前]**、**[!UICONTROL サイズ（KB）]**、**[!UICONTROL タイプ]**、**[!UICONTROL 作成日]**、および&#x200B;**[!UICONTROL 最終変更日]**&#x200B;です。
+参照パネルに表示されるフォルダーまたは検索結果の内容を並べ替えることができます。 グローバルナビゲーションバーで、**[!UICONTROL 並べ替え]**&#x200B;を選択し、オプションを選択します。 オプションは、**[!UICONTROL 名前]**、**[!UICONTROL サイズ（KB）]**、**[!UICONTROL タイプ]**、**[!UICONTROL 作成日]**、および&#x200B;**[!UICONTROL 最終変更日]**&#x200B;です。
 
 **[!UICONTROL 昇順]**&#x200B;または&#x200B;**[!UICONTROL 降順]**&#x200B;を選択して、選択した条件でアセットを昇順または降順に並べ替えることもできます。
 
@@ -57,8 +52,8 @@ Adobe Dynamic Media Classicでファイルアセットを検索するには、�
 アセットライブラリの「検索」フィールドを使用して、簡単な検索を実行できます。 名前で項目を検索したり、メタデータにキーワードが含まれている項目を検索できます。
 
 1. アセットライブラリの&#x200B;**[!UICONTROL フォルダー]** パネルで、特定のフォルダーとそのサブフォルダーで検索するフォルダーを選択します。
-1. アセットライブラリの検索フィールドの左側にある「**[!UICONTROL 虫眼鏡]**」アイコンを選択して、ドロップダウンリストを開きます。
-1. ドロップダウンリストで、検索の範囲を指定するオプションを選択します。 すべてのファイルとフォルダー&#x200B;**内で**&#x200B;[!UICONTROL &#x200B;を選択できます。選択したフォルダー&#x200B;]&#x200B;**内で**&#x200B;[!UICONTROL &#x200B;を選択できます。または、選択したフォルダーとサブフォルダー&#x200B;]&#x200B;**内で**&#x200B;を選択できます。
+1. アセットライブラリの検索フィールドの左側にある&#x200B;**[!UICONTROL 検索]** アイコンを選択して、ドロップダウンリストを開きます。
+1. ドロップダウンリストで、検索の範囲を指定するオプションを選択します。 すべてのファイルとフォルダー&#x200B;]**内で**[!UICONTROL &#x200B;を選択できます。選択したフォルダー&#x200B;]**内で**[!UICONTROL &#x200B;を選択できます。または、選択したフォルダーとサブフォルダー&#x200B;]**内で**[!UICONTROL &#x200B;を選択できます。
 1. 「検索」フィールドに検索語を入力します。
 1. 検索フィールドの右側で、**[!UICONTROL Go]**&#x200B;を選択するか、**[!UICONTROL Enter]**&#x200B;を押します。
 
@@ -86,11 +81,11 @@ Does not appear to be working anymore >[!NOTE]
 
 * **検索条件**：メタデータを検索するための1つ以上の検索フィールドを作成します。 検索フィールドを作成するには、次の手順に従います。
 
-   1. 詳細検索で、**[!UICONTROL 検索条件]**&#x200B;見出しの下、**[!UICONTROL フィールドを追加]** メニューの左側にある）下向き三角形の矢印アイコンを選択して、ドロップダウンリストを開きます。 メタデータビューを選択します。 **[!UICONTROL 値を持つすべてのプロパティ]**、**[!UICONTROL コンパクトビュー]**、**[!UICONTROL IPTC]**、**[!UICONTROL Metadata Server パブリッシュフィールド]**、または&#x200B;**[!UICONTROL XMP]**&#x200B;を選択できます。
-   1. 「**[!UICONTROL フィールドを追加]**」ドロップダウンメニューを選択し、フィールド名を選択します。
-   1. 「**[!UICONTROL 次を含む]**」オプションを選択します：**[!UICONTROL 次を含む]**、**[!UICONTROL 次を含まない]**、**[!UICONTROL 次で始まる]**、**[!UICONTROL 次で終わる]**、または&#x200B;**[!UICONTROL 次と等しい]**。
-   1. 数字フィールドでは、値を選択するか、カスタム日付範囲を入力します。
-   1. （オプション）手順1 ～ 4を繰り返して、さらに検索フィールドを作成します。
+  1. 詳細検索で、**[!UICONTROL 検索条件]**&#x200B;見出しの下、**[!UICONTROL フィールドを追加]** メニューの左側にある）下向き三角形の矢印アイコンを選択して、ドロップダウンリストを開きます。 メタデータビューを選択します。 **[!UICONTROL 値を持つすべてのプロパティ]**、**[!UICONTROL コンパクトビュー]**、**[!UICONTROL IPTC]**、**[!UICONTROL Metadata Server パブリッシュフィールド]**、または&#x200B;**[!UICONTROL XMP]**&#x200B;を選択できます。
+  1. 「**[!UICONTROL フィールドを追加]**」ドロップダウンメニューを選択し、フィールド名を選択します。
+  1. 「**[!UICONTROL 次を含む]**」オプションを選択します：**[!UICONTROL 次を含む]**、**[!UICONTROL 次を含まない]**、**[!UICONTROL 次で始まる]**、**[!UICONTROL 次で終わる]**、または&#x200B;**[!UICONTROL 次と等しい]**。
+  1. 数字フィールドでは、値を選択するか、カスタム日付範囲を入力します。
+  1. （オプション）手順1 ～ 4を繰り返して、さらに検索フィールドを作成します。
 
 検索フィールドが削除されるように、**[!UICONTROL 検索フィールドを削除]** アイコン（「X」が入った円）を選択します。
 
@@ -102,7 +97,7 @@ Does not appear to be working anymore >[!NOTE]
 
 アセットライブラリの「フィルタ」タブでアセットをフィルタリングします。 アセットをフィルタリングするには、メタデータ値を条件として使用します。 フィルタリングするメタデータフィールドを選択した後、「フィルター」タブには、選択したフィールドに入力されたすべてのメタデータ値が一覧表示されます。 また、各値が割り当てられたアセットの数も一覧表示されます。 例えば、**[!UICONTROL 作成者]** メタデータフィールドのフィルター操作では、「**[!UICONTROL フィルター]**」タブには、異なるアセットの&#x200B;**[!UICONTROL 作成者]** メタデータフィールドに入力されたすべての名前が一覧表示されます。 また、名前ごとに、名前に割り当てられたアセットの数も一覧表示されます。 その後、メタデータ値を選択して、その値が割り当てられたすべてのアセットを表示します。 この例では、`Prairie Cat` メタデータ値を選択して、**[!UICONTROL 作成者]** メタデータ フィールドに`Prairie Cat`という名前が入力されたすべてのアセットを表示します。 複数のメタデータフィールドをフィルタリング条件として使用して、フィルタリングを実行することができます。
 
-フィルター操作を保存して、何度も実行することができます。
+フィルター操作を何度も実行する場合は、それらを保存できます。
 
 >[!NOTE]
 >
@@ -116,11 +111,11 @@ Does not appear to be working anymore >[!NOTE]
 
 1. アセットライブラリで、「**[!UICONTROL フィルター]**」タブを選択します。
 
-   以前のフィルタリング操作の条件がフィルタパネルに表示されます。 フィルタパネルは、メタデータフィールドを表している複数のパネルで構成されています。 パネルを使用して、フィルタリングに使用するメタデータフィールドを選択したり、各フィールドでフィルタリング操作のメタデータ値を選択します。
+   以前のフィルタリング操作の条件がフィルタパネルに表示されます。 フィルターペインはパネルに分かれており、各パネルはメタデータフィールドを表します。 パネルを使用して、フィルタリングに使用するメタデータフィールドを選択したり、各フィールドでフィルタリング操作のメタデータ値を選択します。
 
    作成して保存したフィルター操作を実行するには、**[!UICONTROL プリセットを選択]**&#x200B;し、メニューで操作の名前を選択します。
 
-   [&#x200B; フィルター操作の保存、繰り返し、削除](searching-assets.md#saving_repeating_and_deleting_filter_operations)を参照してください。
+   [ フィルター操作の保存、繰り返し、削除](searching-assets.md#saving_repeating_and_deleting_filter_operations)を参照してください。
 
 1. パネルで「**[!UICONTROL フィールド]**」をクリックし、次の手順に従ってフィルターメニューを表示し、フィルター操作を構築します。
 
@@ -164,13 +159,13 @@ Does not appear to be working anymore >[!NOTE]
 
 ## メタデータサーバーの使用 {#using-the-metadata-server}
 
-メタデータサーバーは、http リクエストを介してメタデータでアセットを検索するために使用できるパブリック APIです。
+メタデータサーバーは、http リクエストを使用してメタデータでアセットを検索するために使用できるパブリック APIです。
 
 メタデータサーバーを設定するには、**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Metadata Server]**&#x200B;に移動します。
 
 メタデータサーバーパブリッシャーページでは、次のオプションを設定できます。
 
-* **[!UICONTROL インスタント公開]**：新しいアセットやキーワードの変更など、メタデータが変更された際に、その変更を自動的にプッシュします。
+* **[!UICONTROL インスタント公開]**：新しいアセット、キーワードの変更、その他の関連アイテムなど、メタデータの変更が行われた際に、自動的にプッシュします。
 
 * **[!UICONTROL XMP Packet]**: XMP Packetを公開します。 このパケットは検索に使用されませんが、最新のXMPを提供します。
 
@@ -182,5 +177,5 @@ Does not appear to be working anymore >[!NOTE]
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ナビゲーションの基本](navigation-basics.md#navigation_basics)
->* [&#x200B; メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [ ナビゲーションの基本](navigation-basics.md#navigation_basics)
+>* [ メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
