@@ -70,7 +70,7 @@ Adobe Dynamic Media Classic Videoは、デスクトップ、iOS、Android™、B
 
   アダプティブビデオストリーミングは、様々なiOS プラットフォームでサポートされています。
 
-  最新のサポートについては、[Adobe ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)を参照してください。
+  最新のサポートについては、[Adobe ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources)を参照してください。
 
   Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再生をサポートしています。<!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
