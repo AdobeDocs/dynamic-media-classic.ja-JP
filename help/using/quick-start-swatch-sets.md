@@ -18,24 +18,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 21%
+source-wordcount: 398
+ht-degree: 17%
 
 ---
 
 # クイックスタート：スウォッチセット{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classicのスウォッチセットなら、動画を一元的に視聴できます。 動的なスウォッチセットビューアでは、サムネールを選択するだけで、異なるカラー、マテリアル、テクスチャ、仕上げ、またはファブリックでレンダリングされたアイテムを表示できます。
+Adobe Dynamic Media Classicのスウォッチセットなら、動画を一元的に視聴できます。 動的なスウォッチセットビューアを使用すると、サムネールを選択して、異なる色、マテリアル、テクスチャ、仕上げ、またはファブリックでレンダリングされたアイテムを表示できます。
 
-このスウォッチセットのクイックスタートは、Adobe Dynamic Media Classicのスウォッチセットのテクニックを使用して、迅速に起動できるように設計されています。
+このスウォッチセットのクイックスタートは、Adobe Dynamic Media Classicでスウォッチセットのテクニックを使用する際に役立つように設計されています。
 
 ## &#x200B;1. 画像をアップロードし、ファイルをスウォッチする
 
 まず、スウォッチセット用の画像とスウォッチファイルをアップロードします。
 
-グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して、コンピューターからAdobe Dynamic Media Classicのフォルダーにファイルをアップロードします。 [&#x200B; スウォッチセットアセットのアップロードの準備](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)および[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading-your-files)を参照してください。
+グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して、コンピューターからAdobe Dynamic Media Classicのフォルダーにファイルをアップロードします。 [Swatch Set Assetsのアップロードの準備](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)および[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading-your-files)を参照してください。
 
 ## &#x200B;2. スウォッチセットの作成
 
@@ -43,7 +43,7 @@ Adobe Dynamic Media Classicのスウォッチセットなら、動画を一元�
 
 ## &#x200B;3. スウォッチセットビューアプリセットの設定
 
-管理者は、画像セットビューアのプリセットを作成または変更できます。 Adobe Dynamic Media Classicには、各リッチメディアタイプのデフォルトのビューアプリセットが用意されています。 ズームビューア : カスタム／画像セット / カラースウォッチのプリセットを使用してスウォッチセットを表示します。
+管理者は、画像セットビューアのプリセットを作成または変更できます。 Adobe Dynamic Media Classicには、各リッチメディアタイプのデフォルトのビューアプリセットが用意されています。 スウォッチセットを表示するには、ズームビューアのカスタム/画像セット/カラースウォッチプリセットを使用します。
 
 [&#x200B; ビューアプリセットの作成と編集](application-setup.md#adding-and-editing-viewer-presets)を参照してください。
 
@@ -63,6 +63,6 @@ Adobe Dynamic Media Classicのスウォッチセットなら、動画を一元�
 
 ## &#x200B;6. スウォッチセットをWeb ページにリンクする
 
-Adobe Dynamic Media Classicは、スウォッチセットのURL呼び出しを作成し、公開後にそれらをアクティブ化します。 プレビューページからこれらのURLをコピーできます。
+Adobe Dynamic Media Classicは、スウォッチセットのURL呼び出しを作成し、公開後にアクティブ化します。 プレビューページからこれらのURLをコピーできます。
 
 スウォッチセットを選択して、「プレビュー」ボタンを選択します。 プレビューページが開きます。 スウォッチセットビューアプリセットを選択して、「URL をコピー」ボタンを選択します。 [&#x200B; スウォッチセットをWeb ページにリンク &#x200B;](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)を参照してください。

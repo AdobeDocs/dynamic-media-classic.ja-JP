@@ -22,18 +22,18 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 0f0abef2ec6e1d0743eca66e59673547f70ad7b0
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: 529
 ht-degree: 1%
 
 ---
 
 # クイックスタート：Adobe Target Standard/Premium統合{#quick-start-target-integration}
 
-Adobe Target Standard/Premiumなら、マーケターが直接コントロールできます。 これにより、複数のA/B テストや多変量テストを迅速かつ継続的に実施し、効果を測定できます。 また、セグメンテーション、ターゲティング、Automated Personalizationを通じて、オンラインコンテンツの関連性を高めることができます。
+Adobe Target Standard/Premiumは、マーケティング部門が管理的に管理できるようにします。 この機能により、複数のA/B テストと多変量テストを迅速かつ継続的に実行し、その効果を測定できます。 また、セグメンテーション、ターゲティング、Automated Personalizationを通じて、オンラインコンテンツの関連性を高めることができます。
 
-Adobe Dynamic Media Classicでは、Adobe Target Standard/Premium キャンペーンのオファーとオファーセットを作成できます。 例えば、同じリッチメディアアセットの3つのバリエーションを含むオファーセットを作成できます。 そして、Adobe Target StandardまたはPremiumを使用して、どのアセットがコンバージョン率の向上に役立つかを判断できます。 基本テンプレートまたは個々の画像から、オファーとオファーセットを作成できます。 オファーセットがAdobe Target Standard/Premiumにプッシュまたは保存され、オファーがmboxとエクスペリエンスに関連付けられると、Adobe Target Standard/Premiumでキャンペーンを実行できます。 こうした施策は、クリックスルーやコンバージョンに対して、web サイトのバリエーションの中で最もパフォーマンスの高いものを特定します。
+Adobe Dynamic Media Classicでは、Adobe Target Standard/Premium キャンペーンのオファーとオファーセットを作成できます。 例えば、同じリッチメディアアセットの3つのバリエーションを含むオファーセットを作成できます。 そして、Adobe Target StandardまたはPremiumによって、どのアセットがより優れたコンバージョンパフォーマンスを提供するかを判断できます。 基本テンプレートまたは個々の画像から、オファーとオファーセットを作成できます。 オファーセットがAdobe Target Standard/Premiumにプッシュまたは保存され、オファーがmboxとエクスペリエンスに関連付けられると、Adobe Target Standard/Premiumでキャンペーンを実行できます。 こうした施策は、クリックスルーとコンバージョンに対して、web サイトのどのバリエーションが最も優れたパフォーマンスを発揮するかを判断します。
 
 動的なAdobe Dynamic Media Classic コンテンツのカスタマイズを強化するには、Adobe Target Standard/Premium HTML オファーを使用します。 詳しくは、[Adobe Target Standard/Premium製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target)を参照してください。
 
@@ -41,11 +41,11 @@ Adobe Dynamic Media Classicでは、Adobe Target Standard/Premium キャンペ�
 >
 >Adobe Dynamic Media ClassicでAdobe Target Standard/Premiumを使用するには、有効なAdobe Target Standard/Premium アカウントが必要です。
 
-このクイックスタートは、Adobe Target Standard/Premium HTML オファーセットを使用して迅速に起動できるように設計されています。 手順 1 ～ 3 に従ってください。 各ステップの後、トピック見出しへの相互参照があり、詳細を確認できます。
+このガイドは、Adobe Target Standard/Premium HTML オファーセットをすばやく使用できるように設計されています。 手順 1 ～ 3 に従ってください。 各ステップの後、トピック見出しへの相互参照があり、詳細を確認できます。
 
 ## &#x200B;1. アプリケーションの一般設定ページにAdobe Target Standard/Premium URLを入力します
 
-Adobe Dynamic Media Classicでは、Adobe Target Standard/Premiumと統合するために、Adobe Target Standard/Premium URLが必要です。 `.com`までのAdobe Target Standard/Premium URLの一部をコピーし、**[!UICONTROL サーバー]** グループ、**[!UICONTROL テスト&amp;ターゲットサーバー名]** テキストフィールドのAdobe Dynamic Media Classic **[!UICONTROL Application General Settings]** ページに入力します。 [Adobe Dynamic Media ClassicとAdobe Target Standard/Premiumの統合](integrating-dmc-with-target.md#integrating-dmc-with-target)を参照してください。
+Adobe Dynamic Media Classicでは、Adobe Target Standard/Premiumと統合するために、Adobe Target Standard/Premium URLが必要です。 Adobe Target Standard/Premium URLの一部を`.com`までコピーし、Adobe Dynamic Media Classic **[!UICONTROL Application General Settings]** ページの&#x200B;**[!UICONTROL Servers]** グループ内の&#x200B;**[!UICONTROL Test&amp;Target Server Name]** テキストフィールドに入力します。 [Adobe Dynamic Media ClassicとAdobe Target Standard/Premiumの統合](integrating-dmc-with-target.md#integrating-dmc-with-target)を参照してください。
 
 ## &#x200B;2. オファーセットの作成
 
