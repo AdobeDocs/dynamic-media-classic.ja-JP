@@ -12,10 +12,15 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:34.580Z'
 TQID: 'https://experienceleague.adobe.com/pC3khbkWx53M4aRmPWAV8bFx-Zl8-mD4qU4fZB-cGM8'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: fd4b2bc8960392112ad800d9e3da62a09196462b
 workflow-type: tm+mt
 source-wordcount: 1501
@@ -53,7 +58,7 @@ Adobe Dynamic Media Classicでファイルアセットを検索するには、�
 
 1. アセットライブラリの&#x200B;**[!UICONTROL フォルダー]** パネルで、特定のフォルダーとそのサブフォルダーで検索するフォルダーを選択します。
 1. アセットライブラリの検索フィールドの左側にある&#x200B;**[!UICONTROL 検索]** アイコンを選択して、ドロップダウンリストを開きます。
-1. ドロップダウンリストで、検索の範囲を指定するオプションを選択します。 すべてのファイルとフォルダー&#x200B;]**内で**[!UICONTROL &#x200B;を選択できます。選択したフォルダー&#x200B;]**内で**[!UICONTROL &#x200B;を選択できます。または、選択したフォルダーとサブフォルダー&#x200B;]**内で**[!UICONTROL &#x200B;を選択できます。
+1. ドロップダウンリストで、検索の範囲を指定するオプションを選択します。 すべてのファイルとフォルダー&#x200B;**内で**&#x200B;[!UICONTROL &#x200B;を選択できます。選択したフォルダー&#x200B;]&#x200B;**内で**&#x200B;[!UICONTROL &#x200B;を選択できます。または、選択したフォルダーとサブフォルダー&#x200B;]&#x200B;**内で**&#x200B;を選択できます。
 1. 「検索」フィールドに検索語を入力します。
 1. 検索フィールドの右側で、**[!UICONTROL Go]**&#x200B;を選択するか、**[!UICONTROL Enter]**&#x200B;を押します。
 
@@ -115,7 +120,7 @@ Does not appear to be working anymore >[!NOTE]
 
    作成して保存したフィルター操作を実行するには、**[!UICONTROL プリセットを選択]**&#x200B;し、メニューで操作の名前を選択します。
 
-   [ フィルター操作の保存、繰り返し、削除](searching-assets.md#saving_repeating_and_deleting_filter_operations)を参照してください。
+   [&#x200B; フィルター操作の保存、繰り返し、削除](searching-assets.md#saving_repeating_and_deleting_filter_operations)を参照してください。
 
 1. パネルで「**[!UICONTROL フィールド]**」をクリックし、次の手順に従ってフィルターメニューを表示し、フィルター操作を構築します。
 
@@ -177,5 +182,5 @@ Does not appear to be working anymore >[!NOTE]
 
 >[!MORELIKETHIS]
 >
->* [ ナビゲーションの基本](navigation-basics.md#navigation_basics)
->* [ メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [&#x200B; ナビゲーションの基本](navigation-basics.md#navigation_basics)
+>* [&#x200B; メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
