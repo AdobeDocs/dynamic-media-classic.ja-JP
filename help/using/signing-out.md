@@ -12,9 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:13:28.471Z'
 TQID: 'https://experienceleague.adobe.com/YxTYiix-7QM3EtcrAvEKg6k1qLVKuqG-FtN0Ntqpr-Y'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 69ab9545c953152b98c0981abaef0d33f6b5683e
 workflow-type: tm+mt
 source-wordcount: 237
@@ -34,7 +39,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションを使用�
 
 1. Adobe Dynamic Media Classic デスクトップアプリケーションを開きます。
 
-   ![Adobe Dynamic Media Classic ログイン ](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic ログイン &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. 「**[!UICONTROL ユーザー名]**」フィールドに、電子メールアドレスを入力します。
 1. 「**[!UICONTROL パスワード]**」フィールドにパスワードを入力します。
