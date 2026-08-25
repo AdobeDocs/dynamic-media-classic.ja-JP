@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:13:09.120Z'
 TQID: 'https://experienceleague.adobe.com/y5rcs4ohA-zMFKKm1EjsSxuUqgqbp-CVMzRcmTaRs6c'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: b35d2efa3ef74017ef0505658d2f567a45b234f6
 workflow-type: tm+mt
 source-wordcount: 2283
@@ -45,9 +49,9 @@ Adobe Dynamic Media Classicでは、ビューアプリセットにシャープ�
 
 Adobe Dynamic Media ClassicおよびDynamic Media Image Serverで画像のシャープを最適化するためのベストプラクティスがあります。
 
-Adobe Dynamic Media ClassicおよびDynamic Media Image Serverでの画像のシャープ化に関する[ ベストプラクティス ](/help/using/assets/s7_sharpening_images.pdf)を参照してください。
+Adobe Dynamic Media ClassicおよびDynamic Media Image Serverでの画像のシャープ化に関する[&#x200B; ベストプラクティス &#x200B;](/help/using/assets/s7_sharpening_images.pdf)を参照してください。
 
-[ シャープニング ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[&#x200B; シャープニング &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 **画像をシャープにするには：**
 
@@ -140,7 +144,7 @@ Adobe Dynamic Media ClassicおよびDynamic Media Image Serverでの画像のシ
 
 ビューアプリセット（画像プリセットなど）肌、ボタン、アニメーション速度などのオプションを一元化します。 ビューアプリセットは、画像プリセットと同じセクションの&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL ビューアプリセット]**&#x200B;にあります。
 
-[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)のトレーニングビデオを参照してください。
+[&#x200B; ビューアプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)のトレーニングビデオを参照してください。
 
 修飾子オプションは、すべての eCatalog、回転、カスタムズームビューアプリセットのコア設定セクションの下に表示されます。 「修飾子」ボックスにURL シャープニングコマンドを追加すると、そのビューアプリセットでビューアが呼び出されるたびにシャープニングを追加できます。
 
