@@ -35,7 +35,7 @@ Dynamic Media Classicでは、ビデオトレーニング、インストラク�
 
 Adobe トレーニングサービスは、お客様のニーズに合わせてカスタマイズされた詳細なクラスルーム形式のトレーニングを提供しています。 トレーニングには、地域の講義形式のクラスルーム、Web ベースのセッション、カスタマイズしたオンサイトワークショップがあります。 地域のクラスはすべてのお客様が利用でき、北米および EMEA の各地で定期的に開催されています。 カスタムセッションは、初めて使用するユーザから熟練ユーザ、エンドユーザ、管理者、IT 担当者向けにカスタマイズすることができます。
 
-[Adobe Training Services](https://experienceleague.adobe.com/en/premium/home)を参照してください
+[Adobe Training Services](https://experienceleague.adobe.com/ja/premium/home)を参照してください
 
 ## デモ
 
