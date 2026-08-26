@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: cb775817b876da6ec38c8d2b968c4f3b6096acf7
 workflow-type: tm+mt
-source-wordcount: 126
+source-wordcount: 122
 ht-degree: 11%
 
 ---
 
 # Adobe Dynamic Media ClassicのMedia Portalの必要システム構成 {#system-requirements}
 
-Adobe Dynamic Media Classic Media Portalを使用する最適なエクスペリエンスを得るには、お使いのシステムが次の必要システム構成と推奨事項を満たしていることを確認してください。
+Adobe Dynamic Media Classic Media Portalを使用するには、お使いのシステムが次の必要システム構成と推奨事項を満たしていることを確認します。
 
 * Microsoft® Windows® 7以降またはmacOS X 10.6以降のMac Intel® プロセッサーが必要です。
 * 3 GB以上のRAMが必要（4 GB以上を推奨）。

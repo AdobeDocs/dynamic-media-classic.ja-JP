@@ -22,16 +22,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 7e29275844146b46dba3f1034d1a244f5be5b8b8
 workflow-type: tm+mt
-source-wordcount: 217
-ht-degree: 12%
+source-wordcount: 216
+ht-degree: 6%
 
 ---
 
 # サポート {#support}
 
-テクニカルサポートは、あらゆる規模の企業のニーズに対応しています。 次の表に、Adobe Dynamic Media Classicのカスタマーケア製品の概要を示します。
+テクニカルサポートは、規模を問わず、あらゆる企業のニーズに対応できるように設計されています。 次の表に、Adobe Dynamic Media Classicのカスタマーケア製品の概要を示します。
 
 | サポート | 製品版 |
 | --- | --- |
@@ -49,7 +49,7 @@ ht-degree: 12%
 テクニカルサポートに問題を報告される際には、次の情報をご提供ください。
 
 * Adobe Dynamic Media Classicの会社名。
-* お名前、電話番号、メールアドレス。
+* 名前、電話番号、メールアドレス。
 * Adobe Dynamic Media Classicのアプリケーション、プラットフォーム、バージョン。
 * 問題の説明と、問題を再現するために必要な手順。
 * エラーメッセージ（ある場合）。

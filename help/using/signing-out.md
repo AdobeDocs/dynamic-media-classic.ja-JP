@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 69ab9545c953152b98c0981abaef0d33f6b5683e
 workflow-type: tm+mt
 source-wordcount: 237
 ht-degree: 6%
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 Adobe Dynamic Media Classic デスクトップアプリケーションを使用する前に、以下を確認してください。
 
-* **ユーザー名**：電子メールアドレスをログイン名として使用しています。
+* **ユーザー名**：電子メールアドレスをユーザー名として使用しています。
 
 * **パスワード**：一時パスワードは、Adobe Dynamic Media ClassicまたはAdobe Dynamic Media Classic管理者から「ようこそ」電子メールで取得します。 初回のサインイン時に、この一時パスワードを変更するよう求められます。
 
