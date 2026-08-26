@@ -8,10 +8,17 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:15:39.241Z'
 TQID: 'https://experienceleague.adobe.com/0ODwpm8UKHiOr7Ttv5MBKEnxu2HDfUw3yxZ6YhEfK4M'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 4496b2796aae231c4c913f8ee988f9e2c2d2a65f
 workflow-type: tm+mt
 source-wordcount: 1584
@@ -114,7 +121,7 @@ AGS （Adobe Global Services）は、アップグレードを処理し、サー�
 +++
 
 +++**アップグレードの準備状況チェックリスト内のすべての手順が必要ですか？**
-いいえ。 [準備状況チェックリスト ](/help/using/upgrade-readiness.md)には、必須およびオプションのベストプラクティス手順が含まれています。
+いいえ。 [準備状況チェックリスト &#x200B;](/help/using/upgrade-readiness.md)には、必須およびオプションのベストプラクティス手順が含まれています。
 
 +++
 
@@ -125,7 +132,7 @@ AGS （Adobe Global Services）は、アップグレードを処理し、サー�
 
 +++
 
-+++**アップグレード後も[!DNL Dynamic Media Classic] （旧Adobe Scene7）を使用できますか？**[!DNL Dynamic Media]
++++**アップグレード後も[!DNL Dynamic Media Classic] （旧Adobe Scene7）を使用できますか？**&#x200B;[!DNL Dynamic Media]
 [!DNL Dynamic Media]にアップグレードした後、画像とビデオにDynamic Mediaのみを使用します。 次の機能を含む[!DNL Dynamic Media]でまだ使用できない機能に対してのみ、[!DNL Dynamic Media Classic]を引き続き使用できます。
 
 * ビジュアルコンフィギュレーター（画像オーサー、画像レンダリング）。
@@ -261,14 +268,14 @@ Adobeは、ユーザーと協力してプロジェクトを計画します。 Ad
 ## サポートとトレーニング
 
 +++**サポートを受けるにはどうすればよいですか？**
-24/7/365 クライアントケアのサポートを利用できます。 [ テクニカルサポートにお問い合わせください](https://experienceleague.adobe.com/?support-solution=General#support)。
+24/7/365 クライアントケアのサポートを利用できます。 [&#x200B; テクニカルサポートにお問い合わせください](https://experienceleague.adobe.com/?support-solution=General#support)。
 
 電話番号：1-800-898-9743 （米国） | +44 （0） 20 35641782 （英国） | +81-3-6743-9632 （日本）
 
 +++
 
 +++**有料トレーニングオプションの詳細はどこで確認できますか？**
-[Adobe デジタルラーニングサービス ](https://experienceleague.adobe.com/en/premium/home)を参照してください。
+[Adobe デジタルラーニングサービス &#x200B;](https://experienceleague.adobe.com/en/premium/home)を参照してください。
 
 カスタムまたは個別のトレーニングについては、Adobeアカウントチーム担当者にお問い合わせください。
 
@@ -277,6 +284,6 @@ Adobeは、ユーザーと協力してプロジェクトを計画します。 Ad
 ## 関連資料
 
 +++**[!DNL Dynamic Media]とその機能について詳しくは、どこで確認できますか？**
-[!DNL Dynamic Media]について詳しくは、[[!DNL Dynamic Media]  マイクロサイト ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)を参照してください。
+[!DNL Dynamic Media]について詳しくは、[[!DNL Dynamic Media]  マイクロサイト &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)を参照してください。
 
 +++
