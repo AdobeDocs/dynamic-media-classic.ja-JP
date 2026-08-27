@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:17:09.649Z'
 TQID: 'https://experienceleague.adobe.com/xi8ZvTLYacPSL7P2uqo142VpXY6SOOU7cZvA7tT0zOQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 53821984bf36bb648ed236d3c547a390cd7de836
 workflow-type: tm+mt
 source-wordcount: 273
@@ -26,7 +29,7 @@ ht-degree: 2%
 
 Adobe Dynamic Media Classicに画像をアップロードする前に、画像が最高画質のサイズとフォーマットであることを確認します。 Adobe Dynamic Media Classicでは、十分な画素数（長い寸法では1500 ～ 2000 ピクセル）の高品質な画像をアップロードすることをお勧めします。 このサイズは、必要な任意のDynamic Imagingを使用できます。
 
-画像のアップロードについて詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
+画像のアップロードについて詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
 
 **アップロード用にプライマリ画像を準備：**
 
@@ -36,4 +39,4 @@ Adobe Dynamic Media Classicにアップロードする前に、プライマリ�
 
 * **ファイル形式**: Adobe Dynamic Media Classicはすべての標準的な画像ファイル形式をサポートしています。 これらのフォーマットには、TIFF、BMP、JPEG、PSD、GIF、EPSが含まれます。 可逆圧縮画像形式の TIFF および PNG を使用することをお勧めします。 JPEG画像を使用している場合は、最高画質の設定を使用します。
 
-* **カラースペース**: RGBは、Web イメージプレゼンテーションのカラースペースです。 印刷に一般的に使用されるCMYK画像は、アップロード時にRGBに変換されます。 ICC （International Color Consortium）カラープロファイルを組み込んだCMYK画像をRGBにアップロードすることをお勧めします。 [ICC （International Color Consortium） プロファイル ](/help/using/icc-profiles.md)も参照してください。
+* **カラースペース**: RGBは、Web イメージプレゼンテーションのカラースペースです。 印刷に一般的に使用されるCMYK画像は、アップロード時にRGBに変換されます。 ICC （International Color Consortium）カラープロファイルを組み込んだCMYK画像をRGBにアップロードすることをお勧めします。 [ICC （International Color Consortium） プロファイル &#x200B;](/help/using/icc-profiles.md)も参照してください。
