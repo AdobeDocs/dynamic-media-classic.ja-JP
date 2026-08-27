@@ -11,28 +11,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:55.218Z'
 TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 50%
+source-wordcount: 1052
+ht-degree: 45%
 
 ---
 
 # ラスター画像アセットのアップロード {#uploading-an-image-asset-or-a-vector-asset}
 
-画像アセットをアップロードするには、その前に共有秘密キーを要求する必要があります。 この共有秘密キーを、アップロードトークンの取得に使用します。 次に、アップロードトークンを使用してラスター画像アセットをアップロードします。
+画像アセットをアップロードする前に、まず共有秘密鍵をリクエストする必要があります。 この共有秘密キーを、アップロードトークンの取得に使用します。 次に、アップロードトークンを使用してラスター画像アセットをアップロードします。
 
 >[!IMPORTANT]
 >
->2023年5月1日（PT）以降、Dynamic MediaのUGC アセットは、アップロード日から最大60日間使用できるようになります。 60日後、アセットは削除されます。
+>2023年5月1日（PT）以降、Dynamic MediaのUGC アセットは、アップロード日から最大60日間使用できます。 60日後、アセットは削除されます。
 
 >[!NOTE]
 >
@@ -40,13 +36,13 @@ ht-degree: 50%
 
 ## 共有秘密鍵をリクエスト {#requesting-a-shared-secret-key}
 
-Admin Consoleを使用して[が&#x200B;*共有シークレット キー*&#x200B;をリクエストして、サポート ケースを作成します。](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) テクニカルサポートのケースでは、共有秘密鍵をリクエストします。
+Admin Consoleを使用して[が&#x200B;*共有秘密キー*&#x200B;をリクエストし、サポートケース ](https://helpx.adobe.com/business/enterprise.html)を作成します。 テクニカルサポートのケースでは、共有秘密鍵をリクエストします。
 
 電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。 Adobe Dynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
 
 ## アップロードトークンの取得 {#retrieving-the-upload-token}
 
-*アップロードトークン*&#x200B;は、ほかのユーザが同じ共有秘密キーを使用してアセットをアップロードすることができないようにします。 つまり、アップロードの合法性とソースの信頼性を確保します。
+*アップロードトークン*&#x200B;を使用すると、同じ共有秘密鍵を使用してアセットをアップロードできなくなります。 つまり、アップロードの合法性とソースの信頼性を確保します。
 
 アップロードトークンは英数字で構成された文字列で、一定の期間しか利用できません。 次のURLを使用して、共有秘密キーを置き換えると、アップロードトークンを取得できます。
 
@@ -110,7 +106,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 これで、画像アセットをアップロードできるようになりました。
 
-[画像アセットのアップロード &#x200B;](uploading-image-asset-or-vector.md#uploading_an_image_asset)を参照してください。
+[画像アセットのアップロード ](uploading-image-asset-or-vector.md#uploading_an_image_asset)を参照してください。
 
 ## ラスター画像アセットのアップロード {#uploading-an-image-asset}
 
@@ -122,7 +118,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token`および`company_name` フィールドは必須です。
 
-[&#x200B; アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token)を参照してください。
+[ アップロードトークンの取得](uploading-image-asset-or-vector.md#retrieving_the_upload_token)を参照してください。
 
 [共有秘密キーの取得](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)を参照してください。
 
@@ -149,14 +145,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * ファイル名拡張子のリスト。
 * アセットに関連付けられているカラープロファイルとファイル名を保持するかどうか。
 * ノックアウト背景を使用するかどうか。 ノックアウトの背景を有効にする場合は、コーナー、許容値、塗りつぶし方法を設定します。
-「[画像の微調整オプションをアップロード &#x200B;](image-editing-options-upload.md#image-editing-options-at-upload)で確認する」で、ノックアウトの背景を参照してください。
+「[画像の微調整オプションをアップロード ](image-editing-options-upload.md#image-editing-options-at-upload)で確認する」で、ノックアウトの背景を参照してください。
 * アップロードするファイルの名前。
 
 上記のフォームに関連付けられているHTML ソースコードを表示するには、[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)を選択します
 
 Firefoxでブラウザーウィンドウを右クリックし、**[!UICONTROL ページを表示Source]**&#x200B;を選択します。 このコードには、対応するURL クエリ文字列と、ユーザーが&#x200B;**[!UICONTROL 送信]**&#x200B;を選択したときに実行されるPOST メソッドが表示されます。
 
-Internet ExplorerでXML応答を表示するには、**[!UICONTROL 表示]** > **[!UICONTROL Source]**&#x200B;に移動します。 FirefoxでXML応答を表示するには、**[!UICONTROL ツール]** > **[!UICONTROL ブラウザーツール]** > **[!UICONTROL Web開発者ツール]**&#x200B;に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
+ブラウザーでXML応答を表示するには、**[!UICONTROL 表示]** > **[!UICONTROL Source]**&#x200B;に移動します。 FirefoxでXML応答を表示するには、**[!UICONTROL ツール]** > **[!UICONTROL ブラウザーツール]** > **[!UICONTROL Web開発者ツール]**&#x200B;に移動します。 XML 応答の表示には、Firefox を使用することをお勧めします。
 
 以下は、アップロードが正常に完了した場合のサンプル応答です。
 
@@ -184,13 +180,13 @@ Internet ExplorerでXML応答を表示するには、**[!UICONTROL 表示]** > *
 >
 >アップロードされたアセット（JPG、GIF など）は PTIFF 形式に変換され、応答ではその PTIFF アセットへの直接リンクが送信されます。
 
-ほかの ImageServing リソースの場合と同様に、アセットには処理クエリを適用できます。 例えば、次のURLは、指定された幅とその高さに引き伸ばされるアセットをリクエストします。
+アセットはImageServing リソースです。処理クエリを適用できます。 例えば、以下の URL は、指定された幅と高さにストレッチされたアセットを要求します。
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-アップロードするアセットをマルチパート／フォームとしてアップロードし、残りの値を URL クエリ文字列として送信します。 URL クエリ文字列で以下のフィールドを使用して、アセットをアップロードできます。
+アセットをアップロードするには、そのアセットをマルチパート/フォームの投稿として送信し、残りの値をURL クエリ文字列として送信します。 URL クエリ文字列で以下のフィールドを使用して、アセットをアップロードできます。
 
 | URL パラメータ | 必須またはオプション | 値 |
 | --- | --- | --- |

@@ -11,16 +11,11 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:29.260Z'
 TQID: 'https://experienceleague.adobe.com/-fupHROLSD2veWgnchj2uhPQCKhLqtMasdqOVUNri6g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: eb277ead83e873c9bcc8bacaf300993a1f0565a4
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2368
 ht-degree: 23%
@@ -64,7 +59,7 @@ Image Server ページでは、Image Serverから画像を配信するための�
   例えば、様々な国で販売している多国籍ブランドである場合は、各国でロケール固有のビューアを使用できるようにすることができます。 この機能を実現するには、ロケールマップ文字列を指定します。 次に、ビューアのプリセットでツールチップテキストを編集します。 目的の言語に翻訳されたテキスト文字列を追加するだけです。
 
   >[!NOTE]
-  > ローカライゼーションサポートオプションを設定するには、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/jp/business/enterprise.html) サポートケースでは、設定に関するヘルプをリクエストしてください。
+  > ローカライゼーションサポートオプションを設定するには、[Admin Consoleを使用してサポートケースを作成します](https://helpx.adobe.com/business/enterprise.html)。 サポートケースでは、設定に関するヘルプをリクエストしてください。
 
   **[!UICONTROL 「ローカリゼーションサポート」]**&#x200B;の設定について詳しくは、[アセットのローカリゼーションを設定する場合の考慮事項](publish-setup.md#considerations_when_setting_up_localization_of_assets)を参照してください。
 
@@ -72,7 +67,7 @@ Image Server ページでは、Image Serverから画像を配信するための�
 
 >[!NOTE]
 >
->「ロケールマップ」フィールドなど、Adobe Dynamic Media Classicでローカライゼーションサポートオプションを設定する場合は、[Admin Consoleを使用してサポートケースを作成します。](https://helpx.adobe.com/jp/business/enterprise.html) サポートケースでは、設定に関するヘルプをリクエストしてください。
+>「ロケールマップ」フィールドなど、Adobe Dynamic Media Classicでローカライゼーションサポートオプションを設定する場合は、[Admin Consoleを使用してサポートケースを作成します](https://helpx.adobe.com/business/enterprise.html)。 サポートケースでは、設定に関するヘルプをリクエストしてください。
 
 Adobe Dynamic Media Classicの一般的な使い方は、コマースサイトの商品画像を管理することです。 国際的な企業は、類似製品の資産が地域によって異なるという課題に直面しています。 通常、違いはメディアのいくつかのコンポーネントのためのものです。 それぞれの国の全ての資産をコピーし、その差分を上書きして、このような差分を管理することは複雑な作業であり、単一のプライマリ資産の原則と矛盾している。 アセットの違いは、オーディオトラックが異なる国別のビデオから、製品で使用される電源コードの微妙だが重要な違いまで、さまざまです。 Adobe Dynamic Media Classicでは、基本的な検索メカニズムが使用されています。 必要なロケールから始めて、Image Serverが参照するアセットのサフィックスの順序を定義します。
 

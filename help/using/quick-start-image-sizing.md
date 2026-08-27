@@ -12,13 +12,10 @@ level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 autotag-review: '2026-05-13T20:09:57.533Z'
 TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 6%
@@ -33,7 +30,7 @@ ht-degree: 6%
 * web サイトやアプリケーション全体で、画像のサイズをすばやく変更できます。 例えば、すべてのサムネール画像を変更するには、「サムネール」画像プリセットを変更します。 画像プリセットは、サイズとフォーマット属性のコレクションです。 Web サイトまたはアプリケーション全体のすべてのサムネール画像のサイズを変更するには、「サムネール」画像プリセットを変更します。
 * コンテンツ管理システムやアセット管理システムで、プライマリファイルや様々な派生ファイルをすべて管理する必要はありません。
 
-![同じ高解像度のプライマリファイルから異なるサイズの複数の派生画像を作成できます。](/help/using/assets/is_derivative_sizes_popup.png)
+![同じ高解像度のプライマリファイル ](/help/using/assets/is_derivative_sizes_popup.png)から異なるサイズの複数の派生画像を作成できます。
 
 [画像サイズ：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS)のトレーニングビデオを参照してください。
 
@@ -43,7 +40,7 @@ ht-degree: 6%
 
 メイン画像をAdobe Dynamic Media Classicにアップロードします。 Adobe Dynamic Media Classicでは、web サイトまたはアプリケーションで使用できる最大サイズの画像を使用することをお勧めします。 例えば、ビューアに画像をズームさせたい場合は、最大サイズで2000 ピクセル以上の画像をアップロードします。 Adobe Dynamic Media Classicでは、多くの画像ファイル形式をサポートしていますが、TIFFやPNG画像は可逆です。
 
-グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して、コンピューターからAdobe Dynamic Media Classicのフォルダーにファイルをアップロードします。 [&#x200B; プライマリ画像のアップロード &#x200B;](uploading-master-images.md#uploading_master_images)を参照してください。
+グローバルナビゲーションバーで、「**[!UICONTROL アップロード]**」を選択して、コンピューターからAdobe Dynamic Media Classicのフォルダーにファイルをアップロードします。 [ プライマリ画像のアップロード ](uploading-master-images.md#uploading_master_images)を参照してください。
 
 ## &#x200B;2. 画像プリセットの設定
 
@@ -70,10 +67,10 @@ ht-degree: 6%
 * プライマリ画像をDynamic Media画像サーバーに公開して、画像をweb サイトやアプリケーションに動的に配信できるようにします。
 * 公開すると、Dynamic Media Image Serverからweb サイトまたはアプリケーションに画像を呼び出すためのURL文字列がアクティブ化されます。 公開後、Adobe Dynamic Media Classicで生成したURLをコピーして、web サイトまたはアプリケーションで必要に応じて配置できます。
 
-グローバルナビゲーションバーで、**[!UICONTROL 公開]**&#x200B;を選択して公開ジョブを開始します。 公開ダイアログボックスで、**[!UICONTROL 公開を送信]**&#x200B;を選択します。 [&#x200B; プライマリ画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
+グローバルナビゲーションバーで、**[!UICONTROL 公開]**&#x200B;を選択して公開ジョブを開始します。 公開ダイアログボックスで、**[!UICONTROL 公開を送信]**&#x200B;を選択します。 [ プライマリ画像の公開](publishing-master-images.md#publishing_master_images)を参照してください。
 
 ## &#x200B;5. Web アプリケーションへのURLのリンク
 
 Adobe Dynamic Media Classicは、画像のURL コールアウト文字列を作成します。 Dynamic Media画像サーバーに画像を公開すると、URLがアクティブになります。 これらのURL文字列は、参照パネル（詳細ビュー）またはプレビュー画面からコピーできます。 URL文字列をコピーしたら、web サイトまたはアプリケーションで使用できます。 画像サイズ変更のURLは、web ページコード内の静的画像名への参照に置き換わります。 URLは、表示される新しい画像ごとにデータベースが置き換えるプライマリ画像名を参照します。
 
-画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。 この名前はドル記号（`$`）で囲まれています。 例えば、`$thumbnail$`は、サムネールサイズでプライマリ画像を表示するように設計された画像プリセットです。 「[Web アプリケーションへのURLのリンク &#x200B;](linking-urls-web-application.md#linking_urls_to_your_web_application)」を参照してください。
+画像プリセットとともに生成された URL 文字列には、画像プリセットの名前が含まれています。 この名前はドル記号（`$`）で囲まれています。 例えば、`$thumbnail$`は、サムネールサイズでプライマリ画像を表示するように設計された画像プリセットです。 「[Web アプリケーションへのURLのリンク ](linking-urls-web-application.md#linking_urls_to_your_web_application)」を参照してください。
