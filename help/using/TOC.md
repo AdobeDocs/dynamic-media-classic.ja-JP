@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic ガイド
 breadcrumb-title: Dynamic Media Classic ガイド
 user-guide-description: Adobe Dynamic Media Classicの関連リソース。
 index: true
-source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 21%
+source-wordcount: '803'
+ht-degree: 20%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 21%
 + [Adobe Dynamic Media Classic ガイド](home.md)
 + [Adobe Dynamic Media Classicのベストプラクティスのチュートリアル](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新しいAdobe Dynamic Media Classic ログオンが利用可能になりました](new-ui-2020.md)
-+ [Experience LeagueによるAdobe Dynamic Media ニュースレターアーカイブ](dynamic-media-newsletter.md)
++ [Adobe Experience LeagueによるAdobe Dynamic Media ニュースレターアーカイブ](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classicとは {#intro}
   + [Adobe Dynamic Media Classic デスクトップアプリ：利用可能になりました](dynamic-media-classic-desktop-app.md)
   + [Adobe Dynamic Media Classic ヘルプについて](introduction.md)
@@ -58,7 +58,7 @@ ht-degree: 21%
   + [FTP アカウントの管理](ftp-accounts.md)
   + [Media Portal ユーザが使用できる書き出しオプションの指定](specifying-export-options-available-media.md)
   + [画像プリセットの作成と有効化](creating-enabling-image-presets.md)
-  + [メタデータの効率的な管理](making-efficient-metadata.md)
+  + [メタデータの管理](making-efficient-metadata.md)
   + [Media Portal画面のカスタマイズ](customizing-media-portal-screen.md)
 + アセットのアップロードと公開 {#upload-publish}
   + [アセットのアップロードと公開](about-asset-upload-publish.md)
@@ -108,7 +108,7 @@ ht-degree: 21%
   + [eCatalogをWeb ページにリンクする](linking-ecatalog-web-page.md)
 + 画像セット {#image-sets}
   + [クイックスタート：画像セット](quick-start-image-sets.md)
-  + [アップロード用の画像セットアセットの準備](preparing-image-set-assets-upload.md)
+  + [アップロード用にImage Set Assetsを準備](preparing-image-set-assets-upload.md)
   + [画像セットの作成](creating-image-set.md)
   + [画像セットにズームターゲットと画像マップを含める](including-zoom-targets-image-maps-image-sets.md)
   + [画像セットでの情報パネルのコンテンツの管理](info-panel-content-image-sets.md)
@@ -118,7 +118,7 @@ ht-degree: 21%
 + スウォッチセット {#swatch-sets}
   + [クイックスタート：スウォッチセット](quick-start-swatch-sets.md)
   + [スウォッチセットにズームターゲットと画像マップを含める](including-zoom-targets-image-maps-swatch-sets.md)
-  + [スウォッチセットアセットのアップロードの準備](preparing-swatch-set-assets-upload.md)
+  + [Swatch Set Assetsをアップロード用に準備](preparing-swatch-set-assets-upload.md)
   + [スウォッチセットの作成](creating-swatch-set.md)
   + [スウォッチセットを表示](viewing-swatch-sets.md)
   + [スウォッチセットをWeb ページにリンクする](linking-swatch-set-web-page.md)
@@ -172,7 +172,7 @@ ht-degree: 21%
   + [ディスク使用情報の取得](getting-disk-usage-information.md)
   + [ラスター画像アセットのアップロード](uploading-image-asset-or-vector.md)
 + プライマリファイル {#master-files}
-  + [画質を最適化するためのベストプラクティス](best-practices-optimizing-quality-images.md)
+  + [画像の品質を最適化するためのガイドライン](best-practices-optimizing-quality-images.md)
   + [画像の編集](editing-images.md)
   + [画像マップの作成](creating-image-maps.md)
   + [画像の切り抜き](cropping-image.md)
@@ -181,7 +181,7 @@ ht-degree: 21%
   + [アップロード時の画像編集オプションの微調整](image-editing-options-upload.md)
   + [PDFの操作](pdfs.md)
   + [PSD ファイルの操作](psd-files.md)
-  + [PostScriptおよびIllustrator ファイルの操作](postscript-illustrator-files.md)
+  + [PostScriptおよびAdobe Illustrator ファイルの操作](postscript-illustrator-files.md)
   + [周辺光量補正、窓カバー、キャビネットファイルの操作](vignette-window-covering-cabinet-files.md)
 + サポートファイル {#support-files}
   + [フォント](fonts.md)

@@ -1,5 +1,5 @@
 ---
-title: アップグレードの準備状況
+title: アップグレードの準備状況チェックリスト
 description: ' [!DNL Adobe Dynamic Media Classic] から [!DNL Dynamic Media] まで [!DNL Adobe Experience Manager]に進む場合は、アップグレードの準備状況チェックリストを使用します。'
 feature: Dynamic Media Classic
 role: Admin,User
@@ -18,9 +18,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: 223
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 |  | タスク | 説明 |
 | :--- | :--- | --- |
 | **フェーズ 1: ライセンス** | 契約の実行 | トラフィックとストレージに基づいて、Adobe アカウントチームはユーザーと協力して、[!DNL Dynamic Media Classic] ライセンスから[!DNL Dynamic Media] ライセンスの更新に移行します。 |
-| **フェーズ 2：準備** | 機能の利用状況を検証 | [!DNL Dynamic Media Classic]で使用されている機能が[!DNL Dynamic Media]で利用できることを確認してください。 [機能比較](/help/using/upgrade-feature-comparison.md) ページを参照してください。 [!DNL Dynamic Media]で利用できない主な機能には、次のようなものがあります。<br>・ Visual Configurator （Image Author, Image Render）。<br>・ Image Templates （1:1 Template）。<br>・ eCatalogs.<br>上記の機能が使用されている場合でも、[!DNL Dynamic Media Classic]経由でこれらの機能にアクセスできるという前提でアップグレードを実行できます。 |
+| **フェーズ 2：準備** | 機能の利用状況を検証 | [!DNL Dynamic Media Classic]で使用されている機能が[!DNL Dynamic Media]で利用できることを確認してください。 [機能比較](/help/using/upgrade-feature-comparison.md) ページを参照してください。 [!DNL Dynamic Media]で利用できない主な機能には、次のものが含まれます。<br>・ Visual Configurator （画像オーサー、画像レンダリング）。<br>・ Image Templates （1:1 テンプレート）。<br>・ eCatalogs。<br>上記の機能が使用されている場合でも、[!DNL Dynamic Media Classic]経由でこれらの機能にアクセスできるという前提でアップグレードを実行できます。 |
 |   | アセットの特定 | アップグレードに使用するアセットとプリセットを検索して準備を整えます。 |
 | **フェーズ 3：環境** | [!DNL Adobe Experience Manager]をアップグレード | [!DNL Adobe Experience Manager]のすべてのインスタンスを最新バージョンに更新する必要があります。 |
 |   | [!DNL Dynamic Media]を設定 | Adobe Consultingまたはパートナーは、お客様の資格情報を使用して[!DNL Dynamic Media]を設定します。 |

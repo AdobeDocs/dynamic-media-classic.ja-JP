@@ -22,9 +22,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42a60be8f52236a376c408b168323c9aca8ecf6b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 343
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analyticsで必要な変数を作成し、それらをAdobe Dynamic Media 
 
 **Adobe Analytics レポートを表示して統合をテストするには：**
 
-1. アカウントからAdobe Dynamic Media Classic ビューア（特に、取得する指標をブロードキャストするビューア）を開始し、操作してイベントデータを作成します。
+1. 取得する指標をブロードキャストするAdobe Dynamic Media Classic ビューアをアカウントから開始し、それを操作してイベントデータを作成します。
 
    例えば、画像セット内の一般的な代替ビューを測定する場合は、画像セットをプレビューし、別のサムネール画像をクリックします。
 
@@ -43,7 +43,7 @@ Adobe Analyticsで必要な変数を作成し、それらをAdobe Dynamic Media 
 
    例えば、サンプルアカウントの&#x200B;**[!UICONTROL LoadAsset]** propにアクセスするには、適切なメニューの選択肢は&#x200B;**[!UICONTROL カスタムトラフィック]** > **[!UICONTROL カスタムトラフィック 1-10]** > **[!UICONTROL LoadAsset]**&#x200B;です。 10個を超えるカスタム propがある場合は、他のメニューの選択肢も表示されます。
 
-1. Adobe Analytics が生成したチャートを参照します。 このグラフは通常、単一の指標のデータです。 このデータがどのアセットに関連付けられているかも知りたい場合は、このイベントのアセットデータを取得します。 例えば、どのビデオが50%しか視聴されているか、またはセット内のどの画像が人気があるかを知ることはしばしば有用です。
+1. Adobe Analytics が生成したチャートを参照します。 このグラフは、単一の指標のデータです。 このデータがどのアセットに関連付けられているかも知りたい場合は、このイベントのアセットデータを取得します。 例えば、どの動画が50%しか視聴されていないか、またはセット内のどの画像が頻繁に視聴されているかを知ることは、しばしば有用です。
 
 >[!NOTE]
 >

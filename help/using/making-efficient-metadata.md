@@ -1,5 +1,5 @@
 ---
-title: メタデータの効率的な管理
+title: メタデータの管理
 description: Adobe Dynamic Media Classicのメタデータをより効率的に活用する方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -21,14 +21,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 163
+source-wordcount: 161
 ht-degree: 37%
 
 ---
 
-# メタデータの効率的な管理{#making-more-efficient-use-of-metadata}
+# メタデータの管理 {#making-more-efficient-use-of-metadata}
 
 Adobe Dynamic Media Classicのすべてのファイルにはメタデータが含まれています。 メタデータは、ファイルを記述し、識別します。アセットの検索と整理に使用されます。 アセットのメタデータを表示するには、詳細ビューでアセットを開き、メタデータパネルを確認します。 このパネルのメタデータフィールドには、アセットに関する説明情報が表示されます。
 

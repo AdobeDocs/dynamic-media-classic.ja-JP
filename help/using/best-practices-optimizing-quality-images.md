@@ -1,5 +1,5 @@
 ---
-title: 画像の品質を最適化するためのベストプラクティス
+title: 画像の品質を最適化するためのガイドライン
 description: 画像の品質を最適化するためのベストプラクティスについて説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b29d7cc6962ca9e7724bb43987947b08af5cd4d7
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1589
 ht-degree: 27%
 
 ---
 
-# 画質を最適化するためのベストプラクティス{#best-practices-for-optimizing-the-quality-of-your-images}
+# 画像の品質を最適化するためのガイドライン{#best-practices-for-optimizing-the-quality-of-your-images}
 
 画質の最適化には時間がかかります。 多くの要因が、許容できる結果のレンダリングに貢献します。 知覚される画質は各個人で異なるので、結果はある程度主観的なものと言えます。 構造化された実験が不可欠です。
 
