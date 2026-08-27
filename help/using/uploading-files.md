@@ -38,7 +38,7 @@ ht-degree: 23%
 
 ### サポートされているアセットファイル形式 {#supported-asset-file-formats}
 
-次の表に、Adobe Dynamic Media Classicがサポートするアセットファイル形式を示します。 サポートされているCamera Raw ファイルについて詳しくは、[&#x200B; サポートされているCamera](https://helpx.adobe.com/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html)を参照してください。
+次の表に、Adobe Dynamic Media Classicがサポートするアセットファイル形式を示します。 サポートされているCamera Raw ファイルについて詳しくは、[&#x200B; サポートされているCamera](https://helpx.adobe.com/jp/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html)を参照してください。
 
 | アセットファイル形式 | 説明 |
 | --- | --- |
