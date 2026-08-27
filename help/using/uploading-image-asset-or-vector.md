@@ -40,7 +40,7 @@ ht-degree: 45%
 
 ## 共有秘密鍵をリクエスト {#requesting-a-shared-secret-key}
 
-Admin Consoleを使用して[が&#x200B;*共有秘密キー*&#x200B;をリクエストし、サポートケース &#x200B;](https://helpx.adobe.com/business/enterprise.html)を作成します。 テクニカルサポートのケースでは、共有秘密鍵をリクエストします。
+Admin Consoleを使用して[が&#x200B;*共有秘密キー*&#x200B;をリクエストし、サポートケース &#x200B;](https://helpx.adobe.com/jp/business/enterprise.html)を作成します。 テクニカルサポートのケースでは、共有秘密鍵をリクエストします。
 
 電子メールの本文には、画像アセットのアップロードに使用する会社名を記載してください。 Adobe Dynamic Media Classicからキーを受け取ったら、後で使用するためにローカルに保存します。
 
