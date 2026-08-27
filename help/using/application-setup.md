@@ -12,10 +12,16 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:37.961Z'
 TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 11367
@@ -39,7 +45,7 @@ ht-degree: 26%
 
 アカウント作成時に、Adobe Dynamic Media Classicは割り当てられたサーバーを自動的に提供します。 これらのサーバーは、Web サイトとアプリケーションのURL文字列を作成するために使用されます。 これらの URL 呼び出しは、アカウントに固有です。
 
-[ セキュアテストサービスのテスト ](testing-assets-making-them-public.md#testing_the_secure_testing_service)も参照してください。
+[&#x200B; セキュアテストサービスのテスト &#x200B;](testing-assets-making-them-public.md#testing_the_secure_testing_service)も参照してください。
 
 * **[!UICONTROL 公開サーバー名]**：このサーバーは、アカウントに固有のすべてのシステム生成URL呼び出しで使用されるライブ CDN （コンテンツ配信ネットワーク）サーバーです。 このサーバー名を変更できるのは、Adobe Dynamic Media Classic サポート担当者から変更を指示された場合のみです。
 
@@ -85,7 +91,7 @@ ht-degree: 26%
 
 ### 参照
 
-* **[!UICONTROL プロジェクトを表示]**: Adobe Dynamic Media Classic アセットを整理する手段としてプロジェクトを使用できるかどうかを指定します。 [ プロジェクトを使用した作業の整理](/help/using/organizing-projects.md)を参照してください。
+* **[!UICONTROL プロジェクトを表示]**: Adobe Dynamic Media Classic アセットを整理する手段としてプロジェクトを使用できるかどうかを指定します。 [&#x200B; プロジェクトを使用した作業の整理](/help/using/organizing-projects.md)を参照してください。
 
 * **[!UICONTROL サンプル eVideo コンテンツを表示]**:eVideo サンプルコンテンツの表示をオンまたはオフにします。
 
@@ -99,7 +105,7 @@ ht-degree: 26%
 
   また、**[!UICONTROL ファイル]**/**[!UICONTROL 再処理]**&#x200B;に移動して、アダプティブビデオセットから直接、よりエンコードされた「子」ビデオを作成することもできます。 Adobe Dynamic Media Classicは、アダプティブビデオセットの「親」プライマリビデオを自動的に見つけ、それをトランスコードのソースビデオとして使用します。 ただし、新しく作成した個々のエンコードされたビデオを保存すると、検索または参照するときには表示されません。 しかし、詳細ビューの「エンコードされたビデオ」タブからはアクセスできます。
 
-  [動画のアップロードとトランスコード ](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
+  [動画のアップロードとトランスコード &#x200B;](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
 
   検索または参照時に、エンコードされたすべてのビデオ派生物にアクセスできるようにしておくには、**[!UICONTROL 「エンコードされたビデオを表示」]**&#x200B;を選択します。
 
@@ -119,7 +125,7 @@ ht-degree: 26%
 
 ### アプリケーションへのアップロード
 
-[ アップロードジョブのオプション ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS)のトレーニングビデオも参照してください。
+[&#x200B; アップロードジョブのオプション &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS)のトレーニングビデオも参照してください。
 
 * **[!UICONTROL 画像を上書き]**: Adobe Dynamic Media Classicでは、2つのファイルに同じ名前を付けることはできません。 各項目のAdobe Dynamic Media Classic ID （画像の名前からファイル名の拡張子を除く）は一意である必要があります。 この規則のため、アップロードダイアログボックスには上書きオプションがあります。 このオプションの実際の効果は、指定した「画像を上書き」オプションによって異なります。 これらのオプションは、置き換え画像のアップロード方法、つまり元の画像を置き換えるか、画像を重複させるかを指定します。 重複する画像の名前は「–1」に変更されます（例えば、chair.tifはchair-1.tifに変更されます）。 これらのオプションは、元の画像とは別のフォルダにアップロードされる画像や、元の画像と異なるファイル名拡張子（JPG、TIF、PNG など）を持つ画像に影響を与えます 「[画像を上書きオプションを使用する](#using-the-overwrite-images-option)」を参照してください。
 
@@ -167,7 +173,7 @@ Adobe Dynamic Media Classicでは、2つのファイルに同じ名前を付け�
 
 画像プリセット画面を開くには、グローバルナビゲーションバーで、**[!UICONTROL 設定]** > **[!UICONTROL 画像プリセット]**&#x200B;に移動します。
 
-[ スマートイメージング ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)を参照してください。
+[&#x200B; スマートイメージング &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)を参照してください。
 
 ### 画像プリセットの作成と編集 {#creating-and-editing-image-presets}
 
@@ -221,7 +227,7 @@ Adobe Dynamic Media Classicでは、2つのファイルに同じ名前を付け�
 
 * **[!UICONTROL シャープニング]**: **[!UICONTROL `Enable Simple Sharpening`]** オプションを選択して、すべての拡大・縮小が行われた後に画像に基本的なシャープフィルターを適用します。 シャープにより、異なるサイズで画像を表示したときに生じるぼかしを補正できます。
 
-  シャープ処理、リサンプルモード、アンシャープマスクについて詳しくは、[画像をシャープ化](sharpening-image.md#sharpening_an_image)を参照してください。 [ シャープニング ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+  シャープ処理、リサンプルモード、アンシャープマスクについて詳しくは、[画像をシャープ化](sharpening-image.md#sharpening_an_image)を参照してください。 [&#x200B; シャープニング &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 * **[!UICONTROL 再サンプルモード]**：再サンプリングモードオプションを選択します。 これらのオプションは、ダウンサンプリングした画像をシャープにします。
 
@@ -274,9 +280,9 @@ Adobe Dynamic Media Classicでは、アダプティブビデオエンコーデ�
 
 デフォルトでは、「アダプティブビデオ」エンコーディングプリセットのみがアクティブ化されます（有効または「オン」）。 必要に応じてそれらを無効にすることができます。 非アクティブなアダプティブビデオプリセットは、アップロードオプションを設定ダイアログボックスの eVideo セクションに選択可能なオプションとして表示されません。
 
-[ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
+[&#x200B; ビデオのアップロードとエンコード &#x200B;](uploading-encoding-videos.md#uploading_and_encoding_videos)を参照してください。
 
-[ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 **アダプティブビデオプリセットをアクティブ化または非アクティブ化するには：**
 
@@ -302,7 +308,7 @@ Adobe Dynamic Media Classicでは、アダプティブビデオエンコーデ�
 
     この「自動スケール」を持つ柔軟性は、独自のカスタムビデオエンコーディングプリセットを作成する際にもデフォルトで使用できます。
 
-    [ ビデオエンコーディングプリセットの追加または編集](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset)を参照してください。
+    [&#x200B; ビデオエンコーディングプリセットの追加または編集](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset)を参照してください。
 
   * **[!UICONTROL アダプティブビデオエンコーディング（16:9または4:3）]**：デスクトップ、モバイル（iPhone、iPad、Android™）、およびタブレット（iPad、Android™）に配信するための16:9および4:3の縦横比ビデオの両方を作成します。 これらはすべて、視聴者の接続速度に最も適した解像度とビットレートで最適化されています。
 
@@ -444,7 +450,7 @@ Adobe Dynamic Media Classicでは、アダプティブビデオエンコーデ�
 
 Adobe ビューアリファレンスガイドの「[HTML5 ビューアについて](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)」を参照してください。
 
-[Adobe Dynamic Media Classic ビューアプリセットの互換性マトリックス ](application-setup.md#scene7_viewer_preset_compatibility_matrix)を参照してください。
+[Adobe Dynamic Media Classic ビューアプリセットの互換性マトリックス &#x200B;](application-setup.md#scene7_viewer_preset_compatibility_matrix)を参照してください。
 
 詳しくは、[ベストプラクティス：HTML5 ビデオビューアの使用](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)を参照してください。
 
@@ -456,7 +462,7 @@ Adobe ビューアリファレンスガイドの「[HTML5 ビューアについ�
 
 web ページによって、ニーズは異なります。 別のブラウザーウィンドウでHTML 5 ビューアを開くリンクを提供するWeb ページが必要な場合があります。 それ以外の場合は、HTML 5 ビューアをホスティングページに直接埋め込む必要があります。 後者の場合、Web ページには静的レイアウトがあります。 または、「レスポンシブ」であり、異なるデバイスまたは異なるブラウザーウィンドウのサイズに対して異なる表示を行います。 これらのニーズに対応するために、Adobe Dynamic Media Classicに付属しているHTML 5 ビューアは、静的なWeb ページとレスポンシブデザインのWeb ページの両方をサポートしています。
 
-レスポンシブビューアをWeb ページに埋め込む方法について詳しくは、[ レスポンシブ画像ライブラリについて](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[ レスポンシブ画像ライブラリの使用](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、[ コマンドリファレンス：コマンド属性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)を参照してください。
+レスポンシブビューアをWeb ページに埋め込む方法について詳しくは、[&#x200B; レスポンシブ画像ライブラリについて](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[&#x200B; レスポンシブ画像ライブラリの使用](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、[&#x200B; コマンドリファレンス：コマンド属性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)を参照してください。
 
 ### ビューアプリセットのタイプ {#viewer-preset-types}
 
@@ -500,7 +506,7 @@ web ページによって、ニーズは異なります。 別のブラウザー
 
 ビューアでサポートされているWeb ブラウザーとオペレーティングシステムのバージョンについて詳しくは、ビューアのリリースノートを参照してください。
 
-[Adobe Viewers リファレンスリリースノート ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)を参照してください。
+[Adobe Viewers リファレンスリリースノート &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)を参照してください。
 
 |  | ビューアテクノロジ | デスクトップ | Apple iPhone | Apple iPad | Android™ スマートフォン | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -574,11 +580,11 @@ Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再�
 
 * **プリセットを追加**:「**[!UICONTROL 追加]**」を選択し、ビューアプリセットを追加ダイアログボックスで選択します。
 
-  [ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
+  [&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
 
 * **プリセットを編集**: プリセットを選択し、**[!UICONTROL 編集]**&#x200B;を選択します。
 
-  [ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
+  [&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
 
 * **プリセットを削除**: プリセットを選択し、**[!UICONTROL 削除]**&#x200B;を選択します。
 
@@ -595,7 +601,7 @@ Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再�
 
 * **プリセットのアクティベートとアクティベート解除**: プリセットを選択し、その「アクティブ」オプションを選択して、アクティベートまたはアクティベート解除できます。
 
-  [ ビューアプリセットの有効化または無効化](application-setup.md#activating_or_deactivating_viewer_presets)を参照してください。
+  [&#x200B; ビューアプリセットの有効化または無効化](application-setup.md#activating_or_deactivating_viewer_presets)を参照してください。
 
 >[!NOTE]
 >
@@ -607,7 +613,7 @@ Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再�
 
 「[HTML5 ビューアプリセットの書き出し](application-setup.md#exporting_an_html5_viewer_preset)」を参照してください。
 
-[ ビューアプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[&#x200B; ビューアプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 **ビューアプリセットを追加および編集するには：**
 
@@ -634,7 +640,7 @@ Adobe Dynamic Media Classicは、MP4 H.264 ビデオのモバイルビデオ再�
    >
    >「**[!UICONTROL Sourceと同じ]**」を選択すると、エンコードされたビデオ自体の解像度サイズに合わせてビデオビューアのサイズを自動的に調整できます。 このオプションを選択すると、ステージの幅とステージの高さは入力できません。 その代わり、これらのオプションはビデオ自体から取得されます。 「**[!UICONTROL Sourceと同じ]**」を選択した場合は、「マージンサイズ」オプションを設定して、ビデオの再生領域の外側のスキンのサイズを反映します。 このマージンサイズは、ビデオコントロールのピクセル単位の高さと幅です。 次の画像を使用して、使用する余白サイズを決定できます。*
 
-   ![ ビデオ ビューアのマージン設定](assets/vs_video_viewer_configure_margin.png)
+   ![&#x200B; ビデオ ビューアのマージン設定](assets/vs_video_viewer_configure_margin.png)
 
 1. 次のいずれかの操作を行います。
 
@@ -674,19 +680,19 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 1. CSS ファイルを CSS エディタで開き、変更を行い、ファイルを保存します。
 1. CSS ファイルをAdobe Dynamic Media Classicにアップロードします。
 
-   [ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
+   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
 
 1. Dynamic Media Image ServerにCSS ファイルを公開します。
 
-   [ ファイルの公開](publishing-files.md#publishing_files)を参照してください。
+   [&#x200B; ファイルの公開](publishing-files.md#publishing_files)を参照してください。
 
 1. 新しいビューアプリセットを通常どおりに追加します。 アップロードしたビューア CSS ファイルを選択します。
 
-   [ ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
+   [&#x200B; ビューアプリセットの追加と編集](application-setup.md#adding_and_editing_viewer_presets)を参照してください。
 
 ### ビューアプリセットのアクティベートまたはアクティベート解除 {#activating-or-deactivating-viewer-presets}
 
-アセットを表示するURLを作成するには、プレビューダイアログボックスで「プリセット」ドロップダウンリストを開き、「**[!UICONTROL ビューアプリセットを選択し、「]** URLをコピー」を選択します（[ ビューアプリセットのURLをコピー](application-setup.md#copying_the_url_of_a_viewer_preset)を参照）。 このプリセットリストには、管理者がビューアプリセット画面で追加して管理するビューアプリセットが表示されます。 例えば、ユーザーがeCatalogをプレビューすると、アクティブなすべてのeCatalog ビューアプリセットがプレビューダイアログボックスのプリセットドロップダウンリストに表示されます。
+アセットを表示するURLを作成するには、プレビューダイアログボックスで「プリセット」ドロップダウンリストを開き、「**[!UICONTROL ビューアプリセットを選択し、「]** URLをコピー」を選択します（[&#x200B; ビューアプリセットのURLをコピー](application-setup.md#copying_the_url_of_a_viewer_preset)を参照）。 このプリセットリストには、管理者がビューアプリセット画面で追加して管理するビューアプリセットが表示されます。 例えば、ユーザーがeCatalogをプレビューすると、アクティブなすべてのeCatalog ビューアプリセットがプレビューダイアログボックスのプリセットドロップダウンリストに表示されます。
 
 ビューアプリセット画面でビューアプリセットを非アクティブ化しないと、プレビューダイアログボックスの「プリセット」ドロップダウンリストの件数が増加します。
 
@@ -806,7 +812,7 @@ Adobe Dynamic Media Classicには事前に定義されたメタデータビュ�
 1. **[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL メタデータ]** > **[!UICONTROL メタデータプリセット]**&#x200B;に移動します。
 1. メタデータプリセット画面で、次のいずれかの操作を実行します。
 
-   * プリセットを作成するには、**[!UICONTROL 追加]**&#x200B;を選択します。 「メタデータテンプレート名」テキストフィールドに、プリセットの名前を入力します。 **[!UICONTROL メタデータビュー]**&#x200B;を選択し、ドロップダウンリストからビューを選択します（[ メタデータビュー](application-setup.md#metadata_views)を参照）。
+   * プリセットを作成するには、**[!UICONTROL 追加]**&#x200B;を選択します。 「メタデータテンプレート名」テキストフィールドに、プリセットの名前を入力します。 **[!UICONTROL メタデータビュー]**&#x200B;を選択し、ドロップダウンリストからビューを選択します（[&#x200B; メタデータビュー](application-setup.md#metadata_views)を参照）。
    * 既存のプリセットを編集するには、メタデータプリセットリストからプリセットを選択し、**[!UICONTROL 編集]**&#x200B;を選択します。
 
 1. プリセットに含めるように見出しを展開します。 プリセットに含めるさまざまなフィールドに値を入力します。
@@ -940,7 +946,7 @@ Adobe Dynamic Media Classicでは、バッチセットプリセットを使用�
 
 2D スピンセットを自動生成するためのバッチセットプリセットの作成[も参照してください](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set)。
 
-[2D スピンセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[2D スピンセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
 **バッチセットプリセットを作成するには：**
 
@@ -967,7 +973,7 @@ Adobe Dynamic Media Classicでは、バッチセットプリセットを使用�
 
 バッチセットタイプ **複数軸スピンセット**&#x200B;を使用して、2D スピンセットの生成を自動化する「レシピ」を作成できます。 画像グループ化では、行と列の正規表現を使用して、多次元配列内の画像アセットを整列させます。
 
-[ バッチセットプリセットの作成](application-setup.md#creating_a_batch_set_preset)も参照してください。
+[&#x200B; バッチセットプリセットの作成](application-setup.md#creating_a_batch_set_preset)も参照してください。
 
 多軸スピンセットに必要な行または列の最小数または最大数はありません。
 
@@ -985,7 +991,7 @@ spin-03-12
 
 この情報を使用すると、バッチセットタイプのレシピが次のように作成されます。
 
-![ バッチセットレシピ画像](assets/se_batch_set_recipe.png)
+![&#x200B; バッチセットレシピ画像](assets/se_batch_set_recipe.png)
 
 スピニングセットの共有アセット名部分のグループ化は、（強調表示されているように）一致フィールドに追加されます。 行と列を含むアセット名の変数部分が、行と列のフィールドにそれぞれ追加されます。
 
@@ -1040,7 +1046,7 @@ spin-03-12
 
 >[!MORELIKETHIS]
 >
->* [ アセットのプレビュー](previewing-asset.md#previewing_an_asset)
+>* [&#x200B; アセットのプレビュー](previewing-asset.md#previewing_an_asset)
 >* [画像プリセットの設定](setting-image-presets.md#setting_up_image_presets)
->* [ メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
->* [ ジョブ ファイルを確認](checking-job-files.md#checking_job_files)
+>* [&#x200B; メタデータの表示、追加、書き出し](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [&#x200B; ジョブ ファイルを確認](checking-job-files.md#checking_job_files)

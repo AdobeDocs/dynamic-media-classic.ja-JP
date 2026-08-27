@@ -12,10 +12,15 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2124
@@ -64,11 +69,11 @@ Adobe Dynamic Media Classic デスクトップアプリケーション内のア�
 * デスクトップアプリケーションは、通常、Set操作の後に応答を停止します。
 * リクエストの難読化とロックモードは、**[!UICONTROL 画像サービングのテスト]**&#x200B;で自動的に有効になります。
 
-  「[ セキュアテストサービス ](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service)」を参照してください。
+  「[&#x200B; セキュアテストサービス &#x200B;](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service)」を参照してください。
 
 * Adobe Analyticsで認証メカニズムを更新しました。 新しい統合の場合や、一部のAnalytics変数をDynamic Media Classic デスクトップアプリ内から更新する必要がある場合に関連します。
 
-  更新された手順については、[Adobe Analyticsにログオン ](/help/using/log-analytics.md)してください。
+  更新された手順については、[Adobe Analyticsにログオン &#x200B;](/help/using/log-analytics.md)してください。
 
 ## リリース 20.21.2の修正 {#minor-release}
 
@@ -132,18 +137,18 @@ Adobe Dynamic Media Classic デスクトップアプリケーション内のア�
 
    * **macOS** - **[!UICONTROL ドラッグ&amp;ドロップでインストール]** ダイアログボックスを開き、**[!UICONTROL Adobe Dynamic Media Classic]**&#x200B;をドラッグして&#x200B;**[!UICONTROL アプリケーション]**&#x200B;にドロップします。
 
-     ![macOSでのドラッグ&amp;ドロップのインストール ](/help/using/assets/dragondrop-install1.png)
+     ![macOSでのドラッグ&amp;ドロップのインストール &#x200B;](/help/using/assets/dragondrop-install1.png)
 
    * **[!UICONTROL アプリケーション]** フォルダーで、Adobe Dynamic Media Classic アイコンをタップします。
    * ダイアログボックスで「**[!UICONTROL 開く]**」をタップして、Adobe Dynamic Media Classic デスクトップアプリを開きます。
 
-     ![ ダウンロードしたアプリを開く](/help/using/assets/open-dmclassicapp1.png)
+     ![&#x200B; ダウンロードしたアプリを開く](/help/using/assets/open-dmclassicapp1.png)
 
    * **Windows** - インストーラーバイナリを実行し、画面の指示に従ってデスクトップアプリをインストールします。
 
 1. アプリケーションを開くと、新しいAdobe Dynamic Media Classic サインインページが表示されます。
 
-   ![Adobe Dynamic Media Classic ログイン ](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic ログイン &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Adobe Dynamic Media Classic デスクトップアプリにログインするには、ブラウザーでAdobe Dynamic Media Classicにログオンするときに使用したのと同じ資格情報を使用します。
 
@@ -185,7 +190,7 @@ MacOSに最新バージョンのAdobe Dynamic Media Classic デスクトップ�
 
 1. アプリケーションを開くと、新しいAdobe Dynamic Media Classic サインインページが表示されます。
 
-   ![Adobe Dynamic Media Classic ログイン ](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic ログイン &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Adobe Dynamic Media Classic デスクトップアプリにログインするには、ブラウザーでAdobe Dynamic Media Classicにログオンするときに使用したのと同じ資格情報を使用します。
 
@@ -199,7 +204,7 @@ MacOSに最新バージョンのAdobe Dynamic Media Classic デスクトップ�
 
 ## Windowsに最新のAdobe Dynamic Media Classic デスクトップアプリをダウンロードして&#x200B;*サイレント* インストール® {#install-silent-windows-dmc-app}
 
-使用するコマンドは、基本的なMSI サイレント インストール用です。 ただし、Adobe Dynamic Media Classic デスクトップアプリインストーラーは、InstallShieldを使用して作成されたInstallScript MSI インストーラーです。 インストーラーをレコードモードで実行すると、ユーザーとのやり取りは応答ファイルに記録されます。 この応答ファイルは、[ サイレントモードでのインストールの実行](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm)で説明されているように、サイレントインストールに使用されます。
+使用するコマンドは、基本的なMSI サイレント インストール用です。 ただし、Adobe Dynamic Media Classic デスクトップアプリインストーラーは、InstallShieldを使用して作成されたInstallScript MSI インストーラーです。 インストーラーをレコードモードで実行すると、ユーザーとのやり取りは応答ファイルに記録されます。 この応答ファイルは、[&#x200B; サイレントモードでのインストールの実行](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm)で説明されているように、サイレントインストールに使用されます。
 
 こちらもご覧ください：
 
@@ -231,7 +236,7 @@ Windows®に最新バージョンのAdobe Dynamic Media Classic デスクトッ�
 
 1. アプリケーションを開くと、新しいAdobe Dynamic Media Classic サインインページが表示されます。
 
-   ![Adobe Dynamic Media Classic ログイン ](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic ログイン &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Adobe Dynamic Media Classic デスクトップアプリにログインするには、ブラウザーでAdobe Dynamic Media Classicにログオンするときに使用したのと同じ資格情報を使用します。
 
@@ -245,7 +250,7 @@ Windows®に最新バージョンのAdobe Dynamic Media Classic デスクトッ�
 
 ## Adobe Dynamic Media Classic デスクトップアプリの使用に関するビデオチュートリアル {#dmc-app-video-walk-through}
 
-Adobe Dynamic Media Classic デスクトップアプリ ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)の使用に関する[ ビデオのチュートリアルを視聴します（所要時間：2分36秒）。
+Adobe Dynamic Media Classic デスクトップアプリ [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)の使用に関する ビデオのチュートリアルを視聴します（所要時間：2分36秒）。
 
 ## デスクトップアプリを使用して、コンピューター上の画像キャッシュとアセットキャッシュを消去する {#clear-cache}
 
