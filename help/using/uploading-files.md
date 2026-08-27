@@ -11,10 +11,16 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 1d39c652980a2e0c502c27856fda7fd7e6c4ec0a
 workflow-type: tm+mt
 source-wordcount: 4137
@@ -32,7 +38,7 @@ ht-degree: 23%
 
 ### サポートされているアセットファイル形式 {#supported-asset-file-formats}
 
-次の表に、Adobe Dynamic Media Classicがサポートするアセットファイル形式を示します。 サポートされているCamera Raw ファイルについて詳しくは、[ サポートされているCamera](https://helpx.adobe.com/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html)を参照してください。
+次の表に、Adobe Dynamic Media Classicがサポートするアセットファイル形式を示します。 サポートされているCamera Raw ファイルについて詳しくは、[&#x200B; サポートされているCamera](https://helpx.adobe.com/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html)を参照してください。
 
 | アセットファイル形式 | 説明 |
 | --- | --- |
@@ -159,7 +165,7 @@ Adobe Dynamic Media Classicにコンテンツを保存するために選択す�
 
 Adobe Dynamic Media Classicは、アップロードジョブがいつ開始および終了するかを確認し、問題があれば通知するメールメッセージを送信します。
 
-大規模なアップロードジョブ中（または直後）に、「画像がまだ最適化されていません」というメッセージが表示される新しい項目があります。 ファイルがまだ完全に処理されておらず、Adobe Dynamic Media Classicに追加されていないため、このメッセージが表示されます。 後でこれらのファイルを最適化することができます [ ファイルの最適化](application-setup.md#optimize_files)を参照してください。
+大規模なアップロードジョブ中（または直後）に、「画像がまだ最適化されていません」というメッセージが表示される新しい項目があります。 ファイルがまだ完全に処理されておらず、Adobe Dynamic Media Classicに追加されていないため、このメッセージが表示されます。 後でこれらのファイルを最適化することができます [&#x200B; ファイルの最適化](application-setup.md#optimize_files)を参照してください。
 
 ### FTP セキュリティ {#ftp-security}
 
@@ -184,11 +190,11 @@ Adobe Dynamic Media Classic デスクトップアプリケーションでは、�
 1. （オプション）アップロードページの下部付近にある「ジョブ名」テキストフィールドに、アップロードジョブの新しい名前を入力します。 または、Adobe Dynamic Media Classicが提供するデフォルトの名前を使用することもできます。 アップロードと公開ジョブはジョブページに記録され、ジョブのステータスを確認できます。 詳しくは、[ジョブファイルの確認](checking-job-files.md#checking_job_files)を参照してください。
 1. （オプション）アップロードページの下部付近にある「**[!UICONTROL アップロード後に公開]**」を選択すると、アップロードしたアセットを自動的に公開できます。
 ファイルを公開すると、ライブサーバーに送信されます。 その後、これらのファイルの URL を外部の Web サイトやアプリケーションで使用することができます。 このオプションは、ジョブオプションダイアログボックスでも使用できます。
-1. （オプション）アップロードページの下部付近で、既存のファイルを同じ名前で置き換えるためにアップロードするファイルを指定する場合は、**[!UICONTROL 拡張子に関係なく同じベースアセット名の任意のフォルダーで上書きする]**を選択します。 このオプションは、ジョブオプションダイアログボックスでも使用できます。
+1. （オプション）アップロードページの下部付近で、既存のファイルを同じ名前で置き換えるためにアップロードするファイルを指定する場合は、**[!UICONTROL 拡張子に関係なく同じベースアセット名の任意のフォルダーで上書きする]**&#x200B;を選択します。 このオプションは、ジョブオプションダイアログボックスでも使用できます。
 このオプションの名前は、**[!UICONTROL アプリケーション設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL アプリケーションへのアップロード]** > **[!UICONTROL 画像の上書き]**&#x200B;の設定によって異なります。
 1. アップロードページの右下隅付近にある「**[!UICONTROL ジョブオプション]**」を選択し、必要なオプションを指定します。
 
-   詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
+   詳しくは、[&#x200B; アップロードオプション](uploading-files.md#upload_options)を参照してください。
 
 1. アップロードジョブオプションダイアログボックスで、**[!UICONTROL 保存]**&#x200B;を選択します。
 1. アップロードページの右下隅にある「**[!UICONTROL アップロードを送信]**」を選択します。
@@ -205,12 +211,12 @@ Adobe Dynamic Media Classic デスクトップアプリケーションでは、�
 詳しくは、[ジョブファイルの確認](checking-job-files.md#checking_job_files)を参照してください。
 1. （オプション）アップロードページの下部付近にある「**[!UICONTROL アップロード後に公開]**」を選択すると、アップロードしたアセットを自動的に公開できます。
 ファイルを公開すると、ライブサーバーに送信されます。 その後、これらのファイルの URL を外部の Web サイトやアプリケーションで使用することができます。 このオプションは、ジョブオプションダイアログボックスでも使用できます。
-1. （オプション）アップロードページの下部付近で、既存のファイルを同じ名前で置き換えるためにアップロードするファイルを指定する場合は、**[!UICONTROL 拡張子に関係なく同じベースアセット名の任意のフォルダーで上書きする]**を選択します。 このオプションは、ジョブオプションダイアログボックスでも使用できます。
+1. （オプション）アップロードページの下部付近で、既存のファイルを同じ名前で置き換えるためにアップロードするファイルを指定する場合は、**[!UICONTROL 拡張子に関係なく同じベースアセット名の任意のフォルダーで上書きする]**&#x200B;を選択します。 このオプションは、ジョブオプションダイアログボックスでも使用できます。
 このオプションの名前は、**[!UICONTROL 設定]** > **[!UICONTROL アプリケーション設定]** > **[!UICONTROL 一般設定]** > **[!UICONTROL アプリケーションにアップロード]** > **[!UICONTROL 画像を上書き]**&#x200B;の設定によって異なります。
 1. オプション。「**[!UICONTROL VIA FTP]**」タブを選択した場合にのみ使用できます。 アップロードページの下部付近にある「**[!UICONTROL アップロード時にZipまたはTar ファイルを解凍]**」を選択すると、アップロードしたZIPまたはTAR ファイルからすべてのファイルを自動的に抽出できます。 このオプションは、ジョブオプションダイアログボックスでも使用できます。
 1. アップロードページの右下隅付近にある「**[!UICONTROL ジョブオプション]**」を選択し、必要なオプションを指定します。
 
-   詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
+   詳しくは、[&#x200B; アップロードオプション](uploading-files.md#upload_options)を参照してください。
 
 1. アップロードジョブオプションダイアログボックスで、**[!UICONTROL 保存]**&#x200B;を選択します。
 1. アップロードページの右下隅にある「**[!UICONTROL アップロードを送信]**」を選択します。
@@ -235,7 +241,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションでは、�
       * **[!UICONTROL 毎日]**: ジョブを毎日実行する時間を設定します。 ジョブを月曜日から金曜日までのみ実行する場合は、**[!UICONTROL 平日のみ]**&#x200B;を選択します。
       * **[!UICONTROL 週単位]**: ジョブを実行する曜日と時刻を指定します。
       * **[!UICONTROL 毎月]**: ジョブを実行する特定の曜日（開始時間を含む）を選択します。
-      * **[!UICONTROL カスタム]**：アップロードまたは公開ジョブの時間間隔を独自の仕様に合わせてカスタマイズします。 [ カスタム アップロードまたは公開ジョブの時間間隔の作成](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)を参照してください。
+      * **[!UICONTROL カスタム]**：アップロードまたは公開ジョブの時間間隔を独自の仕様に合わせてカスタマイズします。 [&#x200B; カスタム アップロードまたは公開ジョブの時間間隔の作成](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)を参照してください。
 
   * **[!UICONTROL アップロード後に公開]**:「**[!UICONTROL デスクトップから]**」タブまたは「**[!UICONTROL FTP経由で]**」タブのいずれかを選択した場合に使用できます。 アップロードしたアセットを自動的に公開するには、このオプションを選択します。 ファイルを公開すると、ファイルがライブサーバーに送信されます。 その後、これらのファイルの URL を外部の Web サイトやアプリケーションで使用することができます。 このオプションは、アップロードページにもあります。
 
@@ -266,7 +272,7 @@ Adobe Dynamic Media Classic デスクトップアプリケーションでは、�
   * **[!UICONTROL カスタム From]** > **[!UICONTROL To]**: メニューを開いて、**[!UICONTROL Convert From]**&#x200B;および&#x200B;**[!UICONTROL Convert To]** カラースペースを選択できます。 この詳細オプションは、ソースファイルに埋め込まれたカラー情報よりも優先されます。 送信するすべての画像に誤ったカラープロファイルデータまたは不足しているカラープロファイルデータが含まれている場合にのみ、このオプションを選択します。
 
 * **画像編集オプション**：クリッピング `<>` マスクを画像内に保持し、カラープロファイルを選択できます。
-[画像の微調整オプション （アップロード ](image-editing-options-upload.md#image-editing-options-at-upload)時）を参照してください。
+[画像の微調整オプション （アップロード &#x200B;](image-editing-options-upload.md#image-editing-options-at-upload)時）を参照してください。
 
 * **PostScript® オプション**: PostScript® ファイルのラスタライズ、ファイルの切り抜き、透明な背景の維持、解像度の選択、カラースペースの選択を行うことができます。
 [PostScriptおよびAdobe Illustrator ファイルの操作](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)を参照してください。
@@ -281,13 +287,13 @@ Adobe Dynamic Media Classic デスクトップアプリケーションでは、�
 [PostScriptおよびAdobe Illustrator ファイルの操作](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)を参照してください。
 
 * **EVIDEO オプション**: ビデオプリセットを選択して、ビデオファイルをトランスコードできます。
-[ ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)を参照してください。
+[&#x200B; ビデオエンコーディングプリセットの操作](uploading-encoding-videos.md#working_with_video_encoding_presets)を参照してください。
 
 * **その他のメタデータ**: アップロードするファイルを表すキーワードを入力します。 キーワードはコンマで区切ります。 キーワードを使用すると、アセットを容易に検索できます。
 [高度な検索を実行する](searching-assets.md#conducting_an_advanced_search)を参照してください。
-[ キーワードのアップロード ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
+[&#x200B; キーワードのアップロード &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS)のトレーニングビデオも参照してください。
 
-* **バッチセットプリセット**：アップロードしたファイルから画像セット、スピンセット、またはスウォッチセットを作成するには、使用するプリセットの&#x200B;**[!UICONTROL アクティブ]**列を選択します。 複数のプリセットを選択できます。 プリセットは、アプリケーション設定/バッチセットプリセットページで作成できます。
+* **バッチセットプリセット**：アップロードしたファイルから画像セット、スピンセット、またはスウォッチセットを作成するには、使用するプリセットの&#x200B;**[!UICONTROL アクティブ]**&#x200B;列を選択します。 複数のプリセットを選択できます。 プリセットは、アプリケーション設定/バッチセットプリセットページで作成できます。
 詳しくは、[バッチセットプリセット](application-setup.md#batch_set_presets)を参照してください。
 
 * **詳細**:「[別のジョブでアップロードをフォローする](uploading-files.md#follow-an-upload-with-another-job)」を参照してください。
@@ -321,6 +327,6 @@ FTPを使用してアイテムをアップロードする場合は、アップ�
 
 >[!MORELIKETHIS]
 >
->* [ アセットフォルダーの操作](asset-folders.md#working_with_asset_folders)
+>* [&#x200B; アセットフォルダーの操作](asset-folders.md#working_with_asset_folders)
 >* [繰り返しアップロードと公開のジョブを処理](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [ アップロードまたは公開ジョブをトリガーとして使用](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+>* [&#x200B; アップロードまたは公開ジョブをトリガーとして使用](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
