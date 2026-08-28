@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2124
 ht-degree: 0%
@@ -38,7 +38,7 @@ Adobe Dynamic Media Classic ユーザーは、ブラウザーでAdobe Flash テ�
 >
 >Adobeでは、2020年10月1日までに新しいAdobe Dynamic Media Classic デスクトップアプリケーションをインストールすることをお勧めします。 これにより、2020年12月31日にAdobe Flash Playerが非推奨になる前に、移行期間が確保されます。 その日付以降は、製品内で「Adobe Dynamic Media Classic」というラベルが付いたAdobe Dynamic Media Classic ユーザーインターフェイスのブラウザーバージョンにログオンできません。
 
-[新しいAdobe Dynamic Media Classic ログインに関するFAQを参照してください。](/help/using/new-ui-2020.md)
+[新しいAdobe Dynamic Media Classic ログインに関するFAQを参照してください](/help/using/new-ui-2020.md)。
 
 ## Adobe Dynamic Media Classic デスクトップアプリの必要システム構成 {#system-requirements-dmc-app}
 
@@ -128,8 +128,8 @@ Adobe Dynamic Media Classic デスクトップアプリケーション内のア�
 -->
 
 <!--
-    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg).
+    * [Windows (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe). 
 -->
 
 

@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 6%
@@ -33,7 +33,7 @@ ht-degree: 6%
 * web サイトやアプリケーション全体で、画像のサイズをすばやく変更できます。 例えば、すべてのサムネール画像を変更するには、「サムネール」画像プリセットを変更します。 画像プリセットは、サイズとフォーマット属性のコレクションです。 Web サイトまたはアプリケーション全体のすべてのサムネール画像のサイズを変更するには、「サムネール」画像プリセットを変更します。
 * コンテンツ管理システムやアセット管理システムで、プライマリファイルや様々な派生ファイルをすべて管理する必要はありません。
 
-![同じ高解像度のプライマリファイルから異なるサイズの複数の派生画像を作成できます。](/help/using/assets/is_derivative_sizes_popup.png)
+![同じ高解像度のプライマリファイル &#x200B;](/help/using/assets/is_derivative_sizes_popup.png)から異なるサイズの複数の派生画像を作成できます。
 
 [画像サイズ：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS)のトレーニングビデオを参照してください。
 

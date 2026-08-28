@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 22%
@@ -49,7 +49,7 @@ eCatalogで選択した設定に応じて、ビューアで次の操作を実行
 * ピンチズームやスワイプによるページめくりなど、ジェスチャ操作を使用します。
 * キーワードと一致する項目を検索することができます。
 
-![&#x200B; ユーザーに表示されるe カタログ。 A） eCatalog開封ページ。 B） eCatalogが2 ページ目になりました。](/help/using/assets/ec_cat_viewer_popup.png)
+![&#x200B; ユーザーに表示されるe カタログ。 A） eCatalog開封ページ。 B） eCatalogが2](/help/using/assets/ec_cat_viewer_popup.png) ページに変わりました。
 
 eCatalogを作成するには、通常、Adobe Acrobatまたは他の印刷プログラムで作成された高解像度のPDF ファイルを使用しますが、画像ファイルからeCatalogを作成することもできます。
 

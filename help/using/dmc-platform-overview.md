@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c0fb79fc030080ac7774fc1428d58a48eb11e1f1
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: 515
 ht-degree: 13%
 
 ---
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classicは、Adobe Dynamic Media Classicを使用して、�
 
 Adobe Dynamic Media Classicで生成するURL文字列には、配信時にアセットを表示する方法をサーバーに伝える指示が含まれています。 たとえば、同じプライマリ画像でも、サイズ、形式、重み、色、ビューなどが異なるように配信できます。 Adobe Dynamic Media Classicを使用したメディアアセットの作成と公開の一環として、効果を視覚的に設定できます。 これにより、プライマリアセットをアプリケーションに表示する方法をサーバーに正しく伝えるURL呼び出しを作成します。
 
-![Adobe Dynamic Media Classicは、サイズやフォーマットが異なる様々なメディアに同じプライマリ画像を配信できます。](/help/using/assets/gs_dynamic_publishing.png)
+![Adobe Dynamic Media Classicは、サイズやフォーマットが異なる様々なメディアに同じプライマリ画像を配信できます](/help/using/assets/gs_dynamic_publishing.png)。
 *Adobe Dynamic Media Classicを使用すると、サイズや帯域幅に関係なく、あらゆる画面に一貫性のある質の高いエクスペリエンスを確実に配信できます。*
 
 ## コンテンツのキャッシング {#content-caching}

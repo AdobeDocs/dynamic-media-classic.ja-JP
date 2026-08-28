@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1049
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Flash Playerは、Adobe Flash Platformで開発されたコンテンツを
 システム要件を確認し、新しいアプリをダウンロードしてインストールしてからログインするには、[Adobe Dynamic Media Classic デスクトップアプリ &#x200B;](/help/using/dynamic-media-classic-desktop-app.md)を参照してください。
 +++
 
-<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
+<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page](https://www.adobe.com/subscription/dynamic-media-newsletter.html). -->
 
 +++**_新しいデスクトップアプリの仕組みはどのようになっていますか？_**
 デスクトップアプリケーションをダウンロード、インストール、起動すると、更新されたログインが表示されます。 既存のユーザー名とパスワードを入力し、お住まいの地域に基づいて適切なサーバーを選択すると、Adobe Dynamic Media Classicにログインできます。 全体的なエクスペリエンスは、Web ブラウザーのバージョンと同じです。 デスクトップアプリケーションから、Adobe Dynamic Media Classicの実稼動環境とステージング環境にアクセスできます。 この機能の資格情報を持っている場合は、Media Portalにアクセスすることもできます。

@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 32%
+source-wordcount: 244
+ht-degree: 12%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classicでは、Web サイトに表示する正確なサイズのTIFFまたはPSDの透明な画像をテンプレートに使用することをお勧めします。 また、テンプレートを公開するときには、これと同じサイズの画像プリセットで画像を呼び出します。 このようにサイズに注意することで、テンプレートは作成時のサイズが保たれ、サイズ変更（再サンプル）されなくなります。
+>Adobe Dynamic Media Classicでは、web サイトに表示する正確なサイズのTIFFまたはPSD画像をテンプレート内で使用することをお勧めします。 テンプレートを公開する場合は、同じサイズの画像プリセットで画像を呼び出します。 サイズに注意を払うと、テンプレートがデザインされたサイズよりも大きいサイズまたは小さいサイズにサイズ変更（再サンプリング）されなくなります。
 
 テンプレートは、Adobe Photoshop PSD ファイルまたは画像ファイルから作成できます。
 
-ファイルのアップロードについて詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。 テンプレートファイルをアップロードするときは、以下の点に注意してください。
+ファイルのアップロードについて詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。 テンプレートファイルをアップロードする際には、次の点を考慮してください。
 
 * PSD ファイルをアップロードする場合は、そのファイルからテンプレートを作成できます。 Adobe Dynamic Media Classicでは、PSDの各レイヤーに対して個別の画像が作成されます。 アップロードジョブオプションダイアログボックスで、**[!UICONTROL Photoshopオプション]**&#x200B;を選択し、**[!UICONTROL レイヤーの維持]**&#x200B;と&#x200B;**[!UICONTROL テンプレートの作成]**&#x200B;を選択します。 次に、**[!UICONTROL レイヤー名]** ドロップダウンリストから、PSDのレイヤーからAdobe Dynamic Media Classicが作成する画像に名前を付けるオプションを選択します。
 詳しくは、[PSD アップロードオプション](psd-files.md#psd_upload_options)を参照してください。
