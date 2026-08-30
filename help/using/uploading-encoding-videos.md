@@ -11,30 +11,26 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:34.556Z'
 TQID: 'https://experienceleague.adobe.com/G7OuvXwsh-eBgUivFbhhsBXhzOh47Of9WwSkHdX-uBQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 1a60a2245fafc4ebadbd1a2aaf5b969904355181
 workflow-type: tm+mt
-source-wordcount: 4074
-ht-degree: 39%
+source-wordcount: 4080
+ht-degree: 35%
 
 ---
 
 # ビデオのアップロードとエンコード{#uploading-and-encoding-videos}
 
-Web デバイスまたはモバイルデバイスに配信するための単一のビデオまたはアダプティブビデオセットを作成するには、まずプライマリビデオファイルをAdobe Dynamic Media Classicにアップロードします。 Adobe Dynamic Media Classicは、動画をMP4形式にエンコードし、次のファイル形式で動画を公開します。
+Web デバイスまたはモバイルデバイスに配信するための1つのビデオまたはアダプティブビデオセットを作成するには、まずプライマリビデオファイルをAdobe Dynamic Media Classicにアップロードします。 Adobe Dynamic Media Classicは、動画をMP4形式にエンコードし、次のファイル形式で動画を公開します。
 
 * **MP4**: Adobe Dynamic Media Classicでは、ビデオ ファイル形式としてMP4を推奨しています。 以下の項目には、MP4 ファイルを使用します。
 
-   * デスクトップでの HTTP ダイナミックストリーミング
-   * HTTP ライブストリーミング （Appleのストリーミングプロトコル）。
-   * Android™、BlackBerry®、Windows® モバイルデバイスへのプログレッシブビデオ配信
+  * デスクトップでの HTTP ダイナミックストリーミング
+  * HTTP ライブストリーミング （Appleのストリーミングプロトコル）。
+  * Android™、BlackBerry®、Windows® モバイルデバイスへのプログレッシブビデオ配信
 
   Adobe Dynamic Media Classicには、ビデオファイルをアップロードするための2つのワークフローがあります。
 
@@ -42,23 +38,23 @@ Web デバイスまたはモバイルデバイスに配信するための単一�
 
 * **ソースビデオをプライマリ**：プライマリソースビデオファイルをアップロードし、アップロード時にこれらのファイルをMP4 ファイルにエンコードします。 エンコードされたビデオには、参照パネルで「ビデオ」というラベルが付けられます。 Adobe Dynamic Media Classicでは、様々な形式のビデオファイルのエンコーディングをサポートしています。
 
-   * エンコードするプライマリソースビデオファイルがサポートされていることを確認します。
+  * エンコードするプライマリソースビデオファイルがサポートされていることを確認します。
 
-     詳しくは、[エンコードでサポートされるビデオファイルタイプ](uploading-encoding-videos.md#supported-video-file-types-for-encoding)を参照してください。
+    詳しくは、[エンコードでサポートされるビデオファイルタイプ](uploading-encoding-videos.md#supported-video-file-types-for-encoding)を参照してください。
 
-   * ビデオエンコーディングプリセットを選択します。
+  * ビデオエンコーディングプリセットを選択します。
 
-     詳しくは、[ビデオファイルのエンコーディング用のビデオプリセット](application-setup.md#video-presets-for-encoding-video-files)を参照してください。
+    詳しくは、[ビデオファイルのエンコーディング用のビデオプリセット](application-setup.md#video-presets-for-encoding-video-files)を参照してください。
 
-     詳しくは、[ビデオのエンコーディングのベストプラクティス](uploading-encoding-videos.md#best-practices-for-video-encoding)を参照してください。
+    詳しくは、[ビデオのエンコーディングのベストプラクティス](uploading-encoding-videos.md#best-practices-for-video-encoding)を参照してください。
 
-Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 ビデオサムネール、ビデオサムネールの URL の取得方法、ポスターフレームの変更方法についても詳しく説明しています。
+Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 ビデオサムネールの詳細、URLの取得方法、ポスターフレームの変更方法については、ドキュメントを参照してください。
 
-[&#x200B; ビデオサムネールの操作](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)を参照してください。
+[ ビデオサムネールの操作](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)を参照してください。
 
 **ビデオをアップロードしてエンコードするには：**
 
-次のいずれかの操作を行います。
+次のいずれかのタスクを実行します。
 
 *ビデオが既にエンコードされている場合*
 
@@ -79,8 +75,8 @@ Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 �
 1. アップロードジョブオプションダイアログボックスで、**[!UICONTROL ビデオオプション]**&#x200B;を展開し、次のいずれかの操作を行います。
 
    * ベストプラクティスは、**[!UICONTROL アダプティブビデオエンコーディング]**&#x200B;を選択することです。 「[アダプティブビデオ（初期設定）](application-setup.md#adaptive-video-default)」を参照してください。
-   * オプション。 個々のエンコーディング設定を使用する場合は、**[!UICONTROL 単一エンコーディングプリセット]**&#x200B;を展開し、デスクトップ、モバイル、タブレットのエンコーディングオプションを選択します。
-詳しくは、[デスクトップビデオエンコーディングプリセット](application-setup.md#desktop-video-encoding-presets)、[モバイルビデオエンコーディングプリセット](application-setup.md#mobile-video-encoding-presets)および[タブレットビデオエンコーディングプリセット](application-setup.md#tablet-video-encoding-presets)を参照してください。
+   * オプション。 個々のエンコーディング設定を使用する場合は、**[!UICONTROL 単一エンコーディングプリセット]**を展開し、デスクトップ、モバイル、タブレットのエンコーディングオプションを選択します。
+     詳しくは、[デスクトップビデオエンコーディングプリセット](application-setup.md#desktop-video-encoding-presets)、[モバイルビデオエンコーディングプリセット](application-setup.md#mobile-video-encoding-presets)および[タブレットビデオエンコーディングプリセット](application-setup.md#tablet-video-encoding-presets)を参照してください。
 1. アップロードジョブオプションダイアログボックスで、**[!UICONTROL 保存]**&#x200B;を選択します。
 1. アップロードページで、「**[!UICONTROL アップロード後に公開]**」がオンになっていることを確認します。
 1. アップロードページの右下隅にある「**[!UICONTROL アップロードを送信]**」を選択します。
@@ -91,9 +87,9 @@ Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 �
 1. **[!UICONTROL ファイル]** > **[!UICONTROL 再処理]**&#x200B;に移動します。
 1. Assetsを再処理ダイアログボックスで、**[!UICONTROL ビデオオプション]**&#x200B;を展開し、次のいずれかの操作を行います。
    * ベストプラクティスは、次の方法を使用することです。 「**アダプティブビデオ**」を選択します。
-「[アダプティブビデオ（初期設定）](application-setup.md#adaptive-video-default)」を参照してください。
-   * オプション。 個々のエンコーディング設定を使用する場合は、**[!UICONTROL 単一エンコーディングプリセット]**&#x200B;を展開し、デスクトップ、モバイル、タブレットのエンコーディングオプションを選択します。
-詳しくは、[デスクトップビデオエンコーディングプリセット](application-setup.md#desktop-video-encoding-presets)、[モバイルビデオエンコーディングプリセット](application-setup.md#mobile-video-encoding-presets)および[タブレットビデオエンコーディングプリセット](application-setup.md#tablet-video-encoding-presets)を参照してください。
+     「[アダプティブビデオ（初期設定）](application-setup.md#adaptive-video-default)」を参照してください。
+   * オプション。 個々のエンコーディング設定を使用する場合は、**[!UICONTROL 単一エンコーディングプリセット]**を展開し、デスクトップ、モバイル、タブレットのエンコーディングオプションを選択します。
+     詳しくは、[デスクトップビデオエンコーディングプリセット](application-setup.md#desktop-video-encoding-presets)、[モバイルビデオエンコーディングプリセット](application-setup.md#mobile-video-encoding-presets)および[タブレットビデオエンコーディングプリセット](application-setup.md#tablet-video-encoding-presets)を参照してください。
 1. Assetsを再処理ダイアログボックスで、**[!UICONTROL 送信]**&#x200B;を選択します。
 
 アダプティブビデオエンコーディングプリセットまたは複数のシングルエンコーディングプリセットを使用すると、その結果は複数のビデオエンコーディングで自動的に作成されるアダプティブビデオセットになります。 また、個々のビデオを選択して、アダプティブビデオセットを手動で作成することもできます。
@@ -104,7 +100,7 @@ Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 �
 
 次の表に、ファイルのアップロード時に MP4 または OGV 形式にエンコードできるビデオファイル形式（および使用できるビデオコーデック）を示します。 表に示すファイル形式とコーデックについて、次に説明します。
 
-* **ビデオファイル形式**: ZIP ファイルと同様に、ビデオファイル形式によって、ビデオファイルにファイルがどのように含まれるかが決まります。 通常、ビデオファイルには相互に関連し、同期されている複数のトラックが含まれています。トラックには、1 つのビデオトラック（オーディオなし）と 1 つまたは複数のオーディオトラック（ビデオなし）があります。 ビデオファイル形式は、種々のデータトラックおよびメタデータをまとめる方法を決定します。
+* **ビデオファイル形式**：ビデオファイル形式によって、ビデオファイルにファイルがどのように含まれるかが決まります。 通常、ビデオファイルには相互に関連し、同期されている複数のトラックが含まれています。トラックには、1 つのビデオトラック（オーディオなし）と 1 つまたは複数のオーディオトラック（ビデオなし）があります。 ビデオファイル形式は、種々のデータトラックおよびメタデータをまとめる方法を決定します。
 
 * **ビデオコーデック**：ビデオコーデックは、ビデオをエンコードするアルゴリズムを記述します。 ビデオプレーヤーは、コーデックに従ってビデオをデコードし、一連の画像やフレームを画面上に表示します。 コーデックは、ビデオを再生するために保存する必要があるビデオファイルの情報量を最小限度に抑えます。 個々のフレームに関する情報ではなく、1つのフレームと次のフレームの違いに関する情報のみが保存されます。 ほとんどのビデオは1つのフレームから次のフレームにほとんど変化しないため、コーデックを使用すると圧縮率が高くなり、ファイルサイズが小さくなります。
 
@@ -129,7 +125,7 @@ Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 �
 
   >[!NOTE]
   >
-  >ビデオファイルをアップロードしてエンコードを試行し、互換性のないコーデックやファイルコンテナが含まれるという理由でファイルが拒否された場合、ジョブ画面に警告が表示されます。 詳しくは、[&#x200B; ジョブ ファイルの確認](checking-job-files.md)を参照してください。
+  >ビデオファイルをアップロードしてエンコードを試行し、互換性のないコーデックやファイルコンテナが含まれるという理由でファイルが拒否された場合、ジョブ画面に警告が表示されます。 詳しくは、[ ジョブ ファイルの確認](checking-job-files.md)を参照してください。
 
 ## ビデオのエンコーディングのベストプラクティス {#best-practices-for-video-encoding}
 
@@ -139,8 +135,8 @@ Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 �
 THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
 
-* Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_jp). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
-* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_jp). 
+* Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
+* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). 
 -->
 
 ### ソースビデオファイル {#source-video-files}
@@ -167,7 +163,7 @@ Adobe Dynamic Media Classicでメタデータを表示するか、ビデオ編�
 
 プライマリビデオファイルのビデオエンコーディングプリセットを選択または作成する場合は、プリセットの縦横比がプライマリビデオファイルと同じであることを確認します。 *縦横比*&#x200B;とは、ビデオの幅と高さの比率です。
 
-ビデオファイルの縦横比を決定するには、ファイルのメタデータを取得し、ファイルの幅と高さをメモします（[&#x200B; ファイルのメタデータの取得](uploading-encoding-videos.md#obtaining_a_file_s_metadata)を参照）。 次の式を使用して、縦横比を計算します。
+ビデオファイルの縦横比を決定するには、ファイルのメタデータを取得し、ファイルの幅と高さをメモします（[ ファイルのメタデータの取得](uploading-encoding-videos.md#obtaining_a_file_s_metadata)を参照）。 次の式を使用して、縦横比を計算します。
 
 幅/高さ=縦横比
 
@@ -216,7 +212,7 @@ Adobe Dynamic Media Classicでメタデータを表示するか、ビデオ編�
 
 >[!NOTE]
 >
->一般的に、使用するデータレートが高いほど、ビデオがより良く表示され、使用する解像度が高いほど、表示品質を維持する必要があるデータレートが高くなります（低解像度と比較して）。
+>データレートを上げるとビデオの外観が向上しますが、解像度を上げると、画質を維持するためにデータレートが高くなります。
 
 解像度とデータレートは相互に関係しているため、ビデオをエンコードする際には次のいずれかの手順に従います。
 
@@ -236,7 +232,7 @@ Adobe Dynamic Media Classicでメタデータを表示するか、ビデオ編�
 
 ### FPS （フレーム/秒） {#fps-frames-per-second}
 
-米国と日本では、ほとんどのビデオは29.97 フレーム/秒（FPS）で撮影されます。ヨーロッパでは、ほとんどのビデオは25 FPSで撮影されます。 この映画は24FPSで撮影されています。
+米国と日本のほとんどのビデオは29.97 フレーム/秒（FPS）で撮影され、他の場所のほとんどのビデオは25 FPSで撮影されます。 フィルムは24FPSで撮影されています。
 
 プライマリビデオファイルのFPS レートに一致するビデオエンコーディングプリセットを選択します。 例えば、プライマリビデオが25 FPSの場合は、25 FPSのエンコーディングプリセットを選択します。 デフォルトでは、すべてのカスタムエンコーディングでプライマリビデオファイルのFPSが使用されます。 このため、ビデオエンコーディングプリセットを作成する際にFPS設定を指定する必要はありません。
 
@@ -244,9 +240,9 @@ Adobe Dynamic Media Classicでメタデータを表示するか、ビデオ編�
 
 最適な結果を得るには、ソースビデオが、エンコードされるすべてのビデオの倍数になるようなエンコーディングサイズを選択します。
 
-この比率を計算するには、ソースの幅をエンコードされる幅で割り、幅の比率を求めます。 次に、ソースの高さをエンコードされる高さで割り、高さの比率を求めます。
+幅の比率を取得するには、ソースの幅をエンコードされた幅で割ります。 高さの比率を取得するには、ソースの高さをエンコードされた高さで割ります。
 
-結果の比率が整数なら、ビデオは最適な比率になっていることを意味します。 結果の比率が整数でない場合、残ったピクセルの生成物が表示上残ることにより、ビデオ画質に影響します。 この効果は、ビデオにテキストが含まれている場合に最も明白です。
+結果の比率が整数なら、ビデオは最適な比率になっていることを意味します。 結果の比率が整数でない場合は、ディスプレイに残りのピクセルアーティファクトを残すことで、ビデオ品質に影響を与えます。 この効果は、ビデオにテキストが含まれている場合に最も明白です。
 
 例えば、ソースビデオが1920 × 1080であるとします。 次の表で、3 つのエンコード済みビデオが、使用に最適なエンコーディング設定を提供します。
 
@@ -263,11 +259,11 @@ Adobe Dynamic Media Classicでは、MP4 H.264 ビデオエンコーディング�
 
 ## ビデオエンコーディングプリセットの操作 {#working-with-video-encoding-presets}
 
-ビデオ制作機器とビデオ編集ソフトウェアで作成されたプライマリビデオファイルは、多くの場合、大きすぎて、オンラインの配信先に配信するには適切なフォーマットにありません。 別の画面で再生できる適切な形式と仕様にデジタルビデオを変換するには、ビデオファイルを&#x200B;*トランスコード*（*エンコーディング*&#x200B;とも呼ばれます）します。 エンコーディングプロセス中、ビデオは小さく効率的なファイルサイズに圧縮されます。 Webやモバイルデバイスへの最適な配信に役立ちます。
+ビデオ制作機器とビデオ編集ソフトウェアで作成されたプライマリビデオファイルは、多くの場合、大きすぎて、オンラインの配信先に配信するには適切なフォーマットにありません。 別の画面で再生できる適切な形式と仕様にデジタルビデオを変換するには、ビデオファイルを&#x200B;*トランスコード*（*エンコーディング*&#x200B;とも呼ばれます）します。 エンコーディングプロセス中、ビデオは小さく効率的なファイルサイズに圧縮されます。 このプロセスは、Webおよびモバイルデバイスへの最適な配信を目的としています。
 
-[&#x200B; ビデオのアップロードとエンコード &#x200B;](uploading-encoding-videos.md#uploading-and-encoding-videos)を参照してください。
+[ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading-and-encoding-videos)を参照してください。
 
-Adobe Dynamic Media Classicには、現在使用されている最も一般的なエンコーディング設定を反映した、事前定義済みのビデオエンコーディングプリセットのライブラリが用意されています。 これらのエンコーディングプリセットは、ターゲット画面での再生用に最適化されています。 また、管理者は独自のビデオエンコーディングプリセットを作成して、エンドユーザー向けのビデオのサイズと再生品質をカスタマイズすることもできます。 すべてのビデオエンコーディングプリセット（Adobe Dynamic Media Classicのすぐに使えるビデオエンコーディングプリセット、またはMP4 ファイル形式のカスタムメイドの出力ビデオ）。
+Adobe Dynamic Media Classicには、現在使用されている最も一般的なエンコーディング設定を表す、事前定義済みのビデオエンコーディングプリセットのライブラリが用意されています。 これらのエンコーディングプリセットは、ターゲット画面での再生用に最適化されています。 さらに、管理者は独自のビデオエンコーディングプリセットを作成して、エンドユーザー向けにビデオのサイズと再生品質をカスタマイズできます。 すべてのビデオエンコーディングプリセット（Adobe Dynamic Media Classicの標準、またはカスタムメイドのMP4形式の出力ビデオなど）。
 
 管理者は、ビデオプリセット画面でエンコーディングを設定および管理できます。 次の操作を行うことができます。
 
@@ -276,11 +272,11 @@ Adobe Dynamic Media Classicには、現在使用されている最も一般的�
 * ビデオエンコーディングプリセットの編集
 * ビデオプリセットを削除します。
 
-Adobe Dynamic Media Classicにアップロードしたビデオ、またはAdobe Dynamic Media Classicでエンコードしたビデオは、「ビデオ」として扱われます。 つまり、このアセット分類は、デスクトップ、携帯端末またはその両方で再生するビデオを配信できることを意味します。 例えば、Adobe Dynamic Media Classicでこれらの種類のビデオをプレビューできます。 また、URLを生成（URLをコピー機能を使用）し、ビデオプレーヤーやweb サイトなどで使用するために（埋め込みコード機能を使用して）埋め込むことができるコードを生成することもできます。
+Adobe Dynamic Media Classicにアップロードしたビデオ、またはAdobe Dynamic Media Classicでエンコードしたビデオは、「ビデオ」に分類されます。 このアセット分類は、デスクトップ、モバイルデバイス、またはその両方で再生用にビデオを配信できることを意味します。 例えば、Adobe Dynamic Media Classicでこれらの種類のビデオをプレビューできます。 （URLをコピー機能を使用して） URLを生成したり、ビデオプレーヤーやweb サイトの埋め込みコードを生成したりすることもできます。
 
-ビデオ ビューアで[&#x200B; ビデオをプレビュー](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)を参照してください。
+ビデオ ビューアで[ ビデオをプレビュー](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)を参照してください。
 
-[&#x200B; モバイルサイトまたはweb サイトへのビデオ URLのリンク &#x200B;](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website)を参照してください。
+[ モバイルサイトまたはweb サイトへのビデオ URLのリンク ](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website)を参照してください。
 
 [Web ページへのビデオビューアの埋め込み](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page)を参照してください。
 
@@ -292,7 +288,7 @@ Adobe Dynamic Media Classicにアップロードしてエンコードするビ�
 * HLS（HTTP ライブストリーミング、Appleストリーミングプロトコル）:
 * Android™、BlackBerry®、Windows® モバイルデバイスへのプログレッシブビデオ配信。
 
-その他のビデオフォーマットとコーデックは、「プライマリビデオ」として扱われます。 このアセット分類は、この種のビデオはソースビデオファイルであり、デスクトップや携帯端末での配信再生には使用できないことを意味します。 例えば、Adobe Dynamic Media Classicでは、これらの種類のビデオをプレビューすることはできません。 ビデオプレーヤーやweb サイトなどで使用するコピーURLや埋め込みコードを生成することはできません。
+その他のビデオフォーマットとコーデックは、「プライマリビデオ」として扱われます。 このアセット分類は、この種のビデオはソースビデオファイルであり、デスクトップや携帯端末での配信再生には使用できないことを意味します。 例えば、Adobe Dynamic Media Classicでは、これらの種類のビデオをプレビューすることはできません。 ビデオプレーヤーまたはweb サイトのコピーURLまたは埋め込みコードを生成することはできません。
 
 ### ビデオエンコーディングプリセットのリストをフィルタリング {#filtering-the-list-of-video-encoding-presets}
 
@@ -308,10 +304,10 @@ Adobe Dynamic Media Classicにアップロードしてエンコードするビ�
 
    アダプティブビデオプリセットとシングルエンコーディングプリセットのページには、各ビデオプリセットのアクティブステータス、プリセット名、意図された再生デバイス、ビデオディメンション、データレートを一覧表示するテーブルが含まれています。
 
-1. シングルエンコーディングプリセットページから呼び出したビデオプリセットのビデオプリセットツールバーで、2 つのドロップダウンリストを使用して、アクティブステータスと再生デバイスに基づいて表内のプリセットのリストを洗練します。
+1. ビデオプリセットと呼ばれる単一エンコーディングプリセットページで、ビデオプリセットツールバーの2つのドロップダウンリストを使用して、アクティブなステータスと再生デバイスに基づいてテーブル内のプリセットのリストを調整します。
 
-   * 1 つ目の小さいドロップダウンリストで、「**[!UICONTROL 両方]**」を選択してすべてのビデオプリセットを表示するか、「**[!UICONTROL アクティブ]**」または「**[!UICONTROL 非アクティブ]**」を選択して、アクティブまたは非アクティブのプリセットのリストに絞り込みます。
-   * 2 つ目の大きいドロップダウンリストで、再生デバイスのオプションを選択して、デスクトップでのビデオの再生用に設計されたビデオプリセットや、 モバイルまたはタブレットデバイスでのビデオの再生用に設計されたビデオプリセットにリストを絞り込みます。
+   * 最初に、ドロップダウンリストを絞り込むには、**[!UICONTROL 両方]**&#x200B;を選択してすべてのビデオプリセットを表示するか、**[!UICONTROL アクティブ]**&#x200B;または&#x200B;**[!UICONTROL 非アクティブ]**&#x200B;を選択して、アクティブまたは非アクティブなプリセットにリストを絞り込みます。
+   * 2つ目の幅広いドロップダウンリストでは、再生デバイスのオプションを選択して、デスクトップでビデオを再生したり、モバイルデバイスやタブレットデバイスでビデオを再生したりするために設計されたビデオプリセットにリストを絞り込みます。
 
 ### ビデオエンコーディングプリセットのアクティベートまたはアクティベート解除 {#activating-or-deactivating-video-encoding-presets}
 
@@ -366,7 +362,7 @@ Adobe Dynamic Media Classicでは、適切な再生エクスペリエンスを�
    | 再生デバイス | ビデオを再生するデバイスを選択します。 選択肢は、コンピューター（デスクトップ）、モバイル（iPhone、iPad、Android™）またはタブレット（iPadのみ）です。 この設定により、エンコード時に使用される適切なビデオとオーディオのコーデックが自動的に決定されます。 |
    | ターゲットデータレート | 対象となるエンドユーザの平均インターネット接続速度を kbps（キロビット/秒）単位で入力します。 レートを入力するか、スライダをドラッグしてレートを調整します。 ユーザ接続速度のスペクトルは、ブロードバンド、DSL、モバイルおよびダイヤルアップ接続の標準速度を示しています。 この設定により、ビデオとオーディオの混合データレートが自動的に決まります。 このレートは具体的には、ビデオ再生の 1 秒間分としてエンコードされるデータの量です。 データレートが高くなるほど、生成されるビデオの画質が高くなります。 ただし、データレートを高くしすぎると、ファイルサイズが非常に大きくなり、ネットワークの接続の帯域幅がそれほど高くないユーザの視聴環境が低下します。 このため、高データレートと低データレート間でバランスを取ることをお勧めします。 帯域幅が狭いユーザーを遠ざけることなく、適切な品質の再生体験を構築することを目指してください。 |
    | 縦横比 | 縦横比は、ビデオの幅と高さの比率です。 次に示す最初の 2 つの縦横比は、ビデオを水平方向に表示する場合によく使用されます。<ul><li> 4:3:ほとんどすべての標準的な定義テレビ放送コンテンツに使用されます。</li><li>16:9: HDTV （High-Definition Television）で、ほとんどすべてのワイドスクリーンコンテンツと映画に使用されます。</li><li>自動拡張：（デフォルト）任意の縦横比で動作する単一エンコーディングプリセットを使用して、モバイル、タブレット、デスクトップに配信するビデオを作成します。 このプリセットを使用してエンコードされたアップロード済みのソースビデオには、固定の高さが設定されますが、 ただし、ビデオの縦横比（幅と高さの比率）を維持するために、幅が自動的に拡大・縮小されます。</li><li>カスタム：標準外のビデオサイズを定義する場合に使用します。</li><li>選択した縦横比によって、解像度サイズの幅と高さの設定が決まります。幅と高さの値は、適切な縦横比に自動的に拡大・縮小されます。</li></ul> |
-   | 解像度サイズ | 解像度のサイズは、幅のピクセル数と高いピクセル数で表され、サイズが決まります。 幅と高さの値をピクセル単位で入力するか、スライダーをドラッグしてこれらの値を入力します。 解像度スペクトルは、一般的な解像度のサイズを示します。 幅の値と高さの値は、選択した縦横比に自動的に準拠します。 例えば、縦横比として4:3を選択し、幅に400と入力すると、高さに300が自動的に入力されます。 縦横比の設定で「自動拡大・縮小」を選択した場合、解像度サイズの「幅」値は自動的に「自動」に設定されます。 ブラウザーのウィンドウを開き、そこで解像度の選択肢を確認するには、**[!UICONTROL プレビュー]**&#x200B;を選択します。 |
+   | 解像度サイズ | 解像度のサイズは、幅のピクセル数と高いピクセル数で表され、サイズが決まります。 幅と高さの値をピクセル単位で入力するか、スライダーをドラッグしてこれらの値を入力します。 解像度スペクトルは、一般的な解像度のサイズを示します。 幅の値と高さの値は、選択した縦横比に自動的に準拠します。 例えば、縦横比として「4:3」を選択し、幅に「400」を入力すると、高さに 300 が自動的に入力されます。 縦横比の設定で「自動拡大・縮小」を選択した場合、解像度サイズの「幅」値は自動的に「自動」に設定されます。 ブラウザーのウィンドウを開き、そこで解像度の選択肢を確認するには、**[!UICONTROL プレビュー]**&#x200B;を選択します。 |
    | エンコードサフィックス | サフィックスを入力します。 このサフィックスは、エンコード後のビデオファイルに追加されます。 名前にはハイフンやアンダースコアを入力できます。空白や特殊文字は使用できません。 |
    | その他の設定 | Adobe Dynamic Media Classicでは、ベストプラクティスのエンコーディングガイドラインに従って、その他すべてのエンコーディング設定が自動的に決定されます。 |
 
@@ -387,7 +383,7 @@ Adobe Dynamic Media Classicでは、適切な再生エクスペリエンスを�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クイックスタート：Adobe Dynamic Media Classicのビデオ &#x200B;](quick-start-video.md#quick-start-video)
->* [&#x200B; ビデオのアップロードとエンコード &#x200B;](uploading-encoding-videos.md#uploading-and-encoding-videos)
->* [&#x200B; ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオ
+>* [ クイックスタート：Adobe Dynamic Media Classicのビデオ ](quick-start-video.md#quick-start-video)
+>* [ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [ ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+>* [ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオ
