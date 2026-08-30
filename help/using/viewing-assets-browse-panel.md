@@ -1,5 +1,5 @@
 ---
-title: 参照パネルでのアセットの表示
+title: 参照パネルでのAssetsの表示
 description: 参照パネルを使用して、Adobe Dynamic Media Classicでアセットを表示する方法を説明します。
 contentOwner: Rick Brough
 content-type: reference
@@ -21,10 +21,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 877fd7cae7c215fed416479e2ef13db0cafa7d6c
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 11%
+source-wordcount: 249
+ht-degree: 6%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 11%
 
 表示ボタンを選択すると、参照パネルでアセットの表示を変更できます。
 
-* **グリッドビュー**: Adobe Dynamic Media Classic画面の右上隅付近にある「**[!UICONTROL グリッドビュー]**」アイコンを選択すると、グリッドにサムネール形式のアセットが表示されます。 グリッド表示では、サムネールスライダーをドラッグして、サムネール画像のサイズを変更できます。
+* **グリッドビュー**: Adobe Dynamic Media Classic画面の右上にある「**[!UICONTROL グリッドビュー]**」アイコンを選択すると、アセットがグリッドのサムネールとして表示されます。 グリッド表示でサムネール画像のサイズを変更するには、サムネールスライダーをドラッグします。
 
-* **リストビュー**: Adobe Dynamic Media Classic画面の右上隅付近にある「**[!UICONTROL リストビュー]**」アイコンを選択すると、リスト内のアセットが表示されます。 リストには、各アセットの名前、種類、作成日および最終変更日が表示されます。 使用しているアセットのタイプに応じて、他の情報も取得できます。 例えば、画像のサイズとファイルサイズが表示されることがあります。
+* **リストビュー**: Adobe Dynamic Media Classic画面の右上隅付近にある「**[!UICONTROL リストビュー]**」アイコンを選択すると、リスト内のアセットが表示されます。 リストには、各アセットの名前、タイプ、作成日、最終変更日が表示されます。 作業中のアセットのタイプに応じて、追加情報が表示されます。 例えば、画像のサイズとファイルサイズが表示されることがあります。
 
 * **詳細表示**: アセットを選択します。 Adobe Dynamic Media Classic画面の右上隅付近にある&#x200B;**[!UICONTROL 詳細表示]** アイコンを選択して、詳細表示でアセットを確認します。 アセットをダブルクリックするか、アセットを選択して、**[!UICONTROL ファイル]** > **[!UICONTROL 詳細]**&#x200B;に移動して、詳細ビューで表示することもできます。 管理者が「URLを表示」環境設定を指定している場合、URLは詳細ビューのすべてのアセットに表示されますが、URLはアセットが公開された後にのみアクティブになります。
 
 >[!TIP]
 >
->参照パネルのデフォルトビューを選択し、パネルを自分の仕様に合わせて機能させることができます。 [個人設定](personal-setup.md#personal_setup)を参照してください。*
+>参照パネルのデフォルトビューを選択し、パネル設定をカスタマイズできます。 詳しくは、[個人設定](personal-setup.md#personal_setup)を参照してください。
