@@ -11,10 +11,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:34.556Z'
 TQID: 'https://experienceleague.adobe.com/G7OuvXwsh-eBgUivFbhhsBXhzOh47Of9WwSkHdX-uBQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 1a60a2245fafc4ebadbd1a2aaf5b969904355181
 workflow-type: tm+mt
 source-wordcount: 4080
@@ -50,7 +54,7 @@ Web デバイスまたはモバイルデバイスに配信するための1つの
 
 Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 ビデオサムネールの詳細、URLの取得方法、ポスターフレームの変更方法については、ドキュメントを参照してください。
 
-[ ビデオサムネールの操作](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)を参照してください。
+[&#x200B; ビデオサムネールの操作](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)を参照してください。
 
 **ビデオをアップロードしてエンコードするには：**
 
@@ -75,7 +79,7 @@ Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 �
 1. アップロードジョブオプションダイアログボックスで、**[!UICONTROL ビデオオプション]**&#x200B;を展開し、次のいずれかの操作を行います。
 
    * ベストプラクティスは、**[!UICONTROL アダプティブビデオエンコーディング]**&#x200B;を選択することです。 「[アダプティブビデオ（初期設定）](application-setup.md#adaptive-video-default)」を参照してください。
-   * オプション。 個々のエンコーディング設定を使用する場合は、**[!UICONTROL 単一エンコーディングプリセット]**を展開し、デスクトップ、モバイル、タブレットのエンコーディングオプションを選択します。
+   * オプション。 個々のエンコーディング設定を使用する場合は、**[!UICONTROL 単一エンコーディングプリセット]**&#x200B;を展開し、デスクトップ、モバイル、タブレットのエンコーディングオプションを選択します。
      詳しくは、[デスクトップビデオエンコーディングプリセット](application-setup.md#desktop-video-encoding-presets)、[モバイルビデオエンコーディングプリセット](application-setup.md#mobile-video-encoding-presets)および[タブレットビデオエンコーディングプリセット](application-setup.md#tablet-video-encoding-presets)を参照してください。
 1. アップロードジョブオプションダイアログボックスで、**[!UICONTROL 保存]**&#x200B;を選択します。
 1. アップロードページで、「**[!UICONTROL アップロード後に公開]**」がオンになっていることを確認します。
@@ -88,7 +92,7 @@ Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 �
 1. Assetsを再処理ダイアログボックスで、**[!UICONTROL ビデオオプション]**&#x200B;を展開し、次のいずれかの操作を行います。
    * ベストプラクティスは、次の方法を使用することです。 「**アダプティブビデオ**」を選択します。
      「[アダプティブビデオ（初期設定）](application-setup.md#adaptive-video-default)」を参照してください。
-   * オプション。 個々のエンコーディング設定を使用する場合は、**[!UICONTROL 単一エンコーディングプリセット]**を展開し、デスクトップ、モバイル、タブレットのエンコーディングオプションを選択します。
+   * オプション。 個々のエンコーディング設定を使用する場合は、**[!UICONTROL 単一エンコーディングプリセット]**&#x200B;を展開し、デスクトップ、モバイル、タブレットのエンコーディングオプションを選択します。
      詳しくは、[デスクトップビデオエンコーディングプリセット](application-setup.md#desktop-video-encoding-presets)、[モバイルビデオエンコーディングプリセット](application-setup.md#mobile-video-encoding-presets)および[タブレットビデオエンコーディングプリセット](application-setup.md#tablet-video-encoding-presets)を参照してください。
 1. Assetsを再処理ダイアログボックスで、**[!UICONTROL 送信]**&#x200B;を選択します。
 
@@ -125,7 +129,7 @@ Adobe Dynamic Media Classicは、ビデオサムネールも生成します。 �
 
   >[!NOTE]
   >
-  >ビデオファイルをアップロードしてエンコードを試行し、互換性のないコーデックやファイルコンテナが含まれるという理由でファイルが拒否された場合、ジョブ画面に警告が表示されます。 詳しくは、[ ジョブ ファイルの確認](checking-job-files.md)を参照してください。
+  >ビデオファイルをアップロードしてエンコードを試行し、互換性のないコーデックやファイルコンテナが含まれるという理由でファイルが拒否された場合、ジョブ画面に警告が表示されます。 詳しくは、[&#x200B; ジョブ ファイルの確認](checking-job-files.md)を参照してください。
 
 ## ビデオのエンコーディングのベストプラクティス {#best-practices-for-video-encoding}
 
@@ -163,7 +167,7 @@ Adobe Dynamic Media Classicでメタデータを表示するか、ビデオ編�
 
 プライマリビデオファイルのビデオエンコーディングプリセットを選択または作成する場合は、プリセットの縦横比がプライマリビデオファイルと同じであることを確認します。 *縦横比*&#x200B;とは、ビデオの幅と高さの比率です。
 
-ビデオファイルの縦横比を決定するには、ファイルのメタデータを取得し、ファイルの幅と高さをメモします（[ ファイルのメタデータの取得](uploading-encoding-videos.md#obtaining_a_file_s_metadata)を参照）。 次の式を使用して、縦横比を計算します。
+ビデオファイルの縦横比を決定するには、ファイルのメタデータを取得し、ファイルの幅と高さをメモします（[&#x200B; ファイルのメタデータの取得](uploading-encoding-videos.md#obtaining_a_file_s_metadata)を参照）。 次の式を使用して、縦横比を計算します。
 
 幅/高さ=縦横比
 
@@ -261,7 +265,7 @@ Adobe Dynamic Media Classicでは、MP4 H.264 ビデオエンコーディング�
 
 ビデオ制作機器とビデオ編集ソフトウェアで作成されたプライマリビデオファイルは、多くの場合、大きすぎて、オンラインの配信先に配信するには適切なフォーマットにありません。 別の画面で再生できる適切な形式と仕様にデジタルビデオを変換するには、ビデオファイルを&#x200B;*トランスコード*（*エンコーディング*&#x200B;とも呼ばれます）します。 エンコーディングプロセス中、ビデオは小さく効率的なファイルサイズに圧縮されます。 このプロセスは、Webおよびモバイルデバイスへの最適な配信を目的としています。
 
-[ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading-and-encoding-videos)を参照してください。
+[&#x200B; ビデオのアップロードとエンコード &#x200B;](uploading-encoding-videos.md#uploading-and-encoding-videos)を参照してください。
 
 Adobe Dynamic Media Classicには、現在使用されている最も一般的なエンコーディング設定を表す、事前定義済みのビデオエンコーディングプリセットのライブラリが用意されています。 これらのエンコーディングプリセットは、ターゲット画面での再生用に最適化されています。 さらに、管理者は独自のビデオエンコーディングプリセットを作成して、エンドユーザー向けにビデオのサイズと再生品質をカスタマイズできます。 すべてのビデオエンコーディングプリセット（Adobe Dynamic Media Classicの標準、またはカスタムメイドのMP4形式の出力ビデオなど）。
 
@@ -274,9 +278,9 @@ Adobe Dynamic Media Classicには、現在使用されている最も一般的�
 
 Adobe Dynamic Media Classicにアップロードしたビデオ、またはAdobe Dynamic Media Classicでエンコードしたビデオは、「ビデオ」に分類されます。 このアセット分類は、デスクトップ、モバイルデバイス、またはその両方で再生用にビデオを配信できることを意味します。 例えば、Adobe Dynamic Media Classicでこれらの種類のビデオをプレビューできます。 （URLをコピー機能を使用して） URLを生成したり、ビデオプレーヤーやweb サイトの埋め込みコードを生成したりすることもできます。
 
-ビデオ ビューアで[ ビデオをプレビュー](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)を参照してください。
+ビデオ ビューアで[&#x200B; ビデオをプレビュー](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)を参照してください。
 
-[ モバイルサイトまたはweb サイトへのビデオ URLのリンク ](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website)を参照してください。
+[&#x200B; モバイルサイトまたはweb サイトへのビデオ URLのリンク &#x200B;](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website)を参照してください。
 
 [Web ページへのビデオビューアの埋め込み](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page)を参照してください。
 
@@ -383,7 +387,7 @@ Adobe Dynamic Media Classicでは、適切な再生エクスペリエンスを�
 
 >[!MORELIKETHIS]
 >
->* [ クイックスタート：Adobe Dynamic Media Classicのビデオ ](quick-start-video.md#quick-start-video)
->* [ ビデオのアップロードとエンコード ](uploading-encoding-videos.md#uploading-and-encoding-videos)
->* [ ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [ ビデオプリセット ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオ
+>* [&#x200B; クイックスタート：Adobe Dynamic Media Classicのビデオ &#x200B;](quick-start-video.md#quick-start-video)
+>* [&#x200B; ビデオのアップロードとエンコード &#x200B;](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [&#x200B; ビデオビューアプリセットの操作](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+>* [&#x200B; ビデオプリセット &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)のトレーニングビデオ
