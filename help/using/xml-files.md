@@ -17,13 +17,13 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 453878a1aec55346e04b0b96a4c9ca230c4a155c
 workflow-type: tm+mt
-source-wordcount: 122
+source-wordcount: 121
 ht-degree: 17%
 
 ---
 
 # XML ファイル {#xml-files}
 
-XML ベースのシステムを使用して画像や画像情報を管理するWeb サイトでは、XML ファイルをAdobe Dynamic Media Classicにアップロードできます。 これらのファイルの1つを、画像サービング用の前処理ルールセットファイルとして指定できます。 このファイルは、サーバーの作業ロジックに合わせて、標準的なImage Serving プロトコル形式を再構築します。 設定画面で、ルールセット定義ファイルパスとして使用するXML ファイルを指定できます。 このパス設定は、Image Server 公開画面の「カタログ管理」にあります。 詳しくは、[Image Server](publish-setup.md#image_server) を参照してください。
+XML ベースのシステムを使用して画像や画像情報を管理するWeb サイトでは、XML ファイルをAdobe Dynamic Media Classicにアップロードできます。 これらのファイルの1つを、画像サービング用の前処理ルールセットファイルとして指定できます。 このファイルは、サーバーの要件を満たすために、標準的な画像サービングプロトコル形式を再構築します。 ルールセット定義ファイルパスとして機能するには、設定画面でXML ファイルを指定します。 このパス設定は、Image Server 公開画面の「カタログ管理」にあります。 詳しくは、[Image Server](publish-setup.md#image_server) を参照してください。
