@@ -35,7 +35,7 @@ Adobe Dynamic Media Classicで操作するファイルに固有の情報を保�
 
 一部のメタデータは、直接ファイルに埋め込まれます。 ファイルにこのメタデータが含まれている場合、Adobe Dynamic Media Classicは自動的にファイルとともにメタデータをアップロードします。 Adobe Photoshop、InDesign、Adobe Illustratorおよびその他のアプリケーションのソースアセットにメタデータを埋め込むことができます。Adobe Dynamic Media Classicはこのメタデータを認識します。 詳細ビューのメタデータパネルを使用して、個々のファイルにメタデータを追加することもできます。 アセット間の一貫性を確保するために、企業の管理者は、完了可能なメタデータフィールドを提供するメタデータテンプレートを作成します。
 
-埋め込みメタデータについて詳しくは、[拡張可能なメタデータプラットフォーム &#x200B;](https://www.adobe.com/products/xmp.html)を参照してください。
+埋め込みメタデータについて詳しくは、[拡張可能なメタデータプラットフォーム &#x200B;](https://www.adobe.com/jp/products/xmp.html)を参照してください。
 
 ## メタデータの表示 {#view-metadata}
 
