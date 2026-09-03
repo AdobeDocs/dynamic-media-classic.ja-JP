@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:17:59.510Z'
 TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 53f5fe67de6ca178464f91efbe1312e8571e6679
 workflow-type: tm+mt
 source-wordcount: 2275
@@ -31,7 +35,7 @@ Adobe Dynamic Media Classicで操作するファイルに固有の情報を保�
 
 一部のメタデータは、直接ファイルに埋め込まれます。 ファイルにこのメタデータが含まれている場合、Adobe Dynamic Media Classicは自動的にファイルとともにメタデータをアップロードします。 Adobe Photoshop、InDesign、Adobe Illustratorおよびその他のアプリケーションのソースアセットにメタデータを埋め込むことができます。Adobe Dynamic Media Classicはこのメタデータを認識します。 詳細ビューのメタデータパネルを使用して、個々のファイルにメタデータを追加することもできます。 アセット間の一貫性を確保するために、企業の管理者は、完了可能なメタデータフィールドを提供するメタデータテンプレートを作成します。
 
-埋め込みメタデータについて詳しくは、[拡張可能なメタデータプラットフォーム ](https://www.adobe.com/products/xmp.html)を参照してください。
+埋め込みメタデータについて詳しくは、[拡張可能なメタデータプラットフォーム &#x200B;](https://www.adobe.com/products/xmp.html)を参照してください。
 
 ## メタデータの表示 {#view-metadata}
 
@@ -45,7 +49,7 @@ Adobe Dynamic Media Classicで操作するファイルに固有の情報を保�
 
 管理者はメタデータビューを作成できます。 これらのビューは、メタデータビューメニューにも表示されます。
 
-メタデータビューの作成について詳しくは、[ メタデータビュー](application-setup.md#metadata_views)を参照してください。
+メタデータビューの作成について詳しくは、[&#x200B; メタデータビュー](application-setup.md#metadata_views)を参照してください。
 
 ## アセットのメタデータの手動入力 {#manually-enter-metadata-for-an-asset}
 
@@ -78,8 +82,8 @@ Adobe Dynamic Media Classicで操作するファイルに固有の情報を保�
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classicにアップロードする際に、ファイルにキーワードを追加できます。 アップロードジョブオプションダイアログボックスで、**[!UICONTROL 詳細メタデータ]**を選択し、キーワードを入力します。
->詳しくは、[ アップロードオプション](uploading-files.md#upload_options)を参照してください。
+>Adobe Dynamic Media Classicにアップロードする際に、ファイルにキーワードを追加できます。 アップロードジョブオプションダイアログボックスで、**[!UICONTROL 詳細メタデータ]**&#x200B;を選択し、キーワードを入力します。
+>詳しくは、[&#x200B; アップロードオプション](uploading-files.md#upload_options)を参照してください。
 
 ## メタデータの取り込み {#import-metadata}
 
