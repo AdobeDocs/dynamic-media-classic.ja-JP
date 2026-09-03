@@ -31,4 +31,4 @@ ht-degree: 4%
 
 # 新機能 {#what-s-new}
 
-最新のAdobe Dynamic Media Classic リリース情報を確認するには、[Adobe Dynamic Media Classic リリースノート &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)を参照してください。
+最新のAdobe Dynamic Media Classic リリース情報を確認するには、[Adobe Dynamic Media Classic リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/release-notes/s7rn2017)を参照してください。
