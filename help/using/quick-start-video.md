@@ -14,19 +14,21 @@ autotag-review: '2026-05-13T20:11:06.721Z'
 TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
+    internal-label: Metadata
+source-git-commit: 427ca1ab97562ad3405e9f80e1e2bd7e3a4f3474
 workflow-type: tm+mt
-source-wordcount: 1728
+source-wordcount: '1728'
 ht-degree: 15%
-
 ---
-
 # クイックスタート：Adobe Dynamic Media Classicのビデオ{#quick-start-video}
 
 Adobe Dynamic Media Classic Videoは、デスクトップ、iOS、Android™、BlackBerry®、Windows® モバイルデバイスなど、複数のスクリーンでストリーミングするための高品質なアダプティブビデオを簡単に公開できるエンドツーエンドのソリューションです。 アダプティブビデオセットは、同じビデオを異なるビットレート（400 kbps、800 kbps および 1000 kbps）やフォーマットでエンコードしたバージョンをグループ化します。 デスクトップコンピュータまたは携帯端末は、使用可能な帯域幅を検出します。
