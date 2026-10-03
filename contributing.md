@@ -58,4 +58,4 @@ Adobeは、あらゆる貢献を歓迎します。 パブリックリポジト�
 
 ## 詳細情報
 
-GitHub オーサリングプラットフォームの使用方法について詳しくは、[Adobe Docs Contributor Guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+GitHub オーサリングプラットフォームの使用方法について詳しくは、[Adobe Docs Contributor Guide](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction)を参照してください。
