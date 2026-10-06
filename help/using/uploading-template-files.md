@@ -14,18 +14,22 @@ autotag-review: '2026-05-13T19:58:21.817Z'
 TQID: 'https://experienceleague.adobe.com/pwmEOjYzNJNV-yxeBfOz3xQBT3rJ9u9imU6cdNgQLDA'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: '244'
 ht-degree: 12%
-
 ---
-
 # テンプレートファイルのアップロード{#uploading-template-files}
 
 テンプレートの作成を開始する前に、テンプレートに必要なファイルをAdobe Dynamic Media Classicにアップロードします。 Adobe、Photoshop®PSD®または画像ファイルからテンプレートを作成できます。 テンプレートには TIFF および PNG 画像を使用することをお勧めします。これは、これらの画像が透明化に対応しているためです。
@@ -36,7 +40,7 @@ ht-degree: 12%
 
 テンプレートは、Adobe Photoshop PSD ファイルまたは画像ファイルから作成できます。
 
-ファイルのアップロードについて詳しくは、[&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。 テンプレートファイルをアップロードする際には、次の点を考慮してください。
+ファイルのアップロードについて詳しくは、[ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。 テンプレートファイルをアップロードする際には、次の点を考慮してください。
 
 * PSD ファイルをアップロードする場合は、そのファイルからテンプレートを作成できます。 Adobe Dynamic Media Classicでは、PSDの各レイヤーに対して個別の画像が作成されます。 アップロードジョブオプションダイアログボックスで、**[!UICONTROL Photoshopオプション]**&#x200B;を選択し、**[!UICONTROL レイヤーの維持]**&#x200B;と&#x200B;**[!UICONTROL テンプレートの作成]**&#x200B;を選択します。 次に、**[!UICONTROL レイヤー名]** ドロップダウンリストから、PSDのレイヤーからAdobe Dynamic Media Classicが作成する画像に名前を付けるオプションを選択します。
 詳しくは、[PSD アップロードオプション](psd-files.md#psd_upload_options)を参照してください。
@@ -48,5 +52,5 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ファイルをアップロード &#x200B;](uploading-files.md#uploading_your_files)
+>* [ ファイルをアップロード ](uploading-files.md#uploading_your_files)
 >* [PSD ファイルの操作](psd-files.md#working_with_psd_files)
