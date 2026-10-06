@@ -46,5 +46,5 @@ Dynamic Media画像サーバーにテンプレートを公開するには、グ�
 
 >[!MORELIKETHIS]
 >
->* [ パブリッシュ用にアセットをマーク ](publishing-files.md#publish_after_uploading)
+>* [&#x200B; パブリッシュ用にアセットをマーク &#x200B;](publishing-files.md#publish_after_uploading)
 >* [公開ジョブを作成](publishing-files.md#creating_a_publish_job)

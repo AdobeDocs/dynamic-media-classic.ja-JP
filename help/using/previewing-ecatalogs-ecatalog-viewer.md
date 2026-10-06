@@ -32,9 +32,9 @@ ht-degree: 1%
 
 プレビュー機能を使用して、異なるeCatalog ビューアプリセットを使用してeCatalogを表示できます。 ページを切り替えたり、メモを追加したり、参照したりするには、様々なコントロールを使用できます。
 
-[ デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)を参照してください。
+[&#x200B; デフォルトビューアーの設定](application-setup.md#configuring_default_viewers)を参照してください。
 
-[ アセットのプレビュー](previewing-asset.md#previewing_an_asset)を参照してください。
+[&#x200B; アセットのプレビュー](previewing-asset.md#previewing_an_asset)を参照してください。
 
 **eCatalog ビューアでeCatalogをプレビューするには：**
 

@@ -51,7 +51,7 @@ Adobe Dynamic Media Classicにアップロードする前に、PDF ファイル�
 * ビューアがeCatalogをキーワードで検索する場合は、PDF ファイルが「統合」されているかどうかを確認します。 画像化された PDF ファイルでは、検索語を抽出できなくなります。 PDFが統合されているかどうかを判断するには、その中のテキストを選択してみてください。 テキストを選択できない場合、PDFは統合され、ビューアはeCatalog内のキーワードで検索できません。
 * PDF ファイルは印刷用に作成されているため、通常はCMYK画像が含まれています。 デフォルトでは、Adobe Dynamic Media ClassicはこれらのCMYK画像を検出し、内部CMYK カラープロファイルを使用して変換します。 ただし、必要に応じて、カスタムカラープロファイルを使用して CMYK 画像を変換することもできます。
 
-  [ICC （International Color Consortium） プロファイル ](icc-profiles.md#icc_profiles)を参照してください。
+  [ICC （International Color Consortium） プロファイル &#x200B;](icc-profiles.md#icc_profiles)を参照してください。
 
 ## ベストプラクティスの PDF アップロードオプション {#best-practice-pdf-upload-options}
 
@@ -71,7 +71,7 @@ Adobe Dynamic Media Classicにアップロードする前に、PDF ファイル�
 
 * **Colorspace**: アップロードジョブオプションダイアログボックスで、**[!UICONTROL PDF オプション]**&#x200B;を選択します。 カラースペース ドロップダウンリストで、**[!UICONTROL 自動検出]**&#x200B;を選択します。 一般的に PDF のカラースペースは、印刷出力が目的の場合には CMYK、オンライン表示が目的の場合には RGB になります。 PDF に両方のカラースペースが含まれている場合は、「RGB としてレンダリング」または「CMYK としてレンダリング」のいずれかを選択して、一方のカラースペースを選択できます。 PDFは両方のカラースペースを使用します。例えば、ページグラフィックがCMYK カラースペースを使用し、画像がRGB カラースペースを使用する場合などです。 ICC プロファイルをアップロードしておくと、カラースペースメニューにその名前が表示され、選択して使用できます。
 
-  [ICC （International Color Consortium） プロファイル ](/help/using/icc-profiles.md)を参照してください。
+  [ICC （International Color Consortium） プロファイル &#x200B;](/help/using/icc-profiles.md)を参照してください。
 
 * **カラープロファイルオプション**:「ジョブオプションをアップロード」ダイアログボックスで、「**[!UICONTROL カラープロファイルオプション]**」を選択し、次のカラープロファイルオプションを選択します。
 
@@ -81,7 +81,7 @@ Adobe Dynamic Media Classicにアップロードする前に、PDF ファイル�
 
 <!-- * **Convert To SRGB**: Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on Web pages. -->
 
-[ICC （International Color Consortium） プロファイル ](icc-profiles.md#icc_profiles)を参照してください。
+[ICC （International Color Consortium） プロファイル &#x200B;](icc-profiles.md#icc_profiles)を参照してください。
 
 >[!NOTE]
 >
