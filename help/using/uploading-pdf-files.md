@@ -13,18 +13,22 @@ autotag-review: '2026-05-13T20:17:17.647Z'
 TQID: 'https://experienceleague.adobe.com/SNoRYiCgjJK2TBx6X7HAzv3Xqet64-lm4oSOcat7DfM'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 4035cd307a13d1174f8b66fb1cd1ab39138d1310
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: '838'
 ht-degree: 18%
-
 ---
-
 # PDF ファイルのアップロード{#uploading-the-pdf-files}
 
 Adobe PDF ファイルは、eCatalogのソースです。 これらのファイルには、すべての画像情報、フォント、ベクターグラフィックが含まれています。 画像付きの eCatalog を作成することもできます。 PDF ファイルのアップロードを準備したら、グローバルナビゲーションバーで「**[!UICONTROL アップロード]**」を選択して、PDFのアップロードを開始します。
