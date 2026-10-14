@@ -14,19 +14,21 @@ autotag-review: '2026-05-13T20:14:28.361Z'
 TQID: 'https://experienceleague.adobe.com/cu99kXj4FjNzR74kGCoACFPst0snM2EGyYifu7a8Drs'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 83f1e1305a59b4f75d9be9e4c4b3d0038160749a
 workflow-type: tm+mt
-source-wordcount: 1050
+source-wordcount: '1050'
 ht-degree: 17%
-
 ---
-
 # アセットを公開する前にテストする {#testing-assets-before-making-them-public}
 
 セキュアテストは、設定可能なIP アドレスと範囲のセットに基づいて、安全なテスト環境を定義し、堅牢なB2B ソリューションを構築するのに役立ちます。 この機能により、Adobe Dynamic Media Classicのデプロイメントと、CMSのアーキテクチャを一致させることができます。
@@ -130,11 +132,11 @@ Last Modified Date:
 1. Image Server公開ページの左下にある「**[!UICONTROL 保存]**」を選択します
 1. 目的の画像をAdobe Dynamic Media Classic アカウントにアップロードします。
 
-   [&#x200B; ファイルのアップロード &#x200B;](uploading-files.md#uploading_files)を参照してください。
+   [ ファイルのアップロード ](uploading-files.md#uploading_files)を参照してください。
 
 1. 一部の画像が公開用にマークされていることを確認し、他の画像がマークされていないことを確認してから、公開ジョブを送信します。
 
-   [&#x200B; ファイルの公開](publishing-files.md#publishing_files)を参照してください。
+   [ ファイルの公開](publishing-files.md#publishing_files)を参照してください。
 
 1. セキュアテストサービスの名前を決定するには、**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**&#x200B;に移動します。
 1. アプリケーション全般設定ページのサーバグループの下で、**[!UICONTROL 「公開コンテキストのサーバ名のテスト」]**&#x200B;の右側にある名前を検索します。
