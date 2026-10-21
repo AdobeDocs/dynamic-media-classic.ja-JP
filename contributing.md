@@ -30,7 +30,7 @@ Adobeでは、できるだけ簡単に投稿できるようにしたいと考え
 
 >[!NOTE]
 >
->送信した寄付は、[Adobe利用条件](https://www.adobe.com/legal/terms.html)の対象となります。
+>送信した寄付は、[Adobe利用条件](https://www.adobe.com/jp/legal/terms.html)の対象となります。
 
 ### イシューの作成 {#create-an-issue}
 
