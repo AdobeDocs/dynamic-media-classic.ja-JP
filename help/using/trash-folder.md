@@ -1,6 +1,6 @@
 ---
 title: ごみ箱フォルダーの管理
-description: ごみ箱フォルダーの管理方法を説明します。
+description: Dynamic Media Classic ゴミ箱フォルダー内のアセットを復元して完全に削除する方法について説明します。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -23,16 +23,18 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
+source-git-commit: cab998ae67e6e2d3df94f183437a38fef08c987b
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 24%
-
+source-wordcount: '546'
+ht-degree: 23%
 ---
-
 # ごみ箱フォルダーの管理{#managing-the-trash-folder}
 
-Adobe Dynamic Media Classicから削除したアイテムは、ごみ箱フォルダーに移動されます。 これらの削除されたアイテムは、復元または完全に削除されるまで、このフォルダーに7日間残ります。 アセットライブラリの下部にある「**[!UICONTROL ゴミ箱]**」アイコンを選択し、ごみ箱フォルダーページでアイテムを表示することで、削除されたアイテムを調べることができます。
+Adobe Dynamic Media Classicから削除したアイテムは、ごみ箱フォルダーに移動されます。 これらの削除されたアイテムは、復元または完全に削除されるまで、このフォルダーに最大7日間保持されます。 アセットライブラリの下部にある「**[!UICONTROL ゴミ箱]**」アイコンを選択し、ごみ箱フォルダーページでアイテムを表示することで、削除されたアイテムを調べることができます。
+
+>[!IMPORTANT]
+>
+>Dynamic MediaがAdobe Experience Managerと統合されている場合、ごみ箱フォルダーはサポートされません。 これらの環境では、削除したアセットは完全に削除され、ごみ箱フォルダーには移動されません。<!-- CQDOC-23176 -->
 
 すべてのユーザは、ごみ箱フォルダ内の項目を元のフォルダに戻すことができます。 また、すべてのユーザは、ごみ箱フォルダ内のすべてのコンテンツを空にすることができます。
 
@@ -46,7 +48,6 @@ Adobe Dynamic Media Classicから削除したアイテムは、ごみ箱フォ�
 
 フォルダ内の項目を削除すると、項目がごみ箱フォルダに移動されます。 削除され、ごみ箱フォルダに移動された項目は、次のような状態になります。
 
-* アイテムはAdobe Dynamic Media Classic フォルダーから削除されますが、ごみ箱フォルダーに残っている間はIDを別のアセットに割り当てることはできません。 ゴミ箱フォルダー内のファイルと同じ名前のアセットをアップロードしようとすると、Adobe Dynamic Media Classicはアセットの名前に番号を追加します。
 * 項目を公開することはできません。 アイテムを削除したときに公開用にマークされた場合でも、そのアイテムは公開されません。
 * アイテムが復元されるか、7日が経過するか、誰かが&#x200B;**[!UICONTROL ごみ箱]** コマンドを空にするまで、アイテムはゴミ箱フォルダーに残ります。 7日後、自動削除操作によって項目が完全に削除されます。
 
@@ -58,17 +59,17 @@ Adobe Dynamic Media Classicから削除したアイテムは、ごみ箱フォ�
 
 1. アセットライブラリパネルの下部にある「**[!UICONTROL ごみ箱]**」アイコンを選択して、ごみ箱フォルダーを開きます。
 1. 復元するアセットを選択します。
-1. **[!UICONTROL ファイル]** > **[!UICONTROL ごみ箱からの復元]**&#x200B;に移動します。
+1. 「**[!UICONTROL ファイル]**」 > 「**[!UICONTROL ごみ箱から復元]**」をクリックします。
 
-## ごみ箱フォルダ内のアセットの完全な削除 {#permanently-deleting-assets-in-the-trash-folder}
+## ゴミ箱フォルダー内のアセットを完全に削除 {#permanently-deleting-assets-in-the-trash-folder}
 
 ごみ箱フォルダ内のアセットを削除すると、アセットは完全に削除されます。 また、7 日間が経過すると、自動的にごみ箱フォルダから削除されます。
 
 **[!UICONTROL ごみ箱]** アイコンを選択すると、ごみ箱フォルダーからアセットを完全に削除できます。 ごみ箱フォルダーページで、次のいずれかの操作を行います。
 
-* **個々のアセットを削除しています**: アセットを完全に削除できます。 必要なアセットを選択し、**[!UICONTROL ファイル]** > **[!UICONTROL ごみ箱]**&#x200B;から空をクリックします。
+* **個々のアセットを削除しています**: アセットを完全に削除できます。 必要なアセットを選択し、**[!UICONTROL ファイル]**/**[!UICONTROL ゴミ箱を空にする]**&#x200B;をクリックします。
 
-* **すべてのアセットを削除**: **[!UICONTROL ファイル]** > **[!UICONTROL 空のゴミ箱]**&#x200B;に移動します。
+* **すべてのアセットを削除**:「**[!UICONTROL ファイル]**」 > 「**[!UICONTROL ゴミ箱を空にする]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
