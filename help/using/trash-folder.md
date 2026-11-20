@@ -73,4 +73,4 @@ Adobe Dynamic Media Classicから削除したアイテムは、ごみ箱フォ�
 
 >[!MORELIKETHIS]
 >
->* [ アセットの削除](moving-renaming-deleting-assets.md#delete_assets)
+>* [&#x200B; アセットの削除](moving-renaming-deleting-assets.md#delete_assets)
